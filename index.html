@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clima·Bot — Public Ledger</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:       #060d1f;
+    --panel:    #0d1830;
+    --border:   #1a2a45;
+    --blue:     #4DA8FF;
+    --green:    #22d3a4;
+    --red:      #f5556d;
+    --amber:    #f5a623;
+    --text:     #e8f0ff;
+    --muted:    #5a7a9a;
+    --mono:     'IBM Plex Mono', monospace;
+    --sans:     'IBM Plex Sans', sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: var(--sans); font-size: 13px; min-height: 100vh; }
+
+  /* ── TOP BAR ── */
+  .topbar {
+    display: flex; align-items: center; gap: 20px;
+    padding: 10px 24px; border-bottom: 1px solid var(--border);
+    background: var(--panel);
+  }
+  .brand { display: flex; align-items: center; gap: 10px; }
+  .brand-icon {
+    width: 36px; height: 36px; background: var(--blue);
+    border-radius: 8px; display: flex; align-items: center;
+    justify-content: center; font-size: 18px;
+  }
+  .brand-name { font-size: 15px; font-weight: 600; letter-spacing: 0.05em; }
+  .brand-sub  { font-size: 10px; color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase; }
+  .status-pill {
+    display: flex; align-items: center; gap: 6px;
+    padding: 4px 12px; border-radius: 20px;
+    border: 1px solid var(--green); color: var(--green);
+    font-size: 11px; font-weight: 600; letter-spacing: 0.08em;
+  }
+  .pulse { width: 7px; height: 7px; border-radius: 50%; background: var(--green); animation: pulse 2s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.4;transform:scale(1.3)} }
+
+  .kpis { display: flex; gap: 28px; margin-left: auto; }
+  .kpi { text-align: right; }
+  .kpi-label { font-size: 9px; color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase; }
+  .kpi-val   { font-family: var(--mono); font-size: 16px; font-weight: 600; }
+  .kpi-sub   { font-size: 10px; color: var(--muted); }
+  .pos { color: var(--green); }
+  .neg { color: var(--red); }
+  .amb { color: var(--amber); }
+  .grn { color: var(--green); }
+
+  /* ── MAIN GRID ── */
+  .grid { display: grid; grid-template-columns: 1fr 340px; gap: 1px; padding: 1px; background: var(--border); }
+  .panel { background: var(--bg); padding: 20px 24px; }
+  .panel-title { font-size: 10px; color: var(--muted); letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 14px; }
+
+  /* ── BALANCE CHART ── */
+  .balance-hero { font-family: var(--mono); font-size: 36px; font-weight: 600; margin-bottom: 4px; }
+  .balance-delta { font-size: 13px; }
+  .range-tabs { display: flex; gap: 4px; margin-bottom: 12px; }
+  .tab { padding: 3px 10px; border-radius: 4px; font-size: 11px; cursor: pointer; color: var(--muted); border: 1px solid transparent; }
+  .tab.active { background: var(--blue); color: #fff; }
+  #chart-svg { width: 100%; height: 180px; display: block; }
+
+  /* ── BRIER GAUGE ── */
+  #gauge-svg { width: 100%; height: 180px; display: block; }
+  .brier-val  { font-family: var(--mono); font-size: 30px; font-weight: 600; text-align: center; margin-top: -8px; }
+  .brier-lbl  { font-size: 11px; text-align: center; letter-spacing: 0.08em; text-transform: uppercase; }
+  .brier-meta { display: flex; justify-content: space-around; margin-top: 12px; }
+  .brier-meta .m { text-align: center; }
+  .brier-meta .mv { font-family: var(--mono); font-size: 18px; font-weight: 600; }
+  .brier-meta .ml { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
+
+  /* ── POSITIONS TABLE ── */
+  .section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+  .badge { font-size: 10px; color: var(--muted); }
+  table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  th { font-size: 9px; color: var(--muted); letter-spacing: 0.08em; text-transform: uppercase; padding: 0 6px 8px; text-align: left; }
+  td { padding: 7px 6px; border-top: 1px solid var(--border); font-family: var(--mono); }
+  td.name { font-family: var(--sans); }
+  .side-yes { background: rgba(77,168,255,.15); color: var(--blue); padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; }
+  .side-no  { background: rgba(245,85,109,.15); color: var(--red);  padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; }
+  .ev-bar-wrap { display: flex; align-items: center; gap: 6px; }
+  .ev-bar { height: 4px; border-radius: 2px; min-width: 2px; }
+  .urgent { color: var(--red) !important; }
+  .warn   { color: var(--amber) !important; }
+
+  /* ── RESOLVED TABLE ── */
+  .strip { display: flex; gap: 3px; margin-bottom: 14px; }
+  .strip-dot { width: 18px; height: 6px; border-radius: 3px; }
+  .correct-dot  { background: var(--green); }
+  .incorrect-dot{ background: var(--red); }
+  .outcome-ok   { color: var(--green); }
+  .outcome-bad  { color: var(--red); }
+
+  /* ── LOADING / ERROR ── */
+  .loading { text-align: center; padding: 60px; color: var(--muted); font-size: 14px; }
+  .error-msg { color: var(--red); text-align: center; padding: 20px; }
+
+  /* ── BOTTOM STRIP ── */
+  .footer { padding: 8px 24px; font-size: 10px; color: var(--muted); border-top: 1px solid var(--border); display: flex; justify-content: space-between; }
+</style>
+</head>
+<body>
+
+<div id="app"><div class="loading">Loading live data...</div></div>
+
+<script>
+const DATA_URL    = 'https://raw.githubusercontent.com/dcpf1/hermes-dashboard-data/main/dashboard_data.json';
+const HIST_URL    = 'https://raw.githubusercontent.com/dcpf1/hermes-dashboard-data/main/balance_history.json';
+const REFRESH_MS  = 60000;
+let   activeRange = '7D';
+let   lastData    = null;
+let   lastHist    = null;
+
+// ── FETCH ─────────────────────────────────────────────────────────────────
+async function fetchAll() {
+  const [d, h] = await Promise.all([
+    fetch(DATA_URL  + '?t=' + Date.now()).then(r => r.json()),
+    fetch(HIST_URL  + '?t=' + Date.now()).then(r => r.json()),
+  ]);
+  lastData = d; lastHist = h;
+  render(d, h);
+}
+
+// ── RENDER ────────────────────────────────────────────────────────────────
+function render(d, hist) {
+  const b   = d.balance;
+  const t   = d.trades;
+  const br  = d.brier || {};
+  const gen = d.generated_at ? new Date(d.generated_at).toUTCString().replace('GMT','UTC') : '';
+
+  const brierColor = br.status === 'green' ? 'var(--green)' : br.status === 'amber' ? 'var(--amber)' : 'var(--red)';
+  const brierLabel = br.status === 'green' ? 'EXCELLENT' : br.status === 'amber' ? 'ACCEPTABLE' : 'NEEDS WORK';
+  const pnlClass   = b.pnl_usd >= 0 ? 'pos' : 'neg';
+  const pnlSign    = b.pnl_usd >= 0 ? '+' : '';
+
+  document.getElementById('app').innerHTML = `
+    <!-- TOP BAR -->
+    <div class="topbar">
+      <div class="brand">
+        <div class="brand-icon">⚡</div>
+        <div>
+          <div class="brand-name">CLIMA·BOT</div>
+          <div class="brand-sub">Weather Markets · Public Ledger</div>
+        </div>
+      </div>
+      <div class="status-pill"><div class="pulse"></div> PAPER · TRADING</div>
+      <div class="kpis">
+        <div class="kpi">
+          <div class="kpi-label">Balance</div>
+          <div class="kpi-val">$${b.current.toFixed(2)}</div>
+          <div class="kpi-sub">from $${b.starting.toFixed(0)} start</div>
+        </div>
+        <div class="kpi">
+          <div class="kpi-label">All-Time P&amp;L</div>
+          <div class="kpi-val ${pnlClass}">${pnlSign}$${Math.abs(b.pnl_usd).toFixed(2)}</div>
+          <div class="kpi-sub ${pnlClass}">${pnlSign}${b.pnl_pct}%</div>
+        </div>
+        <div class="kpi">
+          <div class="kpi-label">Brier</div>
+          <div class="kpi-val" style="color:${brierColor}">${br.score != null ? br.score.toFixed(3) : 'n/a'}</div>
+          <div class="kpi-sub">${brierLabel.toLowerCase()}</div>
+        </div>
+        <div class="kpi">
+          <div class="kpi-label">Win Rate</div>
+          <div class="kpi-val grn">${br.win_rate != null ? (br.win_rate*100).toFixed(1)+'%' : 'n/a'}</div>
+          <div class="kpi-sub">last ${br.n || 0}</div>
+        </div>
+        <div class="kpi">
+          <div class="kpi-label">Updated</div>
+          <div class="kpi-val" style="font-size:12px;color:var(--muted)">${gen.slice(0,25)}</div>
+          <div class="kpi-sub">auto-refresh 60s</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MAIN GRID -->
+    <div class="grid">
+      <!-- BALANCE CHART -->
+      <div class="panel">
+        <div class="panel-title">Balance Over Time</div>
+        <div class="balance-hero">$${b.current.toFixed(2)}</div>
+        <div class="balance-delta ${pnlClass}" style="margin-bottom:12px">
+          ${pnlSign}$${Math.abs(b.pnl_usd).toFixed(2)} (${pnlSign}${b.pnl_pct}%)
+        </div>
+        <div class="range-tabs" id="range-tabs">
+          ${['7D','30D','ALL'].map(r => `<div class="tab${r===activeRange?' active':''}" onclick="setRange('${r}')">${r}</div>`).join('')}
+        </div>
+        ${renderChart(hist)}
+      </div>
+
+      <!-- BRIER GAUGE -->
+      <div class="panel">
+        <div class="panel-title">Brier Score <span style="color:var(--muted);font-size:9px">lower = better · threshold &lt;0.18</span></div>
+        ${renderGauge(br.score, brierColor)}
+        <div class="brier-val" style="color:${brierColor}">${br.score != null ? br.score.toFixed(3) : '—'}</div>
+        <div class="brier-lbl" style="color:${brierColor}">${brierLabel}</div>
+        <div class="brier-meta">
+          <div class="m"><div class="mv">${br.n || 0}</div><div class="ml">Resolved</div></div>
+          <div class="m"><div class="mv grn">${br.win_rate != null ? (br.win_rate*100).toFixed(1)+'%' : '—'}</div><div class="ml">Win Rate</div></div>
+          <div class="m"><div class="mv" style="color:var(--muted);font-size:13px">${br.ci_lo != null ? br.ci_lo.toFixed(3)+'-'+br.ci_hi.toFixed(3) : '—'}</div><div class="ml">95% CI</div></div>
+        </div>
+      </div>
+
+      <!-- OPEN POSITIONS -->
+      <div class="panel" style="grid-column:1/-1">
+        <div class="section-header">
+          <span class="panel-title" style="margin:0">Open Positions</span>
+          <span class="badge">${d.open_positions.length} active · $${d.open_positions.reduce((s,p)=>s+p.cost,0).toFixed(2)} deployed</span>
+        </div>
+        ${renderPositions(d.open_positions)}
+      </div>
+
+      <!-- RECENT RESOLVED -->
+      <div class="panel" style="grid-column:1/-1">
+        <div class="section-header">
+          <span class="panel-title" style="margin:0">Recent Resolved</span>
+          <span class="badge">last ${d.recent_resolved.length} trades</span>
+        </div>
+        ${renderStrip(d.recent_resolved)}
+        ${renderResolved(d.recent_resolved)}
+      </div>
+    </div>
+
+    <div class="footer">
+      <span>Hermes Weather Bot · Paper Trading · Polymarket V2</span>
+      <span>Data: github.com/dcpf1/hermes-dashboard-data</span>
+    </div>
+  `;
+}
+
+// ── BALANCE CHART ─────────────────────────────────────────────────────────
+function filterHistory(hist) {
+  if (!hist || !hist.length) return [];
+  const now   = Date.now();
+  const cutoff= activeRange === '7D'  ? 7*864e5 :
+                activeRange === '30D' ? 30*864e5 : Infinity;
+  return hist.filter(h => now - new Date(h.ts).getTime() <= cutoff);
+}
+
+function renderChart(hist) {
+  const pts = filterHistory(hist);
+  if (!pts.length) return '<div style="height:180px;display:flex;align-items:center;justify-content:center;color:var(--muted)">No history yet</div>';
+
+  const vals   = pts.map(p => p.balance);
+  const times  = pts.map(p => new Date(p.ts).getTime());
+  const minV   = Math.min(...vals, lastData.balance.starting) * 0.98;
+  const maxV   = Math.max(...vals) * 1.02;
+  const W=680, H=160, PAD=10;
+
+  const cx = i => PAD + (times[i]-times[0])/(times[times.length-1]-times[0]||1)*(W-2*PAD);
+  const cy = v => H - PAD - (v-minV)/(maxV-minV||1)*(H-2*PAD);
+
+  const line   = pts.map((p,i) => (i?'L':'M')+cx(i).toFixed(1)+' '+cy(p.balance).toFixed(1)).join(' ');
+  const area   = line + ` L${cx(pts.length-1).toFixed(1)} ${H} L${PAD} ${H} Z`;
+  const startY = cy(lastData.balance.starting).toFixed(1);
+
+  return `<svg id="chart-svg" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
+    <defs>
+      <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#4DA8FF" stop-opacity="0.3"/>
+        <stop offset="100%" stop-color="#4DA8FF" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+    <path d="${area}" fill="url(#grad)"/>
+    <path d="${line}" fill="none" stroke="#4DA8FF" stroke-width="2"/>
+    <line x1="${PAD}" y1="${startY}" x2="${W-PAD}" y2="${startY}" stroke="#5a7a9a" stroke-width="1" stroke-dasharray="4,4"/>
+    <text x="${PAD+4}" y="${parseFloat(startY)-4}" fill="#5a7a9a" font-size="9" font-family="IBM Plex Mono">$${lastData.balance.starting} START</text>
+  </svg>`;
+}
+
+// ── BRIER GAUGE ───────────────────────────────────────────────────────────
+function renderGauge(score, color) {
+  const s = score != null ? Math.min(Math.max(score, 0), 1) : 0.5;
+  // Map score 0→1 to angle -140°→+140° (280° arc)
+  const angle = -140 + s * 280;
+  const rad   = angle * Math.PI / 180;
+  const R=90, cx=140, cy=120;
+  const nx = cx + R * Math.cos(rad);
+  const ny = cy + R * Math.sin(rad);
+
+  // Arc path helper
+  function arc(r, a1, a2, col) {
+    const r1 = a1*Math.PI/180, r2 = a2*Math.PI/180;
+    return `<path d="M${(cx+r*Math.cos(r1)).toFixed(1)} ${(cy+r*Math.sin(r1)).toFixed(1)}
+      A${r} ${r} 0 ${a2-a1>180?1:0} 1 ${(cx+r*Math.cos(r2)).toFixed(1)} ${(cy+r*Math.sin(r2)).toFixed(1)}"
+      fill="none" stroke="${col}" stroke-width="12" stroke-linecap="round"/>`;
+  }
+
+  return `<svg viewBox="0 0 280 150" style="width:100%;height:150px">
+    ${arc(R,-140,-20,'#22d3a4')}
+    ${arc(R,-20, 20,'#f5a623')}
+    ${arc(R, 20,140,'#f5556d')}
+    <line x1="${cx}" y1="${cy}" x2="${nx.toFixed(1)}" y2="${ny.toFixed(1)}"
+      stroke="${color}" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="${cx}" cy="${cy}" r="5" fill="${color}"/>
+    <text x="55" y="145" fill="#22d3a4" font-size="9" font-family="IBM Plex Mono">0.00</text>
+    <text x="110" y="145" fill="#f5a623" font-size="9" font-family="IBM Plex Mono">0.18</text>
+    <text x="160" y="145" fill="#f5556d" font-size="9" font-family="IBM Plex Mono">0.25+</text>
+  </svg>`;
+}
+
+// ── OPEN POSITIONS ────────────────────────────────────────────────────────
+function renderPositions(positions) {
+  if (!positions.length) return '<div style="padding:20px;color:var(--muted);text-align:center">No open positions</div>';
+  const rows = positions.map(p => {
+    const sideClass = p.side === 'YES' ? 'side-yes' : 'side-no';
+    const bucket = p.bucket_low === p.bucket_high
+      ? `${p.bucket_low}°${p.unit}`
+      : `${p.bucket_low}-${p.bucket_high}°${p.unit}`;
+    const evColor = p.ev_pct >= 15 ? 'var(--green)' : p.ev_pct >= 0 ? 'var(--blue)' : 'var(--red)';
+    const evSign  = p.ev_pct >= 0 ? '+' : '';
+    const hlClass = (p.hours_left != null && p.hours_left < 2) ? 'urgent' : (p.hours_left != null && p.hours_left < 6) ? 'warn' : '';
+    const hLeft   = p.hours_left != null ? p.hours_left.toFixed(1)+'h' : '—';
+    return `<tr>
+      <td class="name">${p.city}<br><span style="color:var(--muted);font-size:10px">${bucket}</span></td>
+      <td><span class="${sideClass}">${p.side}</span></td>
+      <td>$${p.entry_price.toFixed(2)}</td>
+      <td>$${(p.current_p).toFixed(2)}</td>
+      <td>$${p.cost.toFixed(2)}</td>
+      <td>
+        <div class="ev-bar-wrap">
+          <div class="ev-bar" style="width:${Math.min(Math.abs(p.ev_pct)*2,60)}px;background:${evColor}"></div>
+          <span style="color:${evColor}">${evSign}${p.ev_pct.toFixed(1)}%</span>
+        </div>
+      </td>
+      <td class="${hlClass}">${hLeft}</td>
+    </tr>`;
+  }).join('');
+  return `<table>
+    <thead><tr>
+      <th>Market</th><th>Side</th><th>Entry</th><th>Current P</th><th>Size</th><th>EV</th><th>Resolves</th>
+    </tr></thead>
+    <tbody>${rows}</tbody>
+  </table>`;
+}
+
+// ── RESOLVED STRIP + TABLE ────────────────────────────────────────────────
+function renderStrip(resolved) {
+  const dots = resolved.map(r =>
+    `<div class="strip-dot ${r.correct ? 'correct-dot' : 'incorrect-dot'}" title="${r.city} ${r.correct?'WIN':'LOSS'} ${r.pnl>=0?'+':''}$${r.pnl.toFixed(2)}"></div>`
+  ).join('');
+  return `<div class="strip">${dots}</div>`;
+}
+
+function renderResolved(resolved) {
+  if (!resolved.length) return '<div style="padding:20px;color:var(--muted);text-align:center">No resolved trades yet</div>';
+  const rows = resolved.map(r => {
+    const sideClass = r.side === 'YES' ? 'side-yes' : 'side-no';
+    const oc = r.correct ? 'outcome-ok' : 'outcome-bad';
+    const ol = r.correct ? '✓ Correct' : '✗ Wrong';
+    const pnlSign = r.pnl >= 0 ? '+' : '';
+    const pnlColor= r.pnl >= 0 ? 'var(--green)' : 'var(--red)';
+    const ago = timeAgo(r.ts);
+    return `<tr>
+      <td class="name">${r.city}<br><span style="color:var(--muted);font-size:10px">${r.bucket}</span></td>
+      <td><span class="${sideClass}">${r.side}</span></td>
+      <td class="${oc}">${ol}</td>
+      <td style="color:${pnlColor}">${pnlSign}$${Math.abs(r.pnl).toFixed(2)}</td>
+      <td style="color:var(--muted)">${r.closed_by}</td>
+      <td style="color:var(--muted)">${ago}</td>
+    </tr>`;
+  }).join('');
+  return `<table>
+    <thead><tr>
+      <th>Market</th><th>Side</th><th>Outcome</th><th>P&amp;L</th><th>Closed by</th><th>Settled</th>
+    </tr></thead>
+    <tbody>${rows}</tbody>
+  </table>`;
+}
+
+// ── HELPERS ───────────────────────────────────────────────────────────────
+function timeAgo(iso) {
+  const diff = (Date.now() - new Date(iso).getTime()) / 1000;
+  if (diff < 3600)  return Math.round(diff/60)+'m ago';
+  if (diff < 86400) return Math.round(diff/3600)+'h ago';
+  return Math.round(diff/86400)+'d ago';
+}
+
+function setRange(r) {
+  activeRange = r;
+  if (lastData && lastHist) render(lastData, lastHist);
+}
+
+// ── INIT ──────────────────────────────────────────────────────────────────
+fetchAll().catch(e => {
+  document.getElementById('app').innerHTML = `<div class="error-msg">Failed to load data: ${e.message}<br><small>Check console. GitHub raw URL may have CORS delay on first push.</small></div>`;
+});
+setInterval(fetchAll, REFRESH_MS);
+</script>
+</body>
+</html>
