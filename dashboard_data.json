@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-24T11:00:02.744242+00:00",
+  "generated_at": "2026-05-24T12:00:02.637023+00:00",
   "balance": {
-    "current": 72.01,
+    "current": 69.01,
     "starting": 50.0,
     "peak": 74.31,
-    "pnl_usd": 22.01,
-    "pnl_pct": 44.0
+    "pnl_usd": 19.01,
+    "pnl_pct": 38.0
   },
   "trades": {
-    "total": 55,
+    "total": 57,
     "wins": 30,
     "losses": 4,
     "total_pnl": 12.29
@@ -25,26 +25,6 @@
   },
   "open_positions": [
     {
-      "city": "Miami",
-      "date": "2026-05-24",
-      "unit": "F",
-      "side": "NO",
-      "bucket_low": 90.0,
-      "bucket_high": 91.0,
-      "entry_price": 0.74,
-      "shares": 3.58,
-      "cost": 2.65,
-      "current_p": 0.9569,
-      "ev_pct": 21.7,
-      "n_agree": 4,
-      "n_avail": 4,
-      "opened_at": "2026-05-23T05:55:30.933214+00:00",
-      "hours_left": 1.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.78
-    },
-    {
       "city": "Seoul",
       "date": "2026-05-25",
       "unit": "C",
@@ -59,7 +39,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-23T11:43:09.049388+00:00",
-      "hours_left": 25.0,
+      "hours_left": 24.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.29
@@ -79,7 +59,7 @@
       "n_agree": 4,
       "n_avail": 4,
       "opened_at": "2026-05-24T01:56:56.979790+00:00",
-      "hours_left": 25.0,
+      "hours_left": 24.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 3.03
@@ -99,7 +79,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-23T13:56:15.147840+00:00",
-      "hours_left": 25.0,
+      "hours_left": 24.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 1.53
@@ -119,7 +99,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-23T15:58:05.553155+00:00",
-      "hours_left": 25.0,
+      "hours_left": 24.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 1.01
@@ -139,10 +119,30 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-23T17:56:07.045512+00:00",
-      "hours_left": 25.0,
+      "hours_left": 24.0,
       "tp_stage": 1,
       "pnl": 0.0,
       "unrealized_pnl": 0.65
+    },
+    {
+      "city": "Chengdu",
+      "date": "2026-05-25",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 32.0,
+      "bucket_high": 32.0,
+      "entry_price": 0.77,
+      "shares": 3.18,
+      "cost": 2.45,
+      "current_p": 0.9302,
+      "ev_pct": 16.0,
+      "n_agree": 3,
+      "n_avail": 5,
+      "opened_at": "2026-05-24T11:47:01.419775+00:00",
+      "hours_left": 24.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.51
     },
     {
       "city": "Munich",
@@ -159,7 +159,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-23T13:56:19.486392+00:00",
-      "hours_left": 25.0,
+      "hours_left": 24.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.78
@@ -179,10 +179,30 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-24T05:11:19.463111+00:00",
-      "hours_left": 49.0,
+      "hours_left": 48.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.81
+    },
+    {
+      "city": "Chongqing",
+      "date": "2026-05-26",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 29.0,
+      "bucket_high": 29.0,
+      "entry_price": 0.79,
+      "shares": 0.7,
+      "cost": 0.55,
+      "current_p": 0.9078,
+      "ev_pct": 11.8,
+      "n_agree": 5,
+      "n_avail": 5,
+      "opened_at": "2026-05-24T11:47:06.272541+00:00",
+      "hours_left": 48.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.08
     },
     {
       "city": "Toronto",
@@ -199,7 +219,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-24T07:25:36.250829+00:00",
-      "hours_left": 49.0,
+      "hours_left": 48.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.58
@@ -219,10 +239,30 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-24T05:57:04.479994+00:00",
-      "hours_left": 49.0,
+      "hours_left": 48.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.33
+    },
+    {
+      "city": "Miami",
+      "date": "2026-05-24",
+      "unit": "F",
+      "side": "NO",
+      "bucket_low": 90.0,
+      "bucket_high": 91.0,
+      "entry_price": 0.74,
+      "shares": 3.58,
+      "cost": 2.65,
+      "current_p": 0.9569,
+      "ev_pct": 21.7,
+      "n_agree": 4,
+      "n_avail": 4,
+      "opened_at": "2026-05-23T05:55:30.933214+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.78
     }
   ],
   "recent_resolved": [
