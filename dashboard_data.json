@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T13:00:02.678681+00:00",
+  "generated_at": "2026-05-24T14:00:02.616326+00:00",
   "balance": {
     "current": 69.01,
     "starting": 50.0,
@@ -9,18 +9,18 @@
   },
   "trades": {
     "total": 57,
-    "wins": 30,
+    "wins": 31,
     "losses": 4,
-    "total_pnl": 12.29
+    "total_pnl": 12.71
   },
   "brier": {
-    "score": 0.1075,
-    "n": 34,
-    "bss": 0.342,
-    "win_rate": 0.882,
-    "ci_lo": 0.0126,
-    "ci_hi": 0.2025,
-    "base": 0.206,
+    "score": 0.1046,
+    "n": 35,
+    "bss": 0.346,
+    "win_rate": 0.886,
+    "ci_lo": 0.0122,
+    "ci_hi": 0.197,
+    "base": 0.2,
     "status": "green"
   },
   "open_positions": [
@@ -39,7 +39,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-23T11:43:09.049388+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.29
@@ -59,7 +59,7 @@
       "n_agree": 4,
       "n_avail": 4,
       "opened_at": "2026-05-24T01:56:56.979790+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 3.03
@@ -79,7 +79,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-23T13:56:15.147840+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 1.53
@@ -99,7 +99,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-23T15:58:05.553155+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 1.01
@@ -119,7 +119,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-23T17:56:07.045512+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 1,
       "pnl": 0.0,
       "unrealized_pnl": 0.65
@@ -139,7 +139,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-24T11:47:01.419775+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.51
@@ -159,7 +159,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-23T13:56:19.486392+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.78
@@ -179,7 +179,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-24T05:11:19.463111+00:00",
-      "hours_left": 47.0,
+      "hours_left": 46.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.81
@@ -199,7 +199,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-24T11:47:06.272541+00:00",
-      "hours_left": 47.0,
+      "hours_left": 46.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.08
@@ -219,7 +219,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-24T07:25:36.250829+00:00",
-      "hours_left": 47.0,
+      "hours_left": 46.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.58
@@ -239,7 +239,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-24T05:57:04.479994+00:00",
-      "hours_left": 47.0,
+      "hours_left": 46.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.33
@@ -266,6 +266,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-05-24T13:55:31.164526+00:00",
+      "city": "Wellington",
+      "date": "2026-05-24",
+      "side": "NO",
+      "bucket": "16.0-16.0C",
+      "entry": 0.8,
+      "correct": true,
+      "pnl": 0.42,
+      "closed_by": "take_profit",
+      "lead_h": 50.0
+    },
     {
       "ts": "2026-05-24T06:41:37.059213+00:00",
       "city": "Toronto",
@@ -579,18 +591,6 @@
       "lead_h": 47.0
     },
     {
-      "ts": "2026-05-22T10:02:35.790004+00:00",
-      "city": "Wellington",
-      "date": "2026-05-24",
-      "side": "NO",
-      "bucket": "16.0-16.0C",
-      "entry": 0.8,
-      "correct": true,
-      "pnl": 0.42,
-      "closed_by": "take_profit",
-      "lead_h": 50.0
-    },
-    {
       "ts": "2026-05-22T05:57:24.420137+00:00",
       "city": "Toronto",
       "date": "2026-05-24",
@@ -708,6 +708,11 @@
       "win_rate": 0.5,
       "total_pnl": -1.93
     },
+    "wellington": {
+      "n": 3,
+      "win_rate": 0.667,
+      "total_pnl": -2.26
+    },
     "tel-aviv": {
       "n": 1,
       "win_rate": 0.0,
@@ -717,11 +722,6 @@
       "n": 2,
       "win_rate": 0.5,
       "total_pnl": -2.56
-    },
-    "wellington": {
-      "n": 2,
-      "win_rate": 0.5,
-      "total_pnl": -2.68
     }
   },
   "circuit_triggered_at": "2026-05-19T21:53:50.538692+00:00"
