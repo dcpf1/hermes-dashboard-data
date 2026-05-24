@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T08:00:02.254929+00:00",
+  "generated_at": "2026-05-24T09:00:02.286479+00:00",
   "balance": {
     "current": 72.01,
     "starting": 50.0,
@@ -39,7 +39,7 @@
       "n_agree": 4,
       "n_avail": 4,
       "opened_at": "2026-05-23T05:55:30.933214+00:00",
-      "hours_left": 4.0,
+      "hours_left": 3.0,
       "tp_stage": 0,
       "pnl": 0.0
     },
@@ -58,7 +58,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-23T11:43:09.049388+00:00",
-      "hours_left": 28.0,
+      "hours_left": 27.0,
       "tp_stage": 0,
       "pnl": 0.0
     },
@@ -77,7 +77,7 @@
       "n_agree": 4,
       "n_avail": 4,
       "opened_at": "2026-05-24T01:56:56.979790+00:00",
-      "hours_left": 28.0,
+      "hours_left": 27.0,
       "tp_stage": 0,
       "pnl": 0.0
     },
@@ -96,7 +96,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-23T13:56:15.147840+00:00",
-      "hours_left": 28.0,
+      "hours_left": 27.0,
       "tp_stage": 0,
       "pnl": 0.0
     },
@@ -115,7 +115,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-23T15:58:05.553155+00:00",
-      "hours_left": 28.0,
+      "hours_left": 27.0,
       "tp_stage": 0,
       "pnl": 0.0
     },
@@ -134,7 +134,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-23T17:56:07.045512+00:00",
-      "hours_left": 28.0,
+      "hours_left": 27.0,
       "tp_stage": 1,
       "pnl": 0.0
     },
@@ -153,7 +153,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-23T13:56:19.486392+00:00",
-      "hours_left": 28.0,
+      "hours_left": 27.0,
       "tp_stage": 0,
       "pnl": 0.0
     },
@@ -172,7 +172,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-24T05:11:19.463111+00:00",
-      "hours_left": 52.0,
+      "hours_left": 51.0,
       "tp_stage": 0,
       "pnl": 0.0
     },
@@ -191,7 +191,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-24T07:25:36.250829+00:00",
-      "hours_left": 52.0,
+      "hours_left": 51.0,
       "tp_stage": 0,
       "pnl": 0.0
     },
@@ -210,7 +210,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-24T05:57:04.479994+00:00",
-      "hours_left": 52.0,
+      "hours_left": 51.0,
       "tp_stage": 0,
       "pnl": 0.0
     }
