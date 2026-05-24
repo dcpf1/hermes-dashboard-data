@@ -8,15 +8,15 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg:       #060d1f;
-    --panel:    #0d1830;
-    --border:   #1a2a45;
+    --bg:       #03100a;
+    --panel:    #071a0e;
+    --border:   #0f2a18;
     --blue:     #4DA8FF;
     --green:    #22d3a4;
     --red:      #f5556d;
     --amber:    #f5a623;
-    --text:     #e8f0ff;
-    --muted:    #5a7a9a;
+    --text:     #c8f0d8;
+    --muted:    #3d6b4d;
     --mono:     'IBM Plex Mono', monospace;
     --sans:     'IBM Plex Sans', sans-serif;
   }
@@ -31,11 +31,11 @@
   }
   .brand { display: flex; align-items: center; gap: 10px; }
   .brand-icon {
-    width: 36px; height: 36px; background: var(--blue);
+    width: 36px; height: 36px; background: var(--green);
     border-radius: 8px; display: flex; align-items: center;
     justify-content: center; font-size: 18px;
   }
-  .brand-name { font-size: 15px; font-weight: 600; letter-spacing: 0.05em; }
+  .brand-name { font-size: 15px; font-weight: 600; letter-spacing: 0.05em; color: var(--text); }
   .brand-sub  { font-size: 10px; color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase; }
   .status-pill {
     display: flex; align-items: center; gap: 6px;
@@ -49,7 +49,7 @@
   .kpis { display: flex; gap: 28px; margin-left: auto; }
   .kpi { text-align: right; }
   .kpi-label { font-size: 9px; color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase; }
-  .kpi-val   { font-family: var(--mono); font-size: 16px; font-weight: 600; }
+  .kpi-val   { font-family: var(--mono); font-size: 16px; font-weight: 600; color: var(--text); }
   .kpi-sub   { font-size: 10px; color: var(--muted); }
   .pos { color: var(--green); }
   .neg { color: var(--red); }
@@ -62,11 +62,11 @@
   .panel-title { font-size: 10px; color: var(--muted); letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 14px; }
 
   /* ── BALANCE CHART ── */
-  .balance-hero { font-family: var(--mono); font-size: 36px; font-weight: 600; margin-bottom: 4px; }
+  .balance-hero { font-family: var(--mono); font-size: 36px; font-weight: 600; margin-bottom: 4px; color: var(--text); }
   .balance-delta { font-size: 13px; }
   .range-tabs { display: flex; gap: 4px; margin-bottom: 12px; }
-  .tab { padding: 3px 10px; border-radius: 4px; font-size: 11px; cursor: pointer; color: var(--muted); border: 1px solid transparent; }
-  .tab.active { background: var(--blue); color: #fff; }
+  .tab { padding: 3px 10px; border-radius: 4px; font-size: 11px; cursor: pointer; color: var(--muted); border: 1px solid var(--border); }
+  .tab.active { background: var(--green); color: #000; border-color: var(--green); }
   #chart-svg { width: 100%; height: 180px; display: block; }
 
   /* ── BRIER GAUGE ── */
@@ -75,30 +75,48 @@
   .brier-lbl  { font-size: 11px; text-align: center; letter-spacing: 0.08em; text-transform: uppercase; }
   .brier-meta { display: flex; justify-content: space-around; margin-top: 12px; }
   .brier-meta .m { text-align: center; }
-  .brier-meta .mv { font-family: var(--mono); font-size: 18px; font-weight: 600; }
+  .brier-meta .mv { font-family: var(--mono); font-size: 18px; font-weight: 600; color: var(--text); }
   .brier-meta .ml { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
 
-  /* ── POSITIONS TABLE ── */
+  /* ── TABLES ── */
   .section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
   .badge { font-size: 10px; color: var(--muted); }
   table { width: 100%; border-collapse: collapse; font-size: 12px; }
   th { font-size: 9px; color: var(--muted); letter-spacing: 0.08em; text-transform: uppercase; padding: 0 6px 8px; text-align: left; }
-  td { padding: 7px 6px; border-top: 1px solid var(--border); font-family: var(--mono); }
-  td.name { font-family: var(--sans); }
-  .side-yes { background: rgba(77,168,255,.15); color: var(--blue); padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; }
-  .side-no  { background: rgba(245,85,109,.15); color: var(--red);  padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; }
+  td { padding: 7px 6px; border-top: 1px solid var(--border); font-family: var(--mono); color: var(--text); }
+  td.name { font-family: var(--sans); color: var(--text); }
+  .side-yes { background: rgba(77,168,255,.12); color: var(--blue); padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; }
+  .side-no  { background: rgba(245,85,109,.12); color: var(--red);  padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; }
   .ev-bar-wrap { display: flex; align-items: center; gap: 6px; }
   .ev-bar { height: 4px; border-radius: 2px; min-width: 2px; }
   .urgent { color: var(--red) !important; }
   .warn   { color: var(--amber) !important; }
+  .closed-lbl {
+    font-size: 9px; padding: 2px 6px; border-radius: 3px;
+    font-family: var(--mono); font-weight: 600; letter-spacing: 0.05em;
+  }
+  .lbl-tp       { background: rgba(34,211,164,.12); color: var(--green); }
+  .lbl-resolved { background: rgba(93,117,138,.12); color: var(--muted); color: #7aabcc; }
+  .lbl-invalid  { background: rgba(245,166,35,.12);  color: var(--amber); }
 
-  /* ── RESOLVED TABLE ── */
+  /* ── RESOLVED STRIP ── */
   .strip { display: flex; gap: 3px; margin-bottom: 14px; }
   .strip-dot { width: 18px; height: 6px; border-radius: 3px; }
   .correct-dot  { background: var(--green); }
   .incorrect-dot{ background: var(--red); }
   .outcome-ok   { color: var(--green); }
   .outcome-bad  { color: var(--red); }
+
+  /* ── CITY LEADERBOARD ── */
+  .city-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px,1fr)); gap: 8px; }
+  .city-card {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 6px; padding: 10px 12px;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .city-card-name { font-size: 12px; font-weight: 500; color: var(--text); }
+  .city-card-meta { font-size: 10px; color: var(--muted); margin-top: 2px; }
+  .city-card-pnl  { font-family: var(--mono); font-size: 14px; font-weight: 600; }
 
   /* ── LOADING / ERROR ── */
   .loading { text-align: center; padding: 60px; color: var(--muted); font-size: 14px; }
@@ -138,9 +156,14 @@ function render(d, hist) {
   const gen = d.generated_at ? new Date(d.generated_at).toUTCString().replace('GMT','UTC') : '';
 
   const brierColor = br.status === 'green' ? 'var(--green)' : br.status === 'amber' ? 'var(--amber)' : 'var(--red)';
-  const brierLabel = br.status === 'green' ? 'EXCELLENT' : br.status === 'amber' ? 'ACCEPTABLE' : 'NEEDS WORK';
+  const brierLabel = br.status === 'green' ? 'EXCELLENT' : br.status === 'amber' ? 'ACCEPTABLE' : br.status === 'red' ? 'NEEDS WORK' : 'N/A';
   const pnlClass   = b.pnl_usd >= 0 ? 'pos' : 'neg';
   const pnlSign    = b.pnl_usd >= 0 ? '+' : '';
+
+  // Unrealized P&L from open positions
+  const unrealizedPnl = (d.open_positions || []).reduce((s,p) => s + (p.pnl || 0), 0);
+  const unrSign = unrealizedPnl >= 0 ? '+' : '';
+  const unrClass = unrealizedPnl >= 0 ? 'pos' : 'neg';
 
   document.getElementById('app').innerHTML = `
     <!-- TOP BAR -->
@@ -160,9 +183,14 @@ function render(d, hist) {
           <div class="kpi-sub">from $${b.starting.toFixed(0)} start</div>
         </div>
         <div class="kpi">
-          <div class="kpi-label">All-Time P&amp;L</div>
+          <div class="kpi-label">Realized P&amp;L</div>
           <div class="kpi-val ${pnlClass}">${pnlSign}$${Math.abs(b.pnl_usd).toFixed(2)}</div>
           <div class="kpi-sub ${pnlClass}">${pnlSign}${b.pnl_pct}%</div>
+        </div>
+        <div class="kpi">
+          <div class="kpi-label">Unrealized</div>
+          <div class="kpi-val ${unrClass}">${unrSign}$${Math.abs(unrealizedPnl).toFixed(2)}</div>
+          <div class="kpi-sub">${d.open_positions.length} positions</div>
         </div>
         <div class="kpi">
           <div class="kpi-label">Brier</div>
@@ -189,7 +217,8 @@ function render(d, hist) {
         <div class="panel-title">Balance Over Time</div>
         <div class="balance-hero">$${b.current.toFixed(2)}</div>
         <div class="balance-delta ${pnlClass}" style="margin-bottom:12px">
-          ${pnlSign}$${Math.abs(b.pnl_usd).toFixed(2)} (${pnlSign}${b.pnl_pct}%)
+          ${pnlSign}$${Math.abs(b.pnl_usd).toFixed(2)} (${pnlSign}${b.pnl_pct}%) realized &nbsp;·&nbsp;
+          <span class="${unrClass}">${unrSign}$${Math.abs(unrealizedPnl).toFixed(2)} unrealized</span>
         </div>
         <div class="range-tabs" id="range-tabs">
           ${['7D','30D','ALL'].map(r => `<div class="tab${r===activeRange?' active':''}" onclick="setRange('${r}')">${r}</div>`).join('')}
@@ -199,7 +228,7 @@ function render(d, hist) {
 
       <!-- BRIER GAUGE -->
       <div class="panel">
-        <div class="panel-title">Brier Score <span style="color:var(--muted);font-size:9px">lower = better · threshold &lt;0.18</span></div>
+        <div class="panel-title">Brier Score <span style="color:var(--muted);font-size:9px">lower = better · green &lt;0.18</span></div>
         ${renderGauge(br.score, brierColor)}
         <div class="brier-val" style="color:${brierColor}">${br.score != null ? br.score.toFixed(3) : '—'}</div>
         <div class="brier-lbl" style="color:${brierColor}">${brierLabel}</div>
@@ -207,6 +236,11 @@ function render(d, hist) {
           <div class="m"><div class="mv">${br.n || 0}</div><div class="ml">Resolved</div></div>
           <div class="m"><div class="mv grn">${br.win_rate != null ? (br.win_rate*100).toFixed(1)+'%' : '—'}</div><div class="ml">Win Rate</div></div>
           <div class="m"><div class="mv" style="color:var(--muted);font-size:13px">${br.ci_lo != null ? br.ci_lo.toFixed(3)+'-'+br.ci_hi.toFixed(3) : '—'}</div><div class="ml">95% CI</div></div>
+        </div>
+        <div style="margin-top:16px;padding-top:12px;border-top:1px solid var(--border);display:flex;justify-content:space-around">
+          <div class="m"><div class="mv" style="font-size:14px">${t.total || 0}</div><div class="ml">Total Trades</div></div>
+          <div class="m"><div class="mv grn" style="font-size:14px">${t.wins || 0}</div><div class="ml">Wins</div></div>
+          <div class="m"><div class="mv neg" style="font-size:14px">${t.losses || 0}</div><div class="ml">Losses</div></div>
         </div>
       </div>
 
@@ -227,6 +261,15 @@ function render(d, hist) {
         </div>
         ${renderStrip(d.recent_resolved)}
         ${renderResolved(d.recent_resolved)}
+      </div>
+
+      <!-- CITY LEADERBOARD -->
+      <div class="panel" style="grid-column:1/-1">
+        <div class="section-header">
+          <span class="panel-title" style="margin:0">City P&amp;L Leaderboard</span>
+          <span class="badge">${Object.keys(d.city_stats || {}).length} cities traded</span>
+        </div>
+        ${renderCityLeaderboard(d.city_stats)}
       </div>
     </div>
 
@@ -266,28 +309,26 @@ function renderChart(hist) {
   return `<svg id="chart-svg" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
     <defs>
       <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0%" stop-color="#4DA8FF" stop-opacity="0.3"/>
-        <stop offset="100%" stop-color="#4DA8FF" stop-opacity="0"/>
+        <stop offset="0%" stop-color="#22d3a4" stop-opacity="0.25"/>
+        <stop offset="100%" stop-color="#22d3a4" stop-opacity="0"/>
       </linearGradient>
     </defs>
     <path d="${area}" fill="url(#grad)"/>
-    <path d="${line}" fill="none" stroke="#4DA8FF" stroke-width="2"/>
-    <line x1="${PAD}" y1="${startY}" x2="${W-PAD}" y2="${startY}" stroke="#5a7a9a" stroke-width="1" stroke-dasharray="4,4"/>
-    <text x="${PAD+4}" y="${parseFloat(startY)-4}" fill="#5a7a9a" font-size="9" font-family="IBM Plex Mono">$${lastData.balance.starting} START</text>
+    <path d="${line}" fill="none" stroke="#22d3a4" stroke-width="2"/>
+    <line x1="${PAD}" y1="${startY}" x2="${W-PAD}" y2="${startY}" stroke="#3d6b4d" stroke-width="1" stroke-dasharray="4,4"/>
+    <text x="${PAD+4}" y="${parseFloat(startY)-4}" fill="#3d6b4d" font-size="9" font-family="IBM Plex Mono">$${lastData.balance.starting} START</text>
   </svg>`;
 }
 
 // ── BRIER GAUGE ───────────────────────────────────────────────────────────
 function renderGauge(score, color) {
   const s = score != null ? Math.min(Math.max(score, 0), 1) : 0.5;
-  // Map score 0→1 to angle -140°→+140° (280° arc)
   const angle = -140 + s * 280;
   const rad   = angle * Math.PI / 180;
   const R=90, cx=140, cy=120;
   const nx = cx + R * Math.cos(rad);
   const ny = cy + R * Math.sin(rad);
 
-  // Arc path helper
   function arc(r, a1, a2, col) {
     const r1 = a1*Math.PI/180, r2 = a2*Math.PI/180;
     return `<path d="M${(cx+r*Math.cos(r1)).toFixed(1)} ${(cy+r*Math.sin(r1)).toFixed(1)}
@@ -302,9 +343,9 @@ function renderGauge(score, color) {
     <line x1="${cx}" y1="${cy}" x2="${nx.toFixed(1)}" y2="${ny.toFixed(1)}"
       stroke="${color}" stroke-width="3" stroke-linecap="round"/>
     <circle cx="${cx}" cy="${cy}" r="5" fill="${color}"/>
-    <text x="55" y="145" fill="#22d3a4" font-size="9" font-family="IBM Plex Mono">0.00</text>
+    <text x="42" y="145" fill="#22d3a4" font-size="9" font-family="IBM Plex Mono">0.00</text>
     <text x="110" y="145" fill="#f5a623" font-size="9" font-family="IBM Plex Mono">0.18</text>
-    <text x="160" y="145" fill="#f5556d" font-size="9" font-family="IBM Plex Mono">0.25+</text>
+    <text x="168" y="145" fill="#f5556d" font-size="9" font-family="IBM Plex Mono">0.25+</text>
   </svg>`;
 }
 
@@ -315,15 +356,18 @@ function renderPositions(positions) {
     const sideClass = p.side === 'YES' ? 'side-yes' : 'side-no';
     const bucket = p.bucket_low === p.bucket_high
       ? `${p.bucket_low}°${p.unit}`
-      : `${p.bucket_low}-${p.bucket_high}°${p.unit}`;
+      : `${p.bucket_low}–${p.bucket_high}°${p.unit}`;
     const evColor = p.ev_pct >= 15 ? 'var(--green)' : p.ev_pct >= 0 ? 'var(--blue)' : 'var(--red)';
     const evSign  = p.ev_pct >= 0 ? '+' : '';
     const hlClass = (p.hours_left != null && p.hours_left < 2) ? 'urgent' : (p.hours_left != null && p.hours_left < 6) ? 'warn' : '';
     const hLeft   = p.hours_left != null ? p.hours_left.toFixed(1)+'h' : '—';
+    const pnl     = p.pnl || 0;
+    const pnlSign = pnl >= 0 ? '+' : '';
+    const pnlColor= pnl > 0 ? 'var(--green)' : pnl < 0 ? 'var(--red)' : 'var(--muted)';
     return `<tr>
       <td class="name">${p.city}<br><span style="color:var(--muted);font-size:10px">${bucket}</span></td>
       <td><span class="${sideClass}">${p.side}</span></td>
-      <td>$${p.entry_price.toFixed(2)}</td>
+      <td>$${p.entry_price != null ? p.entry_price.toFixed(2) : '—'}</td>
       <td>$${(p.current_p).toFixed(2)}</td>
       <td>$${p.cost.toFixed(2)}</td>
       <td>
@@ -332,12 +376,13 @@ function renderPositions(positions) {
           <span style="color:${evColor}">${evSign}${p.ev_pct.toFixed(1)}%</span>
         </div>
       </td>
+      <td style="color:${pnlColor}">${pnlSign}$${Math.abs(pnl).toFixed(2)}</td>
       <td class="${hlClass}">${hLeft}</td>
     </tr>`;
   }).join('');
   return `<table>
     <thead><tr>
-      <th>Market</th><th>Side</th><th>Entry</th><th>Current P</th><th>Size</th><th>EV</th><th>Resolves</th>
+      <th>Market</th><th>Side</th><th>Entry</th><th>Current P</th><th>Size</th><th>EV</th><th>Unreal. P&amp;L</th><th>Resolves</th>
     </tr></thead>
     <tbody>${rows}</tbody>
   </table>`;
@@ -351,30 +396,63 @@ function renderStrip(resolved) {
   return `<div class="strip">${dots}</div>`;
 }
 
+function closedByLabel(raw) {
+  const map = {
+    'take_profit':        ['TP', 'lbl-tp'],
+    'resolved':           ['SETTLED', 'lbl-resolved'],
+    'model_invalidation': ['INVALID', 'lbl-invalid'],
+    'forecast_changed':   ['DRIFT', 'lbl-invalid'],
+    'metar_override':     ['METAR', 'lbl-tp'],
+  };
+  const [txt, cls] = map[raw] || [raw.toUpperCase(), 'lbl-resolved'];
+  return `<span class="closed-lbl ${cls}">${txt}</span>`;
+}
+
 function renderResolved(resolved) {
   if (!resolved.length) return '<div style="padding:20px;color:var(--muted);text-align:center">No resolved trades yet</div>';
   const rows = resolved.map(r => {
     const sideClass = r.side === 'YES' ? 'side-yes' : 'side-no';
     const oc = r.correct ? 'outcome-ok' : 'outcome-bad';
     const ol = r.correct ? '✓ Correct' : '✗ Wrong';
-    const pnlSign = r.pnl >= 0 ? '+' : '';
-    const pnlColor= r.pnl >= 0 ? 'var(--green)' : 'var(--red)';
+    const pnlSign  = r.pnl >= 0 ? '+' : '';
+    const pnlColor = r.pnl > 0 ? 'var(--green)' : r.pnl < 0 ? 'var(--red)' : 'var(--muted)';
     const ago = timeAgo(r.ts);
     return `<tr>
       <td class="name">${r.city}<br><span style="color:var(--muted);font-size:10px">${r.bucket}</span></td>
       <td><span class="${sideClass}">${r.side}</span></td>
       <td class="${oc}">${ol}</td>
       <td style="color:${pnlColor}">${pnlSign}$${Math.abs(r.pnl).toFixed(2)}</td>
-      <td style="color:var(--muted)">${r.closed_by}</td>
+      <td>${closedByLabel(r.closed_by)}</td>
       <td style="color:var(--muted)">${ago}</td>
     </tr>`;
   }).join('');
   return `<table>
     <thead><tr>
-      <th>Market</th><th>Side</th><th>Outcome</th><th>P&amp;L</th><th>Closed by</th><th>Settled</th>
+      <th>Market</th><th>Side</th><th>Outcome</th><th>P&amp;L</th><th>Exit</th><th>Settled</th>
     </tr></thead>
     <tbody>${rows}</tbody>
   </table>`;
+}
+
+// ── CITY LEADERBOARD ──────────────────────────────────────────────────────
+function renderCityLeaderboard(stats) {
+  if (!stats || !Object.keys(stats).length) return '<div style="color:var(--muted);text-align:center;padding:16px">No city data yet</div>';
+  const entries = Object.entries(stats).sort((a,b) => b[1].total_pnl - a[1].total_pnl);
+  const cards = entries.map(([city, s]) => {
+    const pnl      = s.total_pnl;
+    const pnlSign  = pnl >= 0 ? '+' : '';
+    const pnlColor = pnl > 0 ? 'var(--green)' : pnl < 0 ? 'var(--red)' : 'var(--muted)';
+    const wr       = (s.win_rate * 100).toFixed(0);
+    const name     = city.replace(/-/g,' ').replace(/\b\w/g, c => c.toUpperCase());
+    return `<div class="city-card">
+      <div>
+        <div class="city-card-name">${name}</div>
+        <div class="city-card-meta">${s.n} trades · ${wr}% win</div>
+      </div>
+      <div class="city-card-pnl" style="color:${pnlColor}">${pnlSign}$${Math.abs(pnl).toFixed(2)}</div>
+    </div>`;
+  }).join('');
+  return `<div class="city-grid">${cards}</div>`;
 }
 
 // ── HELPERS ───────────────────────────────────────────────────────────────
