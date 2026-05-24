@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T10:52:11.758296+00:00",
+  "generated_at": "2026-05-24T10:55:21.429471+00:00",
   "balance": {
     "current": 72.01,
     "starting": 50.0,
@@ -227,6 +227,30 @@
   ],
   "recent_resolved": [
     {
+      "ts": "2026-05-24T06:41:37.059213+00:00",
+      "city": "Toronto",
+      "date": "2026-05-26",
+      "side": "YES",
+      "bucket": "26.0-26.0C",
+      "entry": 0.17,
+      "correct": true,
+      "pnl": 0.18,
+      "closed_by": "resolved",
+      "lead_h": 53.0
+    },
+    {
+      "ts": "2026-05-23T23:56:11.806584+00:00",
+      "city": "Shanghai",
+      "date": "2026-05-24",
+      "side": "YES",
+      "bucket": "23.0-23.0C",
+      "entry": 0.1,
+      "correct": true,
+      "pnl": 17.63,
+      "closed_by": "take_profit",
+      "lead_h": 12.0
+    },
+    {
       "ts": "2026-05-23T18:10:11.168296+00:00",
       "city": "Tel Aviv",
       "date": "2026-05-23",
@@ -311,6 +335,18 @@
       "lead_h": 25.0
     },
     {
+      "ts": "2026-05-23T17:38:49.939555+00:00",
+      "city": "Milan",
+      "date": "2026-05-25",
+      "side": "YES",
+      "bucket": "31.0-31.0C",
+      "entry": 0.18,
+      "correct": false,
+      "pnl": -0.21,
+      "closed_by": "resolved",
+      "lead_h": 42.0
+    },
+    {
       "ts": "2026-05-23T17:10:02.754511+00:00",
       "city": "Seoul",
       "date": "2026-05-23",
@@ -323,6 +359,30 @@
       "lead_h": 18.0
     },
     {
+      "ts": "2026-05-23T16:56:55.056783+00:00",
+      "city": "Milan",
+      "date": "2026-05-25",
+      "side": "YES",
+      "bucket": "31.0-31.0C",
+      "entry": 0.15,
+      "correct": false,
+      "pnl": -0.06,
+      "closed_by": "resolved",
+      "lead_h": 43.0
+    },
+    {
+      "ts": "2026-05-23T15:57:25.334983+00:00",
+      "city": "Milan",
+      "date": "2026-05-25",
+      "side": "YES",
+      "bucket": "31.0-31.0C",
+      "entry": 0.15,
+      "correct": true,
+      "pnl": 0.03,
+      "closed_by": "resolved",
+      "lead_h": 44.0
+    },
+    {
       "ts": "2026-05-23T14:55:34.700665+00:00",
       "city": "Wellington",
       "date": "2026-05-23",
@@ -333,6 +393,42 @@
       "pnl": 0.32,
       "closed_by": "take_profit",
       "lead_h": 35.0
+    },
+    {
+      "ts": "2026-05-23T11:42:39.978036+00:00",
+      "city": "Los Angeles",
+      "date": "2026-05-24",
+      "side": "NO",
+      "bucket": "64.0-65.0F",
+      "entry": 0.76,
+      "correct": true,
+      "pnl": 0.22,
+      "closed_by": "take_profit",
+      "lead_h": 24.0
+    },
+    {
+      "ts": "2026-05-23T05:56:30.709318+00:00",
+      "city": "Shanghai",
+      "date": "2026-05-24",
+      "side": "NO",
+      "bucket": "26.0-26.0C",
+      "entry": 0.79,
+      "correct": true,
+      "pnl": 0.35,
+      "closed_by": "take_profit",
+      "lead_h": 30.0
+    },
+    {
+      "ts": "2026-05-22T19:57:27.363103+00:00",
+      "city": "Toronto",
+      "date": "2026-05-24",
+      "side": "YES",
+      "bucket": "18.0-999.0C",
+      "entry": 0.61,
+      "correct": false,
+      "pnl": -0.28,
+      "closed_by": "resolved",
+      "lead_h": 40.0
     },
     {
       "ts": "2026-05-22T18:10:07.917892+00:00",
@@ -431,160 +527,64 @@
       "lead_h": 34.0
     },
     {
-      "ts": "2026-05-21T18:10:24.833216+00:00",
-      "city": "Los Angeles",
-      "date": "2026-05-21",
-      "side": "YES",
-      "bucket": "74.0-999.0F",
-      "entry": 0.32,
-      "correct": true,
-      "pnl": 4.75,
-      "closed_by": "resolved",
-      "lead_h": 39.0
-    },
-    {
-      "ts": "2026-05-21T18:10:24.833216+00:00",
-      "city": "Shanghai",
-      "date": "2026-05-21",
-      "side": "NO",
-      "bucket": "28.0-28.0C",
-      "entry": 0.61,
-      "correct": true,
-      "pnl": 1.57,
-      "closed_by": "take_profit",
-      "lead_h": 42.0
-    },
-    {
-      "ts": "2026-05-21T18:10:24.833216+00:00",
-      "city": "Toronto",
-      "date": "2026-05-21",
-      "side": "NO",
-      "bucket": "13.0-13.0C",
-      "entry": 0.84,
-      "correct": true,
-      "pnl": 0.31,
-      "closed_by": "take_profit",
-      "lead_h": 35.0
-    },
-    {
-      "ts": "2026-05-21T18:10:24.833216+00:00",
-      "city": "Buenos Aires",
-      "date": "2026-05-21",
-      "side": "NO",
-      "bucket": "17.0-17.0C",
-      "entry": 0.7,
-      "correct": true,
-      "pnl": 1.12,
-      "closed_by": "take_profit",
-      "lead_h": 41.0
-    },
-    {
-      "ts": "2026-05-21T18:10:24.833216+00:00",
-      "city": "Munich",
-      "date": "2026-05-21",
-      "side": "NO",
-      "bucket": "22.0-22.0C",
-      "entry": 0.78,
-      "correct": true,
-      "pnl": 0.18,
-      "closed_by": "take_profit",
-      "lead_h": 40.0
-    },
-    {
-      "ts": "2026-05-21T18:10:24.833216+00:00",
-      "city": "Paris",
-      "date": "2026-05-21",
-      "side": "NO",
-      "bucket": "26.0-26.0C",
-      "entry": 0.84,
-      "correct": true,
-      "pnl": 0.29,
-      "closed_by": "take_profit",
-      "lead_h": 39.0
-    },
-    {
-      "ts": "2026-05-21T18:10:24.833216+00:00",
-      "city": "Austin",
-      "date": "2026-05-21",
-      "side": "NO",
-      "bucket": "92.0-999.0F",
-      "entry": 0.68,
-      "correct": true,
-      "pnl": 1.15,
-      "closed_by": "take_profit",
-      "lead_h": 41.0
-    },
-    {
-      "ts": "2026-05-21T18:10:24.833216+00:00",
+      "ts": "2026-05-22T12:56:56.300111+00:00",
       "city": "Chongqing",
-      "date": "2026-05-21",
-      "side": "NO",
-      "bucket": "34.0-34.0C",
-      "entry": 0.8,
-      "correct": true,
-      "pnl": 0.73,
-      "closed_by": "take_profit",
-      "lead_h": 25.0
-    },
-    {
-      "ts": "2026-05-21T18:10:24.833216+00:00",
-      "city": "Singapore",
-      "date": "2026-05-21",
+      "date": "2026-05-24",
       "side": "NO",
       "bucket": "33.0-33.0C",
-      "entry": 0.77,
-      "correct": true,
-      "pnl": 0.66,
-      "closed_by": "take_profit",
-      "lead_h": 49.0
-    },
-    {
-      "ts": "2026-05-21T13:55:23.465206+00:00",
-      "city": "Wellington",
-      "date": "2026-05-21",
-      "side": "NO",
-      "bucket": "17.0-17.0C",
       "entry": 0.83,
-      "correct": false,
-      "pnl": -3.0,
-      "closed_by": "resolved",
-      "lead_h": 41.0
+      "correct": true,
+      "pnl": 0.3,
+      "closed_by": "take_profit",
+      "lead_h": 47.0
     },
     {
-      "ts": "2026-05-21T13:55:23.465206+00:00",
-      "city": "Madrid",
-      "date": "2026-05-21",
+      "ts": "2026-05-22T10:02:35.790004+00:00",
+      "city": "Wellington",
+      "date": "2026-05-24",
+      "side": "NO",
+      "bucket": "16.0-16.0C",
+      "entry": 0.8,
+      "correct": true,
+      "pnl": 0.42,
+      "closed_by": "take_profit",
+      "lead_h": 50.0
+    },
+    {
+      "ts": "2026-05-22T05:57:24.420137+00:00",
+      "city": "Toronto",
+      "date": "2026-05-24",
+      "side": "NO",
+      "bucket": "16.0-16.0C",
+      "entry": 0.85,
+      "correct": true,
+      "pnl": 0.07,
+      "closed_by": "take_profit",
+      "lead_h": 54.0
+    },
+    {
+      "ts": "2026-05-22T05:11:22.174432+00:00",
+      "city": "Munich",
+      "date": "2026-05-24",
       "side": "NO",
       "bucket": "28.0-28.0C",
-      "entry": 0.65,
+      "entry": 0.69,
       "correct": true,
-      "pnl": 1.1,
-      "closed_by": "take_profit",
-      "lead_h": 42.0
-    },
-    {
-      "ts": "2026-05-21T12:55:55.177531+00:00",
-      "city": "Warsaw",
-      "date": "2026-05-21",
-      "side": "NO",
-      "bucket": "21.0-21.0C",
-      "entry": 0.67,
-      "correct": true,
-      "pnl": 0.87,
-      "closed_by": "take_profit",
-      "lead_h": 41.0
-    },
-    {
-      "ts": "2026-05-20T18:10:56.193972+00:00",
-      "city": "Dallas",
-      "date": "2026-05-20",
-      "side": "NO",
-      "bucket": "76.0-77.0F",
-      "entry": 0.77,
-      "correct": true,
-      "pnl": 0.79,
+      "pnl": 0.64,
       "closed_by": "resolved",
-      "lead_h": 15.0
+      "lead_h": 54.0
+    },
+    {
+      "ts": "2026-05-22T04:56:21.881045+00:00",
+      "city": "London",
+      "date": "2026-05-24",
+      "side": "NO",
+      "bucket": "30.0-30.0C",
+      "entry": 0.7,
+      "correct": false,
+      "pnl": -0.09,
+      "closed_by": "resolved",
+      "lead_h": 55.0
     }
   ],
   "city_stats": {
