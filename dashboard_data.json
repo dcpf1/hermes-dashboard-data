@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T13:00:03.089427+00:00",
+  "generated_at": "2026-05-25T14:00:03.002601+00:00",
   "balance": {
     "current": 58.03,
     "starting": 50.0,
@@ -10,17 +10,17 @@
   "trades": {
     "total": 69,
     "wins": 39,
-    "losses": 6,
-    "total_pnl": 29.48
+    "losses": 7,
+    "total_pnl": 29.09
   },
   "brier": {
-    "score": 0.1175,
-    "n": 45,
-    "bss": 0.32,
-    "win_rate": 0.867,
-    "ci_lo": 0.0364,
-    "ci_hi": 0.1986,
-    "base": 0.222,
+    "score": 0.1166,
+    "n": 46,
+    "bss": 0.314,
+    "win_rate": 0.848,
+    "ci_lo": 0.0373,
+    "ci_hi": 0.196,
+    "base": 0.217,
     "status": "green"
   },
   "open_positions": [
@@ -39,7 +39,7 @@
       "n_agree": 4,
       "n_avail": 4,
       "opened_at": "2026-05-24T18:10:56.983835+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 1.12
@@ -59,7 +59,7 @@
       "n_agree": 4,
       "n_avail": 5,
       "opened_at": "2026-05-25T06:20:44.974125+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.26
@@ -79,7 +79,7 @@
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-05-24T19:12:40.695070+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.39
@@ -99,7 +99,7 @@
       "n_agree": 2,
       "n_avail": 4,
       "opened_at": "2026-05-25T03:07:46.800412+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 1,
       "pnl": 0.0,
       "unrealized_pnl": 3.52
@@ -119,7 +119,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-24T05:11:19.463111+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.81
@@ -139,7 +139,7 @@
       "n_agree": 2,
       "n_avail": 4,
       "opened_at": "2026-05-25T03:05:43.376226+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 3.02
@@ -159,7 +159,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-24T11:47:06.272541+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.08
@@ -179,7 +179,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-24T07:25:36.250829+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.58
@@ -199,7 +199,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-24T05:57:04.479994+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.33
@@ -219,7 +219,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T08:36:42.118767+00:00",
-      "hours_left": 47.0,
+      "hours_left": 46.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.72
@@ -239,7 +239,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T10:55:28.620099+00:00",
-      "hours_left": 47.0,
+      "hours_left": 46.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.19
@@ -259,7 +259,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T05:12:16.013238+00:00",
-      "hours_left": 47.0,
+      "hours_left": 46.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.55
@@ -279,7 +279,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T05:56:49.324576+00:00",
-      "hours_left": 47.0,
+      "hours_left": 46.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.15
@@ -299,7 +299,7 @@
       "n_agree": 4,
       "n_avail": 4,
       "opened_at": "2026-05-25T09:00:50.387940+00:00",
-      "hours_left": 47.0,
+      "hours_left": 46.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.45
@@ -319,7 +319,7 @@
       "n_agree": 4,
       "n_avail": 4,
       "opened_at": "2026-05-25T04:56:09.815408+00:00",
-      "hours_left": 47.0,
+      "hours_left": 46.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.14
@@ -385,26 +385,6 @@
       "unrealized_pnl": 0.75
     },
     {
-      "city": "Warsaw",
-      "date": "2026-05-25",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 24.0,
-      "bucket_high": 24.0,
-      "entry_price": 0.13,
-      "shares": 4.31,
-      "cost": 0.56,
-      "current_p": 0.2808,
-      "ev_pct": 15.1,
-      "n_agree": 3,
-      "n_avail": 5,
-      "opened_at": "2026-05-23T17:56:07.045512+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 1,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.65
-    },
-    {
       "city": "Munich",
       "date": "2026-05-25",
       "unit": "C",
@@ -426,6 +406,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-05-25T13:55:40.964653+00:00",
+      "city": "Warsaw",
+      "date": "2026-05-25",
+      "side": "YES",
+      "bucket": "24.0-24.0C",
+      "entry": 0.13,
+      "correct": false,
+      "pnl": -0.39,
+      "closed_by": "resolved",
+      "lead_h": 42.0
+    },
     {
       "ts": "2026-05-25T02:55:05.194411+00:00",
       "city": "Wellington",
@@ -773,18 +765,6 @@
       "pnl": 0.41,
       "closed_by": "take_profit",
       "lead_h": 37.0
-    },
-    {
-      "ts": "2026-05-22T18:10:07.917892+00:00",
-      "city": "Munich",
-      "date": "2026-05-22",
-      "side": "NO",
-      "bucket": "26.0-26.0C",
-      "entry": 0.83,
-      "correct": true,
-      "pnl": 0.26,
-      "closed_by": "take_profit",
-      "lead_h": 47.0
     }
   ],
   "city_stats": {
@@ -833,11 +813,6 @@
       "win_rate": 1.0,
       "total_pnl": 1.1
     },
-    "warsaw": {
-      "n": 1,
-      "win_rate": 1.0,
-      "total_pnl": 0.87
-    },
     "dallas": {
       "n": 1,
       "win_rate": 1.0,
@@ -852,6 +827,11 @@
       "n": 2,
       "win_rate": 1.0,
       "total_pnl": 0.7
+    },
+    "warsaw": {
+      "n": 2,
+      "win_rate": 0.5,
+      "total_pnl": 0.48
     },
     "chengdu": {
       "n": 1,
