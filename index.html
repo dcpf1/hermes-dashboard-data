@@ -198,9 +198,9 @@ function render(d, hist) {
       </button>
       <div class="kpis">
         <div class="kpi">
-          <div class="kpi-label">Balance</div>
+          <div class="kpi-label">Portfolio</div>
           <div class="kpi-val">$${b.current.toFixed(2)}</div>
-          <div class="kpi-sub">from $${b.starting.toFixed(0)} start</div>
+          <div class="kpi-sub" title="Cash + deployed positions + unrealized P&L">$${(b.cash||0).toFixed(2)} cash · $${(b.deployed||0).toFixed(2)} deployed</div>
         </div>
         <div class="kpi">
           <div class="kpi-label">Realized P&amp;L</div>
@@ -234,11 +234,13 @@ function render(d, hist) {
     <div class="grid">
       <!-- BALANCE CHART -->
       <div class="panel">
-        <div class="panel-title">Balance Over Time</div>
+        <div class="panel-title">Portfolio Value Over Time</div>
         <div class="balance-hero">$${b.current.toFixed(2)}</div>
-        <div class="balance-delta ${pnlClass}" style="margin-bottom:12px">
-          ${pnlSign}$${Math.abs(b.pnl_usd).toFixed(2)} (${pnlSign}${b.pnl_pct}%) realized &nbsp;·&nbsp;
-          <span class="${unrClass}">${unrSign}$${Math.abs(unrealizedPnl).toFixed(2)} unrealized</span>
+        <div class="balance-delta ${pnlClass}" style="margin-bottom:4px">
+          ${pnlSign}$${Math.abs(b.pnl_usd).toFixed(2)} (${pnlSign}${b.pnl_pct}%) from $${b.starting} start
+        </div>
+        <div style="font-size:11px;color:var(--muted);margin-bottom:12px">
+          $${(b.cash||0).toFixed(2)} cash &nbsp;·&nbsp; $${(b.deployed||0).toFixed(2)} deployed &nbsp;·&nbsp; <span class="${unrClass}">${unrSign}$${Math.abs(unrealizedPnl).toFixed(2)} unrealized</span>
         </div>
         <div class="range-tabs" id="range-tabs">
           ${['7D','30D','ALL'].map(r => `<div class="tab${r===activeRange?' active':''}" onclick="setRange('${r}')">${r}</div>`).join('')}
