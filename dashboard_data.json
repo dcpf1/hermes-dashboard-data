@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T14:00:02.871417+00:00",
+  "generated_at": "2026-05-26T15:00:02.606610+00:00",
   "balance": {
     "current": 89.89,
     "cash": 50.06,
@@ -12,18 +12,18 @@
   },
   "trades": {
     "total": 78,
-    "wins": 43,
+    "wins": 44,
     "losses": 14,
-    "total_pnl": 29.32
+    "total_pnl": 29.45
   },
   "brier": {
-    "score": 0.1377,
-    "n": 55,
-    "bss": 0.193,
-    "win_rate": 0.782,
-    "ci_lo": 0.0605,
-    "ci_hi": 0.2149,
-    "base": 0.218,
+    "score": 0.1354,
+    "n": 56,
+    "bss": 0.196,
+    "win_rate": 0.786,
+    "ci_lo": 0.0594,
+    "ci_hi": 0.2114,
+    "base": 0.214,
     "status": "green"
   },
   "open_positions": [
@@ -42,7 +42,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T08:36:42.118767+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.72
@@ -62,7 +62,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-25T16:07:41.894425+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 1.02
@@ -82,7 +82,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-25T19:56:37.291683+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.4
@@ -102,7 +102,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T10:55:28.620099+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.19
@@ -122,7 +122,7 @@
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-05-25T14:07:59.515484+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.15
@@ -142,7 +142,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T05:12:16.013238+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.55
@@ -162,7 +162,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-25T18:57:06.392110+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.37
@@ -182,7 +182,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T05:56:49.324576+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.15
@@ -202,7 +202,7 @@
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-05-25T15:56:23.838215+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.18
@@ -222,7 +222,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-25T15:06:57.126288+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.13
@@ -242,7 +242,7 @@
       "n_agree": 4,
       "n_avail": 4,
       "opened_at": "2026-05-25T09:00:50.387940+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.45
@@ -262,7 +262,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-26T04:57:51.091731+00:00",
-      "hours_left": 46.0,
+      "hours_left": 45.0,
       "tp_stage": 1,
       "pnl": 0.0,
       "unrealized_pnl": 0.87
@@ -369,6 +369,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-05-26T12:57:53.292253+00:00",
+      "city": "Chongqing",
+      "date": "2026-05-26",
+      "side": "NO",
+      "bucket": "29.0-29.0C",
+      "entry": 0.79,
+      "correct": true,
+      "pnl": 0.13,
+      "closed_by": "take_profit",
+      "lead_h": 48.0
+    },
     {
       "ts": "2026-05-26T12:05:51.063238+00:00",
       "city": "Beijing",
@@ -670,18 +682,6 @@
       "lead_h": 50.0
     },
     {
-      "ts": "2026-05-24T11:47:06.272541+00:00",
-      "city": "Chongqing",
-      "date": "2026-05-26",
-      "side": "NO",
-      "bucket": "29.0-29.0C",
-      "entry": 0.79,
-      "correct": true,
-      "pnl": 0.13,
-      "closed_by": "take_profit",
-      "lead_h": 48.0
-    },
-    {
       "ts": "2026-05-24T06:41:37.059213+00:00",
       "city": "Toronto",
       "date": "2026-05-26",
@@ -756,15 +756,15 @@
       "win_rate": 1.0,
       "total_pnl": 2.39
     },
+    "chongqing": {
+      "n": 4,
+      "win_rate": 1.0,
+      "total_pnl": 1.78
+    },
     "buenos-aires": {
       "n": 2,
       "win_rate": 1.0,
       "total_pnl": 1.72
-    },
-    "chongqing": {
-      "n": 3,
-      "win_rate": 1.0,
-      "total_pnl": 1.65
     },
     "austin": {
       "n": 1,
