@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-26T16:00:02.708557+00:00",
+  "generated_at": "2026-05-26T17:00:02.787782+00:00",
   "balance": {
-    "current": 89.89,
-    "cash": 50.06,
-    "deployed": 29.59,
-    "unrealized": 10.24,
+    "current": 91.5,
+    "cash": 45.77,
+    "deployed": 33.88,
+    "unrealized": 11.85,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 39.89,
-    "pnl_pct": 79.8
+    "pnl_usd": 41.5,
+    "pnl_pct": 83.0
   },
   "trades": {
-    "total": 78,
+    "total": 80,
     "wins": 44,
     "losses": 14,
     "total_pnl": 29.45
@@ -42,7 +42,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T08:36:42.118767+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.72
@@ -62,7 +62,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-25T16:07:41.894425+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 1.02
@@ -82,7 +82,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-25T19:56:37.291683+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.4
@@ -102,7 +102,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T10:55:28.620099+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.19
@@ -122,7 +122,7 @@
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-05-25T14:07:59.515484+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.15
@@ -142,7 +142,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T05:12:16.013238+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.55
@@ -162,10 +162,30 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-25T18:57:06.392110+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.37
+    },
+    {
+      "city": "Dallas",
+      "date": "2026-05-27",
+      "unit": "F",
+      "side": "YES",
+      "bucket_low": 82.0,
+      "bucket_high": 999.0,
+      "entry_price": 0.51,
+      "shares": 2.94,
+      "cost": 1.5,
+      "current_p": 0.6747,
+      "ev_pct": 16.5,
+      "n_agree": 3,
+      "n_avail": 5,
+      "opened_at": "2026-05-26T16:05:41.383709+00:00",
+      "hours_left": 19.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.48
     },
     {
       "city": "Ankara",
@@ -182,7 +202,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T05:56:49.324576+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.15
@@ -202,7 +222,7 @@
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-05-25T15:56:23.838215+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.18
@@ -222,7 +242,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-25T15:06:57.126288+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.13
@@ -242,7 +262,7 @@
       "n_agree": 4,
       "n_avail": 4,
       "opened_at": "2026-05-25T09:00:50.387940+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.45
@@ -262,10 +282,30 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-26T04:57:51.091731+00:00",
-      "hours_left": 44.0,
+      "hours_left": 43.0,
       "tp_stage": 1,
       "pnl": 0.0,
       "unrealized_pnl": 0.87
+    },
+    {
+      "city": "Los Angeles",
+      "date": "2026-05-28",
+      "unit": "F",
+      "side": "NO",
+      "bucket_low": 64.0,
+      "bucket_high": 65.0,
+      "entry_price": 0.67,
+      "shares": 4.16,
+      "cost": 2.79,
+      "current_p": 0.9424,
+      "ev_pct": 27.2,
+      "n_agree": 4,
+      "n_avail": 4,
+      "opened_at": "2026-05-26T16:06:07.449922+00:00",
+      "hours_left": 43.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 1.13
     },
     {
       "city": "Chengdu",
