@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-26T17:00:02.787782+00:00",
+  "generated_at": "2026-05-26T18:00:02.821512+00:00",
   "balance": {
-    "current": 91.5,
-    "cash": 45.77,
-    "deployed": 33.88,
-    "unrealized": 11.85,
+    "current": 91.69,
+    "cash": 48.75,
+    "deployed": 31.48,
+    "unrealized": 11.46,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 41.5,
-    "pnl_pct": 83.0
+    "pnl_usd": 41.69,
+    "pnl_pct": 83.4
   },
   "trades": {
     "total": 80,
@@ -42,7 +42,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T08:36:42.118767+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.72
@@ -62,7 +62,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-25T16:07:41.894425+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 1.02
@@ -82,7 +82,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-25T19:56:37.291683+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.4
@@ -102,7 +102,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T10:55:28.620099+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.19
@@ -122,7 +122,7 @@
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-05-25T14:07:59.515484+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.15
@@ -142,7 +142,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T05:12:16.013238+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.55
@@ -162,7 +162,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-25T18:57:06.392110+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.37
@@ -182,7 +182,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-26T16:05:41.383709+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.48
@@ -202,7 +202,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T05:56:49.324576+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.15
@@ -222,7 +222,7 @@
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-05-25T15:56:23.838215+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.18
@@ -242,7 +242,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-25T15:06:57.126288+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.13
@@ -262,7 +262,7 @@
       "n_agree": 4,
       "n_avail": 4,
       "opened_at": "2026-05-25T09:00:50.387940+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.45
@@ -282,7 +282,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-26T04:57:51.091731+00:00",
-      "hours_left": 43.0,
+      "hours_left": 42.0,
       "tp_stage": 1,
       "pnl": 0.0,
       "unrealized_pnl": 0.87
@@ -302,7 +302,7 @@
       "n_agree": 4,
       "n_avail": 4,
       "opened_at": "2026-05-26T16:06:07.449922+00:00",
-      "hours_left": 43.0,
+      "hours_left": 42.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 1.13
@@ -326,26 +326,6 @@
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.26
-    },
-    {
-      "city": "Sao Paulo",
-      "date": "2026-05-26",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 26.0,
-      "bucket_high": 26.0,
-      "entry_price": 0.8,
-      "shares": 3.0,
-      "cost": 2.4,
-      "current_p": 0.9299,
-      "ev_pct": 13.0,
-      "n_agree": 3,
-      "n_avail": 4,
-      "opened_at": "2026-05-24T19:12:40.695070+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.39
     },
     {
       "city": "Ankara",
@@ -590,6 +570,18 @@
       "lead_h": 34.0
     },
     {
+      "ts": "2026-05-24T19:12:40.695070+00:00",
+      "city": "Sao Paulo",
+      "date": "2026-05-26",
+      "side": "NO",
+      "bucket": "26.0-26.0C",
+      "entry": 0.8,
+      "correct": true,
+      "pnl": 0.58,
+      "closed_by": "take_profit",
+      "lead_h": 40.0
+    },
+    {
       "ts": "2026-05-24T18:10:56.983835+00:00",
       "city": "Los Angeles",
       "date": "2026-05-26",
@@ -756,18 +748,6 @@
       "pnl": -2.3,
       "closed_by": "resolved",
       "lead_h": 48.0
-    },
-    {
-      "ts": "2026-05-23T18:10:11.168296+00:00",
-      "city": "Buenos Aires",
-      "date": "2026-05-23",
-      "side": "NO",
-      "bucket": "16.0-16.0C",
-      "entry": 0.81,
-      "correct": true,
-      "pnl": 0.6,
-      "closed_by": "resolved",
-      "lead_h": 43.0
     }
   ],
   "city_stats": {
