@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-26T19:00:02.669571+00:00",
+  "generated_at": "2026-05-26T20:00:02.688938+00:00",
   "balance": {
-    "current": 80.96,
-    "cash": 47.27,
-    "deployed": 26.14,
-    "unrealized": 7.55,
+    "current": 81.21,
+    "cash": 45.28,
+    "deployed": 28.13,
+    "unrealized": 7.8,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 30.96,
-    "pnl_pct": 61.9
+    "pnl_usd": 31.21,
+    "pnl_pct": 62.4
   },
   "trades": {
-    "total": 83,
+    "total": 84,
     "wins": 46,
     "losses": 20,
     "total_pnl": 23.71
@@ -42,7 +42,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T08:36:42.118767+00:00",
-      "hours_left": 17.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.72
@@ -62,7 +62,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-25T16:07:41.894425+00:00",
-      "hours_left": 17.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 1.02
@@ -82,7 +82,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-25T19:56:37.291683+00:00",
-      "hours_left": 17.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.4
@@ -102,7 +102,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T10:55:28.620099+00:00",
-      "hours_left": 17.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.19
@@ -122,7 +122,7 @@
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-05-25T14:07:59.515484+00:00",
-      "hours_left": 17.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.15
@@ -142,7 +142,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T05:12:16.013238+00:00",
-      "hours_left": 17.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.55
@@ -162,7 +162,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-25T18:57:06.392110+00:00",
-      "hours_left": 17.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.37
@@ -182,7 +182,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-26T16:05:41.383709+00:00",
-      "hours_left": 17.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.48
@@ -202,7 +202,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T05:56:49.324576+00:00",
-      "hours_left": 17.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.15
@@ -222,7 +222,7 @@
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-05-25T15:56:23.838215+00:00",
-      "hours_left": 17.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.18
@@ -242,7 +242,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-25T15:06:57.126288+00:00",
-      "hours_left": 17.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.13
@@ -262,7 +262,7 @@
       "n_agree": 4,
       "n_avail": 4,
       "opened_at": "2026-05-25T09:00:50.387940+00:00",
-      "hours_left": 17.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.45
@@ -282,10 +282,30 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-26T18:10:30.026233+00:00",
-      "hours_left": 17.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.26
+    },
+    {
+      "city": "Chengdu",
+      "date": "2026-05-28",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 26.0,
+      "bucket_high": 26.0,
+      "entry_price": 0.83,
+      "shares": 2.4,
+      "cost": 1.99,
+      "current_p": 0.9359,
+      "ev_pct": 10.6,
+      "n_agree": 3,
+      "n_avail": 5,
+      "opened_at": "2026-05-26T19:07:43.015878+00:00",
+      "hours_left": 40.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.25
     },
     {
       "city": "Tel Aviv",
@@ -302,7 +322,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-26T04:57:51.091731+00:00",
-      "hours_left": 41.0,
+      "hours_left": 40.0,
       "tp_stage": 1,
       "pnl": 0.0,
       "unrealized_pnl": 0.87
@@ -322,7 +342,7 @@
       "n_agree": 4,
       "n_avail": 4,
       "opened_at": "2026-05-26T16:06:07.449922+00:00",
-      "hours_left": 41.0,
+      "hours_left": 40.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 1.13
@@ -342,7 +362,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-26T18:11:38.095293+00:00",
-      "hours_left": 41.0,
+      "hours_left": 40.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.34
@@ -362,7 +382,7 @@
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-05-26T18:10:30.026233+00:00",
-      "hours_left": 41.0,
+      "hours_left": 40.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.16
