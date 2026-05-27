@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-27T10:00:02.433087+00:00",
+  "generated_at": "2026-05-27T11:00:02.482137+00:00",
   "balance": {
-    "current": 84.51,
-    "cash": 45.66,
-    "deployed": 30.33,
-    "unrealized": 8.52,
+    "current": 84.5,
+    "cash": 46.62,
+    "deployed": 29.49,
+    "unrealized": 8.39,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 34.51,
+    "pnl_usd": 34.5,
     "pnl_pct": 69.0
   },
   "trades": {
@@ -42,7 +42,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T08:36:42.118767+00:00",
-      "hours_left": 2.0,
+      "hours_left": 1.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.72
@@ -62,7 +62,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T05:12:16.013238+00:00",
-      "hours_left": 2.0,
+      "hours_left": 1.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.55
@@ -82,7 +82,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-25T18:57:06.392110+00:00",
-      "hours_left": 2.0,
+      "hours_left": 1.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.37
@@ -102,30 +102,10 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-25T05:56:49.324576+00:00",
-      "hours_left": 2.0,
+      "hours_left": 1.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.15
-    },
-    {
-      "city": "Milan",
-      "date": "2026-05-27",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 35.0,
-      "bucket_high": 35.0,
-      "entry_price": 0.82,
-      "shares": 1.02,
-      "cost": 0.84,
-      "current_p": 0.9463,
-      "ev_pct": 12.6,
-      "n_agree": 3,
-      "n_avail": 5,
-      "opened_at": "2026-05-25T15:06:57.126288+00:00",
-      "hours_left": 2.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.13
     },
     {
       "city": "Wellington",
@@ -142,7 +122,7 @@
       "n_agree": 4,
       "n_avail": 4,
       "opened_at": "2026-05-25T09:00:50.387940+00:00",
-      "hours_left": 2.0,
+      "hours_left": 1.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.45
@@ -162,7 +142,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-26T18:10:30.026233+00:00",
-      "hours_left": 2.0,
+      "hours_left": 1.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.26
@@ -182,7 +162,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-27T06:42:39.397210+00:00",
-      "hours_left": 26.0,
+      "hours_left": 25.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.4
@@ -202,7 +182,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-26T19:07:43.015878+00:00",
-      "hours_left": 26.0,
+      "hours_left": 25.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.25
@@ -222,7 +202,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-27T07:30:07.473902+00:00",
-      "hours_left": 26.0,
+      "hours_left": 25.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.42
@@ -242,7 +222,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-26T04:57:51.091731+00:00",
-      "hours_left": 26.0,
+      "hours_left": 25.0,
       "tp_stage": 1,
       "pnl": 0.0,
       "unrealized_pnl": 0.87
@@ -262,7 +242,7 @@
       "n_agree": 2,
       "n_avail": 4,
       "opened_at": "2026-05-27T07:31:21.534315+00:00",
-      "hours_left": 26.0,
+      "hours_left": 25.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.72
@@ -282,7 +262,7 @@
       "n_agree": 4,
       "n_avail": 4,
       "opened_at": "2026-05-26T16:06:07.449922+00:00",
-      "hours_left": 26.0,
+      "hours_left": 25.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 1.13
@@ -302,7 +282,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-26T18:11:38.095293+00:00",
-      "hours_left": 26.0,
+      "hours_left": 25.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.34
@@ -322,7 +302,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-26T20:07:41.124848+00:00",
-      "hours_left": 26.0,
+      "hours_left": 25.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.18
@@ -342,7 +322,7 @@
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-05-26T18:10:30.026233+00:00",
-      "hours_left": 26.0,
+      "hours_left": 25.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.16
@@ -362,7 +342,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-27T06:21:18.014206+00:00",
-      "hours_left": 50.0,
+      "hours_left": 49.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.67
@@ -382,7 +362,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-27T06:42:34.508054+00:00",
-      "hours_left": 50.0,
+      "hours_left": 49.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.57
@@ -402,7 +382,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-27T07:30:07.473902+00:00",
-      "hours_left": 50.0,
+      "hours_left": 49.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.18
@@ -698,6 +678,18 @@
       "lead_h": 42.0
     },
     {
+      "ts": "2026-05-25T15:06:57.126288+00:00",
+      "city": "Milan",
+      "date": "2026-05-27",
+      "side": "NO",
+      "bucket": "35.0-35.0C",
+      "entry": 0.82,
+      "correct": true,
+      "pnl": 0.12,
+      "closed_by": "take_profit",
+      "lead_h": 44.0
+    },
+    {
       "ts": "2026-05-25T14:07:59.515484+00:00",
       "city": "Buenos Aires",
       "date": "2026-05-27",
@@ -756,18 +748,6 @@
       "pnl": -3.0,
       "closed_by": "resolved",
       "lead_h": 34.0
-    },
-    {
-      "ts": "2026-05-24T18:05:20.714928+00:00",
-      "city": "Miami",
-      "date": "2026-05-24",
-      "side": "NO",
-      "bucket": "90.0-91.0F",
-      "entry": 0.74,
-      "correct": true,
-      "pnl": 0.93,
-      "closed_by": "resolved",
-      "lead_h": 30.0
     }
   ],
   "city_stats": {
