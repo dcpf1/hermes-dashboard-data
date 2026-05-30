@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-30T14:00:02.474301+00:00",
+  "generated_at": "2026-05-30T15:00:02.648321+00:00",
   "balance": {
-    "current": 88.62,
-    "cash": 49.41,
-    "deployed": 27.34,
-    "unrealized": 11.87,
+    "current": 88.4,
+    "cash": 50.13,
+    "deployed": 26.86,
+    "unrealized": 11.41,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 38.62,
-    "pnl_pct": 77.2
+    "pnl_usd": 38.4,
+    "pnl_pct": 76.8
   },
   "trades": {
     "total": 133,
@@ -42,7 +42,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-29T05:59:20.377601+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.53
@@ -62,7 +62,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-29T20:07:26.692028+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.46
@@ -82,7 +82,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-29T05:11:25.881788+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.21
@@ -102,7 +102,7 @@
       "n_agree": 4,
       "n_avail": 5,
       "opened_at": "2026-05-30T09:12:19.731971+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 3.02
@@ -122,7 +122,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-29T23:57:16.250586+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.16
@@ -142,7 +142,7 @@
       "n_agree": 4,
       "n_avail": 4,
       "opened_at": "2026-05-29T04:55:56.354216+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.42
@@ -155,17 +155,17 @@
       "bucket_low": 88.0,
       "bucket_high": 89.0,
       "entry_price": 0.18,
-      "shares": 8.0,
-      "cost": 1.44,
+      "shares": 5.33,
+      "cost": 0.96,
       "current_p": 0.3556,
       "ev_pct": 17.6,
       "n_agree": 2,
       "n_avail": 4,
       "opened_at": "2026-05-30T00:05:29.284499+00:00",
-      "hours_left": 22.0,
-      "tp_stage": 0,
+      "hours_left": 21.0,
+      "tp_stage": 1,
       "pnl": 0.0,
-      "unrealized_pnl": 1.4
+      "unrealized_pnl": 0.94
     },
     {
       "city": "Ankara",
@@ -182,7 +182,7 @@
       "n_agree": 4,
       "n_avail": 5,
       "opened_at": "2026-05-29T15:56:49.104756+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.23
@@ -202,7 +202,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-29T07:09:07.559965+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.31
@@ -222,7 +222,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-29T05:13:10.013984+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.36
@@ -242,7 +242,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-30T11:49:27.767409+00:00",
-      "hours_left": 46.0,
+      "hours_left": 45.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.29
@@ -262,7 +262,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-30T04:56:45.890940+00:00",
-      "hours_left": 46.0,
+      "hours_left": 45.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.18
@@ -282,7 +282,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-30T10:01:39.716456+00:00",
-      "hours_left": 46.0,
+      "hours_left": 45.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.26
@@ -302,7 +302,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-30T11:50:47.992566+00:00",
-      "hours_left": 46.0,
+      "hours_left": 45.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.22
@@ -322,7 +322,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-05-30T05:58:05.899354+00:00",
-      "hours_left": 46.0,
+      "hours_left": 45.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.42
