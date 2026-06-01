@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-01T13:00:04.758654+00:00",
+  "generated_at": "2026-06-01T14:00:05.166137+00:00",
   "balance": {
-    "current": 92.7,
-    "cash": 63.97,
-    "deployed": 21.97,
-    "unrealized": 6.76,
+    "current": 92.38,
+    "cash": 65.03,
+    "deployed": 20.82,
+    "unrealized": 6.53,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 42.7,
-    "pnl_pct": 85.4
+    "pnl_usd": 42.38,
+    "pnl_pct": 84.8
   },
   "trades": {
     "total": 154,
@@ -42,7 +42,7 @@
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-05-31T17:59:18.083699+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.57
@@ -62,7 +62,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-31T18:34:13.160408+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.32
@@ -82,7 +82,7 @@
       "n_agree": 4,
       "n_avail": 4,
       "opened_at": "2026-05-31T18:32:56.231686+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.35
@@ -102,7 +102,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-05-31T18:34:41.349088+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.78
@@ -122,7 +122,7 @@
       "n_agree": 4,
       "n_avail": 5,
       "opened_at": "2026-06-01T08:28:56.901955+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.3
@@ -142,7 +142,7 @@
       "n_agree": 4,
       "n_avail": 5,
       "opened_at": "2026-05-31T15:42:44.398731+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.33
@@ -162,7 +162,7 @@
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-06-01T02:05:21.861433+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.56
@@ -182,7 +182,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-06-01T05:58:02.047597+00:00",
-      "hours_left": 47.0,
+      "hours_left": 46.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.27
@@ -202,7 +202,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-06-01T11:53:58.585239+00:00",
-      "hours_left": 47.0,
+      "hours_left": 46.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.31
@@ -222,7 +222,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-06-01T05:59:08.975253+00:00",
-      "hours_left": 47.0,
+      "hours_left": 46.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.47
@@ -242,7 +242,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-06-01T07:14:29.113970+00:00",
-      "hours_left": 47.0,
+      "hours_left": 46.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.39
@@ -326,26 +326,6 @@
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.29
-    },
-    {
-      "city": "Miami",
-      "date": "2026-06-01",
-      "unit": "F",
-      "side": "NO",
-      "bucket_low": 92.0,
-      "bucket_high": 93.0,
-      "entry_price": 0.76,
-      "shares": 1.51,
-      "cost": 1.15,
-      "current_p": 0.9152,
-      "ev_pct": 15.5,
-      "n_agree": 4,
-      "n_avail": 5,
-      "opened_at": "2026-05-31T14:06:16.842346+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.23
     },
     {
       "city": "Shanghai",
@@ -524,6 +504,18 @@
       "pnl": -0.31,
       "closed_by": "drift_exit",
       "lead_h": 52.0
+    },
+    {
+      "ts": "2026-05-31T14:06:16.842346+00:00",
+      "city": "Miami",
+      "date": "2026-06-01",
+      "side": "NO",
+      "bucket": "92.0-93.0F",
+      "entry": 0.76,
+      "correct": false,
+      "pnl": -0.09,
+      "closed_by": "resolved",
+      "lead_h": 21.0
     },
     {
       "ts": "2026-05-31T12:59:13.318320+00:00",
@@ -716,18 +708,6 @@
       "pnl": 0.31,
       "closed_by": "take_profit",
       "lead_h": 54.0
-    },
-    {
-      "ts": "2026-05-30T04:56:45.890940+00:00",
-      "city": "London",
-      "date": "2026-06-01",
-      "side": "NO",
-      "bucket": "20.0-20.0C",
-      "entry": 0.77,
-      "correct": true,
-      "pnl": 0.21,
-      "closed_by": "take_profit",
-      "lead_h": 55.0
     }
   ],
   "city_stats": {
