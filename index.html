@@ -135,11 +135,78 @@
   .loading { text-align: center; padding: 60px; color: var(--muted); font-size: 14px; }
   .error-msg { color: var(--red); text-align: center; padding: 20px; }
 
+  /* ── OPPS BUTTON ── */
+  .opps-btn {
+    display: flex; align-items: center; gap: 6px;
+    padding: 6px 14px; border-radius: 6px; cursor: pointer;
+    border: 1px solid var(--amber); background: rgba(245,166,35,.08);
+    color: var(--amber); font-size: 11px; font-weight: 600;
+    letter-spacing: 0.06em; font-family: var(--mono);
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .opps-btn:hover { background: rgba(245,166,35,.15); }
+  .opps-btn.active { background: rgba(245,166,35,.2); box-shadow: 0 0 12px rgba(245,166,35,.3); }
+
+  /* ── OPPS MODAL ── */
+  .opps-overlay {
+    display: none; position: fixed; inset: 0;
+    background: rgba(0,0,0,.8); z-index: 1000;
+    align-items: flex-start; justify-content: center;
+    padding-top: 80px;
+  }
+  .opps-overlay.open { display: flex; }
+  .opps-modal {
+    background: var(--panel); border: 1px solid var(--amber);
+    border-radius: 10px; padding: 24px; width: 520px; max-width: 95vw;
+    box-shadow: 0 0 40px rgba(245,166,35,.2);
+  }
+  .opps-header {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--border);
+  }
+  .opps-title { font-size: 11px; color: var(--amber); letter-spacing: 0.12em; text-transform: uppercase; font-family: var(--mono); }
+  .opps-close { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 18px; padding: 0 4px; }
+  .opps-close:hover { color: var(--text); }
+  .opps-updated { font-size: 10px; color: var(--muted); font-family: var(--mono); }
+  .opp-row {
+    display: flex; align-items: center; gap: 12px;
+    padding: 10px 0; border-bottom: 1px solid var(--border);
+  }
+  .opp-row:last-child { border-bottom: none; }
+  .opp-score {
+    font-family: var(--mono); font-size: 15px; font-weight: 600;
+    width: 32px; flex-shrink: 0; text-align: center;
+  }
+  .opp-info { flex: 1; }
+  .opp-name { font-size: 13px; color: var(--text); margin-bottom: 2px; }
+  .opp-tags { display: flex; gap: 6px; }
+  .opp-tag {
+    font-size: 9px; padding: 2px 7px; border-radius: 4px;
+    font-family: var(--mono); letter-spacing: 0.05em;
+    border: 1px solid var(--border); color: var(--muted);
+  }
+  .opp-tag.ttfd { border-color: rgba(34,211,164,.3); color: var(--green); background: rgba(34,211,164,.06); }
+  .opp-tag.capital { border-color: var(--border); }
+  .opp-empty { color: var(--muted); text-align: center; padding: 20px; font-size: 12px; }
+
   /* ── BOTTOM STRIP ── */
   .footer { padding: 8px 24px; font-size: 10px; color: var(--muted); border-top: 1px solid var(--border); display: flex; justify-content: space-between; }
 </style>
 </head>
 <body>
+
+<div class="opps-overlay" id="opps-overlay" onclick="handleOverlayClick(event)">
+  <div class="opps-modal" id="opps-modal">
+    <div class="opps-header">
+      <span class="opps-title">&#9733; Top Opportunities</span>
+      <div style="display:flex;align-items:center;gap:12px">
+        <span class="opps-updated" id="opps-updated"></span>
+        <button class="opps-close" onclick="closeOpps()">&#x2715;</button>
+      </div>
+    </div>
+    <div id="opps-content"><div class="opp-empty">Loading...</div></div>
+  </div>
+</div>
 
 <div id="app"><div class="loading">Loading live data...</div></div>
 
@@ -147,18 +214,116 @@
 const DATA_URL    = 'https://raw.githubusercontent.com/dcpf1/hermes-dashboard-data/main/dashboard_data.json';
 const HIST_URL    = 'https://raw.githubusercontent.com/dcpf1/hermes-dashboard-data/main/balance_history.json';
 const REFRESH_MS  = 60000;
-let   activeRange = '7D';
-let   lastData    = null;
-let   lastHist    = null;
+const REM_URL     = 'https://raw.githubusercontent.com/dcpf1/hermes-dashboard-data/main/reminders.json';
+let   activeRange   = '7D';
+let   activeView    = 'dashboard';
+let   lastData      = null;
+let   lastHist      = null;
+let   lastReminders = null;
+
+// ── REMINDERS HELPERS ─────────────────────────────────────────────────────
+const DISMISSED_KEY = 'dismissed_reminders_v1';
+function getDismissed() {
+  try { return JSON.parse(localStorage.getItem(DISMISSED_KEY) || '[]'); }
+  catch(e) { return []; }
+}
+function saveDismissed(ids) { localStorage.setItem(DISMISSED_KEY, JSON.stringify(ids)); }
+function dismissItem(id) {
+  const ids = getDismissed();
+  if (!ids.includes(id)) { ids.push(id); saveDismissed(ids); }
+  const el = document.getElementById('r-' + id);
+  if (el) {
+    el.style.transition = 'opacity 0.25s, transform 0.25s, max-height 0.3s, margin 0.3s, padding 0.3s';
+    el.style.opacity = '0'; el.style.transform = 'translateX(24px)';
+    el.style.maxHeight = '0'; el.style.overflow = 'hidden';
+    el.style.margin = '0'; el.style.padding = '0';
+    setTimeout(() => { el.remove(); updateBadgeCount(); }, 320);
+  }
+}
+function updateBadgeCount() {
+  if (!lastReminders) return;
+  const d2 = getDismissed();
+  const n = (lastReminders.manual||[]).filter(r=>!r.done&&!d2.includes(r.id)).length
+          + (lastReminders.auto||[]).filter(r=>!r.met&&!d2.includes(r.id)).length;
+  const b = document.getElementById('rem-badge');
+  if (!b) return;
+  b.textContent = n;
+  b.style.display = n > 0 ? 'inline-flex' : 'none';
+}
+function showView(name) {
+  activeView = name;
+  const dash=document.getElementById('view-dashboard'), rem=document.getElementById('view-reminders');
+  const btnD=document.getElementById('nav-dashboard'),  btnR=document.getElementById('nav-reminders');
+  if (!dash||!rem) return;
+  if (name==='dashboard') {
+    dash.style.display=''; rem.style.display='none';
+    if (btnD){btnD.style.borderColor='var(--green)';btnD.style.color='var(--green)';}
+    if (btnR){btnR.style.borderColor='var(--border)';btnR.style.color='var(--muted)';}
+  } else {
+    dash.style.display='none'; rem.style.display='';
+    if (btnR){btnR.style.borderColor='var(--green)';btnR.style.color='var(--green)';}
+    if (btnD){btnD.style.borderColor='var(--border)';btnD.style.color='var(--muted)';}
+    if (lastReminders) renderRemindersInto(lastReminders);
+  }
+}
+
+// ── REMINDERS RENDER ──────────────────────────────────────────────────────
+function renderRemindersInto(rem) {
+  const container = document.getElementById('view-reminders');
+  if (!container) return;
+  const d2 = getDismissed();
+  const PB={high:'var(--red)',warn:'var(--amber)',info:'var(--blue)',neutral:'var(--border)'};
+  const PT={high:'background:rgba(245,85,109,.15);color:var(--red)',warn:'background:rgba(245,166,35,.15);color:var(--amber)',info:'background:rgba(77,168,255,.15);color:var(--blue)',neutral:'background:rgba(48,54,61,.4);color:var(--muted)'};
+  const PL={high:'HIGH',warn:'DEADLINE',info:'IN PROGRESS',neutral:'PARKED'};
+
+  function card(item, showDismiss) {
+    if (d2.includes(item.id)) return '';
+    const bdr=PB[item.priority]||PB.neutral, ts=PT[item.priority]||PT.neutral, tl=PL[item.priority]||item.priority.toUpperCase();
+    let pg='';
+    if (item.type==='threshold'&&item.target) {
+      const pct=Math.min(100,Math.round(item.current/item.target*100)), fc=item.met?'var(--green)':(item.priority==='warn'?'var(--amber)':'var(--blue)');
+      pg=`<div style="margin-top:8px"><div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:4px"><span>${item.current.toLocaleString()} / ${item.target.toLocaleString()} ${item.unit}</span><span style="color:${fc}">${item.met?'met ✓':pct+'%'}</span></div><div style="height:4px;background:var(--border);border-radius:2px;overflow:hidden"><div style="height:100%;width:${pct}%;background:${fc};border-radius:2px"></div></div></div>`;
+    }
+    if (item.type==='countdown') {
+      const el=Math.max(0,Math.min(100,Math.round((1-item.current/42)*100)));
+      pg=`<div style="margin-top:8px"><div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:4px"><span>${item.current} days remaining</span><span style="color:var(--red)">${el}% elapsed</span></div><div style="height:4px;background:var(--border);border-radius:2px;overflow:hidden"><div style="height:100%;width:${el}%;background:var(--red);border-radius:2px"></div></div></div>`;
+    }
+    const tags=(item.tags||[]).map(t=>`<span style="font-size:10px;background:rgba(48,54,61,.4);color:var(--muted);padding:2px 7px;border-radius:10px;font-weight:600">${t}</span>`).join('');
+    const db=showDismiss?`<button onclick="dismissItem('${item.id}')" style="font-size:10px;background:transparent;border:1px solid var(--border);color:var(--muted);padding:3px 8px;border-radius:3px;cursor:pointer;white-space:nowrap;font-family:var(--mono)" onmouseover="this.style.borderColor='var(--green)';this.style.color='var(--green)'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--muted)'">✓ done</button>`:'';
+    return `<div id="r-${item.id}" style="display:flex;gap:14px;padding:12px 16px;border-radius:6px;border:1px solid var(--border);border-left:3px solid ${bdr};background:var(--panel);margin-bottom:8px"><div style="flex:1"><div style="font-size:13px;font-weight:600;color:var(--text);margin-bottom:3px">${item.title}</div><div style="font-size:12px;color:var(--muted);line-height:1.5">${item.description}</div>${pg}<div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap;align-items:center"><span style="${ts};font-size:10px;font-weight:600;padding:2px 7px;border-radius:10px">${tl}</span><span style="font-size:10px;background:rgba(48,54,61,.4);color:var(--muted);padding:2px 7px;border-radius:10px;font-weight:600">${item.project}</span>${tags}${item.added?`<span style="font-size:10px;color:var(--muted)">added ${item.added}</span>`:''}</div></div><div style="display:flex;flex-direction:column;align-items:flex-end;gap:6px;min-width:80px">${db}</div></div>`;
+  }
+
+  function sh(color,lbl){return `<div style="display:flex;align-items:center;gap:8px;font-size:11px;font-weight:700;letter-spacing:1.5px;color:var(--muted);text-transform:uppercase;border-bottom:1px solid var(--border);padding-bottom:8px;margin-bottom:12px"><div style="width:8px;height:8px;border-radius:50%;background:${color}"></div>${lbl}</div>`;}
+
+  const aItems=(rem.manual||[]).filter(r=>!r.done&&!d2.includes(r.id));
+  const aHtml=aItems.map(r=>card(r,true)).join('')||'<div style="color:var(--muted);font-size:12px;padding:8px 0">No pending action items.</div>';
+  const addForm=`<div style="border:1px dashed var(--border);border-radius:6px;padding:14px 16px;margin-top:4px;background:var(--bg)"><div style="font-size:10px;font-weight:700;letter-spacing:1px;color:var(--muted);text-transform:uppercase;margin-bottom:10px">+ Add reminder</div><div style="display:flex;gap:8px;margin-bottom:8px;flex-wrap:wrap"><input id="rem-new-title" type="text" placeholder="What to remember…" style="flex:1;min-width:200px;background:var(--panel);border:1px solid var(--border);color:var(--text);border-radius:4px;padding:7px 10px;font-size:12px;outline:none;font-family:var(--sans)" onkeydown="if(event.key==='Enter')addReminderLocal()" onfocus="this.style.borderColor='var(--green)'" onblur="this.style.borderColor='var(--border)'"/><select id="rem-new-priority" style="background:var(--panel);border:1px solid var(--border);color:var(--muted);border-radius:4px;padding:7px 10px;font-size:12px"><option value="high">High</option><option value="warn">Medium</option><option value="neutral" selected>Low</option></select><select id="rem-new-project" style="background:var(--panel);border:1px solid var(--border);color:var(--muted);border-radius:4px;padding:7px 10px;font-size:12px"><option>Weatherbot</option><option>BTC Bot</option><option>General</option></select><button onclick="addReminderLocal()" style="padding:7px 16px;background:var(--green);border:none;border-radius:4px;color:#000;font-size:12px;font-weight:600;cursor:pointer;font-family:var(--mono)">Add</button></div><div style="font-size:10px;color:var(--muted)">Items added here are local (this browser). Say <strong style="color:var(--text)">"remind me to X"</strong> in a Claude session to save permanently.</div></div>`;
+  const thItems=(rem.auto||[]).filter(r=>!d2.includes(r.id));
+  const thHtml=thItems.map(r=>card(r,false)).join('')||'<div style="color:var(--muted);font-size:12px;padding:8px 0">No threshold reminders.</div>';
+  const upd=rem.updated_at?new Date(rem.updated_at).toUTCString().slice(0,25):'';
+  container.innerHTML=`<div style="max-width:860px;margin:0 auto;padding:24px 20px"><div style="font-size:13px;font-weight:700;letter-spacing:2px;color:var(--muted);margin-bottom:20px;text-transform:uppercase">Reminders &amp; Action Items</div><div style="margin-bottom:28px">${sh('var(--red)','Action Items &middot; '+aItems.length+' pending')}${aHtml}${addForm}</div><div style="margin-bottom:28px">${sh('var(--blue)','Threshold Reminders &middot; auto-updated by bot every scan')}${thHtml}</div><div style="font-size:10px;color:var(--muted);text-align:center;margin-top:32px;padding-bottom:24px"><span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--green);margin-right:4px;vertical-align:middle"></span>Threshold data auto-updated by bot &middot; Manual items via Claude sessions &middot; Last sync ${upd}</div></div>`;
+}
+
+function addReminderLocal() {
+  const t=document.getElementById('rem-new-title'), p=document.getElementById('rem-new-priority'), j=document.getElementById('rem-new-project');
+  const title=(t&&t.value.trim())||''; if (!title) return;
+  if (!lastReminders) return;
+  lastReminders.manual.push({id:'local-'+Date.now(),title,description:'(added via browser — say "remind me to X" in Claude to save permanently)',priority:(p&&p.value)||'neutral',project:(j&&j.value)||'General',tags:[],added:new Date().toISOString().slice(0,10),done:false});
+  renderRemindersInto(lastReminders); updateBadgeCount();
+}
+
 
 // ── FETCH ─────────────────────────────────────────────────────────────────
 async function fetchAll() {
-  const [d, h] = await Promise.all([
+  const [d, h, rem] = await Promise.all([
     fetch(DATA_URL  + '?t=' + Date.now()).then(r => r.json()),
     fetch(HIST_URL  + '?t=' + Date.now()).then(r => r.json()),
+    fetch(REM_URL   + '?t=' + Date.now()).then(r => r.json()).catch(() => ({ manual: [], auto: [] })),
   ]);
-  lastData = d; lastHist = h;
+  lastData = d; lastHist = h; lastReminders = rem;
   render(d, h);
+  updateBadgeCount();
+  if (activeView === 'reminders') renderRemindersInto(rem);
 }
 
 // ── RENDER ────────────────────────────────────────────────────────────────
@@ -189,12 +354,20 @@ function render(d, hist) {
         </div>
       </div>
       <div class="status-pill"><div class="pulse"></div> PAPER · TRADING</div>
-      <button class="refresh-btn" id="refresh-btn" onclick="manualRefresh()">
+      <button id="nav-dashboard" onclick="showView('dashboard')" style="padding:5px 14px;border-radius:4px;font-size:11px;font-weight:600;letter-spacing:1px;cursor:pointer;border:1px solid var(--green);background:transparent;color:var(--green);font-family:var(--mono);transition:all .15s">DASHBOARD</button>
+  <button id="nav-reminders" onclick="showView('reminders')" style="padding:5px 14px;border-radius:4px;font-size:11px;font-weight:600;letter-spacing:1px;cursor:pointer;border:1px solid var(--border);background:transparent;color:var(--muted);font-family:var(--mono);transition:all .15s">REMINDERS <span id="rem-badge" style="display:none;align-items:center;justify-content:center;background:#da3633;color:#fff;border-radius:9px;font-size:10px;font-weight:700;padding:0 5px;min-width:16px;height:16px;margin-left:5px;vertical-align:middle">0</span></button>
+  <button class="refresh-btn" id="refresh-btn" onclick="manualRefresh()">
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/>
           <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
         </svg>
         REFRESH
+      </button>
+      <button class="opps-btn" id="opps-btn" onclick="toggleOpps()">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+        </svg>
+        OPPS
       </button>
       <div class="kpis">
         <div class="kpi">
@@ -227,9 +400,15 @@ function render(d, hist) {
           <div class="kpi-val" style="font-size:12px;color:var(--muted)">${gen.slice(0,25)}</div>
           <div class="kpi-sub">auto-refresh 60s</div>
         </div>
+        <div class="kpi" id="kpi-scan">
+          <div class="kpi-label">Next Scan</div>
+          <div class="kpi-val" id="scan-countdown" style="font-size:14px">--:--</div>
+          <div class="kpi-sub" id="scan-mode">computing...</div>
+        </div>
       </div>
     </div>
 
+    <div id="view-dashboard">
     <!-- MAIN GRID -->
     <div class="grid">
       <!-- BALANCE CHART -->
@@ -266,6 +445,12 @@ function render(d, hist) {
         </div>
       </div>
 
+      <!-- LEAD-TIME BRIER -->
+      <div class="panel" style="grid-column:1/-1">
+        <div class="panel-title">Lead-Time Brier Breakdown</div>
+        ${renderLeadBrier(d.lead_brier)}
+      </div>
+
       <!-- OPEN POSITIONS -->
       <div class="panel" style="grid-column:1/-1">
         <div class="section-header">
@@ -294,6 +479,9 @@ function render(d, hist) {
         ${renderCityLeaderboard(d.city_stats)}
       </div>
     </div>
+    </div>
+
+    <div id="view-reminders" style="display:none"></div>
 
     <div class="footer">
       <span>Hermes Weather Bot · Paper Trading · Polymarket V2</span>
@@ -487,7 +675,7 @@ function timeAgo(iso) {
 
 function setRange(r) {
   activeRange = r;
-  if (lastData && lastHist) render(lastData, lastHist);
+  if (lastData && lastHist) { render(lastData, lastHist); updateBadgeCount(); }
 }
 
 // ── MANUAL REFRESH ────────────────────────────────────────────────────────
@@ -499,11 +687,158 @@ function manualRefresh() {
     .finally(() => { if (btn) btn.classList.remove('spinning'); });
 }
 
+// ── OPPS MODAL ────────────────────────────────────────────────────────────
+function toggleOpps() {
+  const overlay = document.getElementById('opps-overlay');
+  const isOpen = overlay.classList.contains('open');
+  if (isOpen) { closeOpps(); } else { openOpps(); }
+}
+
+function openOpps() {
+  const overlay = document.getElementById('opps-overlay');
+  const btn = document.getElementById('opps-btn');
+  overlay.classList.add('open');
+  if (btn) btn.classList.add('active');
+  renderOpps(lastData);
+  document.addEventListener('keydown', handleEsc);
+}
+
+function closeOpps() {
+  const overlay = document.getElementById('opps-overlay');
+  const btn = document.getElementById('opps-btn');
+  overlay.classList.remove('open');
+  if (btn) btn.classList.remove('active');
+  document.removeEventListener('keydown', handleEsc);
+}
+
+function handleOverlayClick(e) {
+  if (e.target === document.getElementById('opps-overlay')) closeOpps();
+}
+
+function handleEsc(e) { if (e.key === 'Escape') closeOpps(); }
+
+function renderOpps(data) {
+  const el = document.getElementById('opps-content');
+  const upEl = document.getElementById('opps-updated');
+  if (!el) return;
+  const opps = data && data.opps;
+  if (!opps || !opps.opportunities || !opps.opportunities.length) {
+    el.innerHTML = '<div class="opp-empty">No opportunities data.<br>Run /scan-opportunities to populate.</div>';
+    return;
+  }
+  if (upEl && opps.updated) upEl.textContent = 'Updated ' + opps.updated;
+  el.innerHTML = opps.opportunities.map(o => {
+    const scoreColor = o.score >= 80 ? '#22d3a4' : o.score >= 70 ? 'var(--green)' : 'var(--amber)';
+    return `<div class="opp-row">
+      <div class="opp-score" style="color:${scoreColor}">${o.score}</div>
+      <div class="opp-info">
+        <div class="opp-name">${o.title}</div>
+        <div class="opp-tags">
+          <span class="opp-tag ttfd">${o.ttfd}</span>
+          <span class="opp-tag capital">${o.capital}</span>
+          ${o.status === 'new' ? '<span class="opp-tag" style="border-color:rgba(77,168,255,.3);color:var(--blue);background:rgba(77,168,255,.06)">NEW</span>' : ''}
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ── NEXT SCAN COUNTDOWN ───────────────────────────────────────────────────
+function startScanCountdown() {
+  updateScanCountdown();
+  setInterval(updateScanCountdown, 1000);
+}
+
+function updateScanCountdown() {
+  const el = document.getElementById('scan-countdown');
+  const modeEl = document.getElementById('scan-mode');
+  if (!el) return;
+
+  const now = new Date();
+  const utcH = now.getUTCHours();
+  const utcM = now.getUTCMinutes();
+  const utcS = now.getUTCSeconds();
+  const totalSec = utcH * 3600 + utcM * 60 + utcS;
+
+  // Check fast-scan mode: any position with hours_left < 6
+  const fastMode = lastData && lastData.open_positions &&
+    lastData.open_positions.some(p => p.hours_left != null && p.hours_left < 6);
+  const intervalSec = fastMode ? 20 * 60 : 3600;
+
+  // Candidate scan times in seconds from midnight UTC
+  const scanTimes = [];
+  for (let h = 0; h < 24; h++) {
+    scanTimes.push(h * 3600 + 55 * 60); // :55 each hour
+  }
+  scanTimes.push(6 * 3600 + 50 * 60);   // 06:50 UTC
+  scanTimes.push(18 * 3600 + 50 * 60);  // 18:50 UTC
+
+  // Find next scan time
+  let nextSec = null;
+  for (const t of scanTimes) {
+    const diff = t - totalSec;
+    if (diff > 0 && (nextSec === null || diff < nextSec)) nextSec = diff;
+  }
+  // If no time left today, use first tomorrow
+  if (nextSec === null) nextSec = 24 * 3600 - totalSec + 55 * 60;
+
+  // For fast mode, also consider 20-min intervals from now
+  if (fastMode) {
+    const modSec = totalSec % intervalSec;
+    const toNext = intervalSec - modSec;
+    if (toNext < nextSec) nextSec = toNext;
+  }
+
+  const mm = String(Math.floor(nextSec / 60)).padStart(2, '0');
+  const ss = String(nextSec % 60).padStart(2, '0');
+  el.textContent = mm + ':' + ss;
+  el.style.color = nextSec < 300 ? 'var(--amber)' : 'var(--text)';
+  if (modeEl) {
+    modeEl.textContent = fastMode ? 'FAST MODE' : 'normal';
+    modeEl.style.color = fastMode ? 'var(--amber)' : '';
+  }
+}
+
+// ── LEAD-TIME BRIER ───────────────────────────────────────────────────────
+function renderLeadBrier(lb) {
+  if (!lb || !Object.keys(lb).length) {
+    return '<div style="color:var(--muted);padding:12px 0;font-size:12px">Awaiting resolved trades...</div>';
+  }
+  const bands = [
+    { key: 'lt6',    label: '< 6h',   },
+    { key: '6to24',  label: '6–24h',  },
+    { key: '24to48', label: '24–48h', },
+    { key: 'gt48',   label: '48h+',   },
+  ];
+  const rows = bands.map(b => {
+    const d = lb[b.key];
+    if (!d || d.n === 0) return `
+      <div style="display:flex;align-items:center;gap:16px;padding:8px 0;border-bottom:1px solid var(--border)">
+        <div style="width:60px;font-family:var(--mono);font-size:11px;color:var(--muted)">${b.label}</div>
+        <div style="color:var(--muted);font-size:11px;flex:1">no data</div>
+      </div>`;
+    const score = d.brier;
+    const color = score < 0.20 ? 'var(--green)' : score < 0.25 ? 'var(--amber)' : 'var(--red)';
+    const barW  = Math.min(score * 400, 200);
+    return `
+      <div style="display:flex;align-items:center;gap:16px;padding:8px 0;border-bottom:1px solid var(--border)">
+        <div style="width:60px;font-family:var(--mono);font-size:11px;color:var(--muted)">${b.label}</div>
+        <div style="font-family:var(--mono);font-size:14px;font-weight:600;color:${color};width:48px">${score.toFixed(3)}</div>
+        <div style="flex:1;height:4px;background:var(--border);border-radius:2px;max-width:200px">
+          <div style="height:100%;width:${barW}px;background:${color};border-radius:2px;transition:width .5s"></div>
+        </div>
+        <div style="font-size:10px;color:var(--muted);font-family:var(--mono);width:40px">n=${d.n}</div>
+      </div>`;
+  }).join('');
+  return `<div style="max-width:500px">${rows}</div>`;
+}
+
 // ── INIT ──────────────────────────────────────────────────────────────────
 fetchAll().catch(e => {
   document.getElementById('app').innerHTML = `<div class="error-msg">Failed to load data: ${e.message}<br><small>Check console. GitHub raw URL may have CORS delay on first push.</small></div>`;
 });
 setInterval(fetchAll, REFRESH_MS);
+startScanCountdown();
 </script>
 </body>
 </html>
