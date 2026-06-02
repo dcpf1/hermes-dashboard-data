@@ -1,13 +1,15 @@
 {
-  "updated_at": "2026-06-02T00:00:00Z",
+  "updated_at": "2026-06-02T17:48:10.771992+00:00",
   "manual": [
     {
       "id": "s133-fix",
-      "title": "S133 Config Fix — cap hour windows at 48",
+      "title": "S133 Config Fix \u2014 cap hour windows at 48",
       "description": "Set max_yes_hours + max_no_hours to 48. Add \"ankara\" to halted_cities. 48h+ band is Brier 0.335, -$5.26 PnL. Hot-reload, no restart needed.",
       "priority": "high",
       "project": "Weatherbot",
-      "tags": ["config.json"],
+      "tags": [
+        "config.json"
+      ],
       "added": "2026-05-28",
       "done": false
     },
@@ -17,17 +19,22 @@
       "description": "LOGIC-M4: BS >= 0.25 must halt the scan loop in bot_v2.py. Currently computed but not enforced. Wire in before LIVE_MODE = True.",
       "priority": "high",
       "project": "Weatherbot",
-      "tags": ["bot_v2.py"],
+      "tags": [
+        "bot_v2.py"
+      ],
       "added": "2026-05-26",
       "done": false
     },
     {
       "id": "golive-deadline",
-      "title": "Go-live decision deadline — June 22",
+      "title": "Go-live decision deadline \u2014 June 22",
       "description": "Polymarket V1 expires June 30. Flip LIVE_MODE = True, set circuit_dry_run: false, raise min_size to $1.00. Decision needed by June 22 for buffer.",
       "priority": "warn",
       "project": "Weatherbot",
-      "tags": ["bot_v2.py", "config.json"],
+      "tags": [
+        "bot_v2.py",
+        "config.json"
+      ],
       "added": "2026-05-19",
       "done": false
     },
@@ -37,33 +44,39 @@
       "description": "LIVE-H2: Weather markets are negRisk=True, must use NegRiskAdapter (0xd91E80...) not raw CTF. Implement before first live win or funds stay unredeemed.",
       "priority": "high",
       "project": "Weatherbot",
-      "tags": ["bot_v2.py"],
+      "tags": [
+        "bot_v2.py"
+      ],
       "added": "2026-05-26",
       "done": false
     },
     {
       "id": "bug-28",
-      "title": "Bug #28 — station-mismatch TP guard",
+      "title": "Bug #28 \u2014 station-mismatch TP guard",
       "description": "Add continue when first mismatch appears in station-mismatch detection logic. Low risk but should be done before go-live.",
       "priority": "neutral",
       "project": "Weatherbot",
-      "tags": ["bot_v2.py"],
+      "tags": [
+        "bot_v2.py"
+      ],
       "added": "2026-05-26",
       "done": false
     },
     {
       "id": "bug-36",
-      "title": "Bug #36 — print_status KeyError guard",
+      "title": "Bug #36 \u2014 print_status KeyError guard",
       "description": "Trivial guard missing in print_status function. Do when convenient.",
       "priority": "neutral",
       "project": "Weatherbot",
-      "tags": ["bot_v2.py"],
+      "tags": [
+        "bot_v2.py"
+      ],
       "added": "2026-05-26",
       "done": false
     },
     {
       "id": "btc-bot-start",
-      "title": "BTC Bot — paper trader built, not yet running",
+      "title": "BTC Bot \u2014 paper trader built, not yet running",
       "description": "Tick recorder + paper trader built. Top edges: London Open Fade (65% UP at 09:50 UTC), Down Stickiness (74% hold). Parked until Weatherbot is profitable live.",
       "priority": "neutral",
       "project": "BTC Bot",
@@ -72,5 +85,54 @@
       "done": false
     }
   ],
-  "auto": []
+  "auto": [
+    {
+      "id": "corr-cap-mult",
+      "title": "Restore corr_group_cap_mult to 2.0",
+      "description": "Restore from 1.0 to 2.0 in config.json -- allows 2 simultaneous positions per synoptic group. Condition: n >= 50 AND Brier < 0.20. n threshold met. Brier 0.208 >= 0.20 -- wait for recovery.",
+      "type": "threshold",
+      "priority": "info",
+      "project": "Weatherbot",
+      "current": 129,
+      "target": 50,
+      "unit": "resolved trades",
+      "met": false
+    },
+    {
+      "id": "gepa-optimizer",
+      "title": "Re-run GEPA optimizer at n = 300",
+      "description": "Run: python3 config_optimizer.py optimize --trials 200 --walk-forward 4. Compare vs baseline run 20260601_224455. kelly 0.45 suggestion: IGNORE. Hour tightening: credible if it reappears.",
+      "type": "threshold",
+      "priority": "info",
+      "project": "Weatherbot",
+      "current": 129,
+      "target": 300,
+      "unit": "resolved trades",
+      "met": false
+    },
+    {
+      "id": "city-curator",
+      "title": "Activate city curator at n = 580",
+      "description": "Set curator_enabled: true in config.json. Flags underperforming cities using 95% CI on Brier. Hot-reload, no restart.",
+      "type": "threshold",
+      "priority": "neutral",
+      "project": "Weatherbot",
+      "current": 129,
+      "target": 580,
+      "unit": "resolved trades",
+      "met": false
+    },
+    {
+      "id": "golive-countdown",
+      "title": "Go-live deadline: 19 days left (June 30)",
+      "description": "Polymarket V1 contracts expire June 30 2026. Decision needed by June 22 (19 days). Steps: flip LIVE_MODE = True, circuit_dry_run: false, min_size >= $1.00.",
+      "type": "countdown",
+      "priority": "warn",
+      "project": "Weatherbot",
+      "current": 19,
+      "target": 0,
+      "unit": "days remaining",
+      "met": false
+    }
+  ]
 }
