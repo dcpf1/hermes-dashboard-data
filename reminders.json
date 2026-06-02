@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T18:00:04.079006+00:00",
+  "updated_at": "2026-06-02T19:00:11.326729+00:00",
   "manual": [
     {
       "id": "s133-fix",
@@ -89,11 +89,11 @@
     {
       "id": "corr-cap-mult",
       "title": "Restore corr_group_cap_mult to 2.0",
-      "description": "Restore from 1.0 to 2.0 in config.json -- allows 2 simultaneous positions per synoptic group. Condition: n >= 50 AND Brier < 0.20. n threshold met. Brier 0.208 >= 0.20 -- wait for recovery.",
+      "description": "Restore from 1.0 to 2.0 in config.json -- allows 2 simultaneous positions per synoptic group. Condition: n >= 50 AND Brier < 0.20. n threshold met. Brier 0.213 >= 0.20 -- wait for recovery.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 129,
+      "current": 140,
       "target": 50,
       "unit": "resolved trades",
       "met": false
@@ -105,7 +105,7 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 129,
+      "current": 140,
       "target": 300,
       "unit": "resolved trades",
       "met": false
@@ -117,7 +117,7 @@
       "type": "threshold",
       "priority": "neutral",
       "project": "Weatherbot",
-      "current": 129,
+      "current": 140,
       "target": 580,
       "unit": "resolved trades",
       "met": false
