@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T22:00:10.982368+00:00",
+  "updated_at": "2026-06-03T11:13:58.536980+00:00",
   "manual": [
     {
       "id": "s133-fix",
@@ -124,12 +124,12 @@
     },
     {
       "id": "golive-countdown",
-      "title": "Go-live deadline: 19 days left (June 30)",
-      "description": "Polymarket V1 contracts expire June 30 2026. Decision needed by June 22 (19 days). Steps: flip LIVE_MODE = True, circuit_dry_run: false, min_size >= $1.00.",
+      "title": "Go-live deadline: 18 days left (June 30)",
+      "description": "Polymarket V1 contracts expire June 30 2026. Decision needed by June 22 (18 days). Steps: flip LIVE_MODE = True, circuit_dry_run: false, min_size >= $1.00.",
       "type": "countdown",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 19,
+      "current": 18,
       "target": 0,
       "unit": "days remaining",
       "met": false

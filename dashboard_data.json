@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-02T22:00:10.982368+00:00",
+  "generated_at": "2026-06-03T11:13:58.536980+00:00",
   "balance": {
-    "current": 84.58,
-    "cash": 60.34,
-    "deployed": 17.54,
-    "unrealized": 6.7,
+    "current": 86.06,
+    "cash": 59.53,
+    "deployed": 19.48,
+    "unrealized": 7.05,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 34.58,
-    "pnl_pct": 69.2
+    "pnl_usd": 36.06,
+    "pnl_pct": 72.1
   },
   "trades": {
-    "total": 166,
+    "total": 169,
     "wins": 97,
     "losses": 48,
     "total_pnl": 27.6
@@ -42,7 +42,7 @@
       "n_agree": 4,
       "n_avail": 4,
       "opened_at": "2026-06-01T19:06:53.971443+00:00",
-      "hours_left": 14.0,
+      "hours_left": 0.8,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.71
@@ -62,7 +62,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-01T15:57:31.513580+00:00",
-      "hours_left": 14.0,
+      "hours_left": 0.8,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.4
@@ -82,7 +82,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-02T11:33:58.417353+00:00",
-      "hours_left": 14.0,
+      "hours_left": 0.8,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 1.08
@@ -102,7 +102,7 @@
       "n_agree": 4,
       "n_avail": 5,
       "opened_at": "2026-06-02T12:58:46.510657+00:00",
-      "hours_left": 14.0,
+      "hours_left": 0.8,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.38
@@ -122,7 +122,7 @@
       "n_agree": 4,
       "n_avail": 5,
       "opened_at": "2026-06-02T17:58:29.455590+00:00",
-      "hours_left": 14.0,
+      "hours_left": 0.8,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 1.16
@@ -142,7 +142,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-06-01T05:58:02.047597+00:00",
-      "hours_left": 14.0,
+      "hours_left": 0.8,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.27
@@ -162,7 +162,7 @@
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-06-01T19:11:53.625256+00:00",
-      "hours_left": 14.0,
+      "hours_left": 0.8,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.59
@@ -182,50 +182,10 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-06-01T11:53:58.585239+00:00",
-      "hours_left": 14.0,
+      "hours_left": 0.8,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.31
-    },
-    {
-      "city": "Tel Aviv",
-      "date": "2026-06-03",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 30.0,
-      "bucket_high": 30.0,
-      "entry_price": 0.64,
-      "shares": 1.75,
-      "cost": 1.12,
-      "current_p": 0.9108,
-      "ev_pct": 27.1,
-      "n_agree": 5,
-      "n_avail": 5,
-      "opened_at": "2026-06-01T05:59:08.975253+00:00",
-      "hours_left": 14.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.47
-    },
-    {
-      "city": "Helsinki",
-      "date": "2026-06-03",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 21.0,
-      "bucket_high": 21.0,
-      "entry_price": 0.74,
-      "shares": 1.92,
-      "cost": 1.42,
-      "current_p": 0.9445,
-      "ev_pct": 20.5,
-      "n_agree": 5,
-      "n_avail": 5,
-      "opened_at": "2026-06-01T07:14:29.113970+00:00",
-      "hours_left": 14.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.39
     },
     {
       "city": "Ankara",
@@ -242,7 +202,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-02T15:57:27.262718+00:00",
-      "hours_left": 14.0,
+      "hours_left": 0.8,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.35
@@ -262,10 +222,50 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-02T12:58:46.510657+00:00",
-      "hours_left": 38.0,
+      "hours_left": 24.8,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.17
+    },
+    {
+      "city": "Chongqing",
+      "date": "2026-06-04",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 32.0,
+      "bucket_high": 32.0,
+      "entry_price": 0.8,
+      "shares": 1.79,
+      "cost": 1.43,
+      "current_p": 0.9453,
+      "ev_pct": 14.5,
+      "n_agree": 3,
+      "n_avail": 5,
+      "opened_at": "2026-06-03T09:59:12.373331+00:00",
+      "hours_left": 24.8,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.26
+    },
+    {
+      "city": "Los Angeles",
+      "date": "2026-06-04",
+      "unit": "F",
+      "side": "NO",
+      "bucket_low": 72.0,
+      "bucket_high": 73.0,
+      "entry_price": 0.71,
+      "shares": 2.08,
+      "cost": 1.48,
+      "current_p": 0.9484,
+      "ev_pct": 23.8,
+      "n_agree": 4,
+      "n_avail": 4,
+      "opened_at": "2026-06-02T22:15:09.919178+00:00",
+      "hours_left": 24.8,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.5
     },
     {
       "city": "Tel Aviv",
@@ -282,10 +282,30 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-06-02T11:34:13.164771+00:00",
-      "hours_left": 38.0,
+      "hours_left": 24.8,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.42
+    },
+    {
+      "city": "Helsinki",
+      "date": "2026-06-05",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 23.0,
+      "bucket_high": 23.0,
+      "entry_price": 0.74,
+      "shares": 2.12,
+      "cost": 1.57,
+      "current_p": 0.9543,
+      "ev_pct": 21.4,
+      "n_agree": 5,
+      "n_avail": 5,
+      "opened_at": "2026-06-03T09:57:55.753032+00:00",
+      "hours_left": 48.8,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.45
     }
   ],
   "recent_resolved": [
@@ -566,6 +586,30 @@
       "lead_h": 48.0
     },
     {
+      "ts": "2026-06-01T07:14:29.113970+00:00",
+      "city": "Helsinki",
+      "date": "2026-06-03",
+      "side": "NO",
+      "bucket": "21.0-21.0C",
+      "entry": 0.74,
+      "correct": true,
+      "pnl": 0.5,
+      "closed_by": "take_profit",
+      "lead_h": 52.0
+    },
+    {
+      "ts": "2026-06-01T05:59:08.975253+00:00",
+      "city": "Tel Aviv",
+      "date": "2026-06-03",
+      "side": "NO",
+      "bucket": "30.0-30.0C",
+      "entry": 0.64,
+      "correct": true,
+      "pnl": 0.63,
+      "closed_by": "take_profit",
+      "lead_h": 54.0
+    },
+    {
       "ts": "2026-06-01T04:57:56.649955+00:00",
       "city": "Madrid",
       "date": "2026-06-03",
@@ -624,30 +668,6 @@
       "pnl": 0.53,
       "closed_by": "resolved",
       "lead_h": 55.0
-    },
-    {
-      "ts": "2026-05-31T18:05:57.388565+00:00",
-      "city": "Miami",
-      "date": "2026-05-31",
-      "side": "YES",
-      "bucket": "88.0-89.0F",
-      "entry": 0.18,
-      "correct": true,
-      "pnl": 4.61,
-      "closed_by": "resolved",
-      "lead_h": 35.0
-    },
-    {
-      "ts": "2026-05-31T18:05:57.388565+00:00",
-      "city": "Toronto",
-      "date": "2026-05-31",
-      "side": "NO",
-      "bucket": "24.0-24.0C",
-      "entry": 0.7,
-      "correct": false,
-      "pnl": -1.01,
-      "closed_by": "resolved",
-      "lead_h": 54.0
     }
   ],
   "city_stats": {
@@ -797,5 +817,63 @@
       "total_pnl": -7.72
     }
   },
-  "circuit_triggered_at": "2026-05-19T21:53:50.538692+00:00"
+  "circuit_triggered_at": "2026-05-19T21:53:50.538692+00:00",
+  "opps": {
+    "updated": "2026-06-01",
+    "opportunities": [
+      {
+        "score": 83,
+        "title": "V2 Sum-Arb Bot (pUSD CLOB)",
+        "ttfd": "7d",
+        "capital": "$100",
+        "status": "new"
+      },
+      {
+        "score": 81,
+        "title": "Ladder MM on V2 CLOB + $1M Incentive",
+        "ttfd": "14d",
+        "capital": "$100",
+        "status": "new"
+      },
+      {
+        "score": 78,
+        "title": "Public Trading Dashboard",
+        "ttfd": "30d",
+        "capital": "$0",
+        "status": "new"
+      },
+      {
+        "score": 77,
+        "title": "Claude Code Course for Crypto Traders",
+        "ttfd": "21d",
+        "capital": "$0",
+        "status": "new"
+      },
+      {
+        "score": 74,
+        "title": "AI Agent White-Label for Crypto Niches",
+        "ttfd": "21d",
+        "capital": "$100",
+        "status": "new"
+      }
+    ]
+  },
+  "lead_brier": {
+    "lt6": {
+      "brier": null,
+      "n": 0
+    },
+    "6to24": {
+      "brier": 0.1242,
+      "n": 16
+    },
+    "24to48": {
+      "brier": 0.2171,
+      "n": 87
+    },
+    "gt48": {
+      "brier": 0.24,
+      "n": 38
+    }
+  }
 }
