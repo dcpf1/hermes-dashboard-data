@@ -1,6 +1,16 @@
 {
-  "updated_at": "2026-06-03T11:13:58.536980+00:00",
+  "updated_at": "2026-06-03T20:35:00.000000+00:00",
   "manual": [
+    {
+      "id": "gfs-ens-chkpt",
+      "title": "GFS Ens Mults — review now (n=23)",
+      "description": "[CHKPT] Bot hit 23 GFS ensemble trades. Run: grep ens_gfs_std resolved.jsonl | python3 analytics.py brier-by-lead -- then check Brier by spread quartile. Decide whether to keep or disable GFS ensemble weighting.",
+      "priority": "high",
+      "project": "Weatherbot",
+      "tags": ["analytics", "bot_v2.py"],
+      "added": "2026-06-03",
+      "done": false
+    },
     {
       "id": "s133-fix",
       "title": "S133 Config Fix \u2014 cap hour windows at 48",
