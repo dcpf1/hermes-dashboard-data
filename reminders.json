@@ -1,13 +1,16 @@
 {
-  "updated_at": "2026-06-03T20:35:00.000000+00:00",
+  "updated_at": "2026-06-04T18:29:34.405945+00:00",
   "manual": [
     {
       "id": "gfs-ens-chkpt",
-      "title": "GFS Ens Mults — review now (n=23)",
+      "title": "GFS Ens Mults \u2014 review now (n=23)",
       "description": "[CHKPT] Bot hit 23 GFS ensemble trades. Run: grep ens_gfs_std resolved.jsonl | python3 analytics.py brier-by-lead -- then check Brier by spread quartile. Decide whether to keep or disable GFS ensemble weighting.",
       "priority": "high",
       "project": "Weatherbot",
-      "tags": ["analytics", "bot_v2.py"],
+      "tags": [
+        "analytics",
+        "bot_v2.py"
+      ],
       "added": "2026-06-03",
       "done": false
     },
@@ -99,11 +102,11 @@
     {
       "id": "corr-cap-mult",
       "title": "Restore corr_group_cap_mult to 2.0",
-      "description": "Restore from 1.0 to 2.0 in config.json -- allows 2 simultaneous positions per synoptic group. Condition: n >= 50 AND Brier < 0.20. n threshold met. Brier 0.213 >= 0.20 -- wait for recovery.",
+      "description": "Restore from 1.0 to 2.0 in config.json -- allows 2 simultaneous positions per synoptic group. Condition: n >= 50 AND Brier < 0.20. n threshold met. Brier 0.229 >= 0.20 -- wait for recovery.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 140,
+      "current": 161,
       "target": 50,
       "unit": "resolved trades",
       "met": false
@@ -115,7 +118,7 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 140,
+      "current": 161,
       "target": 300,
       "unit": "resolved trades",
       "met": false
@@ -127,19 +130,31 @@
       "type": "threshold",
       "priority": "neutral",
       "project": "Weatherbot",
-      "current": 140,
+      "current": 161,
       "target": 580,
       "unit": "resolved trades",
       "met": false
     },
     {
+      "id": "brier-risk",
+      "title": "Brier 0.229 -- above go-live threshold (0.22)",
+      "description": "Do not flip LIVE_MODE until Brier recovers below 0.22.",
+      "type": "alert",
+      "priority": "high",
+      "project": "Weatherbot",
+      "current": 0.229,
+      "target": 0.22,
+      "unit": "Brier score",
+      "met": false
+    },
+    {
       "id": "golive-countdown",
-      "title": "Go-live deadline: 18 days left (June 30)",
-      "description": "Polymarket V1 contracts expire June 30 2026. Decision needed by June 22 (18 days). Steps: flip LIVE_MODE = True, circuit_dry_run: false, min_size >= $1.00.",
+      "title": "Go-live deadline: 17 days left (June 30)",
+      "description": "Polymarket V1 contracts expire June 30 2026. Decision needed by June 22 (17 days). Steps: flip LIVE_MODE = True, circuit_dry_run: false, min_size >= $1.00.",
       "type": "countdown",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 18,
+      "current": 17,
       "target": 0,
       "unit": "days remaining",
       "met": false
