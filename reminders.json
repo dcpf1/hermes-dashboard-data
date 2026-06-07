@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04T18:29:34.405945+00:00",
+  "updated_at": "2026-06-07T17:31:48.112626+00:00",
   "manual": [
     {
       "id": "gfs-ens-chkpt",
@@ -106,7 +106,7 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 161,
+      "current": 180,
       "target": 50,
       "unit": "resolved trades",
       "met": false
@@ -118,7 +118,7 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 161,
+      "current": 180,
       "target": 300,
       "unit": "resolved trades",
       "met": false
@@ -130,7 +130,7 @@
       "type": "threshold",
       "priority": "neutral",
       "project": "Weatherbot",
-      "current": 161,
+      "current": 180,
       "target": 580,
       "unit": "resolved trades",
       "met": false
@@ -149,12 +149,12 @@
     },
     {
       "id": "golive-countdown",
-      "title": "Go-live deadline: 17 days left (June 30)",
-      "description": "Polymarket V1 contracts expire June 30 2026. Decision needed by June 22 (17 days). Steps: flip LIVE_MODE = True, circuit_dry_run: false, min_size >= $1.00.",
+      "title": "Go-live deadline: 14 days left (June 30)",
+      "description": "Polymarket V1 contracts expire June 30 2026. Decision needed by June 22 (14 days). Steps: flip LIVE_MODE = True, circuit_dry_run: false, min_size >= $1.00.",
       "type": "countdown",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 17,
+      "current": 14,
       "target": 0,
       "unit": "days remaining",
       "met": false
