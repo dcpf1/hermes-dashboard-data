@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-07T18:04:40.830836+00:00",
+  "updated_at": "2026-06-08T23:06:59.127238+00:00",
   "manual": [
     {
       "id": "logic-m4",
@@ -90,11 +90,11 @@
     {
       "id": "corr-cap-mult",
       "title": "Restore corr_group_cap_mult to 2.0",
-      "description": "Restore from 1.0 to 2.0 in config.json -- allows 2 simultaneous positions per synoptic group. Condition: n >= 50 AND Brier < 0.20. n threshold met. Brier 0.229 >= 0.20 -- wait for recovery.",
+      "description": "Restore from 1.0 to 2.0 in config.json -- allows 2 simultaneous positions per synoptic group. Condition: n >= 50 AND Brier < 0.20. n threshold met. Brier 0.223 >= 0.20 -- wait for recovery.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 180,
+      "current": 196,
       "target": 50,
       "unit": "resolved trades",
       "met": false
@@ -106,7 +106,7 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 180,
+      "current": 196,
       "target": 300,
       "unit": "resolved trades",
       "met": false
@@ -118,31 +118,31 @@
       "type": "threshold",
       "priority": "neutral",
       "project": "Weatherbot",
-      "current": 180,
+      "current": 196,
       "target": 580,
       "unit": "resolved trades",
       "met": false
     },
     {
       "id": "brier-risk",
-      "title": "Brier 0.229 -- above go-live threshold (0.22)",
+      "title": "Brier 0.223 -- above go-live threshold (0.22)",
       "description": "Do not flip LIVE_MODE until Brier recovers below 0.22.",
       "type": "alert",
       "priority": "high",
       "project": "Weatherbot",
-      "current": 0.229,
+      "current": 0.223,
       "target": 0.22,
       "unit": "Brier score",
       "met": false
     },
     {
       "id": "golive-countdown",
-      "title": "Go-live deadline: 14 days left (June 30)",
-      "description": "Polymarket V1 contracts expire June 30 2026. Decision needed by June 22 (14 days). Steps: flip LIVE_MODE = True, circuit_dry_run: false, min_size >= $1.00.",
+      "title": "Go-live deadline: 13 days left (June 30)",
+      "description": "Polymarket V1 contracts expire June 30 2026. Decision needed by June 22 (13 days). Steps: flip LIVE_MODE = True, circuit_dry_run: false, min_size >= $1.00.",
       "type": "countdown",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 14,
+      "current": 13,
       "target": 0,
       "unit": "days remaining",
       "met": false
