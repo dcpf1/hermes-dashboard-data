@@ -14,16 +14,16 @@
       "done": false
     },
     {
-      "id": "golive-deadline",
-      "title": "Go-live decision deadline -- June 22",
-      "description": "Polymarket V1 expires June 30. Flip LIVE_MODE = True, set circuit_dry_run: false, raise min_size to $1.00. Decision needed by June 22 for buffer.",
-      "priority": "warn",
+      "id": "golive-condition",
+      "title": "Go-live: flip LIVE_MODE when Brier <= 0.22",
+      "description": "V2 fully implemented. To go live: (1) LIVE_MODE = True in bot_v2.py, (2) circuit_dry_run: false in config.json, (3) confirm .00 min bet floor. Gate: Brier <= 0.22. Currently 0.224 -- check report before flipping.",
+      "priority": "high",
       "project": "Weatherbot",
       "tags": [
         "bot_v2.py",
         "config.json"
       ],
-      "added": "2026-05-19",
+      "added": "2026-06-11",
       "done": false
     },
     {
@@ -183,18 +183,6 @@
       "current": 0.224,
       "target": 0.22,
       "unit": "Brier score",
-      "met": false
-    },
-    {
-      "id": "golive-countdown",
-      "title": "Go-live deadline: 20 days left (June 30)",
-      "description": "Polymarket V1 contracts expire June 30 2026. Decision needed by June 22. Steps: flip LIVE_MODE = True, circuit_dry_run: false, min_size >= $1.00.",
-      "type": "countdown",
-      "priority": "warn",
-      "project": "Weatherbot",
-      "current": 20,
-      "target": 0,
-      "unit": "days remaining",
       "met": false
     }
   ]
