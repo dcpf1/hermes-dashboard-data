@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10T00:05:21.184324+00:00",
+  "updated_at": "2026-06-10T16:30:00.000000+00:00",
   "manual": [
     {
       "id": "logic-m4",
@@ -87,13 +87,26 @@
     },
     {
       "id": "bootstrap-verify",
-      "title": "Bootstrap done -- verify output before LightGBM training",
-      "description": "historical_bootstrap.py running since June 10. When done: verify data/historical_bootstrap.jsonl exists with >5000 rows. Do NOT delete bootstrap_cache/ or the JSONL -- both needed for n=500 retrain.",
+      "title": "Bootstrap complete -- 47,060 rows verified",
+      "description": "historical_bootstrap.py completed June 10. Output: data/historical_bootstrap.jsonl (47,060 rows: 23,702 YES + 23,358 NO). Do NOT delete bootstrap_cache/ or the JSONL -- both needed for n=500 retrain.",
       "priority": "neutral",
       "project": "Weatherbot",
       "tags": [
         "historical_bootstrap.py",
         "lgbm"
+      ],
+      "added": "2026-06-10",
+      "done": true
+    },
+    {
+      "id": "meta-shadow-check",
+      "title": "Check meta_shadow.jsonl after 2 weeks (around June 24)",
+      "description": "Meta-model shadow mode enabled June 10. Check data/meta_shadow.jsonl for >= 30 NO candidates. Verify mult_would points right direction: down on eventual losers, up on winners. If it does, flip meta_apply_mode: live and restart. NO model val_brier=0.1979 (PASS). YES model still failing gate (n=36 live YES, needs ~70).",
+      "priority": "info",
+      "project": "Weatherbot",
+      "tags": [
+        "lgbm",
+        "config.json"
       ],
       "added": "2026-06-10",
       "done": false
@@ -107,7 +120,7 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 207,
+      "current": 212,
       "target": 50,
       "unit": "resolved trades",
       "met": false
@@ -119,31 +132,31 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 207,
+      "current": 212,
       "target": 300,
       "unit": "resolved trades",
       "met": false
     },
     {
       "id": "lgbm-train-n300",
-      "title": "Train LightGBM meta-model at n = 300",
-      "description": "Run train_meta_model.py (build script before this triggers). Trains lgbm_model_NO.pkl (live NO rows) and lgbm_model_YES.pkl (bootstrap + live YES). Deploy only if val_brier < 0.222. Enable shadow mode first: meta_model_enabled: true, meta_apply_mode: shadow.",
+      "title": "Retrain LightGBM models at n = 300",
+      "description": "Re-run train_meta_model.py. NO model already passed at n=208 (val_brier=0.1979). YES model failed (n=36 live YES, val_brier=0.2343). At n=300, YES should have ~50+ live trades -- may pass the 0.222 gate. Both models retrain together. Shadow mode already live in bot.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 207,
+      "current": 212,
       "target": 300,
       "unit": "resolved trades",
       "met": false
     },
     {
       "id": "lgbm-retrain-n500",
-      "title": "Retrain LightGBM models at n = 500",
-      "description": "Retrain both models with expanded live data. v2 adds inter_model_spread and n_models features (populated after June 10 2026 -- check coverage first). Shadow soak >=2 weeks before flipping meta_apply_mode: live.",
+      "title": "Retrain LightGBM models at n = 500 (v2 features)",
+      "description": "Retrain both models with v2 feature set: adds inter_model_spread and n_models (only populated in rows logged after June 10 2026 -- check coverage first). YES model should have ~85 live trades by n=500 and will pass gate. Shadow soak >=2 weeks before flipping meta_apply_mode: live.",
       "type": "threshold",
       "priority": "neutral",
       "project": "Weatherbot",
-      "current": 207,
+      "current": 212,
       "target": 500,
       "unit": "resolved trades",
       "met": false
@@ -155,7 +168,7 @@
       "type": "threshold",
       "priority": "neutral",
       "project": "Weatherbot",
-      "current": 207,
+      "current": 212,
       "target": 580,
       "unit": "resolved trades",
       "met": false
@@ -167,19 +180,19 @@
       "type": "alert",
       "priority": "high",
       "project": "Weatherbot",
-      "current": 0.222,
+      "current": 0.224,
       "target": 0.22,
       "unit": "Brier score",
       "met": false
     },
     {
       "id": "golive-countdown",
-      "title": "Go-live deadline: 12 days left (June 30)",
-      "description": "Polymarket V1 contracts expire June 30 2026. Decision needed by June 22 (12 days). Steps: flip LIVE_MODE = True, circuit_dry_run: false, min_size >= $1.00.",
+      "title": "Go-live deadline: 20 days left (June 30)",
+      "description": "Polymarket V1 contracts expire June 30 2026. Decision needed by June 22. Steps: flip LIVE_MODE = True, circuit_dry_run: false, min_size >= $1.00.",
       "type": "countdown",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 12,
+      "current": 20,
       "target": 0,
       "unit": "days remaining",
       "met": false
