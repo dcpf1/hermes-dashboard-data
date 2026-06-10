@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T20:14:23.632833+00:00",
+  "updated_at": "2026-06-10T00:05:21.184324+00:00",
   "manual": [
     {
       "id": "logic-m4",
@@ -84,6 +84,19 @@
       "tags": [],
       "added": "2026-05-01",
       "done": false
+    },
+    {
+      "id": "bootstrap-verify",
+      "title": "Bootstrap done -- verify output before LightGBM training",
+      "description": "historical_bootstrap.py running since June 10. When done: verify data/historical_bootstrap.jsonl exists with >5000 rows. Do NOT delete bootstrap_cache/ or the JSONL -- both needed for n=500 retrain.",
+      "priority": "neutral",
+      "project": "Weatherbot",
+      "tags": [
+        "historical_bootstrap.py",
+        "lgbm"
+      ],
+      "added": "2026-06-10",
+      "done": false
     }
   ],
   "auto": [
@@ -108,6 +121,30 @@
       "project": "Weatherbot",
       "current": 207,
       "target": 300,
+      "unit": "resolved trades",
+      "met": false
+    },
+    {
+      "id": "lgbm-train-n300",
+      "title": "Train LightGBM meta-model at n = 300",
+      "description": "Run train_meta_model.py (build script before this triggers). Trains lgbm_model_NO.pkl (live NO rows) and lgbm_model_YES.pkl (bootstrap + live YES). Deploy only if val_brier < 0.222. Enable shadow mode first: meta_model_enabled: true, meta_apply_mode: shadow.",
+      "type": "threshold",
+      "priority": "info",
+      "project": "Weatherbot",
+      "current": 207,
+      "target": 300,
+      "unit": "resolved trades",
+      "met": false
+    },
+    {
+      "id": "lgbm-retrain-n500",
+      "title": "Retrain LightGBM models at n = 500",
+      "description": "Retrain both models with expanded live data. v2 adds inter_model_spread and n_models features (populated after June 10 2026 -- check coverage first). Shadow soak >=2 weeks before flipping meta_apply_mode: live.",
+      "type": "threshold",
+      "priority": "neutral",
+      "project": "Weatherbot",
+      "current": 207,
+      "target": 500,
       "unit": "resolved trades",
       "met": false
     },
