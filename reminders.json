@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10T16:30:00.000000+00:00",
+  "updated_at": "2026-06-13T09:23:20.129490+00:00",
   "manual": [
     {
       "id": "logic-m4",
@@ -120,7 +120,7 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 212,
+      "current": 234,
       "target": 50,
       "unit": "resolved trades",
       "met": false
@@ -132,32 +132,8 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 212,
+      "current": 234,
       "target": 300,
-      "unit": "resolved trades",
-      "met": false
-    },
-    {
-      "id": "lgbm-train-n300",
-      "title": "Retrain LightGBM models at n = 300",
-      "description": "Re-run train_meta_model.py. NO model already passed at n=208 (val_brier=0.1979). YES model failed (n=36 live YES, val_brier=0.2343). At n=300, YES should have ~50+ live trades -- may pass the 0.222 gate. Both models retrain together. Shadow mode already live in bot.",
-      "type": "threshold",
-      "priority": "info",
-      "project": "Weatherbot",
-      "current": 212,
-      "target": 300,
-      "unit": "resolved trades",
-      "met": false
-    },
-    {
-      "id": "lgbm-retrain-n500",
-      "title": "Retrain LightGBM models at n = 500 (v2 features)",
-      "description": "Retrain both models with v2 feature set: adds inter_model_spread and n_models (only populated in rows logged after June 10 2026 -- check coverage first). YES model should have ~85 live trades by n=500 and will pass gate. Shadow soak >=2 weeks before flipping meta_apply_mode: live.",
-      "type": "threshold",
-      "priority": "neutral",
-      "project": "Weatherbot",
-      "current": 212,
-      "target": 500,
       "unit": "resolved trades",
       "met": false
     },
@@ -168,7 +144,7 @@
       "type": "threshold",
       "priority": "neutral",
       "project": "Weatherbot",
-      "current": 212,
+      "current": 234,
       "target": 580,
       "unit": "resolved trades",
       "met": false
@@ -180,9 +156,21 @@
       "type": "alert",
       "priority": "high",
       "project": "Weatherbot",
-      "current": 0.224,
+      "current": 0.222,
       "target": 0.22,
       "unit": "Brier score",
+      "met": false
+    },
+    {
+      "id": "golive-countdown",
+      "title": "Go-live deadline: 8 days left (June 30)",
+      "description": "Polymarket V1 contracts expire June 30 2026. Decision needed by June 22 (8 days). Steps: flip LIVE_MODE = True, circuit_dry_run: false, min_size >= $1.00.",
+      "type": "countdown",
+      "priority": "high",
+      "project": "Weatherbot",
+      "current": 8,
+      "target": 0,
+      "unit": "days remaining",
       "met": false
     }
   ]
