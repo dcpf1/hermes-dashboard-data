@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-14T17:00:07.915139+00:00",
+  "generated_at": "2026-06-14T18:00:09.839921+00:00",
   "balance": {
-    "current": 67.87,
-    "cash": 36.49,
-    "deployed": 23.73,
-    "unrealized": 7.65,
+    "current": 67.18,
+    "cash": 39.17,
+    "deployed": 21.66,
+    "unrealized": 6.35,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 17.87,
-    "pnl_pct": 35.7
+    "pnl_usd": 17.18,
+    "pnl_pct": 34.4
   },
   "trades": {
     "total": 310,
@@ -28,26 +28,6 @@
   },
   "open_positions": [
     {
-      "city": "Shanghai",
-      "date": "2026-06-15",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 27.0,
-      "bucket_high": 27.0,
-      "entry_price": 0.8,
-      "shares": 1.34,
-      "cost": 1.07,
-      "current_p": 0.9009,
-      "ev_pct": 10.1,
-      "n_agree": 4,
-      "n_avail": 5,
-      "opened_at": "2026-06-13T07:31:12.048079+00:00",
-      "hours_left": 19.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.14
-    },
-    {
       "city": "Chongqing",
       "date": "2026-06-15",
       "unit": "C",
@@ -62,7 +42,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-13T22:12:08.627847+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.14
@@ -82,7 +62,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-13T10:24:31.525824+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.25
@@ -102,7 +82,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-13T22:10:19.103936+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.36
@@ -122,7 +102,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-13T22:11:50.075284+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.19
@@ -142,7 +122,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-13T11:52:57.464044+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.22
@@ -162,7 +142,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-13T10:21:02.706954+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.2
@@ -182,7 +162,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-06-13T05:02:33.418567+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.32
@@ -202,7 +182,7 @@
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-06-14T02:30:30.732374+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.48
@@ -222,7 +202,7 @@
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-06-14T02:05:30.302513+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.22
@@ -242,30 +222,10 @@
       "n_agree": 4,
       "n_avail": 5,
       "opened_at": "2026-06-13T07:29:58.351657+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.19
-    },
-    {
-      "city": "Helsinki",
-      "date": "2026-06-15",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 16.0,
-      "bucket_high": 16.0,
-      "entry_price": 0.13,
-      "shares": 7.69,
-      "cost": 1.0,
-      "current_p": 0.2805,
-      "ev_pct": 15.1,
-      "n_agree": 3,
-      "n_avail": 5,
-      "opened_at": "2026-06-14T05:16:58.191744+00:00",
-      "hours_left": 19.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 1.16
     },
     {
       "city": "Shenzhen",
@@ -282,7 +242,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-14T16:48:24.584726+00:00",
-      "hours_left": 43.0,
+      "hours_left": 42.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.3
@@ -302,7 +262,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-14T05:19:42.824507+00:00",
-      "hours_left": 43.0,
+      "hours_left": 42.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.24
@@ -322,7 +282,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-14T06:02:23.613197+00:00",
-      "hours_left": 43.0,
+      "hours_left": 42.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.19
@@ -342,7 +302,7 @@
       "n_agree": 4,
       "n_avail": 5,
       "opened_at": "2026-06-14T09:59:01.331332+00:00",
-      "hours_left": 43.0,
+      "hours_left": 42.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.15
@@ -362,7 +322,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-06-14T05:00:33.253974+00:00",
-      "hours_left": 43.0,
+      "hours_left": 42.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.42
@@ -382,7 +342,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-14T11:41:39.829911+00:00",
-      "hours_left": 43.0,
+      "hours_left": 42.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.39
@@ -488,6 +448,18 @@
       "pnl": -0.13,
       "closed_by": "resolved",
       "lead_h": 50.0
+    },
+    {
+      "ts": "2026-06-14T05:16:58.191744+00:00",
+      "city": "Helsinki",
+      "date": "2026-06-15",
+      "side": "YES",
+      "bucket": "16.0-16.0C",
+      "entry": 0.13,
+      "correct": true,
+      "pnl": 0.42,
+      "closed_by": "resolved",
+      "lead_h": 30.0
     },
     {
       "ts": "2026-06-14T05:04:49.145674+00:00",
@@ -776,18 +748,6 @@
       "pnl": 0.81,
       "closed_by": "take_profit",
       "lead_h": 23.0
-    },
-    {
-      "ts": "2026-06-13T11:52:22.517428+00:00",
-      "city": "Lucknow",
-      "date": "2026-06-14",
-      "side": "NO",
-      "bucket": "38.0-38.0C",
-      "entry": 0.66,
-      "correct": true,
-      "pnl": 0.43,
-      "closed_by": "take_profit",
-      "lead_h": 24.0
     }
   ],
   "city_stats": {
