@@ -2,111 +2,27 @@
   "updated_at": "2026-06-14T16:26:30.360188+00:00",
   "manual": [
     {
-      "id": "logic-m4",
-      "title": "Wire Brier halt gate before go-live",
-      "description": "LOGIC-M4: BS >= 0.25 must halt the scan loop in bot_v2.py. Currently computed but not enforced. Wire in before LIVE_MODE = True.",
-      "priority": "high",
-      "project": "Weatherbot",
-      "tags": [
-        "bot_v2.py"
-      ],
-      "added": "2026-05-26",
-      "done": false
-    },
-    {
-      "id": "golive-condition",
-      "title": "Go-live: flip LIVE_MODE when Brier <= 0.22",
-      "description": "V2 fully implemented. To go live: (1) LIVE_MODE = True in bot_v2.py, (2) circuit_dry_run: false in config.json, (3) confirm .00 min bet floor. Gate: Brier <= 0.22. Currently 0.224 -- check report before flipping.",
+      "id": "golive-flip",
+      "title": "Go-live: flip LIVE_MODE=True",
+      "description": "Brier gate cleared (BS<=0.25). Steps: (1) Verify EOA sig type 0 with $1.00 test order -- confirm no \"maker address not allowed\" error. (2) Set LIVE_MODE=True in bot_v2.py ~line 2315, syntax-check, restart. (3) Set circuit_dry_run: false in config.json (requires restart). LIVE_APPROVAL_MODE=True gates each order via Telegram.",
       "priority": "high",
       "project": "Weatherbot",
       "tags": [
         "bot_v2.py",
         "config.json"
       ],
-      "added": "2026-06-11",
+      "added": "2026-05-19",
       "done": false
-    },
-    {
-      "id": "live-h2",
-      "title": "Implement redeemPositions() before first live win",
-      "description": "LIVE-H2: Weather markets are negRisk=True, must use NegRiskAdapter (0xd91E80...) not raw CTF. Implement before first live win or funds stay unredeemed.",
-      "priority": "high",
-      "project": "Weatherbot",
-      "tags": [
-        "bot_v2.py"
-      ],
-      "added": "2026-05-26",
-      "done": false
-    },
-    {
-      "id": "gfs-ens-decision",
-      "title": "GFS ensemble decision: stay off, re-check at n=230",
-      "description": "Reviewed June 7 at n=180. Ensemble BS=0.255 vs Gaussian BS=0.229 -- ensemble is WORSE. Left off. Re-check at n=230. If still worse: delete the feature entirely from bot_v2.py.",
-      "priority": "neutral",
-      "project": "Weatherbot",
-      "tags": [
-        "analytics",
-        "bot_v2.py"
-      ],
-      "added": "2026-06-07",
-      "done": false
-    },
-    {
-      "id": "max-hours-review",
-      "title": "Review max_no/yes_hours cap at 48h -- deferred",
-      "description": "48h+ band was losing PnL. Deferred reduction to 48h pending more data. Singapore + Ankara halted June 7 instead. Re-evaluate at n=250 with fresh city breakdown.",
-      "priority": "neutral",
-      "project": "Weatherbot",
-      "tags": [
-        "config.json"
-      ],
-      "added": "2026-06-07",
-      "done": false
-    },
-    {
-      "id": "bug-28",
-      "title": "Bug #28 -- station-mismatch TP guard",
-      "description": "Add continue when first mismatch appears in station-mismatch detection logic. Low risk but should be done before go-live.",
-      "priority": "neutral",
-      "project": "Weatherbot",
-      "tags": [
-        "bot_v2.py"
-      ],
-      "added": "2026-05-26",
-      "done": false
-    },
-    {
-      "id": "btc-bot-start",
-      "title": "BTC Bot -- paper trader built, not yet running",
-      "description": "Tick recorder + paper trader built. Top edges: London Open Fade (65% UP at 09:50 UTC), Down Stickiness (74% hold). Parked until Weatherbot is profitable live.",
-      "priority": "neutral",
-      "project": "BTC Bot",
-      "tags": [],
-      "added": "2026-05-01",
-      "done": false
-    },
-    {
-      "id": "bootstrap-verify",
-      "title": "Bootstrap complete -- 47,060 rows verified",
-      "description": "historical_bootstrap.py completed June 10. Output: data/historical_bootstrap.jsonl (47,060 rows: 23,702 YES + 23,358 NO). Do NOT delete bootstrap_cache/ or the JSONL -- both needed for n=500 retrain.",
-      "priority": "neutral",
-      "project": "Weatherbot",
-      "tags": [
-        "historical_bootstrap.py",
-        "lgbm"
-      ],
-      "added": "2026-06-10",
-      "done": true
     },
     {
       "id": "meta-shadow-check",
-      "title": "Check meta_shadow.jsonl after 2 weeks (around June 24)",
-      "description": "Meta-model shadow mode enabled June 10. Check data/meta_shadow.jsonl for >= 30 NO candidates. Verify mult_would points right direction: down on eventual losers, up on winners. If it does, flip meta_apply_mode: live and restart. NO model val_brier=0.1979 (PASS). YES model still failing gate (n=36 live YES, needs ~70).",
+      "title": "Review meta_shadow.jsonl -- around June 24",
+      "description": "LightGBM NO model (val_brier=0.1979) shadow soak started June 10. Check data/meta_shadow.jsonl around June 24 (2-week mark): verify mult_would direction -- higher multipliers on eventual winners, lower on losers. If direction is correct, flip meta_apply_mode: live in config.json (hot-reload, no restart).",
       "priority": "info",
       "project": "Weatherbot",
       "tags": [
         "lgbm",
-        "config.json"
+        "meta_shadow.jsonl"
       ],
       "added": "2026-06-10",
       "done": false
