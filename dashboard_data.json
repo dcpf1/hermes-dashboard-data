@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-14T16:00:10.369335+00:00",
+  "generated_at": "2026-06-14T16:26:30.360188+00:00",
   "balance": {
-    "current": 70.58,
-    "cash": 35.99,
-    "deployed": 25.69,
-    "unrealized": 8.9,
+    "current": 69.05,
+    "cash": 38.1,
+    "deployed": 23.12,
+    "unrealized": 7.83,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 20.58,
-    "pnl_pct": 41.2
+    "pnl_usd": 19.05,
+    "pnl_pct": 38.1
   },
   "trades": {
     "total": 309,
@@ -42,7 +42,7 @@
       "n_agree": 4,
       "n_avail": 5,
       "opened_at": "2026-06-13T07:31:12.048079+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.6,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.14
@@ -62,7 +62,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-13T22:12:08.627847+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.6,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.14
@@ -82,7 +82,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-13T10:24:31.525824+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.6,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.25
@@ -102,7 +102,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-13T22:10:19.103936+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.6,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.36
@@ -122,7 +122,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-13T22:11:50.075284+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.6,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.19
@@ -142,7 +142,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-13T11:52:57.464044+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.6,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.22
@@ -162,7 +162,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-13T10:21:02.706954+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.6,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.2
@@ -182,30 +182,10 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-06-13T05:02:33.418567+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.6,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.32
-    },
-    {
-      "city": "Paris",
-      "date": "2026-06-15",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 27.0,
-      "bucket_high": 27.0,
-      "entry_price": 0.73,
-      "shares": 1.73,
-      "cost": 1.26,
-      "current_p": 0.9294,
-      "ev_pct": 19.9,
-      "n_agree": 3,
-      "n_avail": 5,
-      "opened_at": "2026-06-13T04:59:44.852532+00:00",
-      "hours_left": 20.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.34
     },
     {
       "city": "Buenos Aires",
@@ -222,7 +202,7 @@
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-06-14T02:30:30.732374+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.6,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.48
@@ -242,7 +222,7 @@
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-06-14T02:05:30.302513+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.6,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.22
@@ -262,7 +242,7 @@
       "n_agree": 4,
       "n_avail": 5,
       "opened_at": "2026-06-13T07:29:58.351657+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.6,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.19
@@ -282,7 +262,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-14T05:16:58.191744+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.6,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 1.16
@@ -302,7 +282,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-14T05:19:42.824507+00:00",
-      "hours_left": 44.0,
+      "hours_left": 43.6,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.24
@@ -322,7 +302,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-14T06:02:23.613197+00:00",
-      "hours_left": 44.0,
+      "hours_left": 43.6,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.19
@@ -342,7 +322,7 @@
       "n_agree": 4,
       "n_avail": 5,
       "opened_at": "2026-06-14T09:59:01.331332+00:00",
-      "hours_left": 44.0,
+      "hours_left": 43.6,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.15
@@ -362,7 +342,7 @@
       "n_agree": 5,
       "n_avail": 5,
       "opened_at": "2026-06-14T05:00:33.253974+00:00",
-      "hours_left": 44.0,
+      "hours_left": 43.6,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.42
@@ -382,7 +362,7 @@
       "n_agree": 3,
       "n_avail": 5,
       "opened_at": "2026-06-14T11:41:39.829911+00:00",
-      "hours_left": 44.0,
+      "hours_left": 43.6,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.39
@@ -426,26 +406,6 @@
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.39
-    },
-    {
-      "city": "Los Angeles",
-      "date": "2026-06-14",
-      "unit": "F",
-      "side": "NO",
-      "bucket_low": 72.0,
-      "bucket_high": 73.0,
-      "entry_price": 0.6,
-      "shares": 2.18,
-      "cost": 1.31,
-      "current_p": 0.9346,
-      "ev_pct": 33.5,
-      "n_agree": 3,
-      "n_avail": 5,
-      "opened_at": "2026-06-13T08:14:37.937240+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.73
     },
     {
       "city": "Miami",
@@ -818,16 +778,16 @@
       "lead_h": 49.0
     },
     {
-      "ts": "2026-06-13T05:03:57.773358+00:00",
-      "city": "Shanghai",
-      "date": "2026-06-15",
-      "side": "YES",
-      "bucket": "25.0-25.0C",
-      "entry": 0.16,
+      "ts": "2026-06-13T08:14:37.937240+00:00",
+      "city": "Los Angeles",
+      "date": "2026-06-14",
+      "side": "NO",
+      "bucket": "72.0-73.0F",
+      "entry": 0.6,
       "correct": false,
-      "pnl": -0.25,
-      "closed_by": "resolved",
-      "lead_h": 54.0
+      "pnl": -0.78,
+      "closed_by": "take_profit",
+      "lead_h": 27.0
     }
   ],
   "city_stats": {

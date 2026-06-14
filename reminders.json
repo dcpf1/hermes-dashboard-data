@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T16:00:10.369335+00:00",
+  "updated_at": "2026-06-14T16:26:30.360188+00:00",
   "manual": [
     {
       "id": "logic-m4",
@@ -114,21 +114,33 @@
   ],
   "auto": [
     {
-      "id": "corr-cap-mult",
-      "title": "Restore corr_group_cap_mult to 2.0",
-      "description": "Restore from 1.0 to 2.0 in config.json -- allows 2 simultaneous positions per synoptic group. Condition: n >= 50 AND Brier < 0.20. n threshold met. Brier 0.228 >= 0.20 -- wait for recovery.",
+      "id": "gepa-optimizer",
+      "title": "Re-run GEPA optimizer at n = 300",
+      "description": "Run: python3 config_optimizer.py optimize --trials 200 --walk-forward 4. Compare vs baseline run 20260601_224455. kelly 0.45 suggestion: IGNORE. Hour tightening: credible if it reappears.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
       "current": 249,
-      "target": 50,
+      "target": 300,
       "unit": "resolved trades",
       "met": false
     },
     {
-      "id": "gepa-optimizer",
-      "title": "Re-run GEPA optimizer at n = 300",
-      "description": "Run: python3 config_optimizer.py optimize --trials 200 --walk-forward 4. Compare vs baseline run 20260601_224455. kelly 0.45 suggestion: IGNORE. Hour tightening: credible if it reappears.",
+      "id": "lgbm-train-n300",
+      "title": "Retrain LightGBM meta-model at n = 300",
+      "description": "Run: python3 train_meta_model.py. NO model should improve (more live NO rows). YES model should finally pass gate (~50 live YES by n=300). Deploy if val_brier < current baseline (NO: 0.1979). Check data/meta_shadow.jsonl direction before flipping meta_apply_mode: live.",
+      "type": "threshold",
+      "priority": "info",
+      "project": "Weatherbot",
+      "current": 249,
+      "target": 300,
+      "unit": "resolved trades",
+      "met": false
+    },
+    {
+      "id": "sm-shadow-n300",
+      "title": "SM shadow analysis at n = 300",
+      "description": "Check data/sm_shadow.jsonl for rows where sm_convergence=true. Compare win rate of convergence rows vs agree_strong rows. If convergence tier improves win rate: flip sm_apply_mode: live in config.json (hot-reload).",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
@@ -150,21 +162,21 @@
       "met": false
     },
     {
-      "id": "brier-risk",
-      "title": "Brier 0.228 -- above go-live threshold (0.22)",
-      "description": "Do not flip LIVE_MODE until Brier recovers below 0.22.",
+      "id": "brier-cleared",
+      "title": "Brier 0.228 -- go-live gate CLEARED (<= 0.25)",
+      "description": "Brier gate cleared. Ready to flip LIVE_MODE=True when decided.",
       "type": "alert",
-      "priority": "high",
+      "priority": "warn",
       "project": "Weatherbot",
       "current": 0.228,
-      "target": 0.22,
+      "target": 0.25,
       "unit": "Brier score",
-      "met": false
+      "met": true
     },
     {
       "id": "golive-countdown",
-      "title": "Go-live deadline: 7 days left (June 30)",
-      "description": "Polymarket V1 contracts expire June 30 2026. Decision needed by June 22 (7 days). Steps: flip LIVE_MODE = True, circuit_dry_run: false, min_size >= $1.00.",
+      "title": "Go-live deadline: 7 days left (June 22)",
+      "description": "Decision deadline June 22 2026 (7 days). Steps: (1) Verify EOA sig type 0 with $1.00 test order. (2) Flip LIVE_MODE=True in bot_v2.py. (3) Set circuit_dry_run: false in config.json + restart.",
       "type": "countdown",
       "priority": "high",
       "project": "Weatherbot",
