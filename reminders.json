@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T20:00:15.443763+00:00",
+  "updated_at": "2026-06-15T20:42:52.407565+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -25,6 +25,22 @@
         "meta_shadow.jsonl"
       ],
       "added": "2026-06-10",
+      "done": false
+    },
+    {
+      "id": "rb-shadow-check",
+      "title": "Review recency_bias_shadow.jsonl at 30 flagged entries",
+      "description": "Count lines in data/recency_bias_shadow.jsonl where rb_signal=true. For those where mult_would>1.0: compare win_rate vs overall bot win_rate. If flagged entries win at >65% (vs ~59% base), flip rb_apply_mode: live in config.json (hot-reload, no restart). If neutral or worse, raise rb_delta_threshold from 1.5 to 2.0 and continue shadow.",
+      "type": "threshold",
+      "target": 30,
+      "unit": "recency_bias flagged trades",
+      "priority": "info",
+      "project": "Weatherbot",
+      "tags": [
+        "recency_bias_shadow.jsonl",
+        "config.json"
+      ],
+      "added": "2026-06-15",
       "done": false
     }
   ],
@@ -99,6 +115,18 @@
       "current": 6,
       "target": 0,
       "unit": "days remaining",
+      "met": false
+    },
+    {
+      "id": "rb-shadow-check",
+      "title": "Review recency_bias_shadow.jsonl at 30 flagged entries",
+      "description": "Count lines in data/recency_bias_shadow.jsonl where rb_signal=true. For those where mult_would>1.0: compare win_rate vs overall bot win_rate. If flagged entries win at >65% (vs ~59% base), flip rb_apply_mode: live in config.json (hot-reload, no restart). If neutral or worse, raise rb_delta_threshold from 1.5 to 2.0 and continue shadow.",
+      "type": "threshold",
+      "priority": "info",
+      "project": "Weatherbot",
+      "current": 0,
+      "target": 30,
+      "unit": "recency_bias flagged trades",
       "met": false
     }
   ]
