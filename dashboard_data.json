@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-16T16:00:10.179105+00:00",
+  "generated_at": "2026-06-16T17:00:10.987351+00:00",
   "balance": {
-    "current": 88.66,
-    "cash": 79.47,
-    "deployed": 7.28,
-    "unrealized": 1.91,
+    "current": 88.73,
+    "cash": 81.47,
+    "deployed": 5.66,
+    "unrealized": 1.6,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 38.66,
-    "pnl_pct": 77.3
+    "pnl_usd": 38.73,
+    "pnl_pct": 77.5
   },
   "trades": {
     "total": 319,
@@ -42,7 +42,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-15T11:50:08.095226+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.63
@@ -62,30 +62,10 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-15T12:10:25.726642+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.44
-    },
-    {
-      "city": "Helsinki",
-      "date": "2026-06-17",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 20.0,
-      "bucket_high": 20.0,
-      "entry_price": 0.76,
-      "shares": 2.13,
-      "cost": 1.62,
-      "current_p": 0.9038,
-      "ev_pct": 14.4,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-06-15T07:44:49.684046+00:00",
-      "hours_left": 20.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.31
     },
     {
       "city": "Munich",
@@ -102,7 +82,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-06-16T13:35:23.731905+00:00",
-      "hours_left": 44.0,
+      "hours_left": 43.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.53
@@ -314,6 +294,18 @@
       "lead_h": 48.0
     },
     {
+      "ts": "2026-06-15T07:44:49.684046+00:00",
+      "city": "Helsinki",
+      "date": "2026-06-17",
+      "side": "NO",
+      "bucket": "20.0-20.0C",
+      "entry": 0.76,
+      "correct": true,
+      "pnl": 0.38,
+      "closed_by": "take_profit",
+      "lead_h": 52.0
+    },
+    {
       "ts": "2026-06-15T04:57:48.862772+00:00",
       "city": "Madrid",
       "date": "2026-06-17",
@@ -456,18 +448,6 @@
       "pnl": -0.12,
       "closed_by": "forecast_changed",
       "lead_h": 17.0
-    },
-    {
-      "ts": "2026-06-14T18:05:14.182281+00:00",
-      "city": "Toronto",
-      "date": "2026-06-14",
-      "side": "NO",
-      "bucket": "24.0-24.0C",
-      "entry": 0.79,
-      "correct": false,
-      "pnl": -1.14,
-      "closed_by": "price_catastrophic",
-      "lead_h": 11.0
     }
   ],
   "city_stats": {
