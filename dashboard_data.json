@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-16T12:00:09.565072+00:00",
+  "generated_at": "2026-06-16T13:00:12.123350+00:00",
   "balance": {
-    "current": 88.78,
-    "cash": 79.43,
-    "deployed": 7.4,
-    "unrealized": 1.95,
+    "current": 88.07,
+    "cash": 80.42,
+    "deployed": 6.12,
+    "unrealized": 1.53,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 38.78,
-    "pnl_pct": 77.6
+    "pnl_usd": 38.07,
+    "pnl_pct": 76.1
   },
   "trades": {
     "total": 318,
@@ -42,7 +42,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-15T11:50:08.095226+00:00",
-      "hours_left": 24.0,
+      "hours_left": 23.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.63
@@ -62,7 +62,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-15T12:10:25.726642+00:00",
-      "hours_left": 24.0,
+      "hours_left": 23.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.44
@@ -82,7 +82,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-15T07:44:49.684046+00:00",
-      "hours_left": 24.0,
+      "hours_left": 23.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.31
@@ -106,26 +106,6 @@
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.15
-    },
-    {
-      "city": "Madrid",
-      "date": "2026-06-16",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 34.0,
-      "bucket_high": 34.0,
-      "entry_price": 0.7,
-      "shares": 1.83,
-      "cost": 1.28,
-      "current_p": 0.9313,
-      "ev_pct": 23.1,
-      "n_agree": 5,
-      "n_avail": 5,
-      "opened_at": "2026-06-14T05:00:33.253974+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.42
     }
   ],
   "recent_resolved": [
