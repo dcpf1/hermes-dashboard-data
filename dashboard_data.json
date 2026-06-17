@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-17T10:00:09.692009+00:00",
+  "generated_at": "2026-06-17T11:00:10.584078+00:00",
   "balance": {
-    "current": 89.73,
-    "cash": 79.74,
-    "deployed": 7.84,
-    "unrealized": 2.15,
+    "current": 90.51,
+    "cash": 77.9,
+    "deployed": 9.68,
+    "unrealized": 2.93,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 39.73,
-    "pnl_pct": 79.5
+    "pnl_usd": 40.51,
+    "pnl_pct": 81.0
   },
   "trades": {
-    "total": 321,
+    "total": 322,
     "wins": 186,
     "losses": 123,
     "total_pnl": 11.17
@@ -42,7 +42,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-15T11:50:08.095226+00:00",
-      "hours_left": 2.0,
+      "hours_left": 1.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.63
@@ -62,7 +62,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-06-16T13:35:23.731905+00:00",
-      "hours_left": 26.0,
+      "hours_left": 25.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.53
@@ -82,7 +82,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-17T09:19:13.242585+00:00",
-      "hours_left": 50.0,
+      "hours_left": 49.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.45
@@ -102,10 +102,30 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-06-17T09:43:13.698233+00:00",
-      "hours_left": 50.0,
+      "hours_left": 49.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.54
+    },
+    {
+      "city": "Moscow",
+      "date": "2026-06-19",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 21.0,
+      "bucket_high": 21.0,
+      "entry_price": 0.65,
+      "shares": 2.83,
+      "cost": 1.84,
+      "current_p": 0.9251,
+      "ev_pct": 27.5,
+      "n_agree": 6,
+      "n_avail": 6,
+      "opened_at": "2026-06-17T10:11:21.409130+00:00",
+      "hours_left": 49.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.78
     }
   ],
   "recent_resolved": [
