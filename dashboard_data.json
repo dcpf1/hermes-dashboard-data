@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-18T08:00:10.916538+00:00",
+  "generated_at": "2026-06-18T09:00:05.421169+00:00",
   "balance": {
-    "current": 90.37,
-    "cash": 71.41,
-    "deployed": 14.98,
-    "unrealized": 3.98,
+    "current": 91.13,
+    "cash": 68.08,
+    "deployed": 18.31,
+    "unrealized": 4.74,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 40.37,
-    "pnl_pct": 80.7
+    "pnl_usd": 41.13,
+    "pnl_pct": 82.3
   },
   "trades": {
-    "total": 326,
+    "total": 328,
     "wins": 191,
     "losses": 123,
     "total_pnl": 11.43
@@ -42,7 +42,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-06-16T13:35:23.731905+00:00",
-      "hours_left": 4.0,
+      "hours_left": 3.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.53
@@ -62,10 +62,30 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-17T11:02:50.545041+00:00",
-      "hours_left": 4.0,
+      "hours_left": 3.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.37
+    },
+    {
+      "city": "Atlanta",
+      "date": "2026-06-19",
+      "unit": "F",
+      "side": "NO",
+      "bucket_low": 86.0,
+      "bucket_high": 87.0,
+      "entry_price": 0.74,
+      "shares": 2.16,
+      "cost": 1.6,
+      "current_p": 0.9009,
+      "ev_pct": 16.1,
+      "n_agree": 6,
+      "n_avail": 7,
+      "opened_at": "2026-06-18T08:25:21.275507+00:00",
+      "hours_left": 27.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.35
     },
     {
       "city": "Shanghai",
@@ -82,7 +102,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-17T09:19:13.242585+00:00",
-      "hours_left": 28.0,
+      "hours_left": 27.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.45
@@ -102,7 +122,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-18T03:11:22.652509+00:00",
-      "hours_left": 28.0,
+      "hours_left": 27.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.23
@@ -122,7 +142,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-06-17T09:43:13.698233+00:00",
-      "hours_left": 28.0,
+      "hours_left": 27.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.54
@@ -142,10 +162,30 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-17T10:11:21.409130+00:00",
-      "hours_left": 28.0,
+      "hours_left": 27.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.78
+    },
+    {
+      "city": "Dallas",
+      "date": "2026-06-19",
+      "unit": "F",
+      "side": "NO",
+      "bucket_low": 88.0,
+      "bucket_high": 89.0,
+      "entry_price": 0.74,
+      "shares": 2.34,
+      "cost": 1.73,
+      "current_p": 0.9155,
+      "ev_pct": 17.5,
+      "n_agree": 5,
+      "n_avail": 7,
+      "opened_at": "2026-06-18T08:51:47.921823+00:00",
+      "hours_left": 27.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.41
     },
     {
       "city": "Shenzhen",
@@ -162,7 +202,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-17T14:00:39.729239+00:00",
-      "hours_left": 28.0,
+      "hours_left": 27.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.34
@@ -182,7 +222,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-18T04:58:54.602469+00:00",
-      "hours_left": 52.0,
+      "hours_left": 51.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.74
