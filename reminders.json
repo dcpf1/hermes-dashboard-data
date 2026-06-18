@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-17T23:00:03.108879+00:00",
+  "updated_at": "2026-06-18T00:00:03.699941+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -107,12 +107,12 @@
     },
     {
       "id": "golive-countdown",
-      "title": "Go-live deadline: 4 days left (June 22)",
-      "description": "Decision deadline June 22 2026 (4 days). Steps: (1) Verify EOA sig type 0 with $1.00 test order. (2) Flip LIVE_MODE=True in bot_v2.py. (3) Set circuit_dry_run: false in config.json + restart.",
+      "title": "Go-live deadline: 3 days left (June 22)",
+      "description": "Decision deadline June 22 2026 (3 days). Steps: (1) Verify EOA sig type 0 with $1.00 test order. (2) Flip LIVE_MODE=True in bot_v2.py. (3) Set circuit_dry_run: false in config.json + restart.",
       "type": "countdown",
       "priority": "high",
       "project": "Weatherbot",
-      "current": 4,
+      "current": 3,
       "target": 0,
       "unit": "days remaining",
       "met": false
