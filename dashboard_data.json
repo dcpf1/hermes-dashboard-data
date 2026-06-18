@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T06:00:05.062872+00:00",
+  "generated_at": "2026-06-18T07:00:04.663320+00:00",
   "balance": {
     "current": 90.37,
     "cash": 71.41,
@@ -42,7 +42,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-06-16T13:35:23.731905+00:00",
-      "hours_left": 6.0,
+      "hours_left": 5.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.53
@@ -62,7 +62,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-17T11:02:50.545041+00:00",
-      "hours_left": 6.0,
+      "hours_left": 5.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.37
@@ -82,7 +82,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-17T09:19:13.242585+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.45
@@ -102,7 +102,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-18T03:11:22.652509+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.23
@@ -122,7 +122,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-06-17T09:43:13.698233+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.54
@@ -142,7 +142,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-17T10:11:21.409130+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.78
@@ -162,7 +162,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-17T14:00:39.729239+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.34
@@ -182,7 +182,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-18T04:58:54.602469+00:00",
-      "hours_left": 54.0,
+      "hours_left": 53.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.74
