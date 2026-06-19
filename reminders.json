@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-18T11:00:05.935321+00:00",
+  "updated_at": "2026-06-19T00:00:05.857934+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -52,7 +52,7 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 294,
+      "current": 296,
       "target": 300,
       "unit": "resolved trades",
       "met": false
@@ -64,7 +64,7 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 294,
+      "current": 296,
       "target": 300,
       "unit": "resolved trades",
       "met": false
@@ -76,7 +76,7 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 294,
+      "current": 296,
       "target": 300,
       "unit": "resolved trades",
       "met": false
@@ -88,31 +88,31 @@
       "type": "threshold",
       "priority": "neutral",
       "project": "Weatherbot",
-      "current": 294,
+      "current": 296,
       "target": 580,
       "unit": "resolved trades",
       "met": false
     },
     {
       "id": "brier-cleared",
-      "title": "Brier 0.218 -- go-live gate CLEARED (<= 0.25)",
+      "title": "Brier 0.216 -- go-live gate CLEARED (<= 0.25)",
       "description": "Brier gate cleared. Ready to flip LIVE_MODE=True when decided.",
       "type": "alert",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 0.218,
+      "current": 0.216,
       "target": 0.25,
       "unit": "Brier score",
       "met": true
     },
     {
       "id": "golive-countdown",
-      "title": "Go-live deadline: 3 days left (June 22)",
-      "description": "Decision deadline June 22 2026 (3 days). Steps: (1) Verify EOA sig type 0 with $1.00 test order. (2) Flip LIVE_MODE=True in bot_v2.py. (3) Set circuit_dry_run: false in config.json + restart.",
+      "title": "Go-live deadline: 2 days left (June 22)",
+      "description": "Decision deadline June 22 2026 (2 days). Steps: (1) Verify EOA sig type 0 with $1.00 test order. (2) Flip LIVE_MODE=True in bot_v2.py. (3) Set circuit_dry_run: false in config.json + restart.",
       "type": "countdown",
       "priority": "high",
       "project": "Weatherbot",
-      "current": 3,
+      "current": 2,
       "target": 0,
       "unit": "days remaining",
       "met": false
