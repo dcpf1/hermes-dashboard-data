@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-20T13:00:06.975005+00:00",
+  "generated_at": "2026-06-20T15:00:09.215309+00:00",
   "balance": {
-    "current": 90.91,
-    "cash": 80.34,
-    "deployed": 8.31,
-    "unrealized": 2.26,
+    "current": 91.51,
+    "cash": 80.92,
+    "deployed": 8.29,
+    "unrealized": 2.3,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 40.91,
-    "pnl_pct": 81.8
+    "pnl_usd": 41.51,
+    "pnl_pct": 83.0
   },
   "trades": {
-    "total": 334,
+    "total": 335,
     "wins": 199,
     "losses": 124,
     "total_pnl": 12.16
@@ -42,7 +42,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-19T07:05:05.647534+00:00",
-      "hours_left": 23.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.51
@@ -62,7 +62,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-19T07:03:16.953320+00:00",
-      "hours_left": 23.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.63
@@ -82,30 +82,30 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-19T07:02:04.488725+00:00",
-      "hours_left": 23.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.49
     },
     {
-      "city": "Amsterdam",
-      "date": "2026-06-20",
+      "city": "Paris",
+      "date": "2026-06-22",
       "unit": "C",
       "side": "NO",
-      "bucket_low": 27.0,
-      "bucket_high": 27.0,
-      "entry_price": 0.738,
-      "shares": 2.2,
-      "cost": 1.62,
-      "current_p": 0.903,
-      "ev_pct": 16.5,
+      "bucket_low": 39.0,
+      "bucket_high": 39.0,
+      "entry_price": 0.72,
+      "shares": 2.22,
+      "cost": 1.6,
+      "current_p": 0.9016,
+      "ev_pct": 18.2,
       "n_agree": 5,
       "n_avail": 6,
-      "opened_at": "2026-06-18T23:52:29.882010+00:00",
-      "hours_left": 0.0,
+      "opened_at": "2026-06-20T14:06:34.674335+00:00",
+      "hours_left": 45.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.36
+      "unrealized_pnl": 0.4
     },
     {
       "city": "Atlanta",
@@ -222,6 +222,18 @@
       "entry": 0.77,
       "correct": true,
       "pnl": 0.58,
+      "closed_by": "take_profit",
+      "lead_h": 36.0
+    },
+    {
+      "ts": "2026-06-18T23:52:29.882010+00:00",
+      "city": "Amsterdam",
+      "date": "2026-06-20",
+      "side": "NO",
+      "bucket": "27.0-27.0C",
+      "entry": 0.738,
+      "correct": true,
+      "pnl": 0.55,
       "closed_by": "take_profit",
       "lead_h": 36.0
     },
@@ -476,18 +488,6 @@
       "pnl": -0.83,
       "closed_by": "price_catastrophic",
       "lead_h": 37.0
-    },
-    {
-      "ts": "2026-06-15T18:06:02.983847+00:00",
-      "city": "Munich",
-      "date": "2026-06-15",
-      "side": "NO",
-      "bucket": "22.0-22.0C",
-      "entry": 0.76,
-      "correct": false,
-      "pnl": -0.41,
-      "closed_by": "price_conditional",
-      "lead_h": 49.0
     }
   ],
   "city_stats": {
