@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-21T20:00:08.366397+00:00",
+  "generated_at": "2026-06-21T21:00:08.184993+00:00",
   "balance": {
-    "current": 93.25,
-    "cash": 91.25,
-    "deployed": 1.6,
-    "unrealized": 0.4,
+    "current": 93.76,
+    "cash": 89.31,
+    "deployed": 3.54,
+    "unrealized": 0.91,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 43.25,
-    "pnl_pct": 86.5
+    "pnl_usd": 43.76,
+    "pnl_pct": 87.5
   },
   "trades": {
     "total": 336,
@@ -42,10 +42,30 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-06-20T14:06:34.674335+00:00",
-      "hours_left": 16.0,
+      "hours_left": 15.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.4
+    },
+    {
+      "city": "Dallas",
+      "date": "2026-06-22",
+      "unit": "F",
+      "side": "NO",
+      "bucket_low": 94.0,
+      "bucket_high": 95.0,
+      "entry_price": 0.74,
+      "shares": 2.62,
+      "cost": 1.94,
+      "current_p": 0.9328,
+      "ev_pct": 19.3,
+      "n_agree": 5,
+      "n_avail": 7,
+      "opened_at": "2026-06-21T20:56:37.999416+00:00",
+      "hours_left": 15.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.51
     }
   ],
   "recent_resolved": [
