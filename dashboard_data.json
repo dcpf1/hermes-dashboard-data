@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T18:00:06.081498+00:00",
+  "generated_at": "2026-06-22T20:00:04.895112+00:00",
   "balance": {
     "current": 95.84,
     "cash": 78.58,
@@ -12,18 +12,18 @@
   },
   "trades": {
     "total": 348,
-    "wins": 208,
+    "wins": 211,
     "losses": 124,
-    "total_pnl": 17.04
+    "total_pnl": 17.48
   },
   "brier": {
-    "score": 0.2085,
-    "n": 312,
-    "bss": -0.122,
-    "win_rate": 0.663,
-    "ci_lo": 0.171,
-    "ci_hi": 0.2461,
-    "base": 0.247,
+    "score": 0.2066,
+    "n": 315,
+    "bss": -0.119,
+    "win_rate": 0.667,
+    "ci_lo": 0.1694,
+    "ci_hi": 0.2439,
+    "base": 0.244,
     "status": "amber"
   },
   "open_positions": [
@@ -42,7 +42,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-06-22T01:49:28.427330+00:00",
-      "hours_left": 18.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.33
@@ -62,7 +62,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-22T13:23:56.960128+00:00",
-      "hours_left": 18.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.31
@@ -82,7 +82,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-22T04:51:19.051729+00:00",
-      "hours_left": 18.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.43
@@ -102,7 +102,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-21T23:00:37.207416+00:00",
-      "hours_left": 18.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.61
@@ -122,7 +122,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-22T08:20:23.359657+00:00",
-      "hours_left": 42.0,
+      "hours_left": 40.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.2
@@ -142,7 +142,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-22T04:53:49.622125+00:00",
-      "hours_left": 42.0,
+      "hours_left": 40.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.33
@@ -162,7 +162,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-22T05:14:12.623353+00:00",
-      "hours_left": 42.0,
+      "hours_left": 40.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.37
@@ -182,13 +182,49 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-22T04:56:15.044779+00:00",
-      "hours_left": 42.0,
+      "hours_left": 40.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.43
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-06-22T18:05:39.610769+00:00",
+      "city": "Paris",
+      "date": "2026-06-22",
+      "side": "NO",
+      "bucket": "39.0-39.0C",
+      "entry": 0.72,
+      "correct": true,
+      "pnl": 0.56,
+      "closed_by": "take_profit",
+      "lead_h": 45.0
+    },
+    {
+      "ts": "2026-06-22T18:05:39.610769+00:00",
+      "city": "Dallas",
+      "date": "2026-06-22",
+      "side": "NO",
+      "bucket": "94.0-95.0F",
+      "entry": 0.74,
+      "correct": true,
+      "pnl": -0.39,
+      "closed_by": "price_conditional",
+      "lead_h": 15.0
+    },
+    {
+      "ts": "2026-06-22T18:05:39.610769+00:00",
+      "city": "Moscow",
+      "date": "2026-06-22",
+      "side": "NO",
+      "bucket": "25.0-25.0C",
+      "entry": 0.8,
+      "correct": true,
+      "pnl": 0.27,
+      "closed_by": "take_profit",
+      "lead_h": 10.0
+    },
     {
       "ts": "2026-06-22T16:28:12.853815+00:00",
       "city": "Chengdu",
@@ -202,18 +238,6 @@
       "lead_h": 7.0
     },
     {
-      "ts": "2026-06-22T01:59:10.705150+00:00",
-      "city": "Moscow",
-      "date": "2026-06-22",
-      "side": "NO",
-      "bucket": "25.0-25.0C",
-      "entry": 0.8,
-      "correct": true,
-      "pnl": 0.27,
-      "closed_by": "take_profit",
-      "lead_h": 10.0
-    },
-    {
       "ts": "2026-06-21T22:03:01.191490+00:00",
       "city": "Munich",
       "date": "2026-06-23",
@@ -224,18 +248,6 @@
       "pnl": 0.41,
       "closed_by": "take_profit",
       "lead_h": 37.0
-    },
-    {
-      "ts": "2026-06-21T20:56:37.999416+00:00",
-      "city": "Dallas",
-      "date": "2026-06-22",
-      "side": "NO",
-      "bucket": "94.0-95.0F",
-      "entry": 0.74,
-      "correct": false,
-      "pnl": -0.39,
-      "closed_by": "take_profit",
-      "lead_h": 15.0
     },
     {
       "ts": "2026-06-21T19:00:41.178091+00:00",
@@ -332,18 +344,6 @@
       "pnl": 0.55,
       "closed_by": "take_profit",
       "lead_h": 36.0
-    },
-    {
-      "ts": "2026-06-20T14:06:34.674335+00:00",
-      "city": "Paris",
-      "date": "2026-06-22",
-      "side": "NO",
-      "bucket": "39.0-39.0C",
-      "entry": 0.72,
-      "correct": true,
-      "pnl": 0.56,
-      "closed_by": "take_profit",
-      "lead_h": 45.0
     },
     {
       "ts": "2026-06-20T12:23:22.210432+00:00",
@@ -572,19 +572,19 @@
       "total_pnl": 4.08
     },
     "paris": {
-      "n": 14,
-      "win_rate": 0.714,
-      "total_pnl": 2.93
-    },
-    "dallas": {
-      "n": 4,
-      "win_rate": 1.0,
-      "total_pnl": 2.44
+      "n": 15,
+      "win_rate": 0.733,
+      "total_pnl": 3.49
     },
     "warsaw": {
       "n": 6,
       "win_rate": 0.833,
       "total_pnl": 2.08
+    },
+    "dallas": {
+      "n": 5,
+      "win_rate": 1.0,
+      "total_pnl": 2.05
     },
     "madrid": {
       "n": 7,
@@ -641,15 +641,15 @@
       "win_rate": 0.5,
       "total_pnl": 0.14
     },
+    "moscow": {
+      "n": 8,
+      "win_rate": 1.0,
+      "total_pnl": 0.11
+    },
     "atlanta": {
       "n": 5,
       "win_rate": 0.8,
       "total_pnl": 0.08
-    },
-    "moscow": {
-      "n": 7,
-      "win_rate": 1.0,
-      "total_pnl": -0.16
     },
     "houston": {
       "n": 3,
@@ -774,12 +774,12 @@
       "n": 0
     },
     "6to24": {
-      "brier": 0.1971,
-      "n": 56
+      "brier": 0.1905,
+      "n": 58
     },
     "24to48": {
-      "brier": 0.2165,
-      "n": 179
+      "brier": 0.2153,
+      "n": 180
     },
     "gt48": {
       "brier": 0.1955,
