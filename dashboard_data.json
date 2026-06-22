@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T02:00:08.149678+00:00",
+  "generated_at": "2026-06-22T03:00:06.958851+00:00",
   "balance": {
     "current": 95.3,
     "cash": 82.48,
@@ -11,7 +11,7 @@
     "pnl_pct": 90.6
   },
   "trades": {
-    "total": 340,
+    "total": 341,
     "wins": 207,
     "losses": 124,
     "total_pnl": 17.89
@@ -42,7 +42,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-06-20T14:06:34.674335+00:00",
-      "hours_left": 10.0,
+      "hours_left": 9.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.4
@@ -62,7 +62,7 @@
       "n_agree": 5,
       "n_avail": 7,
       "opened_at": "2026-06-21T20:56:37.999416+00:00",
-      "hours_left": 10.0,
+      "hours_left": 9.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.51
@@ -82,7 +82,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-06-22T01:59:10.705150+00:00",
-      "hours_left": 10.0,
+      "hours_left": 9.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.21
@@ -102,7 +102,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-06-22T01:49:28.427330+00:00",
-      "hours_left": 34.0,
+      "hours_left": 33.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.33
@@ -122,7 +122,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-21T23:00:37.207416+00:00",
-      "hours_left": 34.0,
+      "hours_left": 33.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.61
@@ -142,7 +142,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-06-21T22:03:01.191490+00:00",
-      "hours_left": 34.0,
+      "hours_left": 33.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.39
