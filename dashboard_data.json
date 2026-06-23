@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-23T10:00:14.608711+00:00",
+  "generated_at": "2026-06-23T11:00:08.753296+00:00",
   "balance": {
-    "current": 97.17,
-    "cash": 80.44,
-    "deployed": 13.89,
-    "unrealized": 2.84,
+    "current": 97.82,
+    "cash": 77.06,
+    "deployed": 17.27,
+    "unrealized": 3.49,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 47.17,
-    "pnl_pct": 94.3
+    "pnl_usd": 47.82,
+    "pnl_pct": 95.6
   },
   "trades": {
-    "total": 351,
+    "total": 353,
     "wins": 211,
     "losses": 124,
     "total_pnl": 17.48
@@ -42,7 +42,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-22T04:51:19.051729+00:00",
-      "hours_left": 2.0,
+      "hours_left": 1.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.43
@@ -62,7 +62,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-22T08:20:23.359657+00:00",
-      "hours_left": 26.0,
+      "hours_left": 25.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.2
@@ -82,7 +82,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-22T04:53:49.622125+00:00",
-      "hours_left": 26.0,
+      "hours_left": 25.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.33
@@ -102,7 +102,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-22T05:14:12.623353+00:00",
-      "hours_left": 26.0,
+      "hours_left": 25.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.37
@@ -122,7 +122,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-22T04:56:15.044779+00:00",
-      "hours_left": 26.0,
+      "hours_left": 25.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.43
@@ -142,7 +142,27 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-23T04:01:35.650888+00:00",
-      "hours_left": 26.0,
+      "hours_left": 25.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.22
+    },
+    {
+      "city": "Amsterdam",
+      "date": "2026-06-25",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 34.0,
+      "bucket_high": 34.0,
+      "entry_price": 0.8,
+      "shares": 2.07,
+      "cost": 1.66,
+      "current_p": 0.908,
+      "ev_pct": 10.8,
+      "n_agree": 4,
+      "n_avail": 6,
+      "opened_at": "2026-06-23T10:11:41.844954+00:00",
+      "hours_left": 49.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.22
@@ -162,7 +182,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-23T05:00:27.340347+00:00",
-      "hours_left": 50.0,
+      "hours_left": 49.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.21
@@ -182,10 +202,30 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-23T05:59:14.530255+00:00",
-      "hours_left": 50.0,
+      "hours_left": 49.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.65
+    },
+    {
+      "city": "Chongqing",
+      "date": "2026-06-25",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 26.0,
+      "bucket_high": 26.0,
+      "entry_price": 0.73,
+      "shares": 2.36,
+      "cost": 1.72,
+      "current_p": 0.9142,
+      "ev_pct": 18.4,
+      "n_agree": 4,
+      "n_avail": 6,
+      "opened_at": "2026-06-23T10:16:23.683192+00:00",
+      "hours_left": 49.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.43
     }
   ],
   "recent_resolved": [
