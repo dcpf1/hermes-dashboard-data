@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-23T04:00:06.242091+00:00",
+  "generated_at": "2026-06-23T05:00:06.570954+00:00",
   "balance": {
-    "current": 95.91,
-    "cash": 83.0,
-    "deployed": 10.82,
-    "unrealized": 2.09,
+    "current": 96.13,
+    "cash": 81.4,
+    "deployed": 12.42,
+    "unrealized": 2.31,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 45.91,
-    "pnl_pct": 91.8
+    "pnl_usd": 46.13,
+    "pnl_pct": 92.3
   },
   "trades": {
-    "total": 348,
+    "total": 349,
     "wins": 211,
     "losses": 124,
     "total_pnl": 17.48
@@ -42,7 +42,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-06-22T01:49:28.427330+00:00",
-      "hours_left": 8.0,
+      "hours_left": 7.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.33
@@ -62,7 +62,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-22T04:51:19.051729+00:00",
-      "hours_left": 8.0,
+      "hours_left": 7.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.43
@@ -82,7 +82,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-22T08:20:23.359657+00:00",
-      "hours_left": 32.0,
+      "hours_left": 31.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.2
@@ -102,7 +102,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-22T04:53:49.622125+00:00",
-      "hours_left": 32.0,
+      "hours_left": 31.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.33
@@ -122,7 +122,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-22T05:14:12.623353+00:00",
-      "hours_left": 32.0,
+      "hours_left": 31.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.37
@@ -142,10 +142,30 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-22T04:56:15.044779+00:00",
-      "hours_left": 32.0,
+      "hours_left": 31.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.43
+    },
+    {
+      "city": "Chongqing",
+      "date": "2026-06-24",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 25.0,
+      "bucket_high": 25.0,
+      "entry_price": 0.79,
+      "shares": 2.03,
+      "cost": 1.6,
+      "current_p": 0.9007,
+      "ev_pct": 11.1,
+      "n_agree": 4,
+      "n_avail": 6,
+      "opened_at": "2026-06-23T04:01:35.650888+00:00",
+      "hours_left": 31.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.22
     }
   ],
   "recent_resolved": [
