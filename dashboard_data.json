@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T20:00:06.245748+00:00",
+  "generated_at": "2026-06-23T21:00:08.749036+00:00",
   "balance": {
     "current": 95.89,
     "cash": 75.24,
@@ -42,7 +42,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-22T08:20:23.359657+00:00",
-      "hours_left": 16.0,
+      "hours_left": 15.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.2
@@ -62,7 +62,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-22T04:53:49.622125+00:00",
-      "hours_left": 16.0,
+      "hours_left": 15.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.33
@@ -82,7 +82,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-22T05:14:12.623353+00:00",
-      "hours_left": 16.0,
+      "hours_left": 15.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.37
@@ -102,7 +102,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-22T04:56:15.044779+00:00",
-      "hours_left": 16.0,
+      "hours_left": 15.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.43
@@ -122,7 +122,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-23T04:01:35.650888+00:00",
-      "hours_left": 16.0,
+      "hours_left": 15.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.22
@@ -142,7 +142,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-23T10:11:41.844954+00:00",
-      "hours_left": 40.0,
+      "hours_left": 39.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.22
@@ -162,7 +162,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-23T05:00:27.340347+00:00",
-      "hours_left": 40.0,
+      "hours_left": 39.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.21
@@ -182,7 +182,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-23T05:59:14.530255+00:00",
-      "hours_left": 40.0,
+      "hours_left": 39.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.65
@@ -202,7 +202,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-23T15:38:55.593256+00:00",
-      "hours_left": 40.0,
+      "hours_left": 39.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.28
@@ -222,7 +222,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-23T10:16:23.683192+00:00",
-      "hours_left": 40.0,
+      "hours_left": 39.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.43
