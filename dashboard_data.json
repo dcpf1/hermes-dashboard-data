@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-24T06:00:09.897236+00:00",
+  "generated_at": "2026-06-24T07:00:10.088072+00:00",
   "balance": {
-    "current": 93.73,
-    "cash": 81.38,
-    "deployed": 10.08,
-    "unrealized": 2.27,
+    "current": 93.67,
+    "cash": 79.11,
+    "deployed": 11.79,
+    "unrealized": 2.77,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 43.73,
-    "pnl_pct": 87.5
+    "pnl_usd": 43.67,
+    "pnl_pct": 87.3
   },
   "trades": {
-    "total": 354,
+    "total": 356,
     "wins": 214,
     "losses": 126,
     "total_pnl": 17.62
@@ -42,30 +42,10 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-22T04:53:49.622125+00:00",
-      "hours_left": 6.0,
+      "hours_left": 5.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.33
-    },
-    {
-      "city": "Amsterdam",
-      "date": "2026-06-24",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 34.0,
-      "bucket_high": 34.0,
-      "entry_price": 0.74,
-      "shares": 2.23,
-      "cost": 1.65,
-      "current_p": 0.9073,
-      "ev_pct": 16.7,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-06-22T05:14:12.623353+00:00",
-      "hours_left": 6.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.37
     },
     {
       "city": "Shenzhen",
@@ -82,7 +62,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-23T05:00:27.340347+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.21
@@ -102,7 +82,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-23T05:59:14.530255+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.65
@@ -122,7 +102,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-23T15:38:55.593256+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.28
@@ -142,10 +122,50 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-23T10:16:23.683192+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.43
+    },
+    {
+      "city": "Munich",
+      "date": "2026-06-26",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 36.0,
+      "bucket_high": 36.0,
+      "entry_price": 0.74,
+      "shares": 2.27,
+      "cost": 1.68,
+      "current_p": 0.9103,
+      "ev_pct": 17.0,
+      "n_agree": 4,
+      "n_avail": 6,
+      "opened_at": "2026-06-24T06:54:27.092586+00:00",
+      "hours_left": 53.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.39
+    },
+    {
+      "city": "Istanbul",
+      "date": "2026-06-26",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 28.0,
+      "bucket_high": 28.0,
+      "entry_price": 0.71,
+      "shares": 2.37,
+      "cost": 1.68,
+      "current_p": 0.9106,
+      "ev_pct": 20.1,
+      "n_agree": 6,
+      "n_avail": 6,
+      "opened_at": "2026-06-24T06:03:34.915363+00:00",
+      "hours_left": 53.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.48
     }
   ],
   "recent_resolved": [
@@ -292,6 +312,18 @@
       "pnl": -0.5,
       "closed_by": "take_profit",
       "lead_h": 51.0
+    },
+    {
+      "ts": "2026-06-22T05:14:12.623353+00:00",
+      "city": "Amsterdam",
+      "date": "2026-06-24",
+      "side": "NO",
+      "bucket": "34.0-34.0C",
+      "entry": 0.74,
+      "correct": false,
+      "pnl": -0.56,
+      "closed_by": "take_profit",
+      "lead_h": 54.0
     },
     {
       "ts": "2026-06-22T04:56:15.044779+00:00",
@@ -496,18 +528,6 @@
       "pnl": 0.67,
       "closed_by": "resolved",
       "lead_h": 46.0
-    },
-    {
-      "ts": "2026-06-18T23:49:57.546355+00:00",
-      "city": "Moscow",
-      "date": "2026-06-18",
-      "side": "NO",
-      "bucket": "17.0-17.0C",
-      "entry": 0.79,
-      "correct": true,
-      "pnl": 0.53,
-      "closed_by": "resolved",
-      "lead_h": 25.0
     }
   ],
   "city_stats": {
