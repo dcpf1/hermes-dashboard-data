@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T16:00:04.268919+00:00",
+  "updated_at": "2026-06-24T16:35:04.072835+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -91,6 +91,18 @@
       "current": 320,
       "target": 580,
       "unit": "resolved trades",
+      "met": false
+    },
+    {
+      "id": "nr-shadow-check",
+      "title": "Near-Resolution METAR (nr_shadow): 0 setups found -- gate may be too strict",
+      "description": "Near-Resolution METAR Entry (Fix 9) shadow log. At >=25 rows: compare NR win rate vs the YES baseline; if >3pp better, set nr_apply_mode: live in config.json (hot-reload). If it stays at 0 rows for several days the entry gate is too strict -- loosen one of nr_local_hour_min (15.0), nr_max_hours (6.0), nr_min_prob (0.90), nr_max_ask (0.82) in config.json.",
+      "type": "threshold",
+      "priority": "warn",
+      "project": "Weatherbot",
+      "current": 0,
+      "target": 25,
+      "unit": "NR shadow rows",
       "met": false
     },
     {

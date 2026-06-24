@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T16:00:04.268919+00:00",
+  "generated_at": "2026-06-24T16:35:04.072835+00:00",
   "balance": {
     "current": 93.71,
     "cash": 81.1,
@@ -42,7 +42,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-23T05:00:27.340347+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.4,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.21
@@ -62,7 +62,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-23T05:59:14.530255+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.4,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.65
@@ -82,7 +82,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-23T15:38:55.593256+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.4,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.28
@@ -102,7 +102,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-23T10:16:23.683192+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.4,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.43
@@ -122,7 +122,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-24T06:54:27.092586+00:00",
-      "hours_left": 44.0,
+      "hours_left": 43.4,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.39
@@ -142,7 +142,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-24T06:03:34.915363+00:00",
-      "hours_left": 44.0,
+      "hours_left": 43.4,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.48
