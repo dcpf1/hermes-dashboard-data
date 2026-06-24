@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-24T02:00:09.560466+00:00",
+  "generated_at": "2026-06-24T03:00:09.968127+00:00",
   "balance": {
-    "current": 95.91,
-    "cash": 77.14,
-    "deployed": 15.65,
-    "unrealized": 3.12,
+    "current": 95.98,
+    "cash": 79.03,
+    "deployed": 14.05,
+    "unrealized": 2.9,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 45.91,
-    "pnl_pct": 91.8
+    "pnl_usd": 45.98,
+    "pnl_pct": 92.0
   },
   "trades": {
     "total": 354,
@@ -42,7 +42,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-22T08:20:23.359657+00:00",
-      "hours_left": 10.0,
+      "hours_left": 9.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.2
@@ -62,7 +62,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-22T04:53:49.622125+00:00",
-      "hours_left": 10.0,
+      "hours_left": 9.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.33
@@ -82,7 +82,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-22T05:14:12.623353+00:00",
-      "hours_left": 10.0,
+      "hours_left": 9.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.37
@@ -102,30 +102,10 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-22T04:56:15.044779+00:00",
-      "hours_left": 10.0,
+      "hours_left": 9.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.43
-    },
-    {
-      "city": "Chongqing",
-      "date": "2026-06-24",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 25.0,
-      "bucket_high": 25.0,
-      "entry_price": 0.79,
-      "shares": 2.03,
-      "cost": 1.6,
-      "current_p": 0.9007,
-      "ev_pct": 11.1,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-06-23T04:01:35.650888+00:00",
-      "hours_left": 10.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.22
     },
     {
       "city": "Shenzhen",
@@ -142,7 +122,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-23T05:00:27.340347+00:00",
-      "hours_left": 34.0,
+      "hours_left": 33.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.21
@@ -162,7 +142,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-23T05:59:14.530255+00:00",
-      "hours_left": 34.0,
+      "hours_left": 33.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.65
@@ -182,7 +162,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-23T15:38:55.593256+00:00",
-      "hours_left": 34.0,
+      "hours_left": 33.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.28
@@ -202,7 +182,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-23T10:16:23.683192+00:00",
-      "hours_left": 34.0,
+      "hours_left": 33.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.43
@@ -280,6 +260,18 @@
       "pnl": 0.25,
       "closed_by": "take_profit",
       "lead_h": 49.0
+    },
+    {
+      "ts": "2026-06-23T04:01:35.650888+00:00",
+      "city": "Chongqing",
+      "date": "2026-06-24",
+      "side": "NO",
+      "bucket": "25.0-25.0C",
+      "entry": 0.79,
+      "correct": true,
+      "pnl": 0.28,
+      "closed_by": "take_profit",
+      "lead_h": 32.0
     },
     {
       "ts": "2026-06-22T18:05:39.610769+00:00",
@@ -556,18 +548,6 @@
       "pnl": 0.23,
       "closed_by": "take_profit",
       "lead_h": 55.0
-    },
-    {
-      "ts": "2026-06-17T18:47:25.061129+00:00",
-      "city": "Helsinki",
-      "date": "2026-06-17",
-      "side": "NO",
-      "bucket": "20.0-20.0C",
-      "entry": 0.76,
-      "correct": true,
-      "pnl": 0.38,
-      "closed_by": "take_profit",
-      "lead_h": 52.0
     }
   ],
   "city_stats": {
