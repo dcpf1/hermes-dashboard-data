@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T18:00:04.484006+00:00",
+  "updated_at": "2026-06-25T19:00:05.110967+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -52,7 +52,7 @@
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 327,
+      "current": 330,
       "target": 300,
       "unit": "resolved trades",
       "met": true
@@ -64,7 +64,7 @@
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 327,
+      "current": 330,
       "target": 300,
       "unit": "resolved trades",
       "met": true
@@ -76,7 +76,7 @@
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 327,
+      "current": 330,
       "target": 300,
       "unit": "resolved trades",
       "met": true
@@ -88,7 +88,7 @@
       "type": "threshold",
       "priority": "neutral",
       "project": "Weatherbot",
-      "current": 327,
+      "current": 330,
       "target": 580,
       "unit": "resolved trades",
       "met": false
@@ -107,12 +107,12 @@
     },
     {
       "id": "brier-cleared",
-      "title": "Brier 0.212 -- go-live gate CLEARED (<= 0.25)",
+      "title": "Brier 0.21 -- go-live gate CLEARED (<= 0.25)",
       "description": "Brier gate cleared. Ready to flip LIVE_MODE=True when decided.",
       "type": "alert",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 0.212,
+      "current": 0.21,
       "target": 0.25,
       "unit": "Brier score",
       "met": true
