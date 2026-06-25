@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-25T12:00:07.397332+00:00",
+  "generated_at": "2026-06-25T13:00:03.915523+00:00",
   "balance": {
-    "current": 93.73,
-    "cash": 85.16,
-    "deployed": 6.77,
-    "unrealized": 1.8,
+    "current": 93.65,
+    "cash": 87.18,
+    "deployed": 4.95,
+    "unrealized": 1.52,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 43.73,
-    "pnl_pct": 87.5
+    "pnl_usd": 43.65,
+    "pnl_pct": 87.3
   },
   "trades": {
     "total": 356,
@@ -42,7 +42,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-24T06:54:27.092586+00:00",
-      "hours_left": 24.0,
+      "hours_left": 23.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.39
@@ -62,7 +62,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-06-24T06:03:34.915363+00:00",
-      "hours_left": 24.0,
+      "hours_left": 23.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.48
@@ -86,26 +86,6 @@
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.65
-    },
-    {
-      "city": "Warsaw",
-      "date": "2026-06-25",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 32.0,
-      "bucket_high": 32.0,
-      "entry_price": 0.8,
-      "shares": 2.27,
-      "cost": 1.82,
-      "current_p": 0.924,
-      "ev_pct": 12.4,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-06-23T15:38:55.593256+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.28
     }
   ],
   "recent_resolved": [
@@ -216,6 +196,18 @@
       "pnl": 0.41,
       "closed_by": "take_profit",
       "lead_h": 37.0
+    },
+    {
+      "ts": "2026-06-23T15:38:55.593256+00:00",
+      "city": "Warsaw",
+      "date": "2026-06-25",
+      "side": "NO",
+      "bucket": "32.0-32.0C",
+      "entry": 0.8,
+      "correct": true,
+      "pnl": 0.2,
+      "closed_by": "take_profit",
+      "lead_h": 44.0
     },
     {
       "ts": "2026-06-23T15:34:51.293616+00:00",
@@ -456,18 +448,6 @@
       "pnl": -1.86,
       "closed_by": "price_catastrophic",
       "lead_h": 50.0
-    },
-    {
-      "ts": "2026-06-20T12:23:22.210432+00:00",
-      "city": "Shenzhen",
-      "date": "2026-06-19",
-      "side": "NO",
-      "bucket": "32.0-32.0C",
-      "entry": 0.74,
-      "correct": true,
-      "pnl": 0.47,
-      "closed_by": "take_profit",
-      "lead_h": 46.0
     }
   ],
   "city_stats": {
