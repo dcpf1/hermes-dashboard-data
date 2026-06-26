@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-26T14:00:03.319434+00:00",
+  "generated_at": "2026-06-26T15:00:03.068386+00:00",
   "balance": {
-    "current": 94.01,
-    "cash": 89.43,
-    "deployed": 3.38,
-    "unrealized": 1.2,
+    "current": 95.18,
+    "cash": 86.2,
+    "deployed": 6.61,
+    "unrealized": 2.37,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 44.01,
-    "pnl_pct": 88.0
+    "pnl_usd": 45.18,
+    "pnl_pct": 90.4
   },
   "trades": {
-    "total": 358,
+    "total": 360,
     "wins": 221,
     "losses": 129,
     "total_pnl": 18.08
@@ -28,6 +28,26 @@
   },
   "open_positions": [
     {
+      "city": "Shenzhen",
+      "date": "2026-06-27",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 30.0,
+      "bucket_high": 30.0,
+      "entry_price": 0.32,
+      "shares": 4.69,
+      "cost": 1.5,
+      "current_p": 0.4424,
+      "ev_pct": 12.2,
+      "n_agree": 5,
+      "n_avail": 6,
+      "opened_at": "2026-06-26T14:11:54.157380+00:00",
+      "hours_left": 21.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.57
+    },
+    {
       "city": "Sao Paulo",
       "date": "2026-06-27",
       "unit": "C",
@@ -42,10 +62,30 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-26T02:10:54.326777+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.72
+    },
+    {
+      "city": "Madrid",
+      "date": "2026-06-28",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 36.0,
+      "bucket_high": 36.0,
+      "entry_price": 0.68,
+      "shares": 2.54,
+      "cost": 1.73,
+      "current_p": 0.9156,
+      "ev_pct": 23.6,
+      "n_agree": 5,
+      "n_avail": 6,
+      "opened_at": "2026-06-26T14:08:30.424998+00:00",
+      "hours_left": 45.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.6
     },
     {
       "city": "Istanbul",
