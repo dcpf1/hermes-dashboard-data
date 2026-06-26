@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T11:00:07.484667+00:00",
+  "generated_at": "2026-06-26T12:00:05.750878+00:00",
   "balance": {
     "current": 94.01,
     "cash": 89.43,
@@ -28,26 +28,6 @@
   },
   "open_positions": [
     {
-      "city": "Istanbul",
-      "date": "2026-06-26",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 28.0,
-      "bucket_high": 28.0,
-      "entry_price": 0.71,
-      "shares": 2.37,
-      "cost": 1.68,
-      "current_p": 0.9106,
-      "ev_pct": 20.1,
-      "n_agree": 6,
-      "n_avail": 6,
-      "opened_at": "2026-06-24T06:03:34.915363+00:00",
-      "hours_left": 1.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.48
-    },
-    {
       "city": "Sao Paulo",
       "date": "2026-06-27",
       "unit": "C",
@@ -62,10 +42,30 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-26T02:10:54.326777+00:00",
-      "hours_left": 25.0,
+      "hours_left": 24.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.72
+    },
+    {
+      "city": "Istanbul",
+      "date": "2026-06-26",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 28.0,
+      "bucket_high": 28.0,
+      "entry_price": 0.71,
+      "shares": 2.37,
+      "cost": 1.68,
+      "current_p": 0.9106,
+      "ev_pct": 20.1,
+      "n_agree": 6,
+      "n_avail": 6,
+      "opened_at": "2026-06-24T06:03:34.915363+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.48
     }
   ],
   "recent_resolved": [
