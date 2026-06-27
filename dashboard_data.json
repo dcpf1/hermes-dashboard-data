@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-27T01:00:04.179957+00:00",
+  "generated_at": "2026-06-27T02:00:06.129678+00:00",
   "balance": {
-    "current": 95.26,
-    "cash": 90.86,
-    "deployed": 3.23,
-    "unrealized": 1.17,
+    "current": 95.27,
+    "cash": 93.2,
+    "deployed": 1.5,
+    "unrealized": 0.57,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 45.26,
+    "pnl_usd": 45.27,
     "pnl_pct": 90.5
   },
   "trades": {
@@ -42,30 +42,10 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-06-26T14:11:54.157380+00:00",
-      "hours_left": 11.0,
+      "hours_left": 10.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.57
-    },
-    {
-      "city": "Madrid",
-      "date": "2026-06-28",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 36.0,
-      "bucket_high": 36.0,
-      "entry_price": 0.68,
-      "shares": 2.54,
-      "cost": 1.73,
-      "current_p": 0.9156,
-      "ev_pct": 23.6,
-      "n_agree": 5,
-      "n_avail": 6,
-      "opened_at": "2026-06-26T14:08:30.424998+00:00",
-      "hours_left": 35.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.6
     }
   ],
   "recent_resolved": [
@@ -104,6 +84,18 @@
       "pnl": -0.48,
       "closed_by": "price_conditional",
       "lead_h": 21.0
+    },
+    {
+      "ts": "2026-06-26T14:08:30.424998+00:00",
+      "city": "Madrid",
+      "date": "2026-06-28",
+      "side": "NO",
+      "bucket": "36.0-36.0C",
+      "entry": 0.68,
+      "correct": true,
+      "pnl": 0.61,
+      "closed_by": "take_profit",
+      "lead_h": 45.0
     },
     {
       "ts": "2026-06-26T02:10:54.326777+00:00",
@@ -416,18 +408,6 @@
       "pnl": 0.96,
       "closed_by": "take_profit",
       "lead_h": 55.0
-    },
-    {
-      "ts": "2026-06-20T18:05:39.314117+00:00",
-      "city": "Istanbul",
-      "date": "2026-06-20",
-      "side": "NO",
-      "bucket": "23.0-23.0C",
-      "entry": 0.77,
-      "correct": true,
-      "pnl": 0.58,
-      "closed_by": "take_profit",
-      "lead_h": 36.0
     }
   ],
   "city_stats": {
