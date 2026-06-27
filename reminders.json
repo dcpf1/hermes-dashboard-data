@@ -12,7 +12,7 @@
         "config.json"
       ],
       "added": "2026-05-19",
-      "done": false
+      "done": true
     },
     {
       "id": "meta-shadow-check",
@@ -25,15 +25,12 @@
         "meta_shadow.jsonl"
       ],
       "added": "2026-06-10",
-      "done": false
+      "done": true
     },
     {
       "id": "rb-shadow-check",
       "title": "Review recency_bias_shadow.jsonl at 30 flagged entries",
       "description": "Count lines in data/recency_bias_shadow.jsonl where rb_signal=true. For those where mult_would>1.0: compare win_rate vs overall bot win_rate. If flagged entries win at >65% (vs ~59% base), flip rb_apply_mode: live in config.json (hot-reload, no restart). If neutral or worse, raise rb_delta_threshold from 1.5 to 2.0 and continue shadow.",
-      "type": "threshold",
-      "target": 30,
-      "unit": "recency_bias flagged trades",
       "priority": "info",
       "project": "Weatherbot",
       "tags": [
