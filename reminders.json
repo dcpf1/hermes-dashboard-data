@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T17:00:09.657281+00:00",
+  "updated_at": "2026-06-27T18:00:08.337427+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -52,7 +52,7 @@
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 333,
+      "current": 334,
       "target": 300,
       "unit": "resolved trades",
       "met": true
@@ -64,7 +64,7 @@
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 333,
+      "current": 334,
       "target": 300,
       "unit": "resolved trades",
       "met": true
@@ -76,7 +76,7 @@
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 333,
+      "current": 334,
       "target": 300,
       "unit": "resolved trades",
       "met": true
@@ -88,7 +88,7 @@
       "type": "threshold",
       "priority": "neutral",
       "project": "Weatherbot",
-      "current": 333,
+      "current": 334,
       "target": 580,
       "unit": "resolved trades",
       "met": false

@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-06-27T17:00:09.657281+00:00",
+  "generated_at": "2026-06-27T18:00:08.337427+00:00",
   "balance": {
-    "current": 96.97,
+    "current": 94.9,
     "cash": 92.38,
-    "deployed": 3.3,
-    "unrealized": 1.29,
+    "deployed": 1.8,
+    "unrealized": 0.72,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 46.97,
-    "pnl_pct": 93.9
+    "pnl_usd": 44.9,
+    "pnl_pct": 89.8
   },
   "trades": {
     "total": 362,
     "wins": 224,
-    "losses": 129,
-    "total_pnl": 18.56
+    "losses": 130,
+    "total_pnl": 17.06
   },
   "brier": {
     "score": 0.2084,
-    "n": 333,
-    "bss": -0.123,
-    "win_rate": 0.67,
+    "n": 334,
+    "bss": -0.125,
+    "win_rate": 0.668,
     "ci_lo": 0.172,
-    "ci_hi": 0.2449,
+    "ci_hi": 0.2448,
     "base": 0.246,
     "status": "amber"
   },
@@ -42,33 +42,25 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-27T04:59:36.882925+00:00",
-      "hours_left": 43.0,
+      "hours_left": 42.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.72
-    },
-    {
-      "city": "Shenzhen",
-      "date": "2026-06-27",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 30.0,
-      "bucket_high": 30.0,
-      "entry_price": 0.32,
-      "shares": 4.69,
-      "cost": 1.5,
-      "current_p": 0.4424,
-      "ev_pct": 12.2,
-      "n_agree": 5,
-      "n_avail": 6,
-      "opened_at": "2026-06-26T14:11:54.157380+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.57
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-06-27T16:55:40.372526+00:00",
+      "city": "Shenzhen",
+      "date": "2026-06-27",
+      "side": "YES",
+      "bucket": "30.0-30.0C",
+      "entry": 0.32,
+      "correct": false,
+      "pnl": -1.5,
+      "closed_by": "resolved",
+      "lead_h": 21.0
+    },
     {
       "ts": "2026-06-27T02:07:51.834898+00:00",
       "city": "Warsaw",
@@ -416,18 +408,6 @@
       "pnl": 0.72,
       "closed_by": "resolved",
       "lead_h": 53.0
-    },
-    {
-      "ts": "2026-06-20T18:05:39.314117+00:00",
-      "city": "Atlanta",
-      "date": "2026-06-20",
-      "side": "NO",
-      "bucket": "88.0-89.0F",
-      "entry": 0.77,
-      "correct": true,
-      "pnl": 0.48,
-      "closed_by": "resolved",
-      "lead_h": 29.0
     }
   ],
   "city_stats": {
@@ -506,11 +486,6 @@
       "win_rate": 0.733,
       "total_pnl": 0.85
     },
-    "shenzhen": {
-      "n": 5,
-      "win_rate": 0.8,
-      "total_pnl": 0.81
-    },
     "seattle": {
       "n": 2,
       "win_rate": 0.5,
@@ -535,6 +510,11 @@
       "n": 3,
       "win_rate": 0.667,
       "total_pnl": -0.49
+    },
+    "shenzhen": {
+      "n": 6,
+      "win_rate": 0.667,
+      "total_pnl": -0.69
     },
     "tokyo": {
       "n": 9,
@@ -654,8 +634,8 @@
       "n": 0
     },
     "6to24": {
-      "brier": 0.1844,
-      "n": 60
+      "brier": 0.1846,
+      "n": 61
     },
     "24to48": {
       "brier": 0.2175,
