@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T11:00:07.347484+00:00",
+  "generated_at": "2026-06-27T12:00:07.163744+00:00",
   "balance": {
     "current": 96.97,
     "cash": 92.38,
@@ -28,26 +28,6 @@
   },
   "open_positions": [
     {
-      "city": "Shenzhen",
-      "date": "2026-06-27",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 30.0,
-      "bucket_high": 30.0,
-      "entry_price": 0.32,
-      "shares": 4.69,
-      "cost": 1.5,
-      "current_p": 0.4424,
-      "ev_pct": 12.2,
-      "n_agree": 5,
-      "n_avail": 6,
-      "opened_at": "2026-06-26T14:11:54.157380+00:00",
-      "hours_left": 1.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.57
-    },
-    {
       "city": "Istanbul",
       "date": "2026-06-29",
       "unit": "C",
@@ -62,10 +42,30 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-27T04:59:36.882925+00:00",
-      "hours_left": 49.0,
+      "hours_left": 48.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.72
+    },
+    {
+      "city": "Shenzhen",
+      "date": "2026-06-27",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 30.0,
+      "bucket_high": 30.0,
+      "entry_price": 0.32,
+      "shares": 4.69,
+      "cost": 1.5,
+      "current_p": 0.4424,
+      "ev_pct": 12.2,
+      "n_agree": 5,
+      "n_avail": 6,
+      "opened_at": "2026-06-26T14:11:54.157380+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.57
     }
   ],
   "recent_resolved": [
