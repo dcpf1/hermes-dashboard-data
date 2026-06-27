@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T19:00:16.976395+00:00",
+  "updated_at": "2026-06-27T19:12:31.617884+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -44,39 +44,39 @@
   "auto": [
     {
       "id": "gepa-optimizer",
-      "title": "Re-run GEPA optimizer at n = 300",
-      "description": "Run: python3 config_optimizer.py optimize --trials 200 --walk-forward 4. Compare vs baseline run 20260601_224455. kelly 0.45 suggestion: IGNORE. Hour tightening: credible if it reappears.",
+      "title": "Re-run GEPA optimizer at n = 500",
+      "description": "n=300 run DONE (20260622_162109): overfit gap -0.4358 -- no clean signal, nothing applied. Re-run at n=500: python3 config_optimizer.py optimize --trials 200 --walk-forward 4. Only apply suggestions if overfit gap turns POSITIVE. Cross-run consistent hints: max_yes_hours=52.",
       "type": "threshold",
-      "priority": "warn",
+      "priority": "info",
       "project": "Weatherbot",
       "current": 336,
-      "target": 300,
+      "target": 500,
       "unit": "resolved trades",
-      "met": true
+      "met": false
     },
     {
-      "id": "lgbm-train-n300",
-      "title": "Retrain LightGBM meta-model at n = 300",
-      "description": "Run: python3 train_meta_model.py. NO model should improve (more live NO rows). YES model should finally pass gate (~50 live YES by n=300). Deploy if val_brier < current baseline (NO: 0.1979). Check data/meta_shadow.jsonl direction before flipping meta_apply_mode: live.",
+      "id": "lgbm-recheck",
+      "title": "LightGBM recheck at n = 420",
+      "description": "n=300 retrain DONE: NO val_brier=0.1863, YES val_brier=0.1487 (both deployed, shadow mode). At n=420: re-run python3 train_meta_model.py; compare vs Jun 22 baselines. Key question: do new models ever DOWN-size losers (range was 1.0-1.255, up-only at n=300)? If yes, flip meta_apply_mode: live in config.json (hot-reload). If still up-only, keep shadow.",
       "type": "threshold",
-      "priority": "warn",
+      "priority": "info",
       "project": "Weatherbot",
       "current": 336,
-      "target": 300,
+      "target": 420,
       "unit": "resolved trades",
-      "met": true
+      "met": false
     },
     {
       "id": "sm-shadow-n300",
-      "title": "SM shadow analysis at n = 300",
-      "description": "Check data/sm_shadow.jsonl for rows where sm_convergence=true. Compare win rate of convergence rows vs agree_strong rows. If convergence tier improves win rate: flip sm_apply_mode: live in config.json (hot-reload).",
+      "title": "SM shadow + full LightGBM v2 retrain at n = 500",
+      "description": "n=300 SM analysis DONE (sm_apply_mode: shadow held -- convergence tier win rate marginal). At n=500: (1) retrain both LGBM models with v2 features (inter_model_spread, n_models -- check row coverage first, only rows after Jun 10 2026); (2) re-check SM convergence tier (sm_shadow.jsonl rows where sm_convergence=true); (3) re-evaluate GFS ensemble: if ensemble_p_yes Brier still worse than Gaussian, delete ensemble code.",
       "type": "threshold",
-      "priority": "warn",
+      "priority": "info",
       "project": "Weatherbot",
       "current": 336,
-      "target": 300,
+      "target": 500,
       "unit": "resolved trades",
-      "met": true
+      "met": false
     },
     {
       "id": "city-curator",
@@ -91,6 +91,18 @@
       "met": false
     },
     {
+      "id": "underdispersion-check",
+      "title": "Underdispersion eval: n=336 >= 330 -- run eval_underdispersion.py",
+      "description": "Run: python3 eval_underdispersion.py. Compares win rate of underdispersion-flagged entries vs the overall baseline. If flagged entries win at >3pp above baseline: set underdispersion_apply_mode: live in config.json (hot-reload, no restart). If neutral or worse: raise ud_threshold or disable.",
+      "type": "threshold",
+      "priority": "warn",
+      "project": "Weatherbot",
+      "current": 336,
+      "target": 330,
+      "unit": "resolved trades",
+      "met": true
+    },
+    {
       "id": "nr-shadow-check",
       "title": "Near-Resolution METAR (nr_shadow): 0 setups found -- gate may be too strict",
       "description": "Near-Resolution METAR Entry (Fix 9) shadow log. At >=25 rows: compare NR win rate vs the YES baseline; if >3pp better, set nr_apply_mode: live in config.json (hot-reload). If it stays at 0 rows for several days the entry gate is too strict -- loosen one of nr_local_hour_min (15.0), nr_max_hours (6.0), nr_min_prob (0.90), nr_max_ask (0.82) in config.json.",
@@ -103,9 +115,21 @@
       "met": false
     },
     {
+      "id": "pp-sigma-check",
+      "title": "PP-sigma shadow: 2617 rows -- REVIEW NOW (gate was 25)",
+      "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). At >=25 rows: compare sigma_blend_was vs sigma_shrunk on RESOLVED rows. If Brier improves >2pp: set postpeak_apply_mode: live in config.json (hot-reload, no restart).",
+      "type": "threshold",
+      "priority": "warn",
+      "project": "Weatherbot",
+      "current": 2617,
+      "target": 25,
+      "unit": "PP-sigma shadow rows",
+      "met": true
+    },
+    {
       "id": "brier-cleared",
-      "title": "Brier 0.207 -- go-live gate CLEARED (<= 0.25)",
-      "description": "Brier gate cleared. Ready to flip LIVE_MODE=True when decided.",
+      "title": "Brier 0.207 -- gate holding (LIVE since Jun 16)",
+      "description": "LIVE_MODE=True since Jun 16. Brier at 0.207 (amber). Sizing bands: <0.20=1.0x, 0.20-0.30=0.75x, 0.30-0.35=0.50x, >=0.35=halt entries, >=0.40=scan abort+alert.",
       "type": "alert",
       "priority": "warn",
       "project": "Weatherbot",
@@ -113,18 +137,6 @@
       "target": 0.25,
       "unit": "Brier score",
       "met": true
-    },
-    {
-      "id": "golive-countdown",
-      "title": "Go-live deadline: 0 days left (June 22)",
-      "description": "Decision deadline June 22 2026 (0 days). Steps: (1) Verify EOA sig type 0 with $1.00 test order. (2) Flip LIVE_MODE=True in bot_v2.py. (3) Set circuit_dry_run: false in config.json + restart.",
-      "type": "countdown",
-      "priority": "high",
-      "project": "Weatherbot",
-      "current": 0,
-      "target": 0,
-      "unit": "days remaining",
-      "met": false
     },
     {
       "id": "rb-shadow-check",
