@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-27T02:00:06.129678+00:00",
+  "generated_at": "2026-06-27T03:00:05.511029+00:00",
   "balance": {
-    "current": 95.27,
-    "cash": 93.2,
-    "deployed": 1.5,
-    "unrealized": 0.57,
+    "current": 97.63,
+    "cash": 91.25,
+    "deployed": 3.45,
+    "unrealized": 2.93,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 45.27,
-    "pnl_pct": 90.5
+    "pnl_usd": 47.63,
+    "pnl_pct": 95.3
   },
   "trades": {
-    "total": 360,
+    "total": 361,
     "wins": 224,
     "losses": 129,
     "total_pnl": 18.56
@@ -28,6 +28,26 @@
   },
   "open_positions": [
     {
+      "city": "Warsaw",
+      "date": "2026-06-27",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 34.0,
+      "bucket_high": 34.0,
+      "entry_price": 0.13,
+      "shares": 15.0,
+      "cost": 1.95,
+      "current_p": 0.2875,
+      "ev_pct": 15.7,
+      "n_agree": 3,
+      "n_avail": 6,
+      "opened_at": "2026-06-27T02:07:51.834898+00:00",
+      "hours_left": 9.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 2.36
+    },
+    {
       "city": "Shenzhen",
       "date": "2026-06-27",
       "unit": "C",
@@ -42,7 +62,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-06-26T14:11:54.157380+00:00",
-      "hours_left": 10.0,
+      "hours_left": 9.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.57
