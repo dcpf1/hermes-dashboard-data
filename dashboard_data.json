@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-27T10:00:06.475422+00:00",
+  "generated_at": "2026-06-27T11:00:07.347484+00:00",
   "balance": {
-    "current": 98.35,
-    "cash": 89.45,
-    "deployed": 5.25,
-    "unrealized": 3.65,
+    "current": 96.97,
+    "cash": 92.38,
+    "deployed": 3.3,
+    "unrealized": 1.29,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 48.35,
-    "pnl_pct": 96.7
+    "pnl_usd": 46.97,
+    "pnl_pct": 93.9
   },
   "trades": {
     "total": 362,
@@ -28,26 +28,6 @@
   },
   "open_positions": [
     {
-      "city": "Warsaw",
-      "date": "2026-06-27",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 34.0,
-      "bucket_high": 34.0,
-      "entry_price": 0.13,
-      "shares": 15.0,
-      "cost": 1.95,
-      "current_p": 0.2875,
-      "ev_pct": 15.7,
-      "n_agree": 3,
-      "n_avail": 6,
-      "opened_at": "2026-06-27T02:07:51.834898+00:00",
-      "hours_left": 2.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 2.36
-    },
-    {
       "city": "Shenzhen",
       "date": "2026-06-27",
       "unit": "C",
@@ -62,7 +42,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-06-26T14:11:54.157380+00:00",
-      "hours_left": 2.0,
+      "hours_left": 1.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.57
@@ -82,13 +62,25 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-27T04:59:36.882925+00:00",
-      "hours_left": 50.0,
+      "hours_left": 49.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.72
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-06-27T02:07:51.834898+00:00",
+      "city": "Warsaw",
+      "date": "2026-06-27",
+      "side": "YES",
+      "bucket": "34.0-34.0C",
+      "entry": 0.13,
+      "correct": true,
+      "pnl": 0.98,
+      "closed_by": "resolved",
+      "lead_h": 9.0
+    },
     {
       "ts": "2026-06-26T18:05:09.462182+00:00",
       "city": "Istanbul",
@@ -436,18 +428,6 @@
       "pnl": 0.48,
       "closed_by": "resolved",
       "lead_h": 29.0
-    },
-    {
-      "ts": "2026-06-20T18:05:39.314117+00:00",
-      "city": "Moscow",
-      "date": "2026-06-20",
-      "side": "NO",
-      "bucket": "19.0-19.0C",
-      "entry": 0.65,
-      "correct": true,
-      "pnl": 0.96,
-      "closed_by": "take_profit",
-      "lead_h": 55.0
     }
   ],
   "city_stats": {
