@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T23:00:05.158791+00:00",
+  "updated_at": "2026-06-27T00:00:06.382757+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -139,6 +139,18 @@
       "current": 0,
       "target": 30,
       "unit": "recency_bias flagged trades",
+      "met": false
+    },
+    {
+      "id": "launch-shadow-check",
+      "title": "Launch shadow (launch_shadow.jsonl): 0 captures yet -- priming seen-set",
+      "description": "Fix 19/20 launch-underpricing shadow (data/launch_shadow.jsonl, status=captured). At >=30 captures: join rows to resolved.jsonl by market_id and check whether high edge_yes launches resolve YES more often than launch_ask_yes implied (the thesis). If a real edge exists, tune the Fix 20 filter (launch_capture_min_ask/min_edge/min_consensus) on the would-fire subset BEFORE considering launch_capture_enabled: true. capture_would_fire is advisory only; nothing trades until validated. If captures stay at 0 for days, the launch poller is not catching listings fresh (loosen launch_max_age_at_sight_min or shorten launch_poll_interval_s).",
+      "type": "threshold",
+      "priority": "info",
+      "project": "Weatherbot",
+      "current": 0,
+      "target": 30,
+      "unit": "launch captures",
       "met": false
     }
   ]
