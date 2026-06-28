@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T04:00:09.912196+00:00",
+  "updated_at": "2026-06-28T05:00:08.950141+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -116,7 +116,7 @@
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma shadow: 2727 rows, n=336/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
+      "title": "PP-sigma shadow: 2746 rows, n=336/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor.",
       "type": "threshold",
       "priority": "info",
@@ -152,12 +152,12 @@
     },
     {
       "id": "launch-shadow-check",
-      "title": "Launch shadow: 616 captures (0 would-fire) -- ANALYZE now",
+      "title": "Launch shadow: 759 captures (1 would-fire) -- ANALYZE now",
       "description": "Fix 19/20 launch-underpricing shadow (data/launch_shadow.jsonl, status=captured). At >=30 captures: join rows to resolved.jsonl by market_id and check whether high edge_yes launches resolve YES more often than launch_ask_yes implied (the thesis). If a real edge exists, tune the Fix 20 filter (launch_capture_min_ask/min_edge/min_consensus) on the would-fire subset BEFORE considering launch_capture_enabled: true. capture_would_fire is advisory only; nothing trades until validated. If captures stay at 0 for days, the launch poller is not catching listings fresh (loosen launch_max_age_at_sight_min or shorten launch_poll_interval_s).",
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 616,
+      "current": 759,
       "target": 30,
       "unit": "launch captures",
       "met": true
