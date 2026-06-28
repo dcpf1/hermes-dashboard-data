@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T10:00:10.363388+00:00",
+  "updated_at": "2026-06-28T11:00:10.206157+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -91,6 +91,18 @@
       "met": false
     },
     {
+      "id": "t2-tail-validation",
+      "title": "Validate revived T2 tail tier at 20 resolved",
+      "description": "T2 (tail tier) revived 2026-06-28 (GFS-ensemble tail prob + ERA5 climo gate), running PAPER-first (t2_live=false). At 20 resolved tier==t2 rows: compute win rate vs avg entry ask + net paper PnL. If net paper PnL > 0 AND win rate >= implied (avg ask): flip t2_live: true in config.json (hot-reload). Query: grep '\"tier\": \"t2\"' data/resolved.jsonl. T2 rows are already excluded from the T1 Brier gate.",
+      "type": "threshold",
+      "priority": "info",
+      "project": "Weatherbot",
+      "current": 0,
+      "target": 20,
+      "unit": "resolved T2 trades",
+      "met": false
+    },
+    {
       "id": "underdispersion-check",
       "title": "Underdispersion re-eval: 336/500 -- not yet (Jun28 review: regime artifact, kept shadow)",
       "description": "Run: python3 eval_underdispersion.py (rewritten Jun 28 to use the CONTEMPORANEOUS baseline). Jun 28 verdict at n=343: +1.7pp vs same-window baseline = regime artifact, NOT a real edge; and win rate alone does not test the sigma-inflation counterfactual live mode would trigger. Kept shadow, re-gated to n=500. Only flip underdispersion_apply_mode: live if the contemporaneous edge holds >3pp at a real sample (>=40 UD rows).",
@@ -116,7 +128,7 @@
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma shadow: 2856 rows, n=336/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
+      "title": "PP-sigma shadow: 2871 rows, n=336/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor.",
       "type": "threshold",
       "priority": "info",
