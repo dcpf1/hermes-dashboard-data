@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T19:00:09.742576+00:00",
+  "updated_at": "2026-06-29T20:00:09.673053+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -49,7 +49,7 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 337,
+      "current": 348,
       "target": 500,
       "unit": "resolved trades",
       "met": false
@@ -61,7 +61,7 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 337,
+      "current": 348,
       "target": 420,
       "unit": "resolved trades",
       "met": false
@@ -73,7 +73,7 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 337,
+      "current": 348,
       "target": 500,
       "unit": "resolved trades",
       "met": false
@@ -85,7 +85,7 @@
       "type": "threshold",
       "priority": "neutral",
       "project": "Weatherbot",
-      "current": 337,
+      "current": 348,
       "target": 580,
       "unit": "resolved trades",
       "met": false
@@ -97,7 +97,7 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 0,
+      "current": 12,
       "target": 20,
       "unit": "resolved T2 trades",
       "met": false
@@ -128,12 +128,12 @@
     },
     {
       "id": "underdispersion-check",
-      "title": "Underdispersion re-eval: 337/500 -- not yet (Jun28 review: regime artifact, kept shadow)",
+      "title": "Underdispersion re-eval: 348/500 -- not yet (Jun28 review: regime artifact, kept shadow)",
       "description": "Run: python3 eval_underdispersion.py (rewritten Jun 28 to use the CONTEMPORANEOUS baseline). Jun 28 verdict at n=343: +1.7pp vs same-window baseline = regime artifact, NOT a real edge; and win rate alone does not test the sigma-inflation counterfactual live mode would trigger. Kept shadow, re-gated to n=500. Only flip underdispersion_apply_mode: live if the contemporaneous edge holds >3pp at a real sample (>=40 UD rows).",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 337,
+      "current": 348,
       "target": 500,
       "unit": "resolved trades",
       "met": false
@@ -152,24 +152,24 @@
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma shadow: 3706 rows, n=337/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
+      "title": "PP-sigma shadow: 3741 rows, n=348/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 337,
+      "current": 348,
       "target": 500,
       "unit": "resolved trades",
       "met": false
     },
     {
       "id": "brier-cleared",
-      "title": "Brier 0.207 -- gate holding (LIVE since Jun 16)",
-      "description": "LIVE_MODE=True since Jun 16. Brier at 0.207 (amber). Sizing bands: <0.20=1.0x, 0.20-0.30=0.75x, 0.30-0.35=0.50x, >=0.35=halt entries, >=0.40=scan abort+alert.",
+      "title": "Brier 0.204 -- gate holding (LIVE since Jun 16)",
+      "description": "LIVE_MODE=True since Jun 16. Brier at 0.204 (amber). Sizing bands: <0.20=1.0x, 0.20-0.30=0.75x, 0.30-0.35=0.50x, >=0.35=halt entries, >=0.40=scan abort+alert.",
       "type": "alert",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 0.207,
+      "current": 0.204,
       "target": 0.25,
       "unit": "Brier score",
       "met": true
