@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-29T22:00:07.064925+00:00",
+  "generated_at": "2026-06-29T23:00:12.082236+00:00",
   "balance": {
-    "current": 96.99,
+    "current": 96.41,
     "cash": 79.88,
     "deployed": 14.41,
-    "unrealized": 2.7,
+    "unrealized": 2.12,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 46.99,
-    "pnl_pct": 94.0
+    "pnl_usd": 46.41,
+    "pnl_pct": 92.8
   },
   "trades": {
     "total": 383,
@@ -37,16 +37,16 @@
       "entry_price": 0.11,
       "shares": 23.02,
       "cost": 2.31,
-      "current_p": 0.11,
+      "current_p": 0.085,
       "model_p": 0.1652,
       "ev_pct": 5.5,
       "n_agree": 2,
       "n_avail": 30,
       "opened_at": "2026-06-29T19:10:09.128749+00:00",
-      "hours_left": 14.0,
+      "hours_left": 13.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.0
+      "unrealized_pnl": -0.58
     },
     {
       "city": "Istanbul",
@@ -64,7 +64,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-06-29T00:11:26.413506+00:00",
-      "hours_left": 14.0,
+      "hours_left": 13.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.43
@@ -85,7 +85,7 @@
       "n_agree": 10,
       "n_avail": 30,
       "opened_at": "2026-06-29T06:24:32.551244+00:00",
-      "hours_left": 14.0,
+      "hours_left": 13.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
@@ -106,7 +106,7 @@
       "n_agree": 2,
       "n_avail": 30,
       "opened_at": "2026-06-29T12:58:56.477830+00:00",
-      "hours_left": 14.0,
+      "hours_left": 13.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
@@ -127,7 +127,7 @@
       "n_agree": 6,
       "n_avail": 30,
       "opened_at": "2026-06-29T19:11:57.146020+00:00",
-      "hours_left": 38.0,
+      "hours_left": 37.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.1
@@ -148,7 +148,7 @@
       "n_agree": 9,
       "n_avail": 30,
       "opened_at": "2026-06-29T12:59:22.359496+00:00",
-      "hours_left": 38.0,
+      "hours_left": 37.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 2.17
