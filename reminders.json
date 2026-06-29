@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T20:00:09.673053+00:00",
+  "updated_at": "2026-06-29T21:00:07.880538+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -104,15 +104,15 @@
     },
     {
       "id": "ladder-shadow-validation",
-      "title": "Evaluate ladder shadow at 30 clusters",
+      "title": "Ladder shadow READY -- run ladder_eval.py",
       "description": "Volume-laddering (Fix 5) running SHADOW (log-only, no orders) since 2026-06-28. Each row = one qualifying cluster: sum(leg price) < sum(leg prob) - 0.08, every leg <= 0.35. At 30 rows run: python3 ladder_eval.py -- cluster hit-rate + net normalized PnL vs the single-best-bucket counterfactual. If net PnL > 0 AND it beats single-bucket: build the live order path (equal shares, same-market adjacent-leg correlation exception, paper-first like T2).",
       "type": "threshold",
-      "priority": "info",
+      "priority": "warn",
       "project": "Weatherbot",
-      "current": 29,
+      "current": 30,
       "target": 30,
       "unit": "shadow ladders",
-      "met": false
+      "met": true
     },
     {
       "id": "maker-shadow-check",
@@ -152,7 +152,7 @@
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma shadow: 3741 rows, n=348/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
+      "title": "PP-sigma shadow: 3771 rows, n=348/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor.",
       "type": "threshold",
       "priority": "info",
