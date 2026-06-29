@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T11:00:05.879395+00:00",
+  "updated_at": "2026-06-29T12:00:04.568455+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -115,6 +115,18 @@
       "met": false
     },
     {
+      "id": "maker-shadow-check",
+      "title": "Maker-orders shadow accumulating -- 0/40 rows",
+      "description": "Fix 10 (maker orders) Phase 1 running SHADOW since 2026-06-29: every YES/NO entry logs a would-be resting-limit (maker) order alongside the real FOK -- ZERO real maker orders. Gate is COUNT-based, not calendar: per-trade fill-rate/edge needs a sample size, not a clock (a quiet week of 6 trades proves nothing); a secondary spread check flags a few-day/few-city sample as a possible regime artifact. At 40 logged rows run: python3 maker_estimator.py -- Layer 1 fill-rate bracket + price improvement (needs ~40 logged); Layer 2 adverse-selection win-rate filled-vs-missed; Layer 3 net-PnL taker-all vs maker-first+fallback (needs ~30 RESOLVED rows). Only if maker-first beats taker-all AND not adversely selected -> Phase 2 live canary (ASK DCP first).",
+      "type": "threshold",
+      "priority": "info",
+      "project": "Weatherbot",
+      "current": 0,
+      "target": 40,
+      "unit": "shadow rows",
+      "met": false
+    },
+    {
       "id": "underdispersion-check",
       "title": "Underdispersion re-eval: 337/500 -- not yet (Jun28 review: regime artifact, kept shadow)",
       "description": "Run: python3 eval_underdispersion.py (rewritten Jun 28 to use the CONTEMPORANEOUS baseline). Jun 28 verdict at n=343: +1.7pp vs same-window baseline = regime artifact, NOT a real edge; and win rate alone does not test the sigma-inflation counterfactual live mode would trigger. Kept shadow, re-gated to n=500. Only flip underdispersion_apply_mode: live if the contemporaneous edge holds >3pp at a real sample (>=40 UD rows).",
@@ -140,7 +152,7 @@
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma shadow: 3384 rows, n=337/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
+      "title": "PP-sigma shadow: 3425 rows, n=337/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor.",
       "type": "threshold",
       "priority": "info",
