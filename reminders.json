@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T00:00:08.313834+00:00",
+  "updated_at": "2026-06-30T01:00:06.489329+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -109,7 +109,7 @@
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 32,
+      "current": 34,
       "target": 30,
       "unit": "shadow ladders",
       "met": true
