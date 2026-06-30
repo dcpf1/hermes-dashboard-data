@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-30T15:00:08.010126+00:00",
+  "generated_at": "2026-06-30T16:00:09.277964+00:00",
   "balance": {
-    "current": 98.52,
+    "current": 98.57,
     "cash": 82.6,
     "deployed": 14.41,
-    "unrealized": 1.51,
+    "unrealized": 1.56,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 48.52,
-    "pnl_pct": 97.0
+    "pnl_usd": 48.57,
+    "pnl_pct": 97.1
   },
   "trades": {
     "total": 385,
@@ -37,16 +37,16 @@
       "entry_price": 0.7,
       "shares": 4.29,
       "cost": 3.0,
-      "current_p": 0.725,
+      "current_p": 0.715,
       "model_p": 0.9794,
       "ev_pct": 27.9,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-06-30T09:18:14.804269+00:00",
-      "hours_left": 21.0,
+      "hours_left": 20.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.11
+      "unrealized_pnl": 0.06
     },
     {
       "city": "London",
@@ -58,16 +58,16 @@
       "entry_price": 0.11,
       "shares": 19.09,
       "cost": 2.1,
-      "current_p": 0.105,
+      "current_p": 0.11,
       "model_p": 0.2,
       "ev_pct": 9.0,
       "n_agree": 6,
       "n_avail": 30,
       "opened_at": "2026-06-29T19:11:57.146020+00:00",
-      "hours_left": 21.0,
+      "hours_left": 20.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.1
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Amsterdam",
@@ -85,7 +85,7 @@
       "n_agree": 9,
       "n_avail": 30,
       "opened_at": "2026-06-29T12:59:22.359496+00:00",
-      "hours_left": 21.0,
+      "hours_left": 20.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 1.5
