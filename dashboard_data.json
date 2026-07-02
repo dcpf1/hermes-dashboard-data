@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-02T12:00:09.990834+00:00",
+  "generated_at": "2026-07-02T13:00:07.555099+00:00",
   "balance": {
-    "current": 83.51,
-    "cash": 71.98,
-    "deployed": 10.75,
-    "unrealized": 0.78,
+    "current": 83.49,
+    "cash": 72.95,
+    "deployed": 10.25,
+    "unrealized": 0.29,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 33.51,
+    "pnl_usd": 33.49,
     "pnl_pct": 67.0
   },
   "trades": {
@@ -37,16 +37,16 @@
       "entry_price": 0.09,
       "shares": 27.75,
       "cost": 2.55,
-      "current_p": 0.095,
+      "current_p": 0.085,
       "model_p": 0.1667,
       "ev_pct": 7.7,
       "n_agree": 5,
       "n_avail": 30,
       "opened_at": "2026-07-02T06:55:04.824329+00:00",
-      "hours_left": 24.0,
+      "hours_left": 23.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.14
+      "unrealized_pnl": -0.14
     },
     {
       "city": "London",
@@ -58,16 +58,16 @@
       "entry_price": 0.12,
       "shares": 25.0,
       "cost": 3.0,
-      "current_p": 0.08,
+      "current_p": 0.12,
       "model_p": 0.3,
       "ev_pct": 18.0,
       "n_agree": 9,
       "n_avail": 30,
       "opened_at": "2026-07-01T18:57:25.843103+00:00",
-      "hours_left": 24.0,
+      "hours_left": 23.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -1.0
+      "unrealized_pnl": 0.0
     },
     {
       "city": "London",
@@ -91,27 +91,6 @@
       "unrealized_pnl": 0.0
     },
     {
-      "city": "London",
-      "date": "2026-07-02",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 27.0,
-      "bucket_high": 27.0,
-      "entry_price": 0.1,
-      "shares": 5.0,
-      "cost": 0.5,
-      "current_p": 0.275,
-      "model_p": 0.1333,
-      "ev_pct": 3.3,
-      "n_agree": 4,
-      "n_avail": 30,
-      "opened_at": "2026-06-30T18:57:19.380441+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 1,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.88
-    },
-    {
       "city": "Seattle",
       "date": "2026-07-02",
       "unit": "F",
@@ -121,7 +100,7 @@
       "entry_price": 0.12,
       "shares": 21.67,
       "cost": 2.6,
-      "current_p": 0.155,
+      "current_p": 0.14,
       "model_p": 0.2333,
       "ev_pct": 11.3,
       "n_agree": 7,
@@ -130,7 +109,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.76
+      "unrealized_pnl": 0.43
     }
   ],
   "recent_resolved": [
@@ -205,6 +184,18 @@
       "pnl": -3.0,
       "closed_by": "resolved",
       "lead_h": 47.0
+    },
+    {
+      "ts": "2026-06-30T18:57:19.380441+00:00",
+      "city": "London",
+      "date": "2026-07-02",
+      "side": "YES",
+      "bucket": "27.0-27.0C",
+      "entry": 0.1,
+      "correct": true,
+      "pnl": 0.97,
+      "closed_by": "take_profit",
+      "lead_h": 41.0
     },
     {
       "ts": "2026-06-30T18:05:51.262701+00:00",
@@ -481,18 +472,6 @@
       "pnl": 0.98,
       "closed_by": "metar_override",
       "lead_h": 9.0
-    },
-    {
-      "ts": "2026-06-27T18:06:01.119334+00:00",
-      "city": "Sao Paulo",
-      "date": "2026-06-27",
-      "side": "NO",
-      "bucket": "25.0-25.0C",
-      "entry": 0.64,
-      "correct": true,
-      "pnl": 0.59,
-      "closed_by": "convergence_tp",
-      "lead_h": 33.0
     }
   ],
   "city_stats": {
