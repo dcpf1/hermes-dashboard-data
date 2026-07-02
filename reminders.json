@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T18:00:10.832455+00:00",
+  "updated_at": "2026-07-02T19:00:06.812277+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -49,7 +49,7 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 360,
+      "current": 364,
       "target": 500,
       "unit": "resolved trades",
       "met": false
@@ -61,7 +61,7 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 360,
+      "current": 364,
       "target": 420,
       "unit": "resolved trades",
       "met": false
@@ -73,7 +73,7 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 360,
+      "current": 364,
       "target": 500,
       "unit": "resolved trades",
       "met": false
@@ -85,22 +85,22 @@
       "type": "threshold",
       "priority": "neutral",
       "project": "Weatherbot",
-      "current": 360,
+      "current": 364,
       "target": 580,
       "unit": "resolved trades",
       "met": false
     },
     {
       "id": "t2-tail-validation",
-      "title": "Validate revived T2 tail tier at 20 resolved",
+      "title": "T2 tail validation READY -- review now",
       "description": "T2 (tail tier) revived 2026-06-28 (GFS-ensemble tail prob + ERA5 climo gate), running PAPER-first (t2_live=false). At 20 resolved tier==t2 rows: compute win rate vs avg entry ask + net paper PnL. If net paper PnL > 0 AND win rate >= implied (avg ask): flip t2_live: true in config.json (hot-reload). Query: grep '\"tier\": \"t2\"' data/resolved.jsonl. T2 rows are already excluded from the T1 Brier gate.",
       "type": "threshold",
-      "priority": "info",
+      "priority": "warn",
       "project": "Weatherbot",
-      "current": 19,
+      "current": 23,
       "target": 20,
       "unit": "resolved T2 trades",
-      "met": false
+      "met": true
     },
     {
       "id": "ladder-shadow-validation",
@@ -128,12 +128,12 @@
     },
     {
       "id": "underdispersion-check",
-      "title": "Underdispersion re-eval: 360/500 -- not yet (Jun28 review: regime artifact, kept shadow)",
+      "title": "Underdispersion re-eval: 364/500 -- not yet (Jun28 review: regime artifact, kept shadow)",
       "description": "Run: python3 eval_underdispersion.py (rewritten Jun 28 to use the CONTEMPORANEOUS baseline). Jun 28 verdict at n=343: +1.7pp vs same-window baseline = regime artifact, NOT a real edge; and win rate alone does not test the sigma-inflation counterfactual live mode would trigger. Kept shadow, re-gated to n=500. Only flip underdispersion_apply_mode: live if the contemporaneous edge holds >3pp at a real sample (>=40 UD rows).",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 360,
+      "current": 364,
       "target": 500,
       "unit": "resolved trades",
       "met": false
@@ -152,24 +152,24 @@
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma shadow: 5918 rows, n=360/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
+      "title": "PP-sigma shadow: 5964 rows, n=364/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 360,
+      "current": 364,
       "target": 500,
       "unit": "resolved trades",
       "met": false
     },
     {
       "id": "brier-cleared",
-      "title": "Brier 0.201 -- gate holding (LIVE since Jun 16)",
-      "description": "LIVE_MODE=True since Jun 16. Brier at 0.201 (amber). Sizing bands: <0.20=1.0x, 0.20-0.30=0.75x, 0.30-0.35=0.50x, >=0.35=halt entries, >=0.40=scan abort+alert.",
+      "title": "Brier 0.199 -- gate holding (LIVE since Jun 16)",
+      "description": "LIVE_MODE=True since Jun 16. Brier at 0.199 (amber). Sizing bands: <0.20=1.0x, 0.20-0.30=0.75x, 0.30-0.35=0.50x, >=0.35=halt entries, >=0.40=scan abort+alert.",
       "type": "alert",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 0.201,
+      "current": 0.199,
       "target": 0.25,
       "unit": "Brier score",
       "met": true
