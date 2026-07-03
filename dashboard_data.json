@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-03T06:00:05.291440+00:00",
+  "generated_at": "2026-07-03T07:00:07.366876+00:00",
   "balance": {
-    "current": 76.95,
-    "cash": 67.17,
-    "deployed": 11.33,
-    "unrealized": -1.55,
+    "current": 77.69,
+    "cash": 69.89,
+    "deployed": 7.0,
+    "unrealized": 0.8,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 26.95,
-    "pnl_pct": 53.9
+    "pnl_usd": 27.69,
+    "pnl_pct": 55.4
   },
   "trades": {
     "total": 396,
@@ -28,27 +28,6 @@
   },
   "open_positions": [
     {
-      "city": "Denver",
-      "date": "2026-07-03",
-      "unit": "F",
-      "side": "YES",
-      "bucket_low": 88.0,
-      "bucket_high": 89.0,
-      "entry_price": 0.09,
-      "shares": 27.75,
-      "cost": 2.55,
-      "current_p": 0.09,
-      "model_p": 0.1667,
-      "ev_pct": 7.7,
-      "n_agree": 5,
-      "n_avail": 30,
-      "opened_at": "2026-07-02T06:55:04.824329+00:00",
-      "hours_left": 6.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    },
-    {
       "city": "London",
       "date": "2026-07-03",
       "unit": "C",
@@ -58,16 +37,16 @@
       "entry_price": 0.12,
       "shares": 25.0,
       "cost": 3.0,
-      "current_p": 0.0865,
+      "current_p": 0.12,
       "model_p": 0.3,
       "ev_pct": 18.0,
       "n_agree": 9,
       "n_avail": 30,
       "opened_at": "2026-07-01T18:57:25.843103+00:00",
-      "hours_left": 6.0,
+      "hours_left": 5.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.84
+      "unrealized_pnl": 0.0
     },
     {
       "city": "London",
@@ -79,37 +58,16 @@
       "entry_price": 0.12,
       "shares": 25.0,
       "cost": 3.0,
-      "current_p": 0.125,
+      "current_p": 0.13,
       "model_p": 0.3,
       "ev_pct": 18.0,
       "n_agree": 9,
       "n_avail": 30,
       "opened_at": "2026-07-02T18:58:31.040649+00:00",
-      "hours_left": 6.0,
+      "hours_left": 5.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.13
-    },
-    {
-      "city": "Shanghai",
-      "date": "2026-07-03",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 33.0,
-      "bucket_high": 33.0,
-      "entry_price": 0.74,
-      "shares": 2.41,
-      "cost": 1.78,
-      "current_p": 0.0875,
-      "model_p": 0.9197,
-      "ev_pct": 18.0,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-07-03T04:10:15.791473+00:00",
-      "hours_left": 6.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -1.57
+      "unrealized_pnl": 0.25
     },
     {
       "city": "Amsterdam",
@@ -121,19 +79,31 @@
       "entry_price": 0.11,
       "shares": 9.09,
       "cost": 1.0,
-      "current_p": 0.19,
+      "current_p": 0.17,
       "model_p": 0.1333,
       "ev_pct": 2.3,
       "n_agree": 4,
       "n_avail": 30,
       "opened_at": "2026-07-02T19:00:23.056774+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.73
+      "unrealized_pnl": 0.55
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-07-03T04:10:15.791473+00:00",
+      "city": "Shanghai",
+      "date": "2026-07-03",
+      "side": "NO",
+      "bucket": "33.0-33.0C",
+      "entry": 0.74,
+      "correct": false,
+      "pnl": -1.75,
+      "closed_by": "take_profit",
+      "lead_h": 7.0
+    },
     {
       "ts": "2026-07-02T18:10:19.533892+00:00",
       "city": "London",
@@ -193,6 +163,18 @@
       "pnl": -1.66,
       "closed_by": "price_catastrophic",
       "lead_h": 7.0
+    },
+    {
+      "ts": "2026-07-02T06:55:04.824329+00:00",
+      "city": "Denver",
+      "date": "2026-07-03",
+      "side": "YES",
+      "bucket": "88.0-89.0F",
+      "entry": 0.09,
+      "correct": true,
+      "pnl": 0.14,
+      "closed_by": "resolved",
+      "lead_h": 29.0
     },
     {
       "ts": "2026-07-01T18:05:44.459130+00:00",
@@ -469,30 +451,6 @@
       "pnl": 0.05,
       "closed_by": "forecast_changed",
       "lead_h": 24.0
-    },
-    {
-      "ts": "2026-06-29T18:55:29.818203+00:00",
-      "city": "London",
-      "date": "2026-06-29",
-      "side": "YES",
-      "bucket": "23.0-23.0C",
-      "entry": 0.11,
-      "correct": false,
-      "pnl": -0.14,
-      "closed_by": "forecast_changed",
-      "lead_h": 23.0
-    },
-    {
-      "ts": "2026-06-29T18:55:29.818203+00:00",
-      "city": "Denver",
-      "date": "2026-06-29",
-      "side": "YES",
-      "bucket": "92.0-93.0F",
-      "entry": 0.109,
-      "correct": false,
-      "pnl": 0.02,
-      "closed_by": "forecast_changed",
-      "lead_h": 26.0
     }
   ],
   "city_stats": {
