@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T04:00:07.230789+00:00",
+  "updated_at": "2026-07-03T05:00:05.040566+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -109,19 +109,19 @@
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 96,
+      "current": 102,
       "target": 30,
       "unit": "shadow ladders",
       "met": true
     },
     {
       "id": "maker-shadow-check",
-      "title": "Maker-orders shadow accumulating -- 3/40 rows",
+      "title": "Maker-orders shadow accumulating -- 4/40 rows",
       "description": "Fix 10 (maker orders) Phase 1 running SHADOW since 2026-06-29: every YES/NO entry logs a would-be resting-limit (maker) order alongside the real FOK -- ZERO real maker orders. Gate is COUNT-based, not calendar: per-trade fill-rate/edge needs a sample size, not a clock (a quiet week of 6 trades proves nothing); a secondary spread check flags a few-day/few-city sample as a possible regime artifact. At 40 logged rows run: python3 maker_estimator.py -- Layer 1 fill-rate bracket + price improvement (needs ~40 logged); Layer 2 adverse-selection win-rate filled-vs-missed; Layer 3 net-PnL taker-all vs maker-first+fallback (needs ~30 RESOLVED rows). Only if maker-first beats taker-all AND not adversely selected -> Phase 2 live canary (ASK DCP first).",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 3,
+      "current": 4,
       "target": 40,
       "unit": "shadow rows",
       "met": false
@@ -152,7 +152,7 @@
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma shadow: 6165 rows, n=364/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
+      "title": "PP-sigma shadow: 6167 rows, n=364/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor.",
       "type": "threshold",
       "priority": "info",
@@ -188,12 +188,12 @@
     },
     {
       "id": "launch-shadow-check",
-      "title": "Launch shadow: 2970 captures (1 would-fire) -- ANALYZE now",
+      "title": "Launch shadow: 3300 captures (1 would-fire) -- ANALYZE now",
       "description": "Fix 19/20 launch-underpricing shadow (data/launch_shadow.jsonl, status=captured). At >=30 captures: join rows to resolved.jsonl by market_id and check whether high edge_yes launches resolve YES more often than launch_ask_yes implied (the thesis). If a real edge exists, tune the Fix 20 filter (launch_capture_min_ask/min_edge/min_consensus) on the would-fire subset BEFORE considering launch_capture_enabled: true. capture_would_fire is advisory only; nothing trades until validated. If captures stay at 0 for days, the launch poller is not catching listings fresh (loosen launch_max_age_at_sight_min or shorten launch_poll_interval_s).",
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 2970,
+      "current": 3300,
       "target": 30,
       "unit": "launch captures",
       "met": true

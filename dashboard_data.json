@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-03T04:00:07.230789+00:00",
+  "generated_at": "2026-07-03T05:00:05.040566+00:00",
   "balance": {
-    "current": 78.88,
-    "cash": 68.95,
-    "deployed": 9.55,
-    "unrealized": 0.38,
+    "current": 77.93,
+    "cash": 67.17,
+    "deployed": 11.33,
+    "unrealized": -0.57,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 28.88,
-    "pnl_pct": 57.8
+    "pnl_usd": 27.93,
+    "pnl_pct": 55.9
   },
   "trades": {
-    "total": 395,
+    "total": 396,
     "wins": 234,
     "losses": 153,
     "total_pnl": 3.56
@@ -43,7 +43,7 @@
       "n_agree": 5,
       "n_avail": 30,
       "opened_at": "2026-07-02T06:55:04.824329+00:00",
-      "hours_left": 8.0,
+      "hours_left": 7.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
@@ -64,7 +64,7 @@
       "n_agree": 9,
       "n_avail": 30,
       "opened_at": "2026-07-01T18:57:25.843103+00:00",
-      "hours_left": 8.0,
+      "hours_left": 7.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
@@ -85,10 +85,31 @@
       "n_agree": 9,
       "n_avail": 30,
       "opened_at": "2026-07-02T18:58:31.040649+00:00",
-      "hours_left": 8.0,
+      "hours_left": 7.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.12
+    },
+    {
+      "city": "Shanghai",
+      "date": "2026-07-03",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 33.0,
+      "bucket_high": 33.0,
+      "entry_price": 0.74,
+      "shares": 2.41,
+      "cost": 1.78,
+      "current_p": 0.25,
+      "model_p": 0.9197,
+      "ev_pct": 18.0,
+      "n_agree": 4,
+      "n_avail": 6,
+      "opened_at": "2026-07-03T04:10:15.791473+00:00",
+      "hours_left": 7.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -1.18
     },
     {
       "city": "Amsterdam",
@@ -100,16 +121,16 @@
       "entry_price": 0.11,
       "shares": 9.09,
       "cost": 1.0,
-      "current_p": 0.165,
+      "current_p": 0.19,
       "model_p": 0.1333,
       "ev_pct": 2.3,
       "n_agree": 4,
       "n_avail": 30,
       "opened_at": "2026-07-02T19:00:23.056774+00:00",
-      "hours_left": 32.0,
+      "hours_left": 31.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.5
+      "unrealized_pnl": 0.73
     }
   ],
   "recent_resolved": [
