@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T15:00:04.709331+00:00",
+  "updated_at": "2026-07-03T15:19:02.130579+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -92,27 +92,15 @@
     },
     {
       "id": "t2-tail-validation",
-      "title": "T2 tail validation READY -- review now",
-      "description": "T2 (tail tier) revived 2026-06-28 (GFS-ensemble tail prob + ERA5 climo gate), running PAPER-first (t2_live=false). At 20 resolved tier==t2 rows: compute win rate vs avg entry ask + net paper PnL. If net paper PnL > 0 AND win rate >= implied (avg ask): flip t2_live: true in config.json (hot-reload). Query: grep '\"tier\": \"t2\"' data/resolved.jsonl. T2 rows are already excluded from the T1 Brier gate.",
+      "title": "Validate CALIBRATED T2 tail tier at 20 resolved (0/20)",
+      "description": "T2 tail tier. Pre-2026-07-03 sample FAILED (2W/21L, 8.7% win vs 10.8% implied, -$19.94 paper) on the old uncalibrated ensemble. Plan 001 recalibrated (ens_calibration.json) and paused T2 (t2_live=false); this counter now tracks ONLY calibrated rows (ts >= 2026-07-03). At 20 resolved calibrated tier==t2 rows: win rate vs avg entry ask + net paper PnL. If net paper PnL > 0 AND win rate >= implied (avg ask): flip t2_live: true in config.json (hot-reload).",
       "type": "threshold",
-      "priority": "warn",
+      "priority": "info",
       "project": "Weatherbot",
-      "current": 23,
+      "current": 0,
       "target": 20,
-      "unit": "resolved T2 trades",
-      "met": true
-    },
-    {
-      "id": "ladder-shadow-validation",
-      "title": "Ladder shadow READY -- run ladder_eval.py",
-      "description": "Volume-laddering (Fix 5) running SHADOW (log-only, no orders) since 2026-06-28. Each row = one qualifying cluster: sum(leg price) < sum(leg prob) - 0.08, every leg <= 0.35. At 30 rows run: python3 ladder_eval.py -- cluster hit-rate + net normalized PnL vs the single-best-bucket counterfactual. If net PnL > 0 AND it beats single-bucket: build the live order path (equal shares, same-market adjacent-leg correlation exception, paper-first like T2).",
-      "type": "threshold",
-      "priority": "warn",
-      "project": "Weatherbot",
-      "current": 107,
-      "target": 30,
-      "unit": "shadow ladders",
-      "met": true
+      "unit": "resolved calibrated-T2 trades",
+      "met": false
     },
     {
       "id": "maker-shadow-check",
@@ -152,7 +140,7 @@
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma shadow: 6518 rows, n=364/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
+      "title": "PP-sigma shadow: 6558 rows, n=364/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor.",
       "type": "threshold",
       "priority": "info",
