@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T19:00:04.160396+00:00",
+  "updated_at": "2026-07-03T20:00:05.798498+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -140,7 +140,7 @@
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma shadow: 6732 rows, n=368/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
+      "title": "PP-sigma shadow: 6776 rows, n=368/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor.",
       "type": "threshold",
       "priority": "info",
@@ -184,6 +184,18 @@
       "current": 0,
       "target": 40,
       "unit": "regime shadow rows",
+      "met": false
+    },
+    {
+      "id": "supp-model-promote",
+      "title": "Supplementary models -> consensus at n>=20: icon_d2/munich=14; arome/paris=16; jma_msm/tokyo=9",
+      "description": "icon_d2/arome/jma_msm feed _ensemble_mu_sigma() but are gated OUT of _consensus_sources() (bot_v2.py) until their coverage city has n>=20 resolved (icon_d2->munich, arome->paris, jma_msm->tokyo). When a city crosses 20: run _audit_models.py to confirm the model helps, then add snap.get(\"<model>\") to the _consensus_sources() return list + restart. Also re-run the blend-vs-single-source audit (blend beat single-source decisively at n=215 on 2026-07-03 -- do NOT prune the blend).",
+      "type": "threshold",
+      "priority": "info",
+      "project": "Weatherbot",
+      "current": 9,
+      "target": 20,
+      "unit": "resolved (min coverage city)",
       "met": false
     },
     {
