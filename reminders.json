@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T00:00:07.815613+00:00",
+  "updated_at": "2026-07-04T01:00:06.506597+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -88,18 +88,6 @@
       "current": 368,
       "target": 580,
       "unit": "resolved trades",
-      "met": false
-    },
-    {
-      "id": "t2-tail-validation",
-      "title": "Validate CALIBRATED T2 tail tier at 20 resolved (3/20)",
-      "description": "T2 tail tier. Pre-2026-07-03 sample FAILED (2W/21L, 8.7% win vs 10.8% implied, -$19.94 paper) on the old uncalibrated ensemble. Plan 001 recalibrated (ens_calibration.json) and paused T2 (t2_live=false); this counter now tracks ONLY calibrated rows (ts >= 2026-07-03). At 20 resolved calibrated tier==t2 rows: win rate vs avg entry ask + net paper PnL. If net paper PnL > 0 AND win rate >= implied (avg ask): flip t2_live: true in config.json (hot-reload).",
-      "type": "threshold",
-      "priority": "info",
-      "project": "Weatherbot",
-      "current": 3,
-      "target": 20,
-      "unit": "resolved calibrated-T2 trades",
       "met": false
     },
     {
