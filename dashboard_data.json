@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-04T08:00:05.578083+00:00",
+  "generated_at": "2026-07-04T09:00:07.275769+00:00",
   "balance": {
-    "current": 73.54,
-    "cash": 70.71,
-    "deployed": 3.64,
-    "unrealized": -0.81,
+    "current": 74.92,
+    "cash": 72.92,
+    "deployed": 2.0,
+    "unrealized": 0.0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 23.54,
-    "pnl_pct": 47.1
+    "pnl_usd": 24.92,
+    "pnl_pct": 49.8
   },
   "trades": {
     "total": 398,
@@ -37,37 +37,16 @@
       "entry_price": 0.11,
       "shares": 17.79,
       "cost": 2.0,
-      "current_p": 0.0935,
+      "current_p": 0.11,
       "model_p": 0.1333,
       "ev_pct": 2.3,
       "n_agree": 4,
       "n_avail": 30,
       "opened_at": "2026-07-02T19:00:23.056774+00:00",
-      "hours_left": 4.0,
+      "hours_left": 3.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.29
-    },
-    {
-      "city": "Chengdu",
-      "date": "2026-07-04",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 35.0,
-      "bucket_high": 35.0,
-      "entry_price": 0.69,
-      "shares": 2.38,
-      "cost": 1.64,
-      "current_p": 0.47,
-      "model_p": 0.9061,
-      "ev_pct": 21.6,
-      "n_agree": 5,
-      "n_avail": 6,
-      "opened_at": "2026-07-03T10:37:48.085509+00:00",
-      "hours_left": 4.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.52
+      "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
@@ -118,6 +97,18 @@
       "pnl": -1.75,
       "closed_by": "price_catastrophic",
       "lead_h": 7.0
+    },
+    {
+      "ts": "2026-07-03T10:37:48.085509+00:00",
+      "city": "Chengdu",
+      "date": "2026-07-04",
+      "side": "NO",
+      "bucket": "35.0-35.0C",
+      "entry": 0.69,
+      "correct": true,
+      "pnl": 0.56,
+      "closed_by": "take_profit",
+      "lead_h": 25.0
     },
     {
       "ts": "2026-07-03T08:07:02.759983+00:00",
@@ -418,18 +409,6 @@
       "pnl": 1.78,
       "closed_by": "metar_override",
       "lead_h": 23.0
-    },
-    {
-      "ts": "2026-06-29T18:55:29.818203+00:00",
-      "city": "Buenos Aires",
-      "date": "2026-06-29",
-      "side": "NO",
-      "bucket": "16.0-16.0C",
-      "entry": 0.75,
-      "correct": true,
-      "pnl": 0.22,
-      "closed_by": "convergence_tp",
-      "lead_h": 25.0
     }
   ],
   "city_stats": {
