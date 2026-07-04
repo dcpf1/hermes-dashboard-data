@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-04T05:00:07.000272+00:00",
+  "generated_at": "2026-07-04T06:00:06.731658+00:00",
   "balance": {
-    "current": 74.25,
-    "cash": 68.22,
-    "deployed": 5.29,
-    "unrealized": 0.74,
+    "current": 74.31,
+    "cash": 70.71,
+    "deployed": 3.64,
+    "unrealized": -0.04,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 24.25,
-    "pnl_pct": 48.5
+    "pnl_usd": 24.31,
+    "pnl_pct": 48.6
   },
   "trades": {
     "total": 398,
@@ -37,16 +37,16 @@
       "entry_price": 0.11,
       "shares": 17.79,
       "cost": 2.0,
-      "current_p": 0.1305,
+      "current_p": 0.125,
       "model_p": 0.1333,
       "ev_pct": 2.3,
       "n_agree": 4,
       "n_avail": 30,
       "opened_at": "2026-07-02T19:00:23.056774+00:00",
-      "hours_left": 7.0,
+      "hours_left": 6.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.36
+      "unrealized_pnl": 0.27
     },
     {
       "city": "Chengdu",
@@ -58,37 +58,16 @@
       "entry_price": 0.69,
       "shares": 2.38,
       "cost": 1.64,
-      "current_p": 0.655,
+      "current_p": 0.56,
       "model_p": 0.9061,
       "ev_pct": 21.6,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-07-03T10:37:48.085509+00:00",
-      "hours_left": 7.0,
+      "hours_left": 6.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.08
-    },
-    {
-      "city": "Shanghai",
-      "date": "2026-07-04",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 34.0,
-      "bucket_high": 34.0,
-      "entry_price": 0.63,
-      "shares": 2.62,
-      "cost": 1.65,
-      "current_p": 0.805,
-      "model_p": 0.9074,
-      "ev_pct": 27.7,
-      "n_agree": 5,
-      "n_avail": 6,
-      "opened_at": "2026-07-03T08:07:02.759983+00:00",
-      "hours_left": 7.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.46
+      "unrealized_pnl": -0.31
     }
   ],
   "recent_resolved": [
@@ -139,6 +118,18 @@
       "pnl": -1.75,
       "closed_by": "price_catastrophic",
       "lead_h": 7.0
+    },
+    {
+      "ts": "2026-07-03T08:07:02.759983+00:00",
+      "city": "Shanghai",
+      "date": "2026-07-04",
+      "side": "NO",
+      "bucket": "34.0-34.0C",
+      "entry": 0.63,
+      "correct": true,
+      "pnl": 0.84,
+      "closed_by": "take_profit",
+      "lead_h": 27.0
     },
     {
       "ts": "2026-07-02T18:10:19.533892+00:00",
@@ -438,18 +429,6 @@
       "correct": true,
       "pnl": 0.22,
       "closed_by": "convergence_tp",
-      "lead_h": 25.0
-    },
-    {
-      "ts": "2026-06-29T18:55:29.818203+00:00",
-      "city": "Houston",
-      "date": "2026-06-29",
-      "side": "YES",
-      "bucket": "96.0-97.0C",
-      "entry": 0.11,
-      "correct": false,
-      "pnl": -0.01,
-      "closed_by": "forecast_changed",
       "lead_h": 25.0
     }
   ],
