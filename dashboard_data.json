@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-05T02:00:06.010140+00:00",
+  "generated_at": "2026-07-05T03:00:05.919225+00:00",
   "balance": {
-    "current": 75.0,
-    "cash": 73.32,
-    "deployed": 1.6,
-    "unrealized": 0.08,
+    "current": 75.26,
+    "cash": 75.26,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 25.0,
-    "pnl_pct": 50.0
+    "pnl_usd": 25.26,
+    "pnl_pct": 50.5
   },
   "trades": {
     "total": 399,
@@ -26,30 +26,20 @@
     "base": 0.232,
     "status": "amber"
   },
-  "open_positions": [
+  "open_positions": [],
+  "recent_resolved": [
     {
+      "ts": "2026-07-05T01:34:12.918417+00:00",
       "city": "Shanghai",
       "date": "2026-07-05",
-      "unit": "C",
       "side": "NO",
-      "bucket_low": 31.0,
-      "bucket_high": 31.0,
-      "entry_price": 0.71,
-      "shares": 2.25,
-      "cost": 1.6,
-      "current_p": 0.745,
-      "model_p": 0.9007,
-      "ev_pct": 19.1,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-07-05T01:34:12.918417+00:00",
-      "hours_left": 10.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.08
-    }
-  ],
-  "recent_resolved": [
+      "bucket": "31.0-31.0C",
+      "entry": 0.71,
+      "correct": true,
+      "pnl": 0.34,
+      "closed_by": "take_profit",
+      "lead_h": 10.0
+    },
     {
       "ts": "2026-07-04T18:05:47.198639+00:00",
       "city": "Amsterdam",
@@ -397,18 +387,6 @@
       "pnl": -0.41,
       "closed_by": "forecast_changed",
       "lead_h": 24.0
-    },
-    {
-      "ts": "2026-06-29T18:55:29.818203+00:00",
-      "city": "Dallas",
-      "date": "2026-06-29",
-      "side": "YES",
-      "bucket": "94.0-95.0F",
-      "entry": 0.115,
-      "correct": false,
-      "pnl": -0.02,
-      "closed_by": "forecast_changed",
-      "lead_h": 23.0
     }
   ],
   "city_stats": {
