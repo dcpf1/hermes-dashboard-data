@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-05T03:00:05.919225+00:00",
+  "generated_at": "2026-07-05T04:00:05.820497+00:00",
   "balance": {
-    "current": 75.26,
-    "cash": 75.26,
-    "deployed": 0,
-    "unrealized": 0,
+    "current": 75.63,
+    "cash": 73.64,
+    "deployed": 1.62,
+    "unrealized": 0.37,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 25.26,
-    "pnl_pct": 50.5
+    "pnl_usd": 25.63,
+    "pnl_pct": 51.3
   },
   "trades": {
-    "total": 399,
+    "total": 400,
     "wins": 236,
     "losses": 158,
     "total_pnl": -0.03
@@ -26,7 +26,29 @@
     "base": 0.232,
     "status": "amber"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "city": "Shanghai",
+      "date": "2026-07-05",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 31.0,
+      "bucket_high": 31.0,
+      "entry_price": 0.65,
+      "shares": 2.49,
+      "cost": 1.62,
+      "current_p": 0.8,
+      "model_p": 0.9037,
+      "ev_pct": 25.4,
+      "n_agree": 4,
+      "n_avail": 6,
+      "opened_at": "2026-07-05T03:08:30.361467+00:00",
+      "hours_left": 8.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.37
+    }
+  ],
   "recent_resolved": [
     {
       "ts": "2026-07-05T01:34:12.918417+00:00",
