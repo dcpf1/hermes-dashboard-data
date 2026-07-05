@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-05T06:00:06.381954+00:00",
+  "generated_at": "2026-07-05T07:00:07.678059+00:00",
   "balance": {
-    "current": 73.78,
-    "cash": 71.33,
-    "deployed": 3.93,
-    "unrealized": -1.48,
+    "current": 73.76,
+    "cash": 71.38,
+    "deployed": 2.31,
+    "unrealized": 0.07,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 23.78,
-    "pnl_pct": 47.6
+    "pnl_usd": 23.76,
+    "pnl_pct": 47.5
   },
   "trades": {
     "total": 401,
@@ -28,27 +28,6 @@
   },
   "open_positions": [
     {
-      "city": "Shanghai",
-      "date": "2026-07-05",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 31.0,
-      "bucket_high": 31.0,
-      "entry_price": 0.65,
-      "shares": 2.49,
-      "cost": 1.62,
-      "current_p": 0.0275,
-      "model_p": 0.9037,
-      "ev_pct": 25.4,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-07-05T03:08:30.361467+00:00",
-      "hours_left": 6.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -1.55
-    },
-    {
       "city": "Shenzhen",
       "date": "2026-07-06",
       "unit": "C",
@@ -64,13 +43,25 @@
       "n_agree": 2,
       "n_avail": 2,
       "opened_at": "2026-07-05T03:59:59.972079+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.07
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-07-05T03:08:30.361467+00:00",
+      "city": "Shanghai",
+      "date": "2026-07-05",
+      "side": "NO",
+      "bucket": "31.0-31.0C",
+      "entry": 0.65,
+      "correct": false,
+      "pnl": -1.57,
+      "closed_by": "take_profit",
+      "lead_h": 8.0
+    },
     {
       "ts": "2026-07-05T01:34:12.918417+00:00",
       "city": "Shanghai",
@@ -418,18 +409,6 @@
       "pnl": -0.62,
       "closed_by": "forecast_changed",
       "lead_h": 26.0
-    },
-    {
-      "ts": "2026-06-29T18:55:29.818203+00:00",
-      "city": "Dallas",
-      "date": "2026-06-29",
-      "side": "YES",
-      "bucket": "100.0-101.0F",
-      "entry": 0.11,
-      "correct": false,
-      "pnl": -0.41,
-      "closed_by": "forecast_changed",
-      "lead_h": 24.0
     }
   ],
   "city_stats": {
