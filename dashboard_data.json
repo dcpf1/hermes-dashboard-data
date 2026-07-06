@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-06T13:00:10.608109+00:00",
+  "generated_at": "2026-07-06T14:00:08.733238+00:00",
   "balance": {
-    "current": 74.72,
-    "cash": 67.72,
-    "deployed": 6.86,
-    "unrealized": 0.14,
+    "current": 74.74,
+    "cash": 66.1,
+    "deployed": 8.48,
+    "unrealized": 0.16,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 24.72,
-    "pnl_pct": 49.4
+    "pnl_usd": 24.74,
+    "pnl_pct": 49.5
   },
   "trades": {
-    "total": 407,
+    "total": 408,
     "wins": 236,
     "losses": 160,
     "total_pnl": -1.26
@@ -28,6 +28,27 @@
   },
   "open_positions": [
     {
+      "city": "Buenos Aires",
+      "date": "2026-07-07",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 18.0,
+      "bucket_high": 18.0,
+      "entry_price": 0.65,
+      "shares": 2.49,
+      "cost": 1.62,
+      "current_p": 0.645,
+      "model_p": 0.9038,
+      "ev_pct": 25.4,
+      "n_agree": 4,
+      "n_avail": 6,
+      "opened_at": "2026-07-06T13:58:32.202188+00:00",
+      "hours_left": 22.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.01
+    },
+    {
       "city": "Shanghai",
       "date": "2026-07-07",
       "unit": "C",
@@ -37,16 +58,16 @@
       "entry_price": 0.72,
       "shares": 2.32,
       "cost": 1.67,
-      "current_p": 0.75,
+      "current_p": 0.755,
       "model_p": 0.9089,
       "ev_pct": 18.9,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-05T09:55:42.797303+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.07
+      "unrealized_pnl": 0.08
     },
     {
       "city": "Miami",
@@ -58,16 +79,16 @@
       "entry_price": 0.59,
       "shares": 2.71,
       "cost": 1.6,
-      "current_p": 0.615,
+      "current_p": 0.625,
       "model_p": 0.9011,
       "ev_pct": 31.1,
       "n_agree": 2,
       "n_avail": 3,
       "opened_at": "2026-07-06T12:00:07.000405+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.07
+      "unrealized_pnl": 0.09
     },
     {
       "city": "Chongqing",
