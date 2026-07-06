@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-06T11:00:10.957241+00:00",
+  "generated_at": "2026-07-06T12:00:18.717812+00:00",
   "balance": {
-    "current": 74.78,
+    "current": 74.8,
     "cash": 69.32,
     "deployed": 5.26,
-    "unrealized": 0.2,
+    "unrealized": 0.22,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 24.78,
+    "pnl_usd": 24.8,
     "pnl_pct": 49.6
   },
   "trades": {
@@ -28,6 +28,27 @@
   },
   "open_positions": [
     {
+      "city": "Shanghai",
+      "date": "2026-07-07",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 35.0,
+      "bucket_high": 35.0,
+      "entry_price": 0.72,
+      "shares": 2.32,
+      "cost": 1.67,
+      "current_p": 0.815,
+      "model_p": 0.9089,
+      "ev_pct": 18.9,
+      "n_agree": 4,
+      "n_avail": 6,
+      "opened_at": "2026-07-05T09:55:42.797303+00:00",
+      "hours_left": 24.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.22
+    },
+    {
       "city": "Chongqing",
       "date": "2026-07-06",
       "unit": "C",
@@ -43,7 +64,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-05T14:10:29.978232+00:00",
-      "hours_left": 1.0,
+      "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
@@ -64,31 +85,10 @@
       "n_agree": 3,
       "n_avail": 6,
       "opened_at": "2026-07-06T04:10:50.946918+00:00",
-      "hours_left": 1.0,
+      "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
-    },
-    {
-      "city": "Shanghai",
-      "date": "2026-07-07",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 35.0,
-      "bucket_high": 35.0,
-      "entry_price": 0.72,
-      "shares": 2.32,
-      "cost": 1.67,
-      "current_p": 0.805,
-      "model_p": 0.9089,
-      "ev_pct": 18.9,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-07-05T09:55:42.797303+00:00",
-      "hours_left": 25.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.2
     }
   ],
   "recent_resolved": [
