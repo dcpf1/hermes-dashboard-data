@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T01:00:12.999389+00:00",
+  "updated_at": "2026-07-06T02:00:09.167260+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -92,12 +92,12 @@
     },
     {
       "id": "maker-shadow-check",
-      "title": "Maker-orders shadow accumulating -- 25/40 rows",
+      "title": "Maker-orders shadow accumulating -- 28/40 rows",
       "description": "Fix 10 (maker orders) Phase 1 running SHADOW since 2026-06-29: every YES/NO entry logs a would-be resting-limit (maker) order alongside the real FOK -- ZERO real maker orders. Gate is COUNT-based, not calendar: per-trade fill-rate/edge needs a sample size, not a clock (a quiet week of 6 trades proves nothing); a secondary spread check flags a few-day/few-city sample as a possible regime artifact. At 40 logged rows run: python3 maker_estimator.py -- Layer 1 fill-rate bracket + price improvement (needs ~40 logged); Layer 2 adverse-selection win-rate filled-vs-missed; Layer 3 net-PnL taker-all vs maker-first+fallback (needs ~30 RESOLVED rows). Only if maker-first beats taker-all AND not adversely selected -> Phase 2 live canary (ASK DCP first).",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 25,
+      "current": 28,
       "target": 40,
       "unit": "shadow rows",
       "met": false
@@ -212,12 +212,12 @@
     },
     {
       "id": "sharp-signal",
-      "title": "Sharp-wallet signal shadow (308 rows)",
+      "title": "Sharp-wallet signal shadow (314 rows)",
       "description": "Confirmer + unlocker shadow-logging to sharp_signal_shadow.jsonl. Run: python3 sharp_signal.py --eval. Flip sharp_apply_mode=live per-half when confirmer beats baseline by >=3pp (n>=50) / unlock beats market by >=5pp (n>=40, slippage<edge).",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 308,
+      "current": 314,
       "target": 50,
       "unit": "shadow rows",
       "met": true
