@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-06T07:00:10.279856+00:00",
+  "generated_at": "2026-07-06T08:00:13.204654+00:00",
   "balance": {
-    "current": 76.22,
-    "cash": 69.08,
-    "deployed": 6.26,
-    "unrealized": 0.88,
+    "current": 74.57,
+    "cash": 69.32,
+    "deployed": 5.26,
+    "unrealized": -0.01,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 26.22,
-    "pnl_pct": 52.4
+    "pnl_usd": 24.57,
+    "pnl_pct": 49.1
   },
   "trades": {
     "total": 406,
@@ -37,37 +37,16 @@
       "entry_price": 0.69,
       "shares": 2.38,
       "cost": 1.64,
-      "current_p": 0.565,
+      "current_p": 0.785,
       "model_p": 0.9056,
       "ev_pct": 21.6,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-05T14:10:29.978232+00:00",
-      "hours_left": 5.0,
+      "hours_left": 4.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.3
-    },
-    {
-      "city": "Chengdu",
-      "date": "2026-07-06",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 37.0,
-      "bucket_high": 37.0,
-      "entry_price": 0.63,
-      "shares": 1.59,
-      "cost": 1.0,
-      "current_p": 0.55,
-      "model_p": 0.9026,
-      "ev_pct": 27.3,
-      "n_agree": 2,
-      "n_avail": 3,
-      "opened_at": "2026-07-05T12:10:01.690422+00:00",
-      "hours_left": 5.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.13
+      "unrealized_pnl": 0.23
     },
     {
       "city": "Shenzhen",
@@ -79,16 +58,16 @@
       "entry_price": 0.14,
       "shares": 13.93,
       "cost": 1.95,
-      "current_p": 0.255,
+      "current_p": 0.14,
       "model_p": 0.3058,
       "ev_pct": 16.6,
       "n_agree": 3,
       "n_avail": 6,
       "opened_at": "2026-07-06T04:10:50.946918+00:00",
-      "hours_left": 5.0,
+      "hours_left": 4.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 1.6
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Shanghai",
@@ -100,16 +79,16 @@
       "entry_price": 0.72,
       "shares": 2.32,
       "cost": 1.67,
-      "current_p": 0.595,
+      "current_p": 0.615,
       "model_p": 0.9089,
       "ev_pct": 18.9,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-05T09:55:42.797303+00:00",
-      "hours_left": 29.0,
+      "hours_left": 28.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.29
+      "unrealized_pnl": -0.24
     }
   ],
   "recent_resolved": [
@@ -148,6 +127,18 @@
       "pnl": -1.57,
       "closed_by": "price_catastrophic",
       "lead_h": 8.0
+    },
+    {
+      "ts": "2026-07-05T12:10:01.690422+00:00",
+      "city": "Chengdu",
+      "date": "2026-07-06",
+      "side": "NO",
+      "bucket": "37.0-37.0C",
+      "entry": 0.63,
+      "correct": false,
+      "pnl": -0.76,
+      "closed_by": "take_profit",
+      "lead_h": 23.0
     },
     {
       "ts": "2026-07-05T03:59:59.972079+00:00",
@@ -460,18 +451,6 @@
       "pnl": -3.0,
       "closed_by": "resolved",
       "lead_h": 26.0
-    },
-    {
-      "ts": "2026-06-29T18:55:29.818203+00:00",
-      "city": "Istanbul",
-      "date": "2026-06-29",
-      "side": "NO",
-      "bucket": "28.0-28.0C",
-      "entry": 0.66,
-      "correct": true,
-      "pnl": 0.6,
-      "closed_by": "convergence_tp",
-      "lead_h": 55.0
     }
   ],
   "city_stats": {
