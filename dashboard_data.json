@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-06T06:00:08.152330+00:00",
+  "generated_at": "2026-07-06T07:00:10.279856+00:00",
   "balance": {
-    "current": 78.53,
-    "cash": 66.39,
-    "deployed": 7.91,
-    "unrealized": 4.23,
+    "current": 76.22,
+    "cash": 69.08,
+    "deployed": 6.26,
+    "unrealized": 0.88,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 28.53,
-    "pnl_pct": 57.1
+    "pnl_usd": 26.22,
+    "pnl_pct": 52.4
   },
   "trades": {
     "total": 406,
@@ -37,16 +37,16 @@
       "entry_price": 0.69,
       "shares": 2.38,
       "cost": 1.64,
-      "current_p": 0.605,
+      "current_p": 0.565,
       "model_p": 0.9056,
       "ev_pct": 21.6,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-05T14:10:29.978232+00:00",
-      "hours_left": 6.0,
+      "hours_left": 5.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.2
+      "unrealized_pnl": -0.3
     },
     {
       "city": "Chengdu",
@@ -58,16 +58,16 @@
       "entry_price": 0.63,
       "shares": 1.59,
       "cost": 1.0,
-      "current_p": 0.725,
+      "current_p": 0.55,
       "model_p": 0.9026,
       "ev_pct": 27.3,
       "n_agree": 2,
       "n_avail": 3,
       "opened_at": "2026-07-05T12:10:01.690422+00:00",
-      "hours_left": 6.0,
+      "hours_left": 5.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.15
+      "unrealized_pnl": -0.13
     },
     {
       "city": "Shenzhen",
@@ -79,37 +79,16 @@
       "entry_price": 0.14,
       "shares": 13.93,
       "cost": 1.95,
-      "current_p": 0.465,
+      "current_p": 0.255,
       "model_p": 0.3058,
       "ev_pct": 16.6,
       "n_agree": 3,
       "n_avail": 6,
       "opened_at": "2026-07-06T04:10:50.946918+00:00",
-      "hours_left": 6.0,
+      "hours_left": 5.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 4.53
-    },
-    {
-      "city": "Shanghai",
-      "date": "2026-07-06",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 36.0,
-      "bucket_high": 36.0,
-      "entry_price": 0.52,
-      "shares": 3.17,
-      "cost": 1.65,
-      "current_p": 0.4445,
-      "model_p": 0.9072,
-      "ev_pct": 38.7,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-07-06T05:09:28.918954+00:00",
-      "hours_left": 6.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.24
+      "unrealized_pnl": 1.6
     },
     {
       "city": "Shanghai",
@@ -121,19 +100,31 @@
       "entry_price": 0.72,
       "shares": 2.32,
       "cost": 1.67,
-      "current_p": 0.715,
+      "current_p": 0.595,
       "model_p": 0.9089,
       "ev_pct": 18.9,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-05T09:55:42.797303+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.01
+      "unrealized_pnl": -0.29
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-07-06T05:09:28.918954+00:00",
+      "city": "Shanghai",
+      "date": "2026-07-06",
+      "side": "NO",
+      "bucket": "36.0-36.0C",
+      "entry": 0.52,
+      "correct": true,
+      "pnl": 1.05,
+      "closed_by": "take_profit",
+      "lead_h": 6.0
+    },
     {
       "ts": "2026-07-05T16:55:20.442429+00:00",
       "city": "Shanghai",
@@ -481,18 +472,6 @@
       "pnl": 0.6,
       "closed_by": "convergence_tp",
       "lead_h": 55.0
-    },
-    {
-      "ts": "2026-06-29T18:55:29.818203+00:00",
-      "city": "Madrid",
-      "date": "2026-06-29",
-      "side": "YES",
-      "bucket": "34.0-34.0C",
-      "entry": 0.12,
-      "correct": true,
-      "pnl": 2.68,
-      "closed_by": "metar_override",
-      "lead_h": 23.0
     }
   ],
   "city_stats": {
