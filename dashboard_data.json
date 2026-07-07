@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-07T15:00:04.562446+00:00",
+  "generated_at": "2026-07-07T16:00:04.466454+00:00",
   "balance": {
-    "current": 71.96,
-    "cash": 69.3,
-    "deployed": 2.6,
-    "unrealized": 0.06,
+    "current": 71.4,
+    "cash": 70.49,
+    "deployed": 1.0,
+    "unrealized": -0.09,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 21.96,
-    "pnl_pct": 43.9
+    "pnl_usd": 21.4,
+    "pnl_pct": 42.8
   },
   "trades": {
     "total": 409,
@@ -37,37 +37,16 @@
       "entry_price": 0.73,
       "shares": 1.37,
       "cost": 1.0,
-      "current_p": 0.735,
+      "current_p": 0.665,
       "model_p": 0.9234,
       "ev_pct": 19.3,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-07T11:08:34.566305+00:00",
-      "hours_left": 21.0,
+      "hours_left": 20.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.01
-    },
-    {
-      "city": "Miami",
-      "date": "2026-07-07",
-      "unit": "F",
-      "side": "NO",
-      "bucket_low": 92.0,
-      "bucket_high": 93.0,
-      "entry_price": 0.59,
-      "shares": 2.71,
-      "cost": 1.6,
-      "current_p": 0.61,
-      "model_p": 0.9011,
-      "ev_pct": 31.1,
-      "n_agree": 2,
-      "n_avail": 3,
-      "opened_at": "2026-07-06T12:00:07.000405+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.05
+      "unrealized_pnl": -0.09
     }
   ],
   "recent_resolved": [
@@ -142,6 +121,18 @@
       "pnl": 0.52,
       "closed_by": "take_profit",
       "lead_h": 22.0
+    },
+    {
+      "ts": "2026-07-06T12:00:07.000405+00:00",
+      "city": "Miami",
+      "date": "2026-07-07",
+      "side": "NO",
+      "bucket": "92.0-93.0F",
+      "entry": 0.59,
+      "correct": false,
+      "pnl": -0.41,
+      "closed_by": "take_profit",
+      "lead_h": 24.0
     },
     {
       "ts": "2026-07-05T16:55:20.442429+00:00",
@@ -418,18 +409,6 @@
       "pnl": -0.43,
       "closed_by": "forecast_changed",
       "lead_h": 47.0
-    },
-    {
-      "ts": "2026-06-30T18:05:51.262701+00:00",
-      "city": "Moscow",
-      "date": "2026-06-30",
-      "side": "NO",
-      "bucket": "28.0-28.0C",
-      "entry": 0.69,
-      "correct": true,
-      "pnl": 1.09,
-      "closed_by": "take_profit",
-      "lead_h": 54.0
     }
   ],
   "city_stats": {
