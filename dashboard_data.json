@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-07T06:00:08.083471+00:00",
+  "generated_at": "2026-07-07T07:00:08.378682+00:00",
   "balance": {
-    "current": 71.48,
-    "cash": 68.24,
-    "deployed": 3.27,
-    "unrealized": -0.03,
+    "current": 71.94,
+    "cash": 70.3,
+    "deployed": 1.6,
+    "unrealized": 0.04,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 21.48,
-    "pnl_pct": 43.0
+    "pnl_usd": 21.94,
+    "pnl_pct": 43.9
   },
   "trades": {
     "total": 408,
@@ -28,27 +28,6 @@
   },
   "open_positions": [
     {
-      "city": "Shanghai",
-      "date": "2026-07-07",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 35.0,
-      "bucket_high": 35.0,
-      "entry_price": 0.72,
-      "shares": 2.32,
-      "cost": 1.67,
-      "current_p": 0.69,
-      "model_p": 0.9089,
-      "ev_pct": 18.9,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-07-05T09:55:42.797303+00:00",
-      "hours_left": 6.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.07
-    },
-    {
       "city": "Miami",
       "date": "2026-07-07",
       "unit": "F",
@@ -64,7 +43,7 @@
       "n_agree": 2,
       "n_avail": 3,
       "opened_at": "2026-07-06T12:00:07.000405+00:00",
-      "hours_left": 6.0,
+      "hours_left": 5.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.04
@@ -166,6 +145,18 @@
       "pnl": -1.57,
       "closed_by": "price_catastrophic",
       "lead_h": 8.0
+    },
+    {
+      "ts": "2026-07-05T09:55:42.797303+00:00",
+      "city": "Shanghai",
+      "date": "2026-07-07",
+      "side": "NO",
+      "bucket": "35.0-35.0C",
+      "entry": 0.72,
+      "correct": true,
+      "pnl": 0.39,
+      "closed_by": "take_profit",
+      "lead_h": 50.0
     },
     {
       "ts": "2026-07-04T18:05:47.198639+00:00",
@@ -418,18 +409,6 @@
       "pnl": 1.09,
       "closed_by": "take_profit",
       "lead_h": 54.0
-    },
-    {
-      "ts": "2026-06-30T18:05:51.262701+00:00",
-      "city": "Istanbul",
-      "date": "2026-06-30",
-      "side": "NO",
-      "bucket": "28.0-28.0C",
-      "entry": 0.56,
-      "correct": true,
-      "pnl": 1.82,
-      "closed_by": "convergence_tp",
-      "lead_h": 35.0
     }
   ],
   "city_stats": {
