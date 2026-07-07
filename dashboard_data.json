@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-07T03:00:06.984161+00:00",
+  "generated_at": "2026-07-07T04:00:07.415340+00:00",
   "balance": {
-    "current": 70.97,
-    "cash": 66.1,
-    "deployed": 4.89,
-    "unrealized": -0.02,
+    "current": 71.48,
+    "cash": 68.24,
+    "deployed": 3.27,
+    "unrealized": -0.03,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 20.97,
-    "pnl_pct": 41.9
+    "pnl_usd": 21.48,
+    "pnl_pct": 43.0
   },
   "trades": {
     "total": 408,
@@ -28,27 +28,6 @@
   },
   "open_positions": [
     {
-      "city": "Buenos Aires",
-      "date": "2026-07-07",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 18.0,
-      "bucket_high": 18.0,
-      "entry_price": 0.65,
-      "shares": 2.49,
-      "cost": 1.62,
-      "current_p": 0.655,
-      "model_p": 0.9038,
-      "ev_pct": 25.4,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-07-06T13:58:32.202188+00:00",
-      "hours_left": 9.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.01
-    },
-    {
       "city": "Shanghai",
       "date": "2026-07-07",
       "unit": "C",
@@ -64,7 +43,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-05T09:55:42.797303+00:00",
-      "hours_left": 9.0,
+      "hours_left": 8.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.07
@@ -85,7 +64,7 @@
       "n_agree": 2,
       "n_avail": 3,
       "opened_at": "2026-07-06T12:00:07.000405+00:00",
-      "hours_left": 9.0,
+      "hours_left": 8.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.04
@@ -151,6 +130,18 @@
       "pnl": 1.05,
       "closed_by": "convergence_tp",
       "lead_h": 6.0
+    },
+    {
+      "ts": "2026-07-06T13:58:32.202188+00:00",
+      "city": "Buenos Aires",
+      "date": "2026-07-07",
+      "side": "NO",
+      "bucket": "18.0-18.0C",
+      "entry": 0.65,
+      "correct": true,
+      "pnl": 0.52,
+      "closed_by": "take_profit",
+      "lead_h": 22.0
     },
     {
       "ts": "2026-07-05T16:55:20.442429+00:00",
@@ -439,18 +430,6 @@
       "pnl": 1.82,
       "closed_by": "convergence_tp",
       "lead_h": 35.0
-    },
-    {
-      "ts": "2026-06-30T16:55:03.899030+00:00",
-      "city": "Shenzhen",
-      "date": "2026-06-30",
-      "side": "NO",
-      "bucket": "34.0-34.0C",
-      "entry": 0.7,
-      "correct": true,
-      "pnl": 0.9,
-      "closed_by": "convergence_tp",
-      "lead_h": 8.0
     }
   ],
   "city_stats": {
