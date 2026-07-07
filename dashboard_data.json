@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-07T00:00:06.894536+00:00",
+  "generated_at": "2026-07-07T01:00:06.945093+00:00",
   "balance": {
-    "current": 71.24,
+    "current": 70.97,
     "cash": 66.1,
     "deployed": 4.89,
-    "unrealized": 0.25,
+    "unrealized": -0.02,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 21.24,
-    "pnl_pct": 42.5
+    "pnl_usd": 20.97,
+    "pnl_pct": 41.9
   },
   "trades": {
     "total": 408,
@@ -37,16 +37,16 @@
       "entry_price": 0.65,
       "shares": 2.49,
       "cost": 1.62,
-      "current_p": 0.72,
+      "current_p": 0.655,
       "model_p": 0.9038,
       "ev_pct": 25.4,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-06T13:58:32.202188+00:00",
-      "hours_left": 12.0,
+      "hours_left": 11.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.17
+      "unrealized_pnl": 0.01
     },
     {
       "city": "Shanghai",
@@ -64,7 +64,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-05T09:55:42.797303+00:00",
-      "hours_left": 12.0,
+      "hours_left": 11.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.07
@@ -79,16 +79,16 @@
       "entry_price": 0.59,
       "shares": 2.71,
       "cost": 1.6,
-      "current_p": 0.645,
+      "current_p": 0.605,
       "model_p": 0.9011,
       "ev_pct": 31.1,
       "n_agree": 2,
       "n_avail": 3,
       "opened_at": "2026-07-06T12:00:07.000405+00:00",
-      "hours_left": 12.0,
+      "hours_left": 11.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.15
+      "unrealized_pnl": 0.04
     }
   ],
   "recent_resolved": [
