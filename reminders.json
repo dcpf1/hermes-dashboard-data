@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T18:00:05.188730+00:00",
+  "updated_at": "2026-07-07T19:00:06.146875+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -49,19 +49,19 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 378,
+      "current": 380,
       "target": 500,
       "unit": "resolved trades",
       "met": false
     },
     {
       "id": "lgbm-recheck",
-      "title": "LightGBM n=500 recheck (378/500) -- retrain w/ v2 features + direction check",
+      "title": "LightGBM n=500 recheck (380/500) -- retrain w/ v2 features + direction check",
       "description": "n=420 recheck DONE 2026-07-03: NO val_brier=0.1831, YES=0.1418 (both improved, shadow). Direction: losers STILL up-sized (avg 1.09x, only 2/41 below 1.0) -- meta_apply_mode kept shadow. At n=500: re-run python3 train_meta_model.py with v2 features (inter_model_spread, n_models -- check coverage, only rows after Jun 10); redo the winner/loser mult split on meta_shadow.jsonl. Flip meta_apply_mode: live ONLY if losers get down-sized meaningfully.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 378,
+      "current": 380,
       "target": 500,
       "unit": "resolved trades",
       "met": false
@@ -73,7 +73,7 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 378,
+      "current": 380,
       "target": 500,
       "unit": "resolved trades",
       "met": false
@@ -85,7 +85,7 @@
       "type": "threshold",
       "priority": "neutral",
       "project": "Weatherbot",
-      "current": 378,
+      "current": 380,
       "target": 580,
       "unit": "resolved trades",
       "met": false
@@ -104,12 +104,12 @@
     },
     {
       "id": "underdispersion-check",
-      "title": "Underdispersion re-eval: 378/500 -- not yet (Jun28 review: regime artifact, kept shadow)",
+      "title": "Underdispersion re-eval: 380/500 -- not yet (Jun28 review: regime artifact, kept shadow)",
       "description": "Run: python3 eval_underdispersion.py (rewritten Jun 28 to use the CONTEMPORANEOUS baseline). Jun 28 verdict at n=343: +1.7pp vs same-window baseline = regime artifact, NOT a real edge; and win rate alone does not test the sigma-inflation counterfactual live mode would trigger. Kept shadow, re-gated to n=500. Only flip underdispersion_apply_mode: live if the contemporaneous edge holds >3pp at a real sample (>=40 UD rows).",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 378,
+      "current": 380,
       "target": 500,
       "unit": "resolved trades",
       "met": false
@@ -128,12 +128,12 @@
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma shadow: 9469 rows, n=378/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
+      "title": "PP-sigma shadow: 9503 rows, n=380/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 378,
+      "current": 380,
       "target": 500,
       "unit": "resolved trades",
       "met": false
@@ -188,12 +188,12 @@
     },
     {
       "id": "ladder-30-clusters",
-      "title": "Ladder shadow re-eval at 30 resolved clusters (20/30)",
+      "title": "Ladder shadow re-eval at 30 resolved clusters (21/30)",
       "description": "Plan 004 (2026-07-03) verdict at n=9: ROI -18.3%, kept ladder_apply_mode: shadow. At 30 resolved clusters run: python3 ladder_eval.py. Rows logged after 2026-07-03 carry bias-corrected + calibrated legs (q_ens_cal, Plan 001) -- weight those; legacy rows overstate leg probabilities.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 20,
+      "current": 21,
       "target": 30,
       "unit": "resolved ladder clusters",
       "met": false
@@ -212,12 +212,12 @@
     },
     {
       "id": "sharp-signal",
-      "title": "Sharp-wallet signal shadow (606 rows)",
+      "title": "Sharp-wallet signal shadow (613 rows)",
       "description": "Confirmer + unlocker shadow-logging to sharp_signal_shadow.jsonl. Run: python3 sharp_signal.py --eval. Flip sharp_apply_mode=live per-half when confirmer beats baseline by >=3pp (n>=50) / unlock beats market by >=5pp (n>=40, slippage<edge).",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 606,
+      "current": 613,
       "target": 50,
       "unit": "shadow rows",
       "met": true

@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-07T18:00:05.188730+00:00",
+  "generated_at": "2026-07-07T19:00:06.146875+00:00",
   "balance": {
-    "current": 71.43,
+    "current": 71.39,
     "cash": 70.49,
     "deployed": 1.0,
-    "unrealized": -0.06,
+    "unrealized": -0.1,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 21.43,
-    "pnl_pct": 42.9
+    "pnl_usd": 21.39,
+    "pnl_pct": 42.8
   },
   "trades": {
     "total": 409,
-    "wins": 238,
+    "wins": 240,
     "losses": 164,
-    "total_pnl": -3.56
+    "total_pnl": -3.45
   },
   "brier": {
-    "score": 0.2035,
-    "n": 378,
-    "bss": -0.122,
-    "win_rate": 0.627,
-    "ci_lo": 0.1699,
-    "ci_hi": 0.2371,
-    "base": 0.238,
+    "score": 0.2025,
+    "n": 380,
+    "bss": -0.12,
+    "win_rate": 0.629,
+    "ci_lo": 0.169,
+    "ci_hi": 0.2359,
+    "base": 0.237,
     "status": "amber"
   },
   "open_positions": [
@@ -37,19 +37,43 @@
       "entry_price": 0.73,
       "shares": 1.37,
       "cost": 1.0,
-      "current_p": 0.685,
+      "current_p": 0.655,
       "model_p": 0.9234,
       "ev_pct": 19.3,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-07T11:08:34.566305+00:00",
-      "hours_left": 18.0,
+      "hours_left": 17.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.06
+      "unrealized_pnl": -0.1
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-07-07T18:05:21.314113+00:00",
+      "city": "Buenos Aires",
+      "date": "2026-07-07",
+      "side": "NO",
+      "bucket": "18.0-18.0C",
+      "entry": 0.65,
+      "correct": true,
+      "pnl": 0.52,
+      "closed_by": "convergence_tp",
+      "lead_h": 22.0
+    },
+    {
+      "ts": "2026-07-07T18:05:21.314113+00:00",
+      "city": "Miami",
+      "date": "2026-07-07",
+      "side": "NO",
+      "bucket": "92.0-93.0F",
+      "entry": 0.59,
+      "correct": true,
+      "pnl": -0.41,
+      "closed_by": "price_conditional",
+      "lead_h": 24.0
+    },
     {
       "ts": "2026-07-07T16:55:49.279675+00:00",
       "city": "Shanghai",
@@ -121,30 +145,6 @@
       "pnl": 1.05,
       "closed_by": "convergence_tp",
       "lead_h": 6.0
-    },
-    {
-      "ts": "2026-07-06T13:58:32.202188+00:00",
-      "city": "Buenos Aires",
-      "date": "2026-07-07",
-      "side": "NO",
-      "bucket": "18.0-18.0C",
-      "entry": 0.65,
-      "correct": true,
-      "pnl": 0.52,
-      "closed_by": "take_profit",
-      "lead_h": 22.0
-    },
-    {
-      "ts": "2026-07-06T12:00:07.000405+00:00",
-      "city": "Miami",
-      "date": "2026-07-07",
-      "side": "NO",
-      "bucket": "92.0-93.0F",
-      "entry": 0.59,
-      "correct": false,
-      "pnl": -0.41,
-      "closed_by": "take_profit",
-      "lead_h": 24.0
     },
     {
       "ts": "2026-07-05T16:55:20.442429+00:00",
@@ -418,14 +418,14 @@
       "total_pnl": 14.0
     },
     "miami": {
-      "n": 23,
-      "win_rate": 0.435,
-      "total_pnl": 8.85
+      "n": 24,
+      "win_rate": 0.458,
+      "total_pnl": 8.44
     },
     "buenos-aires": {
-      "n": 15,
-      "win_rate": 0.667,
-      "total_pnl": 7.72
+      "n": 16,
+      "win_rate": 0.688,
+      "total_pnl": 8.24
     },
     "istanbul": {
       "n": 9,
@@ -635,12 +635,12 @@
       "n": 0
     },
     "6to24": {
-      "brier": 0.2299,
-      "n": 81
+      "brier": 0.2272,
+      "n": 82
     },
     "24to48": {
-      "brier": 0.196,
-      "n": 211
+      "brier": 0.1951,
+      "n": 212
     },
     "gt48": {
       "brier": 0.1963,
