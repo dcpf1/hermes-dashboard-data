@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-09T13:00:04.034430+00:00",
+  "generated_at": "2026-07-09T14:00:04.148557+00:00",
   "balance": {
     "current": 73.42,
-    "cash": 66.16,
-    "deployed": 6.8,
-    "unrealized": 0.46,
+    "cash": 69.67,
+    "deployed": 3.87,
+    "unrealized": -0.12,
     "starting": 50.0,
     "peak": 115.02,
     "pnl_usd": 23.42,
@@ -43,7 +43,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-08T22:08:23.708530+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.12
@@ -68,27 +68,6 @@
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
-    },
-    {
-      "city": "Moscow",
-      "date": "2026-07-09",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 21.0,
-      "bucket_high": 21.0,
-      "entry_price": 0.71,
-      "shares": 4.13,
-      "cost": 2.93,
-      "current_p": 0.85,
-      "model_p": 0.9705,
-      "ev_pct": 26.1,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-07-09T00:08:45.816363+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.58
     }
   ],
   "recent_resolved": [
@@ -103,6 +82,18 @@
       "pnl": 1.18,
       "closed_by": "take_profit",
       "lead_h": 9.0
+    },
+    {
+      "ts": "2026-07-09T00:08:45.816363+00:00",
+      "city": "Moscow",
+      "date": "2026-07-09",
+      "side": "NO",
+      "bucket": "21.0-21.0C",
+      "entry": 0.71,
+      "correct": true,
+      "pnl": 0.58,
+      "closed_by": "take_profit",
+      "lead_h": 11.0
     },
     {
       "ts": "2026-07-08T16:55:34.946320+00:00",
@@ -439,18 +430,6 @@
       "pnl": -2.31,
       "closed_by": "resolved",
       "lead_h": 16.0
-    },
-    {
-      "ts": "2026-06-30T18:05:51.262701+00:00",
-      "city": "Austin",
-      "date": "2026-06-30",
-      "side": "YES",
-      "bucket": "98.0-99.0F",
-      "entry": 0.1,
-      "correct": false,
-      "pnl": -3.0,
-      "closed_by": "resolved",
-      "lead_h": 29.0
     }
   ],
   "city_stats": {
