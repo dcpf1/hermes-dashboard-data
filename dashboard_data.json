@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-09T05:00:07.002032+00:00",
+  "generated_at": "2026-07-09T06:00:06.024446+00:00",
   "balance": {
-    "current": 73.26,
-    "cash": 62.16,
-    "deployed": 9.62,
-    "unrealized": 1.48,
+    "current": 74.61,
+    "cash": 66.16,
+    "deployed": 6.8,
+    "unrealized": 1.65,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 23.26,
-    "pnl_pct": 46.5
+    "pnl_usd": 24.61,
+    "pnl_pct": 49.2
   },
   "trades": {
     "total": 413,
@@ -37,16 +37,16 @@
       "entry_price": 0.22,
       "shares": 6.82,
       "cost": 1.5,
-      "current_p": 0.385,
+      "current_p": 0.465,
       "model_p": 0.3536,
       "ev_pct": 13.4,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-07T21:09:43.555783+00:00",
-      "hours_left": 7.0,
+      "hours_left": 6.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 1.13
+      "unrealized_pnl": 1.67
     },
     {
       "city": "Moscow",
@@ -58,37 +58,16 @@
       "entry_price": 0.71,
       "shares": 4.13,
       "cost": 2.93,
-      "current_p": 0.74,
+      "current_p": 0.725,
       "model_p": 0.9705,
       "ev_pct": 26.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-09T00:08:45.816363+00:00",
-      "hours_left": 7.0,
+      "hours_left": 6.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.12
-    },
-    {
-      "city": "Istanbul",
-      "date": "2026-07-09",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 25.0,
-      "bucket_high": 25.0,
-      "entry_price": 0.6,
-      "shares": 4.7,
-      "cost": 2.82,
-      "current_p": 0.665,
-      "model_p": 0.9681,
-      "ev_pct": 36.8,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-07-09T02:58:30.239708+00:00",
-      "hours_left": 7.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.31
+      "unrealized_pnl": 0.06
     },
     {
       "city": "Moscow",
@@ -106,13 +85,25 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-08T22:08:23.708530+00:00",
-      "hours_left": 31.0,
+      "hours_left": 30.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.08
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-07-09T02:58:30.239708+00:00",
+      "city": "Istanbul",
+      "date": "2026-07-09",
+      "side": "NO",
+      "bucket": "25.0-25.0C",
+      "entry": 0.6,
+      "correct": true,
+      "pnl": 1.18,
+      "closed_by": "take_profit",
+      "lead_h": 9.0
+    },
     {
       "ts": "2026-07-08T16:55:34.946320+00:00",
       "city": "Chengdu",
@@ -460,18 +451,6 @@
       "pnl": -3.0,
       "closed_by": "resolved",
       "lead_h": 29.0
-    },
-    {
-      "ts": "2026-06-30T18:05:51.262701+00:00",
-      "city": "Milan",
-      "date": "2026-06-30",
-      "side": "YES",
-      "bucket": "32.0-32.0C",
-      "entry": 0.09,
-      "correct": false,
-      "pnl": -1.0,
-      "closed_by": "resolved",
-      "lead_h": 23.0
     }
   ],
   "city_stats": {
