@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T08:00:10.487650+00:00",
+  "updated_at": "2026-07-09T09:00:09.626578+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -116,19 +116,19 @@
     },
     {
       "id": "nr-shadow-check",
-      "title": "nr_shadow.jsonl accumulating -- 10/25 rows",
+      "title": "nr_shadow.jsonl accumulating -- 13/25 rows",
       "description": "Near-Resolution METAR Entry (Fix 9) shadow log. At >=25 rows: compare NR win rate vs the YES baseline; if >3pp better, set nr_apply_mode: live in config.json (hot-reload). If it stays at 0 rows for several days the entry gate is too strict -- loosen one of nr_local_hour_min (15.0), nr_max_hours (6.0), nr_min_prob (0.90), nr_max_ask (0.82) in config.json.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 10,
+      "current": 13,
       "target": 25,
       "unit": "NR shadow rows",
       "met": false
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma shadow: 10477 rows, n=381/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
+      "title": "PP-sigma shadow: 10511 rows, n=381/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor.",
       "type": "threshold",
       "priority": "info",
@@ -212,12 +212,12 @@
     },
     {
       "id": "sharp-signal",
-      "title": "Sharp-wallet signal shadow (863 rows)",
+      "title": "Sharp-wallet signal shadow (870 rows)",
       "description": "Confirmer + unlocker shadow-logging to sharp_signal_shadow.jsonl. Run: python3 sharp_signal.py --eval. Flip sharp_apply_mode=live per-half when confirmer beats baseline by >=3pp (n>=50) / unlock beats market by >=5pp (n>=40, slippage<edge).",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 863,
+      "current": 870,
       "target": 50,
       "unit": "shadow rows",
       "met": true
