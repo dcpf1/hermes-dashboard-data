@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T00:00:09.157676+00:00",
+  "updated_at": "2026-07-09T01:00:08.430220+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -97,7 +97,7 @@
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 51,
+      "current": 52,
       "target": 40,
       "unit": "shadow rows",
       "met": true
@@ -164,12 +164,12 @@
     },
     {
       "id": "regime-shadow-check",
-      "title": "Regime-sizing shadow accumulating -- 13/40 rows",
+      "title": "Regime-sizing shadow accumulating -- 14/40 rows",
       "description": "Plan 005 regime-aware sizing (data/regime_shadow.jsonl). At >=40 rows: join to resolved.jsonl on market_id+side+bucket_low+bucket_high; split entries by regime_ratio into rich (ratio>1) vs poor (ratio<1); compare realized Brier + PnL. Flip regime_apply_mode: live (config.json; module-const -> RESTART) ONLY if mult_would points the right way: up-sizes the OUTPERFORMING regime AND down-sizes the underperformer. If ratio does not separate outcomes, switch numerator to scan_richness/ewma_slow (absolute-vs-baseline) or retire.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 13,
+      "current": 14,
       "target": 40,
       "unit": "regime shadow rows",
       "met": false
@@ -212,12 +212,12 @@
     },
     {
       "id": "sharp-signal",
-      "title": "Sharp-wallet signal shadow (818 rows)",
+      "title": "Sharp-wallet signal shadow (827 rows)",
       "description": "Confirmer + unlocker shadow-logging to sharp_signal_shadow.jsonl. Run: python3 sharp_signal.py --eval. Flip sharp_apply_mode=live per-half when confirmer beats baseline by >=3pp (n>=50) / unlock beats market by >=5pp (n>=40, slippage<edge).",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 818,
+      "current": 827,
       "target": 50,
       "unit": "shadow rows",
       "met": true
