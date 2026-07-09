@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T01:00:08.430220+00:00",
+  "updated_at": "2026-07-09T02:00:09.448022+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -97,7 +97,7 @@
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 52,
+      "current": 57,
       "target": 40,
       "unit": "shadow rows",
       "met": true
@@ -212,12 +212,12 @@
     },
     {
       "id": "sharp-signal",
-      "title": "Sharp-wallet signal shadow (827 rows)",
+      "title": "Sharp-wallet signal shadow (839 rows)",
       "description": "Confirmer + unlocker shadow-logging to sharp_signal_shadow.jsonl. Run: python3 sharp_signal.py --eval. Flip sharp_apply_mode=live per-half when confirmer beats baseline by >=3pp (n>=50) / unlock beats market by >=5pp (n>=40, slippage<edge).",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 827,
+      "current": 839,
       "target": 50,
       "unit": "shadow rows",
       "met": true
