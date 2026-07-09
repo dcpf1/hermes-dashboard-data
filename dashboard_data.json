@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-09T17:00:04.970392+00:00",
+  "generated_at": "2026-07-09T18:00:05.348181+00:00",
   "balance": {
-    "current": 73.62,
+    "current": 72.12,
     "cash": 69.67,
-    "deployed": 3.87,
+    "deployed": 2.37,
     "unrealized": 0.08,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 23.62,
-    "pnl_pct": 47.2
+    "pnl_usd": 22.12,
+    "pnl_pct": 44.2
   },
   "trades": {
     "total": 413,
     "wins": 240,
-    "losses": 165,
-    "total_pnl": -3.16
+    "losses": 166,
+    "total_pnl": -4.66
   },
   "brier": {
-    "score": 0.2042,
-    "n": 381,
-    "bss": -0.123,
-    "win_rate": 0.627,
-    "ci_lo": 0.1706,
-    "ci_hi": 0.2377,
-    "base": 0.239,
+    "score": 0.204,
+    "n": 382,
+    "bss": -0.124,
+    "win_rate": 0.626,
+    "ci_lo": 0.1705,
+    "ci_hi": 0.2374,
+    "base": 0.238,
     "status": "amber"
   },
   "open_positions": [
@@ -43,34 +43,25 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-08T22:08:23.708530+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.08
-    },
-    {
-      "city": "Shenzhen",
-      "date": "2026-07-09",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 31.0,
-      "bucket_high": 31.0,
-      "entry_price": 0.22,
-      "shares": 6.82,
-      "cost": 1.5,
-      "current_p": 0.22,
-      "model_p": 0.3536,
-      "ev_pct": 13.4,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-07-07T21:09:43.555783+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-07-09T16:55:52.637010+00:00",
+      "city": "Shenzhen",
+      "date": "2026-07-09",
+      "side": "YES",
+      "bucket": "31.0-31.0C",
+      "entry": 0.22,
+      "correct": false,
+      "pnl": -1.5,
+      "closed_by": "resolved",
+      "lead_h": 38.0
+    },
     {
       "ts": "2026-07-09T02:58:30.239708+00:00",
       "city": "Istanbul",
@@ -418,18 +409,6 @@
       "pnl": -3.0,
       "closed_by": "resolved",
       "lead_h": 47.0
-    },
-    {
-      "ts": "2026-06-30T18:05:51.262701+00:00",
-      "city": "Nyc",
-      "date": "2026-06-30",
-      "side": "YES",
-      "bucket": "84.0-85.0C",
-      "entry": 0.11,
-      "correct": false,
-      "pnl": -2.31,
-      "closed_by": "resolved",
-      "lead_h": 16.0
     }
   ],
   "city_stats": {
@@ -518,11 +497,6 @@
       "win_rate": 0.667,
       "total_pnl": -0.76
     },
-    "shenzhen": {
-      "n": 9,
-      "win_rate": 0.667,
-      "total_pnl": -1.13
-    },
     "austin": {
       "n": 3,
       "win_rate": 0.333,
@@ -562,6 +536,11 @@
       "n": 7,
       "win_rate": 0.286,
       "total_pnl": -2.59
+    },
+    "shenzhen": {
+      "n": 10,
+      "win_rate": 0.6,
+      "total_pnl": -2.63
     },
     "ankara": {
       "n": 10,
@@ -660,8 +639,8 @@
       "n": 82
     },
     "24to48": {
-      "brier": 0.1982,
-      "n": 213
+      "brier": 0.1978,
+      "n": 214
     },
     "gt48": {
       "brier": 0.1963,
