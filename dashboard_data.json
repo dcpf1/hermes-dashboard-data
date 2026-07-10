@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-10T03:00:10.830312+00:00",
+  "generated_at": "2026-07-10T04:00:09.823580+00:00",
   "balance": {
-    "current": 72.56,
-    "cash": 68.93,
-    "deployed": 3.54,
-    "unrealized": 0.09,
+    "current": 72.62,
+    "cash": 66.24,
+    "deployed": 6.23,
+    "unrealized": 0.15,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 22.56,
-    "pnl_pct": 45.1
+    "pnl_usd": 22.62,
+    "pnl_pct": 45.2
   },
   "trades": {
-    "total": 415,
+    "total": 417,
     "wins": 242,
     "losses": 166,
     "total_pnl": -2.9
@@ -28,6 +28,27 @@
   },
   "open_positions": [
     {
+      "city": "Chengdu",
+      "date": "2026-07-10",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 38.0,
+      "bucket_high": 38.0,
+      "entry_price": 0.65,
+      "shares": 1.54,
+      "cost": 1.0,
+      "current_p": 0.635,
+      "model_p": 0.9251,
+      "ev_pct": 27.5,
+      "n_agree": 4,
+      "n_avail": 6,
+      "opened_at": "2026-07-10T03:59:32.863537+00:00",
+      "hours_left": 8.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.02
+    },
+    {
       "city": "Chongqing",
       "date": "2026-07-10",
       "unit": "C",
@@ -37,16 +58,16 @@
       "entry_price": 0.69,
       "shares": 2.67,
       "cost": 1.84,
-      "current_p": 0.745,
+      "current_p": 0.715,
       "model_p": 0.9256,
       "ev_pct": 23.6,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-07-10T01:01:36.732683+00:00",
-      "hours_left": 9.0,
+      "hours_left": 8.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.15
+      "unrealized_pnl": 0.07
     },
     {
       "city": "Chongqing",
@@ -64,10 +85,31 @@
       "n_agree": 2,
       "n_avail": 2,
       "opened_at": "2026-07-09T18:59:59.872038+00:00",
-      "hours_left": 33.0,
+      "hours_left": 32.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.06
+    },
+    {
+      "city": "New York City",
+      "date": "2026-07-11",
+      "unit": "F",
+      "side": "NO",
+      "bucket_low": 84.0,
+      "bucket_high": 85.0,
+      "entry_price": 0.7,
+      "shares": 2.41,
+      "cost": 1.69,
+      "current_p": 0.765,
+      "model_p": 0.9114,
+      "ev_pct": 21.1,
+      "n_agree": 5,
+      "n_avail": 6,
+      "opened_at": "2026-07-10T03:38:04.366963+00:00",
+      "hours_left": 32.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.16
     }
   ],
   "recent_resolved": [
