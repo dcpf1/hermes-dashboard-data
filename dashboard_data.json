@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-11T00:00:07.359250+00:00",
+  "generated_at": "2026-07-11T01:00:06.739855+00:00",
   "balance": {
-    "current": 73.44,
-    "cash": 69.9,
-    "deployed": 3.39,
-    "unrealized": 0.15,
+    "current": 73.42,
+    "cash": 71.97,
+    "deployed": 1.7,
+    "unrealized": -0.25,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 23.44,
-    "pnl_pct": 46.9
+    "pnl_usd": 23.42,
+    "pnl_pct": 46.8
   },
   "trades": {
     "total": 417,
@@ -43,31 +43,10 @@
       "n_agree": 2,
       "n_avail": 2,
       "opened_at": "2026-07-09T18:59:59.872038+00:00",
-      "hours_left": 12.0,
+      "hours_left": 11.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.25
-    },
-    {
-      "city": "New York City",
-      "date": "2026-07-11",
-      "unit": "F",
-      "side": "NO",
-      "bucket_low": 84.0,
-      "bucket_high": 85.0,
-      "entry_price": 0.7,
-      "shares": 2.41,
-      "cost": 1.69,
-      "current_p": 0.865,
-      "model_p": 0.9114,
-      "ev_pct": 21.1,
-      "n_agree": 5,
-      "n_avail": 6,
-      "opened_at": "2026-07-10T03:38:04.366963+00:00",
-      "hours_left": 12.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.4
     }
   ],
   "recent_resolved": [
@@ -106,6 +85,18 @@
       "pnl": 0.45,
       "closed_by": "convergence_tp",
       "lead_h": 11.0
+    },
+    {
+      "ts": "2026-07-10T03:38:04.366963+00:00",
+      "city": "Nyc",
+      "date": "2026-07-11",
+      "side": "NO",
+      "bucket": "84.0-85.0C",
+      "entry": 0.7,
+      "correct": true,
+      "pnl": 0.39,
+      "closed_by": "take_profit",
+      "lead_h": 32.0
     },
     {
       "ts": "2026-07-09T18:05:51.145001+00:00",
@@ -418,18 +409,6 @@
       "pnl": -1.66,
       "closed_by": "price_catastrophic",
       "lead_h": 7.0
-    },
-    {
-      "ts": "2026-07-01T18:05:44.459130+00:00",
-      "city": "Moscow",
-      "date": "2026-07-01",
-      "side": "NO",
-      "bucket": "29.0-29.0C",
-      "entry": 0.7,
-      "correct": true,
-      "pnl": 1.29,
-      "closed_by": "resolved",
-      "lead_h": 26.0
     }
   ],
   "city_stats": {
