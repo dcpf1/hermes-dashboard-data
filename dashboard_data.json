@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-11T04:00:08.074300+00:00",
+  "generated_at": "2026-07-11T05:00:08.051347+00:00",
   "balance": {
-    "current": 73.23,
-    "cash": 71.97,
-    "deployed": 1.7,
-    "unrealized": -0.44,
+    "current": 73.02,
+    "cash": 73.02,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 23.23,
-    "pnl_pct": 46.5
+    "pnl_usd": 23.02,
+    "pnl_pct": 46.0
   },
   "trades": {
     "total": 417,
@@ -26,29 +26,7 @@
     "base": 0.235,
     "status": "amber"
   },
-  "open_positions": [
-    {
-      "city": "Chongqing",
-      "date": "2026-07-11",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 38.0,
-      "bucket_high": 38.0,
-      "entry_price": 0.71,
-      "shares": 2.39,
-      "cost": 1.7,
-      "current_p": 0.525,
-      "model_p": 0.9129,
-      "ev_pct": 20.3,
-      "n_agree": 2,
-      "n_avail": 2,
-      "opened_at": "2026-07-09T18:59:59.872038+00:00",
-      "hours_left": 8.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.44
-    }
-  ],
+  "open_positions": [],
   "recent_resolved": [
     {
       "ts": "2026-07-10T18:05:24.553149+00:00",
@@ -97,6 +75,18 @@
       "pnl": 0.39,
       "closed_by": "take_profit",
       "lead_h": 32.0
+    },
+    {
+      "ts": "2026-07-09T18:59:59.872038+00:00",
+      "city": "Chongqing",
+      "date": "2026-07-11",
+      "side": "NO",
+      "bucket": "38.0-38.0C",
+      "entry": 0.71,
+      "correct": false,
+      "pnl": -0.65,
+      "closed_by": "take_profit",
+      "lead_h": 41.0
     },
     {
       "ts": "2026-07-09T18:05:51.145001+00:00",
@@ -397,18 +387,6 @@
       "pnl": 0.97,
       "closed_by": "metar_override",
       "lead_h": 41.0
-    },
-    {
-      "ts": "2026-07-02T16:55:44.403581+00:00",
-      "city": "Chengdu",
-      "date": "2026-07-02",
-      "side": "NO",
-      "bucket": "34.0-34.0C",
-      "entry": 0.685,
-      "correct": false,
-      "pnl": -1.66,
-      "closed_by": "price_catastrophic",
-      "lead_h": 7.0
     }
   ],
   "city_stats": {
