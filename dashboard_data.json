@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T17:00:09.404420+00:00",
+  "generated_at": "2026-07-11T18:00:09.028713+00:00",
   "balance": {
     "current": 73.02,
     "cash": 73.02,
@@ -13,21 +13,33 @@
   "trades": {
     "total": 417,
     "wins": 245,
-    "losses": 166,
-    "total_pnl": -1.67
+    "losses": 167,
+    "total_pnl": -2.32
   },
   "brier": {
-    "score": 0.2014,
-    "n": 387,
-    "bss": -0.12,
-    "win_rate": 0.63,
-    "ci_lo": 0.1683,
-    "ci_hi": 0.2345,
-    "base": 0.235,
+    "score": 0.203,
+    "n": 388,
+    "bss": -0.122,
+    "win_rate": 0.629,
+    "ci_lo": 0.1698,
+    "ci_hi": 0.2361,
+    "base": 0.237,
     "status": "amber"
   },
   "open_positions": [],
   "recent_resolved": [
+    {
+      "ts": "2026-07-11T16:55:38.724117+00:00",
+      "city": "Chongqing",
+      "date": "2026-07-11",
+      "side": "NO",
+      "bucket": "38.0-38.0C",
+      "entry": 0.71,
+      "correct": false,
+      "pnl": -0.65,
+      "closed_by": "price_conditional",
+      "lead_h": 41.0
+    },
     {
       "ts": "2026-07-10T18:05:24.553149+00:00",
       "city": "Moscow",
@@ -75,18 +87,6 @@
       "pnl": 0.39,
       "closed_by": "take_profit",
       "lead_h": 32.0
-    },
-    {
-      "ts": "2026-07-09T18:59:59.872038+00:00",
-      "city": "Chongqing",
-      "date": "2026-07-11",
-      "side": "NO",
-      "bucket": "38.0-38.0C",
-      "entry": 0.71,
-      "correct": false,
-      "pnl": -0.65,
-      "closed_by": "take_profit",
-      "lead_h": 41.0
     },
     {
       "ts": "2026-07-09T18:05:51.145001+00:00",
@@ -475,11 +475,6 @@
       "win_rate": 0.667,
       "total_pnl": -0.76
     },
-    "chongqing": {
-      "n": 21,
-      "win_rate": 0.762,
-      "total_pnl": -1.44
-    },
     "austin": {
       "n": 3,
       "win_rate": 0.333,
@@ -499,6 +494,11 @@
       "n": 9,
       "win_rate": 0.667,
       "total_pnl": -1.99
+    },
+    "chongqing": {
+      "n": 22,
+      "win_rate": 0.727,
+      "total_pnl": -2.09
     },
     "milan": {
       "n": 13,
@@ -617,8 +617,8 @@
       "n": 86
     },
     "24to48": {
-      "brier": 0.1969,
-      "n": 215
+      "brier": 0.1999,
+      "n": 216
     },
     "gt48": {
       "brier": 0.1963,
