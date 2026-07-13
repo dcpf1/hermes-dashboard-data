@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-13T12:00:08.528000+00:00",
+  "generated_at": "2026-07-13T13:00:09.378409+00:00",
   "balance": {
-    "current": 73.19,
-    "cash": 70.32,
-    "deployed": 2.7,
-    "unrealized": 0.17,
+    "current": 72.79,
+    "cash": 67.67,
+    "deployed": 5.35,
+    "unrealized": -0.23,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 23.19,
-    "pnl_pct": 46.4
+    "pnl_usd": 22.79,
+    "pnl_pct": 45.6
   },
   "trades": {
-    "total": 419,
+    "total": 420,
     "wins": 246,
     "losses": 167,
     "total_pnl": -1.93
@@ -37,16 +37,37 @@
       "entry_price": 0.66,
       "shares": 2.58,
       "cost": 1.7,
-      "current_p": 0.67,
+      "current_p": 0.64,
       "model_p": 0.9129,
       "ev_pct": 25.3,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-13T06:23:05.526652+00:00",
-      "hours_left": 24.0,
+      "hours_left": 23.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.03
+      "unrealized_pnl": -0.05
+    },
+    {
+      "city": "Moscow",
+      "date": "2026-07-15",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 26.0,
+      "bucket_high": 26.0,
+      "entry_price": 0.81,
+      "shares": 3.27,
+      "cost": 2.65,
+      "current_p": 0.745,
+      "model_p": 0.9837,
+      "ev_pct": 17.4,
+      "n_agree": 4,
+      "n_avail": 6,
+      "opened_at": "2026-07-13T12:09:22.024053+00:00",
+      "hours_left": 47.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.21
     },
     {
       "city": "Los Angeles",
@@ -58,7 +79,7 @@
       "entry_price": 0.58,
       "shares": 1.72,
       "cost": 1.0,
-      "current_p": 0.66,
+      "current_p": 0.595,
       "model_p": 0.9038,
       "ev_pct": 32.4,
       "n_agree": 5,
@@ -67,7 +88,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.14
+      "unrealized_pnl": 0.03
     }
   ],
   "recent_resolved": [

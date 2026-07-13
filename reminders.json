@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T12:00:08.528000+00:00",
+  "updated_at": "2026-07-13T13:00:09.378409+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -97,19 +97,19 @@
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 121,
+      "current": 122,
       "target": 40,
       "unit": "shadow rows",
       "met": true
     },
     {
       "id": "maker-live-gate",
-      "title": "Maker Phase 2 live gate -- 27/35 taker shadow rows",
+      "title": "Maker Phase 2 live gate -- 28/35 taker shadow rows",
       "description": "Phase 2 live order path is built and dormant. Flip procedure (after [GATE-2] nres/30 passes in maker_estimator.py): set maker_apply_mode=live + populate maker_canary_cities (1-2 liquid cities) in config.json, restart, verify status. Canary: both sides, maker_canary_max_bet per order, hard-stop on any mechanics incident (data/maker_halt.flag), soft review at maker_soft_review_n fills.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 27,
+      "current": 28,
       "target": 35,
       "unit": "taker shadow rows",
       "met": false
@@ -140,7 +140,7 @@
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma shadow: 13924 rows, n=389/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
+      "title": "PP-sigma shadow: 13964 rows, n=389/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor.",
       "type": "threshold",
       "priority": "info",
@@ -176,12 +176,12 @@
     },
     {
       "id": "regime-shadow-check",
-      "title": "Regime-sizing shadow accumulating -- 21/40 rows",
+      "title": "Regime-sizing shadow accumulating -- 22/40 rows",
       "description": "Plan 005 regime-aware sizing (data/regime_shadow.jsonl). At >=40 rows: join to resolved.jsonl on market_id+side+bucket_low+bucket_high; split entries by regime_ratio into rich (ratio>1) vs poor (ratio<1); compare realized Brier + PnL. Flip regime_apply_mode: live (config.json; module-const -> RESTART) ONLY if mult_would points the right way: up-sizes the OUTPERFORMING regime AND down-sizes the underperformer. If ratio does not separate outcomes, switch numerator to scan_richness/ewma_slow (absolute-vs-baseline) or retire.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 21,
+      "current": 22,
       "target": 40,
       "unit": "regime shadow rows",
       "met": false
@@ -224,12 +224,12 @@
     },
     {
       "id": "sharp-signal",
-      "title": "Sharp-wallet signal shadow (1489 rows)",
+      "title": "Sharp-wallet signal shadow (1495 rows)",
       "description": "Confirmer + unlocker shadow-logging to sharp_signal_shadow.jsonl. Run: python3 sharp_signal.py --eval. Flip sharp_apply_mode=live per-half when confirmer beats baseline by >=3pp (n>=50) / unlock beats market by >=5pp (n>=40, slippage<edge).",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 1489,
+      "current": 1495,
       "target": 50,
       "unit": "shadow rows",
       "met": true
