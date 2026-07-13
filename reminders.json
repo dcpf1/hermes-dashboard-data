@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T14:00:09.070325+00:00",
+  "updated_at": "2026-07-13T15:00:09.754337+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -128,19 +128,19 @@
     },
     {
       "id": "nr-shadow-check",
-      "title": "NR v2 shadow 11/25 -- 14 more v2 trades before NR recheck",
+      "title": "NR v2 shadow 12/25 -- 13 more v2 trades before NR recheck",
       "description": "Near-Resolution v2 (observation-locked: local>=17h or peak-passed, ask<=0.95). RECHECK go-live when this hits 25 v2 shadow trades (each row = one would-be NR entry). At recheck: (1) FIRST raise nr_entry_min_ask 0.30 -> ~0.70 -- 2026-07-11 backtest (nr_backtest.py, 62k mkts): the 0.30-0.70 favorite band is -EV (WR 0.25); the edge lives ONLY in the locked 0.70-0.95 sliver (+0.047 roi/$1 net 2c), and at min_ask 0.30 the strategy is break-even net slippage. (2) re-run python3 nr_eval.py (GATE: n>=25 v2 AND excess = WR-avg_ask >= +0.03) AND python3 /home/dcp/smartmoney/nr_backtest.py. (3) keep the >=17h/peak-passed lock STRICT (dropping it to 16:00 flips the edge -EV). Only then decide nr_apply_mode: live + RESTART. Also see the v2-would what-if in nr_eval.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 11,
+      "current": 12,
       "target": 25,
       "unit": "NR v2 shadow rows",
       "met": false
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma shadow: 14025 rows, n=389/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
+      "title": "PP-sigma shadow: 14083 rows, n=389/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor.",
       "type": "threshold",
       "priority": "info",
@@ -224,12 +224,12 @@
     },
     {
       "id": "sharp-signal",
-      "title": "Sharp-wallet signal shadow (1500 rows)",
+      "title": "Sharp-wallet signal shadow (1503 rows)",
       "description": "Confirmer + unlocker shadow-logging to sharp_signal_shadow.jsonl. Run: python3 sharp_signal.py --eval. Flip sharp_apply_mode=live per-half when confirmer beats baseline by >=3pp (n>=50) / unlock beats market by >=5pp (n>=40, slippage<edge).",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 1500,
+      "current": 1503,
       "target": 50,
       "unit": "shadow rows",
       "met": true
