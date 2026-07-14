@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T07:00:05.729459+00:00",
+  "updated_at": "2026-07-14T08:00:05.517637+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -140,7 +140,7 @@
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma shadow: 14579 rows, n=390/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
+      "title": "PP-sigma shadow: 14609 rows, n=390/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor.",
       "type": "threshold",
       "priority": "info",
@@ -224,12 +224,12 @@
     },
     {
       "id": "sharp-signal",
-      "title": "Sharp-wallet signal shadow (1617 rows)",
+      "title": "Sharp-wallet signal shadow (1626 rows)",
       "description": "Confirmer + unlocker shadow-logging to sharp_signal_shadow.jsonl. Run: python3 sharp_signal.py --eval. Flip sharp_apply_mode=live per-half when confirmer beats baseline by >=3pp (n>=50) / unlock beats market by >=5pp (n>=40, slippage<edge).",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 1617,
+      "current": 1626,
       "target": 50,
       "unit": "shadow rows",
       "met": true
