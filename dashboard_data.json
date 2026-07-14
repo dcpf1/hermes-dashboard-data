@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-14T17:00:12.468116+00:00",
+  "generated_at": "2026-07-14T18:00:08.682775+00:00",
   "balance": {
-    "current": 73.99,
-    "cash": 66.73,
-    "deployed": 7.01,
-    "unrealized": 0.25,
+    "current": 74.56,
+    "cash": 68.95,
+    "deployed": 5.31,
+    "unrealized": 0.3,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 23.99,
-    "pnl_pct": 48.0
+    "pnl_usd": 24.56,
+    "pnl_pct": 49.1
   },
   "trades": {
     "total": 422,
@@ -37,16 +37,16 @@
       "entry_price": 0.65,
       "shares": 1.54,
       "cost": 1.0,
-      "current_p": 0.675,
+      "current_p": 0.68,
       "model_p": 0.906,
       "ev_pct": 25.6,
       "n_agree": 5,
       "n_avail": 7,
       "opened_at": "2026-07-14T08:35:12.703528+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.04
+      "unrealized_pnl": 0.05
     },
     {
       "city": "Moscow",
@@ -58,16 +58,16 @@
       "entry_price": 0.81,
       "shares": 3.27,
       "cost": 2.65,
-      "current_p": 0.895,
+      "current_p": 0.915,
       "model_p": 0.9837,
       "ev_pct": 17.4,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-13T12:09:22.024053+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.28
+      "unrealized_pnl": 0.34
     },
     {
       "city": "Milan",
@@ -79,37 +79,16 @@
       "entry_price": 0.72,
       "shares": 2.31,
       "cost": 1.66,
-      "current_p": 0.675,
+      "current_p": 0.68,
       "model_p": 0.9082,
       "ev_pct": 18.8,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-07-13T17:32:34.944118+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.1
-    },
-    {
-      "city": "Dallas",
-      "date": "2026-07-14",
-      "unit": "F",
-      "side": "NO",
-      "bucket_low": 88.0,
-      "bucket_high": 89.0,
-      "entry_price": 0.66,
-      "shares": 2.58,
-      "cost": 1.7,
-      "current_p": 0.67,
-      "model_p": 0.9129,
-      "ev_pct": 25.3,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-07-13T06:23:05.526652+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.03
+      "unrealized_pnl": -0.09
     }
   ],
   "recent_resolved": [
@@ -124,6 +103,18 @@
       "pnl": 0.72,
       "closed_by": "resolved",
       "lead_h": 28.0
+    },
+    {
+      "ts": "2026-07-13T06:23:05.526652+00:00",
+      "city": "Dallas",
+      "date": "2026-07-14",
+      "side": "NO",
+      "bucket": "88.0-89.0F",
+      "entry": 0.66,
+      "correct": true,
+      "pnl": 0.52,
+      "closed_by": "take_profit",
+      "lead_h": 29.0
     },
     {
       "ts": "2026-07-11T18:05:13.791641+00:00",
@@ -459,18 +450,6 @@
       "correct": false,
       "pnl": -2.6,
       "closed_by": "resolved",
-      "lead_h": 17.0
-    },
-    {
-      "ts": "2026-07-02T18:10:19.533892+00:00",
-      "city": "Los Angeles",
-      "date": "2026-07-02",
-      "side": "YES",
-      "bucket": "68.0-69.0F",
-      "entry": 0.11,
-      "correct": false,
-      "pnl": 0.0,
-      "closed_by": "metar_override",
       "lead_h": 17.0
     }
   ],
