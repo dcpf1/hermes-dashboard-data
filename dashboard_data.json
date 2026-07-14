@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-14T22:00:09.120387+00:00",
+  "generated_at": "2026-07-14T23:00:15.215748+00:00",
   "balance": {
-    "current": 74.39,
+    "current": 74.44,
     "cash": 71.96,
     "deployed": 2.66,
-    "unrealized": -0.23,
+    "unrealized": -0.18,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 24.39,
-    "pnl_pct": 48.8
+    "pnl_usd": 24.44,
+    "pnl_pct": 48.9
   },
   "trades": {
     "total": 422,
@@ -37,16 +37,16 @@
       "entry_price": 0.65,
       "shares": 1.54,
       "cost": 1.0,
-      "current_p": 0.62,
+      "current_p": 0.625,
       "model_p": 0.906,
       "ev_pct": 25.6,
       "n_agree": 5,
       "n_avail": 7,
       "opened_at": "2026-07-14T08:35:12.703528+00:00",
-      "hours_left": 14.0,
+      "hours_left": 13.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.05
+      "unrealized_pnl": -0.04
     },
     {
       "city": "Milan",
@@ -58,16 +58,16 @@
       "entry_price": 0.72,
       "shares": 2.31,
       "cost": 1.66,
-      "current_p": 0.64,
+      "current_p": 0.66,
       "model_p": 0.9082,
       "ev_pct": 18.8,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-07-13T17:32:34.944118+00:00",
-      "hours_left": 14.0,
+      "hours_left": 13.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.18
+      "unrealized_pnl": -0.14
     }
   ],
   "recent_resolved": [
