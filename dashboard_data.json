@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-14T09:00:06.716987+00:00",
+  "generated_at": "2026-07-14T10:00:07.056946+00:00",
   "balance": {
-    "current": 73.97,
+    "current": 74.02,
     "cash": 66.73,
     "deployed": 7.01,
-    "unrealized": 0.23,
+    "unrealized": 0.28,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 23.97,
-    "pnl_pct": 47.9
+    "pnl_usd": 24.02,
+    "pnl_pct": 48.0
   },
   "trades": {
     "total": 422,
@@ -37,16 +37,16 @@
       "entry_price": 0.66,
       "shares": 2.58,
       "cost": 1.7,
-      "current_p": 0.665,
+      "current_p": 0.655,
       "model_p": 0.9129,
       "ev_pct": 25.3,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-13T06:23:05.526652+00:00",
-      "hours_left": 3.0,
+      "hours_left": 2.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.01
+      "unrealized_pnl": -0.01
     },
     {
       "city": "Los Angeles",
@@ -58,16 +58,16 @@
       "entry_price": 0.65,
       "shares": 1.54,
       "cost": 1.0,
-      "current_p": 0.64,
+      "current_p": 0.685,
       "model_p": 0.906,
       "ev_pct": 25.6,
       "n_agree": 5,
       "n_avail": 7,
       "opened_at": "2026-07-14T08:35:12.703528+00:00",
-      "hours_left": 27.0,
+      "hours_left": 26.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.02
+      "unrealized_pnl": 0.05
     },
     {
       "city": "Moscow",
@@ -79,16 +79,16 @@
       "entry_price": 0.81,
       "shares": 3.27,
       "cost": 2.65,
-      "current_p": 0.855,
+      "current_p": 0.86,
       "model_p": 0.9837,
       "ev_pct": 17.4,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-13T12:09:22.024053+00:00",
-      "hours_left": 27.0,
+      "hours_left": 26.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.15
+      "unrealized_pnl": 0.16
     },
     {
       "city": "Milan",
@@ -100,16 +100,16 @@
       "entry_price": 0.72,
       "shares": 2.31,
       "cost": 1.66,
-      "current_p": 0.76,
+      "current_p": 0.755,
       "model_p": 0.9082,
       "ev_pct": 18.8,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-07-13T17:32:34.944118+00:00",
-      "hours_left": 27.0,
+      "hours_left": 26.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.09
+      "unrealized_pnl": 0.08
     }
   ],
   "recent_resolved": [
