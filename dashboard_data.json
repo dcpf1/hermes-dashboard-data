@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-15T14:00:07.688195+00:00",
+  "generated_at": "2026-07-15T15:00:07.764885+00:00",
   "balance": {
-    "current": 74.28,
-    "cash": 72.07,
-    "deployed": 2.0,
-    "unrealized": 0.21,
+    "current": 74.32,
+    "cash": 73.38,
+    "deployed": 1.0,
+    "unrealized": -0.06,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 24.28,
+    "pnl_usd": 24.32,
     "pnl_pct": 48.6
   },
   "trades": {
@@ -43,31 +43,10 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-15T02:06:37.299733+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.06
-    },
-    {
-      "city": "Los Angeles",
-      "date": "2026-07-15",
-      "unit": "F",
-      "side": "NO",
-      "bucket_low": 78.0,
-      "bucket_high": 79.0,
-      "entry_price": 0.65,
-      "shares": 1.54,
-      "cost": 1.0,
-      "current_p": 0.825,
-      "model_p": 0.906,
-      "ev_pct": 25.6,
-      "n_agree": 5,
-      "n_avail": 7,
-      "opened_at": "2026-07-14T08:35:12.703528+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.27
     }
   ],
   "recent_resolved": [
@@ -82,6 +61,18 @@
       "pnl": 0.52,
       "closed_by": "convergence_tp",
       "lead_h": 29.0
+    },
+    {
+      "ts": "2026-07-14T08:35:12.703528+00:00",
+      "city": "Los Angeles",
+      "date": "2026-07-15",
+      "side": "NO",
+      "bucket": "78.0-79.0F",
+      "entry": 0.65,
+      "correct": true,
+      "pnl": 0.31,
+      "closed_by": "take_profit",
+      "lead_h": 27.0
     },
     {
       "ts": "2026-07-13T18:05:25.631087+00:00",
@@ -418,18 +409,6 @@
       "pnl": -0.38,
       "closed_by": "metar_override",
       "lead_h": 17.0
-    },
-    {
-      "ts": "2026-07-03T16:55:31.095712+00:00",
-      "city": "Shanghai",
-      "date": "2026-07-03",
-      "side": "NO",
-      "bucket": "33.0-33.0C",
-      "entry": 0.74,
-      "correct": false,
-      "pnl": -1.75,
-      "closed_by": "price_catastrophic",
-      "lead_h": 7.0
     }
   ],
   "city_stats": {
