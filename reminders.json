@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T22:00:11.974891+00:00",
+  "updated_at": "2026-07-15T23:00:13.387473+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -116,19 +116,19 @@
     },
     {
       "id": "nr-shadow-check",
-      "title": "NR v2 shadow at 31 rows -- RECHECK NOW: nr_eval.py + nr_backtest.py",
+      "title": "NR v2 shadow at 34 rows -- RECHECK NOW: nr_eval.py + nr_backtest.py",
       "description": "Near-Resolution v2 (observation-locked: local>=17h or peak-passed, ask<=0.95). RECHECK go-live when this hits 25 v2 shadow trades (each row = one would-be NR entry). At recheck: (1) FIRST raise nr_entry_min_ask 0.30 -> ~0.70 -- 2026-07-11 backtest (nr_backtest.py, 62k mkts): the 0.30-0.70 favorite band is -EV (WR 0.25); the edge lives ONLY in the locked 0.70-0.95 sliver (+0.047 roi/$1 net 2c), and at min_ask 0.30 the strategy is break-even net slippage. (2) re-run python3 nr_eval.py (GATE: n>=25 v2 AND excess = WR-avg_ask >= +0.03) AND python3 /home/dcp/smartmoney/nr_backtest.py. (3) keep the >=17h/peak-passed lock STRICT (dropping it to 16:00 flips the edge -EV). Only then decide nr_apply_mode: live + RESTART. Also see the v2-would what-if in nr_eval.",
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 31,
+      "current": 34,
       "target": 25,
       "unit": "NR v2 shadow rows",
       "met": true
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma shadow: 16072 rows, n=394/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
+      "title": "PP-sigma shadow: 16104 rows, n=394/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor. DECISION 2026-07-14 (DCP): if post-shrink does NOT improve Brier at n=500, DELETE post-peak sigma -- no indefinite shadow.",
       "type": "threshold",
       "priority": "info",
