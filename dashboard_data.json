@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-16T17:00:12.336732+00:00",
+  "generated_at": "2026-07-16T18:00:10.465854+00:00",
   "balance": {
-    "current": 74.95,
+    "current": 75.15,
     "cash": 74.14,
     "deployed": 1.0,
-    "unrealized": -0.19,
+    "unrealized": 0.01,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 24.95,
-    "pnl_pct": 49.9
+    "pnl_usd": 25.15,
+    "pnl_pct": 50.3
   },
   "trades": {
     "total": 424,
-    "wins": 250,
+    "wins": 251,
     "losses": 168,
-    "total_pnl": -0.57
+    "total_pnl": 0.19
   },
   "brier": {
-    "score": 0.2021,
-    "n": 394,
-    "bss": -0.121,
-    "win_rate": 0.632,
-    "ci_lo": 0.1692,
-    "ci_hi": 0.235,
-    "base": 0.236,
+    "score": 0.2016,
+    "n": 395,
+    "bss": -0.12,
+    "win_rate": 0.633,
+    "ci_lo": 0.1688,
+    "ci_hi": 0.2344,
+    "base": 0.235,
     "status": "amber"
   },
   "open_positions": [
@@ -37,7 +37,7 @@
       "entry_price": 0.62,
       "shares": 1.61,
       "cost": 1.0,
-      "current_p": 0.505,
+      "current_p": 0.625,
       "model_p": 0.9107,
       "ev_pct": 29.1,
       "n_agree": 4,
@@ -46,12 +46,12 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.19
+      "unrealized_pnl": 0.01
     }
   ],
   "recent_resolved": [
     {
-      "ts": "2026-07-16T00:59:24.435001+00:00",
+      "ts": "2026-07-16T17:10:53.894944+00:00",
       "city": "Shanghai",
       "date": "2026-07-16",
       "side": "NO",
@@ -413,9 +413,9 @@
   ],
   "city_stats": {
     "shanghai": {
-      "n": 32,
-      "win_rate": 0.531,
-      "total_pnl": 14.0
+      "n": 33,
+      "win_rate": 0.545,
+      "total_pnl": 14.76
     },
     "miami": {
       "n": 24,
@@ -635,8 +635,8 @@
       "n": 0
     },
     "6to24": {
-      "brier": 0.2168,
-      "n": 86
+      "brier": 0.2144,
+      "n": 87
     },
     "24to48": {
       "brier": 0.1984,
