@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-16T00:00:14.032892+00:00",
+  "generated_at": "2026-07-16T01:00:08.156778+00:00",
   "balance": {
-    "current": 74.1,
-    "cash": 73.38,
-    "deployed": 1.0,
-    "unrealized": -0.28,
+    "current": 74.13,
+    "cash": 71.78,
+    "deployed": 2.6,
+    "unrealized": -0.25,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 24.1,
-    "pnl_pct": 48.2
+    "pnl_usd": 24.13,
+    "pnl_pct": 48.3
   },
   "trades": {
-    "total": 423,
+    "total": 424,
     "wins": 250,
     "losses": 168,
     "total_pnl": -0.57
@@ -28,6 +28,27 @@
   },
   "open_positions": [
     {
+      "city": "Shanghai",
+      "date": "2026-07-16",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 39.0,
+      "bucket_high": 39.0,
+      "entry_price": 0.623,
+      "shares": 2.57,
+      "cost": 1.6,
+      "current_p": 0.6195,
+      "model_p": 0.9009,
+      "ev_pct": 27.8,
+      "n_agree": 5,
+      "n_avail": 6,
+      "opened_at": "2026-07-16T00:59:24.435001+00:00",
+      "hours_left": 11.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.01
+    },
+    {
       "city": "Los Angeles",
       "date": "2026-07-16",
       "unit": "F",
@@ -37,16 +58,16 @@
       "entry_price": 0.62,
       "shares": 1.61,
       "cost": 1.0,
-      "current_p": 0.445,
+      "current_p": 0.47,
       "model_p": 0.9107,
       "ev_pct": 29.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-15T02:06:37.299733+00:00",
-      "hours_left": 12.0,
+      "hours_left": 11.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.28
+      "unrealized_pnl": -0.24
     }
   ],
   "recent_resolved": [
