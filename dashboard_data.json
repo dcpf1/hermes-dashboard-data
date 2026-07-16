@@ -1,55 +1,67 @@
 {
-  "generated_at": "2026-07-16T18:00:10.465854+00:00",
+  "generated_at": "2026-07-16T19:00:19.501871+00:00",
   "balance": {
-    "current": 75.15,
-    "cash": 74.14,
-    "deployed": 1.0,
-    "unrealized": 0.01,
+    "current": 75.72,
+    "cash": 74.09,
+    "deployed": 1.66,
+    "unrealized": -0.03,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 25.15,
-    "pnl_pct": 50.3
+    "pnl_usd": 25.72,
+    "pnl_pct": 51.4
   },
   "trades": {
-    "total": 424,
-    "wins": 251,
+    "total": 425,
+    "wins": 252,
     "losses": 168,
-    "total_pnl": 0.19
+    "total_pnl": 0.8
   },
   "brier": {
-    "score": 0.2016,
-    "n": 395,
-    "bss": -0.12,
-    "win_rate": 0.633,
-    "ci_lo": 0.1688,
-    "ci_hi": 0.2344,
+    "score": 0.2011,
+    "n": 396,
+    "bss": -0.119,
+    "win_rate": 0.634,
+    "ci_lo": 0.1684,
+    "ci_hi": 0.2339,
     "base": 0.235,
     "status": "amber"
   },
   "open_positions": [
     {
-      "city": "Los Angeles",
-      "date": "2026-07-16",
-      "unit": "F",
+      "city": "Chongqing",
+      "date": "2026-07-17",
+      "unit": "C",
       "side": "NO",
-      "bucket_low": 80.0,
-      "bucket_high": 81.0,
-      "entry_price": 0.62,
-      "shares": 1.61,
-      "cost": 1.0,
-      "current_p": 0.625,
-      "model_p": 0.9107,
-      "ev_pct": 29.1,
-      "n_agree": 4,
+      "bucket_low": 35.0,
+      "bucket_high": 35.0,
+      "entry_price": 0.61,
+      "shares": 2.72,
+      "cost": 1.66,
+      "current_p": 0.6,
+      "model_p": 0.9083,
+      "ev_pct": 29.8,
+      "n_agree": 5,
       "n_avail": 6,
-      "opened_at": "2026-07-15T02:06:37.299733+00:00",
-      "hours_left": 0.0,
+      "opened_at": "2026-07-16T18:04:45.867793+00:00",
+      "hours_left": 17.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.01
+      "unrealized_pnl": -0.03
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-07-16T18:10:46.977706+00:00",
+      "city": "Los Angeles",
+      "date": "2026-07-16",
+      "side": "NO",
+      "bucket": "80.0-81.0F",
+      "entry": 0.62,
+      "correct": true,
+      "pnl": 0.61,
+      "closed_by": "resolved",
+      "lead_h": 33.0
+    },
     {
       "ts": "2026-07-16T17:10:53.894944+00:00",
       "city": "Shanghai",
@@ -397,18 +409,6 @@
       "pnl": -3.0,
       "closed_by": "resolved",
       "lead_h": 41.0
-    },
-    {
-      "ts": "2026-07-03T18:05:17.149154+00:00",
-      "city": "Denver",
-      "date": "2026-07-03",
-      "side": "YES",
-      "bucket": "88.0-89.0F",
-      "entry": 0.09,
-      "correct": false,
-      "pnl": 0.14,
-      "closed_by": "metar_override",
-      "lead_h": 29.0
     }
   ],
   "city_stats": {
@@ -432,15 +432,15 @@
       "win_rate": 1.0,
       "total_pnl": 6.9
     },
+    "los-angeles": {
+      "n": 28,
+      "win_rate": 0.607,
+      "total_pnl": 5.72
+    },
     "madrid": {
       "n": 9,
       "win_rate": 0.889,
       "total_pnl": 5.16
-    },
-    "los-angeles": {
-      "n": 27,
-      "win_rate": 0.593,
-      "total_pnl": 5.11
     },
     "moscow": {
       "n": 13,
@@ -639,8 +639,8 @@
       "n": 87
     },
     "24to48": {
-      "brier": 0.1984,
-      "n": 222
+      "brier": 0.1975,
+      "n": 223
     },
     "gt48": {
       "brier": 0.1963,

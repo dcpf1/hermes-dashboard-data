@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T18:00:10.465854+00:00",
+  "updated_at": "2026-07-16T19:00:19.501871+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -49,19 +49,19 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 395,
+      "current": 396,
       "target": 500,
       "unit": "resolved trades",
       "met": false
     },
     {
       "id": "lgbm-recheck",
-      "title": "LightGBM n=500 recheck (395/500) -- retrain w/ v2 features + direction check",
+      "title": "LightGBM n=500 recheck (396/500) -- retrain w/ v2 features + direction check",
       "description": "n=420 recheck DONE 2026-07-03: NO val_brier=0.1831, YES=0.1418 (both improved, shadow). Direction: losers STILL up-sized (avg 1.09x, only 2/41 below 1.0) -- meta_apply_mode kept shadow. At n=500: re-run python3 train_meta_model.py with v2 features (inter_model_spread, n_models -- check coverage, only rows after Jun 10); redo the winner/loser mult split on meta_shadow.jsonl. Flip meta_apply_mode: live ONLY if losers get down-sized meaningfully.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 395,
+      "current": 396,
       "target": 500,
       "unit": "resolved trades",
       "met": false
@@ -73,7 +73,7 @@
       "type": "threshold",
       "priority": "neutral",
       "project": "Weatherbot",
-      "current": 395,
+      "current": 396,
       "target": 580,
       "unit": "resolved trades",
       "met": false
@@ -85,31 +85,31 @@
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 154,
+      "current": 155,
       "target": 40,
       "unit": "shadow rows",
       "met": true
     },
     {
       "id": "maker-live-gate",
-      "title": "Maker Phase 2 live gate -- 32/35 taker shadow rows",
+      "title": "Maker Phase 2 live gate -- 33/35 taker shadow rows",
       "description": "Phase 2 live order path is built and dormant. Flip procedure (after [GATE-2] nres/30 passes in maker_estimator.py): set maker_apply_mode=live + populate maker_canary_cities (1-2 liquid cities) in config.json, restart, verify status. Canary: both sides, maker_canary_max_bet per order, hard-stop on any mechanics incident (data/maker_halt.flag), soft review at maker_soft_review_n fills.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 32,
+      "current": 33,
       "target": 35,
       "unit": "taker shadow rows",
       "met": false
     },
     {
       "id": "underdispersion-check",
-      "title": "Underdispersion re-eval: 395/500 -- not yet (Jun28 review: regime artifact, kept shadow)",
+      "title": "Underdispersion re-eval: 396/500 -- not yet (Jun28 review: regime artifact, kept shadow)",
       "description": "Run: python3 eval_underdispersion.py (rewritten Jun 28 to use the CONTEMPORANEOUS baseline). Jun 28 verdict at n=343: +1.7pp vs same-window baseline = regime artifact, NOT a real edge; and win rate alone does not test the sigma-inflation counterfactual live mode would trigger. Kept shadow, re-gated to n=500. Only flip underdispersion_apply_mode: live if the contemporaneous edge holds >3pp at a real sample (>=40 UD rows). DECISION 2026-07-14 (DCP): if the edge does NOT hold at n=500, DELETE underdispersion -- no indefinite shadow.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 395,
+      "current": 396,
       "target": 500,
       "unit": "resolved trades",
       "met": false
@@ -128,24 +128,24 @@
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma shadow: 16710 rows, n=395/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
+      "title": "PP-sigma shadow: 16752 rows, n=396/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor. DECISION 2026-07-14 (DCP): if post-shrink does NOT improve Brier at n=500, DELETE post-peak sigma -- no indefinite shadow.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 395,
+      "current": 396,
       "target": 500,
       "unit": "resolved trades",
       "met": false
     },
     {
       "id": "brier-cleared",
-      "title": "Brier 0.202 -- gate holding (LIVE since Jun 16)",
-      "description": "LIVE_MODE=True since Jun 16. Brier at 0.202 (amber). Sizing bands: <0.20=1.0x, 0.20-0.30=0.75x, 0.30-0.35=0.50x, >=0.35=halt entries, >=0.40=scan abort+alert.",
+      "title": "Brier 0.201 -- gate holding (LIVE since Jun 16)",
+      "description": "LIVE_MODE=True since Jun 16. Brier at 0.201 (amber). Sizing bands: <0.20=1.0x, 0.20-0.30=0.75x, 0.30-0.35=0.50x, >=0.35=halt entries, >=0.40=scan abort+alert.",
       "type": "alert",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 0.202,
+      "current": 0.201,
       "target": 0.25,
       "unit": "Brier score",
       "met": true
@@ -164,12 +164,12 @@
     },
     {
       "id": "regime-shadow-check",
-      "title": "Regime-sizing shadow accumulating -- 26/40 rows",
+      "title": "Regime-sizing shadow accumulating -- 27/40 rows",
       "description": "Plan 005 regime-aware sizing (data/regime_shadow.jsonl). At >=40 rows: join to resolved.jsonl on market_id+side+bucket_low+bucket_high; split entries by regime_ratio into rich (ratio>1) vs poor (ratio<1); compare realized Brier + PnL. Flip regime_apply_mode: live (config.json; module-const -> RESTART) ONLY if mult_would points the right way: up-sizes the OUTPERFORMING regime AND down-sizes the underperformer. If ratio does not separate outcomes, switch numerator to scan_richness/ewma_slow (absolute-vs-baseline) or retire.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 26,
+      "current": 27,
       "target": 40,
       "unit": "regime shadow rows",
       "met": false
