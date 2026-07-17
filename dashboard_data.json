@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-17T15:00:15.365721+00:00",
+  "generated_at": "2026-07-17T16:00:16.871532+00:00",
   "balance": {
-    "current": 78.66,
-    "cash": 78.66,
-    "deployed": 0,
-    "unrealized": 0,
+    "current": 78.73,
+    "cash": 75.89,
+    "deployed": 3.0,
+    "unrealized": -0.16,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 28.66,
-    "pnl_pct": 57.3
+    "pnl_usd": 28.73,
+    "pnl_pct": 57.5
   },
   "trades": {
-    "total": 426,
+    "total": 428,
     "wins": 252,
     "losses": 168,
     "total_pnl": 0.8
@@ -26,8 +26,42 @@
     "base": 0.235,
     "status": "amber"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "city": "Paris",
+      "date": "2026-07-17",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 26.0,
+      "bucket_high": 26.0,
+      "entry_price": 0.841,
+      "shares": 3.57,
+      "cost": 3.0,
+      "current_p": 0.797,
+      "model_p": 0.97,
+      "ev_pct": 12.9,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-07-17T15:55:23.917113+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.16
+    }
+  ],
   "recent_resolved": [
+    {
+      "ts": "2026-07-17T14:56:02.449972+00:00",
+      "city": "Moscow",
+      "date": "2026-07-17",
+      "side": "YES",
+      "bucket": "21.0-21.0C",
+      "entry": 0.92,
+      "correct": true,
+      "pnl": 0.23,
+      "closed_by": "take_profit",
+      "lead_h": 0.0
+    },
     {
       "ts": "2026-07-17T05:10:41.810998+00:00",
       "city": "Shenzhen",
@@ -375,18 +409,6 @@
       "pnl": 0.0,
       "closed_by": "resolved",
       "lead_h": 41.0
-    },
-    {
-      "ts": "2026-07-04T16:55:17.563695+00:00",
-      "city": "Chengdu",
-      "date": "2026-07-04",
-      "side": "NO",
-      "bucket": "35.0-35.0C",
-      "entry": 0.69,
-      "correct": true,
-      "pnl": 0.56,
-      "closed_by": "take_profit",
-      "lead_h": 25.0
     }
   ],
   "city_stats": {
