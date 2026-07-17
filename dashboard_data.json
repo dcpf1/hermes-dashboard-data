@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-17T05:00:10.407265+00:00",
+  "generated_at": "2026-07-17T06:00:07.626213+00:00",
   "balance": {
-    "current": 76.28,
-    "cash": 74.09,
-    "deployed": 1.66,
-    "unrealized": 0.53,
+    "current": 76.4,
+    "cash": 73.65,
+    "deployed": 3.0,
+    "unrealized": -0.25,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 26.28,
-    "pnl_pct": 52.6
+    "pnl_usd": 26.4,
+    "pnl_pct": 52.8
   },
   "trades": {
-    "total": 425,
+    "total": 426,
     "wins": 252,
     "losses": 168,
     "total_pnl": 0.8
@@ -28,25 +28,25 @@
   },
   "open_positions": [
     {
-      "city": "Chongqing",
+      "city": "Shenzhen",
       "date": "2026-07-17",
       "unit": "C",
       "side": "NO",
-      "bucket_low": 35.0,
-      "bucket_high": 35.0,
-      "entry_price": 0.61,
-      "shares": 2.72,
-      "cost": 1.66,
-      "current_p": 0.805,
-      "model_p": 0.9083,
-      "ev_pct": 29.8,
-      "n_agree": 5,
+      "bucket_low": 27.0,
+      "bucket_high": 27.0,
+      "entry_price": 0.579,
+      "shares": 5.18,
+      "cost": 3.0,
+      "current_p": 0.5305,
+      "model_p": 0.9963,
+      "ev_pct": 41.7,
+      "n_agree": 6,
       "n_avail": 6,
-      "opened_at": "2026-07-16T18:04:45.867793+00:00",
-      "hours_left": 7.0,
+      "opened_at": "2026-07-17T05:10:41.810998+00:00",
+      "hours_left": 6.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.53
+      "unrealized_pnl": -0.25
     }
   ],
   "recent_resolved": [
@@ -61,6 +61,18 @@
       "pnl": 0.61,
       "closed_by": "resolved",
       "lead_h": 33.0
+    },
+    {
+      "ts": "2026-07-16T18:04:45.867793+00:00",
+      "city": "Chongqing",
+      "date": "2026-07-17",
+      "side": "NO",
+      "bucket": "35.0-35.0C",
+      "entry": 0.61,
+      "correct": true,
+      "pnl": 0.9,
+      "closed_by": "take_profit",
+      "lead_h": 17.0
     },
     {
       "ts": "2026-07-16T17:10:53.894944+00:00",
@@ -397,18 +409,6 @@
       "pnl": 0.84,
       "closed_by": "take_profit",
       "lead_h": 27.0
-    },
-    {
-      "ts": "2026-07-03T18:05:17.149154+00:00",
-      "city": "London",
-      "date": "2026-07-03",
-      "side": "YES",
-      "bucket": "28.0-28.0C",
-      "entry": 0.12,
-      "correct": false,
-      "pnl": -3.0,
-      "closed_by": "resolved",
-      "lead_h": 41.0
     }
   ],
   "city_stats": {
