@@ -236,7 +236,7 @@ const pct = n => (n*100).toFixed(1) + '%';
 
 function cityName(raw){
   if(!raw) return '';
-  const s = String(raw).toLowerCase().replace(/_/g,'-');
+  const s = String(raw).toLowerCase().replace(/[_\s]+/g,'-');
   const map = {'nyc':'New York City','sao-paulo':'São Paulo','tel-aviv':'Tel Aviv','la':'Los Angeles'};
   if(map[s]) return map[s];
   return s.split('-').map(w=>w.charAt(0).toUpperCase()+w.slice(1)).join(' ');
