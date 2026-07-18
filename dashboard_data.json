@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-18T08:00:11.314503+00:00",
+  "generated_at": "2026-07-18T09:00:16.710558+00:00",
   "balance": {
-    "current": 79.78,
-    "cash": 76.56,
-    "deployed": 3.22,
+    "current": 78.16,
+    "cash": 76.57,
+    "deployed": 1.59,
     "unrealized": 0.0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 29.78,
-    "pnl_pct": 59.6
+    "pnl_usd": 28.16,
+    "pnl_pct": 56.3
   },
   "trades": {
     "total": 431,
@@ -28,27 +28,6 @@
   },
   "open_positions": [
     {
-      "city": "Chongqing",
-      "date": "2026-07-18",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 34.0,
-      "bucket_high": 34.0,
-      "entry_price": 0.373,
-      "shares": 4.37,
-      "cost": 1.63,
-      "current_p": 0.373,
-      "model_p": 0.905,
-      "ev_pct": 53.2,
-      "n_agree": 6,
-      "n_avail": 6,
-      "opened_at": "2026-07-18T05:19:22.383142+00:00",
-      "hours_left": 4.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    },
-    {
       "city": "Shanghai",
       "date": "2026-07-18",
       "unit": "C",
@@ -64,13 +43,25 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-07-18T03:44:57.372853+00:00",
-      "hours_left": 4.0,
+      "hours_left": 3.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-07-18T05:19:22.383142+00:00",
+      "city": "Chongqing",
+      "date": "2026-07-18",
+      "side": "NO",
+      "bucket": "34.0-34.0C",
+      "entry": 0.373,
+      "correct": false,
+      "pnl": -1.62,
+      "closed_by": "take_profit",
+      "lead_h": 6.0
+    },
     {
       "ts": "2026-07-18T03:02:58.949851+00:00",
       "city": "Shenzhen",
@@ -418,18 +409,6 @@
       "pnl": 1.05,
       "closed_by": "convergence_tp",
       "lead_h": 6.0
-    },
-    {
-      "ts": "2026-07-05T16:55:20.442429+00:00",
-      "city": "Shanghai",
-      "date": "2026-07-05",
-      "side": "NO",
-      "bucket": "31.0-31.0C",
-      "entry": 0.71,
-      "correct": false,
-      "pnl": 0.34,
-      "closed_by": "convergence_tp",
-      "lead_h": 10.0
     }
   ],
   "city_stats": {
