@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T18:00:18.783092+00:00",
+  "generated_at": "2026-07-18T19:00:15.421109+00:00",
   "balance": {
     "current": 76.75,
     "cash": 76.75,
@@ -12,22 +12,46 @@
   },
   "trades": {
     "total": 433,
-    "wins": 255,
-    "losses": 172,
-    "total_pnl": 1.63
+    "wins": 256,
+    "losses": 173,
+    "total_pnl": 1.81
   },
   "brier": {
-    "score": 0.2064,
-    "n": 403,
-    "bss": -0.145,
+    "score": 0.2077,
+    "n": 405,
+    "bss": -0.148,
     "win_rate": 0.63,
-    "ci_lo": 0.1735,
-    "ci_hi": 0.2393,
-    "base": 0.236,
+    "ci_lo": 0.1748,
+    "ci_hi": 0.2406,
+    "base": 0.237,
     "status": "amber"
   },
   "open_positions": [],
   "recent_resolved": [
+    {
+      "ts": "2026-07-18T18:11:02.948979+00:00",
+      "city": "Moscow",
+      "date": "2026-07-18",
+      "side": "YES",
+      "bucket": "24.0-24.0C",
+      "entry": 0.83,
+      "correct": false,
+      "pnl": -0.05,
+      "closed_by": "forecast_changed",
+      "lead_h": -1.0
+    },
+    {
+      "ts": "2026-07-18T18:11:02.948979+00:00",
+      "city": "Milan",
+      "date": "2026-07-18",
+      "side": "YES",
+      "bucket": "34.0-34.0C",
+      "entry": 0.92,
+      "correct": true,
+      "pnl": 0.23,
+      "closed_by": "take_profit",
+      "lead_h": -2.0
+    },
     {
       "ts": "2026-07-18T16:55:26.376540+00:00",
       "city": "Shenzhen",
@@ -63,30 +87,6 @@
       "pnl": -1.62,
       "closed_by": "price_catastrophic",
       "lead_h": 6.0
-    },
-    {
-      "ts": "2026-07-18T14:07:12.046330+00:00",
-      "city": "Milan",
-      "date": "2026-07-18",
-      "side": "YES",
-      "bucket": "34.0-34.0C",
-      "entry": 0.92,
-      "correct": true,
-      "pnl": 0.23,
-      "closed_by": "take_profit",
-      "lead_h": 0.0
-    },
-    {
-      "ts": "2026-07-18T13:10:36.941246+00:00",
-      "city": "Moscow",
-      "date": "2026-07-18",
-      "side": "YES",
-      "bucket": "24.0-24.0C",
-      "entry": 0.83,
-      "correct": false,
-      "pnl": -0.05,
-      "closed_by": "resolved",
-      "lead_h": 0.0
     },
     {
       "ts": "2026-07-17T18:05:17.428696+00:00",
@@ -421,9 +421,9 @@
       "total_pnl": 5.16
     },
     "moscow": {
-      "n": 14,
-      "win_rate": 0.929,
-      "total_pnl": 4.09
+      "n": 15,
+      "win_rate": 0.867,
+      "total_pnl": 4.04
     },
     "warsaw": {
       "n": 8,
@@ -520,6 +520,11 @@
       "win_rate": 0.5,
       "total_pnl": -2.73
     },
+    "milan": {
+      "n": 15,
+      "win_rate": 0.667,
+      "total_pnl": -2.78
+    },
     "chicago": {
       "n": 5,
       "win_rate": 0.4,
@@ -534,11 +539,6 @@
       "n": 24,
       "win_rate": 0.708,
       "total_pnl": -2.81
-    },
-    "milan": {
-      "n": 14,
-      "win_rate": 0.643,
-      "total_pnl": -3.01
     },
     "seoul": {
       "n": 3,
