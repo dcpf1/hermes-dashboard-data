@@ -1,33 +1,45 @@
 {
-  "generated_at": "2026-07-18T22:00:19.833447+00:00",
+  "generated_at": "2026-07-18T23:00:18.232674+00:00",
   "balance": {
-    "current": 76.75,
-    "cash": 76.75,
+    "current": 77.58,
+    "cash": 77.58,
     "deployed": 0,
     "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 26.75,
-    "pnl_pct": 53.5
+    "pnl_usd": 27.58,
+    "pnl_pct": 55.2
   },
   "trades": {
-    "total": 433,
-    "wins": 256,
+    "total": 434,
+    "wins": 257,
     "losses": 173,
-    "total_pnl": 1.81
+    "total_pnl": 2.64
   },
   "brier": {
-    "score": 0.2077,
-    "n": 405,
-    "bss": -0.148,
-    "win_rate": 0.63,
-    "ci_lo": 0.1748,
-    "ci_hi": 0.2406,
-    "base": 0.237,
+    "score": 0.2072,
+    "n": 406,
+    "bss": -0.139,
+    "win_rate": 0.631,
+    "ci_lo": 0.1743,
+    "ci_hi": 0.24,
+    "base": 0.239,
     "status": "amber"
   },
   "open_positions": [],
   "recent_resolved": [
+    {
+      "ts": "2026-07-18T22:30:36.452860+00:00",
+      "city": "Denver",
+      "date": "2026-07-18",
+      "side": "YES",
+      "bucket": "92.0-93.0F",
+      "entry": 0.73,
+      "correct": true,
+      "pnl": 0.83,
+      "closed_by": "resolved",
+      "lead_h": -10.0
+    },
     {
       "ts": "2026-07-18T18:11:02.948979+00:00",
       "city": "Moscow",
@@ -375,18 +387,6 @@
       "pnl": -1.64,
       "closed_by": "resolved",
       "lead_h": 21.0
-    },
-    {
-      "ts": "2026-07-06T16:55:33.505326+00:00",
-      "city": "Shenzhen",
-      "date": "2026-07-06",
-      "side": "YES",
-      "bucket": "30.0-30.0C",
-      "entry": 0.14,
-      "correct": false,
-      "pnl": -1.95,
-      "closed_by": "resolved",
-      "lead_h": 7.0
     }
   ],
   "city_stats": {
@@ -455,6 +455,11 @@
       "win_rate": 0.733,
       "total_pnl": 0.85
     },
+    "denver": {
+      "n": 7,
+      "win_rate": 0.571,
+      "total_pnl": 0.13
+    },
     "houston": {
       "n": 5,
       "win_rate": 0.4,
@@ -469,11 +474,6 @@
       "n": 4,
       "win_rate": 0.5,
       "total_pnl": -0.68
-    },
-    "denver": {
-      "n": 6,
-      "win_rate": 0.5,
-      "total_pnl": -0.7
     },
     "tokyo": {
       "n": 9,
