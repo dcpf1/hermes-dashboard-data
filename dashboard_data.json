@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T17:00:19.754466+00:00",
+  "generated_at": "2026-07-18T18:00:18.783092+00:00",
   "balance": {
     "current": 76.75,
     "cash": 76.75,
@@ -12,22 +12,34 @@
   },
   "trades": {
     "total": 433,
-    "wins": 254,
+    "wins": 255,
     "losses": 172,
-    "total_pnl": 1.22
+    "total_pnl": 1.63
   },
   "brier": {
-    "score": 0.2069,
-    "n": 402,
-    "bss": -0.146,
-    "win_rate": 0.629,
-    "ci_lo": 0.1739,
-    "ci_hi": 0.2398,
+    "score": 0.2064,
+    "n": 403,
+    "bss": -0.145,
+    "win_rate": 0.63,
+    "ci_lo": 0.1735,
+    "ci_hi": 0.2393,
     "base": 0.236,
     "status": "amber"
   },
   "open_positions": [],
   "recent_resolved": [
+    {
+      "ts": "2026-07-18T16:55:26.376540+00:00",
+      "city": "Shenzhen",
+      "date": "2026-07-18",
+      "side": "NO",
+      "bucket": "29.0-29.0C",
+      "entry": 0.72,
+      "correct": true,
+      "pnl": 0.41,
+      "closed_by": "convergence_tp",
+      "lead_h": 9.0
+    },
     {
       "ts": "2026-07-18T16:34:55.656902+00:00",
       "city": "Shanghai",
@@ -75,18 +87,6 @@
       "pnl": -0.05,
       "closed_by": "resolved",
       "lead_h": 0.0
-    },
-    {
-      "ts": "2026-07-18T03:02:58.949851+00:00",
-      "city": "Shenzhen",
-      "date": "2026-07-18",
-      "side": "NO",
-      "bucket": "29.0-29.0C",
-      "entry": 0.72,
-      "correct": true,
-      "pnl": 0.41,
-      "closed_by": "take_profit",
-      "lead_h": 9.0
     },
     {
       "ts": "2026-07-17T18:05:17.428696+00:00",
@@ -461,9 +461,9 @@
       "total_pnl": -0.2
     },
     "shenzhen": {
-      "n": 11,
-      "win_rate": 0.636,
-      "total_pnl": -0.61
+      "n": 12,
+      "win_rate": 0.667,
+      "total_pnl": -0.2
     },
     "seattle": {
       "n": 4,
@@ -613,8 +613,8 @@
       "n": 0
     },
     "6to24": {
-      "brier": 0.223,
-      "n": 91
+      "brier": 0.2206,
+      "n": 92
     },
     "24to48": {
       "brier": 0.1975,
