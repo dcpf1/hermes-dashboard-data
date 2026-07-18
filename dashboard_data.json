@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-18T06:00:18.935668+00:00",
+  "generated_at": "2026-07-18T07:00:11.992078+00:00",
   "balance": {
-    "current": 78.95,
-    "cash": 74.19,
-    "deployed": 5.18,
-    "unrealized": -0.42,
+    "current": 79.78,
+    "cash": 76.56,
+    "deployed": 3.22,
+    "unrealized": 0.0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 28.95,
-    "pnl_pct": 57.9
+    "pnl_usd": 29.78,
+    "pnl_pct": 59.6
   },
   "trades": {
     "total": 431,
@@ -37,37 +37,16 @@
       "entry_price": 0.373,
       "shares": 4.37,
       "cost": 1.63,
-      "current_p": 0.3325,
+      "current_p": 0.373,
       "model_p": 0.905,
       "ev_pct": 53.2,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-07-18T05:19:22.383142+00:00",
-      "hours_left": 6.0,
+      "hours_left": 5.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.18
-    },
-    {
-      "city": "Shenzhen",
-      "date": "2026-07-18",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 29.0,
-      "bucket_high": 29.0,
-      "entry_price": 0.72,
-      "shares": 2.72,
-      "cost": 1.96,
-      "current_p": 0.63,
-      "model_p": 0.9338,
-      "ev_pct": 21.4,
-      "n_agree": 6,
-      "n_avail": 6,
-      "opened_at": "2026-07-18T03:02:58.949851+00:00",
-      "hours_left": 6.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.24
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Shanghai",
@@ -85,13 +64,25 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-07-18T03:44:57.372853+00:00",
-      "hours_left": 6.0,
+      "hours_left": 5.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-07-18T03:02:58.949851+00:00",
+      "city": "Shenzhen",
+      "date": "2026-07-18",
+      "side": "NO",
+      "bucket": "29.0-29.0C",
+      "entry": 0.72,
+      "correct": true,
+      "pnl": 0.41,
+      "closed_by": "take_profit",
+      "lead_h": 9.0
+    },
     {
       "ts": "2026-07-17T18:05:17.428696+00:00",
       "city": "Moscow",
@@ -439,18 +430,6 @@
       "pnl": 0.34,
       "closed_by": "convergence_tp",
       "lead_h": 10.0
-    },
-    {
-      "ts": "2026-07-05T16:55:20.442429+00:00",
-      "city": "Shanghai",
-      "date": "2026-07-05",
-      "side": "NO",
-      "bucket": "31.0-31.0C",
-      "entry": 0.65,
-      "correct": false,
-      "pnl": -1.57,
-      "closed_by": "price_catastrophic",
-      "lead_h": 8.0
     }
   ],
   "city_stats": {
