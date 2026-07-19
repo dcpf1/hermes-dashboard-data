@@ -1,5 +1,6 @@
 {
-  "rewrites": [
-    { "source": "/", "destination": "/ledger.html" }
+  "routes": [
+    { "src": "/", "dest": "/ledger.html" },
+    { "handle": "filesystem" }
   ]
 }
