@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T11:00:22.409530+00:00",
+  "updated_at": "2026-07-19T12:00:21.578168+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -91,16 +91,16 @@
       "met": true
     },
     {
-      "id": "maker-live-gate",
-      "title": "Maker Phase 2 canary gate likely REACHABLE -- run maker_estimator.py for the authoritative [GATE-2] verdict",
-      "description": "Phase 2 live order path is built and dormant. Flip procedure (after [GATE-2] nres/30 passes in maker_estimator.py): set maker_apply_mode=live + populate maker_canary_cities (1-2 liquid cities) in config.json, restart, verify status. Canary: both sides, maker_canary_max_bet per order, hard-stop on any mechanics incident (data/maker_halt.flag), soft review at maker_soft_review_n fills.",
+      "id": "maker-canary-review",
+      "title": "Maker canary accruing -- 0/20 live fills (nyc+london)",
+      "description": "Fix 10 Phase 2 canary LIVE since 2026-07-19: maker_apply_mode=live, canary nyc+london, maker_canary_max_bet=$1/order, both sides, maker-first + taker fallback. At 20 live fills run python3 maker_estimator.py and compare the realized canary fill-rate + maker-first-vs-taker delta to the backtest/shadow estimate. If realized delta<0 or fill-rate far below estimate -> pull back (maker_apply_mode=shadow + restart). If it holds -> widen maker_canary_cities. Always check data/maker_halt.flag (D3 hard-stop fired = review before re-arming).",
       "type": "threshold",
-      "priority": "warn",
+      "priority": "info",
       "project": "Weatherbot",
-      "current": 37,
-      "target": 35,
-      "unit": "taker shadow rows",
-      "met": true
+      "current": 0,
+      "target": 20,
+      "unit": "live canary fills",
+      "met": false
     },
     {
       "id": "underdispersion-check",
@@ -128,7 +128,7 @@
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma shadow: 19202 rows, n=406/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
+      "title": "PP-sigma shadow: 19241 rows, n=406/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor. DECISION 2026-07-14 (DCP): if post-shrink does NOT improve Brier at n=500, DELETE post-peak sigma -- no indefinite shadow.",
       "type": "threshold",
       "priority": "info",
