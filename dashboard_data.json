@@ -1,33 +1,45 @@
 {
-  "generated_at": "2026-07-19T22:00:14.733762+00:00",
+  "generated_at": "2026-07-19T23:00:21.688651+00:00",
   "balance": {
-    "current": 77.86,
-    "cash": 77.86,
+    "current": 78.35,
+    "cash": 78.35,
     "deployed": 0,
     "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 27.86,
-    "pnl_pct": 55.7
+    "pnl_usd": 28.35,
+    "pnl_pct": 56.7
   },
   "trades": {
-    "total": 435,
-    "wins": 258,
+    "total": 436,
+    "wins": 259,
     "losses": 173,
-    "total_pnl": 2.92
+    "total_pnl": 3.41
   },
   "brier": {
-    "score": 0.2067,
-    "n": 407,
-    "bss": -0.131,
-    "win_rate": 0.631,
-    "ci_lo": 0.1739,
-    "ci_hi": 0.2395,
-    "base": 0.241,
+    "score": 0.2062,
+    "n": 408,
+    "bss": -0.122,
+    "win_rate": 0.632,
+    "ci_lo": 0.1735,
+    "ci_hi": 0.2389,
+    "base": 0.243,
     "status": "amber"
   },
   "open_positions": [],
   "recent_resolved": [
+    {
+      "ts": "2026-07-19T22:29:37.210372+00:00",
+      "city": "Austin",
+      "date": "2026-07-19",
+      "side": "YES",
+      "bucket": "94.0-95.0F",
+      "entry": 0.86,
+      "correct": true,
+      "pnl": 0.49,
+      "closed_by": "resolved",
+      "lead_h": -10.0
+    },
     {
       "ts": "2026-07-19T21:32:41.322208+00:00",
       "city": "Nyc",
@@ -375,18 +387,6 @@
       "pnl": -0.41,
       "closed_by": "price_conditional",
       "lead_h": 24.0
-    },
-    {
-      "ts": "2026-07-07T16:55:49.279675+00:00",
-      "city": "Shanghai",
-      "date": "2026-07-07",
-      "side": "NO",
-      "bucket": "35.0-35.0C",
-      "entry": 0.72,
-      "correct": true,
-      "pnl": 0.39,
-      "closed_by": "convergence_tp",
-      "lead_h": 50.0
     }
   ],
   "city_stats": {
@@ -481,9 +481,9 @@
       "total_pnl": -0.76
     },
     "austin": {
-      "n": 3,
-      "win_rate": 0.333,
-      "total_pnl": -1.67
+      "n": 4,
+      "win_rate": 0.5,
+      "total_pnl": -1.18
     },
     "amsterdam": {
       "n": 16,
