@@ -1,33 +1,45 @@
 {
-  "generated_at": "2026-07-19T21:00:10.354099+00:00",
+  "generated_at": "2026-07-19T22:00:14.733762+00:00",
   "balance": {
-    "current": 77.58,
-    "cash": 77.58,
+    "current": 77.86,
+    "cash": 77.86,
     "deployed": 0,
     "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 27.58,
-    "pnl_pct": 55.2
+    "pnl_usd": 27.86,
+    "pnl_pct": 55.7
   },
   "trades": {
-    "total": 434,
-    "wins": 257,
+    "total": 435,
+    "wins": 258,
     "losses": 173,
-    "total_pnl": 2.64
+    "total_pnl": 2.92
   },
   "brier": {
-    "score": 0.2072,
-    "n": 406,
-    "bss": -0.139,
+    "score": 0.2067,
+    "n": 407,
+    "bss": -0.131,
     "win_rate": 0.631,
-    "ci_lo": 0.1743,
-    "ci_hi": 0.24,
-    "base": 0.239,
+    "ci_lo": 0.1739,
+    "ci_hi": 0.2395,
+    "base": 0.241,
     "status": "amber"
   },
   "open_positions": [],
   "recent_resolved": [
+    {
+      "ts": "2026-07-19T21:32:41.322208+00:00",
+      "city": "Nyc",
+      "date": "2026-07-19",
+      "side": "YES",
+      "bucket": "80.0-81.0C",
+      "entry": 0.89,
+      "correct": true,
+      "pnl": 0.28,
+      "closed_by": "resolved",
+      "lead_h": -9.0
+    },
     {
       "ts": "2026-07-18T22:30:36.452860+00:00",
       "city": "Denver",
@@ -375,18 +387,6 @@
       "pnl": 0.39,
       "closed_by": "convergence_tp",
       "lead_h": 50.0
-    },
-    {
-      "ts": "2026-07-06T16:55:33.505326+00:00",
-      "city": "Chongqing",
-      "date": "2026-07-06",
-      "side": "NO",
-      "bucket": "37.0-37.0C",
-      "entry": 0.69,
-      "correct": false,
-      "pnl": -1.64,
-      "closed_by": "resolved",
-      "lead_h": 21.0
     }
   ],
   "city_stats": {
@@ -550,15 +550,15 @@
       "win_rate": 0.462,
       "total_pnl": -5.04
     },
+    "nyc": {
+      "n": 7,
+      "win_rate": 0.571,
+      "total_pnl": -5.85
+    },
     "london": {
       "n": 15,
       "win_rate": 0.4,
       "total_pnl": -6.05
-    },
-    "nyc": {
-      "n": 6,
-      "win_rate": 0.5,
-      "total_pnl": -6.13
     },
     "wellington": {
       "n": 6,
