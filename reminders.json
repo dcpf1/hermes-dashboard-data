@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T09:00:21.102986+00:00",
+  "updated_at": "2026-07-20T10:00:18.805543+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -85,7 +85,7 @@
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 182,
+      "current": 183,
       "target": 40,
       "unit": "shadow rows",
       "met": true
@@ -116,7 +116,7 @@
     },
     {
       "id": "nr-shadow-check",
-      "title": "NR LIVE -- 7/10 real orders used (v2 rows: 73)",
+      "title": "NR LIVE -- 7/10 real orders used (v2 rows: 74)",
       "description": "NR v2 went LIVE 2026-07-16 (gate MET: graded n=38 W34/L4, excess +0.070, ret/$1 +4.87). Own budget: nr_live_cap real orders (state.nr_live_placed), separate from the shared live_test_cap (raised 25->35 on 2026-07-17: 10 live orders re-opened for the old Gaussian book as its live re-test). Halted cities keep logging NR shadow but do NOT trade live (nr_live_halted=false). When budget FULL: grade real fills vs shadow (python3 nr_eval.py + resolved.jsonl entry_source=nr_metar; check fill slippage vs logged ask -- backtest says edge dies past ~5c). If live matches shadow: raise nr_live_cap; consider nr_live_halted=true (halted-city harvest was the original thesis). RESTART required for config changes.",
       "type": "threshold",
       "priority": "info",
@@ -128,7 +128,7 @@
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma shadow: 20187 rows, n=408/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
+      "title": "PP-sigma shadow: 20218 rows, n=408/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor. DECISION 2026-07-14 (DCP): if post-shrink does NOT improve Brier at n=500, DELETE post-peak sigma -- no indefinite shadow.",
       "type": "threshold",
       "priority": "info",
@@ -164,12 +164,12 @@
     },
     {
       "id": "regime-shadow-check",
-      "title": "Regime-sizing shadow accumulating -- 31/40 rows",
+      "title": "Regime-sizing shadow accumulating -- 32/40 rows",
       "description": "Plan 005 regime-aware sizing (data/regime_shadow.jsonl). At >=40 rows: join to resolved.jsonl on market_id+side+bucket_low+bucket_high; split entries by regime_ratio into rich (ratio>1) vs poor (ratio<1); compare realized Brier + PnL. Flip regime_apply_mode: live (config.json; module-const -> RESTART) ONLY if mult_would points the right way: up-sizes the OUTPERFORMING regime AND down-sizes the underperformer. If ratio does not separate outcomes, switch numerator to scan_richness/ewma_slow (absolute-vs-baseline) or retire.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 31,
+      "current": 32,
       "target": 40,
       "unit": "regime shadow rows",
       "met": false
