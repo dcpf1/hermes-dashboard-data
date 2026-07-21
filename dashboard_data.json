@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-21T15:00:11.150399+00:00",
+  "generated_at": "2026-07-21T16:00:09.449499+00:00",
   "balance": {
-    "current": 74.19,
-    "cash": 64.32,
-    "deployed": 9.81,
-    "unrealized": 0.06,
+    "current": 74.03,
+    "cash": 66.72,
+    "deployed": 7.56,
+    "unrealized": -0.25,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 24.19,
-    "pnl_pct": 48.4
+    "pnl_usd": 24.03,
+    "pnl_pct": 48.1
   },
   "trades": {
     "total": 447,
@@ -43,7 +43,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-20T10:07:04.541756+00:00",
-      "hours_left": 21.0,
+      "hours_left": 20.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.08
@@ -64,7 +64,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-20T10:05:14.240001+00:00",
-      "hours_left": 21.0,
+      "hours_left": 20.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.21
@@ -79,16 +79,16 @@
       "entry_price": 0.71,
       "shares": 2.24,
       "cost": 1.59,
-      "current_p": 0.685,
+      "current_p": 0.675,
       "model_p": 0.9001,
       "ev_pct": 19.0,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-07-21T06:25:38.195242+00:00",
-      "hours_left": 45.0,
+      "hours_left": 44.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.06
+      "unrealized_pnl": -0.08
     },
     {
       "city": "Shenzhen",
@@ -100,40 +100,31 @@
       "entry_price": 0.72,
       "shares": 3.56,
       "cost": 2.56,
-      "current_p": 0.715,
+      "current_p": 0.71,
       "model_p": 0.9614,
       "ev_pct": 24.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-21T10:27:09.785410+00:00",
-      "hours_left": 45.0,
+      "hours_left": 44.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.02
-    },
-    {
-      "city": "Milan",
-      "date": "2026-07-21",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 30.0,
-      "bucket_high": 30.0,
-      "entry_price": 0.87,
-      "shares": 2.59,
-      "cost": 2.25,
-      "current_p": 0.975,
-      "model_p": 0.9628,
-      "ev_pct": 9.3,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-07-21T14:03:53.797594+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.27
+      "unrealized_pnl": -0.04
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-07-21T14:03:53.797594+00:00",
+      "city": "Milan",
+      "date": "2026-07-21",
+      "side": "YES",
+      "bucket": "30.0-30.0C",
+      "entry": 0.87,
+      "correct": true,
+      "pnl": 0.15,
+      "closed_by": "take_profit",
+      "lead_h": 0.0
+    },
     {
       "ts": "2026-07-21T03:00:24.745306+00:00",
       "city": "Shenzhen",
@@ -481,18 +472,6 @@
       "pnl": 0.35,
       "closed_by": "convergence_tp",
       "lead_h": 8.0
-    },
-    {
-      "ts": "2026-07-10T16:55:37.192475+00:00",
-      "city": "Chongqing",
-      "date": "2026-07-10",
-      "side": "NO",
-      "bucket": "40.0-40.0C",
-      "entry": 0.69,
-      "correct": true,
-      "pnl": 0.45,
-      "closed_by": "convergence_tp",
-      "lead_h": 11.0
     }
   ],
   "city_stats": {
