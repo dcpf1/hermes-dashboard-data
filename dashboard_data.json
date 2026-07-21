@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-21T20:00:13.818772+00:00",
+  "generated_at": "2026-07-21T21:00:10.078859+00:00",
   "balance": {
-    "current": 74.0,
+    "current": 74.22,
     "cash": 66.73,
     "deployed": 7.56,
-    "unrealized": -0.29,
+    "unrealized": -0.07,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 24.0,
-    "pnl_pct": 48.0
+    "pnl_usd": 24.22,
+    "pnl_pct": 48.4
   },
   "trades": {
     "total": 448,
@@ -37,16 +37,16 @@
       "entry_price": 0.65,
       "shares": 2.74,
       "cost": 1.78,
-      "current_p": 0.68,
+      "current_p": 0.735,
       "model_p": 0.92,
       "ev_pct": 27.0,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-20T10:07:04.541756+00:00",
-      "hours_left": 16.0,
+      "hours_left": 15.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.08
+      "unrealized_pnl": 0.23
     },
     {
       "city": "Shanghai",
@@ -58,16 +58,16 @@
       "entry_price": 0.74,
       "shares": 2.2,
       "cost": 1.63,
-      "current_p": 0.635,
+      "current_p": 0.675,
       "model_p": 0.9051,
       "ev_pct": 16.5,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-20T10:05:14.240001+00:00",
-      "hours_left": 16.0,
+      "hours_left": 15.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.23
+      "unrealized_pnl": -0.14
     },
     {
       "city": "Shanghai",
@@ -85,7 +85,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-07-21T06:25:38.195242+00:00",
-      "hours_left": 40.0,
+      "hours_left": 39.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.09
@@ -100,16 +100,16 @@
       "entry_price": 0.72,
       "shares": 3.56,
       "cost": 2.56,
-      "current_p": 0.705,
+      "current_p": 0.7,
       "model_p": 0.9614,
       "ev_pct": 24.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-21T10:27:09.785410+00:00",
-      "hours_left": 40.0,
+      "hours_left": 39.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.05
+      "unrealized_pnl": -0.07
     }
   ],
   "recent_resolved": [
