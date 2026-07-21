@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-21T03:00:07.838709+00:00",
+  "generated_at": "2026-07-21T04:00:07.244443+00:00",
   "balance": {
-    "current": 74.07,
-    "cash": 68.9,
-    "deployed": 5.3,
-    "unrealized": -0.13,
+    "current": 74.6,
+    "cash": 67.07,
+    "deployed": 7.13,
+    "unrealized": 0.4,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 24.07,
-    "pnl_pct": 48.1
+    "pnl_usd": 24.6,
+    "pnl_pct": 49.2
   },
   "trades": {
-    "total": 443,
+    "total": 444,
     "wins": 261,
     "losses": 175,
     "total_pnl": -0.74
@@ -43,10 +43,31 @@
       "n_agree": 5,
       "n_avail": 7,
       "opened_at": "2026-07-20T09:58:24.530906+00:00",
-      "hours_left": 9.0,
+      "hours_left": 8.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.21
+    },
+    {
+      "city": "Shenzhen",
+      "date": "2026-07-21",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 32.0,
+      "bucket_high": 32.0,
+      "entry_price": 0.69,
+      "shares": 2.65,
+      "cost": 1.83,
+      "current_p": 0.895,
+      "model_p": 0.9241,
+      "ev_pct": 23.4,
+      "n_agree": 5,
+      "n_avail": 6,
+      "opened_at": "2026-07-21T03:00:24.745306+00:00",
+      "hours_left": 8.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.54
     },
     {
       "city": "Shenzhen",
@@ -64,7 +85,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-20T10:07:04.541756+00:00",
-      "hours_left": 33.0,
+      "hours_left": 32.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.1
@@ -79,16 +100,16 @@
       "entry_price": 0.74,
       "shares": 2.2,
       "cost": 1.63,
-      "current_p": 0.73,
+      "current_p": 0.725,
       "model_p": 0.9051,
       "ev_pct": 16.5,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-20T10:05:14.240001+00:00",
-      "hours_left": 33.0,
+      "hours_left": 32.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.02
+      "unrealized_pnl": -0.03
     }
   ],
   "recent_resolved": [
