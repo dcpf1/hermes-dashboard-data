@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-22T12:00:11.669320+00:00",
+  "generated_at": "2026-07-22T13:00:06.364859+00:00",
   "balance": {
-    "current": 70.95,
-    "cash": 65.65,
-    "deployed": 5.75,
-    "unrealized": -0.45,
+    "current": 70.58,
+    "cash": 63.62,
+    "deployed": 7.78,
+    "unrealized": -0.82,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 20.95,
-    "pnl_pct": 41.9
+    "pnl_usd": 20.58,
+    "pnl_pct": 41.2
   },
   "trades": {
-    "total": 451,
+    "total": 452,
     "wins": 266,
     "losses": 176,
     "total_pnl": -0.29
@@ -37,16 +37,37 @@
       "entry_price": 0.71,
       "shares": 2.24,
       "cost": 1.59,
-      "current_p": 0.605,
+      "current_p": 0.49,
       "model_p": 0.9001,
       "ev_pct": 19.0,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-07-21T06:25:38.195242+00:00",
-      "hours_left": 24.0,
+      "hours_left": 23.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.24
+      "unrealized_pnl": -0.49
+    },
+    {
+      "city": "Sao Paulo",
+      "date": "2026-07-23",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 21.0,
+      "bucket_high": 21.0,
+      "entry_price": 0.67,
+      "shares": 3.03,
+      "cost": 2.03,
+      "current_p": 0.665,
+      "model_p": 0.9386,
+      "ev_pct": 26.9,
+      "n_agree": 4,
+      "n_avail": 6,
+      "opened_at": "2026-07-22T12:00:25.631884+00:00",
+      "hours_left": 23.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.02
     },
     {
       "city": "Shenzhen",
@@ -58,16 +79,16 @@
       "entry_price": 0.72,
       "shares": 3.56,
       "cost": 2.56,
-      "current_p": 0.665,
+      "current_p": 0.635,
       "model_p": 0.9614,
       "ev_pct": 24.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-21T10:27:09.785410+00:00",
-      "hours_left": 24.0,
+      "hours_left": 23.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.2
+      "unrealized_pnl": -0.3
     },
     {
       "city": "Shanghai",
@@ -85,7 +106,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-07-22T08:19:07.571261+00:00",
-      "hours_left": 48.0,
+      "hours_left": 47.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.01
