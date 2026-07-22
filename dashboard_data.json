@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-22T06:00:12.518773+00:00",
+  "generated_at": "2026-07-22T07:00:13.179195+00:00",
   "balance": {
-    "current": 72.18,
-    "cash": 66.65,
-    "deployed": 5.93,
-    "unrealized": -0.4,
+    "current": 71.25,
+    "cash": 67.25,
+    "deployed": 4.15,
+    "unrealized": -0.15,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 22.18,
-    "pnl_pct": 44.4
+    "pnl_usd": 21.25,
+    "pnl_pct": 42.5
   },
   "trades": {
     "total": 450,
@@ -28,27 +28,6 @@
   },
   "open_positions": [
     {
-      "city": "Shenzhen",
-      "date": "2026-07-22",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 33.0,
-      "bucket_high": 33.0,
-      "entry_price": 0.65,
-      "shares": 2.74,
-      "cost": 1.78,
-      "current_p": 0.585,
-      "model_p": 0.92,
-      "ev_pct": 27.0,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-07-20T10:07:04.541756+00:00",
-      "hours_left": 6.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.18
-    },
-    {
       "city": "Shanghai",
       "date": "2026-07-23",
       "unit": "C",
@@ -64,7 +43,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-07-21T06:25:38.195242+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.17
@@ -79,16 +58,16 @@
       "entry_price": 0.72,
       "shares": 3.56,
       "cost": 2.56,
-      "current_p": 0.705,
+      "current_p": 0.725,
       "model_p": 0.9614,
       "ev_pct": 24.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-21T10:27:09.785410+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.05
+      "unrealized_pnl": 0.02
     }
   ],
   "recent_resolved": [
@@ -211,6 +190,18 @@
       "pnl": -3.0,
       "closed_by": "resolved",
       "lead_h": -3.0
+    },
+    {
+      "ts": "2026-07-20T10:07:04.541756+00:00",
+      "city": "Shenzhen",
+      "date": "2026-07-22",
+      "side": "NO",
+      "bucket": "33.0-33.0C",
+      "entry": 0.65,
+      "correct": false,
+      "pnl": -1.18,
+      "closed_by": "take_profit",
+      "lead_h": 49.0
     },
     {
       "ts": "2026-07-20T10:05:14.240001+00:00",
@@ -439,18 +430,6 @@
       "pnl": 0.52,
       "closed_by": "convergence_tp",
       "lead_h": 29.0
-    },
-    {
-      "ts": "2026-07-13T18:05:25.631087+00:00",
-      "city": "Los Angeles",
-      "date": "2026-07-13",
-      "side": "NO",
-      "bucket": "74.0-75.0F",
-      "entry": 0.58,
-      "correct": true,
-      "pnl": 0.72,
-      "closed_by": "resolved",
-      "lead_h": 28.0
     }
   ],
   "city_stats": {
