@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-23T22:00:08.618454+00:00",
+  "generated_at": "2026-07-23T23:00:09.520548+00:00",
   "balance": {
-    "current": 73.81,
-    "cash": 69.08,
-    "deployed": 5.92,
-    "unrealized": -1.19,
+    "current": 73.94,
+    "cash": 66.83,
+    "deployed": 8.17,
+    "unrealized": -1.06,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 23.81,
-    "pnl_pct": 47.6
+    "pnl_usd": 23.94,
+    "pnl_pct": 47.9
   },
   "trades": {
-    "total": 463,
-    "wins": 272,
+    "total": 464,
+    "wins": 273,
     "losses": 179,
-    "total_pnl": 1.23
+    "total_pnl": 1.28
   },
   "brier": {
-    "score": 0.2111,
-    "n": 427,
-    "bss": -0.104,
-    "win_rate": 0.635,
-    "ci_lo": 0.1787,
-    "ci_hi": 0.2435,
-    "base": 0.258,
+    "score": 0.212,
+    "n": 428,
+    "bss": -0.103,
+    "win_rate": 0.636,
+    "ci_lo": 0.1796,
+    "ci_hi": 0.2443,
+    "base": 0.259,
     "status": "amber"
   },
   "open_positions": [
@@ -37,16 +37,16 @@
       "entry_price": 0.66,
       "shares": 2.42,
       "cost": 1.6,
-      "current_p": 0.545,
+      "current_p": 0.475,
       "model_p": 0.9008,
       "ev_pct": 24.1,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-07-22T08:19:07.571261+00:00",
-      "hours_left": 14.0,
+      "hours_left": 13.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.28
+      "unrealized_pnl": -0.45
     },
     {
       "city": "Chongqing",
@@ -58,16 +58,16 @@
       "entry_price": 0.65,
       "shares": 2.45,
       "cost": 1.59,
-      "current_p": 0.445,
+      "current_p": 0.505,
       "model_p": 0.9001,
       "ev_pct": 25.0,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-22T13:41:40.178931+00:00",
-      "hours_left": 14.0,
+      "hours_left": 13.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.5
+      "unrealized_pnl": -0.36
     },
     {
       "city": "Shanghai",
@@ -79,16 +79,16 @@
       "entry_price": 0.75,
       "shares": 1.33,
       "cost": 1.0,
-      "current_p": 0.73,
+      "current_p": 0.735,
       "model_p": 0.9125,
       "ev_pct": 16.2,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-07-23T10:37:59.888544+00:00",
-      "hours_left": 38.0,
+      "hours_left": 37.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.03
+      "unrealized_pnl": -0.02
     },
     {
       "city": "Chongqing",
@@ -100,19 +100,52 @@
       "entry_price": 0.66,
       "shares": 2.62,
       "cost": 1.73,
-      "current_p": 0.515,
+      "current_p": 0.545,
       "model_p": 0.9152,
       "ev_pct": 25.5,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-23T06:59:56.272822+00:00",
-      "hours_left": 38.0,
+      "hours_left": 37.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.38
+      "unrealized_pnl": -0.3
+    },
+    {
+      "city": "Dallas",
+      "date": "2026-07-23",
+      "unit": "F",
+      "side": "YES",
+      "bucket_low": 96.0,
+      "bucket_high": 97.0,
+      "entry_price": 0.9,
+      "shares": 2.5,
+      "cost": 2.25,
+      "current_p": 0.929,
+      "model_p": 0.0897,
+      "ev_pct": -81.0,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-07-23T22:30:25.961654+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.07
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-07-23T22:30:25.961654+00:00",
+      "city": "Madrid",
+      "date": "2026-07-23",
+      "side": "YES",
+      "bucket": "38.0-38.0C",
+      "entry": 0.89,
+      "correct": true,
+      "pnl": 0.05,
+      "closed_by": "convergence_tp",
+      "lead_h": -3.0
+    },
     {
       "ts": "2026-07-23T16:55:50.210301+00:00",
       "city": "Shenzhen",
@@ -146,18 +179,6 @@
       "entry": 0.87,
       "correct": true,
       "pnl": 0.1,
-      "closed_by": "take_profit",
-      "lead_h": 0.0
-    },
-    {
-      "ts": "2026-07-23T15:55:16.694222+00:00",
-      "city": "Madrid",
-      "date": "2026-07-23",
-      "side": "YES",
-      "bucket": "38.0-38.0C",
-      "entry": 0.89,
-      "correct": true,
-      "pnl": 0.05,
       "closed_by": "take_profit",
       "lead_h": 0.0
     },
@@ -501,9 +522,9 @@
       "total_pnl": 5.72
     },
     "madrid": {
-      "n": 10,
-      "win_rate": 0.9,
-      "total_pnl": 5.26
+      "n": 11,
+      "win_rate": 0.909,
+      "total_pnl": 5.31
     },
     "warsaw": {
       "n": 9,
