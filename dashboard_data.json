@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T19:00:09.480937+00:00",
+  "generated_at": "2026-07-24T20:00:08.708295+00:00",
   "balance": {
-    "current": 71.3,
+    "current": 71.74,
     "cash": 65.01,
     "deployed": 6.92,
-    "unrealized": -0.63,
+    "unrealized": -0.19,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 21.3,
-    "pnl_pct": 42.6
+    "pnl_usd": 21.74,
+    "pnl_pct": 43.5
   },
   "trades": {
     "total": 470,
@@ -37,16 +37,16 @@
       "entry_price": 0.75,
       "shares": 1.33,
       "cost": 1.0,
-      "current_p": 0.65,
+      "current_p": 0.675,
       "model_p": 0.9125,
       "ev_pct": 16.2,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-07-23T10:37:59.888544+00:00",
-      "hours_left": 17.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.13
+      "unrealized_pnl": -0.1
     },
     {
       "city": "Chongqing",
@@ -58,16 +58,16 @@
       "entry_price": 0.66,
       "shares": 2.62,
       "cost": 1.73,
-      "current_p": 0.455,
+      "current_p": 0.445,
       "model_p": 0.9152,
       "ev_pct": 25.5,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-23T06:59:56.272822+00:00",
-      "hours_left": 17.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.54
+      "unrealized_pnl": -0.56
     },
     {
       "city": "Chongqing",
@@ -79,16 +79,16 @@
       "entry_price": 0.66,
       "shares": 2.94,
       "cost": 1.94,
-      "current_p": 0.675,
+      "current_p": 0.82,
       "model_p": 0.9325,
       "ev_pct": 27.2,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-24T09:22:53.635165+00:00",
-      "hours_left": 41.0,
+      "hours_left": 40.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.04
+      "unrealized_pnl": 0.47
     },
     {
       "city": "Helsinki",
