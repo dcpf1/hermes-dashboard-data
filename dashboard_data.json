@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-24T00:00:09.473095+00:00",
+  "generated_at": "2026-07-24T01:00:08.166125+00:00",
   "balance": {
-    "current": 73.72,
+    "current": 74.1,
     "cash": 69.31,
     "deployed": 5.92,
-    "unrealized": -1.51,
+    "unrealized": -1.13,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 23.72,
-    "pnl_pct": 47.4
+    "pnl_usd": 24.1,
+    "pnl_pct": 48.2
   },
   "trades": {
     "total": 464,
-    "wins": 273,
+    "wins": 274,
     "losses": 179,
-    "total_pnl": 1.28
+    "total_pnl": 1.38
   },
   "brier": {
-    "score": 0.212,
-    "n": 428,
-    "bss": -0.103,
+    "score": 0.2115,
+    "n": 429,
+    "bss": -0.096,
     "win_rate": 0.636,
-    "ci_lo": 0.1796,
-    "ci_hi": 0.2443,
-    "base": 0.259,
+    "ci_lo": 0.1792,
+    "ci_hi": 0.2438,
+    "base": 0.261,
     "status": "amber"
   },
   "open_positions": [
@@ -37,16 +37,16 @@
       "entry_price": 0.66,
       "shares": 2.42,
       "cost": 1.6,
-      "current_p": 0.465,
+      "current_p": 0.645,
       "model_p": 0.9008,
       "ev_pct": 24.1,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-07-22T08:19:07.571261+00:00",
-      "hours_left": 12.0,
+      "hours_left": 11.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.47
+      "unrealized_pnl": -0.04
     },
     {
       "city": "Chongqing",
@@ -64,7 +64,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-22T13:41:40.178931+00:00",
-      "hours_left": 12.0,
+      "hours_left": 11.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.7
@@ -79,16 +79,16 @@
       "entry_price": 0.75,
       "shares": 1.33,
       "cost": 1.0,
-      "current_p": 0.71,
+      "current_p": 0.745,
       "model_p": 0.9125,
       "ev_pct": 16.2,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-07-23T10:37:59.888544+00:00",
-      "hours_left": 36.0,
+      "hours_left": 35.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.05
+      "unrealized_pnl": -0.01
     },
     {
       "city": "Chongqing",
@@ -100,19 +100,31 @@
       "entry_price": 0.66,
       "shares": 2.62,
       "cost": 1.73,
-      "current_p": 0.55,
+      "current_p": 0.515,
       "model_p": 0.9152,
       "ev_pct": 25.5,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-23T06:59:56.272822+00:00",
-      "hours_left": 36.0,
+      "hours_left": 35.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.29
+      "unrealized_pnl": -0.38
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-07-23T23:55:19.098137+00:00",
+      "city": "London",
+      "date": "2026-07-23",
+      "side": "YES",
+      "bucket": "26.0-26.0C",
+      "entry": 0.87,
+      "correct": true,
+      "pnl": 0.1,
+      "closed_by": "convergence_tp",
+      "lead_h": -4.0
+    },
     {
       "ts": "2026-07-23T22:30:25.961654+00:00",
       "city": "Madrid",
@@ -160,18 +172,6 @@
       "pnl": 0.42,
       "closed_by": "convergence_tp",
       "lead_h": 53.0
-    },
-    {
-      "ts": "2026-07-23T16:03:20.561587+00:00",
-      "city": "London",
-      "date": "2026-07-23",
-      "side": "YES",
-      "bucket": "26.0-26.0C",
-      "entry": 0.87,
-      "correct": true,
-      "pnl": 0.1,
-      "closed_by": "take_profit",
-      "lead_h": 0.0
     },
     {
       "ts": "2026-07-23T15:05:32.451401+00:00",
@@ -641,9 +641,9 @@
       "total_pnl": -5.27
     },
     "london": {
-      "n": 17,
-      "win_rate": 0.412,
-      "total_pnl": -6.01
+      "n": 18,
+      "win_rate": 0.444,
+      "total_pnl": -5.91
     },
     "wellington": {
       "n": 6,
