@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-24T17:00:09.484301+00:00",
+  "generated_at": "2026-07-24T18:00:08.722757+00:00",
   "balance": {
-    "current": 73.25,
+    "current": 71.31,
     "cash": 65.01,
-    "deployed": 8.89,
-    "unrealized": -0.65,
+    "deployed": 6.92,
+    "unrealized": -0.62,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 23.25,
-    "pnl_pct": 46.5
+    "pnl_usd": 21.31,
+    "pnl_pct": 42.6
   },
   "trades": {
     "total": 470,
     "wins": 277,
-    "losses": 180,
-    "total_pnl": 1.69
+    "losses": 181,
+    "total_pnl": -0.28
   },
   "brier": {
-    "score": 0.2156,
-    "n": 433,
-    "bss": -0.105,
-    "win_rate": 0.637,
-    "ci_lo": 0.1832,
-    "ci_hi": 0.2481,
-    "base": 0.266,
+    "score": 0.2171,
+    "n": 434,
+    "bss": -0.109,
+    "win_rate": 0.636,
+    "ci_lo": 0.1846,
+    "ci_hi": 0.2496,
+    "base": 0.267,
     "status": "amber"
   },
   "open_positions": [
@@ -43,7 +43,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-07-23T10:37:59.888544+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.14
@@ -58,16 +58,16 @@
       "entry_price": 0.66,
       "shares": 2.62,
       "cost": 1.73,
-      "current_p": 0.45,
+      "current_p": 0.46,
       "model_p": 0.9152,
       "ev_pct": 25.5,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-23T06:59:56.272822+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.55
+      "unrealized_pnl": -0.52
     },
     {
       "city": "Chongqing",
@@ -85,7 +85,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-24T09:22:53.635165+00:00",
-      "hours_left": 43.0,
+      "hours_left": 42.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.04
@@ -110,30 +110,21 @@
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
-    },
-    {
-      "city": "Shenzhen",
-      "date": "2026-07-24",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 35.0,
-      "bucket_high": 35.0,
-      "entry_price": 0.38,
-      "shares": 5.18,
-      "cost": 1.97,
-      "current_p": 0.38,
-      "model_p": 0.9349,
-      "ev_pct": 55.5,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-07-24T05:49:28.356466+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-07-24T17:46:20.334339+00:00",
+      "city": "Shenzhen",
+      "date": "2026-07-24",
+      "side": "NO",
+      "bucket": "35.0-35.0C",
+      "entry": 0.38,
+      "correct": false,
+      "pnl": -1.97,
+      "closed_by": "resolved",
+      "lead_h": 6.0
+    },
     {
       "ts": "2026-07-24T16:31:05.321995+00:00",
       "city": "Chongqing",
@@ -481,18 +472,6 @@
       "pnl": -3.0,
       "closed_by": "resolved",
       "lead_h": -3.0
-    },
-    {
-      "ts": "2026-07-19T22:29:37.210372+00:00",
-      "city": "Austin",
-      "date": "2026-07-19",
-      "side": "YES",
-      "bucket": "94.0-95.0F",
-      "entry": 0.86,
-      "correct": true,
-      "pnl": 0.49,
-      "closed_by": "resolved",
-      "lead_h": -10.0
     }
   ],
   "city_stats": {
@@ -566,11 +545,6 @@
       "win_rate": 0.625,
       "total_pnl": 0.41
     },
-    "shenzhen": {
-      "n": 15,
-      "win_rate": 0.667,
-      "total_pnl": -0.43
-    },
     "austin": {
       "n": 5,
       "win_rate": 0.6,
@@ -600,6 +574,11 @@
       "n": 9,
       "win_rate": 0.667,
       "total_pnl": -1.99
+    },
+    "shenzhen": {
+      "n": 16,
+      "win_rate": 0.625,
+      "total_pnl": -2.4
     },
     "houston": {
       "n": 6,
@@ -719,8 +698,8 @@
       "n": 0
     },
     "6to24": {
-      "brier": 0.2183,
-      "n": 93
+      "brier": 0.2253,
+      "n": 94
     },
     "24to48": {
       "brier": 0.1985,
