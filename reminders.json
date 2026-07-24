@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T09:00:09.284734+00:00",
+  "updated_at": "2026-07-24T10:00:06.887622+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -97,7 +97,7 @@
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 237,
+      "current": 238,
       "target": 40,
       "unit": "shadow rows",
       "met": true
@@ -140,7 +140,7 @@
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma shadow: 25314 rows, n=432/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
+      "title": "PP-sigma shadow: 25363 rows, n=432/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor. DECISION 2026-07-14 (DCP): if post-shrink does NOT improve Brier at n=500, DELETE post-peak sigma -- no indefinite shadow.",
       "type": "threshold",
       "priority": "info",
@@ -176,12 +176,12 @@
     },
     {
       "id": "regime-shadow-check",
-      "title": "Regime-sizing shadow: 43 rows, VALIDATE now",
+      "title": "Regime-sizing shadow: 44 rows, VALIDATE now",
       "description": "Plan 005 regime-aware sizing (data/regime_shadow.jsonl). At >=40 rows: join to resolved.jsonl on market_id+side+bucket_low+bucket_high; split entries by regime_ratio into rich (ratio>1) vs poor (ratio<1); compare realized Brier + PnL. Flip regime_apply_mode: live (config.json; module-const -> RESTART) ONLY if mult_would points the right way: up-sizes the OUTPERFORMING regime AND down-sizes the underperformer. If ratio does not separate outcomes, switch numerator to scan_richness/ewma_slow (absolute-vs-baseline) or retire.",
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 43,
+      "current": 44,
       "target": 40,
       "unit": "regime shadow rows",
       "met": true
