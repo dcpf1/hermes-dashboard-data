@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-25T18:00:11.118048+00:00",
+  "generated_at": "2026-07-25T19:00:10.471183+00:00",
   "balance": {
-    "current": 73.65,
+    "current": 73.68,
     "cash": 61.71,
     "deployed": 11.49,
-    "unrealized": 0.45,
+    "unrealized": 0.48,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 23.65,
-    "pnl_pct": 47.3
+    "pnl_usd": 23.68,
+    "pnl_pct": 47.4
   },
   "trades": {
     "total": 476,
@@ -37,16 +37,16 @@
       "entry_price": 0.68,
       "shares": 2.4,
       "cost": 1.63,
-      "current_p": 0.68,
+      "current_p": 0.69,
       "model_p": 0.9043,
       "ev_pct": 22.4,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-25T09:26:01.223270+00:00",
-      "hours_left": 18.0,
+      "hours_left": 17.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.0
+      "unrealized_pnl": 0.02
     },
     {
       "city": "Chongqing",
@@ -58,16 +58,16 @@
       "entry_price": 0.66,
       "shares": 2.94,
       "cost": 1.94,
-      "current_p": 0.83,
+      "current_p": 0.815,
       "model_p": 0.9325,
       "ev_pct": 27.2,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-24T09:22:53.635165+00:00",
-      "hours_left": 18.0,
+      "hours_left": 17.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.5
+      "unrealized_pnl": 0.46
     },
     {
       "city": "Chongqing",
@@ -79,16 +79,16 @@
       "entry_price": 0.7,
       "shares": 1.43,
       "cost": 1.0,
-      "current_p": 0.755,
+      "current_p": 0.745,
       "model_p": 0.9307,
       "ev_pct": 23.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-25T04:11:15.115605+00:00",
-      "hours_left": 42.0,
+      "hours_left": 41.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.08
+      "unrealized_pnl": 0.06
     },
     {
       "city": "Moscow",
@@ -100,16 +100,16 @@
       "entry_price": 0.81,
       "shares": 2.94,
       "cost": 2.38,
-      "current_p": 0.74,
+      "current_p": 0.75,
       "model_p": 0.9552,
       "ev_pct": 14.5,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-25T09:46:50.327825+00:00",
-      "hours_left": 42.0,
+      "hours_left": 41.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.21
+      "unrealized_pnl": -0.18
     },
     {
       "city": "Istanbul",
@@ -121,16 +121,16 @@
       "entry_price": 0.68,
       "shares": 3.37,
       "cost": 2.29,
-      "current_p": 0.705,
+      "current_p": 0.715,
       "model_p": 0.9519,
       "ev_pct": 27.2,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-25T09:27:19.074384+00:00",
-      "hours_left": 42.0,
+      "hours_left": 41.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.08
+      "unrealized_pnl": 0.12
     },
     {
       "city": "Helsinki",
