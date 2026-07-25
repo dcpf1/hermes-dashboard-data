@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-25T01:00:07.013641+00:00",
+  "generated_at": "2026-07-25T02:00:06.872568+00:00",
   "balance": {
-    "current": 71.72,
+    "current": 71.69,
     "cash": 65.25,
     "deployed": 6.92,
-    "unrealized": -0.45,
+    "unrealized": -0.48,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 21.72,
+    "pnl_usd": 21.69,
     "pnl_pct": 43.4
   },
   "trades": {
     "total": 471,
-    "wins": 278,
+    "wins": 280,
     "losses": 183,
-    "total_pnl": -1.0
+    "total_pnl": -0.71
   },
   "brier": {
-    "score": 0.2195,
-    "n": 437,
-    "bss": -0.114,
-    "win_rate": 0.634,
-    "ci_lo": 0.1869,
-    "ci_hi": 0.252,
-    "base": 0.27,
+    "score": 0.219,
+    "n": 438,
+    "bss": -0.107,
+    "win_rate": 0.635,
+    "ci_lo": 0.1865,
+    "ci_hi": 0.2515,
+    "base": 0.272,
     "status": "amber"
   },
   "open_positions": [
@@ -37,16 +37,16 @@
       "entry_price": 0.75,
       "shares": 1.33,
       "cost": 1.0,
-      "current_p": 0.53,
+      "current_p": 0.51,
       "model_p": 0.9125,
       "ev_pct": 16.2,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-07-23T10:37:59.888544+00:00",
-      "hours_left": 11.0,
+      "hours_left": 10.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.29
+      "unrealized_pnl": -0.32
     },
     {
       "city": "Chongqing",
@@ -64,7 +64,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-23T06:59:56.272822+00:00",
-      "hours_left": 11.0,
+      "hours_left": 10.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.62
@@ -85,7 +85,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-24T09:22:53.635165+00:00",
-      "hours_left": 35.0,
+      "hours_left": 34.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.46
@@ -113,6 +113,30 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-07-25T00:55:18.996186+00:00",
+      "city": "Amsterdam",
+      "date": "2026-07-24",
+      "side": "YES",
+      "bucket": "24.0-24.0C",
+      "entry": 0.85,
+      "correct": true,
+      "pnl": 0.19,
+      "closed_by": "take_profit",
+      "lead_h": -3.0
+    },
+    {
+      "ts": "2026-07-25T00:55:18.996186+00:00",
+      "city": "Amsterdam",
+      "date": "2026-07-24",
+      "side": "YES",
+      "bucket": "24.0-24.0C",
+      "entry": 0.87,
+      "correct": true,
+      "pnl": 0.1,
+      "closed_by": "convergence_tp",
+      "lead_h": -3.0
+    },
     {
       "ts": "2026-07-24T22:33:33.877509+00:00",
       "city": "Paris",
@@ -184,30 +208,6 @@
       "pnl": -0.91,
       "closed_by": "price_catastrophic",
       "lead_h": 46.0
-    },
-    {
-      "ts": "2026-07-24T15:38:36.572870+00:00",
-      "city": "Amsterdam",
-      "date": "2026-07-24",
-      "side": "YES",
-      "bucket": "24.0-24.0C",
-      "entry": 0.87,
-      "correct": true,
-      "pnl": 0.1,
-      "closed_by": "take_profit",
-      "lead_h": 0.0
-    },
-    {
-      "ts": "2026-07-24T15:05:55.421480+00:00",
-      "city": "Amsterdam",
-      "date": "2026-07-24",
-      "side": "YES",
-      "bucket": "24.0-24.0C",
-      "entry": 0.85,
-      "correct": true,
-      "pnl": 0.19,
-      "closed_by": "take_profit",
-      "lead_h": 0.0
     },
     {
       "ts": "2026-07-24T06:24:00.854574+00:00",
@@ -561,9 +561,9 @@
       "total_pnl": -1.2
     },
     "amsterdam": {
-      "n": 16,
-      "win_rate": 0.5,
-      "total_pnl": -1.75
+      "n": 18,
+      "win_rate": 0.556,
+      "total_pnl": -1.46
     },
     "atlanta": {
       "n": 7,
