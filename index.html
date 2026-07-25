@@ -616,6 +616,7 @@ function closedByLabel(raw) {
     'model_invalidation': ['INVALID', 'lbl-invalid'],
     'forecast_changed':   ['DRIFT', 'lbl-invalid'],
     'metar_override':     ['METAR', 'lbl-tp'],
+    'awaiting_settlement':['PENDING', 'lbl-resolved'],  // expired unexited, Polymarket has not paid out yet
   };
   // closed_by is null for positions graded at expiry without an exit (VC-provisional
   // rows: bot_v2.py loop-2 logs pos["close_reason"] which was never set). Guard it --
