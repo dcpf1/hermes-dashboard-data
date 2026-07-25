@@ -614,7 +614,11 @@ function closedByLabel(raw) {
     'forecast_changed':   ['DRIFT', 'lbl-invalid'],
     'metar_override':     ['METAR', 'lbl-tp'],
   };
-  const [txt, cls] = map[raw] || [raw.toUpperCase(), 'lbl-resolved'];
+  // closed_by is null for positions graded at expiry without an exit (VC-provisional
+  // rows: bot_v2.py loop-2 logs pos["close_reason"] which was never set). Guard it --
+  // an unguarded .toUpperCase() here took the whole dashboard down on 2026-07-25.
+  if (!raw) return `<span class="closed-lbl lbl-resolved">&mdash;</span>`;
+  const [txt, cls] = map[raw] || [String(raw).toUpperCase(), 'lbl-resolved'];
   return `<span class="closed-lbl ${cls}">${txt}</span>`;
 }
 
