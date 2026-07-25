@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-25T13:00:10.372976+00:00",
+  "generated_at": "2026-07-25T14:00:11.419216+00:00",
   "balance": {
-    "current": 73.38,
+    "current": 73.19,
     "cash": 61.37,
     "deployed": 11.49,
-    "unrealized": 0.52,
+    "unrealized": 0.33,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 23.38,
-    "pnl_pct": 46.8
+    "pnl_usd": 23.19,
+    "pnl_pct": 46.4
   },
   "trades": {
     "total": 475,
@@ -43,7 +43,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-25T09:26:01.223270+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.05
@@ -58,16 +58,16 @@
       "entry_price": 0.66,
       "shares": 2.94,
       "cost": 1.94,
-      "current_p": 0.84,
+      "current_p": 0.775,
       "model_p": 0.9325,
       "ev_pct": 27.2,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-24T09:22:53.635165+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.53
+      "unrealized_pnl": 0.34
     },
     {
       "city": "Chongqing",
@@ -85,7 +85,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-25T04:11:15.115605+00:00",
-      "hours_left": 47.0,
+      "hours_left": 46.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.08
@@ -106,7 +106,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-25T09:46:50.327825+00:00",
-      "hours_left": 47.0,
+      "hours_left": 46.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.09
@@ -127,7 +127,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-25T09:27:19.074384+00:00",
-      "hours_left": 47.0,
+      "hours_left": 46.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.05
@@ -212,7 +212,7 @@
       "entry": 0.87,
       "correct": false,
       "pnl": 0.0,
-      "closed_by": null,
+      "closed_by": "",
       "lead_h": -2.0
     },
     {
