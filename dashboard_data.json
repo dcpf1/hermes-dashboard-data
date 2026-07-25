@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-25T22:00:08.363186+00:00",
+  "generated_at": "2026-07-25T23:00:13.151304+00:00",
   "balance": {
-    "current": 73.99,
-    "cash": 61.82,
+    "current": 72.51,
+    "cash": 60.61,
     "deployed": 11.49,
-    "unrealized": 0.68,
+    "unrealized": 0.41,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 23.99,
-    "pnl_pct": 48.0
+    "pnl_usd": 22.51,
+    "pnl_pct": 45.0
   },
   "trades": {
-    "total": 477,
-    "wins": 283,
+    "total": 478,
+    "wins": 284,
     "losses": 183,
-    "total_pnl": 0.22
+    "total_pnl": 0.56
   },
   "brier": {
-    "score": 0.2197,
-    "n": 441,
-    "bss": -0.109,
-    "win_rate": 0.637,
-    "ci_lo": 0.1872,
-    "ci_hi": 0.2521,
-    "base": 0.272,
+    "score": 0.2203,
+    "n": 442,
+    "bss": -0.108,
+    "win_rate": 0.638,
+    "ci_lo": 0.1879,
+    "ci_hi": 0.2527,
+    "base": 0.274,
     "status": "amber"
   },
   "open_positions": [
@@ -37,16 +37,16 @@
       "entry_price": 0.68,
       "shares": 2.4,
       "cost": 1.63,
-      "current_p": 0.83,
+      "current_p": 0.715,
       "model_p": 0.9043,
       "ev_pct": 22.4,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-25T09:26:01.223270+00:00",
-      "hours_left": 14.0,
+      "hours_left": 13.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.36
+      "unrealized_pnl": 0.08
     },
     {
       "city": "Chongqing",
@@ -64,7 +64,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-24T09:22:53.635165+00:00",
-      "hours_left": 14.0,
+      "hours_left": 13.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.4
@@ -79,16 +79,16 @@
       "entry_price": 0.7,
       "shares": 1.43,
       "cost": 1.0,
-      "current_p": 0.715,
+      "current_p": 0.72,
       "model_p": 0.9307,
       "ev_pct": 23.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-25T04:11:15.115605+00:00",
-      "hours_left": 38.0,
+      "hours_left": 37.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.02
+      "unrealized_pnl": 0.03
     },
     {
       "city": "Moscow",
@@ -106,7 +106,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-25T09:46:50.327825+00:00",
-      "hours_left": 38.0,
+      "hours_left": 37.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.18
@@ -127,7 +127,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-25T09:27:19.074384+00:00",
-      "hours_left": 38.0,
+      "hours_left": 37.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.08
@@ -155,6 +155,30 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-07-25T22:29:28.983143+00:00",
+      "city": "Warsaw",
+      "date": "2026-07-25",
+      "side": "YES",
+      "bucket": "24.0-24.0C",
+      "entry": 0.8,
+      "correct": true,
+      "pnl": 0.34,
+      "closed_by": "take_profit",
+      "lead_h": -3.0
+    },
+    {
+      "ts": "2026-07-25T22:05:45.080570+00:00",
+      "city": "Austin",
+      "date": "2026-07-25",
+      "side": "YES",
+      "bucket": "94.0-95.0F",
+      "entry": 0.84,
+      "correct": false,
+      "pnl": -1.21,
+      "closed_by": "resolved",
+      "lead_h": 0.0
+    },
     {
       "ts": "2026-07-25T21:31:49.875676+00:00",
       "city": "Nyc",
@@ -190,18 +214,6 @@
       "pnl": 0.55,
       "closed_by": "convergence_tp",
       "lead_h": 53.0
-    },
-    {
-      "ts": "2026-07-25T15:05:09.378866+00:00",
-      "city": "Warsaw",
-      "date": "2026-07-25",
-      "side": "YES",
-      "bucket": "24.0-24.0C",
-      "entry": 0.8,
-      "correct": true,
-      "pnl": 0.34,
-      "closed_by": "take_profit",
-      "lead_h": 0.0
     },
     {
       "ts": "2026-07-25T06:23:50.238599+00:00",
@@ -502,18 +514,6 @@
       "pnl": 0.01,
       "closed_by": "forecast_changed",
       "lead_h": -4.0
-    },
-    {
-      "ts": "2026-07-21T18:05:55.815234+00:00",
-      "city": "Seattle",
-      "date": "2026-07-21",
-      "side": "NO",
-      "bucket": "92.0-93.0F",
-      "entry": 0.76,
-      "correct": true,
-      "pnl": -0.52,
-      "closed_by": "price_conditional",
-      "lead_h": 26.0
     }
   ],
   "city_stats": {
@@ -548,9 +548,9 @@
       "total_pnl": 5.31
     },
     "warsaw": {
-      "n": 9,
-      "win_rate": 0.778,
-      "total_pnl": 4.33
+      "n": 10,
+      "win_rate": 0.8,
+      "total_pnl": 4.67
     },
     "moscow": {
       "n": 15,
