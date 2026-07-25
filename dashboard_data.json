@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T23:00:08.474749+00:00",
+  "generated_at": "2026-07-25T00:00:09.034163+00:00",
   "balance": {
-    "current": 71.76,
-    "cash": 62.76,
-    "deployed": 9.17,
-    "unrealized": -0.17,
+    "current": 71.84,
+    "cash": 65.25,
+    "deployed": 6.92,
+    "unrealized": -0.33,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 21.76,
-    "pnl_pct": 43.5
+    "pnl_usd": 21.84,
+    "pnl_pct": 43.7
   },
   "trades": {
     "total": 471,
@@ -37,16 +37,16 @@
       "entry_price": 0.75,
       "shares": 1.33,
       "cost": 1.0,
-      "current_p": 0.59,
+      "current_p": 0.565,
       "model_p": 0.9125,
       "ev_pct": 16.2,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-07-23T10:37:59.888544+00:00",
-      "hours_left": 13.0,
+      "hours_left": 12.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.21
+      "unrealized_pnl": -0.25
     },
     {
       "city": "Chongqing",
@@ -64,7 +64,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-23T06:59:56.272822+00:00",
-      "hours_left": 13.0,
+      "hours_left": 12.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.54
@@ -85,7 +85,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-24T09:22:53.635165+00:00",
-      "hours_left": 37.0,
+      "hours_left": 36.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.46
@@ -110,27 +110,6 @@
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
-    },
-    {
-      "city": "Dallas",
-      "date": "2026-07-24",
-      "unit": "F",
-      "side": "YES",
-      "bucket_low": 94.0,
-      "bucket_high": 95.0,
-      "entry_price": 0.87,
-      "shares": 2.59,
-      "cost": 2.25,
-      "current_p": 0.915,
-      "model_p": 0.0278,
-      "ev_pct": -84.2,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-07-24T22:05:06.506765+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.12
     }
   ],
   "recent_resolved": [
@@ -145,6 +124,18 @@
       "pnl": 0.27,
       "closed_by": "take_profit",
       "lead_h": -3.0
+    },
+    {
+      "ts": "2026-07-24T22:05:06.506765+00:00",
+      "city": "Dallas",
+      "date": "2026-07-24",
+      "side": "YES",
+      "bucket": "94.0-95.0F",
+      "entry": 0.87,
+      "correct": true,
+      "pnl": 0.23,
+      "closed_by": "take_profit",
+      "lead_h": 0.0
     },
     {
       "ts": "2026-07-24T21:05:27.140378+00:00",
@@ -481,18 +472,6 @@
       "pnl": 0.43,
       "closed_by": "resolved",
       "lead_h": -10.0
-    },
-    {
-      "ts": "2026-07-20T21:06:00.924371+00:00",
-      "city": "Nyc",
-      "date": "2026-07-20",
-      "side": "YES",
-      "bucket": "80.0-81.0C",
-      "entry": 0.77,
-      "correct": true,
-      "pnl": 0.67,
-      "closed_by": "resolved",
-      "lead_h": -9.0
     }
   ],
   "city_stats": {
