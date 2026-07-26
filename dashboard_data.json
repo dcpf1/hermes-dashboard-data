@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-26T02:00:10.557587+00:00",
+  "generated_at": "2026-07-26T03:00:11.067366+00:00",
   "balance": {
-    "current": 72.83,
+    "current": 72.77,
     "cash": 62.67,
     "deployed": 9.86,
-    "unrealized": 0.3,
+    "unrealized": 0.24,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 22.83,
-    "pnl_pct": 45.7
+    "pnl_usd": 22.77,
+    "pnl_pct": 45.5
   },
   "trades": {
     "total": 478,
@@ -37,16 +37,16 @@
       "entry_price": 0.66,
       "shares": 2.94,
       "cost": 1.94,
-      "current_p": 0.785,
+      "current_p": 0.765,
       "model_p": 0.9325,
       "ev_pct": 27.2,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-24T09:22:53.635165+00:00",
-      "hours_left": 10.0,
+      "hours_left": 9.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.37
+      "unrealized_pnl": 0.31
     },
     {
       "city": "Chongqing",
@@ -58,16 +58,16 @@
       "entry_price": 0.7,
       "shares": 1.43,
       "cost": 1.0,
-      "current_p": 0.695,
+      "current_p": 0.64,
       "model_p": 0.9307,
       "ev_pct": 23.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-25T04:11:15.115605+00:00",
-      "hours_left": 34.0,
+      "hours_left": 33.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.01
+      "unrealized_pnl": -0.09
     },
     {
       "city": "Moscow",
@@ -79,16 +79,16 @@
       "entry_price": 0.81,
       "shares": 2.94,
       "cost": 2.38,
-      "current_p": 0.765,
+      "current_p": 0.8,
       "model_p": 0.9552,
       "ev_pct": 14.5,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-25T09:46:50.327825+00:00",
-      "hours_left": 34.0,
+      "hours_left": 33.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.13
+      "unrealized_pnl": -0.03
     },
     {
       "city": "Istanbul",
@@ -100,16 +100,16 @@
       "entry_price": 0.68,
       "shares": 3.37,
       "cost": 2.29,
-      "current_p": 0.7,
+      "current_p": 0.695,
       "model_p": 0.9519,
       "ev_pct": 27.2,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-07-25T09:27:19.074384+00:00",
-      "hours_left": 34.0,
+      "hours_left": 33.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.07
+      "unrealized_pnl": 0.05
     },
     {
       "city": "Helsinki",
