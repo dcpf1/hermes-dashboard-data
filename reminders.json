@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T17:00:13.011419+00:00",
+  "updated_at": "2026-07-31T18:00:13.129608+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -128,19 +128,19 @@
     },
     {
       "id": "nr-shadow-check",
-      "title": "NR LIVE -- 34/60 real orders used (v2 rows: 188)",
+      "title": "NR LIVE -- 35/60 real orders used (v2 rows: 189)",
       "description": "NR v2 went LIVE 2026-07-16 (gate MET: graded n=38 W34/L4, excess +0.070, ret/$1 +4.87). Own budget: nr_live_cap real orders (state.nr_live_placed), separate from the shared live_test_cap (raised 25->35 on 2026-07-17: 10 live orders re-opened for the old Gaussian book as its live re-test). Halted cities keep logging NR shadow but do NOT trade live (nr_live_halted=false). When budget FULL: grade real fills vs shadow (python3 nr_eval.py + resolved.jsonl entry_source=nr_metar; check fill slippage vs logged ask -- backtest says edge dies past ~5c). If live matches shadow: raise nr_live_cap; consider nr_live_halted=true (halted-city harvest was the original thesis). RESTART required for config changes.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 34,
+      "current": 35,
       "target": 60,
       "unit": "NR live orders",
       "met": false
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma shadow: 35821 rows, n=474/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
+      "title": "PP-sigma shadow: 35856 rows, n=474/500 -- holding (Jun28 review FAILED -0.89pp, kept shadow)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor. DECISION 2026-07-14 (DCP): if post-shrink does NOT improve Brier at n=500, DELETE post-peak sigma -- no indefinite shadow.",
       "type": "threshold",
       "priority": "info",
