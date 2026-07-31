@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T04:00:08.866420+00:00",
+  "generated_at": "2026-07-31T05:00:10.276868+00:00",
   "balance": {
     "current": 66.41,
     "cash": 59.66,
@@ -12,17 +12,17 @@
   },
   "trades": {
     "total": 503,
-    "wins": 307,
-    "losses": 189,
+    "wins": 308,
+    "losses": 190,
     "total_pnl": -5.23
   },
   "brier": {
-    "score": 0.2326,
-    "n": 471,
-    "bss": -0.1,
-    "win_rate": 0.648,
-    "ci_lo": 0.2003,
-    "ci_hi": 0.2649,
+    "score": 0.2331,
+    "n": 473,
+    "bss": -0.101,
+    "win_rate": 0.647,
+    "ci_lo": 0.2009,
+    "ci_hi": 0.2654,
     "base": 0.304,
     "status": "amber"
   },
@@ -92,6 +92,30 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-07-31T04:05:08.419385+00:00",
+      "city": "Nyc",
+      "date": "2026-07-30",
+      "side": "YES",
+      "bucket": "74.0-75.0C",
+      "entry": 0.8,
+      "correct": false,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -9.0
+    },
+    {
+      "ts": "2026-07-31T04:05:08.419385+00:00",
+      "city": "Atlanta",
+      "date": "2026-07-30",
+      "side": "YES",
+      "bucket": "88.0-89.0F",
+      "entry": 0.8,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -9.0
+    },
     {
       "ts": "2026-07-30T22:05:20.597133+00:00",
       "city": "Warsaw",
@@ -427,30 +451,6 @@
       "pnl": -1.21,
       "closed_by": "forecast_changed",
       "lead_h": -10.0
-    },
-    {
-      "ts": "2026-07-26T05:55:02.998646+00:00",
-      "city": "Nyc",
-      "date": "2026-07-25",
-      "side": "YES",
-      "bucket": "78.0-79.0C",
-      "entry": 0.89,
-      "correct": true,
-      "pnl": 0.11,
-      "closed_by": "forecast_changed",
-      "lead_h": -9.0
-    },
-    {
-      "ts": "2026-07-25T22:29:28.983143+00:00",
-      "city": "Warsaw",
-      "date": "2026-07-25",
-      "side": "YES",
-      "bucket": "24.0-24.0C",
-      "entry": 0.8,
-      "correct": true,
-      "pnl": 0.34,
-      "closed_by": "take_profit",
-      "lead_h": -3.0
     }
   ],
   "city_stats": {
@@ -550,8 +550,8 @@
       "total_pnl": -1.99
     },
     "atlanta": {
-      "n": 10,
-      "win_rate": 0.8,
+      "n": 11,
+      "win_rate": 0.818,
       "total_pnl": -2.21
     },
     "houston": {
@@ -605,8 +605,8 @@
       "total_pnl": -5.04
     },
     "nyc": {
-      "n": 9,
-      "win_rate": 0.667,
+      "n": 10,
+      "win_rate": 0.6,
       "total_pnl": -5.07
     },
     "milan": {
