@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-31T22:00:12.454422+00:00",
+  "generated_at": "2026-07-31T23:00:10.964071+00:00",
   "balance": {
-    "current": 63.77,
-    "cash": 56.87,
-    "deployed": 6.75,
-    "unrealized": 0.15,
+    "current": 63.49,
+    "cash": 54.62,
+    "deployed": 9.0,
+    "unrealized": -0.13,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 13.77,
-    "pnl_pct": 27.5
+    "pnl_usd": 13.49,
+    "pnl_pct": 27.0
   },
   "trades": {
-    "total": 508,
+    "total": 509,
     "wins": 310,
     "losses": 190,
     "total_pnl": -6.52
@@ -70,6 +70,27 @@
       "unrealized_pnl": 0.0
     },
     {
+      "city": "Dallas",
+      "date": "2026-07-31",
+      "unit": "F",
+      "side": "YES",
+      "bucket_low": 100.0,
+      "bucket_high": 101.0,
+      "entry_price": 0.77,
+      "shares": 2.92,
+      "cost": 2.25,
+      "current_p": 0.725,
+      "model_p": 0.0,
+      "ev_pct": -77.0,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-07-31T22:36:06.174355+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.13
+    },
+    {
       "city": "Buenos Aires",
       "date": "2026-07-31",
       "unit": "C",
@@ -79,7 +100,7 @@
       "entry_price": 0.89,
       "shares": 2.53,
       "cost": 2.25,
-      "current_p": 0.95,
+      "current_p": 0.89,
       "model_p": 0.97,
       "ev_pct": 8.0,
       "n_agree": 1,
@@ -88,7 +109,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.15
+      "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
