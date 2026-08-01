@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-01T12:00:07.104237+00:00",
+  "generated_at": "2026-08-01T13:00:06.532439+00:00",
   "balance": {
-    "current": 60.33,
-    "cash": 55.48,
-    "deployed": 4.85,
+    "current": 60.58,
+    "cash": 57.98,
+    "deployed": 2.6,
     "unrealized": 0.0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 10.33,
-    "pnl_pct": 20.7
+    "pnl_usd": 10.58,
+    "pnl_pct": 21.2
   },
   "trades": {
     "total": 511,
@@ -43,27 +43,6 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-08-01T03:01:30.608760+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    },
-    {
-      "city": "New York City",
-      "date": "2026-07-31",
-      "unit": "F",
-      "side": "YES",
-      "bucket_low": 84.0,
-      "bucket_high": 85.0,
-      "entry_price": 0.9,
-      "shares": 2.5,
-      "cost": 2.25,
-      "current_p": 0.9,
-      "model_p": 0.9234,
-      "ev_pct": 2.3,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-07-31T21:09:14.305573+00:00",
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
