@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-01T00:00:15.081818+00:00",
+  "generated_at": "2026-08-01T01:00:11.847544+00:00",
   "balance": {
-    "current": 63.62,
-    "cash": 54.62,
-    "deployed": 9.0,
-    "unrealized": 0.0,
+    "current": 63.71,
+    "cash": 52.37,
+    "deployed": 11.25,
+    "unrealized": 0.09,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 13.62,
-    "pnl_pct": 27.2
+    "pnl_usd": 13.71,
+    "pnl_pct": 27.4
   },
   "trades": {
-    "total": 509,
+    "total": 510,
     "wins": 311,
     "losses": 190,
     "total_pnl": -6.52
@@ -47,6 +47,27 @@
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
+    },
+    {
+      "city": "Seattle",
+      "date": "2026-07-31",
+      "unit": "F",
+      "side": "YES",
+      "bucket_low": 82.0,
+      "bucket_high": 83.0,
+      "entry_price": 0.83,
+      "shares": 2.71,
+      "cost": 2.25,
+      "current_p": 0.865,
+      "model_p": 0.065,
+      "ev_pct": -76.5,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-08-01T00:49:43.512687+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.09
     },
     {
       "city": "London",
