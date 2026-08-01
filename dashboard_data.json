@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-01T14:00:07.838519+00:00",
+  "generated_at": "2026-08-01T15:00:09.493067+00:00",
   "balance": {
-    "current": 60.58,
-    "cash": 57.98,
-    "deployed": 2.6,
-    "unrealized": 0.0,
+    "current": 60.54,
+    "cash": 56.48,
+    "deployed": 4.1,
+    "unrealized": -0.04,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 10.58,
-    "pnl_pct": 21.2
+    "pnl_usd": 10.54,
+    "pnl_pct": 21.1
   },
   "trades": {
-    "total": 511,
+    "total": 512,
     "wins": 314,
     "losses": 192,
     "total_pnl": -6.67
@@ -27,6 +27,27 @@
     "status": "amber"
   },
   "open_positions": [
+    {
+      "city": "Moscow",
+      "date": "2026-08-01",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 27.0,
+      "bucket_high": 27.0,
+      "entry_price": 0.88,
+      "shares": 1.7,
+      "cost": 1.5,
+      "current_p": 0.855,
+      "model_p": 0.97,
+      "ev_pct": 9.0,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-08-01T14:29:11.352258+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.04
+    },
     {
       "city": "Shenzhen",
       "date": "2026-08-01",
