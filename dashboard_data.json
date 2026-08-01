@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-01T06:00:11.166475+00:00",
+  "generated_at": "2026-08-01T07:00:09.367212+00:00",
   "balance": {
-    "current": 60.0,
+    "current": 57.44,
     "cash": 52.77,
-    "deployed": 9.35,
-    "unrealized": -2.12,
+    "deployed": 7.1,
+    "unrealized": -2.43,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 10.0,
-    "pnl_pct": 20.0
+    "pnl_usd": 7.44,
+    "pnl_pct": 14.9
   },
   "trades": {
     "total": 511,
@@ -37,16 +37,16 @@
       "entry_price": 0.52,
       "shares": 5.0,
       "cost": 2.6,
-      "current_p": 0.0955,
+      "current_p": 0.0335,
       "model_p": 0.9244,
       "ev_pct": 40.4,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-08-01T03:01:30.608760+00:00",
-      "hours_left": 6.0,
+      "hours_left": 5.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -2.12
+      "unrealized_pnl": -2.43
     },
     {
       "city": "New York City",
@@ -85,27 +85,6 @@
       "n_agree": 1,
       "n_avail": 1,
       "opened_at": "2026-08-01T00:49:43.512687+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    },
-    {
-      "city": "Dallas",
-      "date": "2026-07-31",
-      "unit": "F",
-      "side": "YES",
-      "bucket_low": 100.0,
-      "bucket_high": 101.0,
-      "entry_price": 0.77,
-      "shares": 2.92,
-      "cost": 2.25,
-      "current_p": 0.77,
-      "model_p": 0.0,
-      "ev_pct": -77.0,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-07-31T22:36:06.174355+00:00",
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
