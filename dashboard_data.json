@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-31T23:00:10.964071+00:00",
+  "generated_at": "2026-08-01T00:00:15.081818+00:00",
   "balance": {
-    "current": 63.49,
+    "current": 63.62,
     "cash": 54.62,
     "deployed": 9.0,
-    "unrealized": -0.13,
+    "unrealized": 0.0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 13.49,
-    "pnl_pct": 27.0
+    "pnl_usd": 13.62,
+    "pnl_pct": 27.2
   },
   "trades": {
     "total": 509,
-    "wins": 310,
+    "wins": 311,
     "losses": 190,
     "total_pnl": -6.52
   },
   "brier": {
-    "score": 0.2338,
-    "n": 475,
-    "bss": -0.098,
-    "win_rate": 0.648,
-    "ci_lo": 0.2016,
-    "ci_hi": 0.266,
-    "base": 0.307,
+    "score": 0.2333,
+    "n": 476,
+    "bss": -0.093,
+    "win_rate": 0.649,
+    "ci_lo": 0.2012,
+    "ci_hi": 0.2654,
+    "base": 0.309,
     "status": "amber"
   },
   "open_positions": [
@@ -79,7 +79,7 @@
       "entry_price": 0.77,
       "shares": 2.92,
       "cost": 2.25,
-      "current_p": 0.725,
+      "current_p": 0.77,
       "model_p": 0.0,
       "ev_pct": -77.0,
       "n_agree": 1,
@@ -88,7 +88,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.13
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Buenos Aires",
@@ -113,6 +113,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-07-31T23:05:24.733465+00:00",
+      "city": "London",
+      "date": "2026-07-31",
+      "side": "YES",
+      "bucket": "25.0-25.0C",
+      "entry": 0.75,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -5.0
+    },
     {
       "ts": "2026-07-31T21:31:35.709797+00:00",
       "city": "Moscow",
@@ -460,18 +472,6 @@
       "pnl": 0.43,
       "closed_by": "convergence_tp",
       "lead_h": 26.0
-    },
-    {
-      "ts": "2026-07-26T22:05:35.768948+00:00",
-      "city": "Madrid",
-      "date": "2026-07-26",
-      "side": "YES",
-      "bucket": "31.0-31.0C",
-      "entry": 0.83,
-      "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
-      "lead_h": -4.0
     }
   ],
   "city_stats": {
@@ -641,8 +641,8 @@
       "total_pnl": -5.47
     },
     "london": {
-      "n": 19,
-      "win_rate": 0.474,
+      "n": 20,
+      "win_rate": 0.5,
       "total_pnl": -5.91
     },
     "wellington": {
