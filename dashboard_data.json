@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-01T15:00:09.493067+00:00",
+  "generated_at": "2026-08-01T16:00:24.247314+00:00",
   "balance": {
-    "current": 60.54,
+    "current": 60.36,
     "cash": 56.48,
     "deployed": 4.1,
-    "unrealized": -0.04,
+    "unrealized": -0.22,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 10.54,
-    "pnl_pct": 21.1
+    "pnl_usd": 10.36,
+    "pnl_pct": 20.7
   },
   "trades": {
     "total": 512,
@@ -37,7 +37,7 @@
       "entry_price": 0.88,
       "shares": 1.7,
       "cost": 1.5,
-      "current_p": 0.855,
+      "current_p": 0.75,
       "model_p": 0.97,
       "ev_pct": 9.0,
       "n_agree": 1,
@@ -46,7 +46,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.04
+      "unrealized_pnl": -0.22
     },
     {
       "city": "Shenzhen",
