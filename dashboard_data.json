@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-01T17:00:17.933914+00:00",
+  "generated_at": "2026-08-01T18:00:08.364148+00:00",
   "balance": {
     "current": 58.13,
-    "cash": 56.48,
-    "deployed": 1.5,
-    "unrealized": 0.15,
+    "cash": 58.13,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
     "pnl_usd": 8.13,
@@ -26,29 +26,7 @@
     "base": 0.313,
     "status": "amber"
   },
-  "open_positions": [
-    {
-      "city": "Moscow",
-      "date": "2026-08-01",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 27.0,
-      "bucket_high": 27.0,
-      "entry_price": 0.88,
-      "shares": 1.7,
-      "cost": 1.5,
-      "current_p": 0.97,
-      "model_p": 0.97,
-      "ev_pct": 9.0,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-08-01T14:29:11.352258+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.15
-    }
-  ],
+  "open_positions": [],
   "recent_resolved": [
     {
       "ts": "2026-08-01T16:39:25.868524+00:00",
@@ -61,6 +39,18 @@
       "pnl": -2.6,
       "closed_by": "resolved",
       "lead_h": 9.0
+    },
+    {
+      "ts": "2026-08-01T14:29:11.352258+00:00",
+      "city": "Moscow",
+      "date": "2026-08-01",
+      "side": "YES",
+      "bucket": "27.0-27.0C",
+      "entry": 0.88,
+      "correct": true,
+      "pnl": 0.15,
+      "closed_by": "resolved",
+      "lead_h": 0.0
     },
     {
       "ts": "2026-08-01T07:19:09.483869+00:00",
@@ -397,18 +387,6 @@
       "pnl": 0.0,
       "closed_by": "awaiting_settlement",
       "lead_h": 50.0
-    },
-    {
-      "ts": "2026-07-27T16:25:00.352352+00:00",
-      "city": "Chengdu",
-      "date": "2026-07-27",
-      "side": "YES",
-      "bucket": "29.0-29.0C",
-      "entry": 0.85,
-      "correct": false,
-      "pnl": -2.25,
-      "closed_by": "resolved",
-      "lead_h": 2.0
     }
   ],
   "city_stats": {
