@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T21:00:10.391358+00:00",
+  "generated_at": "2026-08-01T22:00:10.333188+00:00",
   "balance": {
     "current": 58.13,
     "cash": 58.13,
@@ -12,22 +12,34 @@
   },
   "trades": {
     "total": 512,
-    "wins": 314,
+    "wins": 315,
     "losses": 193,
-    "total_pnl": -9.27
+    "total_pnl": -9.12
   },
   "brier": {
-    "score": 0.238,
-    "n": 482,
-    "bss": -0.106,
-    "win_rate": 0.647,
-    "ci_lo": 0.2058,
-    "ci_hi": 0.2703,
-    "base": 0.313,
+    "score": 0.2375,
+    "n": 483,
+    "bss": -0.101,
+    "win_rate": 0.648,
+    "ci_lo": 0.2053,
+    "ci_hi": 0.2697,
+    "base": 0.315,
     "status": "amber"
   },
   "open_positions": [],
   "recent_resolved": [
+    {
+      "ts": "2026-08-01T21:21:49.528666+00:00",
+      "city": "Moscow",
+      "date": "2026-08-01",
+      "side": "YES",
+      "bucket": "27.0-27.0C",
+      "entry": 0.88,
+      "correct": true,
+      "pnl": 0.15,
+      "closed_by": "forecast_changed",
+      "lead_h": -2.0
+    },
     {
       "ts": "2026-08-01T16:39:25.868524+00:00",
       "city": "Shenzhen",
@@ -39,18 +51,6 @@
       "pnl": -2.6,
       "closed_by": "resolved",
       "lead_h": 9.0
-    },
-    {
-      "ts": "2026-08-01T14:29:11.352258+00:00",
-      "city": "Moscow",
-      "date": "2026-08-01",
-      "side": "YES",
-      "bucket": "27.0-27.0C",
-      "entry": 0.88,
-      "correct": true,
-      "pnl": 0.15,
-      "closed_by": "resolved",
-      "lead_h": 0.0
     },
     {
       "ts": "2026-08-01T07:19:09.483869+00:00",
@@ -426,9 +426,9 @@
       "total_pnl": 4.67
     },
     "moscow": {
-      "n": 18,
-      "win_rate": 0.833,
-      "total_pnl": 3.03
+      "n": 19,
+      "win_rate": 0.842,
+      "total_pnl": 3.18
     },
     "sao-paulo": {
       "n": 6,
