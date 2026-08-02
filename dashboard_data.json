@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-02T12:00:09.999368+00:00",
+  "generated_at": "2026-08-02T13:00:09.781531+00:00",
   "balance": {
-    "current": 57.42,
-    "cash": 57.1,
-    "deployed": 1.03,
-    "unrealized": -0.71,
+    "current": 57.37,
+    "cash": 57.37,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 7.42,
-    "pnl_pct": 14.8
+    "pnl_usd": 7.37,
+    "pnl_pct": 14.7
   },
   "trades": {
     "total": 513,
@@ -26,30 +26,20 @@
     "base": 0.315,
     "status": "amber"
   },
-  "open_positions": [
+  "open_positions": [],
+  "recent_resolved": [
     {
+      "ts": "2026-08-02T00:18:20.089512+00:00",
       "city": "Madrid",
       "date": "2026-08-02",
-      "unit": "C",
       "side": "YES",
-      "bucket_low": 36.0,
-      "bucket_high": 36.0,
-      "entry_price": 0.32,
-      "shares": 3.22,
-      "cost": 1.03,
-      "current_p": 0.1,
-      "model_p": 0.4452,
-      "ev_pct": 12.5,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-08-02T00:18:20.089512+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.71
-    }
-  ],
-  "recent_resolved": [
+      "bucket": "36.0-36.0C",
+      "entry": 0.32,
+      "correct": false,
+      "pnl": -0.76,
+      "closed_by": "resolved",
+      "lead_h": 11.0
+    },
     {
       "ts": "2026-08-01T21:21:49.528666+00:00",
       "city": "Moscow",
@@ -396,18 +386,6 @@
       "correct": true,
       "pnl": 0.32,
       "closed_by": "take_profit",
-      "lead_h": 50.0
-    },
-    {
-      "ts": "2026-07-27T21:05:34.498609+00:00",
-      "city": "Istanbul",
-      "date": "2026-07-27",
-      "side": "NO",
-      "bucket": "32.0-32.0C",
-      "entry": 0.68,
-      "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
       "lead_h": 50.0
     }
   ],
