@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T17:00:06.899608+00:00",
+  "generated_at": "2026-08-03T18:00:14.949117+00:00",
   "balance": {
     "current": 55.09,
     "cash": 55.09,
@@ -13,23 +13,23 @@
   "trades": {
     "total": 515,
     "wins": 316,
-    "losses": 194,
-    "total_pnl": -9.88
+    "losses": 195,
+    "total_pnl": -12.48
   },
   "brier": {
-    "score": 0.2369,
-    "n": 485,
-    "bss": -0.097,
-    "win_rate": 0.647,
-    "ci_lo": 0.2049,
-    "ci_hi": 0.269,
-    "base": 0.315,
+    "score": 0.2382,
+    "n": 486,
+    "bss": -0.1,
+    "win_rate": 0.646,
+    "ci_lo": 0.2061,
+    "ci_hi": 0.2703,
+    "base": 0.317,
     "status": "amber"
   },
   "open_positions": [],
   "recent_resolved": [
     {
-      "ts": "2026-08-03T05:12:12.508980+00:00",
+      "ts": "2026-08-03T17:05:27.224345+00:00",
       "city": "Shenzhen",
       "date": "2026-08-03",
       "side": "NO",
@@ -37,7 +37,7 @@
       "entry": 0.52,
       "correct": false,
       "pnl": -2.6,
-      "closed_by": "take_profit",
+      "closed_by": "price_catastrophic",
       "lead_h": 6.0
     },
     {
@@ -525,11 +525,6 @@
       "win_rate": 0.333,
       "total_pnl": -3.41
     },
-    "shenzhen": {
-      "n": 17,
-      "win_rate": 0.588,
-      "total_pnl": -5.0
-    },
     "singapore": {
       "n": 13,
       "win_rate": 0.462,
@@ -559,6 +554,11 @@
       "n": 20,
       "win_rate": 0.5,
       "total_pnl": -5.91
+    },
+    "shenzhen": {
+      "n": 18,
+      "win_rate": 0.556,
+      "total_pnl": -7.6
     },
     "wellington": {
       "n": 6,
@@ -613,8 +613,8 @@
       "n": 1
     },
     "6to24": {
-      "brier": 0.2315,
-      "n": 96
+      "brier": 0.2377,
+      "n": 97
     },
     "24to48": {
       "brier": 0.2013,
