@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-03T21:00:08.592550+00:00",
+  "generated_at": "2026-08-03T22:00:09.644456+00:00",
   "balance": {
-    "current": 55.09,
-    "cash": 55.09,
+    "current": 55.23,
+    "cash": 55.23,
     "deployed": 0,
     "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 5.09,
-    "pnl_pct": 10.2
+    "pnl_usd": 5.23,
+    "pnl_pct": 10.5
   },
   "trades": {
-    "total": 515,
+    "total": 516,
     "wins": 316,
     "losses": 195,
     "total_pnl": -12.48
@@ -28,6 +28,18 @@
   },
   "open_positions": [],
   "recent_resolved": [
+    {
+      "ts": "2026-08-03T21:05:39.405367+00:00",
+      "city": "Nyc",
+      "date": "2026-08-03",
+      "side": "YES",
+      "bucket": "84.0-85.0C",
+      "entry": 0.81,
+      "correct": true,
+      "pnl": 0.14,
+      "closed_by": "resolved",
+      "lead_h": 0.0
+    },
     {
       "ts": "2026-08-03T17:05:27.224345+00:00",
       "city": "Shenzhen",
@@ -375,18 +387,6 @@
       "pnl": 0.0,
       "closed_by": "awaiting_settlement",
       "lead_h": -10.0
-    },
-    {
-      "ts": "2026-07-27T23:32:53.682832+00:00",
-      "city": "Milan",
-      "date": "2026-07-27",
-      "side": "YES",
-      "bucket": "33.0-33.0C",
-      "entry": 0.85,
-      "correct": true,
-      "pnl": 0.09,
-      "closed_by": "forecast_changed",
-      "lead_h": -3.0
     }
   ],
   "city_stats": {
