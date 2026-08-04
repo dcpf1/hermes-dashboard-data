@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T08:00:08.993485+00:00",
+  "generated_at": "2026-08-04T09:00:07.861434+00:00",
   "balance": {
     "current": 55.23,
     "cash": 55.23,
@@ -12,24 +12,24 @@
   },
   "trades": {
     "total": 516,
-    "wins": 316,
+    "wins": 317,
     "losses": 195,
-    "total_pnl": -12.48
+    "total_pnl": -12.34
   },
   "brier": {
-    "score": 0.2382,
-    "n": 486,
-    "bss": -0.1,
-    "win_rate": 0.646,
-    "ci_lo": 0.2061,
-    "ci_hi": 0.2703,
-    "base": 0.317,
+    "score": 0.2377,
+    "n": 487,
+    "bss": -0.096,
+    "win_rate": 0.647,
+    "ci_lo": 0.2056,
+    "ci_hi": 0.2698,
+    "base": 0.318,
     "status": "amber"
   },
   "open_positions": [],
   "recent_resolved": [
     {
-      "ts": "2026-08-03T21:05:39.405367+00:00",
+      "ts": "2026-08-04T08:14:32.140493+00:00",
       "city": "Nyc",
       "date": "2026-08-03",
       "side": "YES",
@@ -37,8 +37,8 @@
       "entry": 0.81,
       "correct": true,
       "pnl": 0.14,
-      "closed_by": "resolved",
-      "lead_h": 0.0
+      "closed_by": "forecast_changed",
+      "lead_h": -9.0
     },
     {
       "ts": "2026-08-03T17:05:27.224345+00:00",
@@ -525,6 +525,11 @@
       "win_rate": 0.333,
       "total_pnl": -3.41
     },
+    "nyc": {
+      "n": 12,
+      "win_rate": 0.667,
+      "total_pnl": -4.93
+    },
     "singapore": {
       "n": 13,
       "win_rate": 0.462,
@@ -534,11 +539,6 @@
       "n": 19,
       "win_rate": 0.632,
       "total_pnl": -5.04
-    },
-    "nyc": {
-      "n": 11,
-      "win_rate": 0.636,
-      "total_pnl": -5.07
     },
     "milan": {
       "n": 22,
