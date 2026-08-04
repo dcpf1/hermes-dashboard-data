@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T19:00:08.614827+00:00",
+  "generated_at": "2026-08-04T20:00:08.144307+00:00",
   "balance": {
     "current": 55.23,
     "cash": 48.48,
@@ -12,18 +12,18 @@
   },
   "trades": {
     "total": 520,
-    "wins": 317,
+    "wins": 318,
     "losses": 195,
     "total_pnl": -12.34
   },
   "brier": {
-    "score": 0.2377,
-    "n": 487,
-    "bss": -0.096,
-    "win_rate": 0.647,
-    "ci_lo": 0.2056,
-    "ci_hi": 0.2698,
-    "base": 0.318,
+    "score": 0.2393,
+    "n": 488,
+    "bss": -0.1,
+    "win_rate": 0.648,
+    "ci_lo": 0.2071,
+    "ci_hi": 0.2714,
+    "base": 0.32,
     "status": "amber"
   },
   "open_positions": [
@@ -93,15 +93,15 @@
   ],
   "recent_resolved": [
     {
-      "ts": "2026-08-04T11:36:36.581094+00:00",
+      "ts": "2026-08-04T18:55:16.657693+00:00",
       "city": "Lucknow",
       "date": "2026-08-04",
       "side": "YES",
       "bucket": "29.0-29.0C",
       "entry": 0.87,
-      "correct": false,
+      "correct": true,
       "pnl": 0.0,
-      "closed_by": "resolved",
+      "closed_by": "forecast_changed",
       "lead_h": 0.0
     },
     {
@@ -545,8 +545,8 @@
       "total_pnl": -1.96
     },
     "lucknow": {
-      "n": 9,
-      "win_rate": 0.667,
+      "n": 10,
+      "win_rate": 0.7,
       "total_pnl": -1.99
     },
     "atlanta": {
@@ -673,8 +673,8 @@
   },
   "lead_brier": {
     "lt6": {
-      "brier": 0.0016,
-      "n": 1
+      "brier": 0.5008,
+      "n": 2
     },
     "6to24": {
       "brier": 0.2377,
