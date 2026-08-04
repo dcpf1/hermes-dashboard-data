@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-04T16:00:07.270884+00:00",
+  "generated_at": "2026-08-04T17:00:07.226921+00:00",
   "balance": {
-    "current": 56.08,
+    "current": 55.64,
     "cash": 48.48,
     "deployed": 6.75,
-    "unrealized": 0.85,
+    "unrealized": 0.41,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 6.08,
-    "pnl_pct": 12.2
+    "pnl_usd": 5.64,
+    "pnl_pct": 11.3
   },
   "trades": {
     "total": 520,
@@ -37,7 +37,7 @@
       "entry_price": 0.86,
       "shares": 2.62,
       "cost": 2.25,
-      "current_p": 0.945,
+      "current_p": 0.86,
       "model_p": 0.97,
       "ev_pct": 11.0,
       "n_agree": 1,
@@ -46,7 +46,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.22
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Madrid",
@@ -79,7 +79,7 @@
       "entry_price": 0.86,
       "shares": 2.62,
       "cost": 2.25,
-      "current_p": 0.945,
+      "current_p": 0.86,
       "model_p": 0.985,
       "ev_pct": 12.5,
       "n_agree": 1,
@@ -88,7 +88,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.22
+      "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
