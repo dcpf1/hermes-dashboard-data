@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-04T12:00:07.380842+00:00",
+  "generated_at": "2026-08-04T13:00:07.311476+00:00",
   "balance": {
-    "current": 55.2,
-    "cash": 52.98,
-    "deployed": 2.25,
-    "unrealized": -0.03,
+    "current": 55.23,
+    "cash": 55.23,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 5.2,
-    "pnl_pct": 10.4
+    "pnl_usd": 5.23,
+    "pnl_pct": 10.5
   },
   "trades": {
     "total": 517,
@@ -26,30 +26,20 @@
     "base": 0.318,
     "status": "amber"
   },
-  "open_positions": [
+  "open_positions": [],
+  "recent_resolved": [
     {
+      "ts": "2026-08-04T11:36:36.581094+00:00",
       "city": "Lucknow",
       "date": "2026-08-04",
-      "unit": "C",
       "side": "YES",
-      "bucket_low": 29.0,
-      "bucket_high": 29.0,
-      "entry_price": 0.87,
-      "shares": 2.59,
-      "cost": 2.25,
-      "current_p": 0.86,
-      "model_p": 0.0,
-      "ev_pct": -87.0,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-08-04T11:36:36.581094+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
+      "bucket": "29.0-29.0C",
+      "entry": 0.87,
+      "correct": false,
       "pnl": 0.0,
-      "unrealized_pnl": -0.03
-    }
-  ],
-  "recent_resolved": [
+      "closed_by": "resolved",
+      "lead_h": 0.0
+    },
     {
       "ts": "2026-08-04T08:14:32.140493+00:00",
       "city": "Nyc",
@@ -397,18 +387,6 @@
       "pnl": 0.18,
       "closed_by": "metar_override",
       "lead_h": -9.0
-    },
-    {
-      "ts": "2026-07-28T05:05:12.169350+00:00",
-      "city": "Austin",
-      "date": "2026-07-27",
-      "side": "YES",
-      "bucket": "96.0-97.0F",
-      "entry": 0.74,
-      "correct": false,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
-      "lead_h": -10.0
     }
   ],
   "city_stats": {
