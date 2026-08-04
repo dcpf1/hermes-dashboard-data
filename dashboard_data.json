@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-04T21:00:08.200332+00:00",
+  "generated_at": "2026-08-04T22:00:08.607805+00:00",
   "balance": {
-    "current": 55.23,
-    "cash": 48.48,
-    "deployed": 6.75,
-    "unrealized": 0.0,
+    "current": 55.76,
+    "cash": 48.92,
+    "deployed": 6.68,
+    "unrealized": 0.16,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 5.23,
-    "pnl_pct": 10.5
+    "pnl_usd": 5.76,
+    "pnl_pct": 11.5
   },
   "trades": {
-    "total": 520,
-    "wins": 318,
+    "total": 521,
+    "wins": 319,
     "losses": 195,
     "total_pnl": -12.34
   },
   "brier": {
-    "score": 0.2393,
-    "n": 488,
-    "bss": -0.1,
+    "score": 0.2388,
+    "n": 489,
+    "bss": -0.095,
     "win_rate": 0.648,
-    "ci_lo": 0.2071,
-    "ci_hi": 0.2714,
-    "base": 0.32,
+    "ci_lo": 0.2067,
+    "ci_hi": 0.2709,
+    "base": 0.321,
     "status": "amber"
   },
   "open_positions": [
@@ -70,28 +70,40 @@
       "unrealized_pnl": 0.0
     },
     {
-      "city": "Helsinki",
+      "city": "Atlanta",
       "date": "2026-08-04",
-      "unit": "C",
+      "unit": "F",
       "side": "YES",
-      "bucket_low": 21.0,
-      "bucket_high": 21.0,
-      "entry_price": 0.86,
-      "shares": 2.62,
-      "cost": 2.25,
-      "current_p": 0.86,
-      "model_p": 0.985,
-      "ev_pct": 12.5,
+      "bucket_low": 84.0,
+      "bucket_high": 85.0,
+      "entry_price": 0.9,
+      "shares": 2.42,
+      "cost": 2.18,
+      "current_p": 0.965,
+      "model_p": 0.9234,
+      "ev_pct": 2.3,
       "n_agree": 1,
       "n_avail": 1,
-      "opened_at": "2026-08-04T14:06:01.067134+00:00",
+      "opened_at": "2026-08-04T21:05:46.767641+00:00",
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.0
+      "unrealized_pnl": 0.16
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-08-04T21:05:46.767641+00:00",
+      "city": "Helsinki",
+      "date": "2026-08-04",
+      "side": "YES",
+      "bucket": "21.0-21.0C",
+      "entry": 0.86,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -2.0
+    },
     {
       "ts": "2026-08-04T18:55:16.657693+00:00",
       "city": "Lucknow",
@@ -439,18 +451,6 @@
       "pnl": -0.59,
       "closed_by": "forecast_changed",
       "lead_h": -10.0
-    },
-    {
-      "ts": "2026-07-28T05:55:11.233601+00:00",
-      "city": "Atlanta",
-      "date": "2026-07-27",
-      "side": "YES",
-      "bucket": "90.0-91.0F",
-      "entry": 0.88,
-      "correct": true,
-      "pnl": 0.18,
-      "closed_by": "metar_override",
-      "lead_h": -9.0
     }
   ],
   "city_stats": {
@@ -515,8 +515,8 @@
       "total_pnl": 1.2
     },
     "helsinki": {
-      "n": 17,
-      "win_rate": 0.706,
+      "n": 18,
+      "win_rate": 0.722,
       "total_pnl": 0.85
     },
     "denver": {
