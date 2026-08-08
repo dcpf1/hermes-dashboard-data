@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-08T14:00:07.286317+00:00",
+  "generated_at": "2026-08-08T15:00:07.739319+00:00",
   "balance": {
-    "current": 57.6,
-    "cash": 57.6,
-    "deployed": 0,
-    "unrealized": 0,
+    "current": 57.85,
+    "cash": 55.35,
+    "deployed": 2.25,
+    "unrealized": 0.25,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 7.6,
-    "pnl_pct": 15.2
+    "pnl_usd": 7.85,
+    "pnl_pct": 15.7
   },
   "trades": {
-    "total": 524,
+    "total": 525,
     "wins": 325,
     "losses": 195,
     "total_pnl": -12.34
@@ -26,7 +26,29 @@
     "base": 0.329,
     "status": "amber"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "city": "Helsinki",
+      "date": "2026-08-08",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 20.0,
+      "bucket_high": 20.0,
+      "entry_price": 0.85,
+      "shares": 2.65,
+      "cost": 2.25,
+      "current_p": 0.945,
+      "model_p": 0.0322,
+      "ev_pct": -81.8,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-08-08T14:05:59.268323+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.25
+    }
+  ],
   "recent_resolved": [
     {
       "ts": "2026-08-08T04:05:34.063215+00:00",
