@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T01:00:10.080215+00:00",
+  "updated_at": "2026-08-11T02:00:09.864067+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -97,7 +97,7 @@
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 390,
+      "current": 396,
       "target": 40,
       "unit": "shadow rows",
       "met": true
