@@ -1,97 +1,57 @@
 {
-  "generated_at": "2026-08-12T22:00:09.883890+00:00",
+  "generated_at": "2026-08-12T23:00:09.376063+00:00",
   "balance": {
-    "current": 59.9,
-    "cash": 50.9,
-    "deployed": 9.0,
-    "unrealized": 0.0,
+    "current": 61.17,
+    "cash": 61.17,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 9.9,
-    "pnl_pct": 19.8
+    "pnl_usd": 11.17,
+    "pnl_pct": 22.3
   },
   "trades": {
     "total": 534,
-    "wins": 333,
+    "wins": 335,
     "losses": 195,
     "total_pnl": -12.08
   },
   "brier": {
-    "score": 0.2414,
-    "n": 503,
-    "bss": -0.076,
-    "win_rate": 0.658,
-    "ci_lo": 0.2095,
-    "ci_hi": 0.2733,
-    "base": 0.34,
+    "score": 0.2404,
+    "n": 505,
+    "bss": -0.068,
+    "win_rate": 0.659,
+    "ci_lo": 0.2086,
+    "ci_hi": 0.2722,
+    "base": 0.343,
     "status": "amber"
   },
-  "open_positions": [
+  "open_positions": [],
+  "recent_resolved": [
     {
-      "city": "Helsinki",
-      "date": "2026-08-12",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 17.0,
-      "bucket_high": 17.0,
-      "entry_price": 0.9,
-      "shares": 3.33,
-      "cost": 3.0,
-      "current_p": 0.9,
-      "model_p": 0.0,
-      "ev_pct": -90.0,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-08-12T14:55:26.958539+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    },
-    {
+      "ts": "2026-08-12T22:05:29.126514+00:00",
       "city": "Paris",
       "date": "2026-08-12",
-      "unit": "C",
       "side": "YES",
-      "bucket_low": 35.0,
-      "bucket_high": 35.0,
-      "entry_price": 0.88,
-      "shares": 3.41,
-      "cost": 3.0,
-      "current_p": 0.88,
-      "model_p": 0.8943,
-      "ev_pct": 1.4,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-08-12T15:05:07.895889+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
+      "bucket": "35.0-35.0C",
+      "entry": 0.88,
+      "correct": true,
       "pnl": 0.0,
-      "unrealized_pnl": 0.0
+      "closed_by": "awaiting_settlement",
+      "lead_h": -3.0
     },
     {
+      "ts": "2026-08-12T22:05:29.126514+00:00",
       "city": "Madrid",
       "date": "2026-08-12",
-      "unit": "C",
       "side": "YES",
-      "bucket_low": 38.0,
-      "bucket_high": 38.0,
-      "entry_price": 0.85,
-      "shares": 3.53,
-      "cost": 3.0,
-      "current_p": 0.85,
-      "model_p": 0.97,
-      "ev_pct": 12.0,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-08-12T15:05:07.895889+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
+      "bucket": "38.0-38.0C",
+      "entry": 0.85,
+      "correct": true,
       "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    }
-  ],
-  "recent_resolved": [
+      "closed_by": "awaiting_settlement",
+      "lead_h": -3.0
+    },
     {
       "ts": "2026-08-12T21:09:23.584332+00:00",
       "city": "Helsinki",
@@ -427,30 +387,6 @@
       "pnl": 0.0,
       "closed_by": "awaiting_settlement",
       "lead_h": -5.0
-    },
-    {
-      "ts": "2026-07-31T21:31:35.709797+00:00",
-      "city": "Moscow",
-      "date": "2026-07-31",
-      "side": "YES",
-      "bucket": "24.0-24.0C",
-      "entry": 0.83,
-      "correct": true,
-      "pnl": -1.29,
-      "closed_by": "bucket_busted",
-      "lead_h": -2.0
-    },
-    {
-      "ts": "2026-07-31T05:05:21.801856+00:00",
-      "city": "Dallas",
-      "date": "2026-07-30",
-      "side": "YES",
-      "bucket": "98.0-99.0F",
-      "entry": 0.87,
-      "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
-      "lead_h": -10.0
     }
   ],
   "city_stats": {
@@ -480,8 +416,8 @@
       "total_pnl": 5.72
     },
     "madrid": {
-      "n": 16,
-      "win_rate": 0.875,
+      "n": 17,
+      "win_rate": 0.882,
       "total_pnl": 4.83
     },
     "warsaw": {
@@ -510,8 +446,8 @@
       "total_pnl": 1.26
     },
     "paris": {
-      "n": 22,
-      "win_rate": 0.682,
+      "n": 23,
+      "win_rate": 0.696,
       "total_pnl": 1.2
     },
     "helsinki": {
