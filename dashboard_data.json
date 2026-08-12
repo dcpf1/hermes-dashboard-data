@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T21:00:09.974002+00:00",
+  "generated_at": "2026-08-12T22:00:09.883890+00:00",
   "balance": {
     "current": 59.9,
     "cash": 50.9,
@@ -12,18 +12,18 @@
   },
   "trades": {
     "total": 534,
-    "wins": 332,
+    "wins": 333,
     "losses": 195,
     "total_pnl": -12.08
   },
   "brier": {
-    "score": 0.2399,
-    "n": 502,
-    "bss": -0.071,
-    "win_rate": 0.657,
-    "ci_lo": 0.208,
-    "ci_hi": 0.2717,
-    "base": 0.339,
+    "score": 0.2414,
+    "n": 503,
+    "bss": -0.076,
+    "win_rate": 0.658,
+    "ci_lo": 0.2095,
+    "ci_hi": 0.2733,
+    "base": 0.34,
     "status": "amber"
   },
   "open_positions": [
@@ -92,6 +92,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-08-12T21:09:23.584332+00:00",
+      "city": "Helsinki",
+      "date": "2026-08-12",
+      "side": "YES",
+      "bucket": "17.0-17.0C",
+      "entry": 0.9,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -2.0
+    },
     {
       "ts": "2026-08-12T05:05:17.931893+00:00",
       "city": "Houston",
@@ -439,18 +451,6 @@
       "pnl": 0.0,
       "closed_by": "awaiting_settlement",
       "lead_h": -10.0
-    },
-    {
-      "ts": "2026-07-31T04:05:08.419385+00:00",
-      "city": "Nyc",
-      "date": "2026-07-30",
-      "side": "YES",
-      "bucket": "74.0-75.0C",
-      "entry": 0.8,
-      "correct": false,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
-      "lead_h": -9.0
     }
   ],
   "city_stats": {
@@ -515,8 +515,8 @@
       "total_pnl": 1.2
     },
     "helsinki": {
-      "n": 19,
-      "win_rate": 0.737,
+      "n": 20,
+      "win_rate": 0.75,
       "total_pnl": 0.85
     },
     "denver": {
