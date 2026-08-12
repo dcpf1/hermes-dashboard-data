@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T14:00:09.944429+00:00",
+  "updated_at": "2026-08-12T15:00:08.513786+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -128,12 +128,12 @@
     },
     {
       "id": "nr-shadow-check",
-      "title": "NR LIVE -- 58/120 real orders used (v2 rows: 248)",
+      "title": "NR LIVE -- 59/120 real orders used (v2 rows: 250)",
       "description": "NR v2 went LIVE 2026-07-16 (gate MET: graded n=38 W34/L4, excess +0.070, ret/$1 +4.87). Own budget: nr_live_cap real orders (state.nr_live_placed), separate from the shared live_test_cap (raised 25->35 on 2026-07-17: 10 live orders re-opened for the old Gaussian book as its live re-test). Halted cities keep logging NR shadow but do NOT trade live (nr_live_halted=false). When budget FULL: grade real fills vs shadow (python3 nr_eval.py + resolved.jsonl entry_source=nr_metar; check fill slippage vs logged ask -- backtest says edge dies past ~5c). If live matches shadow: raise nr_live_cap; consider nr_live_halted=true (halted-city harvest was the original thesis). RESTART required for config changes.",
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 58,
+      "current": 59,
       "target": 120,
       "unit": "NR live orders",
       "met": false
