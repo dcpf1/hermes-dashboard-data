@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-13T22:00:09.864909+00:00",
+  "generated_at": "2026-08-13T23:00:08.901039+00:00",
   "balance": {
-    "current": 60.95,
+    "current": 60.83,
     "cash": 56.52,
     "deployed": 4.65,
-    "unrealized": -0.22,
+    "unrealized": -0.34,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 10.95,
-    "pnl_pct": 21.9
+    "pnl_usd": 10.83,
+    "pnl_pct": 21.7
   },
   "trades": {
     "total": 536,
-    "wins": 335,
+    "wins": 336,
     "losses": 195,
     "total_pnl": -12.08
   },
   "brier": {
-    "score": 0.2404,
-    "n": 505,
-    "bss": -0.068,
-    "win_rate": 0.659,
-    "ci_lo": 0.2086,
-    "ci_hi": 0.2722,
-    "base": 0.343,
+    "score": 0.24,
+    "n": 506,
+    "bss": -0.064,
+    "win_rate": 0.66,
+    "ci_lo": 0.2082,
+    "ci_hi": 0.2717,
+    "base": 0.344,
     "status": "amber"
   },
   "open_positions": [
@@ -37,16 +37,16 @@
       "entry_price": 0.65,
       "shares": 2.54,
       "cost": 1.65,
-      "current_p": 0.565,
+      "current_p": 0.515,
       "model_p": 0.9065,
       "ev_pct": 25.6,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-08-13T15:51:47.165581+00:00",
-      "hours_left": 38.0,
+      "hours_left": 37.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.22
+      "unrealized_pnl": -0.34
     },
     {
       "city": "Milan",
@@ -71,6 +71,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-08-13T22:05:27.422753+00:00",
+      "city": "Milan",
+      "date": "2026-08-13",
+      "side": "YES",
+      "bucket": "35.0-35.0C",
+      "entry": 0.86,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -3.0
+    },
     {
       "ts": "2026-08-12T22:05:29.126514+00:00",
       "city": "Paris",
@@ -418,18 +430,6 @@
       "pnl": 0.0,
       "closed_by": "awaiting_settlement",
       "lead_h": -8.0
-    },
-    {
-      "ts": "2026-07-31T23:05:24.733465+00:00",
-      "city": "London",
-      "date": "2026-07-31",
-      "side": "YES",
-      "bucket": "25.0-25.0C",
-      "entry": 0.75,
-      "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
-      "lead_h": -5.0
     }
   ],
   "city_stats": {
@@ -584,8 +584,8 @@
       "total_pnl": -5.04
     },
     "milan": {
-      "n": 24,
-      "win_rate": 0.75,
+      "n": 25,
+      "win_rate": 0.76,
       "total_pnl": -5.18
     },
     "chongqing": {
