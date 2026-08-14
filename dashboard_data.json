@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-14T04:00:10.226393+00:00",
+  "generated_at": "2026-08-14T05:00:10.499739+00:00",
   "balance": {
-    "current": 62.57,
-    "cash": 59.55,
-    "deployed": 2.32,
-    "unrealized": 0.7,
+    "current": 62.63,
+    "cash": 60.81,
+    "deployed": 1.65,
+    "unrealized": 0.17,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 12.57,
-    "pnl_pct": 25.1
+    "pnl_usd": 12.63,
+    "pnl_pct": 25.3
   },
   "trades": {
     "total": 537,
@@ -43,34 +43,25 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-08-13T15:51:47.165581+00:00",
-      "hours_left": 32.0,
+      "hours_left": 31.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.17
-    },
-    {
-      "city": "Toronto",
-      "date": "2026-08-15",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 23.0,
-      "bucket_high": 23.0,
-      "entry_price": 0.51,
-      "shares": 1.31,
-      "cost": 0.67,
-      "current_p": 0.915,
-      "model_p": 0.9129,
-      "ev_pct": 40.3,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-08-14T01:12:43.155603+00:00",
-      "hours_left": 32.0,
-      "tp_stage": 1,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.53
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-08-14T01:12:43.155603+00:00",
+      "city": "Toronto",
+      "date": "2026-08-15",
+      "side": "NO",
+      "bucket": "23.0-23.0C",
+      "entry": 0.51,
+      "correct": true,
+      "pnl": 0.8,
+      "closed_by": "take_profit",
+      "lead_h": 34.0
+    },
     {
       "ts": "2026-08-13T22:05:27.422753+00:00",
       "city": "Milan",
@@ -418,18 +409,6 @@
       "pnl": 0.0,
       "closed_by": "awaiting_settlement",
       "lead_h": -9.0
-    },
-    {
-      "ts": "2026-08-01T03:05:49.500945+00:00",
-      "city": "Buenos Aires",
-      "date": "2026-07-31",
-      "side": "YES",
-      "bucket": "24.0-24.0C",
-      "entry": 0.89,
-      "correct": false,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
-      "lead_h": -8.0
     }
   ],
   "city_stats": {
