@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-14T11:00:11.919816+00:00",
+  "generated_at": "2026-08-14T12:00:10.551741+00:00",
   "balance": {
-    "current": 62.8,
+    "current": 62.9,
     "cash": 60.81,
     "deployed": 1.65,
-    "unrealized": 0.34,
+    "unrealized": 0.44,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 12.8,
-    "pnl_pct": 25.6
+    "pnl_usd": 12.9,
+    "pnl_pct": 25.8
   },
   "trades": {
     "total": 537,
@@ -37,16 +37,16 @@
       "entry_price": 0.65,
       "shares": 2.54,
       "cost": 1.65,
-      "current_p": 0.785,
+      "current_p": 0.825,
       "model_p": 0.9065,
       "ev_pct": 25.6,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-08-13T15:51:47.165581+00:00",
-      "hours_left": 25.0,
+      "hours_left": 24.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.34
+      "unrealized_pnl": 0.44
     }
   ],
   "recent_resolved": [
