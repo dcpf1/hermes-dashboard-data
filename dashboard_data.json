@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T21:00:09.303993+00:00",
+  "generated_at": "2026-08-14T22:00:10.521234+00:00",
   "balance": {
     "current": 62.64,
     "cash": 54.81,
@@ -12,18 +12,18 @@
   },
   "trades": {
     "total": 539,
-    "wins": 336,
+    "wins": 337,
     "losses": 195,
     "total_pnl": -12.08
   },
   "brier": {
-    "score": 0.24,
-    "n": 506,
-    "bss": -0.064,
-    "win_rate": 0.66,
-    "ci_lo": 0.2082,
-    "ci_hi": 0.2717,
-    "base": 0.344,
+    "score": 0.2395,
+    "n": 507,
+    "bss": -0.06,
+    "win_rate": 0.661,
+    "ci_lo": 0.2078,
+    "ci_hi": 0.2712,
+    "base": 0.345,
     "status": "amber"
   },
   "open_positions": [
@@ -43,7 +43,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-08-13T15:51:47.165581+00:00",
-      "hours_left": 15.0,
+      "hours_left": 14.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.18
@@ -92,6 +92,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-08-14T21:05:36.086451+00:00",
+      "city": "Helsinki",
+      "date": "2026-08-14",
+      "side": "YES",
+      "bucket": "20.0-20.0C",
+      "entry": 0.86,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -2.0
+    },
     {
       "ts": "2026-08-14T01:12:43.155603+00:00",
       "city": "Toronto",
@@ -439,18 +451,6 @@
       "pnl": -0.15,
       "closed_by": "forecast_changed",
       "lead_h": -9.0
-    },
-    {
-      "ts": "2026-08-01T04:05:43.385990+00:00",
-      "city": "Nyc",
-      "date": "2026-07-31",
-      "side": "YES",
-      "bucket": "84.0-85.0C",
-      "entry": 0.9,
-      "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
-      "lead_h": -9.0
     }
   ],
   "city_stats": {
@@ -515,8 +515,8 @@
       "total_pnl": 1.2
     },
     "helsinki": {
-      "n": 20,
-      "win_rate": 0.75,
+      "n": 21,
+      "win_rate": 0.762,
       "total_pnl": 0.85
     },
     "denver": {
