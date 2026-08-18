@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-18T00:00:09.441071+00:00",
+  "generated_at": "2026-08-18T01:00:10.120591+00:00",
   "balance": {
-    "current": 61.5,
-    "cash": 61.5,
-    "deployed": 0,
-    "unrealized": 0,
+    "current": 61.49,
+    "cash": 59.8,
+    "deployed": 1.7,
+    "unrealized": -0.01,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 11.5,
+    "pnl_usd": 11.49,
     "pnl_pct": 23.0
   },
   "trades": {
-    "total": 541,
+    "total": 542,
     "wins": 341,
     "losses": 196,
     "total_pnl": -10.59
@@ -26,7 +26,29 @@
     "base": 0.346,
     "status": "amber"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "city": "Munich",
+      "date": "2026-08-19",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 29.0,
+      "bucket_high": 29.0,
+      "entry_price": 0.57,
+      "shares": 2.98,
+      "cost": 1.7,
+      "current_p": 0.565,
+      "model_p": 0.912,
+      "ev_pct": 34.2,
+      "n_agree": 4,
+      "n_avail": 6,
+      "opened_at": "2026-08-18T00:57:55.629081+00:00",
+      "hours_left": 35.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.01
+    }
+  ],
   "recent_resolved": [
     {
       "ts": "2026-08-17T22:13:31.532672+00:00",
