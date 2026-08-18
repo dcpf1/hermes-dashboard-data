@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-18T21:00:13.844913+00:00",
+  "generated_at": "2026-08-18T22:00:14.807959+00:00",
   "balance": {
-    "current": 61.56,
+    "current": 61.49,
     "cash": 56.8,
     "deployed": 4.7,
-    "unrealized": 0.06,
+    "unrealized": -0.01,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 11.56,
-    "pnl_pct": 23.1
+    "pnl_usd": 11.49,
+    "pnl_pct": 23.0
   },
   "trades": {
     "total": 543,
     "wins": 341,
-    "losses": 196,
+    "losses": 197,
     "total_pnl": -10.59
   },
   "brier": {
-    "score": 0.2384,
-    "n": 512,
-    "bss": -0.054,
-    "win_rate": 0.662,
-    "ci_lo": 0.207,
-    "ci_hi": 0.2698,
-    "base": 0.346,
+    "score": 0.239,
+    "n": 513,
+    "bss": -0.058,
+    "win_rate": 0.661,
+    "ci_lo": 0.2076,
+    "ci_hi": 0.2704,
+    "base": 0.345,
     "status": "amber"
   },
   "open_positions": [
@@ -37,16 +37,16 @@
       "entry_price": 0.57,
       "shares": 2.98,
       "cost": 1.7,
-      "current_p": 0.59,
+      "current_p": 0.565,
       "model_p": 0.912,
       "ev_pct": 34.2,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-08-18T00:57:55.629081+00:00",
-      "hours_left": 15.0,
+      "hours_left": 14.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.06
+      "unrealized_pnl": -0.01
     },
     {
       "city": "Helsinki",
@@ -71,6 +71,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-08-18T21:10:49.059115+00:00",
+      "city": "Helsinki",
+      "date": "2026-08-18",
+      "side": "YES",
+      "bucket": "19.0-19.0C",
+      "entry": 0.84,
+      "correct": false,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -2.0
+    },
     {
       "ts": "2026-08-17T22:13:31.532672+00:00",
       "city": "Milan",
@@ -418,18 +430,6 @@
       "pnl": 0.0,
       "closed_by": "awaiting_settlement",
       "lead_h": -3.0
-    },
-    {
-      "ts": "2026-08-01T21:21:49.528666+00:00",
-      "city": "Moscow",
-      "date": "2026-08-01",
-      "side": "YES",
-      "bucket": "27.0-27.0C",
-      "entry": 0.88,
-      "correct": true,
-      "pnl": 0.15,
-      "closed_by": "forecast_changed",
-      "lead_h": -2.0
     }
   ],
   "city_stats": {
@@ -494,8 +494,8 @@
       "total_pnl": 1.2
     },
     "helsinki": {
-      "n": 21,
-      "win_rate": 0.762,
+      "n": 22,
+      "win_rate": 0.727,
       "total_pnl": 0.85
     },
     "denver": {
