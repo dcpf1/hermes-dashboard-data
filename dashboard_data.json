@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T16:00:26.810528+00:00",
+  "generated_at": "2026-08-19T17:00:15.632771+00:00",
   "balance": {
     "current": 57.9,
     "cash": 57.9,
@@ -14,7 +14,7 @@
     "total": 543,
     "wins": 341,
     "losses": 197,
-    "total_pnl": -10.59
+    "total_pnl": -11.9
   },
   "brier": {
     "score": 0.239,
@@ -36,8 +36,8 @@
       "bucket": "19.0-19.0C",
       "entry": 0.84,
       "correct": false,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": -3.0,
+      "closed_by": "resolved",
       "lead_h": -2.0
     },
     {
@@ -60,8 +60,8 @@
       "bucket": "30.0-30.0C",
       "entry": 0.9,
       "correct": false,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": -3.0,
+      "closed_by": "resolved",
       "lead_h": -3.0
     },
     {
@@ -84,8 +84,8 @@
       "bucket": "24.0-24.0C",
       "entry": 0.9,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.33,
+      "closed_by": "resolved",
       "lead_h": -9.0
     },
     {
@@ -108,8 +108,8 @@
       "bucket": "39.0-39.0C",
       "entry": 0.85,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.53,
+      "closed_by": "resolved",
       "lead_h": -3.0
     },
     {
@@ -120,8 +120,8 @@
       "bucket": "20.0-20.0C",
       "entry": 0.86,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.49,
+      "closed_by": "resolved",
       "lead_h": -2.0
     },
     {
@@ -132,8 +132,8 @@
       "bucket": "35.0-35.0C",
       "entry": 0.86,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.49,
+      "closed_by": "resolved",
       "lead_h": -3.0
     },
     {
@@ -144,8 +144,8 @@
       "bucket": "35.0-35.0C",
       "entry": 0.88,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.41,
+      "closed_by": "resolved",
       "lead_h": -3.0
     },
     {
@@ -156,8 +156,8 @@
       "bucket": "38.0-38.0C",
       "entry": 0.85,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.53,
+      "closed_by": "resolved",
       "lead_h": -3.0
     },
     {
@@ -168,8 +168,8 @@
       "bucket": "17.0-17.0C",
       "entry": 0.9,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.33,
+      "closed_by": "resolved",
       "lead_h": -2.0
     },
     {
@@ -180,8 +180,8 @@
       "bucket": "92.0-93.0C",
       "entry": 0.9,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.33,
+      "closed_by": "resolved",
       "lead_h": -10.0
     },
     {
@@ -192,8 +192,8 @@
       "bucket": "22.0-22.0C",
       "entry": 0.9,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.33,
+      "closed_by": "resolved",
       "lead_h": -3.0
     },
     {
@@ -216,8 +216,8 @@
       "bucket": "90.0-91.0F",
       "entry": 0.87,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.45,
+      "closed_by": "resolved",
       "lead_h": -9.0
     },
     {
@@ -228,8 +228,8 @@
       "bucket": "34.0-34.0C",
       "entry": 0.85,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.53,
+      "closed_by": "resolved",
       "lead_h": -3.0
     },
     {
@@ -252,8 +252,8 @@
       "bucket": "20.0-20.0C",
       "entry": 0.85,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.4,
+      "closed_by": "resolved",
       "lead_h": -2.0
     },
     {
@@ -264,8 +264,8 @@
       "bucket": "86.0-87.0F",
       "entry": 0.87,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.34,
+      "closed_by": "resolved",
       "lead_h": -9.0
     },
     {
@@ -276,8 +276,8 @@
       "bucket": "86.0-87.0F",
       "entry": 0.88,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.31,
+      "closed_by": "resolved",
       "lead_h": -12.0
     },
     {
@@ -288,8 +288,8 @@
       "bucket": "96.0-97.0F",
       "entry": 0.9,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.25,
+      "closed_by": "resolved",
       "lead_h": -11.0
     },
     {
@@ -300,8 +300,8 @@
       "bucket": "84.0-85.0F",
       "entry": 0.9,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.24,
+      "closed_by": "resolved",
       "lead_h": -9.0
     },
     {
@@ -312,8 +312,8 @@
       "bucket": "36.0-36.0C",
       "entry": 0.86,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.37,
+      "closed_by": "resolved",
       "lead_h": -3.0
     },
     {
@@ -324,8 +324,8 @@
       "bucket": "34.0-34.0C",
       "entry": 0.82,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.49,
+      "closed_by": "resolved",
       "lead_h": -3.0
     },
     {
@@ -336,8 +336,8 @@
       "bucket": "21.0-21.0C",
       "entry": 0.86,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.37,
+      "closed_by": "resolved",
       "lead_h": -2.0
     },
     {
@@ -400,30 +400,35 @@
       "win_rate": 0.458,
       "total_pnl": 8.44
     },
+    "madrid": {
+      "n": 18,
+      "win_rate": 0.889,
+      "total_pnl": 7.43
+    },
     "buenos-aires": {
       "n": 17,
       "win_rate": 0.647,
-      "total_pnl": 8.24
-    },
-    "istanbul": {
-      "n": 11,
-      "win_rate": 1.0,
-      "total_pnl": 6.9
+      "total_pnl": 5.99
     },
     "los-angeles": {
       "n": 28,
       "win_rate": 0.607,
       "total_pnl": 5.72
     },
-    "madrid": {
-      "n": 18,
-      "win_rate": 0.889,
-      "total_pnl": 5.52
-    },
     "warsaw": {
       "n": 11,
       "win_rate": 0.818,
-      "total_pnl": 4.67
+      "total_pnl": 5.1
+    },
+    "istanbul": {
+      "n": 11,
+      "win_rate": 1.0,
+      "total_pnl": 4.61
+    },
+    "paris": {
+      "n": 24,
+      "win_rate": 0.708,
+      "total_pnl": 3.59
     },
     "moscow": {
       "n": 19,
@@ -440,65 +445,55 @@
       "win_rate": 0.688,
       "total_pnl": 1.83
     },
-    "dallas": {
-      "n": 15,
+    "denver": {
+      "n": 9,
       "win_rate": 0.667,
-      "total_pnl": 1.26
-    },
-    "paris": {
-      "n": 24,
-      "win_rate": 0.708,
-      "total_pnl": 1.2
+      "total_pnl": 0.66
     },
     "helsinki": {
       "n": 22,
       "win_rate": 0.727,
-      "total_pnl": 0.85
+      "total_pnl": -0.19
     },
-    "denver": {
-      "n": 9,
+    "atlanta": {
+      "n": 14,
+      "win_rate": 0.857,
+      "total_pnl": -0.28
+    },
+    "seattle": {
+      "n": 7,
+      "win_rate": 0.714,
+      "total_pnl": -0.43
+    },
+    "dallas": {
+      "n": 15,
       "win_rate": 0.667,
-      "total_pnl": 0.41
+      "total_pnl": -0.65
     },
     "tokyo": {
       "n": 9,
       "win_rate": 0.667,
       "total_pnl": -0.76
     },
-    "seattle": {
-      "n": 7,
-      "win_rate": 0.714,
-      "total_pnl": -1.2
+    "toronto": {
+      "n": 18,
+      "win_rate": 0.722,
+      "total_pnl": -1.13
     },
     "amsterdam": {
       "n": 19,
       "win_rate": 0.579,
-      "total_pnl": -1.46
+      "total_pnl": -1.13
     },
-    "toronto": {
-      "n": 18,
-      "win_rate": 0.722,
-      "total_pnl": -1.83
-    },
-    "austin": {
+    "houston": {
       "n": 8,
       "win_rate": 0.5,
-      "total_pnl": -1.96
+      "total_pnl": -1.98
     },
     "lucknow": {
       "n": 10,
       "win_rate": 0.7,
       "total_pnl": -1.99
-    },
-    "atlanta": {
-      "n": 14,
-      "win_rate": 0.857,
-      "total_pnl": -2.21
-    },
-    "houston": {
-      "n": 8,
-      "win_rate": 0.5,
-      "total_pnl": -2.31
     },
     "tel-aviv": {
       "n": 7,
@@ -525,10 +520,15 @@
       "win_rate": 0.333,
       "total_pnl": -3.41
     },
-    "nyc": {
-      "n": 12,
-      "win_rate": 0.667,
-      "total_pnl": -4.93
+    "austin": {
+      "n": 8,
+      "win_rate": 0.5,
+      "total_pnl": -3.87
+    },
+    "london": {
+      "n": 20,
+      "win_rate": 0.5,
+      "total_pnl": -4.33
     },
     "singapore": {
       "n": 13,
@@ -540,20 +540,20 @@
       "win_rate": 0.632,
       "total_pnl": -5.04
     },
-    "milan": {
-      "n": 26,
-      "win_rate": 0.731,
-      "total_pnl": -5.18
-    },
     "chongqing": {
       "n": 28,
       "win_rate": 0.679,
       "total_pnl": -5.47
     },
-    "london": {
-      "n": 20,
-      "win_rate": 0.5,
-      "total_pnl": -5.91
+    "milan": {
+      "n": 26,
+      "win_rate": 0.731,
+      "total_pnl": -5.71
+    },
+    "nyc": {
+      "n": 12,
+      "win_rate": 0.667,
+      "total_pnl": -6.93
     },
     "shenzhen": {
       "n": 18,
