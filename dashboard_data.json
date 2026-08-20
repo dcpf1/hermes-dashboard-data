@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-19T23:00:12.472854+00:00",
+  "generated_at": "2026-08-20T00:00:12.812509+00:00",
   "balance": {
-    "current": 57.9,
-    "cash": 57.9,
-    "deployed": 0,
-    "unrealized": 0,
+    "current": 57.88,
+    "cash": 55.75,
+    "deployed": 2.15,
+    "unrealized": -0.02,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 7.9,
+    "pnl_usd": 7.88,
     "pnl_pct": 15.8
   },
   "trades": {
-    "total": 543,
+    "total": 544,
     "wins": 342,
     "losses": 197,
     "total_pnl": -12.5
@@ -26,7 +26,29 @@
     "base": 0.344,
     "status": "amber"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "city": "Milan",
+      "date": "2026-08-20",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 28.0,
+      "bucket_high": 28.0,
+      "entry_price": 0.69,
+      "shares": 3.12,
+      "cost": 2.15,
+      "current_p": 0.685,
+      "model_p": 0.9453,
+      "ev_pct": 25.5,
+      "n_agree": 6,
+      "n_avail": 6,
+      "opened_at": "2026-08-19T23:36:41.595929+00:00",
+      "hours_left": 12.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.02
+    }
+  ],
   "recent_resolved": [
     {
       "ts": "2026-08-19T22:34:43.424287+00:00",
