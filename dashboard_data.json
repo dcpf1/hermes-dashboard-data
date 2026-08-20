@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-20T11:00:12.791558+00:00",
+  "generated_at": "2026-08-20T12:00:10.011324+00:00",
   "balance": {
-    "current": 57.99,
-    "cash": 55.75,
-    "deployed": 2.15,
-    "unrealized": 0.09,
+    "current": 58.87,
+    "cash": 58.87,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 7.99,
-    "pnl_pct": 16.0
+    "pnl_usd": 8.87,
+    "pnl_pct": 17.7
   },
   "trades": {
     "total": 544,
@@ -26,30 +26,20 @@
     "base": 0.344,
     "status": "amber"
   },
-  "open_positions": [
+  "open_positions": [],
+  "recent_resolved": [
     {
+      "ts": "2026-08-19T23:36:41.595929+00:00",
       "city": "Milan",
       "date": "2026-08-20",
-      "unit": "C",
       "side": "NO",
-      "bucket_low": 28.0,
-      "bucket_high": 28.0,
-      "entry_price": 0.69,
-      "shares": 3.12,
-      "cost": 2.15,
-      "current_p": 0.72,
-      "model_p": 0.9453,
-      "ev_pct": 25.5,
-      "n_agree": 6,
-      "n_avail": 6,
-      "opened_at": "2026-08-19T23:36:41.595929+00:00",
-      "hours_left": 1.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.09
-    }
-  ],
-  "recent_resolved": [
+      "bucket": "28.0-28.0C",
+      "entry": 0.69,
+      "correct": true,
+      "pnl": 0.96,
+      "closed_by": "take_profit",
+      "lead_h": 12.0
+    },
     {
       "ts": "2026-08-19T22:34:43.424287+00:00",
       "city": "Munich",
@@ -397,18 +387,6 @@
       "pnl": -2.6,
       "closed_by": "price_catastrophic",
       "lead_h": 6.0
-    },
-    {
-      "ts": "2026-08-02T22:51:07.226105+00:00",
-      "city": "Madrid",
-      "date": "2026-08-02",
-      "side": "YES",
-      "bucket": "36.0-36.0C",
-      "entry": 0.32,
-      "correct": false,
-      "pnl": -0.76,
-      "closed_by": "metar_override",
-      "lead_h": 11.0
     }
   ],
   "city_stats": {
