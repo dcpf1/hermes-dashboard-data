@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T02:00:12.697051+00:00",
+  "updated_at": "2026-08-22T03:00:12.733306+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -97,7 +97,7 @@
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 491,
+      "current": 492,
       "target": 40,
       "unit": "shadow rows",
       "met": true
@@ -140,7 +140,7 @@
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma re-review: 57614 rows, n=516 >= 500 -- REVIEW (Jun28 verdict was -0.89pp)",
+      "title": "PP-sigma re-review: 57628 rows, n=516 >= 500 -- REVIEW (Jun28 verdict was -0.89pp)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor. DECISION 2026-07-14 (DCP): if post-shrink does NOT improve Brier at n=500, DELETE post-peak sigma -- no indefinite shadow.",
       "type": "threshold",
       "priority": "warn",
@@ -169,19 +169,19 @@
       "type": "threshold",
       "priority": "info",
       "project": "Weatherbot",
-      "current": 5,
+      "current": 6,
       "target": 30,
       "unit": "recency_bias flagged trades",
       "met": false
     },
     {
       "id": "regime-shadow-check",
-      "title": "Regime-sizing shadow: 53 rows, VALIDATE now",
+      "title": "Regime-sizing shadow: 54 rows, VALIDATE now",
       "description": "Plan 005 regime-aware sizing (data/regime_shadow.jsonl). At >=40 rows: join to resolved.jsonl on market_id+side+bucket_low+bucket_high; split entries by regime_ratio into rich (ratio>1) vs poor (ratio<1); compare realized Brier + PnL. Flip regime_apply_mode: live (config.json; module-const -> RESTART) ONLY if mult_would points the right way: up-sizes the OUTPERFORMING regime AND down-sizes the underperformer. If ratio does not separate outcomes, switch numerator to scan_richness/ewma_slow (absolute-vs-baseline) or retire.",
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 53,
+      "current": 54,
       "target": 40,
       "unit": "regime shadow rows",
       "met": true
