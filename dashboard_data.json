@@ -1,55 +1,45 @@
 {
-  "generated_at": "2026-08-22T22:00:11.830933+00:00",
+  "generated_at": "2026-08-22T23:00:10.837799+00:00",
   "balance": {
-    "current": 59.48,
+    "current": 57.42,
     "cash": 57.42,
-    "deployed": 2.06,
-    "unrealized": 0.0,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 9.48,
-    "pnl_pct": 19.0
+    "pnl_usd": 7.42,
+    "pnl_pct": 14.8
   },
   "trades": {
     "total": 546,
     "wins": 344,
-    "losses": 197,
+    "losses": 198,
     "total_pnl": -10.93
   },
   "brier": {
-    "score": 0.2376,
-    "n": 516,
-    "bss": -0.052,
-    "win_rate": 0.663,
-    "ci_lo": 0.2064,
-    "ci_hi": 0.2689,
-    "base": 0.345,
+    "score": 0.2389,
+    "n": 517,
+    "bss": -0.055,
+    "win_rate": 0.662,
+    "ci_lo": 0.2076,
+    "ci_hi": 0.2701,
+    "base": 0.346,
     "status": "amber"
   },
-  "open_positions": [
+  "open_positions": [],
+  "recent_resolved": [
     {
+      "ts": "2026-08-22T22:30:59.726721+00:00",
       "city": "Warsaw",
       "date": "2026-08-22",
-      "unit": "C",
       "side": "NO",
-      "bucket_low": 23.0,
-      "bucket_high": 23.0,
-      "entry_price": 0.1,
-      "shares": 20.6,
-      "cost": 2.06,
-      "current_p": 0.1,
-      "model_p": 0.9406,
-      "ev_pct": 84.1,
-      "n_agree": 5,
-      "n_avail": 6,
-      "opened_at": "2026-08-22T02:59:37.251595+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
+      "bucket": "23.0-23.0C",
+      "entry": 0.1,
+      "correct": false,
       "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    }
-  ],
-  "recent_resolved": [
+      "closed_by": "awaiting_settlement",
+      "lead_h": 9.0
+    },
     {
       "ts": "2026-08-21T23:55:05.573331+00:00",
       "city": "London",
@@ -397,18 +387,6 @@
       "pnl": 0.0,
       "closed_by": "forecast_changed",
       "lead_h": 0.0
-    },
-    {
-      "ts": "2026-08-04T08:14:32.140493+00:00",
-      "city": "Nyc",
-      "date": "2026-08-03",
-      "side": "YES",
-      "bucket": "84.0-85.0C",
-      "entry": 0.81,
-      "correct": true,
-      "pnl": 0.14,
-      "closed_by": "forecast_changed",
-      "lead_h": -9.0
     }
   ],
   "city_stats": {
@@ -438,8 +416,8 @@
       "total_pnl": 5.72
     },
     "warsaw": {
-      "n": 11,
-      "win_rate": 0.818,
+      "n": 12,
+      "win_rate": 0.75,
       "total_pnl": 5.1
     },
     "istanbul": {
@@ -635,8 +613,8 @@
       "n": 3
     },
     "6to24": {
-      "brier": 0.2353,
-      "n": 98
+      "brier": 0.2419,
+      "n": 99
     },
     "24to48": {
       "brier": 0.1987,
