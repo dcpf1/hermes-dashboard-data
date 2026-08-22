@@ -1,55 +1,45 @@
 {
-  "generated_at": "2026-08-22T00:00:11.219780+00:00",
+  "generated_at": "2026-08-22T01:00:11.705669+00:00",
   "balance": {
-    "current": 58.87,
-    "cash": 55.87,
-    "deployed": 3.0,
-    "unrealized": 0.0,
+    "current": 59.48,
+    "cash": 59.48,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 8.87,
-    "pnl_pct": 17.7
+    "pnl_usd": 9.48,
+    "pnl_pct": 19.0
   },
   "trades": {
     "total": 545,
-    "wins": 343,
+    "wins": 344,
     "losses": 197,
-    "total_pnl": -11.54
+    "total_pnl": -10.93
   },
   "brier": {
-    "score": 0.2381,
-    "n": 515,
-    "bss": -0.055,
-    "win_rate": 0.662,
-    "ci_lo": 0.2068,
-    "ci_hi": 0.2694,
-    "base": 0.344,
+    "score": 0.2376,
+    "n": 516,
+    "bss": -0.052,
+    "win_rate": 0.663,
+    "ci_lo": 0.2064,
+    "ci_hi": 0.2689,
+    "base": 0.345,
     "status": "amber"
   },
-  "open_positions": [
+  "open_positions": [],
+  "recent_resolved": [
     {
+      "ts": "2026-08-21T23:55:05.573331+00:00",
       "city": "London",
       "date": "2026-08-21",
-      "unit": "C",
       "side": "YES",
-      "bucket_low": 21.0,
-      "bucket_high": 21.0,
-      "entry_price": 0.83,
-      "shares": 3.61,
-      "cost": 3.0,
-      "current_p": 0.83,
-      "model_p": 0.97,
-      "ev_pct": 14.0,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-08-21T16:05:51.353320+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    }
-  ],
-  "recent_resolved": [
+      "bucket": "21.0-21.0C",
+      "entry": 0.83,
+      "correct": true,
+      "pnl": 0.61,
+      "closed_by": "resolved",
+      "lead_h": -4.0
+    },
     {
       "ts": "2026-08-20T23:18:52.424675+00:00",
       "city": "Milan",
@@ -397,18 +387,6 @@
       "pnl": 0.14,
       "closed_by": "forecast_changed",
       "lead_h": -9.0
-    },
-    {
-      "ts": "2026-08-03T17:05:27.224345+00:00",
-      "city": "Shenzhen",
-      "date": "2026-08-03",
-      "side": "NO",
-      "bucket": "31.0-31.0C",
-      "entry": 0.52,
-      "correct": false,
-      "pnl": -2.6,
-      "closed_by": "price_catastrophic",
-      "lead_h": 6.0
     }
   ],
   "city_stats": {
@@ -542,15 +520,15 @@
       "win_rate": 0.333,
       "total_pnl": -3.41
     },
+    "london": {
+      "n": 21,
+      "win_rate": 0.524,
+      "total_pnl": -3.72
+    },
     "austin": {
       "n": 8,
       "win_rate": 0.5,
       "total_pnl": -3.87
-    },
-    "london": {
-      "n": 20,
-      "win_rate": 0.5,
-      "total_pnl": -4.33
     },
     "milan": {
       "n": 27,
