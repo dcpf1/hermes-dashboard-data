@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T06:00:14.762707+00:00",
+  "generated_at": "2026-08-23T07:00:11.558657+00:00",
   "balance": {
     "current": 57.42,
     "cash": 57.42,
@@ -14,7 +14,7 @@
     "total": 546,
     "wins": 344,
     "losses": 198,
-    "total_pnl": -10.93
+    "total_pnl": -12.99
   },
   "brier": {
     "score": 0.2389,
@@ -36,8 +36,8 @@
       "bucket": "23.0-23.0C",
       "entry": 0.1,
       "correct": false,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": -2.06,
+      "closed_by": "resolved",
       "lead_h": 9.0
     },
     {
@@ -415,11 +415,6 @@
       "win_rate": 0.607,
       "total_pnl": 5.72
     },
-    "warsaw": {
-      "n": 12,
-      "win_rate": 0.75,
-      "total_pnl": 5.1
-    },
     "istanbul": {
       "n": 11,
       "win_rate": 1.0,
@@ -434,6 +429,11 @@
       "n": 19,
       "win_rate": 0.842,
       "total_pnl": 3.18
+    },
+    "warsaw": {
+      "n": 12,
+      "win_rate": 0.75,
+      "total_pnl": 3.04
     },
     "sao-paulo": {
       "n": 6,
