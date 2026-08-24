@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T10:00:13.527112+00:00",
+  "updated_at": "2026-08-24T11:00:13.634031+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -140,7 +140,7 @@
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma re-review: 60490 rows, n=517 >= 500 -- REVIEW (Jun28 verdict was -0.89pp)",
+      "title": "PP-sigma re-review: 60523 rows, n=517 >= 500 -- REVIEW (Jun28 verdict was -0.89pp)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor. DECISION 2026-07-14 (DCP): if post-shrink does NOT improve Brier at n=500, DELETE post-peak sigma -- no indefinite shadow.",
       "type": "threshold",
       "priority": "warn",
