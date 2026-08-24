@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T22:00:16.260375+00:00",
+  "generated_at": "2026-08-24T23:00:13.404079+00:00",
   "balance": {
     "current": 57.42,
     "cash": 54.42,
@@ -12,18 +12,18 @@
   },
   "trades": {
     "total": 547,
-    "wins": 344,
+    "wins": 345,
     "losses": 198,
     "total_pnl": -12.99
   },
   "brier": {
-    "score": 0.2389,
-    "n": 517,
-    "bss": -0.055,
+    "score": 0.2384,
+    "n": 518,
+    "bss": -0.051,
     "win_rate": 0.662,
-    "ci_lo": 0.2076,
-    "ci_hi": 0.2701,
-    "base": 0.346,
+    "ci_lo": 0.2072,
+    "ci_hi": 0.2696,
+    "base": 0.347,
     "status": "amber"
   },
   "open_positions": [
@@ -50,6 +50,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-08-24T22:05:47.841840+00:00",
+      "city": "Madrid",
+      "date": "2026-08-24",
+      "side": "YES",
+      "bucket": "29.0-29.0C",
+      "entry": 0.85,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -3.0
+    },
     {
       "ts": "2026-08-22T22:30:59.726721+00:00",
       "city": "Warsaw",
@@ -397,18 +409,6 @@
       "pnl": 0.37,
       "closed_by": "resolved",
       "lead_h": -2.0
-    },
-    {
-      "ts": "2026-08-04T18:55:16.657693+00:00",
-      "city": "Lucknow",
-      "date": "2026-08-04",
-      "side": "YES",
-      "bucket": "29.0-29.0C",
-      "entry": 0.87,
-      "correct": true,
-      "pnl": 0.0,
-      "closed_by": "forecast_changed",
-      "lead_h": 0.0
     }
   ],
   "city_stats": {
@@ -423,8 +423,8 @@
       "total_pnl": 8.44
     },
     "madrid": {
-      "n": 18,
-      "win_rate": 0.889,
+      "n": 19,
+      "win_rate": 0.895,
       "total_pnl": 7.43
     },
     "buenos-aires": {
