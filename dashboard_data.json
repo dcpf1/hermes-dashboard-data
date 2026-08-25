@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-25T18:00:28.759216+00:00",
+  "generated_at": "2026-08-25T19:00:10.581507+00:00",
   "balance": {
-    "current": 58.4,
-    "cash": 58.4,
+    "current": 40.82,
+    "cash": 40.82,
     "deployed": 0,
     "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 8.4,
-    "pnl_pct": 16.8
+    "pnl_usd": -9.18,
+    "pnl_pct": -18.4
   },
   "trades": {
     "total": 548,
