@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T06:00:13.611243+00:00",
+  "generated_at": "2026-08-25T07:00:12.310544+00:00",
   "balance": {
     "current": 57.95,
     "cash": 57.95,
@@ -14,7 +14,7 @@
     "total": 547,
     "wins": 345,
     "losses": 198,
-    "total_pnl": -12.99
+    "total_pnl": -12.46
   },
   "brier": {
     "score": 0.2384,
@@ -36,8 +36,8 @@
       "bucket": "29.0-29.0C",
       "entry": 0.85,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.53,
+      "closed_by": "resolved",
       "lead_h": -3.0
     },
     {
@@ -403,7 +403,7 @@
     "madrid": {
       "n": 19,
       "win_rate": 0.895,
-      "total_pnl": 7.43
+      "total_pnl": 7.96
     },
     "buenos-aires": {
       "n": 17,
