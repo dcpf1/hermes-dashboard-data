@@ -1,55 +1,45 @@
 {
-  "generated_at": "2026-08-25T16:00:12.515026+00:00",
+  "generated_at": "2026-08-25T17:00:12.174971+00:00",
   "balance": {
-    "current": 57.95,
-    "cash": 54.95,
-    "deployed": 3.0,
-    "unrealized": 0.0,
+    "current": 58.4,
+    "cash": 58.4,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": 7.95,
-    "pnl_pct": 15.9
+    "pnl_usd": 8.4,
+    "pnl_pct": 16.8
   },
   "trades": {
     "total": 548,
-    "wins": 345,
+    "wins": 346,
     "losses": 198,
-    "total_pnl": -12.46
+    "total_pnl": -12.01
   },
   "brier": {
-    "score": 0.2384,
-    "n": 518,
-    "bss": -0.051,
-    "win_rate": 0.662,
-    "ci_lo": 0.2072,
-    "ci_hi": 0.2696,
-    "base": 0.347,
+    "score": 0.2399,
+    "n": 519,
+    "bss": -0.056,
+    "win_rate": 0.663,
+    "ci_lo": 0.2086,
+    "ci_hi": 0.2712,
+    "base": 0.349,
     "status": "amber"
   },
-  "open_positions": [
+  "open_positions": [],
+  "recent_resolved": [
     {
+      "ts": "2026-08-25T16:27:43.127846+00:00",
       "city": "Chengdu",
       "date": "2026-08-25",
-      "unit": "C",
       "side": "YES",
-      "bucket_low": 36.0,
-      "bucket_high": 36.0,
-      "entry_price": 0.87,
-      "shares": 3.45,
-      "cost": 3.0,
-      "current_p": 0.87,
-      "model_p": 0.004,
-      "ev_pct": -86.6,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-08-25T09:24:41.157542+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    }
-  ],
-  "recent_resolved": [
+      "bucket": "36.0-36.0C",
+      "entry": 0.87,
+      "correct": true,
+      "pnl": 0.45,
+      "closed_by": "resolved",
+      "lead_h": 2.0
+    },
     {
       "ts": "2026-08-24T22:05:47.841840+00:00",
       "city": "Madrid",
@@ -397,18 +387,6 @@
       "pnl": 0.49,
       "closed_by": "resolved",
       "lead_h": -3.0
-    },
-    {
-      "ts": "2026-08-04T21:05:46.767641+00:00",
-      "city": "Helsinki",
-      "date": "2026-08-04",
-      "side": "YES",
-      "bucket": "21.0-21.0C",
-      "entry": 0.86,
-      "correct": true,
-      "pnl": 0.37,
-      "closed_by": "resolved",
-      "lead_h": -2.0
     }
   ],
   "city_stats": {
@@ -552,6 +530,11 @@
       "win_rate": 0.5,
       "total_pnl": -3.87
     },
+    "chengdu": {
+      "n": 20,
+      "win_rate": 0.65,
+      "total_pnl": -4.59
+    },
     "milan": {
       "n": 27,
       "win_rate": 0.741,
@@ -560,11 +543,6 @@
     "singapore": {
       "n": 13,
       "win_rate": 0.462,
-      "total_pnl": -5.04
-    },
-    "chengdu": {
-      "n": 19,
-      "win_rate": 0.632,
       "total_pnl": -5.04
     },
     "chongqing": {
@@ -631,8 +609,8 @@
   },
   "lead_brier": {
     "lt6": {
-      "brier": 0.6672,
-      "n": 3
+      "brier": 0.7484,
+      "n": 4
     },
     "6to24": {
       "brier": 0.2419,
