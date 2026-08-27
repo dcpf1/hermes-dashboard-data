@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-27T21:00:10.858393+00:00",
+  "generated_at": "2026-08-27T22:00:10.916044+00:00",
   "balance": {
     "current": 42.87,
-    "cash": 42.87,
-    "deployed": 0,
-    "unrealized": 0,
+    "cash": 38.77,
+    "deployed": 4.1,
+    "unrealized": 0.0,
     "starting": 50.0,
     "peak": 115.02,
     "pnl_usd": -7.13,
@@ -26,7 +26,29 @@
     "base": 0.35,
     "status": "amber"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "city": "Atlanta",
+      "date": "2026-08-27",
+      "unit": "F",
+      "side": "YES",
+      "bucket_low": 86.0,
+      "bucket_high": 87.0,
+      "entry_price": 0.82,
+      "shares": 0.0,
+      "cost": 4.1,
+      "current_p": 0.855,
+      "model_p": 0.9234,
+      "ev_pct": 10.3,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-08-27T21:06:27.138484+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.0
+    }
+  ],
   "recent_resolved": [
     {
       "ts": "2026-08-27T02:57:22.710973+00:00",
