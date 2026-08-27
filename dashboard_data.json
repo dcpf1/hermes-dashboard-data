@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T22:00:10.916044+00:00",
+  "generated_at": "2026-08-27T23:00:10.550483+00:00",
   "balance": {
     "current": 42.87,
     "cash": 38.77,
@@ -11,7 +11,7 @@
     "pnl_pct": -14.3
   },
   "trades": {
-    "total": 550,
+    "total": 551,
     "wins": 347,
     "losses": 198,
     "total_pnl": -11.11
@@ -35,9 +35,9 @@
       "bucket_low": 86.0,
       "bucket_high": 87.0,
       "entry_price": 0.82,
-      "shares": 0.0,
+      "shares": 5.0,
       "cost": 4.1,
-      "current_p": 0.855,
+      "current_p": 0.82,
       "model_p": 0.9234,
       "ev_pct": 10.3,
       "n_agree": 1,
