@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-28T12:00:09.712957+00:00",
+  "generated_at": "2026-08-28T13:00:11.764071+00:00",
   "balance": {
-    "current": 38.09,
-    "cash": 37.12,
-    "deployed": 1.65,
-    "unrealized": -0.68,
+    "current": 39.56,
+    "cash": 39.56,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -11.91,
-    "pnl_pct": -23.8
+    "pnl_usd": -10.44,
+    "pnl_pct": -20.9
   },
   "trades": {
     "total": 552,
@@ -26,29 +26,7 @@
     "base": 0.349,
     "status": "amber"
   },
-  "open_positions": [
-    {
-      "city": "Milan",
-      "date": "2026-08-28",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 29.0,
-      "bucket_high": 29.0,
-      "entry_price": 0.67,
-      "shares": 2.46,
-      "cost": 1.65,
-      "current_p": 0.395,
-      "model_p": 0.9065,
-      "ev_pct": 23.6,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-08-28T05:43:10.066597+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.68
-    }
-  ],
+  "open_positions": [],
   "recent_resolved": [
     {
       "ts": "2026-08-28T08:38:45.103816+00:00",
@@ -61,6 +39,18 @@
       "pnl": 1.15,
       "closed_by": "take_profit",
       "lead_h": 9.0
+    },
+    {
+      "ts": "2026-08-28T05:43:10.066597+00:00",
+      "city": "Milan",
+      "date": "2026-08-28",
+      "side": "NO",
+      "bucket": "29.0-29.0C",
+      "entry": 0.67,
+      "correct": true,
+      "pnl": 0.79,
+      "closed_by": "take_profit",
+      "lead_h": 6.0
     },
     {
       "ts": "2026-08-28T04:55:56.888137+00:00",
@@ -397,18 +387,6 @@
       "pnl": 0.31,
       "closed_by": "resolved",
       "lead_h": -12.0
-    },
-    {
-      "ts": "2026-08-07T06:05:52.246986+00:00",
-      "city": "Denver",
-      "date": "2026-08-06",
-      "side": "YES",
-      "bucket": "96.0-97.0F",
-      "entry": 0.9,
-      "correct": true,
-      "pnl": 0.25,
-      "closed_by": "resolved",
-      "lead_h": -11.0
     }
   ],
   "city_stats": {
