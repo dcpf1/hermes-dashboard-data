@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-28T06:00:14.702450+00:00",
+  "generated_at": "2026-08-28T07:00:10.109527+00:00",
   "balance": {
-    "current": 38.72,
+    "current": 38.81,
     "cash": 37.12,
     "deployed": 1.65,
-    "unrealized": -0.05,
+    "unrealized": 0.04,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -11.28,
-    "pnl_pct": -22.6
+    "pnl_usd": -11.19,
+    "pnl_pct": -22.4
   },
   "trades": {
     "total": 552,
     "wins": 347,
     "losses": 199,
-    "total_pnl": -11.11
+    "total_pnl": -15.21
   },
   "brier": {
     "score": 0.2406,
@@ -37,16 +37,16 @@
       "entry_price": 0.67,
       "shares": 2.46,
       "cost": 1.65,
-      "current_p": 0.65,
+      "current_p": 0.685,
       "model_p": 0.9065,
       "ev_pct": 23.6,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-08-28T05:43:10.066597+00:00",
-      "hours_left": 6.0,
+      "hours_left": 5.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.05
+      "unrealized_pnl": 0.04
     }
   ],
   "recent_resolved": [
@@ -58,8 +58,8 @@
       "bucket": "86.0-87.0F",
       "entry": 0.82,
       "correct": false,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": -4.1,
+      "closed_by": "resolved",
       "lead_h": -9.0
     },
     {
@@ -477,11 +477,6 @@
       "win_rate": 0.727,
       "total_pnl": -0.19
     },
-    "atlanta": {
-      "n": 15,
-      "win_rate": 0.8,
-      "total_pnl": -0.28
-    },
     "seattle": {
       "n": 7,
       "win_rate": 0.714,
@@ -556,6 +551,11 @@
       "n": 8,
       "win_rate": 0.5,
       "total_pnl": -3.87
+    },
+    "atlanta": {
+      "n": 15,
+      "win_rate": 0.8,
+      "total_pnl": -4.38
     },
     "chengdu": {
       "n": 20,
