@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T08:00:10.842059+00:00",
+  "generated_at": "2026-08-28T09:00:10.454427+00:00",
   "balance": {
     "current": 38.65,
     "cash": 37.12,
@@ -12,17 +12,17 @@
   },
   "trades": {
     "total": 552,
-    "wins": 347,
+    "wins": 348,
     "losses": 199,
-    "total_pnl": -15.21
+    "total_pnl": -14.06
   },
   "brier": {
-    "score": 0.2406,
-    "n": 521,
-    "bss": -0.058,
-    "win_rate": 0.662,
-    "ci_lo": 0.2093,
-    "ci_hi": 0.2719,
+    "score": 0.2401,
+    "n": 522,
+    "bss": -0.057,
+    "win_rate": 0.663,
+    "ci_lo": 0.2089,
+    "ci_hi": 0.2714,
     "base": 0.349,
     "status": "amber"
   },
@@ -43,13 +43,25 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-08-28T05:43:10.066597+00:00",
-      "hours_left": 4.0,
+      "hours_left": 3.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.12
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-08-28T08:38:45.103816+00:00",
+      "city": "Los Angeles",
+      "date": "2026-08-27",
+      "side": "NO",
+      "bucket": "84.0-85.0F",
+      "entry": 0.58,
+      "correct": true,
+      "pnl": 1.15,
+      "closed_by": "take_profit",
+      "lead_h": 9.0
+    },
     {
       "ts": "2026-08-28T04:55:56.888137+00:00",
       "city": "Atlanta",
@@ -61,18 +73,6 @@
       "pnl": -4.1,
       "closed_by": "resolved",
       "lead_h": -9.0
-    },
-    {
-      "ts": "2026-08-27T02:57:22.710973+00:00",
-      "city": "Los Angeles",
-      "date": "2026-08-27",
-      "side": "NO",
-      "bucket": "84.0-85.0F",
-      "entry": 0.58,
-      "correct": true,
-      "pnl": 1.15,
-      "closed_by": "take_profit",
-      "lead_h": 9.0
     },
     {
       "ts": "2026-08-26T22:31:30.236839+00:00",
@@ -427,15 +427,15 @@
       "win_rate": 0.895,
       "total_pnl": 7.96
     },
+    "los-angeles": {
+      "n": 29,
+      "win_rate": 0.621,
+      "total_pnl": 6.87
+    },
     "buenos-aires": {
       "n": 17,
       "win_rate": 0.647,
       "total_pnl": 5.99
-    },
-    "los-angeles": {
-      "n": 28,
-      "win_rate": 0.607,
-      "total_pnl": 5.72
     },
     "istanbul": {
       "n": 11,
@@ -635,8 +635,8 @@
       "n": 4
     },
     "6to24": {
-      "brier": 0.2419,
-      "n": 99
+      "brier": 0.2395,
+      "n": 100
     },
     "24to48": {
       "brier": 0.1987,
