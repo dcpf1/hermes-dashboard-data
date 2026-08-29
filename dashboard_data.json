@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T23:00:15.210855+00:00",
+  "generated_at": "2026-08-29T00:00:12.065533+00:00",
   "balance": {
     "current": 39.56,
     "cash": 39.56,
@@ -12,22 +12,34 @@
   },
   "trades": {
     "total": 552,
-    "wins": 348,
+    "wins": 349,
     "losses": 199,
-    "total_pnl": -14.06
+    "total_pnl": -13.27
   },
   "brier": {
-    "score": 0.2401,
-    "n": 522,
-    "bss": -0.057,
+    "score": 0.2397,
+    "n": 523,
+    "bss": -0.056,
     "win_rate": 0.663,
-    "ci_lo": 0.2089,
-    "ci_hi": 0.2714,
-    "base": 0.349,
+    "ci_lo": 0.2085,
+    "ci_hi": 0.2709,
+    "base": 0.348,
     "status": "amber"
   },
   "open_positions": [],
   "recent_resolved": [
+    {
+      "ts": "2026-08-28T22:55:41.859270+00:00",
+      "city": "Milan",
+      "date": "2026-08-28",
+      "side": "NO",
+      "bucket": "29.0-29.0C",
+      "entry": 0.67,
+      "correct": true,
+      "pnl": 0.79,
+      "closed_by": "take_profit",
+      "lead_h": 6.0
+    },
     {
       "ts": "2026-08-28T08:38:45.103816+00:00",
       "city": "Los Angeles",
@@ -39,18 +51,6 @@
       "pnl": 1.15,
       "closed_by": "take_profit",
       "lead_h": 9.0
-    },
-    {
-      "ts": "2026-08-28T05:43:10.066597+00:00",
-      "city": "Milan",
-      "date": "2026-08-28",
-      "side": "NO",
-      "bucket": "29.0-29.0C",
-      "entry": 0.67,
-      "correct": true,
-      "pnl": 0.79,
-      "closed_by": "take_profit",
-      "lead_h": 6.0
     },
     {
       "ts": "2026-08-28T04:55:56.888137+00:00",
@@ -510,6 +510,11 @@
       "win_rate": 0.4,
       "total_pnl": -2.79
     },
+    "milan": {
+      "n": 29,
+      "win_rate": 0.759,
+      "total_pnl": -3.06
+    },
     "seoul": {
       "n": 3,
       "win_rate": 0.333,
@@ -519,11 +524,6 @@
       "n": 21,
       "win_rate": 0.524,
       "total_pnl": -3.72
-    },
-    "milan": {
-      "n": 28,
-      "win_rate": 0.75,
-      "total_pnl": -3.85
     },
     "austin": {
       "n": 8,
@@ -613,8 +613,8 @@
       "n": 4
     },
     "6to24": {
-      "brier": 0.2395,
-      "n": 100
+      "brier": 0.2373,
+      "n": 101
     },
     "24to48": {
       "brier": 0.1987,
