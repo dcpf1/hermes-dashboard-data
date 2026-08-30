@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T21:00:11.252951+00:00",
+  "updated_at": "2026-08-30T22:00:15.013922+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -104,12 +104,12 @@
     },
     {
       "id": "maker-canary-review",
-      "title": "Maker canary accruing -- 4/20 fills from 9 posted (0 resting, budget 4/5)",
-      "description": "Fix 10 Phase 2 canary: maker-first entries (resting GTD post_only, taker fallback, never pure-maker) on nyc, london, shanghai, shenzhen, chongqing, chengdu, moscow. Own budget maker_live_cap=5 counted as fills+in-flight -- NOT the shared live_test_cap, so the paused Gaussian taker book neither blocks it nor is unblocked by it. Posted 9 | filled 4 | resting 0. ZERO posted while live means the path is UNREACHABLE (no eligible entries): check that the canary cities actually generate Gaussian YES/NO entries >6h from resolution -- NR entries never route maker. At 20 fills run python3 maker_estimator.py and compare realized fill-rate + maker-first-vs-taker delta to the shadow estimate (n=47: +$0.0706/row, CI [+0.034,+0.119], adverse -32pp). Realized delta<0 or fill-rate far below estimate -> pull back (maker_apply_mode=shadow + restart). Holds -> widen maker_canary_cities / raise maker_live_cap. Always check data/maker_halt.flag (D3 hard-stop fired = review before re-arming).",
+      "title": "Maker canary BUDGET FULL -- 5 filled + 0 resting of 5; review before raising maker_live_cap",
+      "description": "Fix 10 Phase 2 canary: maker-first entries (resting GTD post_only, taker fallback, never pure-maker) on nyc, london, shanghai, shenzhen, chongqing, chengdu, moscow. Own budget maker_live_cap=5 counted as fills+in-flight -- NOT the shared live_test_cap, so the paused Gaussian taker book neither blocks it nor is unblocked by it. Posted 10 | filled 5 | resting 0. ZERO posted while live means the path is UNREACHABLE (no eligible entries): check that the canary cities actually generate Gaussian YES/NO entries >6h from resolution -- NR entries never route maker. At 20 fills run python3 maker_estimator.py and compare realized fill-rate + maker-first-vs-taker delta to the shadow estimate (n=47: +$0.0706/row, CI [+0.034,+0.119], adverse -32pp). Realized delta<0 or fill-rate far below estimate -> pull back (maker_apply_mode=shadow + restart). Holds -> widen maker_canary_cities / raise maker_live_cap. Always check data/maker_halt.flag (D3 hard-stop fired = review before re-arming).",
       "type": "threshold",
-      "priority": "info",
+      "priority": "warn",
       "project": "Weatherbot",
-      "current": 4,
+      "current": 5,
       "target": 20,
       "unit": "live canary fills",
       "met": false
@@ -128,7 +128,7 @@
     },
     {
       "id": "nr-shadow-check",
-      "title": "NR LIVE -- 74/120 real orders used (v2 rows: 337)",
+      "title": "NR LIVE -- 74/120 real orders used (v2 rows: 338)",
       "description": "NR v2 went LIVE 2026-07-16 (gate MET: graded n=38 W34/L4, excess +0.070, ret/$1 +4.87). Own budget: nr_live_cap real orders (state.nr_live_placed), separate from the shared live_test_cap (raised 25->35 on 2026-07-17: 10 live orders re-opened for the old Gaussian book as its live re-test). Halted cities keep logging NR shadow but do NOT trade live (nr_live_halted=false). When budget FULL: grade real fills vs shadow (python3 nr_eval.py + resolved.jsonl entry_source=nr_metar; check fill slippage vs logged ask -- backtest says edge dies past ~5c). If live matches shadow: raise nr_live_cap; consider nr_live_halted=true (halted-city harvest was the original thesis). RESTART required for config changes.",
       "type": "threshold",
       "priority": "info",
@@ -140,7 +140,7 @@
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma re-review: 68340 rows, n=524 >= 500 -- REVIEW (Jun28 verdict was -0.89pp)",
+      "title": "PP-sigma re-review: 68388 rows, n=524 >= 500 -- REVIEW (Jun28 verdict was -0.89pp)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor. DECISION 2026-07-14 (DCP): if post-shrink does NOT improve Brier at n=500, DELETE post-peak sigma -- no indefinite shadow.",
       "type": "threshold",
       "priority": "warn",
