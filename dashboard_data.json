@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-03T16:00:13.599714+00:00",
+  "generated_at": "2026-09-03T17:00:15.638724+00:00",
   "balance": {
-    "current": 38.34,
+    "current": 38.32,
     "cash": 35.87,
     "deployed": 2.41,
-    "unrealized": 0.06,
+    "unrealized": 0.04,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -11.66,
-    "pnl_pct": -23.3
+    "pnl_usd": -11.68,
+    "pnl_pct": -23.4
   },
   "trades": {
     "total": 557,
@@ -37,16 +37,16 @@
       "entry_price": 0.68,
       "shares": 1.47,
       "cost": 1.0,
-      "current_p": 0.72,
+      "current_p": 0.705,
       "model_p": 0.9219,
       "ev_pct": 24.2,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-02T16:22:21.274005+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.06
+      "unrealized_pnl": 0.04
     },
     {
       "city": "Chengdu",
