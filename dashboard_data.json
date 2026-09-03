@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-03T08:00:12.783726+00:00",
+  "generated_at": "2026-09-03T09:00:11.972830+00:00",
   "balance": {
-    "current": 37.65,
+    "current": 38.48,
     "cash": 35.87,
     "deployed": 2.41,
-    "unrealized": -0.63,
+    "unrealized": 0.2,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.35,
-    "pnl_pct": -24.7
+    "pnl_usd": -11.52,
+    "pnl_pct": -23.0
   },
   "trades": {
     "total": 557,
@@ -37,16 +37,16 @@
       "entry_price": 0.604,
       "shares": 2.33,
       "cost": 1.41,
-      "current_p": 0.3595,
+      "current_p": 0.724,
       "model_p": 0.9683,
       "ev_pct": 36.4,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-09-03T03:46:37.707986+00:00",
-      "hours_left": 4.0,
+      "hours_left": 3.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.57
+      "unrealized_pnl": 0.28
     },
     {
       "city": "Chongqing",
@@ -58,16 +58,16 @@
       "entry_price": 0.68,
       "shares": 1.47,
       "cost": 1.0,
-      "current_p": 0.64,
+      "current_p": 0.625,
       "model_p": 0.9219,
       "ev_pct": 24.2,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-02T16:22:21.274005+00:00",
-      "hours_left": 28.0,
+      "hours_left": 27.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.06
+      "unrealized_pnl": -0.08
     }
   ],
   "recent_resolved": [
