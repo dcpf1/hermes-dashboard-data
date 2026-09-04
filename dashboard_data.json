@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-04T16:00:12.070969+00:00",
+  "generated_at": "2026-09-04T17:00:14.166163+00:00",
   "balance": {
-    "current": 37.09,
+    "current": 37.34,
     "cash": 34.99,
     "deployed": 2.23,
-    "unrealized": -0.13,
+    "unrealized": 0.12,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.91,
-    "pnl_pct": -25.8
+    "pnl_usd": -12.66,
+    "pnl_pct": -25.3
   },
   "trades": {
     "total": 558,
-    "wins": 351,
+    "wins": 352,
     "losses": 201,
-    "total_pnl": -15.96
+    "total_pnl": -15.61
   },
   "brier": {
-    "score": 0.2417,
-    "n": 527,
-    "bss": -0.061,
-    "win_rate": 0.662,
-    "ci_lo": 0.2106,
-    "ci_hi": 0.2729,
-    "base": 0.351,
+    "score": 0.2413,
+    "n": 528,
+    "bss": -0.06,
+    "win_rate": 0.663,
+    "ci_lo": 0.2102,
+    "ci_hi": 0.2724,
+    "base": 0.35,
     "status": "amber"
   },
   "open_positions": [
@@ -37,7 +37,7 @@
       "entry_price": 0.86,
       "shares": 2.59,
       "cost": 2.23,
-      "current_p": 0.81,
+      "current_p": 0.905,
       "model_p": 0.9391,
       "ev_pct": 7.9,
       "n_agree": 1,
@@ -46,10 +46,22 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.13
+      "unrealized_pnl": 0.12
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-09-04T16:31:46.914106+00:00",
+      "city": "Chongqing",
+      "date": "2026-09-04",
+      "side": "NO",
+      "bucket": "35.0-35.0C",
+      "entry": 0.68,
+      "correct": true,
+      "pnl": 0.35,
+      "closed_by": "take_profit",
+      "lead_h": 43.0
+    },
     {
       "ts": "2026-09-03T17:00:39.690444+00:00",
       "city": "Chengdu",
@@ -73,18 +85,6 @@
       "pnl": -2.44,
       "closed_by": "resolved",
       "lead_h": -3.0
-    },
-    {
-      "ts": "2026-09-02T16:22:21.274005+00:00",
-      "city": "Chongqing",
-      "date": "2026-09-04",
-      "side": "NO",
-      "bucket": "35.0-35.0C",
-      "entry": 0.68,
-      "correct": true,
-      "pnl": 0.35,
-      "closed_by": "take_profit",
-      "lead_h": 43.0
     },
     {
       "ts": "2026-08-31T04:55:44.823245+00:00",
@@ -563,9 +563,9 @@
       "total_pnl": -5.04
     },
     "chongqing": {
-      "n": 28,
-      "win_rate": 0.679,
-      "total_pnl": -5.47
+      "n": 29,
+      "win_rate": 0.69,
+      "total_pnl": -5.12
     },
     "chengdu": {
       "n": 21,
@@ -639,8 +639,8 @@
       "n": 102
     },
     "24to48": {
-      "brier": 0.1987,
-      "n": 230
+      "brier": 0.1979,
+      "n": 231
     },
     "gt48": {
       "brier": 0.2076,
