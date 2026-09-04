@@ -1,55 +1,45 @@
 {
-  "generated_at": "2026-09-04T22:00:20.539126+00:00",
+  "generated_at": "2026-09-04T23:00:26.337058+00:00",
   "balance": {
-    "current": 37.22,
-    "cash": 34.99,
-    "deployed": 2.23,
-    "unrealized": 0.0,
+    "current": 37.58,
+    "cash": 37.58,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.78,
-    "pnl_pct": -25.6
+    "pnl_usd": -12.42,
+    "pnl_pct": -24.8
   },
   "trades": {
     "total": 558,
-    "wins": 352,
+    "wins": 353,
     "losses": 201,
     "total_pnl": -15.61
   },
   "brier": {
-    "score": 0.2413,
-    "n": 528,
-    "bss": -0.06,
-    "win_rate": 0.663,
-    "ci_lo": 0.2102,
-    "ci_hi": 0.2724,
-    "base": 0.35,
+    "score": 0.2409,
+    "n": 529,
+    "bss": -0.056,
+    "win_rate": 0.664,
+    "ci_lo": 0.2098,
+    "ci_hi": 0.2719,
+    "base": 0.352,
     "status": "amber"
   },
-  "open_positions": [
+  "open_positions": [],
+  "recent_resolved": [
     {
+      "ts": "2026-09-04T22:05:30.322270+00:00",
       "city": "Warsaw",
       "date": "2026-09-04",
-      "unit": "C",
       "side": "YES",
-      "bucket_low": 22.0,
-      "bucket_high": 22.0,
-      "entry_price": 0.86,
-      "shares": 2.59,
-      "cost": 2.23,
-      "current_p": 0.86,
-      "model_p": 0.9391,
-      "ev_pct": 7.9,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-09-04T15:39:30.356758+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
+      "bucket": "22.0-22.0C",
+      "entry": 0.86,
+      "correct": true,
       "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    }
-  ],
-  "recent_resolved": [
+      "closed_by": "awaiting_settlement",
+      "lead_h": -3.0
+    },
     {
       "ts": "2026-09-04T16:31:46.914106+00:00",
       "city": "Chongqing",
@@ -397,18 +387,6 @@
       "pnl": -0.02,
       "closed_by": "forecast_changed",
       "lead_h": 2.0
-    },
-    {
-      "ts": "2026-08-10T04:05:19.227705+00:00",
-      "city": "Atlanta",
-      "date": "2026-08-09",
-      "side": "YES",
-      "bucket": "90.0-91.0F",
-      "entry": 0.87,
-      "correct": true,
-      "pnl": 0.45,
-      "closed_by": "resolved",
-      "lead_h": -9.0
     }
   ],
   "city_stats": {
@@ -448,8 +426,8 @@
       "total_pnl": 3.18
     },
     "warsaw": {
-      "n": 12,
-      "win_rate": 0.75,
+      "n": 13,
+      "win_rate": 0.769,
       "total_pnl": 3.04
     },
     "sao-paulo": {
