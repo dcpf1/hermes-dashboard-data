@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-06T06:00:14.048373+00:00",
+  "generated_at": "2026-09-06T07:00:12.159498+00:00",
   "balance": {
-    "current": 37.42,
-    "cash": 35.58,
-    "deployed": 2.0,
-    "unrealized": -0.16,
+    "current": 37.86,
+    "cash": 36.89,
+    "deployed": 1.0,
+    "unrealized": -0.03,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.58,
-    "pnl_pct": -25.2
+    "pnl_usd": -12.14,
+    "pnl_pct": -24.3
   },
   "trades": {
     "total": 560,
@@ -37,40 +37,31 @@
       "entry_price": 0.643,
       "shares": 1.56,
       "cost": 1.0,
-      "current_p": 0.5775,
+      "current_p": 0.622,
       "model_p": 0.9161,
       "ev_pct": 27.3,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-06T05:33:57.628187+00:00",
-      "hours_left": 6.0,
+      "hours_left": 5.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.1
-    },
-    {
-      "city": "Chengdu",
-      "date": "2026-09-06",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 36.0,
-      "bucket_high": 36.0,
-      "entry_price": 0.71,
-      "shares": 1.41,
-      "cost": 1.0,
-      "current_p": 0.67,
-      "model_p": 0.914,
-      "ev_pct": 20.4,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-09-06T05:32:44.105031+00:00",
-      "hours_left": 6.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.06
+      "unrealized_pnl": -0.03
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-09-06T05:32:44.105031+00:00",
+      "city": "Chengdu",
+      "date": "2026-09-06",
+      "side": "NO",
+      "bucket": "36.0-36.0C",
+      "entry": 0.71,
+      "correct": true,
+      "pnl": 0.31,
+      "closed_by": "take_profit",
+      "lead_h": 6.0
+    },
     {
       "ts": "2026-09-04T22:05:30.322270+00:00",
       "city": "Warsaw",
@@ -418,18 +409,6 @@
       "pnl": 0.33,
       "closed_by": "resolved",
       "lead_h": -3.0
-    },
-    {
-      "ts": "2026-08-10T22:20:08.346914+00:00",
-      "city": "Shanghai",
-      "date": "2026-08-10",
-      "side": "YES",
-      "bucket": "28.0-28.0C",
-      "entry": 0.88,
-      "correct": true,
-      "pnl": -0.02,
-      "closed_by": "forecast_changed",
-      "lead_h": 2.0
     }
   ],
   "city_stats": {
