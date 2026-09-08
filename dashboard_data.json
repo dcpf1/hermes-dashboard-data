@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T15:00:15.104305+00:00",
+  "generated_at": "2026-09-08T16:00:15.229913+00:00",
   "balance": {
     "current": 39.13,
     "cash": 39.13,
@@ -12,24 +12,24 @@
   },
   "trades": {
     "total": 563,
-    "wins": 356,
+    "wins": 357,
     "losses": 202,
-    "total_pnl": -15.28
+    "total_pnl": -13.7
   },
   "brier": {
-    "score": 0.2432,
-    "n": 533,
-    "bss": -0.063,
-    "win_rate": 0.664,
-    "ci_lo": 0.2122,
-    "ci_hi": 0.2742,
-    "base": 0.355,
+    "score": 0.2427,
+    "n": 534,
+    "bss": -0.062,
+    "win_rate": 0.665,
+    "ci_lo": 0.2117,
+    "ci_hi": 0.2737,
+    "base": 0.354,
     "status": "amber"
   },
   "open_positions": [],
   "recent_resolved": [
     {
-      "ts": "2026-09-08T05:14:39.624560+00:00",
+      "ts": "2026-09-08T15:29:21.162809+00:00",
       "city": "Tokyo",
       "date": "2026-09-08",
       "side": "NO",
@@ -445,6 +445,11 @@
       "win_rate": 0.706,
       "total_pnl": 1.23
     },
+    "tokyo": {
+      "n": 11,
+      "win_rate": 0.727,
+      "total_pnl": 1.18
+    },
     "denver": {
       "n": 9,
       "win_rate": 0.667,
@@ -454,11 +459,6 @@
       "n": 22,
       "win_rate": 0.727,
       "total_pnl": -0.19
-    },
-    "tokyo": {
-      "n": 10,
-      "win_rate": 0.7,
-      "total_pnl": -0.4
     },
     "seattle": {
       "n": 7,
@@ -613,8 +613,8 @@
       "n": 5
     },
     "6to24": {
-      "brier": 0.2476,
-      "n": 104
+      "brier": 0.2452,
+      "n": 105
     },
     "24to48": {
       "brier": 0.1979,
