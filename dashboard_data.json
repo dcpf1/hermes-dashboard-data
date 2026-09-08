@@ -1,55 +1,57 @@
 {
-  "generated_at": "2026-09-08T05:00:12.795765+00:00",
+  "generated_at": "2026-09-08T06:00:15.758207+00:00",
   "balance": {
-    "current": 37.25,
-    "cash": 35.02,
-    "deployed": 2.23,
-    "unrealized": 0.0,
+    "current": 39.13,
+    "cash": 39.13,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.75,
-    "pnl_pct": -25.5
+    "pnl_usd": -10.87,
+    "pnl_pct": -21.7
   },
   "trades": {
-    "total": 562,
-    "wins": 355,
+    "total": 563,
+    "wins": 356,
     "losses": 202,
-    "total_pnl": -15.58
+    "total_pnl": -15.28
   },
   "brier": {
-    "score": 0.2421,
-    "n": 532,
-    "bss": -0.059,
+    "score": 0.2432,
+    "n": 533,
+    "bss": -0.063,
     "win_rate": 0.664,
-    "ci_lo": 0.2111,
-    "ci_hi": 0.2731,
-    "base": 0.353,
+    "ci_lo": 0.2122,
+    "ci_hi": 0.2742,
+    "base": 0.355,
     "status": "amber"
   },
-  "open_positions": [
-    {
-      "city": "New York City",
-      "date": "2026-09-07",
-      "unit": "F",
-      "side": "YES",
-      "bucket_low": 78.0,
-      "bucket_high": 79.0,
-      "entry_price": 0.88,
-      "shares": 2.53,
-      "cost": 2.23,
-      "current_p": 0.88,
-      "model_p": 0.0851,
-      "ev_pct": -79.5,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-09-07T21:10:20.014992+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    }
-  ],
+  "open_positions": [],
   "recent_resolved": [
+    {
+      "ts": "2026-09-08T05:14:39.624560+00:00",
+      "city": "Tokyo",
+      "date": "2026-09-08",
+      "side": "NO",
+      "bucket": "27.0-27.0C",
+      "entry": 0.65,
+      "correct": true,
+      "pnl": 1.58,
+      "closed_by": "take_profit",
+      "lead_h": 6.0
+    },
+    {
+      "ts": "2026-09-08T05:06:02.213508+00:00",
+      "city": "Nyc",
+      "date": "2026-09-07",
+      "side": "YES",
+      "bucket": "78.0-79.0C",
+      "entry": 0.88,
+      "correct": true,
+      "pnl": 0.3,
+      "closed_by": "resolved",
+      "lead_h": -9.0
+    },
     {
       "ts": "2026-09-06T17:40:00.128715+00:00",
       "city": "Chengdu",
@@ -385,30 +387,6 @@
       "pnl": 0.41,
       "closed_by": "resolved",
       "lead_h": -3.0
-    },
-    {
-      "ts": "2026-08-12T22:05:29.126514+00:00",
-      "city": "Madrid",
-      "date": "2026-08-12",
-      "side": "YES",
-      "bucket": "38.0-38.0C",
-      "entry": 0.85,
-      "correct": true,
-      "pnl": 0.53,
-      "closed_by": "resolved",
-      "lead_h": -3.0
-    },
-    {
-      "ts": "2026-08-12T21:09:23.584332+00:00",
-      "city": "Helsinki",
-      "date": "2026-08-12",
-      "side": "YES",
-      "bucket": "17.0-17.0C",
-      "entry": 0.9,
-      "correct": true,
-      "pnl": 0.33,
-      "closed_by": "resolved",
-      "lead_h": -2.0
     }
   ],
   "city_stats": {
@@ -573,9 +551,9 @@
       "total_pnl": -5.69
     },
     "nyc": {
-      "n": 13,
-      "win_rate": 0.692,
-      "total_pnl": -6.03
+      "n": 14,
+      "win_rate": 0.714,
+      "total_pnl": -5.73
     },
     "wellington": {
       "n": 6,
