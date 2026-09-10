@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-10T19:00:14.003144+00:00",
+  "generated_at": "2026-09-10T20:00:13.517453+00:00",
   "balance": {
-    "current": 39.13,
-    "cash": 39.13,
-    "deployed": 0,
-    "unrealized": 0,
+    "current": 38.85,
+    "cash": 34.57,
+    "deployed": 4.56,
+    "unrealized": -0.28,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -10.87,
-    "pnl_pct": -21.7
+    "pnl_usd": -11.15,
+    "pnl_pct": -22.3
   },
   "trades": {
-    "total": 563,
+    "total": 565,
     "wins": 357,
     "losses": 202,
     "total_pnl": -13.7
@@ -26,7 +26,50 @@
     "base": 0.354,
     "status": "amber"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "city": "Atlanta",
+      "date": "2026-09-10",
+      "unit": "F",
+      "side": "YES",
+      "bucket_low": 90.0,
+      "bucket_high": 91.0,
+      "entry_price": 0.88,
+      "shares": 2.51,
+      "cost": 2.21,
+      "current_p": 0.825,
+      "model_p": 0.219,
+      "ev_pct": -66.1,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-09-10T19:55:37.828558+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.14
+    },
+    {
+      "city": "New York City",
+      "date": "2026-09-10",
+      "unit": "F",
+      "side": "YES",
+      "bucket_low": 86.0,
+      "bucket_high": 87.0,
+      "entry_price": 0.86,
+      "shares": 2.73,
+      "cost": 2.35,
+      "current_p": 0.81,
+      "model_p": 0.0,
+      "ev_pct": -86.0,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-09-10T19:55:37.828558+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.14
+    }
+  ],
   "recent_resolved": [
     {
       "ts": "2026-09-08T15:29:21.162809+00:00",
