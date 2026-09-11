@@ -1,32 +1,53 @@
 {
-  "generated_at": "2026-09-11T07:00:14.847170+00:00",
+  "generated_at": "2026-09-11T08:00:13.711955+00:00",
   "balance": {
-    "current": 39.91,
-    "cash": 37.81,
-    "deployed": 2.1,
-    "unrealized": 0.0,
+    "current": 39.33,
+    "cash": 35.54,
+    "deployed": 4.37,
+    "unrealized": -0.58,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -10.09,
-    "pnl_pct": -20.2
+    "pnl_usd": -10.67,
+    "pnl_pct": -21.3
   },
   "trades": {
-    "total": 567,
-    "wins": 360,
+    "total": 568,
+    "wins": 361,
     "losses": 202,
     "total_pnl": -12.92
   },
   "brier": {
-    "score": 0.2445,
-    "n": 537,
-    "bss": -0.065,
+    "score": 0.2447,
+    "n": 538,
+    "bss": -0.064,
     "win_rate": 0.667,
-    "ci_lo": 0.2136,
-    "ci_hi": 0.2755,
-    "base": 0.358,
+    "ci_lo": 0.2138,
+    "ci_hi": 0.2757,
+    "base": 0.359,
     "status": "amber"
   },
   "open_positions": [
+    {
+      "city": "Shenzhen",
+      "date": "2026-09-11",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 32.0,
+      "bucket_high": 32.0,
+      "entry_price": 0.86,
+      "shares": 2.64,
+      "cost": 2.27,
+      "current_p": 0.64,
+      "model_p": 0.7229,
+      "ev_pct": -13.7,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-09-11T07:10:38.586860+00:00",
+      "hours_left": 4.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.58
+    },
     {
       "city": "Seattle",
       "date": "2026-09-10",
@@ -50,6 +71,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-09-11T07:10:38.586860+00:00",
+      "city": "Seattle",
+      "date": "2026-09-10",
+      "side": "YES",
+      "bucket": "70.0-71.0F",
+      "entry": 0.8,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -10.0
+    },
     {
       "ts": "2026-09-11T05:55:38.127345+00:00",
       "city": "Nyc",
@@ -397,18 +430,6 @@
       "pnl": 0.69,
       "closed_by": "take_profit",
       "lead_h": 44.0
-    },
-    {
-      "ts": "2026-08-14T22:05:56.354659+00:00",
-      "city": "Paris",
-      "date": "2026-08-14",
-      "side": "YES",
-      "bucket": "39.0-39.0C",
-      "entry": 0.85,
-      "correct": true,
-      "pnl": 0.53,
-      "closed_by": "resolved",
-      "lead_h": -3.0
     }
   ],
   "city_stats": {
@@ -488,8 +509,8 @@
       "total_pnl": -0.31
     },
     "seattle": {
-      "n": 7,
-      "win_rate": 0.714,
+      "n": 8,
+      "win_rate": 0.75,
       "total_pnl": -0.43
     },
     "toronto": {
