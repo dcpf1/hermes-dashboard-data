@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-12T05:00:13.326097+00:00",
+  "generated_at": "2026-09-12T06:00:12.314140+00:00",
   "balance": {
-    "current": 36.14,
+    "current": 36.09,
     "cash": 33.75,
     "deployed": 3.0,
-    "unrealized": -0.61,
+    "unrealized": -0.66,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.86,
-    "pnl_pct": -27.7
+    "pnl_usd": -13.91,
+    "pnl_pct": -27.8
   },
   "trades": {
     "total": 573,
-    "wins": 363,
+    "wins": 364,
     "losses": 204,
     "total_pnl": -14.84
   },
   "brier": {
-    "score": 0.2465,
-    "n": 542,
-    "bss": -0.07,
-    "win_rate": 0.666,
-    "ci_lo": 0.2157,
-    "ci_hi": 0.2774,
-    "base": 0.36,
+    "score": 0.2462,
+    "n": 543,
+    "bss": -0.067,
+    "win_rate": 0.667,
+    "ci_lo": 0.2154,
+    "ci_hi": 0.277,
+    "base": 0.361,
     "status": "amber"
   },
   "open_positions": [
@@ -37,16 +37,16 @@
       "entry_price": 0.31,
       "shares": 3.23,
       "cost": 1.0,
-      "current_p": 0.12,
+      "current_p": 0.105,
       "model_p": 0.4494,
       "ev_pct": 13.9,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-11T16:01:33.029795+00:00",
-      "hours_left": 7.0,
+      "hours_left": 6.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.61
+      "unrealized_pnl": -0.66
     },
     {
       "city": "Dallas",
@@ -71,6 +71,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-09-12T05:06:05.551279+00:00",
+      "city": "Dallas",
+      "date": "2026-09-11",
+      "side": "YES",
+      "bucket": "98.0-99.0F",
+      "entry": 0.86,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -8.0
+    },
     {
       "ts": "2026-09-11T22:05:27.147761+00:00",
       "city": "Paris",
@@ -418,18 +430,6 @@
       "pnl": -0.6,
       "closed_by": "price_conditional",
       "lead_h": 35.0
-    },
-    {
-      "ts": "2026-08-18T21:10:49.059115+00:00",
-      "city": "Helsinki",
-      "date": "2026-08-18",
-      "side": "YES",
-      "bucket": "19.0-19.0C",
-      "entry": 0.84,
-      "correct": false,
-      "pnl": -3.0,
-      "closed_by": "resolved",
-      "lead_h": -2.0
     }
   ],
   "city_stats": {
@@ -504,8 +504,8 @@
       "total_pnl": -0.19
     },
     "dallas": {
-      "n": 16,
-      "win_rate": 0.688,
+      "n": 17,
+      "win_rate": 0.706,
       "total_pnl": -0.31
     },
     "seattle": {
