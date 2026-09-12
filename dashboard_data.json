@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-12T04:00:12.639713+00:00",
+  "generated_at": "2026-09-12T05:00:13.326097+00:00",
   "balance": {
-    "current": 36.02,
+    "current": 36.14,
     "cash": 33.75,
     "deployed": 3.0,
-    "unrealized": -0.73,
+    "unrealized": -0.61,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.98,
-    "pnl_pct": -28.0
+    "pnl_usd": -13.86,
+    "pnl_pct": -27.7
   },
   "trades": {
     "total": 573,
@@ -37,16 +37,16 @@
       "entry_price": 0.31,
       "shares": 3.23,
       "cost": 1.0,
-      "current_p": 0.085,
+      "current_p": 0.12,
       "model_p": 0.4494,
       "ev_pct": 13.9,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-11T16:01:33.029795+00:00",
-      "hours_left": 8.0,
+      "hours_left": 7.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.73
+      "unrealized_pnl": -0.61
     },
     {
       "city": "Dallas",
