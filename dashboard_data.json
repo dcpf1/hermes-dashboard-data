@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-13T09:00:13.145068+00:00",
+  "generated_at": "2026-09-13T10:00:14.051791+00:00",
   "balance": {
-    "current": 37.06,
-    "cash": 34.76,
-    "deployed": 2.22,
-    "unrealized": 0.08,
+    "current": 37.15,
+    "cash": 37.15,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.94,
-    "pnl_pct": -25.9
+    "pnl_usd": -12.85,
+    "pnl_pct": -25.7
   },
   "trades": {
     "total": 575,
@@ -26,30 +26,20 @@
     "base": 0.361,
     "status": "amber"
   },
-  "open_positions": [
+  "open_positions": [],
+  "recent_resolved": [
     {
+      "ts": "2026-09-13T08:05:18.190151+00:00",
       "city": "Tokyo",
       "date": "2026-09-13",
-      "unit": "C",
       "side": "YES",
-      "bucket_low": 24.0,
-      "bucket_high": 24.0,
-      "entry_price": 0.85,
-      "shares": 2.61,
-      "cost": 2.22,
-      "current_p": 0.88,
-      "model_p": 0.0,
-      "ev_pct": -85.0,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-09-13T08:05:18.190151+00:00",
-      "hours_left": 3.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.08
-    }
-  ],
-  "recent_resolved": [
+      "bucket": "24.0-24.0C",
+      "entry": 0.85,
+      "correct": true,
+      "pnl": 0.17,
+      "closed_by": "resolved",
+      "lead_h": 3.0
+    },
     {
       "ts": "2026-09-13T05:06:03.915519+00:00",
       "city": "Austin",
@@ -397,18 +387,6 @@
       "pnl": -2.06,
       "closed_by": "resolved",
       "lead_h": 9.0
-    },
-    {
-      "ts": "2026-08-21T23:55:05.573331+00:00",
-      "city": "London",
-      "date": "2026-08-21",
-      "side": "YES",
-      "bucket": "21.0-21.0C",
-      "entry": 0.83,
-      "correct": true,
-      "pnl": 0.61,
-      "closed_by": "resolved",
-      "lead_h": -4.0
     }
   ],
   "city_stats": {
