@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-14T22:00:19.552154+00:00",
+  "generated_at": "2026-09-14T23:00:30.871748+00:00",
   "balance": {
-    "current": 37.89,
-    "cash": 31.42,
-    "deployed": 6.11,
-    "unrealized": 0.36,
+    "current": 37.81,
+    "cash": 33.95,
+    "deployed": 3.86,
+    "unrealized": 0.0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.11,
-    "pnl_pct": -24.2
+    "pnl_usd": -12.19,
+    "pnl_pct": -24.4
   },
   "trades": {
     "total": 580,
-    "wins": 366,
+    "wins": 367,
     "losses": 206,
-    "total_pnl": -15.38
+    "total_pnl": -15.1
   },
   "brier": {
-    "score": 0.245,
-    "n": 547,
-    "bss": -0.061,
-    "win_rate": 0.665,
-    "ci_lo": 0.2144,
-    "ci_hi": 0.2756,
-    "base": 0.362,
+    "score": 0.2447,
+    "n": 548,
+    "bss": -0.058,
+    "win_rate": 0.666,
+    "ci_lo": 0.2142,
+    "ci_hi": 0.2752,
+    "base": 0.363,
     "status": "amber"
   },
   "open_positions": [
@@ -37,7 +37,7 @@
       "entry_price": 0.89,
       "shares": 2.24,
       "cost": 1.99,
-      "current_p": 0.965,
+      "current_p": 0.89,
       "model_p": 0.0116,
       "ev_pct": -87.8,
       "n_agree": 1,
@@ -46,7 +46,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.17
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Miami",
@@ -58,7 +58,7 @@
       "entry_price": 0.89,
       "shares": 2.1,
       "cost": 1.87,
-      "current_p": 0.98,
+      "current_p": 0.89,
       "model_p": 0.3446,
       "ev_pct": -54.5,
       "n_agree": 1,
@@ -67,31 +67,22 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.19
-    },
-    {
-      "city": "Warsaw",
-      "date": "2026-09-14",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 19.0,
-      "bucket_high": 19.0,
-      "entry_price": 0.89,
-      "shares": 2.53,
-      "cost": 2.25,
-      "current_p": 0.89,
-      "model_p": 0.7107,
-      "ev_pct": -17.9,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-09-14T13:12:43.657722+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
       "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-09-14T22:32:27.099366+00:00",
+      "city": "Warsaw",
+      "date": "2026-09-14",
+      "side": "YES",
+      "bucket": "19.0-19.0C",
+      "entry": 0.89,
+      "correct": true,
+      "pnl": 0.28,
+      "closed_by": "resolved",
+      "lead_h": -1.0
+    },
     {
       "ts": "2026-09-14T19:57:28.770430+00:00",
       "city": "Toronto",
@@ -439,18 +430,6 @@
       "pnl": 0.9,
       "closed_by": "resolved",
       "lead_h": -3.0
-    },
-    {
-      "ts": "2026-08-25T16:27:43.127846+00:00",
-      "city": "Chengdu",
-      "date": "2026-08-25",
-      "side": "YES",
-      "bucket": "36.0-36.0C",
-      "entry": 0.87,
-      "correct": true,
-      "pnl": 0.45,
-      "closed_by": "resolved",
-      "lead_h": 2.0
     }
   ],
   "city_stats": {
@@ -485,9 +464,9 @@
       "total_pnl": 4.61
     },
     "warsaw": {
-      "n": 13,
-      "win_rate": 0.769,
-      "total_pnl": 3.4
+      "n": 14,
+      "win_rate": 0.786,
+      "total_pnl": 3.68
     },
     "moscow": {
       "n": 19,
