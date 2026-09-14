@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-14T13:00:19.853784+00:00",
+  "generated_at": "2026-09-14T14:00:20.915246+00:00",
   "balance": {
-    "current": 37.45,
-    "cash": 37.45,
-    "deployed": 0,
-    "unrealized": 0,
+    "current": 37.41,
+    "cash": 35.2,
+    "deployed": 2.25,
+    "unrealized": -0.04,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.55,
-    "pnl_pct": -25.1
+    "pnl_usd": -12.59,
+    "pnl_pct": -25.2
   },
   "trades": {
-    "total": 576,
+    "total": 577,
     "wins": 366,
     "losses": 206,
     "total_pnl": -15.38
@@ -26,7 +26,29 @@
     "base": 0.362,
     "status": "amber"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "city": "Warsaw",
+      "date": "2026-09-14",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 19.0,
+      "bucket_high": 19.0,
+      "entry_price": 0.89,
+      "shares": 2.53,
+      "cost": 2.25,
+      "current_p": 0.875,
+      "model_p": 0.7107,
+      "ev_pct": -17.9,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-09-14T13:12:43.657722+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.04
+    }
+  ],
   "recent_resolved": [
     {
       "ts": "2026-09-13T23:05:53.230061+00:00",
