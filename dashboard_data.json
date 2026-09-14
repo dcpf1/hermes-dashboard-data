@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-14T21:00:20.341758+00:00",
+  "generated_at": "2026-09-14T22:00:19.552154+00:00",
   "balance": {
-    "current": 36.57,
-    "cash": 29.23,
-    "deployed": 8.22,
-    "unrealized": -0.88,
+    "current": 37.89,
+    "cash": 31.42,
+    "deployed": 6.11,
+    "unrealized": 0.36,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.43,
-    "pnl_pct": -26.9
+    "pnl_usd": -12.11,
+    "pnl_pct": -24.2
   },
   "trades": {
     "total": 580,
@@ -37,7 +37,7 @@
       "entry_price": 0.89,
       "shares": 2.24,
       "cost": 1.99,
-      "current_p": 0.805,
+      "current_p": 0.965,
       "model_p": 0.0116,
       "ev_pct": -87.8,
       "n_agree": 1,
@@ -46,7 +46,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.19
+      "unrealized_pnl": 0.17
     },
     {
       "city": "Miami",
@@ -58,7 +58,7 @@
       "entry_price": 0.89,
       "shares": 2.1,
       "cost": 1.87,
-      "current_p": 0.865,
+      "current_p": 0.98,
       "model_p": 0.3446,
       "ev_pct": -54.5,
       "n_agree": 1,
@@ -67,28 +67,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.05
-    },
-    {
-      "city": "Toronto",
-      "date": "2026-09-14",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 19.0,
-      "bucket_high": 19.0,
-      "entry_price": 0.89,
-      "shares": 2.37,
-      "cost": 2.11,
-      "current_p": 0.62,
-      "model_p": 0.0073,
-      "ev_pct": -88.3,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-09-14T19:57:28.770430+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.64
+      "unrealized_pnl": 0.19
     },
     {
       "city": "Warsaw",
@@ -113,6 +92,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-09-14T19:57:28.770430+00:00",
+      "city": "Toronto",
+      "date": "2026-09-14",
+      "side": "YES",
+      "bucket": "19.0-19.0C",
+      "entry": 0.89,
+      "correct": true,
+      "pnl": 0.08,
+      "closed_by": "resolved",
+      "lead_h": 0.0
+    },
     {
       "ts": "2026-09-13T23:05:53.230061+00:00",
       "city": "London",
@@ -460,18 +451,6 @@
       "pnl": 0.45,
       "closed_by": "resolved",
       "lead_h": 2.0
-    },
-    {
-      "ts": "2026-08-24T22:05:47.841840+00:00",
-      "city": "Madrid",
-      "date": "2026-08-24",
-      "side": "YES",
-      "bucket": "29.0-29.0C",
-      "entry": 0.85,
-      "correct": true,
-      "pnl": 0.53,
-      "closed_by": "resolved",
-      "lead_h": -3.0
     }
   ],
   "city_stats": {
