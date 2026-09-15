@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-15T07:00:21.923841+00:00",
+  "generated_at": "2026-09-15T08:00:23.379363+00:00",
   "balance": {
-    "current": 38.06,
-    "cash": 36.19,
-    "deployed": 1.87,
-    "unrealized": 0.0,
+    "current": 38.29,
+    "cash": 38.29,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -11.94,
-    "pnl_pct": -23.9
+    "pnl_usd": -11.71,
+    "pnl_pct": -23.4
   },
   "trades": {
     "total": 580,
@@ -26,29 +26,7 @@
     "base": 0.367,
     "status": "amber"
   },
-  "open_positions": [
-    {
-      "city": "Miami",
-      "date": "2026-09-14",
-      "unit": "F",
-      "side": "YES",
-      "bucket_low": 88.0,
-      "bucket_high": 89.0,
-      "entry_price": 0.89,
-      "shares": 2.1,
-      "cost": 1.87,
-      "current_p": 0.89,
-      "model_p": 0.3446,
-      "ev_pct": -54.5,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-09-14T20:44:39.379049+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    }
-  ],
+  "open_positions": [],
   "recent_resolved": [
     {
       "ts": "2026-09-15T04:12:26.349236+00:00",
