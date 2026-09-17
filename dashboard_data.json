@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T06:00:14.267602+00:00",
+  "generated_at": "2026-09-17T07:00:17.240199+00:00",
   "balance": {
     "current": 38.57,
     "cash": 34.08,
@@ -12,18 +12,18 @@
   },
   "trades": {
     "total": 583,
-    "wins": 372,
+    "wins": 373,
     "losses": 206,
     "total_pnl": -14.26
   },
   "brier": {
-    "score": 0.2479,
-    "n": 553,
+    "score": 0.2483,
+    "n": 554,
     "bss": -0.065,
-    "win_rate": 0.669,
-    "ci_lo": 0.2174,
-    "ci_hi": 0.2784,
-    "base": 0.369,
+    "win_rate": 0.67,
+    "ci_lo": 0.2178,
+    "ci_hi": 0.2788,
+    "base": 0.37,
     "status": "amber"
   },
   "open_positions": [
@@ -71,6 +71,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-09-17T05:56:05.032069+00:00",
+      "city": "Houston",
+      "date": "2026-09-16",
+      "side": "YES",
+      "bucket": "92.0-93.0C",
+      "entry": 0.89,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -9.0
+    },
     {
       "ts": "2026-09-17T04:55:42.094113+00:00",
       "city": "Atlanta",
@@ -418,18 +430,6 @@
       "pnl": 0.9,
       "closed_by": "resolved",
       "lead_h": -9.0
-    },
-    {
-      "ts": "2026-08-29T22:10:20.392767+00:00",
-      "city": "Paris",
-      "date": "2026-08-29",
-      "side": "YES",
-      "bucket": "22.0-22.0C",
-      "entry": 0.89,
-      "correct": true,
-      "pnl": 0.26,
-      "closed_by": "resolved",
-      "lead_h": -3.0
     }
   ],
   "city_stats": {
@@ -524,8 +524,8 @@
       "total_pnl": -1.13
     },
     "houston": {
-      "n": 8,
-      "win_rate": 0.5,
+      "n": 9,
+      "win_rate": 0.556,
       "total_pnl": -1.98
     },
     "lucknow": {
