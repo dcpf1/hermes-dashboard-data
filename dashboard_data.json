@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-19T03:00:14.005845+00:00",
+  "generated_at": "2026-09-19T04:00:16.103217+00:00",
   "balance": {
-    "current": 37.52,
-    "cash": 33.15,
-    "deployed": 4.37,
-    "unrealized": 0.0,
+    "current": 37.51,
+    "cash": 31.94,
+    "deployed": 5.58,
+    "unrealized": -0.01,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.48,
+    "pnl_usd": -12.49,
     "pnl_pct": -25.0
   },
   "trades": {
-    "total": 588,
+    "total": 589,
     "wins": 375,
     "losses": 207,
     "total_pnl": -15.59
@@ -27,6 +27,27 @@
     "status": "amber"
   },
   "open_positions": [
+    {
+      "city": "Sao Paulo",
+      "date": "2026-09-20",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": -999.0,
+      "bucket_high": 21.0,
+      "entry_price": 0.57,
+      "shares": 2.12,
+      "cost": 1.21,
+      "current_p": 0.565,
+      "model_p": 0.9175,
+      "ev_pct": 34.8,
+      "n_agree": 5,
+      "n_avail": 6,
+      "opened_at": "2026-09-19T03:06:28.031387+00:00",
+      "hours_left": 32.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.01
+    },
     {
       "city": "Houston",
       "date": "2026-09-18",
