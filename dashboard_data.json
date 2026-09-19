@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-19T07:00:14.020922+00:00",
+  "generated_at": "2026-09-19T08:00:16.981391+00:00",
   "balance": {
-    "current": 38.41,
-    "cash": 34.62,
-    "deployed": 3.33,
-    "unrealized": 0.46,
+    "current": 38.84,
+    "cash": 34.95,
+    "deployed": 3.29,
+    "unrealized": 0.6,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -11.59,
-    "pnl_pct": -23.2
+    "pnl_usd": -11.16,
+    "pnl_pct": -22.3
   },
   "trades": {
-    "total": 589,
+    "total": 590,
     "wins": 377,
     "losses": 207,
     "total_pnl": -14.88
@@ -28,6 +28,27 @@
   },
   "open_positions": [
     {
+      "city": "Chengdu",
+      "date": "2026-09-19",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 23.0,
+      "bucket_high": 23.0,
+      "entry_price": 0.88,
+      "shares": 2.36,
+      "cost": 2.08,
+      "current_p": 0.93,
+      "model_p": 0.0538,
+      "ev_pct": -82.6,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-09-19T07:11:04.057496+00:00",
+      "hours_left": 4.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.12
+    },
+    {
       "city": "Sao Paulo",
       "date": "2026-09-20",
       "unit": "C",
@@ -37,37 +58,16 @@
       "entry_price": 0.57,
       "shares": 2.12,
       "cost": 1.21,
-      "current_p": 0.785,
+      "current_p": 0.795,
       "model_p": 0.9175,
       "ev_pct": 34.8,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-09-19T03:06:28.031387+00:00",
-      "hours_left": 29.0,
+      "hours_left": 28.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.46
-    },
-    {
-      "city": "Dallas",
-      "date": "2026-09-18",
-      "unit": "F",
-      "side": "YES",
-      "bucket_low": 96.0,
-      "bucket_high": 97.0,
-      "entry_price": 0.88,
-      "shares": 2.41,
-      "cost": 2.12,
-      "current_p": 0.88,
-      "model_p": 0.006,
-      "ev_pct": -87.4,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-09-18T22:28:38.194455+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
+      "unrealized_pnl": 0.48
     }
   ],
   "recent_resolved": [
