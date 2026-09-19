@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-19T22:00:13.336169+00:00",
+  "generated_at": "2026-09-19T23:00:16.166523+00:00",
   "balance": {
-    "current": 38.73,
+    "current": 38.7,
     "cash": 32.2,
     "deployed": 6.32,
-    "unrealized": 0.21,
+    "unrealized": 0.18,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -11.27,
-    "pnl_pct": -22.5
+    "pnl_usd": -11.3,
+    "pnl_pct": -22.6
   },
   "trades": {
     "total": 593,
-    "wins": 378,
+    "wins": 379,
     "losses": 207,
     "total_pnl": -14.6
   },
   "brier": {
-    "score": 0.2504,
-    "n": 560,
-    "bss": -0.068,
-    "win_rate": 0.671,
-    "ci_lo": 0.22,
-    "ci_hi": 0.2808,
-    "base": 0.375,
-    "status": "red"
+    "score": 0.25,
+    "n": 561,
+    "bss": -0.065,
+    "win_rate": 0.672,
+    "ci_lo": 0.2196,
+    "ci_hi": 0.2803,
+    "base": 0.376,
+    "status": "amber"
   },
   "open_positions": [
     {
@@ -37,16 +37,16 @@
       "entry_price": 0.76,
       "shares": 2.09,
       "cost": 1.59,
-      "current_p": 0.81,
+      "current_p": 0.795,
       "model_p": 0.9005,
       "ev_pct": 14.0,
       "n_agree": 5,
       "n_avail": 7,
       "opened_at": "2026-09-19T14:37:43.046029+00:00",
-      "hours_left": 14.0,
+      "hours_left": 13.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.1
+      "unrealized_pnl": 0.07
     },
     {
       "city": "Sao Paulo",
@@ -58,16 +58,16 @@
       "entry_price": 0.57,
       "shares": 2.12,
       "cost": 1.21,
-      "current_p": 0.675,
+      "current_p": 0.665,
       "model_p": 0.9175,
       "ev_pct": 34.8,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-09-19T03:06:28.031387+00:00",
-      "hours_left": 14.0,
+      "hours_left": 13.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.22
+      "unrealized_pnl": 0.2
     },
     {
       "city": "Milan",
@@ -79,16 +79,16 @@
       "entry_price": 0.68,
       "shares": 2.37,
       "cost": 1.61,
-      "current_p": 0.635,
+      "current_p": 0.64,
       "model_p": 0.9023,
       "ev_pct": 22.2,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-19T14:42:34.641984+00:00",
-      "hours_left": 38.0,
+      "hours_left": 37.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.11
+      "unrealized_pnl": -0.09
     },
     {
       "city": "Madrid",
@@ -113,6 +113,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-09-19T22:32:58.266580+00:00",
+      "city": "Madrid",
+      "date": "2026-09-19",
+      "side": "YES",
+      "bucket": "29.0-29.0C",
+      "entry": 0.88,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -3.0
+    },
     {
       "ts": "2026-09-19T20:26:45.010850+00:00",
       "city": "Chengdu",
@@ -460,18 +472,6 @@
       "pnl": 0.31,
       "closed_by": "take_profit",
       "lead_h": 6.0
-    },
-    {
-      "ts": "2026-09-06T16:38:01.040363+00:00",
-      "city": "Shenzhen",
-      "date": "2026-09-06",
-      "side": "NO",
-      "bucket": "28.0-28.0C",
-      "entry": 0.643,
-      "correct": false,
-      "pnl": -1.0,
-      "closed_by": "resolved",
-      "lead_h": 6.0
     }
   ],
   "city_stats": {
@@ -496,8 +496,8 @@
       "total_pnl": 5.99
     },
     "madrid": {
-      "n": 21,
-      "win_rate": 0.81,
+      "n": 22,
+      "win_rate": 0.818,
       "total_pnl": 5.41
     },
     "istanbul": {
