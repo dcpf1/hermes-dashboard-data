@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-19T15:00:15.713571+00:00",
+  "generated_at": "2026-09-19T16:00:18.171261+00:00",
   "balance": {
-    "current": 38.4,
-    "cash": 31.75,
-    "deployed": 6.49,
-    "unrealized": 0.16,
+    "current": 38.3,
+    "cash": 29.84,
+    "deployed": 8.4,
+    "unrealized": 0.06,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -11.6,
-    "pnl_pct": -23.2
+    "pnl_usd": -11.7,
+    "pnl_pct": -23.4
   },
   "trades": {
-    "total": 592,
+    "total": 593,
     "wins": 377,
     "losses": 207,
     "total_pnl": -14.88
@@ -43,7 +43,7 @@
       "n_agree": 5,
       "n_avail": 7,
       "opened_at": "2026-09-19T14:37:43.046029+00:00",
-      "hours_left": 21.0,
+      "hours_left": 20.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.01
@@ -58,16 +58,16 @@
       "entry_price": 0.57,
       "shares": 2.12,
       "cost": 1.21,
-      "current_p": 0.66,
+      "current_p": 0.675,
       "model_p": 0.9175,
       "ev_pct": 34.8,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-09-19T03:06:28.031387+00:00",
-      "hours_left": 21.0,
+      "hours_left": 20.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.19
+      "unrealized_pnl": 0.22
     },
     {
       "city": "Milan",
@@ -85,7 +85,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-19T14:42:34.641984+00:00",
-      "hours_left": 45.0,
+      "hours_left": 44.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.04
@@ -110,6 +110,27 @@
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
+    },
+    {
+      "city": "Madrid",
+      "date": "2026-09-19",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 29.0,
+      "bucket_high": 29.0,
+      "entry_price": 0.88,
+      "shares": 2.17,
+      "cost": 1.91,
+      "current_p": 0.82,
+      "model_p": 0.97,
+      "ev_pct": 9.0,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-09-19T15:27:40.096247+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.13
     }
   ],
   "recent_resolved": [
