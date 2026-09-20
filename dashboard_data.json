@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-20T13:00:17.020000+00:00",
+  "generated_at": "2026-09-20T14:00:17.279863+00:00",
   "balance": {
-    "current": 38.38,
+    "current": 38.71,
     "cash": 29.13,
     "deployed": 9.65,
-    "unrealized": -0.4,
+    "unrealized": -0.07,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -11.62,
-    "pnl_pct": -23.2
+    "pnl_usd": -11.29,
+    "pnl_pct": -22.6
   },
   "trades": {
     "total": 596,
@@ -37,16 +37,16 @@
       "entry_price": 0.68,
       "shares": 2.37,
       "cost": 1.61,
-      "current_p": 0.52,
+      "current_p": 0.555,
       "model_p": 0.9023,
       "ev_pct": 22.2,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-19T14:42:34.641984+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.38
+      "unrealized_pnl": -0.3
     },
     {
       "city": "London",
@@ -58,16 +58,16 @@
       "entry_price": 0.65,
       "shares": 2.15,
       "cost": 1.4,
-      "current_p": 0.665,
+      "current_p": 0.69,
       "model_p": 0.9215,
       "ev_pct": 27.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-20T07:14:52.155369+00:00",
-      "hours_left": 47.0,
+      "hours_left": 46.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.03
+      "unrealized_pnl": 0.09
     },
     {
       "city": "Chengdu",
@@ -100,7 +100,7 @@
       "entry_price": 0.76,
       "shares": 2.09,
       "cost": 1.59,
-      "current_p": 0.665,
+      "current_p": 0.735,
       "model_p": 0.9005,
       "ev_pct": 14.0,
       "n_agree": 5,
@@ -109,7 +109,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.2
+      "unrealized_pnl": -0.05
     },
     {
       "city": "Chongqing",
@@ -142,7 +142,7 @@
       "entry_price": 0.57,
       "shares": 2.12,
       "cost": 1.21,
-      "current_p": 0.64,
+      "current_p": 0.66,
       "model_p": 0.9175,
       "ev_pct": 34.8,
       "n_agree": 5,
@@ -151,7 +151,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.15
+      "unrealized_pnl": 0.19
     }
   ],
   "recent_resolved": [
