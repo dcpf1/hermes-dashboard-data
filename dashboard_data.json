@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-20T08:00:12.912915+00:00",
+  "generated_at": "2026-09-20T09:00:14.266575+00:00",
   "balance": {
-    "current": 38.57,
+    "current": 38.98,
     "cash": 29.13,
     "deployed": 9.65,
-    "unrealized": -0.21,
+    "unrealized": 0.2,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -11.43,
-    "pnl_pct": -22.9
+    "pnl_usd": -11.02,
+    "pnl_pct": -22.0
   },
   "trades": {
     "total": 596,
@@ -37,16 +37,16 @@
       "entry_price": 0.8,
       "shares": 2.47,
       "cost": 1.98,
-      "current_p": 0.73,
+      "current_p": 0.885,
       "model_p": 0.7335,
       "ev_pct": -6.7,
       "n_agree": 1,
       "n_avail": 1,
       "opened_at": "2026-09-20T07:12:45.853979+00:00",
-      "hours_left": 4.0,
+      "hours_left": 3.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.17
+      "unrealized_pnl": 0.21
     },
     {
       "city": "Seattle",
@@ -64,7 +64,7 @@
       "n_agree": 5,
       "n_avail": 7,
       "opened_at": "2026-09-19T14:37:43.046029+00:00",
-      "hours_left": 4.0,
+      "hours_left": 3.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.01
@@ -79,16 +79,16 @@
       "entry_price": 0.86,
       "shares": 2.16,
       "cost": 1.86,
-      "current_p": 0.84,
+      "current_p": 0.96,
       "model_p": 0.0,
       "ev_pct": -86.0,
       "n_agree": 1,
       "n_avail": 1,
       "opened_at": "2026-09-20T07:38:38.427891+00:00",
-      "hours_left": 4.0,
+      "hours_left": 3.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.04
+      "unrealized_pnl": 0.22
     },
     {
       "city": "Sao Paulo",
@@ -100,16 +100,16 @@
       "entry_price": 0.57,
       "shares": 2.12,
       "cost": 1.21,
-      "current_p": 0.725,
+      "current_p": 0.74,
       "model_p": 0.9175,
       "ev_pct": 34.8,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-09-19T03:06:28.031387+00:00",
-      "hours_left": 4.0,
+      "hours_left": 3.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.33
+      "unrealized_pnl": 0.36
     },
     {
       "city": "Milan",
@@ -121,16 +121,16 @@
       "entry_price": 0.68,
       "shares": 2.37,
       "cost": 1.61,
-      "current_p": 0.595,
+      "current_p": 0.45,
       "model_p": 0.9023,
       "ev_pct": 22.2,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-19T14:42:34.641984+00:00",
-      "hours_left": 28.0,
+      "hours_left": 27.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.2
+      "unrealized_pnl": -0.55
     },
     {
       "city": "London",
@@ -142,16 +142,16 @@
       "entry_price": 0.65,
       "shares": 2.15,
       "cost": 1.4,
-      "current_p": 0.585,
+      "current_p": 0.625,
       "model_p": 0.9215,
       "ev_pct": 27.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-20T07:14:52.155369+00:00",
-      "hours_left": 52.0,
+      "hours_left": 51.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.14
+      "unrealized_pnl": -0.05
     }
   ],
   "recent_resolved": [
