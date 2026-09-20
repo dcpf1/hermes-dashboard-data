@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-20T15:00:14.982675+00:00",
+  "generated_at": "2026-09-20T16:00:20.411786+00:00",
   "balance": {
-    "current": 39.29,
-    "cash": 27.38,
-    "deployed": 11.4,
-    "unrealized": 0.51,
+    "current": 39.61,
+    "cash": 25.74,
+    "deployed": 13.04,
+    "unrealized": 0.83,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -10.71,
-    "pnl_pct": -21.4
+    "pnl_usd": -10.39,
+    "pnl_pct": -20.8
   },
   "trades": {
-    "total": 597,
+    "total": 598,
     "wins": 379,
     "losses": 207,
     "total_pnl": -14.05
@@ -37,16 +37,16 @@
       "entry_price": 0.68,
       "shares": 2.37,
       "cost": 1.61,
-      "current_p": 0.73,
+      "current_p": 0.69,
       "model_p": 0.9023,
       "ev_pct": 22.2,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-19T14:42:34.641984+00:00",
-      "hours_left": 21.0,
+      "hours_left": 20.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.12
+      "unrealized_pnl": 0.02
     },
     {
       "city": "London",
@@ -58,16 +58,16 @@
       "entry_price": 0.65,
       "shares": 2.15,
       "cost": 1.4,
-      "current_p": 0.76,
+      "current_p": 0.785,
       "model_p": 0.9215,
       "ev_pct": 27.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-20T07:14:52.155369+00:00",
-      "hours_left": 45.0,
+      "hours_left": 44.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.24
+      "unrealized_pnl": 0.29
     },
     {
       "city": "Chengdu",
@@ -112,6 +112,27 @@
       "unrealized_pnl": 0.0
     },
     {
+      "city": "Madrid",
+      "date": "2026-09-20",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 31.0,
+      "bucket_high": 31.0,
+      "entry_price": 0.89,
+      "shares": 1.84,
+      "cost": 1.64,
+      "current_p": 0.965,
+      "model_p": 0.97,
+      "ev_pct": 8.0,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-09-20T15:05:24.907022+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.14
+    },
+    {
       "city": "Munich",
       "date": "2026-09-20",
       "unit": "C",
@@ -121,7 +142,7 @@
       "entry_price": 0.88,
       "shares": 1.99,
       "cost": 1.75,
-      "current_p": 0.905,
+      "current_p": 0.88,
       "model_p": 0.0421,
       "ev_pct": -83.8,
       "n_agree": 1,
@@ -130,7 +151,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.05
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Chongqing",
@@ -163,7 +184,7 @@
       "entry_price": 0.57,
       "shares": 2.12,
       "cost": 1.21,
-      "current_p": 0.615,
+      "current_p": 0.75,
       "model_p": 0.9175,
       "ev_pct": 34.8,
       "n_agree": 5,
@@ -172,7 +193,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.1
+      "unrealized_pnl": 0.38
     }
   ],
   "recent_resolved": [
