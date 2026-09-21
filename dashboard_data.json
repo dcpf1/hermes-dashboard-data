@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-21T09:00:14.459011+00:00",
+  "generated_at": "2026-09-21T10:00:22.394887+00:00",
   "balance": {
-    "current": 37.38,
+    "current": 36.59,
     "cash": 32.28,
     "deployed": 4.8,
-    "unrealized": 0.3,
+    "unrealized": -0.49,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.62,
-    "pnl_pct": -25.2
+    "pnl_usd": -13.41,
+    "pnl_pct": -26.8
   },
   "trades": {
     "total": 602,
@@ -37,16 +37,16 @@
       "entry_price": 0.68,
       "shares": 2.37,
       "cost": 1.61,
-      "current_p": 0.775,
+      "current_p": 0.615,
       "model_p": 0.9023,
       "ev_pct": 22.2,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-19T14:42:34.641984+00:00",
-      "hours_left": 3.0,
+      "hours_left": 2.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.23
+      "unrealized_pnl": -0.15
     },
     {
       "city": "Tokyo",
@@ -58,16 +58,16 @@
       "entry_price": 0.84,
       "shares": 2.13,
       "cost": 1.79,
-      "current_p": 0.805,
+      "current_p": 0.565,
       "model_p": 0.0,
       "ev_pct": -84.0,
       "n_agree": 1,
       "n_avail": 1,
       "opened_at": "2026-09-21T07:44:15.150429+00:00",
-      "hours_left": 3.0,
+      "hours_left": 2.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.07
+      "unrealized_pnl": -0.59
     },
     {
       "city": "London",
@@ -79,16 +79,16 @@
       "entry_price": 0.65,
       "shares": 2.15,
       "cost": 1.4,
-      "current_p": 0.715,
+      "current_p": 0.765,
       "model_p": 0.9215,
       "ev_pct": 27.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-20T07:14:52.155369+00:00",
-      "hours_left": 27.0,
+      "hours_left": 26.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.14
+      "unrealized_pnl": 0.25
     }
   ],
   "recent_resolved": [
