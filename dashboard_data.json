@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-21T10:00:22.394887+00:00",
+  "generated_at": "2026-09-21T11:00:28.921542+00:00",
   "balance": {
-    "current": 36.59,
-    "cash": 32.28,
-    "deployed": 4.8,
-    "unrealized": -0.49,
+    "current": 35.9,
+    "cash": 33.21,
+    "deployed": 3.01,
+    "unrealized": -0.32,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.41,
-    "pnl_pct": -26.8
+    "pnl_usd": -14.1,
+    "pnl_pct": -28.2
   },
   "trades": {
     "total": 602,
@@ -37,37 +37,16 @@
       "entry_price": 0.68,
       "shares": 2.37,
       "cost": 1.61,
-      "current_p": 0.615,
+      "current_p": 0.445,
       "model_p": 0.9023,
       "ev_pct": 22.2,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-19T14:42:34.641984+00:00",
-      "hours_left": 2.0,
+      "hours_left": 1.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.15
-    },
-    {
-      "city": "Tokyo",
-      "date": "2026-09-21",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 24.0,
-      "bucket_high": 24.0,
-      "entry_price": 0.84,
-      "shares": 2.13,
-      "cost": 1.79,
-      "current_p": 0.565,
-      "model_p": 0.0,
-      "ev_pct": -84.0,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-09-21T07:44:15.150429+00:00",
-      "hours_left": 2.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.59
+      "unrealized_pnl": -0.56
     },
     {
       "city": "London",
@@ -79,16 +58,16 @@
       "entry_price": 0.65,
       "shares": 2.15,
       "cost": 1.4,
-      "current_p": 0.765,
+      "current_p": 0.76,
       "model_p": 0.9215,
       "ev_pct": 27.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-20T07:14:52.155369+00:00",
-      "hours_left": 26.0,
+      "hours_left": 25.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.25
+      "unrealized_pnl": 0.24
     }
   ],
   "recent_resolved": [
@@ -103,6 +82,18 @@
       "pnl": -0.33,
       "closed_by": "price_conditional",
       "lead_h": 21.0
+    },
+    {
+      "ts": "2026-09-21T07:44:15.150429+00:00",
+      "city": "Tokyo",
+      "date": "2026-09-21",
+      "side": "YES",
+      "bucket": "24.0-24.0C",
+      "entry": 0.84,
+      "correct": false,
+      "pnl": -0.86,
+      "closed_by": "resolved",
+      "lead_h": 4.0
     },
     {
       "ts": "2026-09-21T07:31:38.373818+00:00",
@@ -439,18 +430,6 @@
       "pnl": 0.27,
       "closed_by": "resolved",
       "lead_h": -1.0
-    },
-    {
-      "ts": "2026-09-11T22:05:27.147761+00:00",
-      "city": "Madrid",
-      "date": "2026-09-11",
-      "side": "YES",
-      "bucket": "31.0-31.0C",
-      "entry": 0.86,
-      "correct": false,
-      "pnl": -2.03,
-      "closed_by": "resolved",
-      "lead_h": -2.0
     }
   ],
   "city_stats": {
