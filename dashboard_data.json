@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-22T03:00:18.699729+00:00",
+  "generated_at": "2026-09-22T04:00:14.878923+00:00",
   "balance": {
-    "current": 35.77,
+    "current": 35.7,
     "cash": 29.83,
     "deployed": 6.14,
-    "unrealized": -0.2,
+    "unrealized": -0.27,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -14.23,
-    "pnl_pct": -28.5
+    "pnl_usd": -14.3,
+    "pnl_pct": -28.6
   },
   "trades": {
     "total": 608,
@@ -37,16 +37,16 @@
       "entry_price": 0.65,
       "shares": 2.15,
       "cost": 1.4,
-      "current_p": 0.555,
+      "current_p": 0.525,
       "model_p": 0.9215,
       "ev_pct": 27.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-20T07:14:52.155369+00:00",
-      "hours_left": 9.0,
+      "hours_left": 8.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.2
+      "unrealized_pnl": -0.27
     },
     {
       "city": "Austin",
