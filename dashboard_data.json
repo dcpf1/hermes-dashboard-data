@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-22T21:00:14.604740+00:00",
+  "generated_at": "2026-09-22T22:00:18.710739+00:00",
   "balance": {
-    "current": 36.55,
+    "current": 36.31,
     "cash": 30.16,
     "deployed": 6.15,
-    "unrealized": 0.24,
+    "unrealized": 0.0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.45,
-    "pnl_pct": -26.9
+    "pnl_usd": -13.69,
+    "pnl_pct": -27.4
   },
   "trades": {
     "total": 612,
@@ -58,7 +58,7 @@
       "entry_price": 0.86,
       "shares": 2.38,
       "cost": 2.05,
-      "current_p": 0.96,
+      "current_p": 0.86,
       "model_p": 0.8829,
       "ev_pct": 2.3,
       "n_agree": 1,
@@ -67,7 +67,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.24
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Atlanta",
