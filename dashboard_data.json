@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-22T16:00:14.638154+00:00",
+  "generated_at": "2026-09-22T17:00:23.056826+00:00",
   "balance": {
-    "current": 36.27,
+    "current": 36.58,
     "cash": 34.13,
     "deployed": 2.18,
-    "unrealized": -0.04,
+    "unrealized": 0.27,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.73,
-    "pnl_pct": -27.5
+    "pnl_usd": -13.42,
+    "pnl_pct": -26.8
   },
   "trades": {
     "total": 610,
-    "wins": 391,
+    "wins": 392,
     "losses": 212,
-    "total_pnl": -16.61
+    "total_pnl": -16.62
   },
   "brier": {
-    "score": 0.2494,
-    "n": 577,
-    "bss": -0.052,
-    "win_rate": 0.674,
-    "ci_lo": 0.2195,
-    "ci_hi": 0.2793,
-    "base": 0.386,
-    "status": "amber"
+    "score": 0.2507,
+    "n": 578,
+    "bss": -0.056,
+    "win_rate": 0.675,
+    "ci_lo": 0.2207,
+    "ci_hi": 0.2806,
+    "base": 0.388,
+    "status": "red"
   },
   "open_positions": [
     {
@@ -37,7 +37,7 @@
       "entry_price": 0.86,
       "shares": 2.53,
       "cost": 2.18,
-      "current_p": 0.845,
+      "current_p": 0.968,
       "model_p": 0.97,
       "ev_pct": 11.0,
       "n_agree": 1,
@@ -46,20 +46,20 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.04
+      "unrealized_pnl": 0.27
     }
   ],
   "recent_resolved": [
     {
-      "ts": "2026-09-22T07:18:28.812896+00:00",
+      "ts": "2026-09-22T16:16:46.702090+00:00",
       "city": "Chongqing",
       "date": "2026-09-22",
       "side": "YES",
       "bucket": "22.0-22.0C",
       "entry": 0.88,
-      "correct": false,
+      "correct": true,
       "pnl": -0.01,
-      "closed_by": "resolved",
+      "closed_by": "forecast_changed",
       "lead_h": 4.0
     },
     {
@@ -553,9 +553,9 @@
       "total_pnl": -4.3
     },
     "chongqing": {
-      "n": 31,
-      "win_rate": 0.677,
-      "total_pnl": -4.61
+      "n": 32,
+      "win_rate": 0.688,
+      "total_pnl": -4.62
     },
     "singapore": {
       "n": 13,
@@ -631,8 +631,8 @@
   },
   "lead_brier": {
     "lt6": {
-      "brier": 0.4775,
-      "n": 15
+      "brier": 0.5101,
+      "n": 16
     },
     "6to24": {
       "brier": 0.2426,
