@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-23T20:00:15.406879+00:00",
+  "generated_at": "2026-09-23T21:00:12.688224+00:00",
   "balance": {
-    "current": 37.6,
+    "current": 37.58,
     "cash": 31.99,
     "deployed": 5.52,
-    "unrealized": 0.09,
+    "unrealized": 0.07,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.4,
+    "pnl_usd": -12.42,
     "pnl_pct": -24.8
   },
   "trades": {
@@ -37,16 +37,16 @@
       "entry_price": 0.72,
       "shares": 2.62,
       "cost": 1.89,
-      "current_p": 0.765,
+      "current_p": 0.785,
       "model_p": 0.9289,
       "ev_pct": 20.9,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-23T01:32:39.674652+00:00",
-      "hours_left": 16.0,
+      "hours_left": 15.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.12
+      "unrealized_pnl": 0.17
     },
     {
       "city": "Los Angeles",
@@ -58,16 +58,16 @@
       "entry_price": 0.75,
       "shares": 2.19,
       "cost": 1.64,
-      "current_p": 0.735,
+      "current_p": 0.705,
       "model_p": 0.9056,
       "ev_pct": 15.6,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-09-23T16:26:39.740334+00:00",
-      "hours_left": 40.0,
+      "hours_left": 39.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.03
+      "unrealized_pnl": -0.1
     },
     {
       "city": "London",
