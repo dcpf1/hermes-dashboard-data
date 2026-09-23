@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-23T07:00:17.178950+00:00",
+  "generated_at": "2026-09-23T08:00:15.276085+00:00",
   "balance": {
-    "current": 37.42,
-    "cash": 35.36,
-    "deployed": 1.89,
-    "unrealized": 0.17,
+    "current": 37.2,
+    "cash": 33.24,
+    "deployed": 4.01,
+    "unrealized": -0.05,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.58,
-    "pnl_pct": -25.2
+    "pnl_usd": -12.8,
+    "pnl_pct": -25.6
   },
   "trades": {
-    "total": 613,
+    "total": 614,
     "wins": 395,
     "losses": 213,
     "total_pnl": -15.57
@@ -28,6 +28,27 @@
   },
   "open_positions": [
     {
+      "city": "Chengdu",
+      "date": "2026-09-23",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 28.0,
+      "bucket_high": 28.0,
+      "entry_price": 0.89,
+      "shares": 2.38,
+      "cost": 2.12,
+      "current_p": 0.785,
+      "model_p": 0.7229,
+      "ev_pct": -16.7,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-09-23T07:10:54.105380+00:00",
+      "hours_left": 4.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.25
+    },
+    {
       "city": "Atlanta",
       "date": "2026-09-24",
       "unit": "F",
@@ -37,16 +58,16 @@
       "entry_price": 0.72,
       "shares": 2.62,
       "cost": 1.89,
-      "current_p": 0.785,
+      "current_p": 0.795,
       "model_p": 0.9289,
       "ev_pct": 20.9,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-23T01:32:39.674652+00:00",
-      "hours_left": 29.0,
+      "hours_left": 28.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.17
+      "unrealized_pnl": 0.2
     }
   ],
   "recent_resolved": [
