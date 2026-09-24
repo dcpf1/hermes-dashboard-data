@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-24T06:00:13.976283+00:00",
+  "generated_at": "2026-09-24T07:00:13.052133+00:00",
   "balance": {
-    "current": 38.02,
+    "current": 38.0,
     "cash": 34.25,
     "deployed": 3.53,
-    "unrealized": 0.24,
+    "unrealized": 0.22,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -11.98,
+    "pnl_usd": -12.0,
     "pnl_pct": -24.0
   },
   "trades": {
     "total": 616,
     "wins": 397,
     "losses": 213,
-    "total_pnl": -15.31
+    "total_pnl": -15.04
   },
   "brier": {
     "score": 0.2491,
@@ -37,16 +37,16 @@
       "entry_price": 0.72,
       "shares": 2.62,
       "cost": 1.89,
-      "current_p": 0.85,
+      "current_p": 0.84,
       "model_p": 0.9289,
       "ev_pct": 20.9,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-23T01:32:39.674652+00:00",
-      "hours_left": 6.0,
+      "hours_left": 5.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.34
+      "unrealized_pnl": 0.31
     },
     {
       "city": "Los Angeles",
@@ -58,16 +58,16 @@
       "entry_price": 0.75,
       "shares": 2.19,
       "cost": 1.64,
-      "current_p": 0.705,
+      "current_p": 0.71,
       "model_p": 0.9056,
       "ev_pct": 15.6,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-09-23T16:26:39.740334+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.1
+      "unrealized_pnl": -0.09
     }
   ],
   "recent_resolved": [
@@ -79,8 +79,8 @@
       "bucket": "23.0-23.0C",
       "entry": 0.88,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.27,
+      "closed_by": "resolved",
       "lead_h": -2.0
     },
     {
@@ -596,7 +596,7 @@
     "london": {
       "n": 27,
       "win_rate": 0.556,
-      "total_pnl": -5.38
+      "total_pnl": -5.11
     },
     "wellington": {
       "n": 6,
