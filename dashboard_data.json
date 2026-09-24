@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-23T23:00:15.600994+00:00",
+  "generated_at": "2026-09-24T00:00:18.349013+00:00",
   "balance": {
-    "current": 37.25,
+    "current": 37.28,
     "cash": 31.99,
     "deployed": 5.52,
-    "unrealized": -0.26,
+    "unrealized": -0.23,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.75,
-    "pnl_pct": -25.5
+    "pnl_usd": -12.72,
+    "pnl_pct": -25.4
   },
   "trades": {
     "total": 616,
-    "wins": 396,
+    "wins": 397,
     "losses": 213,
     "total_pnl": -15.31
   },
   "brier": {
     "score": 0.2491,
-    "n": 582,
-    "bss": -0.046,
-    "win_rate": 0.677,
-    "ci_lo": 0.2193,
-    "ci_hi": 0.2789,
-    "base": 0.392,
+    "n": 583,
+    "bss": -0.044,
+    "win_rate": 0.678,
+    "ci_lo": 0.2194,
+    "ci_hi": 0.2788,
+    "base": 0.393,
     "status": "amber"
   },
   "open_positions": [
@@ -37,16 +37,16 @@
       "entry_price": 0.72,
       "shares": 2.62,
       "cost": 1.89,
-      "current_p": 0.67,
+      "current_p": 0.68,
       "model_p": 0.9289,
       "ev_pct": 20.9,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-23T01:32:39.674652+00:00",
-      "hours_left": 13.0,
+      "hours_left": 12.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.13
+      "unrealized_pnl": -0.1
     },
     {
       "city": "Los Angeles",
@@ -64,7 +64,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-09-23T16:26:39.740334+00:00",
-      "hours_left": 37.0,
+      "hours_left": 36.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.13
@@ -92,6 +92,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-09-23T23:05:38.119644+00:00",
+      "city": "London",
+      "date": "2026-09-23",
+      "side": "YES",
+      "bucket": "23.0-23.0C",
+      "entry": 0.88,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -2.0
+    },
     {
       "ts": "2026-09-23T16:48:17.501105+00:00",
       "city": "Chengdu",
@@ -439,18 +451,6 @@
       "pnl": -2.22,
       "closed_by": "resolved",
       "lead_h": -2.0
-    },
-    {
-      "ts": "2026-09-17T16:25:51.767733+00:00",
-      "city": "Chengdu",
-      "date": "2026-09-17",
-      "side": "YES",
-      "bucket": "26.0-26.0C",
-      "entry": 0.89,
-      "correct": true,
-      "pnl": 0.27,
-      "closed_by": "resolved",
-      "lead_h": 4.0
     }
   ],
   "city_stats": {
@@ -615,8 +615,8 @@
       "total_pnl": -5.04
     },
     "london": {
-      "n": 26,
-      "win_rate": 0.538,
+      "n": 27,
+      "win_rate": 0.556,
       "total_pnl": -5.38
     },
     "wellington": {
