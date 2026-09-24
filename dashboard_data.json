@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-24T08:00:14.950438+00:00",
+  "generated_at": "2026-09-24T09:00:20.065344+00:00",
   "balance": {
-    "current": 37.82,
-    "cash": 32.2,
-    "deployed": 5.58,
-    "unrealized": 0.04,
+    "current": 38.1,
+    "cash": 36.53,
+    "deployed": 1.64,
+    "unrealized": -0.07,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.18,
-    "pnl_pct": -24.4
+    "pnl_usd": -11.9,
+    "pnl_pct": -23.8
   },
   "trades": {
     "total": 617,
@@ -28,48 +28,6 @@
   },
   "open_positions": [
     {
-      "city": "Chengdu",
-      "date": "2026-09-24",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 23.0,
-      "bucket_high": 23.0,
-      "entry_price": 0.89,
-      "shares": 2.3,
-      "cost": 2.05,
-      "current_p": 0.845,
-      "model_p": 0.0,
-      "ev_pct": -89.0,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-09-24T07:46:05.304194+00:00",
-      "hours_left": 4.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.1
-    },
-    {
-      "city": "Atlanta",
-      "date": "2026-09-24",
-      "unit": "F",
-      "side": "NO",
-      "bucket_low": 68.0,
-      "bucket_high": 69.0,
-      "entry_price": 0.72,
-      "shares": 2.62,
-      "cost": 1.89,
-      "current_p": 0.8,
-      "model_p": 0.9289,
-      "ev_pct": 20.9,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-09-23T01:32:39.674652+00:00",
-      "hours_left": 4.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.21
-    },
-    {
       "city": "Los Angeles",
       "date": "2026-09-25",
       "unit": "F",
@@ -85,13 +43,25 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-09-23T16:26:39.740334+00:00",
-      "hours_left": 28.0,
+      "hours_left": 27.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.07
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-09-24T07:46:05.304194+00:00",
+      "city": "Chengdu",
+      "date": "2026-09-24",
+      "side": "YES",
+      "bucket": "23.0-23.0C",
+      "entry": 0.89,
+      "correct": false,
+      "pnl": -0.1,
+      "closed_by": "resolved",
+      "lead_h": 4.0
+    },
     {
       "ts": "2026-09-23T23:05:38.119644+00:00",
       "city": "London",
@@ -139,6 +109,18 @@
       "pnl": 0.26,
       "closed_by": "resolved",
       "lead_h": -8.0
+    },
+    {
+      "ts": "2026-09-23T01:32:39.674652+00:00",
+      "city": "Atlanta",
+      "date": "2026-09-24",
+      "side": "NO",
+      "bucket": "68.0-69.0F",
+      "entry": 0.72,
+      "correct": true,
+      "pnl": 0.5,
+      "closed_by": "take_profit",
+      "lead_h": 34.0
     },
     {
       "ts": "2026-09-22T23:05:57.386612+00:00",
@@ -427,30 +409,6 @@
       "pnl": 0.29,
       "closed_by": "resolved",
       "lead_h": -10.0
-    },
-    {
-      "ts": "2026-09-18T04:05:35.022762+00:00",
-      "city": "Atlanta",
-      "date": "2026-09-17",
-      "side": "YES",
-      "bucket": "88.0-89.0F",
-      "entry": 0.89,
-      "correct": true,
-      "pnl": 0.28,
-      "closed_by": "resolved",
-      "lead_h": -9.0
-    },
-    {
-      "ts": "2026-09-17T23:55:45.758279+00:00",
-      "city": "London",
-      "date": "2026-09-17",
-      "side": "YES",
-      "bucket": "21.0-21.0C",
-      "entry": 0.89,
-      "correct": false,
-      "pnl": -2.22,
-      "closed_by": "resolved",
-      "lead_h": -2.0
     }
   ],
   "city_stats": {
