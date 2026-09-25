@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-25T07:00:15.403117+00:00",
+  "generated_at": "2026-09-25T08:00:13.122381+00:00",
   "balance": {
-    "current": 38.1,
-    "cash": 33.47,
-    "deployed": 5.42,
-    "unrealized": -0.79,
+    "current": 38.17,
+    "cash": 34.35,
+    "deployed": 3.78,
+    "unrealized": 0.04,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -11.9,
-    "pnl_pct": -23.8
+    "pnl_usd": -11.83,
+    "pnl_pct": -23.7
   },
   "trades": {
     "total": 621,
@@ -43,31 +43,10 @@
       "n_agree": 1,
       "n_avail": 1,
       "opened_at": "2026-09-25T06:24:39.287649+00:00",
-      "hours_left": 5.0,
+      "hours_left": 4.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
-    },
-    {
-      "city": "Los Angeles",
-      "date": "2026-09-25",
-      "unit": "F",
-      "side": "NO",
-      "bucket_low": 76.0,
-      "bucket_high": 77.0,
-      "entry_price": 0.75,
-      "shares": 2.19,
-      "cost": 1.64,
-      "current_p": 0.42,
-      "model_p": 0.9056,
-      "ev_pct": 15.6,
-      "n_agree": 5,
-      "n_avail": 6,
-      "opened_at": "2026-09-23T16:26:39.740334+00:00",
-      "hours_left": 5.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.72
     },
     {
       "city": "Lucknow",
@@ -79,16 +58,16 @@
       "entry_price": 0.74,
       "shares": 2.43,
       "cost": 1.8,
-      "current_p": 0.71,
+      "current_p": 0.755,
       "model_p": 0.922,
       "ev_pct": 18.2,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-25T05:35:44.889443+00:00",
-      "hours_left": 53.0,
+      "hours_left": 52.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.07
+      "unrealized_pnl": 0.04
     }
   ],
   "recent_resolved": [
@@ -163,6 +142,18 @@
       "pnl": 0.26,
       "closed_by": "resolved",
       "lead_h": 4.0
+    },
+    {
+      "ts": "2026-09-23T16:26:39.740334+00:00",
+      "city": "Los Angeles",
+      "date": "2026-09-25",
+      "side": "NO",
+      "bucket": "76.0-77.0F",
+      "entry": 0.75,
+      "correct": false,
+      "pnl": -0.77,
+      "closed_by": "take_profit",
+      "lead_h": 43.0
     },
     {
       "ts": "2026-09-23T04:55:16.318926+00:00",
@@ -439,18 +430,6 @@
       "pnl": 0.26,
       "closed_by": "resolved",
       "lead_h": -3.0
-    },
-    {
-      "ts": "2026-09-19T20:26:45.010850+00:00",
-      "city": "Chengdu",
-      "date": "2026-09-19",
-      "side": "YES",
-      "bucket": "23.0-23.0C",
-      "entry": 0.88,
-      "correct": true,
-      "pnl": 0.28,
-      "closed_by": "resolved",
-      "lead_h": 4.0
     }
   ],
   "city_stats": {
