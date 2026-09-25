@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-25T15:00:17.349761+00:00",
+  "generated_at": "2026-09-25T16:00:20.025186+00:00",
   "balance": {
-    "current": 38.12,
+    "current": 36.15,
     "cash": 32.29,
-    "deployed": 5.84,
-    "unrealized": -0.01,
+    "deployed": 3.86,
+    "unrealized": 0.0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -11.88,
-    "pnl_pct": -23.8
+    "pnl_usd": -13.85,
+    "pnl_pct": -27.7
   },
   "trades": {
     "total": 622,
     "wins": 401,
-    "losses": 213,
-    "total_pnl": -13.92
+    "losses": 214,
+    "total_pnl": -15.9
   },
   "brier": {
-    "score": 0.2495,
-    "n": 587,
-    "bss": -0.044,
-    "win_rate": 0.68,
-    "ci_lo": 0.2199,
-    "ci_hi": 0.2792,
+    "score": 0.2496,
+    "n": 588,
+    "bss": -0.045,
+    "win_rate": 0.679,
+    "ci_lo": 0.22,
+    "ci_hi": 0.2793,
     "base": 0.395,
     "status": "amber"
   },
@@ -37,16 +37,16 @@
       "entry_price": 0.74,
       "shares": 2.43,
       "cost": 1.8,
-      "current_p": 0.735,
+      "current_p": 0.74,
       "model_p": 0.922,
       "ev_pct": 18.2,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-25T05:35:44.889443+00:00",
-      "hours_left": 45.0,
+      "hours_left": 44.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.01
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Chongqing",
@@ -68,30 +68,21 @@
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
-    },
-    {
-      "city": "Tokyo",
-      "date": "2026-09-25",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 26.0,
-      "bucket_high": 26.0,
-      "entry_price": 0.85,
-      "shares": 2.33,
-      "cost": 1.98,
-      "current_p": 0.85,
-      "model_p": 0.5685,
-      "ev_pct": -28.1,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-09-25T06:24:39.287649+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-09-25T15:28:46.831637+00:00",
+      "city": "Tokyo",
+      "date": "2026-09-25",
+      "side": "YES",
+      "bucket": "26.0-26.0C",
+      "entry": 0.85,
+      "correct": false,
+      "pnl": -1.98,
+      "closed_by": "resolved",
+      "lead_h": 5.0
+    },
     {
       "ts": "2026-09-25T05:30:45.976284+00:00",
       "city": "Atlanta",
@@ -439,18 +430,6 @@
       "pnl": 0.3,
       "closed_by": "resolved",
       "lead_h": 4.0
-    },
-    {
-      "ts": "2026-09-19T22:32:58.266580+00:00",
-      "city": "Madrid",
-      "date": "2026-09-19",
-      "side": "YES",
-      "bucket": "29.0-29.0C",
-      "entry": 0.88,
-      "correct": true,
-      "pnl": 0.26,
-      "closed_by": "resolved",
-      "lead_h": -3.0
     }
   ],
   "city_stats": {
@@ -519,11 +498,6 @@
       "win_rate": 0.737,
       "total_pnl": 0.55
     },
-    "tokyo": {
-      "n": 13,
-      "win_rate": 0.615,
-      "total_pnl": 0.49
-    },
     "helsinki": {
       "n": 22,
       "win_rate": 0.727,
@@ -548,6 +522,11 @@
       "n": 10,
       "win_rate": 0.6,
       "total_pnl": -1.28
+    },
+    "tokyo": {
+      "n": 14,
+      "win_rate": 0.571,
+      "total_pnl": -1.49
     },
     "lucknow": {
       "n": 10,
@@ -673,8 +652,8 @@
   },
   "lead_brier": {
     "lt6": {
-      "brier": 0.5133,
-      "n": 18
+      "brier": 0.5033,
+      "n": 19
     },
     "6to24": {
       "brier": 0.2426,
