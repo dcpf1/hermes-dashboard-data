@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-25T08:00:13.122381+00:00",
+  "generated_at": "2026-09-25T09:00:16.743685+00:00",
   "balance": {
-    "current": 38.17,
-    "cash": 34.35,
-    "deployed": 3.78,
-    "unrealized": 0.04,
+    "current": 38.22,
+    "cash": 32.29,
+    "deployed": 5.84,
+    "unrealized": 0.09,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -11.83,
-    "pnl_pct": -23.7
+    "pnl_usd": -11.78,
+    "pnl_pct": -23.6
   },
   "trades": {
-    "total": 621,
+    "total": 622,
     "wins": 401,
     "losses": 213,
     "total_pnl": -13.92
@@ -28,6 +28,27 @@
   },
   "open_positions": [
     {
+      "city": "Chongqing",
+      "date": "2026-09-25",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 29.0,
+      "bucket_high": 29.0,
+      "entry_price": 0.89,
+      "shares": 2.31,
+      "cost": 2.06,
+      "current_p": 0.91,
+      "model_p": 0.879,
+      "ev_pct": -1.1,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-09-25T08:13:55.461648+00:00",
+      "hours_left": 3.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.05
+    },
+    {
       "city": "Tokyo",
       "date": "2026-09-25",
       "unit": "C",
@@ -43,7 +64,7 @@
       "n_agree": 1,
       "n_avail": 1,
       "opened_at": "2026-09-25T06:24:39.287649+00:00",
-      "hours_left": 4.0,
+      "hours_left": 3.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
@@ -64,7 +85,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-25T05:35:44.889443+00:00",
-      "hours_left": 52.0,
+      "hours_left": 51.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.04
