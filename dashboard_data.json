@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-26T23:00:15.972879+00:00",
+  "generated_at": "2026-09-27T00:00:15.584594+00:00",
   "balance": {
-    "current": 37.52,
+    "current": 37.21,
     "cash": 31.9,
     "deployed": 5.43,
-    "unrealized": 0.19,
+    "unrealized": -0.12,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.48,
-    "pnl_pct": -25.0
+    "pnl_usd": -12.79,
+    "pnl_pct": -25.6
   },
   "trades": {
     "total": 629,
@@ -37,16 +37,16 @@
       "entry_price": 0.55,
       "shares": 2.89,
       "cost": 1.59,
-      "current_p": 0.545,
+      "current_p": 0.55,
       "model_p": 0.9205,
       "ev_pct": 37.0,
       "n_agree": 3,
       "n_avail": 3,
       "opened_at": "2026-09-26T19:06:59.440297+00:00",
-      "hours_left": 13.0,
+      "hours_left": 12.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.01
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Lucknow",
@@ -58,16 +58,16 @@
       "entry_price": 0.74,
       "shares": 2.43,
       "cost": 1.8,
-      "current_p": 0.67,
+      "current_p": 0.69,
       "model_p": 0.922,
       "ev_pct": 18.2,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-25T05:35:44.889443+00:00",
-      "hours_left": 13.0,
+      "hours_left": 12.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.17
+      "unrealized_pnl": -0.12
     },
     {
       "city": "Seattle",
@@ -79,7 +79,7 @@
       "entry_price": 0.81,
       "shares": 2.52,
       "cost": 2.04,
-      "current_p": 0.955,
+      "current_p": 0.81,
       "model_p": 0.4115,
       "ev_pct": -39.9,
       "n_agree": 1,
@@ -88,7 +88,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.37
+      "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
