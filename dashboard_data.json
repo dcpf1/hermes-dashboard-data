@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-27T06:00:19.338894+00:00",
+  "generated_at": "2026-09-27T07:00:16.911537+00:00",
   "balance": {
-    "current": 37.36,
+    "current": 37.45,
     "cash": 31.9,
     "deployed": 5.43,
-    "unrealized": 0.03,
+    "unrealized": 0.12,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.64,
-    "pnl_pct": -25.3
+    "pnl_usd": -12.55,
+    "pnl_pct": -25.1
   },
   "trades": {
     "total": 629,
-    "wins": 406,
+    "wins": 407,
     "losses": 215,
-    "total_pnl": -15.43
+    "total_pnl": -15.49
   },
   "brier": {
-    "score": 0.2504,
-    "n": 594,
-    "bss": -0.043,
-    "win_rate": 0.68,
-    "ci_lo": 0.2209,
-    "ci_hi": 0.28,
-    "base": 0.401,
+    "score": 0.2517,
+    "n": 595,
+    "bss": -0.047,
+    "win_rate": 0.681,
+    "ci_lo": 0.2221,
+    "ci_hi": 0.2813,
+    "base": 0.402,
     "status": "red"
   },
   "open_positions": [
@@ -37,16 +37,16 @@
       "entry_price": 0.55,
       "shares": 2.89,
       "cost": 1.59,
-      "current_p": 0.56,
+      "current_p": 0.555,
       "model_p": 0.9205,
       "ev_pct": 37.0,
       "n_agree": 3,
       "n_avail": 3,
       "opened_at": "2026-09-26T19:06:59.440297+00:00",
-      "hours_left": 6.0,
+      "hours_left": 5.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.03
+      "unrealized_pnl": 0.01
     },
     {
       "city": "Lucknow",
@@ -58,16 +58,16 @@
       "entry_price": 0.74,
       "shares": 2.43,
       "cost": 1.8,
-      "current_p": 0.74,
+      "current_p": 0.785,
       "model_p": 0.922,
       "ev_pct": 18.2,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-25T05:35:44.889443+00:00",
-      "hours_left": 6.0,
+      "hours_left": 5.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.0
+      "unrealized_pnl": 0.11
     },
     {
       "city": "Seattle",
@@ -93,16 +93,16 @@
   ],
   "recent_resolved": [
     {
-      "ts": "2026-09-26T22:24:52.775504+00:00",
+      "ts": "2026-09-27T06:24:47.470616+00:00",
       "city": "Austin",
       "date": "2026-09-26",
       "side": "YES",
       "bucket": "92.0-93.0F",
       "entry": 0.89,
-      "correct": false,
+      "correct": true,
       "pnl": -0.06,
-      "closed_by": "resolved",
-      "lead_h": 0.0
+      "closed_by": "forecast_changed",
+      "lead_h": -10.0
     },
     {
       "ts": "2026-09-26T19:40:29.368386+00:00",
@@ -575,9 +575,9 @@
       "total_pnl": -2.79
     },
     "austin": {
-      "n": 11,
-      "win_rate": 0.636,
-      "total_pnl": -2.91
+      "n": 12,
+      "win_rate": 0.667,
+      "total_pnl": -2.97
     },
     "seoul": {
       "n": 3,
