@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-28T08:00:17.617417+00:00",
+  "generated_at": "2026-09-28T09:00:16.809964+00:00",
   "balance": {
-    "current": 35.82,
+    "current": 36.15,
     "cash": 33.72,
     "deployed": 2.15,
-    "unrealized": -0.05,
+    "unrealized": 0.28,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -14.18,
-    "pnl_pct": -28.4
+    "pnl_usd": -13.85,
+    "pnl_pct": -27.7
   },
   "trades": {
     "total": 632,
     "wins": 410,
-    "losses": 216,
-    "total_pnl": -16.46
+    "losses": 217,
+    "total_pnl": -16.95
   },
   "brier": {
-    "score": 0.251,
-    "n": 599,
-    "bss": -0.044,
-    "win_rate": 0.681,
-    "ci_lo": 0.2216,
-    "ci_hi": 0.2804,
-    "base": 0.402,
+    "score": 0.252,
+    "n": 600,
+    "bss": -0.047,
+    "win_rate": 0.68,
+    "ci_lo": 0.2226,
+    "ci_hi": 0.2814,
+    "base": 0.403,
     "status": "red"
   },
   "open_positions": [
@@ -37,19 +37,31 @@
       "entry_price": 0.85,
       "shares": 2.53,
       "cost": 2.15,
-      "current_p": 0.83,
+      "current_p": 0.96,
       "model_p": 0.3178,
       "ev_pct": -53.2,
       "n_agree": 1,
       "n_avail": 1,
       "opened_at": "2026-09-28T07:34:38.415189+00:00",
-      "hours_left": 4.0,
+      "hours_left": 3.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.05
+      "unrealized_pnl": 0.28
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-09-28T08:36:19.518300+00:00",
+      "city": "Seattle",
+      "date": "2026-09-27",
+      "side": "NO",
+      "bucket": "64.0-65.0F",
+      "entry": 0.55,
+      "correct": false,
+      "pnl": -0.49,
+      "closed_by": "price_conditional",
+      "lead_h": 16.0
+    },
     {
       "ts": "2026-09-28T05:05:42.250163+00:00",
       "city": "Austin",
@@ -121,18 +133,6 @@
       "pnl": -0.11,
       "closed_by": "forecast_changed",
       "lead_h": 3.0
-    },
-    {
-      "ts": "2026-09-26T19:06:59.440297+00:00",
-      "city": "Seattle",
-      "date": "2026-09-27",
-      "side": "NO",
-      "bucket": "64.0-65.0F",
-      "entry": 0.55,
-      "correct": false,
-      "pnl": -0.49,
-      "closed_by": "take_profit",
-      "lead_h": 16.0
     },
     {
       "ts": "2026-09-26T08:38:23.803941+00:00",
@@ -507,11 +507,6 @@
       "win_rate": 0.727,
       "total_pnl": -1.6
     },
-    "seattle": {
-      "n": 10,
-      "win_rate": 0.7,
-      "total_pnl": -2.28
-    },
     "tel-aviv": {
       "n": 7,
       "win_rate": 0.286,
@@ -531,6 +526,11 @@
       "n": 6,
       "win_rate": 0.5,
       "total_pnl": -2.73
+    },
+    "seattle": {
+      "n": 11,
+      "win_rate": 0.636,
+      "total_pnl": -2.77
     },
     "chicago": {
       "n": 5,
@@ -635,8 +635,8 @@
       "n": 21
     },
     "6to24": {
-      "brier": 0.2426,
-      "n": 107
+      "brier": 0.2482,
+      "n": 108
     },
     "24to48": {
       "brier": 0.2051,
