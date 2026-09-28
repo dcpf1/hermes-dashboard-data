@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-28T22:00:19.983339+00:00",
+  "generated_at": "2026-09-28T23:00:22.444611+00:00",
   "balance": {
-    "current": 36.37,
+    "current": 36.42,
     "cash": 28.58,
     "deployed": 7.6,
-    "unrealized": 0.19,
+    "unrealized": 0.24,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.63,
-    "pnl_pct": -27.3
+    "pnl_usd": -13.58,
+    "pnl_pct": -27.2
   },
   "trades": {
     "total": 637,
@@ -37,7 +37,7 @@
       "entry_price": 0.87,
       "shares": 2.23,
       "cost": 1.94,
-      "current_p": 0.9545,
+      "current_p": 0.979,
       "model_p": 0.2169,
       "ev_pct": -65.3,
       "n_agree": 1,
@@ -46,7 +46,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.19
+      "unrealized_pnl": 0.24
     },
     {
       "city": "Dallas",
@@ -58,7 +58,7 @@
       "entry_price": 0.88,
       "shares": 2.07,
       "cost": 1.82,
-      "current_p": 0.835,
+      "current_p": 0.88,
       "model_p": 0.8773,
       "ev_pct": -0.3,
       "n_agree": 1,
@@ -67,7 +67,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.09
+      "unrealized_pnl": 0.0
     },
     {
       "city": "London",
@@ -100,7 +100,7 @@
       "entry_price": 0.86,
       "shares": 2.26,
       "cost": 1.94,
-      "current_p": 0.9,
+      "current_p": 0.86,
       "model_p": 0.7641,
       "ev_pct": -9.6,
       "n_agree": 1,
@@ -109,7 +109,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.09
+      "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
