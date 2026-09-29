@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-29T08:00:18.239444+00:00",
+  "generated_at": "2026-09-29T09:00:19.577616+00:00",
   "balance": {
-    "current": 37.03,
-    "cash": 35.09,
-    "deployed": 1.94,
-    "unrealized": 0.0,
+    "current": 37.35,
+    "cash": 37.35,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.97,
-    "pnl_pct": -25.9
+    "pnl_usd": -12.65,
+    "pnl_pct": -25.3
   },
   "trades": {
     "total": 637,
@@ -26,29 +26,7 @@
     "base": 0.409,
     "status": "red"
   },
-  "open_positions": [
-    {
-      "city": "Austin",
-      "date": "2026-09-28",
-      "unit": "F",
-      "side": "YES",
-      "bucket_low": 96.0,
-      "bucket_high": 97.0,
-      "entry_price": 0.86,
-      "shares": 2.26,
-      "cost": 1.94,
-      "current_p": 0.86,
-      "model_p": 0.7641,
-      "ev_pct": -9.6,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-09-28T20:32:41.361542+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    }
-  ],
+  "open_positions": [],
   "recent_resolved": [
     {
       "ts": "2026-09-29T05:10:39.267160+00:00",
