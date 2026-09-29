@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T23:00:22.444611+00:00",
+  "generated_at": "2026-09-29T00:01:03.814878+00:00",
   "balance": {
     "current": 36.42,
     "cash": 28.58,
@@ -12,18 +12,18 @@
   },
   "trades": {
     "total": 637,
-    "wins": 412,
+    "wins": 413,
     "losses": 217,
     "total_pnl": -16.64
   },
   "brier": {
-    "score": 0.252,
-    "n": 602,
+    "score": 0.2522,
+    "n": 603,
     "bss": -0.045,
-    "win_rate": 0.681,
-    "ci_lo": 0.2226,
-    "ci_hi": 0.2813,
-    "base": 0.405,
+    "win_rate": 0.682,
+    "ci_lo": 0.2229,
+    "ci_hi": 0.2814,
+    "base": 0.406,
     "status": "red"
   },
   "open_positions": [
@@ -37,7 +37,7 @@
       "entry_price": 0.87,
       "shares": 2.23,
       "cost": 1.94,
-      "current_p": 0.979,
+      "current_p": 0.9765,
       "model_p": 0.2169,
       "ev_pct": -65.3,
       "n_agree": 1,
@@ -113,6 +113,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-09-28T23:05:40.422296+00:00",
+      "city": "London",
+      "date": "2026-09-28",
+      "side": "YES",
+      "bucket": "19.0-19.0C",
+      "entry": 0.86,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -2.0
+    },
     {
       "ts": "2026-09-28T21:44:18.039925+00:00",
       "city": "Moscow",
@@ -460,18 +472,6 @@
       "pnl": 0.34,
       "closed_by": "resolved",
       "lead_h": -7.0
-    },
-    {
-      "ts": "2026-09-21T23:19:09.128145+00:00",
-      "city": "London",
-      "date": "2026-09-21",
-      "side": "YES",
-      "bucket": "23.0-23.0C",
-      "entry": 0.85,
-      "correct": true,
-      "pnl": 0.32,
-      "closed_by": "resolved",
-      "lead_h": -2.0
     }
   ],
   "city_stats": {
@@ -631,8 +631,8 @@
       "total_pnl": -4.62
     },
     "london": {
-      "n": 28,
-      "win_rate": 0.571,
+      "n": 29,
+      "win_rate": 0.586,
       "total_pnl": -4.75
     },
     "singapore": {
