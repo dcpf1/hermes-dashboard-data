@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-29T15:00:19.789323+00:00",
+  "generated_at": "2026-09-29T16:00:31.420358+00:00",
   "balance": {
-    "current": 37.3,
+    "current": 37.35,
     "cash": 33.0,
     "deployed": 4.35,
-    "unrealized": -0.05,
+    "unrealized": 0.0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.7,
-    "pnl_pct": -25.4
+    "pnl_usd": -12.65,
+    "pnl_pct": -25.3
   },
   "trades": {
     "total": 639,
@@ -37,7 +37,7 @@
       "entry_price": 0.83,
       "shares": 2.7,
       "cost": 2.24,
-      "current_p": 0.815,
+      "current_p": 0.83,
       "model_p": 0.97,
       "ev_pct": 14.0,
       "n_agree": 1,
@@ -46,7 +46,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.04
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Paris",
@@ -58,7 +58,7 @@
       "entry_price": 0.87,
       "shares": 2.43,
       "cost": 2.11,
-      "current_p": 0.865,
+      "current_p": 0.87,
       "model_p": 0.933,
       "ev_pct": 6.3,
       "n_agree": 1,
@@ -67,7 +67,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.01
+      "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
