@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T05:00:14.874757+00:00",
+  "generated_at": "2026-09-29T06:00:17.344937+00:00",
   "balance": {
     "current": 36.49,
     "cash": 30.79,
@@ -12,18 +12,18 @@
   },
   "trades": {
     "total": 637,
-    "wins": 414,
+    "wins": 416,
     "losses": 217,
     "total_pnl": -16.64
   },
   "brier": {
-    "score": 0.2528,
-    "n": 604,
-    "bss": -0.047,
-    "win_rate": 0.682,
-    "ci_lo": 0.2235,
-    "ci_hi": 0.282,
-    "base": 0.407,
+    "score": 0.2521,
+    "n": 606,
+    "bss": -0.043,
+    "win_rate": 0.683,
+    "ci_lo": 0.2229,
+    "ci_hi": 0.2812,
+    "base": 0.409,
     "status": "red"
   },
   "open_positions": [
@@ -92,6 +92,30 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-09-29T05:10:39.267160+00:00",
+      "city": "Dallas",
+      "date": "2026-09-28",
+      "side": "YES",
+      "bucket": "92.0-93.0F",
+      "entry": 0.88,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -9.0
+    },
+    {
+      "ts": "2026-09-29T05:10:39.267160+00:00",
+      "city": "Austin",
+      "date": "2026-09-28",
+      "side": "YES",
+      "bucket": "96.0-97.0F",
+      "entry": 0.86,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -8.0
+    },
     {
       "ts": "2026-09-29T04:09:33.885209+00:00",
       "city": "Nyc",
@@ -427,30 +451,6 @@
       "pnl": -0.01,
       "closed_by": "forecast_changed",
       "lead_h": 4.0
-    },
-    {
-      "ts": "2026-09-22T05:55:07.553021+00:00",
-      "city": "Austin",
-      "date": "2026-09-21",
-      "side": "YES",
-      "bucket": "98.0-99.0F",
-      "entry": 0.89,
-      "correct": true,
-      "pnl": 0.18,
-      "closed_by": "resolved",
-      "lead_h": -10.0
-    },
-    {
-      "ts": "2026-09-22T05:55:07.553021+00:00",
-      "city": "Dallas",
-      "date": "2026-09-21",
-      "side": "YES",
-      "bucket": "96.0-97.0F",
-      "entry": 0.87,
-      "correct": true,
-      "pnl": 0.24,
-      "closed_by": "resolved",
-      "lead_h": -8.0
     }
   ],
   "city_stats": {
@@ -515,8 +515,8 @@
       "total_pnl": 0.97
     },
     "dallas": {
-      "n": 19,
-      "win_rate": 0.737,
+      "n": 20,
+      "win_rate": 0.75,
       "total_pnl": 0.55
     },
     "helsinki": {
@@ -560,8 +560,8 @@
       "total_pnl": -2.64
     },
     "austin": {
-      "n": 13,
-      "win_rate": 0.692,
+      "n": 14,
+      "win_rate": 0.714,
       "total_pnl": -2.65
     },
     "beijing": {
