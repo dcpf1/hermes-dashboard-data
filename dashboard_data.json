@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T06:00:22.380480+00:00",
+  "generated_at": "2026-09-30T07:00:18.070927+00:00",
   "balance": {
     "current": 38.26,
     "cash": 36.56,
@@ -14,7 +14,7 @@
     "total": 641,
     "wins": 418,
     "losses": 218,
-    "total_pnl": -15.61
+    "total_pnl": -14.51
   },
   "brier": {
     "score": 0.2508,
@@ -43,7 +43,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-30T05:30:53.625047+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.05
@@ -70,8 +70,8 @@
       "bucket": "25.0-25.0C",
       "entry": 0.83,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.46,
+      "closed_by": "resolved",
       "lead_h": -2.0
     },
     {
@@ -82,8 +82,8 @@
       "bucket": "28.0-28.0C",
       "entry": 0.87,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.32,
+      "closed_by": "resolved",
       "lead_h": -2.0
     },
     {
@@ -106,8 +106,8 @@
       "bucket": "96.0-97.0F",
       "entry": 0.86,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.32,
+      "closed_by": "resolved",
       "lead_h": -8.0
     },
     {
@@ -452,6 +452,11 @@
       "win_rate": 0.85,
       "total_pnl": 3.11
     },
+    "paris": {
+      "n": 28,
+      "win_rate": 0.714,
+      "total_pnl": 2.0
+    },
     "munich": {
       "n": 19,
       "win_rate": 0.737,
@@ -461,11 +466,6 @@
       "n": 7,
       "win_rate": 0.857,
       "total_pnl": 1.76
-    },
-    "paris": {
-      "n": 28,
-      "win_rate": 0.714,
-      "total_pnl": 1.68
     },
     "denver": {
       "n": 10,
@@ -482,6 +482,11 @@
       "win_rate": 0.727,
       "total_pnl": -0.19
     },
+    "amsterdam": {
+      "n": 20,
+      "win_rate": 0.6,
+      "total_pnl": -0.67
+    },
     "houston": {
       "n": 11,
       "win_rate": 0.636,
@@ -491,11 +496,6 @@
       "n": 20,
       "win_rate": 0.7,
       "total_pnl": -0.87
-    },
-    "amsterdam": {
-      "n": 20,
-      "win_rate": 0.6,
-      "total_pnl": -1.13
     },
     "tokyo": {
       "n": 14,
@@ -507,6 +507,11 @@
       "win_rate": 0.727,
       "total_pnl": -1.6
     },
+    "austin": {
+      "n": 14,
+      "win_rate": 0.714,
+      "total_pnl": -2.33
+    },
     "tel-aviv": {
       "n": 7,
       "win_rate": 0.286,
@@ -516,11 +521,6 @@
       "n": 10,
       "win_rate": 0.7,
       "total_pnl": -2.64
-    },
-    "austin": {
-      "n": 14,
-      "win_rate": 0.714,
-      "total_pnl": -2.65
     },
     "beijing": {
       "n": 6,
