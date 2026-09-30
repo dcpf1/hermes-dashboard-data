@@ -1,33 +1,67 @@
 {
-  "generated_at": "2026-09-30T05:00:20.182494+00:00",
+  "generated_at": "2026-09-30T06:00:22.380480+00:00",
   "balance": {
-    "current": 38.31,
-    "cash": 38.31,
-    "deployed": 0,
-    "unrealized": 0,
+    "current": 38.26,
+    "cash": 36.56,
+    "deployed": 1.75,
+    "unrealized": -0.05,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -11.69,
-    "pnl_pct": -23.4
+    "pnl_usd": -11.74,
+    "pnl_pct": -23.5
   },
   "trades": {
-    "total": 640,
+    "total": 641,
     "wins": 418,
-    "losses": 217,
-    "total_pnl": -15.79
+    "losses": 218,
+    "total_pnl": -15.61
   },
   "brier": {
-    "score": 0.2512,
-    "n": 608,
-    "bss": -0.038,
-    "win_rate": 0.684,
-    "ci_lo": 0.2221,
-    "ci_hi": 0.2803,
+    "score": 0.2508,
+    "n": 609,
+    "bss": -0.036,
+    "win_rate": 0.683,
+    "ci_lo": 0.2218,
+    "ci_hi": 0.2799,
     "base": 0.411,
     "status": "red"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "city": "New York City",
+      "date": "2026-10-01",
+      "unit": "F",
+      "side": "NO",
+      "bucket_low": 78.0,
+      "bucket_high": 79.0,
+      "entry_price": 0.58,
+      "shares": 3.02,
+      "cost": 1.75,
+      "current_p": 0.565,
+      "model_p": 0.9175,
+      "ev_pct": 33.8,
+      "n_agree": 4,
+      "n_avail": 6,
+      "opened_at": "2026-09-30T05:30:53.625047+00:00",
+      "hours_left": 30.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.05
+    }
+  ],
   "recent_resolved": [
+    {
+      "ts": "2026-09-30T04:55:24.700367+00:00",
+      "city": "Toronto",
+      "date": "2026-09-29",
+      "side": "YES",
+      "bucket": "21.0-21.0C",
+      "entry": 0.85,
+      "correct": false,
+      "pnl": 0.18,
+      "closed_by": "forecast_changed",
+      "lead_h": -7.0
+    },
     {
       "ts": "2026-09-29T22:29:33.323097+00:00",
       "city": "Amsterdam",
@@ -51,18 +85,6 @@
       "pnl": 0.0,
       "closed_by": "awaiting_settlement",
       "lead_h": -2.0
-    },
-    {
-      "ts": "2026-09-29T19:45:45.222172+00:00",
-      "city": "Toronto",
-      "date": "2026-09-29",
-      "side": "YES",
-      "bucket": "21.0-21.0C",
-      "entry": 0.85,
-      "correct": true,
-      "pnl": 0.18,
-      "closed_by": "resolved",
-      "lead_h": 0.0
     },
     {
       "ts": "2026-09-29T05:10:39.267160+00:00",
@@ -466,9 +488,9 @@
       "total_pnl": -0.85
     },
     "toronto": {
-      "n": 19,
-      "win_rate": 0.737,
-      "total_pnl": -1.05
+      "n": 20,
+      "win_rate": 0.7,
+      "total_pnl": -0.87
     },
     "amsterdam": {
       "n": 20,
