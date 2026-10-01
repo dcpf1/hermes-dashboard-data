@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-01T19:00:16.845356+00:00",
+  "generated_at": "2026-10-01T20:00:20.462799+00:00",
   "balance": {
-    "current": 33.18,
-    "cash": 23.08,
-    "deployed": 9.48,
-    "unrealized": 0.62,
+    "current": 33.22,
+    "cash": 21.7,
+    "deployed": 10.86,
+    "unrealized": 0.66,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -16.82,
+    "pnl_usd": -16.78,
     "pnl_pct": -33.6
   },
   "trades": {
-    "total": 652,
+    "total": 653,
     "wins": 420,
     "losses": 220,
     "total_pnl": -18.14
@@ -37,16 +37,16 @@
       "entry_price": 0.7,
       "shares": 2.73,
       "cost": 1.91,
-      "current_p": 0.795,
+      "current_p": 0.81,
       "model_p": 0.9304,
       "ev_pct": 23.0,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-01T05:32:00.630839+00:00",
-      "hours_left": 17.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.26
+      "unrealized_pnl": 0.3
     },
     {
       "city": "New York City",
@@ -64,7 +64,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-09-30T16:03:55.897464+00:00",
-      "hours_left": 17.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.12
@@ -79,16 +79,16 @@
       "entry_price": 0.67,
       "shares": 1.73,
       "cost": 1.16,
-      "current_p": 0.66,
+      "current_p": 0.685,
       "model_p": 0.9535,
       "ev_pct": 28.3,
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-10-01T05:37:18.148897+00:00",
-      "hours_left": 17.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.02
+      "unrealized_pnl": 0.03
     },
     {
       "city": "Warsaw",
@@ -106,10 +106,31 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-01T05:33:59.404170+00:00",
-      "hours_left": 41.0,
+      "hours_left": 40.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.26
+    },
+    {
+      "city": "Atlanta",
+      "date": "2026-10-01",
+      "unit": "F",
+      "side": "YES",
+      "bucket_low": 84.0,
+      "bucket_high": 85.0,
+      "entry_price": 0.835,
+      "shares": 1.65,
+      "cost": 1.38,
+      "current_p": 0.805,
+      "model_p": 0.3267,
+      "ev_pct": -50.8,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-01T19:55:26.448425+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.05
     },
     {
       "city": "Moscow",
