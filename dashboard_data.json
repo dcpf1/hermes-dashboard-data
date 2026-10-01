@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-01T12:00:19.675897+00:00",
+  "generated_at": "2026-10-01T13:00:18.657335+00:00",
   "balance": {
-    "current": 34.87,
-    "cash": 25.85,
-    "deployed": 8.22,
-    "unrealized": 0.8,
+    "current": 34.77,
+    "cash": 24.3,
+    "deployed": 9.77,
+    "unrealized": 0.7,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -15.13,
-    "pnl_pct": -30.3
+    "pnl_usd": -15.23,
+    "pnl_pct": -30.5
   },
   "trades": {
-    "total": 650,
+    "total": 651,
     "wins": 420,
     "losses": 220,
     "total_pnl": -18.14
@@ -43,7 +43,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-01T05:32:00.630839+00:00",
-      "hours_left": 24.0,
+      "hours_left": 23.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.04
@@ -64,7 +64,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-09-30T16:03:55.897464+00:00",
-      "hours_left": 24.0,
+      "hours_left": 23.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.01
@@ -85,7 +85,7 @@
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-10-01T05:37:18.148897+00:00",
-      "hours_left": 24.0,
+      "hours_left": 23.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.01
@@ -106,7 +106,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-01T05:33:59.404170+00:00",
-      "hours_left": 48.0,
+      "hours_left": 47.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.22
@@ -121,7 +121,7 @@
       "entry_price": 0.58,
       "shares": 3.02,
       "cost": 1.75,
-      "current_p": 0.76,
+      "current_p": 0.715,
       "model_p": 0.9175,
       "ev_pct": 33.8,
       "n_agree": 4,
@@ -130,7 +130,28 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.54
+      "unrealized_pnl": 0.41
+    },
+    {
+      "city": "Moscow",
+      "date": "2026-10-01",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 13.0,
+      "bucket_high": 13.0,
+      "entry_price": 0.88,
+      "shares": 1.76,
+      "cost": 1.55,
+      "current_p": 0.895,
+      "model_p": 0.7229,
+      "ev_pct": -15.7,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-01T12:09:52.627362+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.03
     }
   ],
   "recent_resolved": [
