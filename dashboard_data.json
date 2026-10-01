@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-01T00:00:18.853656+00:00",
+  "generated_at": "2026-10-01T01:00:16.703848+00:00",
   "balance": {
-    "current": 38.91,
-    "cash": 28.75,
-    "deployed": 9.5,
-    "unrealized": 0.66,
+    "current": 37.03,
+    "cash": 31.27,
+    "deployed": 5.25,
+    "unrealized": 0.51,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -11.09,
-    "pnl_pct": -22.2
+    "pnl_usd": -12.97,
+    "pnl_pct": -25.9
   },
   "trades": {
     "total": 646,
-    "wins": 419,
+    "wins": 420,
     "losses": 219,
-    "total_pnl": -14.51
+    "total_pnl": -14.57
   },
   "brier": {
-    "score": 0.2501,
-    "n": 611,
-    "bss": -0.033,
-    "win_rate": 0.682,
-    "ci_lo": 0.2211,
-    "ci_hi": 0.2791,
-    "base": 0.411,
+    "score": 0.2513,
+    "n": 612,
+    "bss": -0.038,
+    "win_rate": 0.683,
+    "ci_lo": 0.2223,
+    "ci_hi": 0.2803,
+    "base": 0.412,
     "status": "red"
   },
   "open_positions": [
@@ -37,16 +37,16 @@
       "entry_price": 0.58,
       "shares": 3.02,
       "cost": 1.75,
-      "current_p": 0.81,
+      "current_p": 0.76,
       "model_p": 0.9175,
       "ev_pct": 33.8,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-09-30T05:30:53.625047+00:00",
-      "hours_left": 12.0,
+      "hours_left": 11.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.69
+      "unrealized_pnl": 0.54
     },
     {
       "city": "New York City",
@@ -64,7 +64,7 @@
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-09-30T16:03:55.897464+00:00",
-      "hours_left": 36.0,
+      "hours_left": 35.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.03
@@ -89,51 +89,21 @@
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
-    },
-    {
-      "city": "Munich",
-      "date": "2026-09-30",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 24.0,
-      "bucket_high": 24.0,
-      "entry_price": 0.84,
-      "shares": 2.45,
-      "cost": 2.06,
-      "current_p": 0.84,
-      "model_p": 0.1303,
-      "ev_pct": -71.0,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-09-30T14:05:54.919369+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    },
-    {
-      "city": "Helsinki",
-      "date": "2026-09-30",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 16.0,
-      "bucket_high": 16.0,
-      "entry_price": 0.87,
-      "shares": 2.52,
-      "cost": 2.19,
-      "current_p": 0.87,
-      "model_p": 0.8157,
-      "ev_pct": -5.4,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-09-30T12:31:07.393834+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-09-30T23:55:52.915556+00:00",
+      "city": "Milan",
+      "date": "2026-09-30",
+      "side": "YES",
+      "bucket": "24.0-24.0C",
+      "entry": 0.81,
+      "correct": true,
+      "pnl": -0.06,
+      "closed_by": "forecast_changed",
+      "lead_h": -1.0
+    },
     {
       "ts": "2026-09-30T22:13:29.503536+00:00",
       "city": "Munich",
@@ -156,18 +126,6 @@
       "correct": true,
       "pnl": 0.0,
       "closed_by": "awaiting_settlement",
-      "lead_h": 0.0
-    },
-    {
-      "ts": "2026-09-30T13:05:26.286299+00:00",
-      "city": "Milan",
-      "date": "2026-09-30",
-      "side": "YES",
-      "bucket": "24.0-24.0C",
-      "entry": 0.81,
-      "correct": false,
-      "pnl": -0.06,
-      "closed_by": "resolved",
       "lead_h": 0.0
     },
     {
@@ -632,9 +590,9 @@
       "total_pnl": -3.76
     },
     "milan": {
-      "n": 31,
-      "win_rate": 0.742,
-      "total_pnl": -3.93
+      "n": 32,
+      "win_rate": 0.75,
+      "total_pnl": -3.99
     },
     "nyc": {
       "n": 19,
