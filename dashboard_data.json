@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-02T07:00:16.691581+00:00",
+  "generated_at": "2026-10-02T08:00:17.929039+00:00",
   "balance": {
-    "current": 34.55,
+    "current": 34.66,
     "cash": 28.93,
     "deployed": 5.06,
-    "unrealized": 0.56,
+    "unrealized": 0.67,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -15.45,
-    "pnl_pct": -30.9
+    "pnl_usd": -15.34,
+    "pnl_pct": -30.7
   },
   "trades": {
     "total": 654,
-    "wins": 423,
-    "losses": 221,
-    "total_pnl": -18.03
+    "wins": 424,
+    "losses": 222,
+    "total_pnl": -19.54
   },
   "brier": {
-    "score": 0.2535,
-    "n": 617,
-    "bss": -0.044,
+    "score": 0.254,
+    "n": 619,
+    "bss": -0.045,
     "win_rate": 0.682,
-    "ci_lo": 0.2245,
-    "ci_hi": 0.2824,
-    "base": 0.415,
+    "ci_lo": 0.2251,
+    "ci_hi": 0.283,
+    "base": 0.417,
     "status": "red"
   },
   "open_positions": [
@@ -37,16 +37,16 @@
       "entry_price": 0.7,
       "shares": 2.73,
       "cost": 1.91,
-      "current_p": 0.805,
+      "current_p": 0.845,
       "model_p": 0.9304,
       "ev_pct": 23.0,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-01T05:32:00.630839+00:00",
-      "hours_left": 5.0,
+      "hours_left": 4.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.29
+      "unrealized_pnl": 0.4
     },
     {
       "city": "Warsaw",
@@ -64,7 +64,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-01T05:33:59.404170+00:00",
-      "hours_left": 29.0,
+      "hours_left": 28.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.27
@@ -92,6 +92,30 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-02T07:05:12.985160+00:00",
+      "city": "Nyc",
+      "date": "2026-10-01",
+      "side": "NO",
+      "bucket": "78.0-79.0C",
+      "entry": 0.58,
+      "correct": false,
+      "pnl": -1.51,
+      "closed_by": "price_catastrophic",
+      "lead_h": 30.0
+    },
+    {
+      "ts": "2026-10-02T07:05:12.985160+00:00",
+      "city": "Seattle",
+      "date": "2026-10-01",
+      "side": "YES",
+      "bucket": "66.0-67.0F",
+      "entry": 0.8,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -11.0
+    },
     {
       "ts": "2026-10-02T04:05:34.190309+00:00",
       "city": "Atlanta",
@@ -211,18 +235,6 @@
       "pnl": 0.31,
       "closed_by": "take_profit",
       "lead_h": 43.0
-    },
-    {
-      "ts": "2026-09-30T05:30:53.625047+00:00",
-      "city": "Nyc",
-      "date": "2026-10-01",
-      "side": "NO",
-      "bucket": "78.0-79.0C",
-      "entry": 0.58,
-      "correct": false,
-      "pnl": -1.51,
-      "closed_by": "take_profit",
-      "lead_h": 30.0
     },
     {
       "ts": "2026-09-30T04:55:24.700367+00:00",
@@ -439,18 +451,6 @@
       "pnl": 0.43,
       "closed_by": "resolved",
       "lead_h": -8.0
-    },
-    {
-      "ts": "2026-09-26T04:05:16.850564+00:00",
-      "city": "Nyc",
-      "date": "2026-09-25",
-      "side": "YES",
-      "bucket": "68.0-69.0C",
-      "entry": 0.86,
-      "correct": true,
-      "pnl": 0.3,
-      "closed_by": "resolved",
-      "lead_h": -9.0
     }
   ],
   "city_stats": {
@@ -570,8 +570,8 @@
       "total_pnl": -2.73
     },
     "seattle": {
-      "n": 11,
-      "win_rate": 0.636,
+      "n": 12,
+      "win_rate": 0.667,
       "total_pnl": -2.77
     },
     "chicago": {
@@ -594,11 +594,6 @@
       "win_rate": 0.826,
       "total_pnl": -4.07
     },
-    "nyc": {
-      "n": 19,
-      "win_rate": 0.789,
-      "total_pnl": -4.33
-    },
     "chengdu": {
       "n": 30,
       "win_rate": 0.7,
@@ -618,6 +613,11 @@
       "n": 13,
       "win_rate": 0.462,
       "total_pnl": -5.04
+    },
+    "nyc": {
+      "n": 20,
+      "win_rate": 0.75,
+      "total_pnl": -5.84
     },
     "wellington": {
       "n": 6,
@@ -681,8 +681,8 @@
       "n": 109
     },
     "24to48": {
-      "brier": 0.2051,
-      "n": 235
+      "brier": 0.2078,
+      "n": 236
     },
     "gt48": {
       "brier": 0.2116,
