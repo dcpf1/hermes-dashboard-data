@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-02T01:00:22.371352+00:00",
+  "generated_at": "2026-10-02T02:00:21.309766+00:00",
   "balance": {
-    "current": 34.01,
+    "current": 33.53,
     "cash": 25.72,
     "deployed": 7.6,
-    "unrealized": 0.69,
+    "unrealized": 0.21,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -15.99,
-    "pnl_pct": -32.0
+    "pnl_usd": -16.47,
+    "pnl_pct": -32.9
   },
   "trades": {
     "total": 654,
@@ -37,16 +37,16 @@
       "entry_price": 0.7,
       "shares": 2.73,
       "cost": 1.91,
-      "current_p": 0.685,
+      "current_p": 0.665,
       "model_p": 0.9304,
       "ev_pct": 23.0,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-01T05:32:00.630839+00:00",
-      "hours_left": 11.0,
+      "hours_left": 10.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.04
+      "unrealized_pnl": -0.1
     },
     {
       "city": "Toronto",
@@ -58,16 +58,16 @@
       "entry_price": 0.67,
       "shares": 1.73,
       "cost": 1.16,
-      "current_p": 0.79,
+      "current_p": 0.77,
       "model_p": 0.9535,
       "ev_pct": 28.3,
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-10-01T05:37:18.148897+00:00",
-      "hours_left": 11.0,
+      "hours_left": 10.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.21
+      "unrealized_pnl": 0.17
     },
     {
       "city": "Warsaw",
@@ -79,16 +79,16 @@
       "entry_price": 0.75,
       "shares": 2.32,
       "cost": 1.74,
-      "current_p": 0.845,
+      "current_p": 0.81,
       "model_p": 0.9167,
       "ev_pct": 16.7,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-01T05:33:59.404170+00:00",
-      "hours_left": 35.0,
+      "hours_left": 34.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.22
+      "unrealized_pnl": 0.14
     },
     {
       "city": "Atlanta",
@@ -121,7 +121,7 @@
       "entry_price": 0.8,
       "shares": 1.76,
       "cost": 1.41,
-      "current_p": 0.969,
+      "current_p": 0.8,
       "model_p": 0.8773,
       "ev_pct": 7.7,
       "n_agree": 1,
@@ -130,7 +130,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.3
+      "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
