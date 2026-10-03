@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-03T05:00:17.740048+00:00",
+  "generated_at": "2026-10-03T06:00:21.197719+00:00",
   "balance": {
-    "current": 33.4,
-    "cash": 29.77,
-    "deployed": 3.49,
+    "current": 33.68,
+    "cash": 31.8,
+    "deployed": 1.74,
     "unrealized": 0.14,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -16.6,
-    "pnl_pct": -33.2
+    "pnl_usd": -16.32,
+    "pnl_pct": -32.6
   },
   "trades": {
     "total": 657,
-    "wins": 427,
+    "wins": 428,
     "losses": 223,
-    "total_pnl": -19.14
+    "total_pnl": -18.83
   },
   "brier": {
-    "score": 0.2544,
-    "n": 623,
-    "bss": -0.046,
-    "win_rate": 0.682,
-    "ci_lo": 0.2255,
-    "ci_hi": 0.2832,
+    "score": 0.254,
+    "n": 624,
+    "bss": -0.045,
+    "win_rate": 0.683,
+    "ci_lo": 0.2252,
+    "ci_hi": 0.2828,
     "base": 0.417,
     "status": "red"
   },
@@ -43,34 +43,25 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-01T05:33:59.404170+00:00",
-      "hours_left": 7.0,
+      "hours_left": 6.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.14
-    },
-    {
-      "city": "Toronto",
-      "date": "2026-10-02",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 19.0,
-      "bucket_high": 19.0,
-      "entry_price": 0.86,
-      "shares": 2.03,
-      "cost": 1.75,
-      "current_p": 0.86,
-      "model_p": 0.5389,
-      "ev_pct": -32.1,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-10-02T19:10:59.880438+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-03T05:30:49.137016+00:00",
+      "city": "Nyc",
+      "date": "2026-10-02",
+      "side": "NO",
+      "bucket": "88.0-89.0C",
+      "entry": 0.75,
+      "correct": true,
+      "pnl": 0.31,
+      "closed_by": "convergence_tp",
+      "lead_h": 43.0
+    },
     {
       "ts": "2026-10-03T04:05:53.042009+00:00",
       "city": "Toronto",
@@ -250,18 +241,6 @@
       "pnl": 0.33,
       "closed_by": "resolved",
       "lead_h": 0.0
-    },
-    {
-      "ts": "2026-09-30T16:03:55.897464+00:00",
-      "city": "Nyc",
-      "date": "2026-10-02",
-      "side": "NO",
-      "bucket": "88.0-89.0C",
-      "entry": 0.75,
-      "correct": true,
-      "pnl": 0.31,
-      "closed_by": "take_profit",
-      "lead_h": 43.0
     },
     {
       "ts": "2026-09-30T04:55:24.700367+00:00",
@@ -594,9 +573,9 @@
       "total_pnl": -5.04
     },
     "nyc": {
-      "n": 20,
-      "win_rate": 0.75,
-      "total_pnl": -5.84
+      "n": 21,
+      "win_rate": 0.762,
+      "total_pnl": -5.53
     },
     "wellington": {
       "n": 6,
@@ -660,8 +639,8 @@
       "n": 109
     },
     "24to48": {
-      "brier": 0.2069,
-      "n": 237
+      "brier": 0.2061,
+      "n": 238
     },
     "gt48": {
       "brier": 0.2116,
