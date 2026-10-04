@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-04T07:00:25.509880+00:00",
+  "generated_at": "2026-10-04T08:00:22.803114+00:00",
   "balance": {
-    "current": 34.12,
+    "current": 34.09,
     "cash": 27.67,
     "deployed": 6.46,
-    "unrealized": -0.01,
+    "unrealized": -0.04,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -15.88,
+    "pnl_usd": -15.91,
     "pnl_pct": -31.8
   },
   "trades": {
     "total": 662,
-    "wins": 431,
+    "wins": 432,
     "losses": 224,
     "total_pnl": -18.69
   },
   "brier": {
-    "score": 0.2549,
-    "n": 628,
-    "bss": -0.047,
-    "win_rate": 0.683,
-    "ci_lo": 0.2261,
-    "ci_hi": 0.2836,
-    "base": 0.419,
+    "score": 0.2545,
+    "n": 629,
+    "bss": -0.045,
+    "win_rate": 0.684,
+    "ci_lo": 0.2258,
+    "ci_hi": 0.2832,
+    "base": 0.42,
     "status": "red"
   },
   "open_positions": [
@@ -43,7 +43,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-04T05:56:11.297038+00:00",
-      "hours_left": 29.0,
+      "hours_left": 28.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.01
@@ -58,16 +58,16 @@
       "entry_price": 0.72,
       "shares": 2.44,
       "cost": 1.76,
-      "current_p": 0.71,
+      "current_p": 0.7,
       "model_p": 0.9179,
       "ev_pct": 19.8,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-04T05:38:02.655383+00:00",
-      "hours_left": 29.0,
+      "hours_left": 28.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.02
+      "unrealized_pnl": -0.05
     },
     {
       "city": "New York City",
@@ -113,6 +113,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-04T07:05:52.228624+00:00",
+      "city": "Seattle",
+      "date": "2026-10-03",
+      "side": "YES",
+      "bucket": "66.0-67.0F",
+      "entry": 0.89,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -11.0
+    },
     {
       "ts": "2026-10-04T04:05:19.838368+00:00",
       "city": "Nyc",
@@ -460,18 +472,6 @@
       "pnl": -0.49,
       "closed_by": "price_conditional",
       "lead_h": 16.0
-    },
-    {
-      "ts": "2026-09-28T05:05:42.250163+00:00",
-      "city": "Austin",
-      "date": "2026-09-27",
-      "side": "YES",
-      "bucket": "96.0-97.0F",
-      "entry": 0.86,
-      "correct": true,
-      "pnl": 0.32,
-      "closed_by": "resolved",
-      "lead_h": -10.0
     }
   ],
   "city_stats": {
@@ -576,8 +576,8 @@
       "total_pnl": -2.33
     },
     "seattle": {
-      "n": 12,
-      "win_rate": 0.667,
+      "n": 13,
+      "win_rate": 0.692,
       "total_pnl": -2.42
     },
     "tel-aviv": {
