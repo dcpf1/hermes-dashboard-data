@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-04T06:00:18.791947+00:00",
+  "generated_at": "2026-10-04T07:00:25.509880+00:00",
   "balance": {
-    "current": 34.08,
+    "current": 34.12,
     "cash": 27.67,
     "deployed": 6.46,
-    "unrealized": -0.05,
+    "unrealized": -0.01,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -15.92,
+    "pnl_usd": -15.88,
     "pnl_pct": -31.8
   },
   "trades": {
     "total": 662,
     "wins": 431,
     "losses": 224,
-    "total_pnl": -19.02
+    "total_pnl": -18.69
   },
   "brier": {
     "score": 0.2549,
@@ -37,16 +37,16 @@
       "entry_price": 0.57,
       "shares": 1.75,
       "cost": 1.0,
-      "current_p": 0.555,
+      "current_p": 0.575,
       "model_p": 0.9031,
       "ev_pct": 33.3,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-04T05:56:11.297038+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.03
+      "unrealized_pnl": 0.01
     },
     {
       "city": "Sao Paulo",
@@ -64,7 +64,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-04T05:38:02.655383+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.02
@@ -145,8 +145,8 @@
       "bucket": "20.0-20.0C",
       "entry": 0.86,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.33,
+      "closed_by": "resolved",
       "lead_h": -1.0
     },
     {
@@ -538,7 +538,7 @@
     "munich": {
       "n": 23,
       "win_rate": 0.739,
-      "total_pnl": 0.25
+      "total_pnl": 0.58
     },
     "helsinki": {
       "n": 23,
