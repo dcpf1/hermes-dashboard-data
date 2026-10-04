@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-04T09:00:18.847358+00:00",
+  "generated_at": "2026-10-04T10:00:58.682399+00:00",
   "balance": {
-    "current": 34.29,
+    "current": 34.22,
     "cash": 29.68,
     "deployed": 4.67,
-    "unrealized": -0.06,
+    "unrealized": -0.13,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -15.71,
-    "pnl_pct": -31.4
+    "pnl_usd": -15.78,
+    "pnl_pct": -31.6
   },
   "trades": {
     "total": 662,
@@ -37,16 +37,16 @@
       "entry_price": 0.57,
       "shares": 1.75,
       "cost": 1.0,
-      "current_p": 0.585,
+      "current_p": 0.545,
       "model_p": 0.9031,
       "ev_pct": 33.3,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-04T05:56:11.297038+00:00",
-      "hours_left": 27.0,
+      "hours_left": 26.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.03
+      "unrealized_pnl": -0.04
     },
     {
       "city": "Sao Paulo",
@@ -64,7 +64,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-04T05:38:02.655383+00:00",
-      "hours_left": 27.0,
+      "hours_left": 26.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.09
