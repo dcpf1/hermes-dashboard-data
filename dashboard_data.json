@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-04T21:00:29.276750+00:00",
+  "generated_at": "2026-10-04T22:00:19.238805+00:00",
   "balance": {
-    "current": 35.34,
-    "cash": 28.21,
-    "deployed": 6.48,
-    "unrealized": 0.65,
+    "current": 35.36,
+    "cash": 26.52,
+    "deployed": 8.17,
+    "unrealized": 0.67,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -14.66,
+    "pnl_usd": -14.64,
     "pnl_pct": -29.3
   },
   "trades": {
-    "total": 664,
+    "total": 665,
     "wins": 432,
     "losses": 224,
     "total_pnl": -18.69
@@ -37,16 +37,16 @@
       "entry_price": 0.57,
       "shares": 1.75,
       "cost": 1.0,
-      "current_p": 0.665,
+      "current_p": 0.775,
       "model_p": 0.9031,
       "ev_pct": 33.3,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-04T05:56:11.297038+00:00",
-      "hours_left": 15.0,
+      "hours_left": 14.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.17
+      "unrealized_pnl": 0.36
     },
     {
       "city": "Sao Paulo",
@@ -64,7 +64,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-04T05:38:02.655383+00:00",
-      "hours_left": 15.0,
+      "hours_left": 14.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.24
@@ -79,7 +79,7 @@
       "entry_price": 0.85,
       "shares": 2.12,
       "cost": 1.8,
-      "current_p": 0.965,
+      "current_p": 0.85,
       "model_p": 0.6789,
       "ev_pct": -17.1,
       "n_agree": 1,
@@ -88,7 +88,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.24
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Madrid",
@@ -110,6 +110,27 @@
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
+    },
+    {
+      "city": "Dallas",
+      "date": "2026-10-04",
+      "unit": "F",
+      "side": "YES",
+      "bucket_low": 78.0,
+      "bucket_high": 79.0,
+      "entry_price": 0.89,
+      "shares": 1.9,
+      "cost": 1.69,
+      "current_p": 0.925,
+      "model_p": 0.8885,
+      "ev_pct": -0.2,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-04T21:11:09.968234+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.07
     }
   ],
   "recent_resolved": [
