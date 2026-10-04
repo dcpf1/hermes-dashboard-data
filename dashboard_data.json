@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-04T10:00:58.682399+00:00",
+  "generated_at": "2026-10-04T11:00:29.904339+00:00",
   "balance": {
-    "current": 34.22,
+    "current": 34.21,
     "cash": 29.68,
     "deployed": 4.67,
-    "unrealized": -0.13,
+    "unrealized": -0.14,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -15.78,
+    "pnl_usd": -15.79,
     "pnl_pct": -31.6
   },
   "trades": {
@@ -43,7 +43,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-04T05:56:11.297038+00:00",
-      "hours_left": 26.0,
+      "hours_left": 25.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.04
@@ -58,16 +58,16 @@
       "entry_price": 0.72,
       "shares": 2.44,
       "cost": 1.76,
-      "current_p": 0.685,
+      "current_p": 0.68,
       "model_p": 0.9179,
       "ev_pct": 19.8,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-04T05:38:02.655383+00:00",
-      "hours_left": 26.0,
+      "hours_left": 25.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.09
+      "unrealized_pnl": -0.1
     },
     {
       "city": "New York City",
