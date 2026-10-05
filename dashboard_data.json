@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-05T21:00:17.929441+00:00",
+  "generated_at": "2026-10-05T22:00:19.498726+00:00",
   "balance": {
-    "current": 32.81,
-    "cash": 23.3,
-    "deployed": 9.64,
-    "unrealized": -0.13,
+    "current": 32.62,
+    "cash": 21.9,
+    "deployed": 11.04,
+    "unrealized": -0.32,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -17.19,
-    "pnl_pct": -34.4
+    "pnl_usd": -17.38,
+    "pnl_pct": -34.8
   },
   "trades": {
-    "total": 672,
+    "total": 673,
     "wins": 434,
     "losses": 225,
     "total_pnl": -19.52
@@ -37,16 +37,16 @@
       "entry_price": 0.75,
       "shares": 2.25,
       "cost": 1.69,
-      "current_p": 0.635,
+      "current_p": 0.59,
       "model_p": 0.9117,
       "ev_pct": 16.2,
       "n_agree": 3,
       "n_avail": 3,
       "opened_at": "2026-10-05T12:32:50.470049+00:00",
-      "hours_left": 39.0,
+      "hours_left": 38.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.26
+      "unrealized_pnl": -0.36
     },
     {
       "city": "Dallas",
@@ -64,7 +64,7 @@
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-10-05T11:56:55.555743+00:00",
-      "hours_left": 39.0,
+      "hours_left": 38.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.08
@@ -79,7 +79,7 @@
       "entry_price": 0.86,
       "shares": 1.83,
       "cost": 1.57,
-      "current_p": 0.885,
+      "current_p": 0.86,
       "model_p": 0.6789,
       "ev_pct": -18.1,
       "n_agree": 1,
@@ -88,7 +88,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.05
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Toronto",
@@ -110,6 +110,27 @@
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
+    },
+    {
+      "city": "Atlanta",
+      "date": "2026-10-05",
+      "unit": "F",
+      "side": "YES",
+      "bucket_low": 74.0,
+      "bucket_high": 75.0,
+      "entry_price": 0.87,
+      "shares": 1.61,
+      "cost": 1.4,
+      "current_p": 0.8465,
+      "model_p": 0.3552,
+      "ev_pct": -51.5,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-05T21:10:48.736509+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.04
     },
     {
       "city": "Paris",
