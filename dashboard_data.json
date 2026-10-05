@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T04:00:17.142924+00:00",
+  "generated_at": "2026-10-05T05:00:21.875508+00:00",
   "balance": {
     "current": 33.04,
     "cash": 26.52,
@@ -12,18 +12,18 @@
   },
   "trades": {
     "total": 665,
-    "wins": 432,
+    "wins": 433,
     "losses": 225,
     "total_pnl": -18.69
   },
   "brier": {
-    "score": 0.2549,
-    "n": 630,
-    "bss": -0.047,
+    "score": 0.2546,
+    "n": 631,
+    "bss": -0.045,
     "win_rate": 0.683,
-    "ci_lo": 0.2262,
-    "ci_hi": 0.2835,
-    "base": 0.419,
+    "ci_lo": 0.226,
+    "ci_hi": 0.2832,
+    "base": 0.42,
     "status": "red"
   },
   "open_positions": [
@@ -37,16 +37,16 @@
       "entry_price": 0.57,
       "shares": 1.75,
       "cost": 1.0,
-      "current_p": 0.66,
+      "current_p": 0.65,
       "model_p": 0.9031,
       "ev_pct": 33.3,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-04T05:56:11.297038+00:00",
-      "hours_left": 8.0,
+      "hours_left": 7.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.16
+      "unrealized_pnl": 0.14
     },
     {
       "city": "Sao Paulo",
@@ -58,16 +58,16 @@
       "entry_price": 0.72,
       "shares": 2.44,
       "cost": 1.76,
-      "current_p": 0.765,
+      "current_p": 0.775,
       "model_p": 0.9179,
       "ev_pct": 19.8,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-04T05:38:02.655383+00:00",
-      "hours_left": 8.0,
+      "hours_left": 7.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.11
+      "unrealized_pnl": 0.13
     },
     {
       "city": "Atlanta",
@@ -113,6 +113,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-05T04:05:10.742292+00:00",
+      "city": "Atlanta",
+      "date": "2026-10-04",
+      "side": "YES",
+      "bucket": "76.0-77.0F",
+      "entry": 0.85,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -7.0
+    },
     {
       "ts": "2026-10-04T22:06:43.987097+00:00",
       "city": "Madrid",
@@ -460,18 +472,6 @@
       "pnl": -0.07,
       "closed_by": "metar_override",
       "lead_h": 0.0
-    },
-    {
-      "ts": "2026-09-28T16:29:27.251114+00:00",
-      "city": "Chengdu",
-      "date": "2026-09-28",
-      "side": "YES",
-      "bucket": "25.0-25.0C",
-      "entry": 0.85,
-      "correct": true,
-      "pnl": 0.38,
-      "closed_by": "resolved",
-      "lead_h": 4.0
     }
   ],
   "city_stats": {
@@ -611,8 +611,8 @@
       "total_pnl": -3.99
     },
     "atlanta": {
-      "n": 23,
-      "win_rate": 0.826,
+      "n": 24,
+      "win_rate": 0.833,
       "total_pnl": -4.07
     },
     "chengdu": {
