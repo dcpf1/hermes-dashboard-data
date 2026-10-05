@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-05T12:00:51.894175+00:00",
+  "generated_at": "2026-10-05T13:00:28.451602+00:00",
   "balance": {
-    "current": 33.64,
-    "cash": 28.79,
-    "deployed": 4.51,
-    "unrealized": 0.34,
+    "current": 33.59,
+    "cash": 27.1,
+    "deployed": 6.2,
+    "unrealized": 0.29,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -16.36,
-    "pnl_pct": -32.7
+    "pnl_usd": -16.41,
+    "pnl_pct": -32.8
   },
   "trades": {
-    "total": 666,
+    "total": 667,
     "wins": 434,
     "losses": 225,
     "total_pnl": -19.52
@@ -28,6 +28,27 @@
   },
   "open_positions": [
     {
+      "city": "Amsterdam",
+      "date": "2026-10-07",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 21.0,
+      "bucket_high": 21.0,
+      "entry_price": 0.75,
+      "shares": 2.25,
+      "cost": 1.69,
+      "current_p": 0.735,
+      "model_p": 0.9117,
+      "ev_pct": 16.2,
+      "n_agree": 3,
+      "n_avail": 3,
+      "opened_at": "2026-10-05T12:32:50.470049+00:00",
+      "hours_left": 47.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.03
+    },
+    {
       "city": "Dallas",
       "date": "2026-10-07",
       "unit": "F",
@@ -37,16 +58,16 @@
       "entry_price": 0.67,
       "shares": 2.61,
       "cost": 1.75,
-      "current_p": 0.645,
+      "current_p": 0.65,
       "model_p": 0.9172,
       "ev_pct": 24.7,
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-10-05T11:56:55.555743+00:00",
-      "hours_left": 48.0,
+      "hours_left": 47.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.07
+      "unrealized_pnl": -0.05
     },
     {
       "city": "Dallas",
@@ -58,7 +79,7 @@
       "entry_price": 0.57,
       "shares": 1.75,
       "cost": 1.0,
-      "current_p": 0.815,
+      "current_p": 0.79,
       "model_p": 0.9031,
       "ev_pct": 33.3,
       "n_agree": 4,
@@ -67,7 +88,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.43
+      "unrealized_pnl": 0.39
     },
     {
       "city": "Sao Paulo",
