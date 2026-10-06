@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-06T21:00:32.436130+00:00",
+  "generated_at": "2026-10-06T22:00:35.846183+00:00",
   "balance": {
-    "current": 33.58,
+    "current": 33.52,
     "cash": 23.92,
     "deployed": 10.16,
-    "unrealized": -0.5,
+    "unrealized": -0.56,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -16.42,
-    "pnl_pct": -32.8
+    "pnl_usd": -16.48,
+    "pnl_pct": -33.0
   },
   "trades": {
     "total": 677,
-    "wins": 441,
+    "wins": 443,
     "losses": 226,
     "total_pnl": -18.94
   },
   "brier": {
-    "score": 0.2533,
-    "n": 639,
-    "bss": -0.037,
-    "win_rate": 0.685,
-    "ci_lo": 0.225,
-    "ci_hi": 0.2817,
-    "base": 0.424,
+    "score": 0.2526,
+    "n": 641,
+    "bss": -0.033,
+    "win_rate": 0.686,
+    "ci_lo": 0.2243,
+    "ci_hi": 0.2808,
+    "base": 0.426,
     "status": "red"
   },
   "open_positions": [
@@ -43,7 +43,7 @@
       "n_agree": 3,
       "n_avail": 3,
       "opened_at": "2026-10-05T12:32:50.470049+00:00",
-      "hours_left": 15.0,
+      "hours_left": 14.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.46
@@ -58,16 +58,16 @@
       "entry_price": 0.67,
       "shares": 2.61,
       "cost": 1.75,
-      "current_p": 0.55,
+      "current_p": 0.555,
       "model_p": 0.9172,
       "ev_pct": 24.7,
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-10-05T11:56:55.555743+00:00",
-      "hours_left": 15.0,
+      "hours_left": 14.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.31
+      "unrealized_pnl": -0.3
     },
     {
       "city": "Toronto",
@@ -79,7 +79,7 @@
       "entry_price": 0.814,
       "shares": 1.88,
       "cost": 1.53,
-      "current_p": 0.8325,
+      "current_p": 0.921,
       "model_p": 0.0339,
       "ev_pct": -78.0,
       "n_agree": 1,
@@ -88,7 +88,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.03
+      "unrealized_pnl": 0.2
     },
     {
       "city": "Moscow",
@@ -100,7 +100,7 @@
       "entry_price": 0.85,
       "shares": 1.91,
       "cost": 1.62,
-      "current_p": 0.975,
+      "current_p": 0.85,
       "model_p": 0.97,
       "ev_pct": 12.0,
       "n_agree": 1,
@@ -109,7 +109,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.24
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Istanbul",
@@ -155,6 +155,30 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-06T21:25:06.032203+00:00",
+      "city": "Moscow",
+      "date": "2026-10-06",
+      "side": "YES",
+      "bucket": "12.0-12.0C",
+      "entry": 0.85,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -7.0
+    },
+    {
+      "ts": "2026-10-06T21:25:06.032203+00:00",
+      "city": "Istanbul",
+      "date": "2026-10-06",
+      "side": "YES",
+      "bucket": "19.0-19.0C",
+      "entry": 0.87,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": 0.0
+    },
     {
       "ts": "2026-10-06T06:36:43.025901+00:00",
       "city": "Dallas",
@@ -490,30 +514,6 @@
       "pnl": -1.84,
       "closed_by": "resolved",
       "lead_h": -7.0
-    },
-    {
-      "ts": "2026-09-30T23:55:52.915556+00:00",
-      "city": "Milan",
-      "date": "2026-09-30",
-      "side": "YES",
-      "bucket": "24.0-24.0C",
-      "entry": 0.81,
-      "correct": true,
-      "pnl": -0.06,
-      "closed_by": "forecast_changed",
-      "lead_h": -1.0
-    },
-    {
-      "ts": "2026-09-30T22:13:29.503536+00:00",
-      "city": "Munich",
-      "date": "2026-09-30",
-      "side": "YES",
-      "bucket": "24.0-24.0C",
-      "entry": 0.84,
-      "correct": false,
-      "pnl": -2.06,
-      "closed_by": "resolved",
-      "lead_h": -2.0
     }
   ],
   "city_stats": {
@@ -538,7 +538,7 @@
       "total_pnl": 5.99
     },
     "istanbul": {
-      "n": 11,
+      "n": 12,
       "win_rate": 1.0,
       "total_pnl": 4.61
     },
@@ -563,8 +563,8 @@
       "total_pnl": 2.15
     },
     "moscow": {
-      "n": 22,
-      "win_rate": 0.818,
+      "n": 23,
+      "win_rate": 0.826,
       "total_pnl": 1.45
     },
     "denver": {
@@ -736,8 +736,8 @@
   },
   "lead_brier": {
     "lt6": {
-      "brier": 0.4465,
-      "n": 25
+      "brier": 0.4305,
+      "n": 26
     },
     "6to24": {
       "brier": 0.2537,
