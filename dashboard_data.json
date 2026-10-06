@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-06T07:00:22.375150+00:00",
+  "generated_at": "2026-10-06T08:00:20.983718+00:00",
   "balance": {
-    "current": 32.9,
-    "cash": 29.03,
-    "deployed": 4.84,
-    "unrealized": -0.97,
+    "current": 33.04,
+    "cash": 30.64,
+    "deployed": 3.44,
+    "unrealized": -1.04,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -17.1,
-    "pnl_pct": -34.2
+    "pnl_usd": -16.96,
+    "pnl_pct": -33.9
   },
   "trades": {
     "total": 673,
@@ -43,7 +43,7 @@
       "n_agree": 3,
       "n_avail": 3,
       "opened_at": "2026-10-05T12:32:50.470049+00:00",
-      "hours_left": 29.0,
+      "hours_left": 28.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.58
@@ -58,37 +58,16 @@
       "entry_price": 0.67,
       "shares": 2.61,
       "cost": 1.75,
-      "current_p": 0.52,
+      "current_p": 0.495,
       "model_p": 0.9172,
       "ev_pct": 24.7,
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-10-05T11:56:55.555743+00:00",
-      "hours_left": 29.0,
+      "hours_left": 28.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.39
-    },
-    {
-      "city": "Atlanta",
-      "date": "2026-10-05",
-      "unit": "F",
-      "side": "YES",
-      "bucket_low": 74.0,
-      "bucket_high": 75.0,
-      "entry_price": 0.87,
-      "shares": 1.61,
-      "cost": 1.4,
-      "current_p": 0.87,
-      "model_p": 0.3552,
-      "ev_pct": -51.5,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-10-05T21:10:48.736509+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
+      "unrealized_pnl": -0.46
     }
   ],
   "recent_resolved": [
