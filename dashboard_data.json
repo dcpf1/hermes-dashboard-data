@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-07T04:00:19.527913+00:00",
+  "generated_at": "2026-10-07T05:00:18.678496+00:00",
   "balance": {
-    "current": 33.65,
-    "cash": 27.38,
-    "deployed": 6.69,
-    "unrealized": -0.42,
+    "current": 33.83,
+    "cash": 29.35,
+    "deployed": 4.96,
+    "unrealized": -0.48,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -16.35,
-    "pnl_pct": -32.7
+    "pnl_usd": -16.17,
+    "pnl_pct": -32.3
   },
   "trades": {
     "total": 678,
-    "wins": 444,
+    "wins": 445,
     "losses": 226,
     "total_pnl": -18.94
   },
   "brier": {
-    "score": 0.2522,
-    "n": 642,
-    "bss": -0.031,
+    "score": 0.2533,
+    "n": 643,
+    "bss": -0.035,
     "win_rate": 0.687,
-    "ci_lo": 0.224,
-    "ci_hi": 0.2805,
-    "base": 0.427,
+    "ci_lo": 0.225,
+    "ci_hi": 0.2815,
+    "base": 0.428,
     "status": "red"
   },
   "open_positions": [
@@ -37,16 +37,16 @@
       "entry_price": 0.67,
       "shares": 2.61,
       "cost": 1.75,
-      "current_p": 0.51,
+      "current_p": 0.485,
       "model_p": 0.9172,
       "ev_pct": 24.7,
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-10-05T11:56:55.555743+00:00",
-      "hours_left": 8.0,
+      "hours_left": 7.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.42
+      "unrealized_pnl": -0.48
     },
     {
       "city": "Toronto",
@@ -89,30 +89,21 @@
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
-    },
-    {
-      "city": "London",
-      "date": "2026-10-06",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 21.0,
-      "bucket_high": 21.0,
-      "entry_price": 0.88,
-      "shares": 1.97,
-      "cost": 1.73,
-      "current_p": 0.88,
-      "model_p": 0.8586,
-      "ev_pct": -2.1,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-10-06T14:39:21.157005+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-07T04:06:08.259346+00:00",
+      "city": "Toronto",
+      "date": "2026-10-06",
+      "side": "YES",
+      "bucket": "14.0-14.0C",
+      "entry": 0.814,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -8.0
+    },
     {
       "ts": "2026-10-06T23:14:01.516707+00:00",
       "city": "London",
@@ -460,18 +451,6 @@
       "pnl": 0.24,
       "closed_by": "resolved",
       "lead_h": -2.0
-    },
-    {
-      "ts": "2026-10-01T21:05:59.173297+00:00",
-      "city": "Moscow",
-      "date": "2026-10-01",
-      "side": "YES",
-      "bucket": "13.0-13.0C",
-      "entry": 0.88,
-      "correct": true,
-      "pnl": 0.21,
-      "closed_by": "resolved",
-      "lead_h": 0.0
     }
   ],
   "city_stats": {
@@ -566,8 +545,8 @@
       "total_pnl": -1.6
     },
     "toronto": {
-      "n": 24,
-      "win_rate": 0.708,
+      "n": 25,
+      "win_rate": 0.72,
       "total_pnl": -1.79
     },
     "seattle": {
