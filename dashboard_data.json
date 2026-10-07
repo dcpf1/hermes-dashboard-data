@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-07T00:00:26.791430+00:00",
+  "generated_at": "2026-10-07T01:00:30.395181+00:00",
   "balance": {
-    "current": 33.82,
-    "cash": 26.26,
-    "deployed": 8.38,
-    "unrealized": -0.82,
+    "current": 33.76,
+    "cash": 27.38,
+    "deployed": 6.69,
+    "unrealized": -0.31,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -16.18,
-    "pnl_pct": -32.4
+    "pnl_usd": -16.24,
+    "pnl_pct": -32.5
   },
   "trades": {
     "total": 678,
@@ -28,27 +28,6 @@
   },
   "open_positions": [
     {
-      "city": "Amsterdam",
-      "date": "2026-10-07",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 21.0,
-      "bucket_high": 21.0,
-      "entry_price": 0.75,
-      "shares": 2.25,
-      "cost": 1.69,
-      "current_p": 0.525,
-      "model_p": 0.9117,
-      "ev_pct": 16.2,
-      "n_agree": 3,
-      "n_avail": 3,
-      "opened_at": "2026-10-05T12:32:50.470049+00:00",
-      "hours_left": 12.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.51
-    },
-    {
       "city": "Dallas",
       "date": "2026-10-07",
       "unit": "F",
@@ -64,7 +43,7 @@
       "n_agree": 3,
       "n_avail": 4,
       "opened_at": "2026-10-05T11:56:55.555743+00:00",
-      "hours_left": 12.0,
+      "hours_left": 11.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.31
@@ -265,6 +244,18 @@
       "pnl": 0.19,
       "closed_by": "resolved",
       "lead_h": -1.0
+    },
+    {
+      "ts": "2026-10-05T12:32:50.470049+00:00",
+      "city": "Amsterdam",
+      "date": "2026-10-07",
+      "side": "NO",
+      "bucket": "21.0-21.0C",
+      "entry": 0.75,
+      "correct": false,
+      "pnl": -0.56,
+      "closed_by": "take_profit",
+      "lead_h": 47.0
     },
     {
       "ts": "2026-10-05T05:10:09.717396+00:00",
@@ -481,18 +472,6 @@
       "pnl": 0.21,
       "closed_by": "resolved",
       "lead_h": 0.0
-    },
-    {
-      "ts": "2026-10-01T21:05:59.173297+00:00",
-      "city": "Chengdu",
-      "date": "2026-10-01",
-      "side": "NO",
-      "bucket": "27.0-27.0C",
-      "entry": 0.41,
-      "correct": false,
-      "pnl": -0.61,
-      "closed_by": "forecast_changed",
-      "lead_h": 6.0
     }
   ],
   "city_stats": {
