@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-07T13:00:19.955115+00:00",
+  "generated_at": "2026-10-07T14:00:18.565847+00:00",
   "balance": {
-    "current": 32.35,
-    "cash": 30.02,
-    "deployed": 2.33,
-    "unrealized": 0.0,
+    "current": 32.52,
+    "cash": 28.22,
+    "deployed": 4.13,
+    "unrealized": 0.17,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -17.65,
-    "pnl_pct": -35.3
+    "pnl_usd": -17.48,
+    "pnl_pct": -35.0
   },
   "trades": {
-    "total": 679,
+    "total": 680,
     "wins": 445,
     "losses": 227,
     "total_pnl": -17.58
@@ -37,16 +37,37 @@
       "entry_price": 0.61,
       "shares": 3.82,
       "cost": 2.33,
-      "current_p": 0.61,
+      "current_p": 0.615,
       "model_p": 0.9533,
       "ev_pct": 34.3,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-07T05:38:32.104725+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.0
+      "unrealized_pnl": 0.02
+    },
+    {
+      "city": "Amsterdam",
+      "date": "2026-10-07",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 22.0,
+      "bucket_high": 22.0,
+      "entry_price": 0.847,
+      "shares": 2.13,
+      "cost": 1.8,
+      "current_p": 0.916,
+      "model_p": 0.8351,
+      "ev_pct": -1.2,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-07T13:32:34.820484+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.15
     }
   ],
   "recent_resolved": [
