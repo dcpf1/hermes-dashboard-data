@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-07T21:00:20.345892+00:00",
+  "generated_at": "2026-10-07T22:00:19.790555+00:00",
   "balance": {
-    "current": 32.15,
-    "cash": 23.42,
-    "deployed": 8.9,
-    "unrealized": -0.17,
+    "current": 32.19,
+    "cash": 22.01,
+    "deployed": 10.31,
+    "unrealized": -0.13,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -17.85,
-    "pnl_pct": -35.7
+    "pnl_usd": -17.81,
+    "pnl_pct": -35.6
   },
   "trades": {
-    "total": 684,
+    "total": 685,
     "wins": 445,
     "losses": 227,
     "total_pnl": -17.58
@@ -37,16 +37,16 @@
       "entry_price": 0.61,
       "shares": 3.82,
       "cost": 2.33,
-      "current_p": 0.54,
+      "current_p": 0.535,
       "model_p": 0.9533,
       "ev_pct": 34.3,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-07T05:38:32.104725+00:00",
-      "hours_left": 15.0,
+      "hours_left": 14.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.27
+      "unrealized_pnl": -0.29
     },
     {
       "city": "Toronto",
@@ -58,7 +58,7 @@
       "entry_price": 0.88,
       "shares": 1.81,
       "cost": 1.59,
-      "current_p": 0.9605,
+      "current_p": 0.88,
       "model_p": 0.7229,
       "ev_pct": -15.7,
       "n_agree": 1,
@@ -67,7 +67,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.15
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Madrid",
@@ -121,12 +121,33 @@
       "entry_price": 0.84,
       "shares": 1.77,
       "cost": 1.49,
-      "current_p": 0.81,
+      "current_p": 0.96,
       "model_p": 0.7868,
       "ev_pct": -5.3,
       "n_agree": 1,
       "n_avail": 1,
       "opened_at": "2026-10-07T20:38:05.671354+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.21
+    },
+    {
+      "city": "Dallas",
+      "date": "2026-10-07",
+      "unit": "F",
+      "side": "YES",
+      "bucket_low": 86.0,
+      "bucket_high": 87.0,
+      "entry_price": 0.88,
+      "shares": 1.6,
+      "cost": 1.41,
+      "current_p": 0.85,
+      "model_p": 0.9234,
+      "ev_pct": 4.3,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-07T21:35:17.509180+00:00",
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
