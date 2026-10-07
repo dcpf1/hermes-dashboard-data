@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-07T06:00:27.481656+00:00",
+  "generated_at": "2026-10-07T07:00:18.537847+00:00",
   "balance": {
-    "current": 34.1,
-    "cash": 28.9,
-    "deployed": 5.76,
-    "unrealized": -0.56,
+    "current": 34.07,
+    "cash": 30.02,
+    "deployed": 4.01,
+    "unrealized": 0.04,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -15.9,
-    "pnl_pct": -31.8
+    "pnl_usd": -15.93,
+    "pnl_pct": -31.9
   },
   "trades": {
     "total": 679,
     "wins": 445,
     "losses": 226,
-    "total_pnl": -18.94
+    "total_pnl": -17.58
   },
   "brier": {
     "score": 0.2533,
@@ -28,27 +28,6 @@
   },
   "open_positions": [
     {
-      "city": "Dallas",
-      "date": "2026-10-07",
-      "unit": "F",
-      "side": "NO",
-      "bucket_low": 86.0,
-      "bucket_high": 87.0,
-      "entry_price": 0.67,
-      "shares": 2.61,
-      "cost": 1.75,
-      "current_p": 0.465,
-      "model_p": 0.9172,
-      "ev_pct": 24.7,
-      "n_agree": 3,
-      "n_avail": 4,
-      "opened_at": "2026-10-05T11:56:55.555743+00:00",
-      "hours_left": 6.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.54
-    },
-    {
       "city": "Sao Paulo",
       "date": "2026-10-08",
       "unit": "C",
@@ -58,16 +37,16 @@
       "entry_price": 0.61,
       "shares": 3.82,
       "cost": 2.33,
-      "current_p": 0.605,
+      "current_p": 0.62,
       "model_p": 0.9533,
       "ev_pct": 34.3,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-07T05:38:32.104725+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.02
+      "unrealized_pnl": 0.04
     },
     {
       "city": "Seattle",
@@ -100,8 +79,8 @@
       "bucket": "14.0-14.0C",
       "entry": 0.814,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.35,
+      "closed_by": "resolved",
       "lead_h": -8.0
     },
     {
@@ -112,8 +91,8 @@
       "bucket": "21.0-21.0C",
       "entry": 0.88,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.24,
+      "closed_by": "resolved",
       "lead_h": -2.0
     },
     {
@@ -124,8 +103,8 @@
       "bucket": "12.0-12.0C",
       "entry": 0.85,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.29,
+      "closed_by": "resolved",
       "lead_h": -7.0
     },
     {
@@ -136,8 +115,8 @@
       "bucket": "19.0-19.0C",
       "entry": 0.87,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.27,
+      "closed_by": "resolved",
       "lead_h": 0.0
     },
     {
@@ -196,8 +175,8 @@
       "bucket": "74.0-75.0F",
       "entry": 0.87,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.21,
+      "closed_by": "resolved",
       "lead_h": -9.0
     },
     {
@@ -247,6 +226,18 @@
       "pnl": -0.56,
       "closed_by": "take_profit",
       "lead_h": 47.0
+    },
+    {
+      "ts": "2026-10-05T11:56:55.555743+00:00",
+      "city": "Dallas",
+      "date": "2026-10-07",
+      "side": "NO",
+      "bucket": "86.0-87.0F",
+      "entry": 0.67,
+      "correct": false,
+      "pnl": -0.63,
+      "closed_by": "take_profit",
+      "lead_h": 48.0
     },
     {
       "ts": "2026-10-05T05:10:09.717396+00:00",
@@ -439,18 +430,6 @@
       "pnl": 0.27,
       "closed_by": "resolved",
       "lead_h": -7.0
-    },
-    {
-      "ts": "2026-10-01T22:05:18.052659+00:00",
-      "city": "Munich",
-      "date": "2026-10-01",
-      "side": "YES",
-      "bucket": "24.0-24.0C",
-      "entry": 0.86,
-      "correct": true,
-      "pnl": 0.24,
-      "closed_by": "resolved",
-      "lead_h": -2.0
     }
   ],
   "city_stats": {
@@ -477,7 +456,7 @@
     "istanbul": {
       "n": 12,
       "win_rate": 1.0,
-      "total_pnl": 4.61
+      "total_pnl": 4.88
     },
     "madrid": {
       "n": 25,
@@ -502,7 +481,7 @@
     "moscow": {
       "n": 23,
       "win_rate": 0.826,
-      "total_pnl": 1.45
+      "total_pnl": 1.74
     },
     "denver": {
       "n": 10,
@@ -534,6 +513,11 @@
       "win_rate": 0.636,
       "total_pnl": -0.85
     },
+    "toronto": {
+      "n": 25,
+      "win_rate": 0.72,
+      "total_pnl": -1.44
+    },
     "tokyo": {
       "n": 14,
       "win_rate": 0.571,
@@ -543,11 +527,6 @@
       "n": 11,
       "win_rate": 0.727,
       "total_pnl": -1.6
-    },
-    "toronto": {
-      "n": 25,
-      "win_rate": 0.72,
-      "total_pnl": -1.79
     },
     "seattle": {
       "n": 13,
@@ -587,22 +566,22 @@
     "atlanta": {
       "n": 25,
       "win_rate": 0.84,
-      "total_pnl": -3.75
+      "total_pnl": -3.54
     },
     "milan": {
       "n": 32,
       "win_rate": 0.75,
       "total_pnl": -3.99
     },
+    "london": {
+      "n": 30,
+      "win_rate": 0.6,
+      "total_pnl": -4.2
+    },
     "chengdu": {
       "n": 30,
       "win_rate": 0.7,
       "total_pnl": -4.37
-    },
-    "london": {
-      "n": 30,
-      "win_rate": 0.6,
-      "total_pnl": -4.44
     },
     "chongqing": {
       "n": 34,
