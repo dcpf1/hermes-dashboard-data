@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-07T19:00:22.791477+00:00",
+  "generated_at": "2026-10-07T20:00:16.482303+00:00",
   "balance": {
-    "current": 31.95,
-    "cash": 26.53,
-    "deployed": 5.82,
-    "unrealized": -0.4,
+    "current": 31.86,
+    "cash": 24.91,
+    "deployed": 7.41,
+    "unrealized": -0.46,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -18.05,
-    "pnl_pct": -36.1
+    "pnl_usd": -18.14,
+    "pnl_pct": -36.3
   },
   "trades": {
-    "total": 681,
+    "total": 683,
     "wins": 445,
     "losses": 227,
     "total_pnl": -17.58
@@ -37,16 +37,37 @@
       "entry_price": 0.61,
       "shares": 3.82,
       "cost": 2.33,
-      "current_p": 0.505,
+      "current_p": 0.515,
       "model_p": 0.9533,
       "ev_pct": 34.3,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-07T05:38:32.104725+00:00",
-      "hours_left": 17.0,
+      "hours_left": 16.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.4
+      "unrealized_pnl": -0.36
+    },
+    {
+      "city": "Toronto",
+      "date": "2026-10-07",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 23.0,
+      "bucket_high": 23.0,
+      "entry_price": 0.88,
+      "shares": 1.81,
+      "cost": 1.59,
+      "current_p": 0.825,
+      "model_p": 0.7229,
+      "ev_pct": -15.7,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-07T19:10:56.851024+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.1
     },
     {
       "city": "Madrid",
@@ -92,6 +113,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-07T19:10:56.851024+00:00",
+      "city": "Buenos Aires",
+      "date": "2026-10-07",
+      "side": "YES",
+      "bucket": "18.0-18.0C",
+      "entry": 0.87,
+      "correct": false,
+      "pnl": -0.03,
+      "closed_by": "resolved",
+      "lead_h": 0.0
+    },
     {
       "ts": "2026-10-07T07:05:10.372079+00:00",
       "city": "Seattle",
@@ -439,18 +472,6 @@
       "pnl": -1.51,
       "closed_by": "price_catastrophic",
       "lead_h": 30.0
-    },
-    {
-      "ts": "2026-10-02T07:05:12.985160+00:00",
-      "city": "Seattle",
-      "date": "2026-10-01",
-      "side": "YES",
-      "bucket": "66.0-67.0F",
-      "entry": 0.8,
-      "correct": true,
-      "pnl": 0.35,
-      "closed_by": "resolved",
-      "lead_h": -11.0
     }
   ],
   "city_stats": {
