@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-08T08:00:20.523639+00:00",
+  "generated_at": "2026-10-08T09:00:17.669489+00:00",
   "balance": {
-    "current": 32.99,
-    "cash": 28.62,
-    "deployed": 3.33,
-    "unrealized": 1.04,
+    "current": 32.97,
+    "cash": 31.87,
+    "deployed": 1.0,
+    "unrealized": 0.1,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -17.01,
-    "pnl_pct": -34.0
+    "pnl_usd": -17.03,
+    "pnl_pct": -34.1
   },
   "trades": {
     "total": 686,
@@ -28,27 +28,6 @@
   },
   "open_positions": [
     {
-      "city": "Sao Paulo",
-      "date": "2026-10-08",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 32.0,
-      "bucket_high": 32.0,
-      "entry_price": 0.61,
-      "shares": 3.82,
-      "cost": 2.33,
-      "current_p": 0.86,
-      "model_p": 0.9533,
-      "ev_pct": 34.3,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-10-07T05:38:32.104725+00:00",
-      "hours_left": 4.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.95
-    },
-    {
       "city": "Wellington",
       "date": "2026-10-09",
       "unit": "C",
@@ -58,16 +37,16 @@
       "entry_price": 0.69,
       "shares": 1.45,
       "cost": 1.0,
-      "current_p": 0.75,
+      "current_p": 0.76,
       "model_p": 0.9,
       "ev_pct": 21.0,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-10-08T05:38:57.256804+00:00",
-      "hours_left": 28.0,
+      "hours_left": 27.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.09
+      "unrealized_pnl": 0.1
     }
   ],
   "recent_resolved": [
@@ -178,6 +157,18 @@
       "pnl": -1.68,
       "closed_by": "resolved",
       "lead_h": -11.0
+    },
+    {
+      "ts": "2026-10-07T05:38:32.104725+00:00",
+      "city": "Sao Paulo",
+      "date": "2026-10-08",
+      "side": "NO",
+      "bucket": "32.0-32.0C",
+      "entry": 0.61,
+      "correct": true,
+      "pnl": 0.92,
+      "closed_by": "take_profit",
+      "lead_h": 30.0
     },
     {
       "ts": "2026-10-07T04:06:08.259346+00:00",
@@ -418,18 +409,6 @@
       "pnl": 0.49,
       "closed_by": "convergence_tp",
       "lead_h": 30.0
-    },
-    {
-      "ts": "2026-10-03T05:30:49.137016+00:00",
-      "city": "Nyc",
-      "date": "2026-10-02",
-      "side": "NO",
-      "bucket": "88.0-89.0C",
-      "entry": 0.75,
-      "correct": true,
-      "pnl": 0.31,
-      "closed_by": "convergence_tp",
-      "lead_h": 43.0
     }
   ],
   "city_stats": {
