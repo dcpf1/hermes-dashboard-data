@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-08T17:01:04.413824+00:00",
+  "generated_at": "2026-10-08T18:00:32.545039+00:00",
   "balance": {
-    "current": 32.96,
+    "current": 32.91,
     "cash": 29.96,
     "deployed": 2.91,
-    "unrealized": 0.09,
+    "unrealized": 0.04,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -17.04,
-    "pnl_pct": -34.1
+    "pnl_usd": -17.09,
+    "pnl_pct": -34.2
   },
   "trades": {
     "total": 687,
@@ -37,16 +37,16 @@
       "entry_price": 0.69,
       "shares": 1.45,
       "cost": 1.0,
-      "current_p": 0.75,
+      "current_p": 0.72,
       "model_p": 0.9,
       "ev_pct": 21.0,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-10-08T05:38:57.256804+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.09
+      "unrealized_pnl": 0.04
     },
     {
       "city": "Helsinki",
