@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-09T05:00:19.157780+00:00",
+  "generated_at": "2026-10-09T06:00:21.442904+00:00",
   "balance": {
-    "current": 31.29,
-    "cash": 31.29,
-    "deployed": 0,
-    "unrealized": 0,
+    "current": 31.23,
+    "cash": 29.67,
+    "deployed": 1.62,
+    "unrealized": -0.06,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -18.71,
-    "pnl_pct": -37.4
+    "pnl_usd": -18.77,
+    "pnl_pct": -37.5
   },
   "trades": {
-    "total": 687,
+    "total": 688,
     "wins": 453,
     "losses": 229,
     "total_pnl": -19.93
@@ -26,7 +26,29 @@
     "base": 0.429,
     "status": "red"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "city": "Lucknow",
+      "date": "2026-10-09",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 31.0,
+      "bucket_high": 31.0,
+      "entry_price": 0.68,
+      "shares": 2.38,
+      "cost": 1.62,
+      "current_p": 0.655,
+      "model_p": 0.9039,
+      "ev_pct": 22.4,
+      "n_agree": 4,
+      "n_avail": 6,
+      "opened_at": "2026-10-09T05:35:48.615256+00:00",
+      "hours_left": 6.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.06
+    }
+  ],
   "recent_resolved": [
     {
       "ts": "2026-10-09T04:05:12.237303+00:00",
