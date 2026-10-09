@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T12:00:20.374117+00:00",
+  "generated_at": "2026-10-09T13:00:21.116828+00:00",
   "balance": {
     "current": 31.69,
     "cash": 31.69,
@@ -12,22 +12,34 @@
   },
   "trades": {
     "total": 688,
-    "wins": 453,
+    "wins": 454,
     "losses": 229,
-    "total_pnl": -21.84
+    "total_pnl": -21.51
   },
   "brier": {
-    "score": 0.2551,
-    "n": 653,
-    "bss": -0.041,
+    "score": 0.2547,
+    "n": 654,
+    "bss": -0.04,
     "win_rate": 0.688,
-    "ci_lo": 0.2269,
-    "ci_hi": 0.2832,
-    "base": 0.429,
+    "ci_lo": 0.2266,
+    "ci_hi": 0.2828,
+    "base": 0.428,
     "status": "red"
   },
   "open_positions": [],
   "recent_resolved": [
+    {
+      "ts": "2026-10-09T12:05:24.359016+00:00",
+      "city": "Wellington",
+      "date": "2026-10-09",
+      "side": "NO",
+      "bucket": "17.0-17.0C",
+      "entry": 0.69,
+      "correct": true,
+      "pnl": 0.33,
+      "closed_by": "take_profit",
+      "lead_h": 30.0
+    },
     {
       "ts": "2026-10-09T05:35:48.615256+00:00",
       "city": "Lucknow",
@@ -63,18 +75,6 @@
       "pnl": -1.91,
       "closed_by": "resolved",
       "lead_h": 0.0
-    },
-    {
-      "ts": "2026-10-08T05:38:57.256804+00:00",
-      "city": "Wellington",
-      "date": "2026-10-09",
-      "side": "NO",
-      "bucket": "17.0-17.0C",
-      "entry": 0.69,
-      "correct": true,
-      "pnl": 0.33,
-      "closed_by": "take_profit",
-      "lead_h": 30.0
     },
     {
       "ts": "2026-10-08T05:30:58.734443+00:00",
@@ -556,9 +556,9 @@
       "total_pnl": -5.19
     },
     "wellington": {
-      "n": 6,
-      "win_rate": 0.333,
-      "total_pnl": -7.72
+      "n": 7,
+      "win_rate": 0.429,
+      "total_pnl": -7.39
     },
     "shenzhen": {
       "n": 21,
@@ -617,8 +617,8 @@
       "n": 109
     },
     "24to48": {
-      "brier": 0.2055,
-      "n": 243
+      "brier": 0.2047,
+      "n": 244
     },
     "gt48": {
       "brier": 0.208,
