@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T19:00:19.018783+00:00",
+  "generated_at": "2026-10-09T20:00:18.271792+00:00",
   "balance": {
     "current": 31.69,
     "cash": 29.79,
@@ -12,18 +12,18 @@
   },
   "trades": {
     "total": 689,
-    "wins": 454,
+    "wins": 455,
     "losses": 229,
-    "total_pnl": -21.51
+    "total_pnl": -21.11
   },
   "brier": {
-    "score": 0.2547,
-    "n": 654,
-    "bss": -0.04,
-    "win_rate": 0.688,
-    "ci_lo": 0.2266,
-    "ci_hi": 0.2828,
-    "base": 0.428,
+    "score": 0.2543,
+    "n": 655,
+    "bss": -0.039,
+    "win_rate": 0.689,
+    "ci_lo": 0.2263,
+    "ci_hi": 0.2824,
+    "base": 0.427,
     "status": "red"
   },
   "open_positions": [
@@ -51,6 +51,18 @@
   ],
   "recent_resolved": [
     {
+      "ts": "2026-10-09T18:59:34.891988+00:00",
+      "city": "Lucknow",
+      "date": "2026-10-09",
+      "side": "NO",
+      "bucket": "31.0-31.0C",
+      "entry": 0.68,
+      "correct": true,
+      "pnl": 0.4,
+      "closed_by": "convergence_tp",
+      "lead_h": 6.0
+    },
+    {
       "ts": "2026-10-09T12:05:24.359016+00:00",
       "city": "Wellington",
       "date": "2026-10-09",
@@ -61,18 +73,6 @@
       "pnl": 0.33,
       "closed_by": "take_profit",
       "lead_h": 30.0
-    },
-    {
-      "ts": "2026-10-09T05:35:48.615256+00:00",
-      "city": "Lucknow",
-      "date": "2026-10-09",
-      "side": "NO",
-      "bucket": "31.0-31.0C",
-      "entry": 0.68,
-      "correct": true,
-      "pnl": 0.4,
-      "closed_by": "take_profit",
-      "lead_h": 6.0
     },
     {
       "ts": "2026-10-09T04:05:12.237303+00:00",
@@ -482,6 +482,11 @@
       "win_rate": 0.636,
       "total_pnl": -0.9
     },
+    "lucknow": {
+      "n": 12,
+      "win_rate": 0.75,
+      "total_pnl": -1.2
+    },
     "toronto": {
       "n": 26,
       "win_rate": 0.731,
@@ -491,11 +496,6 @@
       "n": 14,
       "win_rate": 0.571,
       "total_pnl": -1.49
-    },
-    "lucknow": {
-      "n": 11,
-      "win_rate": 0.727,
-      "total_pnl": -1.6
     },
     "dallas": {
       "n": 25,
@@ -635,8 +635,8 @@
       "n": 27
     },
     "6to24": {
-      "brier": 0.2537,
-      "n": 109
+      "brier": 0.2515,
+      "n": 110
     },
     "24to48": {
       "brier": 0.2047,
