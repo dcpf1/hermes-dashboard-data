@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-09T06:00:21.442904+00:00",
+  "generated_at": "2026-10-09T07:00:17.084778+00:00",
   "balance": {
-    "current": 31.23,
+    "current": 31.33,
     "cash": 29.67,
     "deployed": 1.62,
-    "unrealized": -0.06,
+    "unrealized": 0.04,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -18.77,
-    "pnl_pct": -37.5
+    "pnl_usd": -18.67,
+    "pnl_pct": -37.3
   },
   "trades": {
     "total": 688,
     "wins": 453,
     "losses": 229,
-    "total_pnl": -19.93
+    "total_pnl": -21.84
   },
   "brier": {
     "score": 0.2551,
@@ -37,16 +37,16 @@
       "entry_price": 0.68,
       "shares": 2.38,
       "cost": 1.62,
-      "current_p": 0.655,
+      "current_p": 0.695,
       "model_p": 0.9039,
       "ev_pct": 22.4,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-09T05:35:48.615256+00:00",
-      "hours_left": 6.0,
+      "hours_left": 5.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.06
+      "unrealized_pnl": 0.04
     }
   ],
   "recent_resolved": [
@@ -70,8 +70,8 @@
       "bucket": "12.0-12.0C",
       "entry": 0.85,
       "correct": false,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": -1.91,
+      "closed_by": "resolved",
       "lead_h": 0.0
     },
     {
@@ -472,11 +472,6 @@
       "win_rate": 0.739,
       "total_pnl": 0.58
     },
-    "helsinki": {
-      "n": 24,
-      "win_rate": 0.708,
-      "total_pnl": 0.14
-    },
     "houston": {
       "n": 11,
       "win_rate": 0.636,
@@ -505,6 +500,11 @@
     "dallas": {
       "n": 25,
       "win_rate": 0.72,
+      "total_pnl": -1.77
+    },
+    "helsinki": {
+      "n": 24,
+      "win_rate": 0.708,
       "total_pnl": -1.77
     },
     "austin": {
