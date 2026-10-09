@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T04:00:17.370262+00:00",
+  "generated_at": "2026-10-09T05:00:19.157780+00:00",
   "balance": {
     "current": 31.29,
     "cash": 31.29,
@@ -12,22 +12,34 @@
   },
   "trades": {
     "total": 687,
-    "wins": 452,
+    "wins": 453,
     "losses": 229,
-    "total_pnl": -20.85
+    "total_pnl": -19.93
   },
   "brier": {
-    "score": 0.2554,
-    "n": 652,
-    "bss": -0.043,
-    "win_rate": 0.687,
-    "ci_lo": 0.2273,
-    "ci_hi": 0.2836,
+    "score": 0.2551,
+    "n": 653,
+    "bss": -0.041,
+    "win_rate": 0.688,
+    "ci_lo": 0.2269,
+    "ci_hi": 0.2832,
     "base": 0.429,
     "status": "red"
   },
   "open_positions": [],
   "recent_resolved": [
+    {
+      "ts": "2026-10-09T04:05:12.237303+00:00",
+      "city": "Sao Paulo",
+      "date": "2026-10-08",
+      "side": "NO",
+      "bucket": "32.0-32.0C",
+      "entry": 0.61,
+      "correct": true,
+      "pnl": 0.92,
+      "closed_by": "convergence_tp",
+      "lead_h": 30.0
+    },
     {
       "ts": "2026-10-08T21:07:30.669615+00:00",
       "city": "Helsinki",
@@ -159,18 +171,6 @@
       "pnl": -1.68,
       "closed_by": "resolved",
       "lead_h": -11.0
-    },
-    {
-      "ts": "2026-10-07T05:38:32.104725+00:00",
-      "city": "Sao Paulo",
-      "date": "2026-10-08",
-      "side": "NO",
-      "bucket": "32.0-32.0C",
-      "entry": 0.61,
-      "correct": true,
-      "pnl": 0.92,
-      "closed_by": "take_profit",
-      "lead_h": 30.0
     },
     {
       "ts": "2026-10-07T04:06:08.259346+00:00",
@@ -425,15 +425,15 @@
       "win_rate": 0.812,
       "total_pnl": 4.13
     },
+    "sao-paulo": {
+      "n": 9,
+      "win_rate": 0.889,
+      "total_pnl": 3.07
+    },
     "paris": {
       "n": 29,
       "win_rate": 0.724,
       "total_pnl": 2.24
-    },
-    "sao-paulo": {
-      "n": 8,
-      "win_rate": 0.875,
-      "total_pnl": 2.15
     },
     "moscow": {
       "n": 23,
@@ -617,8 +617,8 @@
       "n": 109
     },
     "24to48": {
-      "brier": 0.2064,
-      "n": 242
+      "brier": 0.2055,
+      "n": 243
     },
     "gt48": {
       "brier": 0.208,
