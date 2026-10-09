@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-09T09:00:18.466139+00:00",
+  "generated_at": "2026-10-09T10:00:26.817784+00:00",
   "balance": {
-    "current": 31.29,
-    "cash": 29.67,
-    "deployed": 1.62,
-    "unrealized": 0.0,
+    "current": 31.69,
+    "cash": 31.69,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -18.71,
-    "pnl_pct": -37.4
+    "pnl_usd": -18.31,
+    "pnl_pct": -36.6
   },
   "trades": {
     "total": 688,
@@ -26,30 +26,20 @@
     "base": 0.429,
     "status": "red"
   },
-  "open_positions": [
+  "open_positions": [],
+  "recent_resolved": [
     {
+      "ts": "2026-10-09T05:35:48.615256+00:00",
       "city": "Lucknow",
       "date": "2026-10-09",
-      "unit": "C",
       "side": "NO",
-      "bucket_low": 31.0,
-      "bucket_high": 31.0,
-      "entry_price": 0.68,
-      "shares": 2.38,
-      "cost": 1.62,
-      "current_p": 0.68,
-      "model_p": 0.9039,
-      "ev_pct": 22.4,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-10-09T05:35:48.615256+00:00",
-      "hours_left": 3.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    }
-  ],
-  "recent_resolved": [
+      "bucket": "31.0-31.0C",
+      "entry": 0.68,
+      "correct": true,
+      "pnl": 0.4,
+      "closed_by": "take_profit",
+      "lead_h": 6.0
+    },
     {
       "ts": "2026-10-09T04:05:12.237303+00:00",
       "city": "Sao Paulo",
@@ -397,18 +387,6 @@
       "pnl": 0.34,
       "closed_by": "resolved",
       "lead_h": -8.0
-    },
-    {
-      "ts": "2026-10-03T22:30:56.252972+00:00",
-      "city": "Warsaw",
-      "date": "2026-10-03",
-      "side": "NO",
-      "bucket": "23.0-23.0C",
-      "entry": 0.75,
-      "correct": true,
-      "pnl": 0.26,
-      "closed_by": "convergence_tp",
-      "lead_h": 54.0
     }
   ],
   "city_stats": {
