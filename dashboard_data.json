@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-09T13:00:21.116828+00:00",
+  "generated_at": "2026-10-09T14:00:17.443434+00:00",
   "balance": {
-    "current": 31.69,
-    "cash": 31.69,
-    "deployed": 0,
-    "unrealized": 0,
+    "current": 31.59,
+    "cash": 29.79,
+    "deployed": 1.9,
+    "unrealized": -0.1,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -18.31,
-    "pnl_pct": -36.6
+    "pnl_usd": -18.41,
+    "pnl_pct": -36.8
   },
   "trades": {
-    "total": 688,
+    "total": 689,
     "wins": 454,
     "losses": 229,
     "total_pnl": -21.51
@@ -26,7 +26,29 @@
     "base": 0.428,
     "status": "red"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "city": "Munich",
+      "date": "2026-10-09",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 16.0,
+      "bucket_high": 16.0,
+      "entry_price": 0.89,
+      "shares": 2.13,
+      "cost": 1.9,
+      "current_p": 0.845,
+      "model_p": 0.8118,
+      "ev_pct": -7.8,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-09T13:29:33.601077+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.1
+    }
+  ],
   "recent_resolved": [
     {
       "ts": "2026-10-09T12:05:24.359016+00:00",
