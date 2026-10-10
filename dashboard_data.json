@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-10T19:00:22.703308+00:00",
+  "generated_at": "2026-10-10T20:00:18.832197+00:00",
   "balance": {
-    "current": 32.11,
-    "cash": 28.37,
-    "deployed": 3.74,
-    "unrealized": 0.0,
+    "current": 32.0,
+    "cash": 26.67,
+    "deployed": 5.44,
+    "unrealized": -0.11,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -17.89,
-    "pnl_pct": -35.8
+    "pnl_usd": -18.0,
+    "pnl_pct": -36.0
   },
   "trades": {
-    "total": 693,
+    "total": 694,
     "wins": 456,
     "losses": 229,
     "total_pnl": -20.88
@@ -47,6 +47,27 @@
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
+    },
+    {
+      "city": "New York City",
+      "date": "2026-10-10",
+      "unit": "F",
+      "side": "YES",
+      "bucket_low": 68.0,
+      "bucket_high": 69.0,
+      "entry_price": 0.8,
+      "shares": 2.12,
+      "cost": 1.7,
+      "current_p": 0.75,
+      "model_p": 0.683,
+      "ev_pct": -11.7,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-10T19:06:04.345676+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.11
     },
     {
       "city": "Moscow",
