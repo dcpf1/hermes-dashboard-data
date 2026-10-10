@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T06:00:17.953498+00:00",
+  "generated_at": "2026-10-10T07:00:19.008379+00:00",
   "balance": {
     "current": 31.92,
     "cash": 31.92,
@@ -14,7 +14,7 @@
     "total": 689,
     "wins": 456,
     "losses": 229,
-    "total_pnl": -21.11
+    "total_pnl": -20.88
   },
   "brier": {
     "score": 0.254,
@@ -36,8 +36,8 @@
       "bucket": "16.0-16.0C",
       "entry": 0.89,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.23,
+      "closed_by": "resolved",
       "lead_h": -1.0
     },
     {
@@ -448,7 +448,7 @@
     "munich": {
       "n": 24,
       "win_rate": 0.75,
-      "total_pnl": 0.58
+      "total_pnl": 0.81
     },
     "houston": {
       "n": 11,
