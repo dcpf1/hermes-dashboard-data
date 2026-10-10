@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T08:00:18.192956+00:00",
+  "generated_at": "2026-10-10T09:00:18.590624+00:00",
   "balance": {
     "current": 32.11,
     "cash": 32.11,
@@ -11,7 +11,7 @@
     "pnl_pct": -35.8
   },
   "trades": {
-    "total": 690,
+    "total": 691,
     "wins": 456,
     "losses": 229,
     "total_pnl": -20.88
@@ -28,6 +28,18 @@
   },
   "open_positions": [],
   "recent_resolved": [
+    {
+      "ts": "2026-10-10T08:14:51.910059+00:00",
+      "city": "Chengdu",
+      "date": "2026-10-10",
+      "side": "YES",
+      "bucket": "20.0-20.0C",
+      "entry": 0.82,
+      "correct": false,
+      "pnl": 0.0,
+      "closed_by": "resolved",
+      "lead_h": 3.0
+    },
     {
       "ts": "2026-10-10T07:05:35.916390+00:00",
       "city": "Chongqing",
@@ -375,18 +387,6 @@
       "pnl": 0.32,
       "closed_by": "resolved",
       "lead_h": -7.0
-    },
-    {
-      "ts": "2026-10-04T22:06:43.987097+00:00",
-      "city": "Madrid",
-      "date": "2026-10-04",
-      "side": "YES",
-      "bucket": "23.0-23.0C",
-      "entry": 0.83,
-      "correct": false,
-      "pnl": -1.92,
-      "closed_by": "resolved",
-      "lead_h": -1.0
     }
   ],
   "city_stats": {
