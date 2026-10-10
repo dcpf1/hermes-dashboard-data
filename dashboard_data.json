@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-10T20:00:18.832197+00:00",
+  "generated_at": "2026-10-10T21:00:19.768768+00:00",
   "balance": {
-    "current": 32.0,
+    "current": 32.47,
     "cash": 26.67,
     "deployed": 5.44,
-    "unrealized": -0.11,
+    "unrealized": 0.36,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -18.0,
-    "pnl_pct": -36.0
+    "pnl_usd": -17.53,
+    "pnl_pct": -35.1
   },
   "trades": {
     "total": 694,
-    "wins": 456,
+    "wins": 457,
     "losses": 229,
     "total_pnl": -20.88
   },
   "brier": {
-    "score": 0.254,
-    "n": 656,
-    "bss": -0.037,
+    "score": 0.2551,
+    "n": 657,
+    "bss": -0.041,
     "win_rate": 0.689,
-    "ci_lo": 0.226,
-    "ci_hi": 0.282,
-    "base": 0.428,
+    "ci_lo": 0.227,
+    "ci_hi": 0.2832,
+    "base": 0.429,
     "status": "red"
   },
   "open_positions": [
@@ -58,7 +58,7 @@
       "entry_price": 0.8,
       "shares": 2.12,
       "cost": 1.7,
-      "current_p": 0.75,
+      "current_p": 0.9705,
       "model_p": 0.683,
       "ev_pct": -11.7,
       "n_agree": 1,
@@ -67,7 +67,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.11
+      "unrealized_pnl": 0.36
     },
     {
       "city": "Moscow",
@@ -93,15 +93,15 @@
   ],
   "recent_resolved": [
     {
-      "ts": "2026-10-10T08:14:51.910059+00:00",
+      "ts": "2026-10-10T20:33:46.469191+00:00",
       "city": "Chengdu",
       "date": "2026-10-10",
       "side": "YES",
       "bucket": "20.0-20.0C",
       "entry": 0.82,
-      "correct": false,
+      "correct": true,
       "pnl": 0.0,
-      "closed_by": "resolved",
+      "closed_by": "forecast_changed",
       "lead_h": 3.0
     },
     {
@@ -600,8 +600,8 @@
       "total_pnl": -4.2
     },
     "chengdu": {
-      "n": 30,
-      "win_rate": 0.7,
+      "n": 31,
+      "win_rate": 0.71,
       "total_pnl": -4.37
     },
     "chongqing": {
@@ -673,8 +673,8 @@
   },
   "lead_brier": {
     "lt6": {
-      "brier": 0.447,
-      "n": 27
+      "brier": 0.4668,
+      "n": 28
     },
     "6to24": {
       "brier": 0.2515,
