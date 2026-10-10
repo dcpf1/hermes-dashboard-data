@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-10T07:00:19.008379+00:00",
+  "generated_at": "2026-10-10T08:00:18.192956+00:00",
   "balance": {
-    "current": 31.92,
-    "cash": 31.92,
+    "current": 32.11,
+    "cash": 32.11,
     "deployed": 0,
     "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -18.08,
-    "pnl_pct": -36.2
+    "pnl_usd": -17.89,
+    "pnl_pct": -35.8
   },
   "trades": {
-    "total": 689,
+    "total": 690,
     "wins": 456,
     "losses": 229,
     "total_pnl": -20.88
@@ -28,6 +28,18 @@
   },
   "open_positions": [],
   "recent_resolved": [
+    {
+      "ts": "2026-10-10T07:05:35.916390+00:00",
+      "city": "Chongqing",
+      "date": "2026-10-10",
+      "side": "YES",
+      "bucket": "22.0-22.0C",
+      "entry": 0.81,
+      "correct": true,
+      "pnl": 0.19,
+      "closed_by": "resolved",
+      "lead_h": 4.0
+    },
     {
       "ts": "2026-10-09T22:01:00.720192+00:00",
       "city": "Munich",
@@ -375,18 +387,6 @@
       "pnl": -1.92,
       "closed_by": "resolved",
       "lead_h": -1.0
-    },
-    {
-      "ts": "2026-10-04T07:05:52.228624+00:00",
-      "city": "Seattle",
-      "date": "2026-10-03",
-      "side": "YES",
-      "bucket": "66.0-67.0F",
-      "entry": 0.89,
-      "correct": true,
-      "pnl": 0.22,
-      "closed_by": "resolved",
-      "lead_h": -11.0
     }
   ],
   "city_stats": {
