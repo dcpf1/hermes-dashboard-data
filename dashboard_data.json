@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-12T12:00:16.109005+00:00",
+  "generated_at": "2026-10-12T13:00:21.650375+00:00",
   "balance": {
-    "current": 34.02,
-    "cash": 31.38,
-    "deployed": 2.85,
-    "unrealized": -0.21,
+    "current": 34.22,
+    "cash": 29.5,
+    "deployed": 4.73,
+    "unrealized": -0.01,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -15.98,
-    "pnl_pct": -32.0
+    "pnl_usd": -15.78,
+    "pnl_pct": -31.6
   },
   "trades": {
-    "total": 701,
+    "total": 702,
     "wins": 465,
     "losses": 229,
     "total_pnl": -18.73
@@ -37,16 +37,16 @@
       "entry_price": 0.72,
       "shares": 2.22,
       "cost": 1.6,
-      "current_p": 0.715,
+      "current_p": 0.735,
       "model_p": 0.9006,
       "ev_pct": 18.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-12T05:38:14.250298+00:00",
-      "hours_left": 24.0,
+      "hours_left": 23.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.01
+      "unrealized_pnl": 0.03
     },
     {
       "city": "Shenzhen",
@@ -58,16 +58,37 @@
       "entry_price": 0.7,
       "shares": 1.79,
       "cost": 1.25,
-      "current_p": 0.59,
+      "current_p": 0.685,
       "model_p": 0.9596,
       "ev_pct": 26.0,
       "n_agree": 2,
       "n_avail": 2,
       "opened_at": "2026-10-12T05:37:23.743959+00:00",
-      "hours_left": 24.0,
+      "hours_left": 23.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.2
+      "unrealized_pnl": -0.03
+    },
+    {
+      "city": "Moscow",
+      "date": "2026-10-12",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 15.0,
+      "bucket_high": 15.0,
+      "entry_price": 0.89,
+      "shares": 2.11,
+      "cost": 1.88,
+      "current_p": 0.885,
+      "model_p": 0.9259,
+      "ev_pct": 3.6,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-12T12:54:04.292833+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.01
     }
   ],
   "recent_resolved": [
