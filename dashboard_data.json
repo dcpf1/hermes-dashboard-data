@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-12T06:00:21.743095+00:00",
+  "generated_at": "2026-10-12T07:00:17.719579+00:00",
   "balance": {
-    "current": 33.62,
-    "cash": 27.25,
-    "deployed": 6.42,
-    "unrealized": -0.05,
+    "current": 34.15,
+    "cash": 31.38,
+    "deployed": 2.85,
+    "unrealized": -0.08,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -16.38,
-    "pnl_pct": -32.8
+    "pnl_usd": -15.85,
+    "pnl_pct": -31.7
   },
   "trades": {
     "total": 701,
     "wins": 465,
     "losses": 229,
-    "total_pnl": -19.29
+    "total_pnl": -18.73
   },
   "brier": {
     "score": 0.2566,
@@ -37,16 +37,16 @@
       "entry_price": 0.72,
       "shares": 2.22,
       "cost": 1.6,
-      "current_p": 0.71,
+      "current_p": 0.725,
       "model_p": 0.9006,
       "ev_pct": 18.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-12T05:38:14.250298+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.02
+      "unrealized_pnl": 0.01
     },
     {
       "city": "Shenzhen",
@@ -58,58 +58,16 @@
       "entry_price": 0.7,
       "shares": 1.79,
       "cost": 1.25,
-      "current_p": 0.685,
+      "current_p": 0.65,
       "model_p": 0.9596,
       "ev_pct": 26.0,
       "n_agree": 2,
       "n_avail": 2,
       "opened_at": "2026-10-12T05:37:23.743959+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.03
-    },
-    {
-      "city": "Houston",
-      "date": "2026-10-11",
-      "unit": "F",
-      "side": "YES",
-      "bucket_low": 88.0,
-      "bucket_high": 89.0,
-      "entry_price": 0.84,
-      "shares": 2.06,
-      "cost": 1.73,
-      "current_p": 0.84,
-      "model_p": 0.6789,
-      "ev_pct": -16.1,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-10-11T20:05:15.712071+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    },
-    {
-      "city": "Austin",
-      "date": "2026-10-11",
-      "unit": "F",
-      "side": "YES",
-      "bucket_low": 92.0,
-      "bucket_high": 93.0,
-      "entry_price": 0.89,
-      "shares": 2.07,
-      "cost": 1.84,
-      "current_p": 0.89,
-      "model_p": 0.6789,
-      "ev_pct": -21.1,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-10-11T20:05:15.712071+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
+      "unrealized_pnl": -0.09
     }
   ],
   "recent_resolved": [
@@ -121,8 +79,8 @@
       "bucket": "88.0-89.0C",
       "entry": 0.84,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.33,
+      "closed_by": "resolved",
       "lead_h": -8.0
     },
     {
@@ -133,8 +91,8 @@
       "bucket": "92.0-93.0F",
       "entry": 0.89,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.23,
+      "closed_by": "resolved",
       "lead_h": -8.0
     },
     {
@@ -538,7 +496,7 @@
     "houston": {
       "n": 12,
       "win_rate": 0.667,
-      "total_pnl": -0.85
+      "total_pnl": -0.52
     },
     "amsterdam": {
       "n": 22,
@@ -573,7 +531,7 @@
     "austin": {
       "n": 16,
       "win_rate": 0.75,
-      "total_pnl": -2.05
+      "total_pnl": -1.82
     },
     "tel-aviv": {
       "n": 7,
