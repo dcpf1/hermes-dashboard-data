@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-12T16:00:23.575398+00:00",
+  "generated_at": "2026-10-12T17:00:19.355288+00:00",
   "balance": {
-    "current": 34.84,
-    "cash": 28.07,
-    "deployed": 6.39,
-    "unrealized": 0.38,
+    "current": 34.81,
+    "cash": 26.39,
+    "deployed": 8.07,
+    "unrealized": 0.35,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -15.16,
-    "pnl_pct": -30.3
+    "pnl_usd": -15.19,
+    "pnl_pct": -30.4
   },
   "trades": {
-    "total": 704,
+    "total": 705,
     "wins": 465,
     "losses": 229,
     "total_pnl": -18.73
@@ -37,16 +37,16 @@
       "entry_price": 0.72,
       "shares": 2.22,
       "cost": 1.6,
-      "current_p": 0.76,
+      "current_p": 0.755,
       "model_p": 0.9006,
       "ev_pct": 18.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-12T05:38:14.250298+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.09
+      "unrealized_pnl": 0.08
     },
     {
       "city": "Shenzhen",
@@ -58,16 +58,37 @@
       "entry_price": 0.7,
       "shares": 1.79,
       "cost": 1.25,
-      "current_p": 0.765,
+      "current_p": 0.78,
       "model_p": 0.9596,
       "ev_pct": 26.0,
       "n_agree": 2,
       "n_avail": 2,
       "opened_at": "2026-10-12T05:37:23.743959+00:00",
-      "hours_left": 20.0,
+      "hours_left": 19.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.12
+      "unrealized_pnl": 0.14
+    },
+    {
+      "city": "Helsinki",
+      "date": "2026-10-12",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 6.0,
+      "bucket_high": 6.0,
+      "entry_price": 0.879,
+      "shares": 1.91,
+      "cost": 1.68,
+      "current_p": 0.948,
+      "model_p": 0.0062,
+      "ev_pct": -87.3,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-12T16:05:09.425497+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.13
     },
     {
       "city": "Paris",
@@ -79,7 +100,7 @@
       "entry_price": 0.86,
       "shares": 1.93,
       "cost": 1.66,
-      "current_p": 0.95,
+      "current_p": 0.86,
       "model_p": 0.8351,
       "ev_pct": -2.5,
       "n_agree": 1,
@@ -88,7 +109,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.17
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Moscow",
