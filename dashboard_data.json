@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T23:00:25.984386+00:00",
+  "generated_at": "2026-10-12T00:00:17.614626+00:00",
   "balance": {
     "current": 33.5,
     "cash": 28.94,
@@ -37,13 +37,13 @@
       "entry_price": 0.76,
       "shares": 1.32,
       "cost": 1.0,
-      "current_p": 0.75,
+      "current_p": 0.755,
       "model_p": 0.9246,
       "ev_pct": 16.5,
       "n_agree": 4,
       "n_avail": 4,
       "opened_at": "2026-10-11T05:37:11.081919+00:00",
-      "hours_left": 13.0,
+      "hours_left": 12.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.01
