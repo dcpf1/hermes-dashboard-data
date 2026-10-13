@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-13T04:00:17.618339+00:00",
+  "generated_at": "2026-10-13T05:00:18.828141+00:00",
   "balance": {
-    "current": 34.59,
+    "current": 34.34,
     "cash": 28.88,
     "deployed": 5.72,
-    "unrealized": -0.01,
+    "unrealized": -0.26,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -15.41,
-    "pnl_pct": -30.8
+    "pnl_usd": -15.66,
+    "pnl_pct": -31.3
   },
   "trades": {
     "total": 709,
-    "wins": 470,
+    "wins": 471,
     "losses": 229,
     "total_pnl": -18.34
   },
   "brier": {
-    "score": 0.2574,
-    "n": 670,
-    "bss": -0.045,
+    "score": 0.2577,
+    "n": 671,
+    "bss": -0.046,
     "win_rate": 0.696,
-    "ci_lo": 0.2295,
-    "ci_hi": 0.2853,
-    "base": 0.439,
+    "ci_lo": 0.2299,
+    "ci_hi": 0.2856,
+    "base": 0.44,
     "status": "red"
   },
   "open_positions": [
@@ -37,16 +37,16 @@
       "entry_price": 0.7,
       "shares": 1.79,
       "cost": 1.25,
-      "current_p": 0.695,
+      "current_p": 0.555,
       "model_p": 0.9596,
       "ev_pct": 26.0,
       "n_agree": 2,
       "n_avail": 2,
       "opened_at": "2026-10-12T05:37:23.743959+00:00",
-      "hours_left": 8.0,
+      "hours_left": 7.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.01
+      "unrealized_pnl": -0.26
     },
     {
       "city": "Seattle",
@@ -113,6 +113,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-13T04:05:39.832472+00:00",
+      "city": "Miami",
+      "date": "2026-10-12",
+      "side": "YES",
+      "bucket": "88.0-89.0F",
+      "entry": 0.84,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -7.0
+    },
     {
       "ts": "2026-10-13T00:12:57.464986+00:00",
       "city": "Wellington",
@@ -460,18 +472,6 @@
       "pnl": 0.33,
       "closed_by": "resolved",
       "lead_h": -1.0
-    },
-    {
-      "ts": "2026-10-07T07:05:10.372079+00:00",
-      "city": "Seattle",
-      "date": "2026-10-06",
-      "side": "YES",
-      "bucket": "64.0-65.0F",
-      "entry": 0.848,
-      "correct": false,
-      "pnl": -1.68,
-      "closed_by": "resolved",
-      "lead_h": -11.0
     }
   ],
   "city_stats": {
@@ -481,8 +481,8 @@
       "total_pnl": 12.99
     },
     "miami": {
-      "n": 27,
-      "win_rate": 0.519,
+      "n": 28,
+      "win_rate": 0.536,
       "total_pnl": 9.3
     },
     "los-angeles": {
