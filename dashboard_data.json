@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-13T14:00:19.174253+00:00",
+  "generated_at": "2026-10-13T15:00:18.950104+00:00",
   "balance": {
-    "current": 36.25,
-    "cash": 30.02,
-    "deployed": 5.91,
-    "unrealized": 0.32,
+    "current": 35.39,
+    "cash": 28.22,
+    "deployed": 7.71,
+    "unrealized": -0.54,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.75,
-    "pnl_pct": -27.5
+    "pnl_usd": -14.61,
+    "pnl_pct": -29.2
   },
   "trades": {
-    "total": 712,
+    "total": 713,
     "wins": 473,
     "losses": 230,
     "total_pnl": -18.25
@@ -27,6 +27,27 @@
     "status": "red"
   },
   "open_positions": [
+    {
+      "city": "London",
+      "date": "2026-10-13",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 20.0,
+      "bucket_high": 20.0,
+      "entry_price": 0.82,
+      "shares": 2.2,
+      "cost": 1.8,
+      "current_p": 0.575,
+      "model_p": 0.8802,
+      "ev_pct": 6.0,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-13T14:43:42.782099+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.54
+    },
     {
       "city": "Chongqing",
       "date": "2026-10-13",
@@ -58,7 +79,7 @@
       "entry_price": 0.851,
       "shares": 2.26,
       "cost": 1.92,
-      "current_p": 0.8545,
+      "current_p": 0.851,
       "model_p": 0.8351,
       "ev_pct": -1.6,
       "n_agree": 1,
@@ -67,7 +88,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.01
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Helsinki",
@@ -79,7 +100,7 @@
       "entry_price": 0.85,
       "shares": 2.4,
       "cost": 2.04,
-      "current_p": 0.9785,
+      "current_p": 0.85,
       "model_p": 0.7024,
       "ev_pct": -14.8,
       "n_agree": 1,
@@ -88,7 +109,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.31
+      "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
