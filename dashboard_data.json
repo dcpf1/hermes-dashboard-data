@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-13T01:00:18.601596+00:00",
+  "generated_at": "2026-10-13T02:00:17.838980+00:00",
   "balance": {
-    "current": 35.75,
-    "cash": 26.71,
-    "deployed": 8.6,
-    "unrealized": 0.44,
+    "current": 34.52,
+    "cash": 26.77,
+    "deployed": 7.6,
+    "unrealized": 0.15,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -14.25,
-    "pnl_pct": -28.5
+    "pnl_usd": -15.48,
+    "pnl_pct": -31.0
   },
   "trades": {
     "total": 709,
@@ -43,31 +43,10 @@
       "n_agree": 2,
       "n_avail": 2,
       "opened_at": "2026-10-12T05:37:23.743959+00:00",
-      "hours_left": 11.0,
+      "hours_left": 10.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.15
-    },
-    {
-      "city": "Wellington",
-      "date": "2026-10-13",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 19.0,
-      "bucket_high": 19.0,
-      "entry_price": 0.54,
-      "shares": 1.85,
-      "cost": 1.0,
-      "current_p": 0.695,
-      "model_p": 0.9447,
-      "ev_pct": 40.5,
-      "n_agree": 5,
-      "n_avail": 5,
-      "opened_at": "2026-10-13T00:12:57.464986+00:00",
-      "hours_left": 11.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.29
     },
     {
       "city": "Seattle",
@@ -155,6 +134,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-13T00:12:57.464986+00:00",
+      "city": "Wellington",
+      "date": "2026-10-13",
+      "side": "NO",
+      "bucket": "19.0-19.0C",
+      "entry": 0.54,
+      "correct": false,
+      "pnl": -0.94,
+      "closed_by": "take_profit",
+      "lead_h": 11.0
+    },
     {
       "ts": "2026-10-12T23:56:07.832955+00:00",
       "city": "Milan",
@@ -502,18 +493,6 @@
       "pnl": -1.68,
       "closed_by": "resolved",
       "lead_h": -11.0
-    },
-    {
-      "ts": "2026-10-07T04:06:08.259346+00:00",
-      "city": "Toronto",
-      "date": "2026-10-06",
-      "side": "YES",
-      "bucket": "14.0-14.0C",
-      "entry": 0.814,
-      "correct": true,
-      "pnl": 0.35,
-      "closed_by": "resolved",
-      "lead_h": -8.0
     }
   ],
   "city_stats": {
