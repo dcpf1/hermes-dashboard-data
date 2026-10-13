@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-13T20:00:46.921283+00:00",
+  "generated_at": "2026-10-13T21:00:18.775129+00:00",
   "balance": {
-    "current": 36.34,
-    "cash": 28.76,
-    "deployed": 7.6,
-    "unrealized": -0.02,
+    "current": 36.11,
+    "cash": 27.03,
+    "deployed": 9.33,
+    "unrealized": -0.25,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.66,
-    "pnl_pct": -27.3
+    "pnl_usd": -13.89,
+    "pnl_pct": -27.8
   },
   "trades": {
-    "total": 714,
+    "total": 715,
     "wins": 475,
     "losses": 230,
     "total_pnl": -17.28
@@ -37,7 +37,7 @@
       "entry_price": 0.857,
       "shares": 2.15,
       "cost": 1.84,
-      "current_p": 0.8485,
+      "current_p": 0.857,
       "model_p": 0.7229,
       "ev_pct": -13.4,
       "n_agree": 1,
@@ -46,7 +46,28 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.02
+      "unrealized_pnl": 0.0
+    },
+    {
+      "city": "Austin",
+      "date": "2026-10-13",
+      "unit": "F",
+      "side": "YES",
+      "bucket_low": 94.0,
+      "bucket_high": 95.0,
+      "entry_price": 0.89,
+      "shares": 1.94,
+      "cost": 1.73,
+      "current_p": 0.76,
+      "model_p": 0.7597,
+      "ev_pct": -13.0,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-13T20:31:33.138048+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.25
     },
     {
       "city": "London",
