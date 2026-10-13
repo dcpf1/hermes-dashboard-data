@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-13T16:00:20.193686+00:00",
+  "generated_at": "2026-10-13T17:00:20.794034+00:00",
   "balance": {
-    "current": 35.93,
-    "cash": 28.22,
-    "deployed": 7.71,
+    "current": 36.36,
+    "cash": 30.6,
+    "deployed": 5.76,
     "unrealized": 0.0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -14.07,
-    "pnl_pct": -28.1
+    "pnl_usd": -13.64,
+    "pnl_pct": -27.3
   },
   "trades": {
     "total": 713,
-    "wins": 473,
+    "wins": 475,
     "losses": 230,
-    "total_pnl": -18.25
+    "total_pnl": -17.28
   },
   "brier": {
-    "score": 0.2588,
-    "n": 674,
-    "bss": -0.049,
-    "win_rate": 0.696,
-    "ci_lo": 0.231,
-    "ci_hi": 0.2867,
+    "score": 0.2581,
+    "n": 676,
+    "bss": -0.046,
+    "win_rate": 0.697,
+    "ci_lo": 0.2303,
+    "ci_hi": 0.2859,
     "base": 0.442,
     "status": "red"
   },
@@ -43,27 +43,6 @@
       "n_agree": 1,
       "n_avail": 1,
       "opened_at": "2026-10-13T14:43:42.782099+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    },
-    {
-      "city": "Chongqing",
-      "date": "2026-10-13",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 26.0,
-      "bucket_high": 26.0,
-      "entry_price": 0.82,
-      "shares": 2.38,
-      "cost": 1.95,
-      "current_p": 0.82,
-      "model_p": 0.8351,
-      "ev_pct": 1.5,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-10-13T07:34:00.725738+00:00",
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
@@ -113,6 +92,30 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-13T16:30:59.994378+00:00",
+      "city": "Chongqing",
+      "date": "2026-10-13",
+      "side": "YES",
+      "bucket": "26.0-26.0C",
+      "entry": 0.82,
+      "correct": true,
+      "pnl": 0.43,
+      "closed_by": "resolved",
+      "lead_h": 4.0
+    },
+    {
+      "ts": "2026-10-13T16:30:59.994378+00:00",
+      "city": "Shenzhen",
+      "date": "2026-10-13",
+      "side": "NO",
+      "bucket": "31.0-31.0C",
+      "entry": 0.7,
+      "correct": true,
+      "pnl": 0.54,
+      "closed_by": "take_profit",
+      "lead_h": 30.0
+    },
     {
       "ts": "2026-10-13T13:33:05.576739+00:00",
       "city": "Wellington",
@@ -230,18 +233,6 @@
       "entry": 0.72,
       "correct": true,
       "pnl": 0.36,
-      "closed_by": "take_profit",
-      "lead_h": 30.0
-    },
-    {
-      "ts": "2026-10-12T05:37:23.743959+00:00",
-      "city": "Shenzhen",
-      "date": "2026-10-13",
-      "side": "NO",
-      "bucket": "31.0-31.0C",
-      "entry": 0.7,
-      "correct": true,
-      "pnl": 0.54,
       "closed_by": "take_profit",
       "lead_h": 30.0
     },
@@ -460,18 +451,6 @@
       "pnl": -1.41,
       "closed_by": "resolved",
       "lead_h": -9.0
-    },
-    {
-      "ts": "2026-10-08T04:55:13.042606+00:00",
-      "city": "Toronto",
-      "date": "2026-10-07",
-      "side": "YES",
-      "bucket": "23.0-23.0C",
-      "entry": 0.88,
-      "correct": true,
-      "pnl": 0.22,
-      "closed_by": "resolved",
-      "lead_h": -7.0
     }
   ],
   "city_stats": {
@@ -605,6 +584,11 @@
       "win_rate": 0.765,
       "total_pnl": -3.44
     },
+    "chongqing": {
+      "n": 37,
+      "win_rate": 0.73,
+      "total_pnl": -3.46
+    },
     "atlanta": {
       "n": 25,
       "win_rate": 0.84,
@@ -614,11 +598,6 @@
       "n": 15,
       "win_rate": 0.667,
       "total_pnl": -3.88
-    },
-    "chongqing": {
-      "n": 36,
-      "win_rate": 0.722,
-      "total_pnl": -3.89
     },
     "london": {
       "n": 30,
@@ -646,9 +625,9 @@
       "total_pnl": -8.33
     },
     "shenzhen": {
-      "n": 21,
-      "win_rate": 0.524,
-      "total_pnl": -10.59
+      "n": 22,
+      "win_rate": 0.545,
+      "total_pnl": -10.05
     }
   },
   "circuit_triggered_at": "2026-06-14T02:03:57.427426+00:00",
@@ -694,16 +673,16 @@
   },
   "lead_brier": {
     "lt6": {
-      "brier": 0.4552,
-      "n": 31
+      "brier": 0.4418,
+      "n": 32
     },
     "6to24": {
       "brier": 0.2573,
       "n": 111
     },
     "24to48": {
-      "brier": 0.2039,
-      "n": 245
+      "brier": 0.2031,
+      "n": 246
     },
     "gt48": {
       "brier": 0.208,
