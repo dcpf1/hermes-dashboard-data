@@ -1,32 +1,53 @@
 {
-  "generated_at": "2026-10-13T07:00:20.267942+00:00",
+  "generated_at": "2026-10-13T08:00:17.187301+00:00",
   "balance": {
-    "current": 35.44,
-    "cash": 32.55,
-    "deployed": 2.89,
-    "unrealized": 0.0,
+    "current": 35.34,
+    "cash": 30.6,
+    "deployed": 4.84,
+    "unrealized": -0.1,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -14.56,
-    "pnl_pct": -29.1
+    "pnl_usd": -14.66,
+    "pnl_pct": -29.3
   },
   "trades": {
-    "total": 709,
-    "wins": 472,
+    "total": 710,
+    "wins": 473,
     "losses": 229,
     "total_pnl": -17.31
   },
   "brier": {
-    "score": 0.2582,
-    "n": 672,
-    "bss": -0.048,
-    "win_rate": 0.696,
-    "ci_lo": 0.2303,
-    "ci_hi": 0.286,
-    "base": 0.44,
+    "score": 0.2579,
+    "n": 673,
+    "bss": -0.046,
+    "win_rate": 0.697,
+    "ci_lo": 0.2301,
+    "ci_hi": 0.2857,
+    "base": 0.441,
     "status": "red"
   },
   "open_positions": [
+    {
+      "city": "Chongqing",
+      "date": "2026-10-13",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 26.0,
+      "bucket_high": 26.0,
+      "entry_price": 0.82,
+      "shares": 2.38,
+      "cost": 1.95,
+      "current_p": 0.78,
+      "model_p": 0.8351,
+      "ev_pct": 1.5,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-13T07:34:00.725738+00:00",
+      "hours_left": 4.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.1
+    },
     {
       "city": "Seattle",
       "date": "2026-10-12",
@@ -71,6 +92,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-13T07:05:22.844993+00:00",
+      "city": "Seattle",
+      "date": "2026-10-12",
+      "side": "YES",
+      "bucket": "60.0-61.0F",
+      "entry": 0.87,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -10.0
+    },
     {
       "ts": "2026-10-13T05:10:41.041472+00:00",
       "city": "Dallas",
@@ -418,18 +451,6 @@
       "pnl": 0.22,
       "closed_by": "resolved",
       "lead_h": -7.0
-    },
-    {
-      "ts": "2026-10-07T22:11:56.700408+00:00",
-      "city": "Madrid",
-      "date": "2026-10-07",
-      "side": "YES",
-      "bucket": "23.0-23.0C",
-      "entry": 0.89,
-      "correct": true,
-      "pnl": 0.21,
-      "closed_by": "resolved",
-      "lead_h": -2.0
     }
   ],
   "city_stats": {
@@ -569,8 +590,8 @@
       "total_pnl": -3.54
     },
     "seattle": {
-      "n": 14,
-      "win_rate": 0.643,
+      "n": 15,
+      "win_rate": 0.667,
       "total_pnl": -3.88
     },
     "chongqing": {
