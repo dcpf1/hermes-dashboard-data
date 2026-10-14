@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T04:00:20.687625+00:00",
+  "generated_at": "2026-10-14T05:00:18.668101+00:00",
   "balance": {
     "current": 37.46,
     "cash": 33.89,
@@ -12,18 +12,18 @@
   },
   "trades": {
     "total": 715,
-    "wins": 479,
+    "wins": 480,
     "losses": 230,
     "total_pnl": -16.92
   },
   "brier": {
-    "score": 0.2568,
-    "n": 680,
-    "bss": -0.04,
+    "score": 0.2565,
+    "n": 681,
+    "bss": -0.039,
     "win_rate": 0.699,
-    "ci_lo": 0.2292,
-    "ci_hi": 0.2844,
-    "base": 0.444,
+    "ci_lo": 0.2289,
+    "ci_hi": 0.2841,
+    "base": 0.445,
     "status": "red"
   },
   "open_positions": [
@@ -71,6 +71,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-14T04:05:53.327719+00:00",
+      "city": "Toronto",
+      "date": "2026-10-13",
+      "side": "YES",
+      "bucket": "28.0-28.0C",
+      "entry": 0.857,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -7.0
+    },
     {
       "ts": "2026-10-14T03:44:32.930209+00:00",
       "city": "Buenos Aires",
@@ -418,18 +430,6 @@
       "pnl": -1.91,
       "closed_by": "resolved",
       "lead_h": 0.0
-    },
-    {
-      "ts": "2026-10-08T05:30:58.734443+00:00",
-      "city": "Buenos Aires",
-      "date": "2026-10-07",
-      "side": "YES",
-      "bucket": "18.0-18.0C",
-      "entry": 0.87,
-      "correct": true,
-      "pnl": -0.03,
-      "closed_by": "forecast_changed",
-      "lead_h": -7.0
     }
   ],
   "city_stats": {
@@ -509,8 +509,8 @@
       "total_pnl": -1.2
     },
     "toronto": {
-      "n": 26,
-      "win_rate": 0.731,
+      "n": 27,
+      "win_rate": 0.741,
       "total_pnl": -1.22
     },
     "tokyo": {
