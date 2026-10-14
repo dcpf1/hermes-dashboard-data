@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T06:00:18.555691+00:00",
+  "generated_at": "2026-10-14T07:00:21.353745+00:00",
   "balance": {
     "current": 37.77,
     "cash": 36.04,
@@ -14,7 +14,7 @@
     "total": 715,
     "wins": 481,
     "losses": 230,
-    "total_pnl": -16.92
+    "total_pnl": -15.02
   },
   "brier": {
     "score": 0.2562,
@@ -70,8 +70,8 @@
       "bucket": "28.0-28.0C",
       "entry": 0.857,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.31,
+      "closed_by": "resolved",
       "lead_h": -7.0
     },
     {
@@ -94,8 +94,8 @@
       "bucket": "20.0-20.0C",
       "entry": 0.82,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.4,
+      "closed_by": "resolved",
       "lead_h": -2.0
     },
     {
@@ -106,8 +106,8 @@
       "bucket": "24.0-24.0C",
       "entry": 0.851,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.34,
+      "closed_by": "resolved",
       "lead_h": -1.0
     },
     {
@@ -118,8 +118,8 @@
       "bucket": "8.0-8.0C",
       "entry": 0.85,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.36,
+      "closed_by": "resolved",
       "lead_h": 0.0
     },
     {
@@ -166,8 +166,8 @@
       "bucket": "60.0-61.0F",
       "entry": 0.87,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.21,
+      "closed_by": "resolved",
       "lead_h": -10.0
     },
     {
@@ -178,8 +178,8 @@
       "bucket": "88.0-89.0F",
       "entry": 0.84,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.28,
+      "closed_by": "resolved",
       "lead_h": -8.0
     },
     {
@@ -455,7 +455,7 @@
     "paris": {
       "n": 31,
       "win_rate": 0.742,
-      "total_pnl": 2.51
+      "total_pnl": 2.85
     },
     "moscow": {
       "n": 25,
@@ -482,30 +482,30 @@
       "win_rate": 0.636,
       "total_pnl": -0.9
     },
+    "toronto": {
+      "n": 27,
+      "win_rate": 0.741,
+      "total_pnl": -0.91
+    },
+    "helsinki": {
+      "n": 26,
+      "win_rate": 0.731,
+      "total_pnl": -1.18
+    },
     "lucknow": {
       "n": 12,
       "win_rate": 0.75,
       "total_pnl": -1.2
     },
-    "toronto": {
-      "n": 27,
-      "win_rate": 0.741,
-      "total_pnl": -1.22
+    "dallas": {
+      "n": 26,
+      "win_rate": 0.731,
+      "total_pnl": -1.49
     },
     "tokyo": {
       "n": 14,
       "win_rate": 0.571,
       "total_pnl": -1.49
-    },
-    "helsinki": {
-      "n": 26,
-      "win_rate": 0.731,
-      "total_pnl": -1.54
-    },
-    "dallas": {
-      "n": 26,
-      "win_rate": 0.731,
-      "total_pnl": -1.77
     },
     "austin": {
       "n": 17,
@@ -555,12 +555,12 @@
     "seattle": {
       "n": 15,
       "win_rate": 0.667,
-      "total_pnl": -3.88
+      "total_pnl": -3.67
     },
     "london": {
       "n": 31,
       "win_rate": 0.613,
-      "total_pnl": -4.2
+      "total_pnl": -3.8
     },
     "chengdu": {
       "n": 32,
