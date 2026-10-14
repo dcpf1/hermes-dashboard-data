@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T03:00:18.543209+00:00",
+  "generated_at": "2026-10-14T04:00:20.687625+00:00",
   "balance": {
     "current": 37.46,
     "cash": 33.89,
@@ -12,18 +12,18 @@
   },
   "trades": {
     "total": 715,
-    "wins": 478,
+    "wins": 479,
     "losses": 230,
-    "total_pnl": -17.28
+    "total_pnl": -16.92
   },
   "brier": {
-    "score": 0.2572,
-    "n": 679,
-    "bss": -0.041,
-    "win_rate": 0.698,
-    "ci_lo": 0.2295,
-    "ci_hi": 0.2848,
-    "base": 0.445,
+    "score": 0.2568,
+    "n": 680,
+    "bss": -0.04,
+    "win_rate": 0.699,
+    "ci_lo": 0.2292,
+    "ci_hi": 0.2844,
+    "base": 0.444,
     "status": "red"
   },
   "open_positions": [
@@ -71,6 +71,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-14T03:44:32.930209+00:00",
+      "city": "Buenos Aires",
+      "date": "2026-10-13",
+      "side": "NO",
+      "bucket": "21.0-21.0C",
+      "entry": 0.72,
+      "correct": true,
+      "pnl": 0.36,
+      "closed_by": "convergence_tp",
+      "lead_h": 30.0
+    },
     {
       "ts": "2026-10-13T23:05:41.669744+00:00",
       "city": "London",
@@ -237,18 +249,6 @@
       "correct": true,
       "pnl": 0.16,
       "closed_by": "convergence_tp",
-      "lead_h": 30.0
-    },
-    {
-      "ts": "2026-10-12T05:38:14.250298+00:00",
-      "city": "Buenos Aires",
-      "date": "2026-10-13",
-      "side": "NO",
-      "bucket": "21.0-21.0C",
-      "entry": 0.72,
-      "correct": true,
-      "pnl": 0.36,
-      "closed_by": "take_profit",
       "lead_h": 30.0
     },
     {
@@ -449,9 +449,9 @@
       "total_pnl": 6.59
     },
     "buenos-aires": {
-      "n": 19,
-      "win_rate": 0.684,
-      "total_pnl": 5.88
+      "n": 20,
+      "win_rate": 0.7,
+      "total_pnl": 6.24
     },
     "istanbul": {
       "n": 12,
@@ -660,8 +660,8 @@
       "n": 111
     },
     "24to48": {
-      "brier": 0.2031,
-      "n": 246
+      "brier": 0.2023,
+      "n": 247
     },
     "gt48": {
       "brier": 0.208,
