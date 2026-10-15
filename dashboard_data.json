@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-15T07:00:20.654390+00:00",
+  "generated_at": "2026-10-15T08:00:25.165428+00:00",
   "balance": {
-    "current": 35.7,
-    "cash": 33.56,
-    "deployed": 2.14,
-    "unrealized": 0.0,
+    "current": 35.66,
+    "cash": 33.83,
+    "deployed": 2.16,
+    "unrealized": -0.33,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -14.3,
-    "pnl_pct": -28.6
+    "pnl_usd": -14.34,
+    "pnl_pct": -28.7
   },
   "trades": {
-    "total": 717,
+    "total": 718,
     "wins": 482,
     "losses": 231,
     "total_pnl": -17.09
@@ -28,25 +28,25 @@
   },
   "open_positions": [
     {
-      "city": "New York City",
-      "date": "2026-10-14",
-      "unit": "F",
+      "city": "Shenzhen",
+      "date": "2026-10-15",
+      "unit": "C",
       "side": "YES",
-      "bucket_low": 78.0,
-      "bucket_high": 79.0,
-      "entry_price": 0.88,
-      "shares": 2.43,
-      "cost": 2.14,
-      "current_p": 0.88,
-      "model_p": 0.9007,
-      "ev_pct": 2.1,
+      "bucket_low": 30.0,
+      "bucket_high": 30.0,
+      "entry_price": 0.859,
+      "shares": 2.51,
+      "cost": 2.16,
+      "current_p": 0.7295,
+      "model_p": 0.5314,
+      "ev_pct": -32.8,
       "n_agree": 1,
       "n_avail": 1,
-      "opened_at": "2026-10-14T20:42:53.643244+00:00",
-      "hours_left": 0.0,
+      "opened_at": "2026-10-15T07:35:35.466668+00:00",
+      "hours_left": 4.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.0
+      "unrealized_pnl": -0.33
     }
   ],
   "recent_resolved": [
