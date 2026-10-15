@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-15T20:00:45.646972+00:00",
+  "generated_at": "2026-10-15T21:00:20.498236+00:00",
   "balance": {
-    "current": 36.03,
-    "cash": 30.61,
-    "deployed": 5.73,
-    "unrealized": -0.31,
+    "current": 36.22,
+    "cash": 28.77,
+    "deployed": 7.46,
+    "unrealized": -0.01,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.97,
-    "pnl_pct": -27.9
+    "pnl_usd": -13.78,
+    "pnl_pct": -27.6
   },
   "trades": {
-    "total": 721,
+    "total": 723,
     "wins": 483,
     "losses": 231,
     "total_pnl": -16.74
@@ -79,7 +79,7 @@
       "entry_price": 0.89,
       "shares": 2.01,
       "cost": 1.79,
-      "current_p": 0.735,
+      "current_p": 0.84,
       "model_p": 0.8008,
       "ev_pct": -8.9,
       "n_agree": 1,
@@ -88,10 +88,43 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.31
+      "unrealized_pnl": -0.1
+    },
+    {
+      "city": "Dallas",
+      "date": "2026-10-15",
+      "unit": "F",
+      "side": "YES",
+      "bucket_low": 88.0,
+      "bucket_high": 89.0,
+      "entry_price": 0.83,
+      "shares": 2.08,
+      "cost": 1.73,
+      "current_p": 0.875,
+      "model_p": 0.6872,
+      "ev_pct": -14.3,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-15T20:17:41.392663+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.09
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-15T19:55:48.126390+00:00",
+      "city": "Toronto",
+      "date": "2026-10-15",
+      "side": "YES",
+      "bucket": "11.0-11.0C",
+      "entry": 0.88,
+      "correct": false,
+      "pnl": -0.11,
+      "closed_by": "resolved",
+      "lead_h": 0.0
+    },
     {
       "ts": "2026-10-15T19:43:37.055523+00:00",
       "city": "Shenzhen",
@@ -439,18 +472,6 @@
       "pnl": 0.0,
       "closed_by": "forecast_changed",
       "lead_h": 3.0
-    },
-    {
-      "ts": "2026-10-09T22:01:00.720192+00:00",
-      "city": "Munich",
-      "date": "2026-10-09",
-      "side": "YES",
-      "bucket": "16.0-16.0C",
-      "entry": 0.89,
-      "correct": true,
-      "pnl": 0.23,
-      "closed_by": "resolved",
-      "lead_h": -1.0
     }
   ],
   "city_stats": {
