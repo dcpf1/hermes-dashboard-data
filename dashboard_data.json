@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T06:00:20.060040+00:00",
+  "generated_at": "2026-10-15T07:00:20.654390+00:00",
   "balance": {
     "current": 35.7,
     "cash": 33.56,
@@ -14,7 +14,7 @@
     "total": 717,
     "wins": 482,
     "losses": 231,
-    "total_pnl": -15.02
+    "total_pnl": -17.09
   },
   "brier": {
     "score": 0.2566,
@@ -70,8 +70,8 @@
       "bucket": "10.0-10.0C",
       "entry": 0.87,
       "correct": false,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": -2.28,
+      "closed_by": "resolved",
       "lead_h": -2.0
     },
     {
@@ -82,8 +82,8 @@
       "bucket": "94.0-95.0F",
       "entry": 0.89,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.21,
+      "closed_by": "resolved",
       "lead_h": -8.0
     },
     {
@@ -487,11 +487,6 @@
       "win_rate": 0.741,
       "total_pnl": -0.91
     },
-    "helsinki": {
-      "n": 27,
-      "win_rate": 0.704,
-      "total_pnl": -1.18
-    },
     "lucknow": {
       "n": 12,
       "win_rate": 0.75,
@@ -510,7 +505,7 @@
     "austin": {
       "n": 17,
       "win_rate": 0.765,
-      "total_pnl": -1.82
+      "total_pnl": -1.61
     },
     "tel-aviv": {
       "n": 7,
@@ -545,6 +540,11 @@
     "chongqing": {
       "n": 37,
       "win_rate": 0.73,
+      "total_pnl": -3.46
+    },
+    "helsinki": {
+      "n": 27,
+      "win_rate": 0.704,
       "total_pnl": -3.46
     },
     "atlanta": {
