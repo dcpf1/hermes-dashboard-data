@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-16T07:00:21.036429+00:00",
+  "generated_at": "2026-10-16T08:00:19.169828+00:00",
   "balance": {
-    "current": 37.22,
-    "cash": 31.65,
-    "deployed": 5.37,
-    "unrealized": 0.2,
+    "current": 37.96,
+    "cash": 34.18,
+    "deployed": 3.7,
+    "unrealized": 0.08,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.78,
-    "pnl_pct": -25.6
+    "pnl_usd": -12.04,
+    "pnl_pct": -24.1
   },
   "trades": {
-    "total": 727,
+    "total": 728,
     "wins": 488,
     "losses": 232,
     "total_pnl": -15.41
@@ -37,37 +37,16 @@
       "entry_price": 0.74,
       "shares": 2.26,
       "cost": 1.67,
-      "current_p": 0.765,
+      "current_p": 0.775,
       "model_p": 0.9091,
       "ev_pct": 16.9,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-16T05:38:23.847147+00:00",
-      "hours_left": 5.0,
+      "hours_left": 4.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.06
-    },
-    {
-      "city": "Austin",
-      "date": "2026-10-16",
-      "unit": "F",
-      "side": "NO",
-      "bucket_low": 72.0,
-      "bucket_high": 73.0,
-      "entry_price": 0.656,
-      "shares": 2.55,
-      "cost": 1.67,
-      "current_p": 0.709,
-      "model_p": 0.9095,
-      "ev_pct": 25.3,
-      "n_agree": 5,
-      "n_avail": 7,
-      "opened_at": "2026-10-16T05:31:59.875846+00:00",
-      "hours_left": 5.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.14
+      "unrealized_pnl": 0.08
     },
     {
       "city": "Milan",
@@ -93,6 +72,18 @@
   ],
   "recent_resolved": [
     {
+      "ts": "2026-10-16T07:37:46.003378+00:00",
+      "city": "Chengdu",
+      "date": "2026-10-16",
+      "side": "YES",
+      "bucket": "21.0-21.0C",
+      "entry": 0.82,
+      "correct": false,
+      "pnl": -0.02,
+      "closed_by": "resolved",
+      "lead_h": 4.0
+    },
+    {
       "ts": "2026-10-16T05:37:22.919187+00:00",
       "city": "Chongqing",
       "date": "2026-10-16",
@@ -101,6 +92,18 @@
       "entry": 0.574,
       "correct": false,
       "pnl": -0.36,
+      "closed_by": "take_profit",
+      "lead_h": 6.0
+    },
+    {
+      "ts": "2026-10-16T05:31:59.875846+00:00",
+      "city": "Austin",
+      "date": "2026-10-16",
+      "side": "NO",
+      "bucket": "72.0-73.0F",
+      "entry": 0.656,
+      "correct": true,
+      "pnl": 0.87,
       "closed_by": "take_profit",
       "lead_h": 6.0
     },
@@ -427,30 +430,6 @@
       "pnl": 0.33,
       "closed_by": "resolved",
       "lead_h": -8.0
-    },
-    {
-      "ts": "2026-10-12T05:10:42.304070+00:00",
-      "city": "Austin",
-      "date": "2026-10-11",
-      "side": "YES",
-      "bucket": "92.0-93.0F",
-      "entry": 0.89,
-      "correct": true,
-      "pnl": 0.23,
-      "closed_by": "resolved",
-      "lead_h": -8.0
-    },
-    {
-      "ts": "2026-10-12T04:55:58.870012+00:00",
-      "city": "Buenos Aires",
-      "date": "2026-10-11",
-      "side": "YES",
-      "bucket": "15.0-15.0C",
-      "entry": 0.87,
-      "correct": true,
-      "pnl": -0.08,
-      "closed_by": "forecast_changed",
-      "lead_h": -6.0
     }
   ],
   "city_stats": {
