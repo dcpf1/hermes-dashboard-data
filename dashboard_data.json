@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T17:00:21.147616+00:00",
+  "generated_at": "2026-10-16T18:00:18.119478+00:00",
   "balance": {
     "current": 38.6,
     "cash": 36.55,
@@ -12,17 +12,17 @@
   },
   "trades": {
     "total": 729,
-    "wins": 488,
+    "wins": 490,
     "losses": 232,
-    "total_pnl": -15.41
+    "total_pnl": -15.77
   },
   "brier": {
-    "score": 0.2546,
-    "n": 691,
-    "bss": -0.029,
-    "win_rate": 0.7,
-    "ci_lo": 0.2273,
-    "ci_hi": 0.2819,
+    "score": 0.2538,
+    "n": 693,
+    "bss": -0.026,
+    "win_rate": 0.701,
+    "ci_lo": 0.2266,
+    "ci_hi": 0.2811,
     "base": 0.45,
     "status": "red"
   },
@@ -51,6 +51,30 @@
   ],
   "recent_resolved": [
     {
+      "ts": "2026-10-16T16:55:12.661030+00:00",
+      "city": "Chongqing",
+      "date": "2026-10-16",
+      "side": "NO",
+      "bucket": "23.0-23.0C",
+      "entry": 0.574,
+      "correct": true,
+      "pnl": -0.36,
+      "closed_by": "price_conditional",
+      "lead_h": 6.0
+    },
+    {
+      "ts": "2026-10-16T16:55:12.661030+00:00",
+      "city": "Chongqing",
+      "date": "2026-10-16",
+      "side": "YES",
+      "bucket": "24.0-24.0C",
+      "entry": 0.89,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": 3.0
+    },
+    {
       "ts": "2026-10-16T07:37:46.003378+00:00",
       "city": "Chengdu",
       "date": "2026-10-16",
@@ -71,18 +95,6 @@
       "entry": 0.74,
       "correct": true,
       "pnl": 0.27,
-      "closed_by": "take_profit",
-      "lead_h": 6.0
-    },
-    {
-      "ts": "2026-10-16T05:37:22.919187+00:00",
-      "city": "Chongqing",
-      "date": "2026-10-16",
-      "side": "NO",
-      "bucket": "23.0-23.0C",
-      "entry": 0.574,
-      "correct": false,
-      "pnl": -0.36,
       "closed_by": "take_profit",
       "lead_h": 6.0
     },
@@ -397,18 +409,6 @@
       "pnl": 0.23,
       "closed_by": "resolved",
       "lead_h": 0.0
-    },
-    {
-      "ts": "2026-10-12T16:55:26.112348+00:00",
-      "city": "Chengdu",
-      "date": "2026-10-12",
-      "side": "NO",
-      "bucket": "28.0-28.0C",
-      "entry": 0.76,
-      "correct": true,
-      "pnl": 0.16,
-      "closed_by": "convergence_tp",
-      "lead_h": 30.0
     }
   ],
   "city_stats": {
@@ -542,11 +542,6 @@
       "win_rate": 0.771,
       "total_pnl": -3.44
     },
-    "chongqing": {
-      "n": 37,
-      "win_rate": 0.73,
-      "total_pnl": -3.46
-    },
     "helsinki": {
       "n": 27,
       "win_rate": 0.704,
@@ -561,6 +556,11 @@
       "n": 31,
       "win_rate": 0.613,
       "total_pnl": -3.8
+    },
+    "chongqing": {
+      "n": 39,
+      "win_rate": 0.744,
+      "total_pnl": -3.82
     },
     "chengdu": {
       "n": 32,
@@ -631,12 +631,12 @@
   },
   "lead_brier": {
     "lt6": {
-      "brier": 0.4249,
-      "n": 34
+      "brier": 0.4128,
+      "n": 35
     },
     "6to24": {
-      "brier": 0.2573,
-      "n": 111
+      "brier": 0.255,
+      "n": 112
     },
     "24to48": {
       "brier": 0.2023,
