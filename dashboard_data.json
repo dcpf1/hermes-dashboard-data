@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-16T18:00:18.119478+00:00",
+  "generated_at": "2026-10-16T19:00:22.254354+00:00",
   "balance": {
-    "current": 38.6,
-    "cash": 36.55,
-    "deployed": 2.05,
-    "unrealized": 0.0,
+    "current": 38.85,
+    "cash": 38.85,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -11.4,
-    "pnl_pct": -22.8
+    "pnl_usd": -11.15,
+    "pnl_pct": -22.3
   },
   "trades": {
     "total": 729,
@@ -26,29 +26,7 @@
     "base": 0.45,
     "status": "red"
   },
-  "open_positions": [
-    {
-      "city": "Chongqing",
-      "date": "2026-10-16",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 24.0,
-      "bucket_high": 24.0,
-      "entry_price": 0.89,
-      "shares": 2.3,
-      "cost": 2.05,
-      "current_p": 0.89,
-      "model_p": 0.97,
-      "ev_pct": 8.0,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-10-16T08:16:12.437432+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    }
-  ],
+  "open_positions": [],
   "recent_resolved": [
     {
       "ts": "2026-10-16T16:55:12.661030+00:00",
