@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-17T22:00:54.658794+00:00",
+  "generated_at": "2026-10-17T23:00:25.102243+00:00",
   "balance": {
-    "current": 38.92,
-    "cash": 31.44,
-    "deployed": 7.41,
-    "unrealized": 0.07,
+    "current": 39.31,
+    "cash": 29.55,
+    "deployed": 9.3,
+    "unrealized": 0.46,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -11.08,
-    "pnl_pct": -22.2
+    "pnl_usd": -10.69,
+    "pnl_pct": -21.4
   },
   "trades": {
-    "total": 733,
+    "total": 734,
     "wins": 493,
     "losses": 233,
     "total_pnl": -13.95
@@ -37,16 +37,16 @@
       "entry_price": 0.5,
       "shares": 2.0,
       "cost": 1.0,
-      "current_p": 0.51,
+      "current_p": 0.545,
       "model_p": 0.9284,
       "ev_pct": 42.8,
       "n_agree": 2,
       "n_avail": 3,
       "opened_at": "2026-10-17T12:40:40.580286+00:00",
-      "hours_left": 14.0,
+      "hours_left": 13.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.02
+      "unrealized_pnl": 0.09
     },
     {
       "city": "Istanbul",
@@ -70,6 +70,27 @@
       "unrealized_pnl": 0.0
     },
     {
+      "city": "Austin",
+      "date": "2026-10-17",
+      "unit": "F",
+      "side": "YES",
+      "bucket_low": 68.0,
+      "bucket_high": 69.0,
+      "entry_price": 0.86,
+      "shares": 2.2,
+      "cost": 1.89,
+      "current_p": 0.89,
+      "model_p": 0.9234,
+      "ev_pct": 6.3,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-17T22:06:12.115000+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.07
+    },
+    {
       "city": "Toronto",
       "date": "2026-10-17",
       "unit": "C",
@@ -79,7 +100,7 @@
       "entry_price": 0.87,
       "shares": 2.45,
       "cost": 2.13,
-      "current_p": 0.9,
+      "current_p": 0.87,
       "model_p": 0.97,
       "ev_pct": 10.0,
       "n_agree": 1,
@@ -88,7 +109,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.07
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Dallas",
@@ -100,7 +121,7 @@
       "entry_price": 0.84,
       "shares": 2.39,
       "cost": 2.01,
-      "current_p": 0.83,
+      "current_p": 0.9665,
       "model_p": 0.0999,
       "ev_pct": -74.0,
       "n_agree": 1,
@@ -109,7 +130,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.02
+      "unrealized_pnl": 0.3
     }
   ],
   "recent_resolved": [
