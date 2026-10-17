@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T04:00:20.282363+00:00",
+  "generated_at": "2026-10-17T05:00:36.962570+00:00",
   "balance": {
     "current": 38.85,
     "cash": 38.85,
@@ -13,21 +13,33 @@
   "trades": {
     "total": 729,
     "wins": 491,
-    "losses": 232,
-    "total_pnl": -15.79
+    "losses": 233,
+    "total_pnl": -15.52
   },
   "brier": {
-    "score": 0.2549,
-    "n": 694,
-    "bss": -0.03,
-    "win_rate": 0.702,
-    "ci_lo": 0.2276,
-    "ci_hi": 0.2822,
-    "base": 0.451,
+    "score": 0.2557,
+    "n": 695,
+    "bss": -0.033,
+    "win_rate": 0.701,
+    "ci_lo": 0.2285,
+    "ci_hi": 0.283,
+    "base": 0.452,
     "status": "red"
   },
   "open_positions": [],
   "recent_resolved": [
+    {
+      "ts": "2026-10-17T03:55:39.301995+00:00",
+      "city": "Sao Paulo",
+      "date": "2026-10-16",
+      "side": "NO",
+      "bucket": "27.0-27.0C",
+      "entry": 0.74,
+      "correct": false,
+      "pnl": 0.27,
+      "closed_by": "convergence_tp",
+      "lead_h": 6.0
+    },
     {
       "ts": "2026-10-16T18:55:58.455563+00:00",
       "city": "Chengdu",
@@ -63,18 +75,6 @@
       "pnl": 0.0,
       "closed_by": "awaiting_settlement",
       "lead_h": 3.0
-    },
-    {
-      "ts": "2026-10-16T05:38:23.847147+00:00",
-      "city": "Sao Paulo",
-      "date": "2026-10-16",
-      "side": "NO",
-      "bucket": "27.0-27.0C",
-      "entry": 0.74,
-      "correct": true,
-      "pnl": 0.27,
-      "closed_by": "take_profit",
-      "lead_h": 6.0
     },
     {
       "ts": "2026-10-16T05:31:59.875846+00:00",
@@ -426,9 +426,9 @@
       "total_pnl": 4.13
     },
     "sao-paulo": {
-      "n": 9,
-      "win_rate": 0.889,
-      "total_pnl": 3.07
+      "n": 10,
+      "win_rate": 0.8,
+      "total_pnl": 3.34
     },
     "paris": {
       "n": 31,
@@ -613,8 +613,8 @@
       "n": 36
     },
     "6to24": {
-      "brier": 0.255,
-      "n": 112
+      "brier": 0.2601,
+      "n": 113
     },
     "24to48": {
       "brier": 0.2023,
