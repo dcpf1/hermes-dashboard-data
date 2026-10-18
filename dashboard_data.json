@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-18T13:00:25.386539+00:00",
+  "generated_at": "2026-10-18T14:00:26.386308+00:00",
   "balance": {
-    "current": 37.56,
-    "cash": 35.59,
+    "current": 37.43,
+    "cash": 35.48,
     "deployed": 2.0,
-    "unrealized": -0.03,
+    "unrealized": -0.05,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.44,
-    "pnl_pct": -24.9
+    "pnl_usd": -12.57,
+    "pnl_pct": -25.1
   },
   "trades": {
-    "total": 735,
+    "total": 736,
     "wins": 496,
     "losses": 233,
     "total_pnl": -16.22
@@ -43,7 +43,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-18T05:38:39.419801+00:00",
-      "hours_left": 23.0,
+      "hours_left": 22.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.05
@@ -58,7 +58,7 @@
       "entry_price": 0.5,
       "shares": 2.0,
       "cost": 1.0,
-      "current_p": 0.51,
+      "current_p": 0.5,
       "model_p": 0.9284,
       "ev_pct": 42.8,
       "n_agree": 2,
@@ -67,10 +67,22 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.02
+      "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-18T13:05:40.611927+00:00",
+      "city": "Milan",
+      "date": "2026-10-18",
+      "side": "YES",
+      "bucket": "16.0-16.0C",
+      "entry": 0.85,
+      "correct": false,
+      "pnl": -0.11,
+      "closed_by": "resolved",
+      "lead_h": 0.0
+    },
     {
       "ts": "2026-10-18T05:06:03.829512+00:00",
       "city": "Austin",
@@ -418,18 +430,6 @@
       "pnl": 0.28,
       "closed_by": "resolved",
       "lead_h": -8.0
-    },
-    {
-      "ts": "2026-10-13T04:05:39.832472+00:00",
-      "city": "Miami",
-      "date": "2026-10-12",
-      "side": "YES",
-      "bucket": "88.0-89.0F",
-      "entry": 0.84,
-      "correct": true,
-      "pnl": 0.3,
-      "closed_by": "resolved",
-      "lead_h": -7.0
     }
   ],
   "city_stats": {
