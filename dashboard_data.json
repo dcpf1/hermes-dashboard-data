@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-18T04:00:21.572100+00:00",
+  "generated_at": "2026-10-18T05:00:19.767077+00:00",
   "balance": {
-    "current": 36.59,
+    "current": 36.58,
     "cash": 29.55,
     "deployed": 7.03,
-    "unrealized": 0.01,
+    "unrealized": 0.0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.41,
+    "pnl_usd": -13.42,
     "pnl_pct": -26.8
   },
   "trades": {
     "total": 734,
-    "wins": 493,
+    "wins": 494,
     "losses": 233,
     "total_pnl": -13.95
   },
   "brier": {
-    "score": 0.255,
-    "n": 697,
-    "bss": -0.03,
+    "score": 0.2547,
+    "n": 698,
+    "bss": -0.028,
     "win_rate": 0.702,
-    "ci_lo": 0.2278,
-    "ci_hi": 0.2823,
-    "base": 0.452,
+    "ci_lo": 0.2275,
+    "ci_hi": 0.2819,
+    "base": 0.453,
     "status": "red"
   },
   "open_positions": [
@@ -37,16 +37,16 @@
       "entry_price": 0.5,
       "shares": 2.0,
       "cost": 1.0,
-      "current_p": 0.505,
+      "current_p": 0.5,
       "model_p": 0.9284,
       "ev_pct": 42.8,
       "n_agree": 2,
       "n_avail": 3,
       "opened_at": "2026-10-17T12:40:40.580286+00:00",
-      "hours_left": 8.0,
+      "hours_left": 7.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.01
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Austin",
@@ -113,6 +113,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-18T04:05:29.233264+00:00",
+      "city": "Toronto",
+      "date": "2026-10-17",
+      "side": "YES",
+      "bucket": "10.0-10.0C",
+      "entry": 0.87,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -8.0
+    },
     {
       "ts": "2026-10-17T21:05:14.808632+00:00",
       "city": "Istanbul",
@@ -460,18 +472,6 @@
       "pnl": 0.27,
       "closed_by": "resolved",
       "lead_h": -1.0
-    },
-    {
-      "ts": "2026-10-12T21:06:06.661663+00:00",
-      "city": "Helsinki",
-      "date": "2026-10-12",
-      "side": "YES",
-      "bucket": "6.0-6.0C",
-      "entry": 0.879,
-      "correct": true,
-      "pnl": 0.23,
-      "closed_by": "resolved",
-      "lead_h": -4.0
     }
   ],
   "city_stats": {
@@ -551,8 +551,8 @@
       "total_pnl": -0.9
     },
     "toronto": {
-      "n": 28,
-      "win_rate": 0.714,
+      "n": 29,
+      "win_rate": 0.724,
       "total_pnl": -1.02
     },
     "dallas": {
