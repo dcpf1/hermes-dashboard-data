@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-18T21:00:22.649046+00:00",
+  "generated_at": "2026-10-18T22:00:27.679170+00:00",
   "balance": {
-    "current": 36.8,
-    "cash": 35.71,
-    "deployed": 1.0,
-    "unrealized": 0.09,
+    "current": 36.86,
+    "cash": 33.57,
+    "deployed": 3.14,
+    "unrealized": 0.15,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.2,
-    "pnl_pct": -26.4
+    "pnl_usd": -13.14,
+    "pnl_pct": -26.3
   },
   "trades": {
-    "total": 737,
+    "total": 738,
     "wins": 496,
     "losses": 233,
     "total_pnl": -16.22
@@ -37,16 +37,37 @@
       "entry_price": 0.76,
       "shares": 1.32,
       "cost": 1.0,
-      "current_p": 0.83,
+      "current_p": 0.78,
       "model_p": 0.9251,
       "ev_pct": 16.5,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-18T05:38:39.419801+00:00",
-      "hours_left": 15.0,
+      "hours_left": 14.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.09
+      "unrealized_pnl": 0.03
+    },
+    {
+      "city": "Denver",
+      "date": "2026-10-18",
+      "unit": "F",
+      "side": "YES",
+      "bucket_low": 74.0,
+      "bucket_high": 75.0,
+      "entry_price": 0.87,
+      "shares": 2.46,
+      "cost": 2.14,
+      "current_p": 0.92,
+      "model_p": 0.7205,
+      "ev_pct": -14.9,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-18T21:19:55.637200+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.12
     }
   ],
   "recent_resolved": [
