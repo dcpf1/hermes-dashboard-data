@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-19T12:00:20.059452+00:00",
+  "generated_at": "2026-10-19T13:00:30.562628+00:00",
   "balance": {
-    "current": 37.07,
-    "cash": 34.19,
-    "deployed": 3.01,
-    "unrealized": -0.13,
+    "current": 37.2,
+    "cash": 32.14,
+    "deployed": 5.06,
+    "unrealized": 0.0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.93,
-    "pnl_pct": -25.9
+    "pnl_usd": -12.8,
+    "pnl_pct": -25.6
   },
   "trades": {
-    "total": 740,
+    "total": 741,
     "wins": 499,
     "losses": 234,
     "total_pnl": -16.09
@@ -28,6 +28,27 @@
   },
   "open_positions": [
     {
+      "city": "Istanbul",
+      "date": "2026-10-19",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 17.0,
+      "bucket_high": 17.0,
+      "entry_price": 0.87,
+      "shares": 2.36,
+      "cost": 2.05,
+      "current_p": 0.85,
+      "model_p": 0.8586,
+      "ev_pct": -1.1,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-19T12:37:43.489067+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.05
+    },
+    {
       "city": "Toronto",
       "date": "2026-10-19",
       "unit": "C",
@@ -37,7 +58,7 @@
       "entry_price": 0.76,
       "shares": 1.32,
       "cost": 1.0,
-      "current_p": 0.665,
+      "current_p": 0.8,
       "model_p": 0.9251,
       "ev_pct": 16.5,
       "n_agree": 4,
@@ -46,7 +67,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.13
+      "unrealized_pnl": 0.05
     },
     {
       "city": "Chengdu",
