@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-19T02:00:20.742726+00:00",
+  "generated_at": "2026-10-19T03:00:20.817545+00:00",
   "balance": {
-    "current": 36.72,
+    "current": 36.71,
     "cash": 33.57,
     "deployed": 3.14,
-    "unrealized": 0.01,
+    "unrealized": 0.0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.28,
+    "pnl_usd": -13.29,
     "pnl_pct": -26.6
   },
   "trades": {
     "total": 738,
-    "wins": 497,
+    "wins": 498,
     "losses": 233,
-    "total_pnl": -16.38
+    "total_pnl": -16.49
   },
   "brier": {
-    "score": 0.2562,
-    "n": 701,
-    "bss": -0.033,
-    "win_rate": 0.703,
-    "ci_lo": 0.2289,
-    "ci_hi": 0.2834,
-    "base": 0.455,
+    "score": 0.257,
+    "n": 702,
+    "bss": -0.036,
+    "win_rate": 0.704,
+    "ci_lo": 0.2298,
+    "ci_hi": 0.2843,
+    "base": 0.456,
     "status": "red"
   },
   "open_positions": [
@@ -37,16 +37,16 @@
       "entry_price": 0.76,
       "shares": 1.32,
       "cost": 1.0,
-      "current_p": 0.77,
+      "current_p": 0.76,
       "model_p": 0.9251,
       "ev_pct": 16.5,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-18T05:38:39.419801+00:00",
-      "hours_left": 10.0,
+      "hours_left": 9.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.01
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Denver",
@@ -72,6 +72,18 @@
   ],
   "recent_resolved": [
     {
+      "ts": "2026-10-19T01:56:05.241323+00:00",
+      "city": "Milan",
+      "date": "2026-10-18",
+      "side": "YES",
+      "bucket": "16.0-16.0C",
+      "entry": 0.85,
+      "correct": true,
+      "pnl": -0.11,
+      "closed_by": "forecast_changed",
+      "lead_h": -1.0
+    },
+    {
       "ts": "2026-10-19T00:55:45.073627+00:00",
       "city": "Munich",
       "date": "2026-10-18",
@@ -82,18 +94,6 @@
       "pnl": -0.16,
       "closed_by": "forecast_changed",
       "lead_h": -2.0
-    },
-    {
-      "ts": "2026-10-18T13:05:40.611927+00:00",
-      "city": "Milan",
-      "date": "2026-10-18",
-      "side": "YES",
-      "bucket": "16.0-16.0C",
-      "entry": 0.85,
-      "correct": false,
-      "pnl": -0.11,
-      "closed_by": "resolved",
-      "lead_h": 0.0
     },
     {
       "ts": "2026-10-18T05:06:03.829512+00:00",
@@ -549,9 +549,9 @@
       "total_pnl": -2.79
     },
     "milan": {
-      "n": 35,
-      "win_rate": 0.771,
-      "total_pnl": -2.99
+      "n": 36,
+      "win_rate": 0.778,
+      "total_pnl": -3.1
     },
     "atlanta": {
       "n": 26,
