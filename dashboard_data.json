@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-19T13:00:30.562628+00:00",
+  "generated_at": "2026-10-19T14:00:18.916518+00:00",
   "balance": {
-    "current": 37.2,
+    "current": 37.13,
     "cash": 32.14,
     "deployed": 5.06,
-    "unrealized": 0.0,
+    "unrealized": -0.07,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.8,
-    "pnl_pct": -25.6
+    "pnl_usd": -12.87,
+    "pnl_pct": -25.7
   },
   "trades": {
     "total": 741,
@@ -37,7 +37,7 @@
       "entry_price": 0.87,
       "shares": 2.36,
       "cost": 2.05,
-      "current_p": 0.85,
+      "current_p": 0.87,
       "model_p": 0.8586,
       "ev_pct": -1.1,
       "n_agree": 1,
@@ -46,7 +46,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.05
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Toronto",
@@ -58,7 +58,7 @@
       "entry_price": 0.76,
       "shares": 1.32,
       "cost": 1.0,
-      "current_p": 0.8,
+      "current_p": 0.705,
       "model_p": 0.9251,
       "ev_pct": 16.5,
       "n_agree": 4,
@@ -67,7 +67,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.05
+      "unrealized_pnl": -0.07
     },
     {
       "city": "Chengdu",
