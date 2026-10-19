@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-19T15:00:23.303492+00:00",
+  "generated_at": "2026-10-19T16:00:27.908375+00:00",
   "balance": {
-    "current": 37.21,
+    "current": 37.11,
     "cash": 30.21,
     "deployed": 6.99,
-    "unrealized": 0.01,
+    "unrealized": -0.09,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.79,
-    "pnl_pct": -25.6
+    "pnl_usd": -12.89,
+    "pnl_pct": -25.8
   },
   "trades": {
     "total": 742,
@@ -37,7 +37,7 @@
       "entry_price": 0.86,
       "shares": 2.24,
       "cost": 1.93,
-      "current_p": 0.915,
+      "current_p": 0.86,
       "model_p": 0.97,
       "ev_pct": 11.0,
       "n_agree": 1,
@@ -46,7 +46,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.12
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Istanbul",
@@ -79,7 +79,7 @@
       "entry_price": 0.76,
       "shares": 1.32,
       "cost": 1.0,
-      "current_p": 0.675,
+      "current_p": 0.69,
       "model_p": 0.9251,
       "ev_pct": 16.5,
       "n_agree": 4,
@@ -88,7 +88,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.11
+      "unrealized_pnl": -0.09
     },
     {
       "city": "Chengdu",
