@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-19T19:00:22.257772+00:00",
+  "generated_at": "2026-10-19T20:00:30.044474+00:00",
   "balance": {
-    "current": 36.88,
-    "cash": 30.21,
-    "deployed": 6.99,
-    "unrealized": -0.32,
+    "current": 36.26,
+    "cash": 28.5,
+    "deployed": 7.8,
+    "unrealized": -0.04,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.12,
-    "pnl_pct": -26.2
+    "pnl_usd": -13.74,
+    "pnl_pct": -27.5
   },
   "trades": {
-    "total": 742,
+    "total": 743,
     "wins": 500,
     "losses": 234,
     "total_pnl": -15.92
@@ -70,25 +70,25 @@
       "unrealized_pnl": 0.0
     },
     {
-      "city": "Toronto",
+      "city": "New York City",
       "date": "2026-10-19",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 21.0,
-      "bucket_high": 21.0,
-      "entry_price": 0.76,
-      "shares": 1.32,
-      "cost": 1.0,
-      "current_p": 0.515,
-      "model_p": 0.9251,
-      "ev_pct": 16.5,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-10-18T05:38:39.419801+00:00",
+      "unit": "F",
+      "side": "YES",
+      "bucket_low": 62.0,
+      "bucket_high": 63.0,
+      "entry_price": 0.87,
+      "shares": 2.08,
+      "cost": 1.81,
+      "current_p": 0.85,
+      "model_p": 0.6789,
+      "ev_pct": -19.1,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-19T19:05:49.263027+00:00",
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.32
+      "unrealized_pnl": -0.04
     },
     {
       "city": "Chengdu",
@@ -172,6 +172,18 @@
       "pnl": -0.16,
       "closed_by": "forecast_changed",
       "lead_h": -2.0
+    },
+    {
+      "ts": "2026-10-18T05:38:39.419801+00:00",
+      "city": "Toronto",
+      "date": "2026-10-19",
+      "side": "NO",
+      "bucket": "21.0-21.0C",
+      "entry": 0.76,
+      "correct": false,
+      "pnl": -0.9,
+      "closed_by": "resolved",
+      "lead_h": 30.0
     },
     {
       "ts": "2026-10-18T05:06:03.829512+00:00",
@@ -460,18 +472,6 @@
       "pnl": 0.36,
       "closed_by": "resolved",
       "lead_h": 0.0
-    },
-    {
-      "ts": "2026-10-13T16:30:59.994378+00:00",
-      "city": "Chongqing",
-      "date": "2026-10-13",
-      "side": "YES",
-      "bucket": "26.0-26.0C",
-      "entry": 0.82,
-      "correct": true,
-      "pnl": 0.43,
-      "closed_by": "resolved",
-      "lead_h": 4.0
     }
   ],
   "city_stats": {
