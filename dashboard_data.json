@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-19T09:00:20.911155+00:00",
+  "generated_at": "2026-10-19T10:00:22.554958+00:00",
   "balance": {
-    "current": 36.58,
-    "cash": 29.67,
-    "deployed": 7.04,
-    "unrealized": -0.13,
+    "current": 36.84,
+    "cash": 31.73,
+    "deployed": 5.15,
+    "unrealized": -0.04,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.42,
-    "pnl_pct": -26.8
+    "pnl_usd": -13.16,
+    "pnl_pct": -26.3
   },
   "trades": {
     "total": 740,
@@ -37,37 +37,16 @@
       "entry_price": 0.76,
       "shares": 1.32,
       "cost": 1.0,
-      "current_p": 0.785,
+      "current_p": 0.73,
       "model_p": 0.9251,
       "ev_pct": 16.5,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-10-18T05:38:39.419801+00:00",
-      "hours_left": 3.0,
+      "hours_left": 2.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.03
-    },
-    {
-      "city": "Chongqing",
-      "date": "2026-10-19",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 19.0,
-      "bucket_high": 19.0,
-      "entry_price": 0.88,
-      "shares": 2.15,
-      "cost": 1.89,
-      "current_p": 0.805,
-      "model_p": 0.0001,
-      "ev_pct": -88.0,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-10-19T08:39:19.342246+00:00",
-      "hours_left": 3.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.16
+      "unrealized_pnl": -0.04
     },
     {
       "city": "Chengdu",
@@ -85,7 +64,7 @@
       "n_agree": 1,
       "n_avail": 1,
       "opened_at": "2026-10-19T07:07:32.310774+00:00",
-      "hours_left": 3.0,
+      "hours_left": 2.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
@@ -113,6 +92,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-19T08:39:19.342246+00:00",
+      "city": "Chongqing",
+      "date": "2026-10-19",
+      "side": "YES",
+      "bucket": "19.0-19.0C",
+      "entry": 0.88,
+      "correct": true,
+      "pnl": 0.17,
+      "closed_by": "resolved",
+      "lead_h": 3.0
+    },
     {
       "ts": "2026-10-19T06:27:19.923316+00:00",
       "city": "Denver",
@@ -460,18 +451,6 @@
       "pnl": 0.43,
       "closed_by": "resolved",
       "lead_h": 4.0
-    },
-    {
-      "ts": "2026-10-13T16:30:59.994378+00:00",
-      "city": "Shenzhen",
-      "date": "2026-10-13",
-      "side": "NO",
-      "bucket": "31.0-31.0C",
-      "entry": 0.7,
-      "correct": true,
-      "pnl": 0.54,
-      "closed_by": "take_profit",
-      "lead_h": 30.0
     }
   ],
   "city_stats": {
