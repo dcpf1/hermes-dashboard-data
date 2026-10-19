@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-19T22:00:20.095991+00:00",
+  "generated_at": "2026-10-19T23:00:26.346644+00:00",
   "balance": {
-    "current": 36.5,
-    "cash": 27.31,
-    "deployed": 9.24,
-    "unrealized": -0.05,
+    "current": 34.76,
+    "cash": 29.31,
+    "deployed": 5.45,
+    "unrealized": 0.0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.5,
-    "pnl_pct": -27.0
+    "pnl_usd": -15.24,
+    "pnl_pct": -30.5
   },
   "trades": {
     "total": 745,
-    "wins": 501,
+    "wins": 502,
     "losses": 235,
     "total_pnl": -15.67
   },
   "brier": {
-    "score": 0.2591,
-    "n": 707,
-    "bss": -0.044,
+    "score": 0.2588,
+    "n": 708,
+    "bss": -0.042,
     "win_rate": 0.703,
-    "ci_lo": 0.2319,
-    "ci_hi": 0.2863,
-    "base": 0.458,
+    "ci_lo": 0.2316,
+    "ci_hi": 0.2859,
+    "base": 0.459,
     "status": "red"
   },
   "open_positions": [
@@ -43,48 +43,6 @@
       "n_agree": 1,
       "n_avail": 1,
       "opened_at": "2026-10-19T14:34:24.726407+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    },
-    {
-      "city": "Denver",
-      "date": "2026-10-19",
-      "unit": "F",
-      "side": "YES",
-      "bucket_low": 70.0,
-      "bucket_high": 71.0,
-      "entry_price": 0.84,
-      "shares": 2.07,
-      "cost": 1.74,
-      "current_p": 0.815,
-      "model_p": 0.683,
-      "ev_pct": -15.7,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-10-19T21:06:04.606702+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.05
-    },
-    {
-      "city": "Istanbul",
-      "date": "2026-10-19",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 17.0,
-      "bucket_high": 17.0,
-      "entry_price": 0.87,
-      "shares": 2.36,
-      "cost": 2.05,
-      "current_p": 0.87,
-      "model_p": 0.8586,
-      "ev_pct": -1.1,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-10-19T12:37:43.489067+00:00",
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
@@ -135,6 +93,18 @@
   ],
   "recent_resolved": [
     {
+      "ts": "2026-10-19T22:06:10.613655+00:00",
+      "city": "Milan",
+      "date": "2026-10-19",
+      "side": "YES",
+      "bucket": "20.0-20.0C",
+      "entry": 0.86,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -2.0
+    },
+    {
       "ts": "2026-10-19T21:06:04.606702+00:00",
       "city": "Istanbul",
       "date": "2026-10-19",
@@ -144,6 +114,18 @@
       "correct": false,
       "pnl": 0.0,
       "closed_by": "awaiting_settlement",
+      "lead_h": 0.0
+    },
+    {
+      "ts": "2026-10-19T21:06:04.606702+00:00",
+      "city": "Denver",
+      "date": "2026-10-19",
+      "side": "YES",
+      "bucket": "70.0-71.0F",
+      "entry": 0.84,
+      "correct": true,
+      "pnl": 0.26,
+      "closed_by": "resolved",
       "lead_h": 0.0
     },
     {
@@ -469,30 +451,6 @@
       "pnl": 0.31,
       "closed_by": "resolved",
       "lead_h": -7.0
-    },
-    {
-      "ts": "2026-10-14T03:44:32.930209+00:00",
-      "city": "Buenos Aires",
-      "date": "2026-10-13",
-      "side": "NO",
-      "bucket": "21.0-21.0C",
-      "entry": 0.72,
-      "correct": true,
-      "pnl": 0.36,
-      "closed_by": "convergence_tp",
-      "lead_h": 30.0
-    },
-    {
-      "ts": "2026-10-13T23:05:41.669744+00:00",
-      "city": "London",
-      "date": "2026-10-13",
-      "side": "YES",
-      "bucket": "20.0-20.0C",
-      "entry": 0.82,
-      "correct": true,
-      "pnl": 0.4,
-      "closed_by": "resolved",
-      "lead_h": -2.0
     }
   ],
   "city_stats": {
@@ -612,8 +570,8 @@
       "total_pnl": -2.79
     },
     "milan": {
-      "n": 36,
-      "win_rate": 0.778,
+      "n": 37,
+      "win_rate": 0.784,
       "total_pnl": -3.1
     },
     "atlanta": {
