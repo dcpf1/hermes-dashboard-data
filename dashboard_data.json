@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-20T12:00:23.057885+00:00",
+  "generated_at": "2026-10-20T13:00:30.817103+00:00",
   "balance": {
-    "current": 35.41,
-    "cash": 31.77,
-    "deployed": 3.64,
-    "unrealized": 0.0,
+    "current": 35.65,
+    "cash": 31.69,
+    "deployed": 3.95,
+    "unrealized": 0.01,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -14.59,
-    "pnl_pct": -29.2
+    "pnl_usd": -14.35,
+    "pnl_pct": -28.7
   },
   "trades": {
-    "total": 746,
+    "total": 747,
     "wins": 504,
-    "losses": 236,
-    "total_pnl": -17.14
+    "losses": 237,
+    "total_pnl": -18.04
   },
   "brier": {
-    "score": 0.2587,
-    "n": 711,
-    "bss": -0.041,
-    "win_rate": 0.703,
-    "ci_lo": 0.2316,
-    "ci_hi": 0.2858,
-    "base": 0.46,
+    "score": 0.2595,
+    "n": 712,
+    "bss": -0.044,
+    "win_rate": 0.702,
+    "ci_lo": 0.2324,
+    "ci_hi": 0.2866,
+    "base": 0.461,
     "status": "red"
   },
   "open_positions": [
@@ -49,28 +49,40 @@
       "unrealized_pnl": 0.0
     },
     {
-      "city": "Houston",
-      "date": "2026-10-19",
-      "unit": "F",
+      "city": "Helsinki",
+      "date": "2026-10-20",
+      "unit": "C",
       "side": "YES",
-      "bucket_low": 78.0,
-      "bucket_high": 79.0,
-      "entry_price": 0.88,
-      "shares": 1.94,
-      "cost": 1.71,
-      "current_p": 0.88,
-      "model_p": 0.6142,
-      "ev_pct": -26.6,
+      "bucket_low": 10.0,
+      "bucket_high": 10.0,
+      "entry_price": 0.89,
+      "shares": 2.27,
+      "cost": 2.02,
+      "current_p": 0.895,
+      "model_p": 0.8118,
+      "ev_pct": -7.8,
       "n_agree": 1,
       "n_avail": 1,
-      "opened_at": "2026-10-19T20:11:17.045873+00:00",
+      "opened_at": "2026-10-20T12:30:27.737691+00:00",
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.0
+      "unrealized_pnl": 0.01
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-20T12:30:27.737691+00:00",
+      "city": "Toronto",
+      "date": "2026-10-19",
+      "side": "NO",
+      "bucket": "21.0-21.0C",
+      "entry": 0.76,
+      "correct": false,
+      "pnl": -0.9,
+      "closed_by": "model_invalidation",
+      "lead_h": 30.0
+    },
     {
       "ts": "2026-10-20T09:44:04.833249+00:00",
       "city": "Denver",
@@ -214,18 +226,6 @@
       "pnl": -0.16,
       "closed_by": "forecast_changed",
       "lead_h": -2.0
-    },
-    {
-      "ts": "2026-10-18T05:38:39.419801+00:00",
-      "city": "Toronto",
-      "date": "2026-10-19",
-      "side": "NO",
-      "bucket": "21.0-21.0C",
-      "entry": 0.76,
-      "correct": false,
-      "pnl": -0.9,
-      "closed_by": "resolved",
-      "lead_h": 30.0
     },
     {
       "ts": "2026-10-18T05:06:03.829512+00:00",
@@ -518,15 +518,15 @@
       "win_rate": 0.75,
       "total_pnl": -1.2
     },
-    "toronto": {
-      "n": 30,
-      "win_rate": 0.7,
-      "total_pnl": -1.31
-    },
     "tokyo": {
       "n": 14,
       "win_rate": 0.571,
       "total_pnl": -1.49
+    },
+    "toronto": {
+      "n": 31,
+      "win_rate": 0.677,
+      "total_pnl": -2.21
     },
     "tel-aviv": {
       "n": 7,
@@ -660,8 +660,8 @@
       "n": 115
     },
     "24to48": {
-      "brier": 0.2023,
-      "n": 247
+      "brier": 0.2049,
+      "n": 248
     },
     "gt48": {
       "brier": 0.208,
