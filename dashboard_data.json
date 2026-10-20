@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-20T20:00:28.367129+00:00",
+  "generated_at": "2026-10-20T21:00:53.771485+00:00",
   "balance": {
-    "current": 37.95,
-    "cash": 28.03,
-    "deployed": 8.57,
-    "unrealized": 1.35,
+    "current": 37.79,
+    "cash": 26.35,
+    "deployed": 10.25,
+    "unrealized": 1.19,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.05,
-    "pnl_pct": -24.1
+    "pnl_usd": -12.21,
+    "pnl_pct": -24.4
   },
   "trades": {
-    "total": 753,
+    "total": 754,
     "wins": 504,
     "losses": 237,
     "total_pnl": -18.04
@@ -37,16 +37,16 @@
       "entry_price": 0.247,
       "shares": 5.29,
       "cost": 1.31,
-      "current_p": 0.582,
+      "current_p": 0.5435,
       "model_p": 0.9338,
       "ev_pct": 68.7,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-10-20T15:29:18.747635+00:00",
-      "hours_left": 16.0,
+      "hours_left": 15.0,
       "tp_stage": 1,
       "pnl": 0.0,
-      "unrealized_pnl": 1.77
+      "unrealized_pnl": 1.57
     },
     {
       "city": "Istanbul",
@@ -58,16 +58,37 @@
       "entry_price": 0.499,
       "shares": 3.29,
       "cost": 1.64,
-      "current_p": 0.6095,
+      "current_p": 0.3665,
       "model_p": 0.94,
       "ev_pct": 44.1,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-10-20T15:29:18.747635+00:00",
-      "hours_left": 40.0,
+      "hours_left": 39.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.36
+      "unrealized_pnl": -0.44
+    },
+    {
+      "city": "Atlanta",
+      "date": "2026-10-20",
+      "unit": "F",
+      "side": "YES",
+      "bucket_low": 74.0,
+      "bucket_high": 75.0,
+      "entry_price": 0.85,
+      "shares": 1.98,
+      "cost": 1.68,
+      "current_p": 0.74,
+      "model_p": 0.9234,
+      "ev_pct": 7.3,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-20T20:29:38.258052+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.22
     },
     {
       "city": "Milan",
@@ -100,7 +121,7 @@
       "entry_price": 0.84,
       "shares": 2.13,
       "cost": 1.79,
-      "current_p": 0.475,
+      "current_p": 0.9715,
       "model_p": 0.6953,
       "ev_pct": -14.5,
       "n_agree": 1,
@@ -109,7 +130,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.78
+      "unrealized_pnl": 0.28
     },
     {
       "city": "Milan",
