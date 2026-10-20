@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-20T18:01:05.765146+00:00",
+  "generated_at": "2026-10-20T19:00:28.782960+00:00",
   "balance": {
-    "current": 37.57,
+    "current": 37.2,
     "cash": 27.82,
     "deployed": 8.57,
-    "unrealized": 1.18,
+    "unrealized": 0.81,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.43,
-    "pnl_pct": -24.9
+    "pnl_usd": -12.8,
+    "pnl_pct": -25.6
   },
   "trades": {
     "total": 752,
@@ -37,16 +37,16 @@
       "entry_price": 0.247,
       "shares": 5.29,
       "cost": 1.31,
-      "current_p": 0.413,
+      "current_p": 0.4325,
       "model_p": 0.9338,
       "ev_pct": 68.7,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-10-20T15:29:18.747635+00:00",
-      "hours_left": 18.0,
+      "hours_left": 17.0,
       "tp_stage": 1,
       "pnl": 0.0,
-      "unrealized_pnl": 0.88
+      "unrealized_pnl": 0.98
     },
     {
       "city": "Istanbul",
@@ -58,16 +58,16 @@
       "entry_price": 0.499,
       "shares": 3.29,
       "cost": 1.64,
-      "current_p": 0.5015,
+      "current_p": 0.448,
       "model_p": 0.94,
       "ev_pct": 44.1,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-10-20T15:29:18.747635+00:00",
-      "hours_left": 42.0,
+      "hours_left": 41.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.01
+      "unrealized_pnl": -0.17
     },
     {
       "city": "Milan",
@@ -100,7 +100,7 @@
       "entry_price": 0.83,
       "shares": 2.16,
       "cost": 1.79,
-      "current_p": 0.9655,
+      "current_p": 0.83,
       "model_p": 0.3277,
       "ev_pct": -50.2,
       "n_agree": 1,
@@ -109,7 +109,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.29
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Milan",
