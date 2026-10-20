@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-20T15:00:21.671746+00:00",
+  "generated_at": "2026-10-20T16:00:24.496983+00:00",
   "balance": {
-    "current": 35.97,
-    "cash": 28.4,
-    "deployed": 7.43,
-    "unrealized": 0.14,
+    "current": 35.52,
+    "cash": 26.77,
+    "deployed": 9.22,
+    "unrealized": -0.47,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -14.03,
-    "pnl_pct": -28.1
+    "pnl_usd": -14.48,
+    "pnl_pct": -29.0
   },
   "trades": {
-    "total": 750,
+    "total": 752,
     "wins": 504,
     "losses": 237,
     "total_pnl": -18.04
@@ -27,6 +27,48 @@
     "status": "red"
   },
   "open_positions": [
+    {
+      "city": "Istanbul",
+      "date": "2026-10-21",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": -999.0,
+      "bucket_high": 15.0,
+      "entry_price": 0.247,
+      "shares": 7.94,
+      "cost": 1.96,
+      "current_p": 0.2075,
+      "model_p": 0.9338,
+      "ev_pct": 68.7,
+      "n_agree": 5,
+      "n_avail": 6,
+      "opened_at": "2026-10-20T15:29:18.747635+00:00",
+      "hours_left": 20.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.31
+    },
+    {
+      "city": "Istanbul",
+      "date": "2026-10-22",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": -999.0,
+      "bucket_high": 15.0,
+      "entry_price": 0.499,
+      "shares": 3.29,
+      "cost": 1.64,
+      "current_p": 0.362,
+      "model_p": 0.94,
+      "ev_pct": 44.1,
+      "n_agree": 6,
+      "n_avail": 6,
+      "opened_at": "2026-10-20T15:29:18.747635+00:00",
+      "hours_left": 44.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.45
+    },
     {
       "city": "Milan",
       "date": "2026-10-19",
@@ -49,27 +91,6 @@
       "unrealized_pnl": 0.0
     },
     {
-      "city": "Madrid",
-      "date": "2026-10-20",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 17.0,
-      "bucket_high": 17.0,
-      "entry_price": 0.85,
-      "shares": 2.13,
-      "cost": 1.81,
-      "current_p": 0.85,
-      "model_p": 0.0122,
-      "ev_pct": -83.8,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-10-20T14:41:37.664756+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    },
-    {
       "city": "Amsterdam",
       "date": "2026-10-20",
       "unit": "C",
@@ -79,7 +100,7 @@
       "entry_price": 0.83,
       "shares": 2.16,
       "cost": 1.79,
-      "current_p": 0.82,
+      "current_p": 0.962,
       "model_p": 0.3277,
       "ev_pct": -50.2,
       "n_agree": 1,
@@ -88,7 +109,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.02
+      "unrealized_pnl": 0.29
     },
     {
       "city": "Milan",
@@ -100,7 +121,7 @@
       "entry_price": 0.89,
       "shares": 2.13,
       "cost": 1.9,
-      "current_p": 0.965,
+      "current_p": 0.89,
       "model_p": 0.0,
       "ev_pct": -89.0,
       "n_agree": 1,
@@ -109,10 +130,22 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.16
+      "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-20T14:41:37.664756+00:00",
+      "city": "Madrid",
+      "date": "2026-10-20",
+      "side": "YES",
+      "bucket": "17.0-17.0C",
+      "entry": 0.85,
+      "correct": true,
+      "pnl": 0.16,
+      "closed_by": "resolved",
+      "lead_h": 0.0
+    },
     {
       "ts": "2026-10-20T12:30:27.737691+00:00",
       "city": "Toronto",
@@ -460,18 +493,6 @@
       "pnl": 0.34,
       "closed_by": "resolved",
       "lead_h": -3.0
-    },
-    {
-      "ts": "2026-10-15T19:43:37.055523+00:00",
-      "city": "Shenzhen",
-      "date": "2026-10-15",
-      "side": "YES",
-      "bucket": "30.0-30.0C",
-      "entry": 0.859,
-      "correct": true,
-      "pnl": 0.35,
-      "closed_by": "resolved",
-      "lead_h": 4.0
     }
   ],
   "city_stats": {
