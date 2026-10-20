@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T06:00:27.462804+00:00",
+  "generated_at": "2026-10-20T07:00:25.268875+00:00",
   "balance": {
     "current": 34.76,
     "cash": 29.31,
@@ -14,7 +14,7 @@
     "total": 745,
     "wins": 504,
     "losses": 235,
-    "total_pnl": -15.67
+    "total_pnl": -17.4
   },
   "brier": {
     "score": 0.2584,
@@ -136,8 +136,8 @@
       "bucket": "17.0-17.0C",
       "entry": 0.87,
       "correct": false,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": -2.05,
+      "closed_by": "resolved",
       "lead_h": 0.0
     },
     {
@@ -184,8 +184,8 @@
       "bucket": "74.0-75.0F",
       "entry": 0.87,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.32,
+      "closed_by": "resolved",
       "lead_h": -9.0
     },
     {
@@ -494,11 +494,6 @@
       "win_rate": 0.742,
       "total_pnl": 2.85
     },
-    "istanbul": {
-      "n": 14,
-      "win_rate": 0.929,
-      "total_pnl": 2.61
-    },
     "moscow": {
       "n": 25,
       "win_rate": 0.84,
@@ -507,12 +502,17 @@
     "denver": {
       "n": 11,
       "win_rate": 0.727,
-      "total_pnl": 0.97
+      "total_pnl": 1.29
     },
     "munich": {
       "n": 25,
       "win_rate": 0.76,
       "total_pnl": 0.65
+    },
+    "istanbul": {
+      "n": 14,
+      "win_rate": 0.929,
+      "total_pnl": 0.56
     },
     "austin": {
       "n": 20,
