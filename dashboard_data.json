@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-21T15:00:21.207638+00:00",
+  "generated_at": "2026-10-21T16:00:24.260651+00:00",
   "balance": {
-    "current": 39.89,
-    "cash": 34.74,
-    "deployed": 5.08,
-    "unrealized": 0.07,
+    "current": 38.99,
+    "cash": 32.89,
+    "deployed": 6.93,
+    "unrealized": -0.83,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -10.11,
-    "pnl_pct": -20.2
+    "pnl_usd": -11.01,
+    "pnl_pct": -22.0
   },
   "trades": {
-    "total": 756,
+    "total": 757,
     "wins": 512,
     "losses": 237,
     "total_pnl": -16.02
@@ -37,16 +37,37 @@
       "entry_price": 0.499,
       "shares": 2.19,
       "cost": 1.09,
-      "current_p": 0.4425,
+      "current_p": 0.529,
       "model_p": 0.94,
       "ev_pct": 44.1,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-10-20T15:29:18.747635+00:00",
-      "hours_left": 21.0,
+      "hours_left": 20.0,
       "tp_stage": 1,
       "pnl": 0.0,
-      "unrealized_pnl": -0.12
+      "unrealized_pnl": 0.07
+    },
+    {
+      "city": "Tokyo",
+      "date": "2026-10-22",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 26.0,
+      "bucket_high": 26.0,
+      "entry_price": 0.31,
+      "shares": 5.97,
+      "cost": 1.85,
+      "current_p": 0.16,
+      "model_p": 0.9261,
+      "ev_pct": 61.6,
+      "n_agree": 2,
+      "n_avail": 3,
+      "opened_at": "2026-10-21T15:13:23.699885+00:00",
+      "hours_left": 20.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.9
     },
     {
       "city": "Helsinki",
@@ -58,7 +79,7 @@
       "entry_price": 0.87,
       "shares": 2.4,
       "cost": 2.09,
-      "current_p": 0.95,
+      "current_p": 0.87,
       "model_p": 0.7024,
       "ev_pct": -16.8,
       "n_agree": 1,
@@ -67,7 +88,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.19
+      "unrealized_pnl": 0.0
     },
     {
       "city": "Milan",
