@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-21T14:00:19.376675+00:00",
+  "generated_at": "2026-10-21T15:00:21.207638+00:00",
   "balance": {
-    "current": 39.64,
-    "cash": 32.8,
-    "deployed": 6.77,
+    "current": 39.89,
+    "cash": 34.74,
+    "deployed": 5.08,
     "unrealized": 0.07,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -10.36,
-    "pnl_pct": -20.7
+    "pnl_usd": -10.11,
+    "pnl_pct": -20.2
   },
   "trades": {
     "total": 756,
@@ -43,7 +43,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-10-20T15:29:18.747635+00:00",
-      "hours_left": 22.0,
+      "hours_left": 21.0,
       "tp_stage": 1,
       "pnl": 0.0,
       "unrealized_pnl": -0.12
@@ -68,27 +68,6 @@
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.19
-    },
-    {
-      "city": "Denver",
-      "date": "2026-10-20",
-      "unit": "F",
-      "side": "YES",
-      "bucket_low": 70.0,
-      "bucket_high": 71.0,
-      "entry_price": 0.87,
-      "shares": 1.94,
-      "cost": 1.69,
-      "current_p": 0.87,
-      "model_p": 0.9234,
-      "ev_pct": 5.3,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-10-20T22:43:05.879432+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
     },
     {
       "city": "Milan",
