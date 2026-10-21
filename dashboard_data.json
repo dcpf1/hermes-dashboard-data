@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-21T08:00:30.961163+00:00",
+  "generated_at": "2026-10-21T09:00:20.753155+00:00",
   "balance": {
-    "current": 39.92,
+    "current": 39.86,
     "cash": 33.61,
     "deployed": 5.33,
-    "unrealized": 0.98,
+    "unrealized": 0.92,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -10.08,
-    "pnl_pct": -20.2
+    "pnl_usd": -10.14,
+    "pnl_pct": -20.3
   },
   "trades": {
     "total": 755,
@@ -37,16 +37,16 @@
       "entry_price": 0.247,
       "shares": 2.64,
       "cost": 0.65,
-      "current_p": 0.5255,
+      "current_p": 0.4795,
       "model_p": 0.9338,
       "ev_pct": 68.7,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-10-20T15:29:18.747635+00:00",
-      "hours_left": 4.0,
+      "hours_left": 3.0,
       "tp_stage": 2,
       "pnl": 0.0,
-      "unrealized_pnl": 0.74
+      "unrealized_pnl": 0.61
     },
     {
       "city": "Istanbul",
@@ -58,16 +58,16 @@
       "entry_price": 0.499,
       "shares": 2.19,
       "cost": 1.09,
-      "current_p": 0.6105,
+      "current_p": 0.6425,
       "model_p": 0.94,
       "ev_pct": 44.1,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-10-20T15:29:18.747635+00:00",
-      "hours_left": 28.0,
+      "hours_left": 27.0,
       "tp_stage": 1,
       "pnl": 0.0,
-      "unrealized_pnl": 0.24
+      "unrealized_pnl": 0.31
     },
     {
       "city": "Denver",
