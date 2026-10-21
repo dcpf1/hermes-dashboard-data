@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-21T20:00:58.956335+00:00",
+  "generated_at": "2026-10-21T21:00:27.846726+00:00",
   "balance": {
-    "current": 37.9,
-    "cash": 31.35,
-    "deployed": 8.47,
-    "unrealized": -1.92,
+    "current": 37.83,
+    "cash": 29.47,
+    "deployed": 10.35,
+    "unrealized": -1.99,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -12.1,
-    "pnl_pct": -24.2
+    "pnl_usd": -12.17,
+    "pnl_pct": -24.3
   },
   "trades": {
-    "total": 758,
+    "total": 759,
     "wins": 512,
     "losses": 237,
     "total_pnl": -16.02
@@ -37,16 +37,16 @@
       "entry_price": 0.499,
       "shares": 2.19,
       "cost": 1.09,
-      "current_p": 0.3035,
+      "current_p": 0.3055,
       "model_p": 0.94,
       "ev_pct": 44.1,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-10-20T15:29:18.747635+00:00",
-      "hours_left": 16.0,
+      "hours_left": 15.0,
       "tp_stage": 1,
       "pnl": 0.0,
-      "unrealized_pnl": -0.43
+      "unrealized_pnl": -0.42
     },
     {
       "city": "Tokyo",
@@ -58,16 +58,16 @@
       "entry_price": 0.31,
       "shares": 5.97,
       "cost": 1.85,
-      "current_p": 0.06,
+      "current_p": 0.085,
       "model_p": 0.9261,
       "ev_pct": 61.6,
       "n_agree": 2,
       "n_avail": 3,
       "opened_at": "2026-10-21T15:13:23.699885+00:00",
-      "hours_left": 16.0,
+      "hours_left": 15.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -1.49
+      "unrealized_pnl": -1.34
     },
     {
       "city": "New York City",
@@ -79,16 +79,16 @@
       "entry_price": 0.66,
       "shares": 2.33,
       "cost": 1.54,
-      "current_p": 0.66,
+      "current_p": 0.665,
       "model_p": 0.9515,
       "ev_pct": 29.1,
       "n_agree": 6,
       "n_avail": 7,
       "opened_at": "2026-10-21T17:05:31.447083+00:00",
-      "hours_left": 16.0,
+      "hours_left": 15.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.0
+      "unrealized_pnl": 0.01
     },
     {
       "city": "Helsinki",
@@ -110,6 +110,27 @@
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
+    },
+    {
+      "city": "Dallas",
+      "date": "2026-10-21",
+      "unit": "F",
+      "side": "YES",
+      "bucket_low": 80.0,
+      "bucket_high": 81.0,
+      "entry_price": 0.86,
+      "shares": 2.19,
+      "cost": 1.88,
+      "current_p": 0.75,
+      "model_p": 0.8639,
+      "ev_pct": 0.4,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-21T20:32:13.594609+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.24
     },
     {
       "city": "Milan",
