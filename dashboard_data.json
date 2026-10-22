@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-22T05:00:27.954400+00:00",
+  "generated_at": "2026-10-22T06:00:22.439631+00:00",
   "balance": {
-    "current": 38.14,
-    "cash": 27.7,
-    "deployed": 12.12,
-    "unrealized": -1.68,
+    "current": 38.05,
+    "cash": 27.77,
+    "deployed": 10.27,
+    "unrealized": 0.01,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -11.86,
-    "pnl_pct": -23.7
+    "pnl_usd": -11.95,
+    "pnl_pct": -23.9
   },
   "trades": {
     "total": 760,
     "wins": 513,
-    "losses": 237,
+    "losses": 238,
     "total_pnl": -16.02
   },
   "brier": {
-    "score": 0.2609,
-    "n": 721,
-    "bss": -0.048,
-    "win_rate": 0.706,
-    "ci_lo": 0.2339,
-    "ci_hi": 0.2879,
+    "score": 0.2616,
+    "n": 722,
+    "bss": -0.051,
+    "win_rate": 0.705,
+    "ci_lo": 0.2346,
+    "ci_hi": 0.2885,
     "base": 0.467,
     "status": "red"
   },
@@ -37,37 +37,16 @@
       "entry_price": 0.499,
       "shares": 2.19,
       "cost": 1.09,
-      "current_p": 0.382,
+      "current_p": 0.393,
       "model_p": 0.94,
       "ev_pct": 44.1,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-10-20T15:29:18.747635+00:00",
-      "hours_left": 7.0,
+      "hours_left": 6.0,
       "tp_stage": 1,
       "pnl": 0.0,
-      "unrealized_pnl": -0.26
-    },
-    {
-      "city": "Tokyo",
-      "date": "2026-10-22",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 26.0,
-      "bucket_high": 26.0,
-      "entry_price": 0.31,
-      "shares": 5.97,
-      "cost": 1.85,
-      "current_p": 0.033,
-      "model_p": 0.9261,
-      "ev_pct": 61.6,
-      "n_agree": 2,
-      "n_avail": 3,
-      "opened_at": "2026-10-21T15:13:23.699885+00:00",
-      "hours_left": 7.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -1.65
+      "unrealized_pnl": -0.23
     },
     {
       "city": "New York City",
@@ -79,16 +58,16 @@
       "entry_price": 0.66,
       "shares": 2.33,
       "cost": 1.54,
-      "current_p": 0.665,
+      "current_p": 0.67,
       "model_p": 0.9515,
       "ev_pct": 29.1,
       "n_agree": 6,
       "n_avail": 7,
       "opened_at": "2026-10-21T17:05:31.447083+00:00",
-      "hours_left": 7.0,
+      "hours_left": 6.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.01
+      "unrealized_pnl": 0.02
     },
     {
       "city": "Helsinki",
@@ -177,6 +156,18 @@
   ],
   "recent_resolved": [
     {
+      "ts": "2026-10-22T05:30:55.128501+00:00",
+      "city": "Dallas",
+      "date": "2026-10-21",
+      "side": "YES",
+      "bucket": "80.0-81.0F",
+      "entry": 0.86,
+      "correct": false,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -8.0
+    },
+    {
       "ts": "2026-10-21T21:05:31.721311+00:00",
       "city": "Helsinki",
       "date": "2026-10-21",
@@ -187,6 +178,18 @@
       "pnl": 0.0,
       "closed_by": "awaiting_settlement",
       "lead_h": 0.0
+    },
+    {
+      "ts": "2026-10-21T15:13:23.699885+00:00",
+      "city": "Tokyo",
+      "date": "2026-10-22",
+      "side": "NO",
+      "bucket": "26.0-26.0C",
+      "entry": 0.31,
+      "correct": false,
+      "pnl": -1.78,
+      "closed_by": "take_profit",
+      "lead_h": 20.0
     },
     {
       "ts": "2026-10-21T12:05:27.860155+00:00",
@@ -511,30 +514,6 @@
       "pnl": 0.27,
       "closed_by": "convergence_tp",
       "lead_h": 6.0
-    },
-    {
-      "ts": "2026-10-16T18:55:58.455563+00:00",
-      "city": "Chengdu",
-      "date": "2026-10-16",
-      "side": "YES",
-      "bucket": "21.0-21.0C",
-      "entry": 0.82,
-      "correct": true,
-      "pnl": -0.02,
-      "closed_by": "forecast_changed",
-      "lead_h": 4.0
-    },
-    {
-      "ts": "2026-10-16T16:55:12.661030+00:00",
-      "city": "Chongqing",
-      "date": "2026-10-16",
-      "side": "NO",
-      "bucket": "23.0-23.0C",
-      "entry": 0.574,
-      "correct": true,
-      "pnl": -0.36,
-      "closed_by": "price_conditional",
-      "lead_h": 6.0
     }
   ],
   "city_stats": {
@@ -614,8 +593,8 @@
       "total_pnl": -0.69
     },
     "dallas": {
-      "n": 28,
-      "win_rate": 0.75,
+      "n": 29,
+      "win_rate": 0.724,
       "total_pnl": -0.76
     },
     "lucknow": {
