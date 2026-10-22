@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-22T12:00:21.431795+00:00",
+  "generated_at": "2026-10-22T13:00:27.959419+00:00",
   "balance": {
-    "current": 36.86,
+    "current": 36.81,
     "cash": 32.58,
     "deployed": 3.63,
-    "unrealized": 0.65,
+    "unrealized": 0.6,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.14,
-    "pnl_pct": -26.3
+    "pnl_usd": -13.19,
+    "pnl_pct": -26.4
   },
   "trades": {
     "total": 760,
-    "wins": 514,
+    "wins": 515,
     "losses": 238,
-    "total_pnl": -17.35
+    "total_pnl": -15.2
   },
   "brier": {
-    "score": 0.2613,
-    "n": 723,
-    "bss": -0.05,
-    "win_rate": 0.705,
-    "ci_lo": 0.2344,
-    "ci_hi": 0.2882,
+    "score": 0.2609,
+    "n": 724,
+    "bss": -0.048,
+    "win_rate": 0.706,
+    "ci_lo": 0.234,
+    "ci_hi": 0.2878,
     "base": 0.467,
     "status": "red"
   },
@@ -58,7 +58,7 @@
       "entry_price": 0.66,
       "shares": 2.33,
       "cost": 1.54,
-      "current_p": 0.845,
+      "current_p": 0.825,
       "model_p": 0.9515,
       "ev_pct": 29.1,
       "n_agree": 6,
@@ -67,10 +67,22 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.43
+      "unrealized_pnl": 0.38
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-22T12:05:23.782012+00:00",
+      "city": "Istanbul",
+      "date": "2026-10-21",
+      "side": "NO",
+      "bucket": "-999.0-15.0C",
+      "entry": 0.247,
+      "correct": true,
+      "pnl": 2.15,
+      "closed_by": "metar_override",
+      "lead_h": 20.0
+    },
     {
       "ts": "2026-10-22T07:10:33.996516+00:00",
       "city": "Seattle",
@@ -214,18 +226,6 @@
       "pnl": 0.0,
       "closed_by": "awaiting_settlement",
       "lead_h": -1.0
-    },
-    {
-      "ts": "2026-10-20T15:29:18.747635+00:00",
-      "city": "Istanbul",
-      "date": "2026-10-21",
-      "side": "NO",
-      "bucket": "-999.0-15.0C",
-      "entry": 0.247,
-      "correct": true,
-      "pnl": 2.15,
-      "closed_by": "take_profit",
-      "lead_h": 20.0
     },
     {
       "ts": "2026-10-20T15:29:18.747635+00:00",
@@ -473,6 +473,11 @@
       "win_rate": 0.742,
       "total_pnl": 2.85
     },
+    "istanbul": {
+      "n": 15,
+      "win_rate": 0.933,
+      "total_pnl": 2.71
+    },
     "moscow": {
       "n": 25,
       "win_rate": 0.84,
@@ -487,11 +492,6 @@
       "n": 25,
       "win_rate": 0.76,
       "total_pnl": 0.65
-    },
-    "istanbul": {
-      "n": 14,
-      "win_rate": 0.929,
-      "total_pnl": 0.56
     },
     "austin": {
       "n": 20,
@@ -656,8 +656,8 @@
       "n": 42
     },
     "6to24": {
-      "brier": 0.2631,
-      "n": 115
+      "brier": 0.2609,
+      "n": 116
     },
     "24to48": {
       "brier": 0.2049,
