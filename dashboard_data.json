@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T06:00:23.541904+00:00",
+  "generated_at": "2026-10-23T07:00:27.439189+00:00",
   "balance": {
     "current": 36.96,
     "cash": 35.01,
@@ -14,7 +14,7 @@
     "total": 761,
     "wins": 516,
     "losses": 239,
-    "total_pnl": -14.76
+    "total_pnl": -14.0
   },
   "brier": {
     "score": 0.2609,
@@ -94,8 +94,8 @@
       "bucket": "64.0-65.0F",
       "entry": 0.89,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.22,
+      "closed_by": "resolved",
       "lead_h": -10.0
     },
     {
@@ -118,8 +118,8 @@
       "bucket": "11.0-11.0C",
       "entry": 0.87,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.31,
+      "closed_by": "resolved",
       "lead_h": 0.0
     },
     {
@@ -226,8 +226,8 @@
       "bucket": "16.0-16.0C",
       "entry": 0.89,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.23,
+      "closed_by": "resolved",
       "lead_h": -1.0
     },
     {
@@ -502,6 +502,11 @@
       "win_rate": 0.677,
       "total_pnl": -2.21
     },
+    "milan": {
+      "n": 38,
+      "win_rate": 0.789,
+      "total_pnl": -2.56
+    },
     "tel-aviv": {
       "n": 7,
       "win_rate": 0.286,
@@ -527,20 +532,15 @@
       "win_rate": 0.4,
       "total_pnl": -2.79
     },
-    "milan": {
-      "n": 38,
-      "win_rate": 0.789,
-      "total_pnl": -2.79
+    "helsinki": {
+      "n": 29,
+      "win_rate": 0.724,
+      "total_pnl": -2.96
     },
     "atlanta": {
       "n": 27,
       "win_rate": 0.852,
       "total_pnl": -3.02
-    },
-    "helsinki": {
-      "n": 29,
-      "win_rate": 0.724,
-      "total_pnl": -3.27
     },
     "chongqing": {
       "n": 40,
@@ -552,15 +552,15 @@
       "win_rate": 0.333,
       "total_pnl": -3.41
     },
+    "seattle": {
+      "n": 16,
+      "win_rate": 0.688,
+      "total_pnl": -3.45
+    },
     "nyc": {
       "n": 27,
       "win_rate": 0.815,
       "total_pnl": -3.5
-    },
-    "seattle": {
-      "n": 16,
-      "win_rate": 0.688,
-      "total_pnl": -3.67
     },
     "london": {
       "n": 31,
