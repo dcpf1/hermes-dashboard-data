@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-23T04:00:24.654291+00:00",
+  "generated_at": "2026-10-23T05:00:21.079191+00:00",
   "balance": {
-    "current": 36.87,
-    "cash": 32.61,
-    "deployed": 4.04,
-    "unrealized": 0.22,
+    "current": 36.96,
+    "cash": 35.01,
+    "deployed": 1.95,
+    "unrealized": 0.0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.13,
-    "pnl_pct": -26.3
+    "pnl_usd": -13.04,
+    "pnl_pct": -26.1
   },
   "trades": {
     "total": 761,
@@ -27,27 +27,6 @@
     "status": "red"
   },
   "open_positions": [
-    {
-      "city": "Helsinki",
-      "date": "2026-10-21",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 11.0,
-      "bucket_high": 11.0,
-      "entry_price": 0.87,
-      "shares": 2.4,
-      "cost": 2.09,
-      "current_p": 0.9605,
-      "model_p": 0.7024,
-      "ev_pct": -16.8,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-10-21T12:05:27.860155+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.22
-    },
     {
       "city": "Paris",
       "date": "2026-10-22",
