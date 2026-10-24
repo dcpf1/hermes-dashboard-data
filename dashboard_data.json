@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-24T21:00:23.385579+00:00",
+  "generated_at": "2026-10-24T22:00:21.518827+00:00",
   "balance": {
-    "current": 31.0,
-    "cash": 24.97,
-    "deployed": 6.08,
-    "unrealized": -0.05,
+    "current": 31.21,
+    "cash": 26.7,
+    "deployed": 4.49,
+    "unrealized": 0.02,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -19.0,
-    "pnl_pct": -38.0
+    "pnl_usd": -18.79,
+    "pnl_pct": -37.6
   },
   "trades": {
     "total": 767,
@@ -37,37 +37,16 @@
       "entry_price": 0.64,
       "shares": 1.56,
       "cost": 1.0,
-      "current_p": 0.645,
+      "current_p": 0.655,
       "model_p": 0.9046,
       "ev_pct": 26.5,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-10-24T05:34:07.196733+00:00",
-      "hours_left": 15.0,
+      "hours_left": 14.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.01
-    },
-    {
-      "city": "Dallas",
-      "date": "2026-10-24",
-      "unit": "F",
-      "side": "YES",
-      "bucket_low": 82.0,
-      "bucket_high": 83.0,
-      "entry_price": 0.86,
-      "shares": 1.85,
-      "cost": 1.59,
-      "current_p": 0.81,
-      "model_p": 0.0001,
-      "ev_pct": -86.0,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-10-24T20:55:52.220389+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.09
+      "unrealized_pnl": 0.02
     },
     {
       "city": "Toronto",
@@ -100,7 +79,7 @@
       "entry_price": 0.88,
       "shares": 2.05,
       "cost": 1.8,
-      "current_p": 0.895,
+      "current_p": 0.88,
       "model_p": 0.7508,
       "ev_pct": -12.9,
       "n_agree": 1,
@@ -109,10 +88,22 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.03
+      "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-24T20:55:52.220389+00:00",
+      "city": "Dallas",
+      "date": "2026-10-24",
+      "side": "YES",
+      "bucket": "82.0-83.0F",
+      "entry": 0.86,
+      "correct": true,
+      "pnl": 0.14,
+      "closed_by": "resolved",
+      "lead_h": 0.0
+    },
     {
       "ts": "2026-10-24T17:21:32.423404+00:00",
       "city": "Shenzhen",
@@ -460,18 +451,6 @@
       "pnl": -0.11,
       "closed_by": "forecast_changed",
       "lead_h": -1.0
-    },
-    {
-      "ts": "2026-10-19T00:55:45.073627+00:00",
-      "city": "Munich",
-      "date": "2026-10-18",
-      "side": "YES",
-      "bucket": "16.0-16.0C",
-      "entry": 0.87,
-      "correct": true,
-      "pnl": -0.16,
-      "closed_by": "forecast_changed",
-      "lead_h": -2.0
     }
   ],
   "city_stats": {
