@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-24T05:00:21.038201+00:00",
+  "generated_at": "2026-10-24T06:00:27.136146+00:00",
   "balance": {
-    "current": 36.96,
-    "cash": 35.01,
-    "deployed": 1.95,
-    "unrealized": 0.0,
+    "current": 34.98,
+    "cash": 34.01,
+    "deployed": 1.0,
+    "unrealized": -0.03,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.04,
-    "pnl_pct": -26.1
+    "pnl_usd": -15.02,
+    "pnl_pct": -30.0
   },
   "trades": {
-    "total": 761,
+    "total": 762,
     "wins": 518,
     "losses": 239,
     "total_pnl": -15.83
@@ -28,25 +28,25 @@
   },
   "open_positions": [
     {
-      "city": "Paris",
-      "date": "2026-10-22",
+      "city": "Madrid",
+      "date": "2026-10-25",
       "unit": "C",
-      "side": "YES",
-      "bucket_low": 15.0,
-      "bucket_high": 15.0,
-      "entry_price": 0.86,
-      "shares": 2.27,
-      "cost": 1.95,
-      "current_p": 0.86,
-      "model_p": 0.7024,
-      "ev_pct": -15.8,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-10-22T13:05:58.842907+00:00",
-      "hours_left": 0.0,
+      "side": "NO",
+      "bucket_low": 23.0,
+      "bucket_high": 23.0,
+      "entry_price": 0.64,
+      "shares": 1.56,
+      "cost": 1.0,
+      "current_p": 0.62,
+      "model_p": 0.9046,
+      "ev_pct": 26.5,
+      "n_agree": 6,
+      "n_avail": 6,
+      "opened_at": "2026-10-24T05:34:07.196733+00:00",
+      "hours_left": 30.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.0
+      "unrealized_pnl": -0.03
     }
   ],
   "recent_resolved": [
