@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-24T06:00:27.136146+00:00",
+  "generated_at": "2026-10-24T07:00:19.020091+00:00",
   "balance": {
-    "current": 34.98,
+    "current": 34.93,
     "cash": 34.01,
     "deployed": 1.0,
-    "unrealized": -0.03,
+    "unrealized": -0.08,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -15.02,
-    "pnl_pct": -30.0
+    "pnl_usd": -15.07,
+    "pnl_pct": -30.1
   },
   "trades": {
     "total": 762,
     "wins": 518,
     "losses": 239,
-    "total_pnl": -15.83
+    "total_pnl": -17.78
   },
   "brier": {
     "score": 0.2602,
@@ -37,16 +37,16 @@
       "entry_price": 0.64,
       "shares": 1.56,
       "cost": 1.0,
-      "current_p": 0.62,
+      "current_p": 0.59,
       "model_p": 0.9046,
       "ev_pct": 26.5,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-10-24T05:34:07.196733+00:00",
-      "hours_left": 30.0,
+      "hours_left": 29.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.03
+      "unrealized_pnl": -0.08
     }
   ],
   "recent_resolved": [
@@ -94,8 +94,8 @@
       "bucket": "15.0-15.0C",
       "entry": 0.86,
       "correct": false,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": -1.95,
+      "closed_by": "resolved",
       "lead_h": -1.0
     },
     {
@@ -447,11 +447,6 @@
       "win_rate": 0.8,
       "total_pnl": 3.34
     },
-    "paris": {
-      "n": 32,
-      "win_rate": 0.719,
-      "total_pnl": 2.85
-    },
     "istanbul": {
       "n": 16,
       "win_rate": 0.938,
@@ -466,6 +461,11 @@
       "n": 13,
       "win_rate": 0.692,
       "total_pnl": 1.8
+    },
+    "paris": {
+      "n": 32,
+      "win_rate": 0.719,
+      "total_pnl": 0.9
     },
     "munich": {
       "n": 25,
