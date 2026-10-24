@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-24T17:00:23.714892+00:00",
+  "generated_at": "2026-10-24T18:00:22.152181+00:00",
   "balance": {
-    "current": 35.06,
+    "current": 31.1,
     "cash": 30.05,
-    "deployed": 4.96,
+    "deployed": 1.0,
     "unrealized": 0.05,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -14.94,
-    "pnl_pct": -29.9
+    "pnl_usd": -18.9,
+    "pnl_pct": -37.8
   },
   "trades": {
     "total": 764,
     "wins": 518,
-    "losses": 239,
-    "total_pnl": -17.78
+    "losses": 241,
+    "total_pnl": -21.74
   },
   "brier": {
-    "score": 0.2602,
-    "n": 728,
-    "bss": -0.046,
-    "win_rate": 0.706,
-    "ci_lo": 0.2334,
-    "ci_hi": 0.287,
-    "base": 0.464,
+    "score": 0.2598,
+    "n": 730,
+    "bss": -0.045,
+    "win_rate": 0.704,
+    "ci_lo": 0.2331,
+    "ci_hi": 0.2865,
+    "base": 0.463,
     "status": "red"
   },
   "open_positions": [
@@ -37,61 +37,43 @@
       "entry_price": 0.64,
       "shares": 1.56,
       "cost": 1.0,
-      "current_p": 0.675,
+      "current_p": 0.67,
       "model_p": 0.9046,
       "ev_pct": 26.5,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-10-24T05:34:07.196733+00:00",
-      "hours_left": 19.0,
+      "hours_left": 18.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.05
-    },
-    {
-      "city": "Shenzhen",
-      "date": "2026-10-24",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 30.0,
-      "bucket_high": 30.0,
-      "entry_price": 0.88,
-      "shares": 2.32,
-      "cost": 2.04,
-      "current_p": 0.88,
-      "model_p": 0.4591,
-      "ev_pct": -42.1,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-10-24T07:05:33.712232+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    },
-    {
-      "city": "Chengdu",
-      "date": "2026-10-24",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 19.0,
-      "bucket_high": 19.0,
-      "entry_price": 0.86,
-      "shares": 2.23,
-      "cost": 1.92,
-      "current_p": 0.86,
-      "model_p": 0.0536,
-      "ev_pct": -80.6,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-10-24T07:33:16.235399+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-24T17:21:32.423404+00:00",
+      "city": "Shenzhen",
+      "date": "2026-10-24",
+      "side": "YES",
+      "bucket": "30.0-30.0C",
+      "entry": 0.88,
+      "correct": false,
+      "pnl": -2.04,
+      "closed_by": "resolved",
+      "lead_h": 4.0
+    },
+    {
+      "ts": "2026-10-24T17:21:32.423404+00:00",
+      "city": "Chengdu",
+      "date": "2026-10-24",
+      "side": "YES",
+      "bucket": "19.0-19.0C",
+      "entry": 0.86,
+      "correct": false,
+      "pnl": -1.92,
+      "closed_by": "resolved",
+      "lead_h": 4.0
+    },
     {
       "ts": "2026-10-23T12:38:35.907535+00:00",
       "city": "Istanbul",
@@ -427,30 +409,6 @@
       "pnl": -0.16,
       "closed_by": "forecast_changed",
       "lead_h": -2.0
-    },
-    {
-      "ts": "2026-10-18T05:06:03.829512+00:00",
-      "city": "Austin",
-      "date": "2026-10-17",
-      "side": "YES",
-      "bucket": "68.0-69.0F",
-      "entry": 0.86,
-      "correct": true,
-      "pnl": 0.31,
-      "closed_by": "resolved",
-      "lead_h": -10.0
-    },
-    {
-      "ts": "2026-10-18T05:06:03.829512+00:00",
-      "city": "Dallas",
-      "date": "2026-10-17",
-      "side": "YES",
-      "bucket": "64.0-65.0F",
-      "entry": 0.84,
-      "correct": true,
-      "pnl": 0.38,
-      "closed_by": "resolved",
-      "lead_h": -9.0
     }
   ],
   "city_stats": {
@@ -609,15 +567,15 @@
       "win_rate": 0.613,
       "total_pnl": -3.8
     },
-    "chengdu": {
-      "n": 34,
-      "win_rate": 0.735,
-      "total_pnl": -3.98
-    },
     "singapore": {
       "n": 13,
       "win_rate": 0.462,
       "total_pnl": -5.04
+    },
+    "chengdu": {
+      "n": 35,
+      "win_rate": 0.714,
+      "total_pnl": -5.9
     },
     "wellington": {
       "n": 8,
@@ -625,9 +583,9 @@
       "total_pnl": -8.33
     },
     "shenzhen": {
-      "n": 24,
-      "win_rate": 0.583,
-      "total_pnl": -9.32
+      "n": 25,
+      "win_rate": 0.56,
+      "total_pnl": -11.36
     }
   },
   "circuit_triggered_at": "2026-06-14T02:03:57.427426+00:00",
@@ -673,8 +631,8 @@
   },
   "lead_brier": {
     "lt6": {
-      "brier": 0.4304,
-      "n": 42
+      "brier": 0.4157,
+      "n": 44
     },
     "6to24": {
       "brier": 0.2565,
