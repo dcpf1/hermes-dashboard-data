@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-24T23:00:22.393049+00:00",
+  "generated_at": "2026-10-25T00:00:24.202205+00:00",
   "balance": {
-    "current": 30.52,
+    "current": 31.13,
     "cash": 25.1,
     "deployed": 6.09,
-    "unrealized": -0.67,
+    "unrealized": -0.06,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -19.48,
-    "pnl_pct": -39.0
+    "pnl_usd": -18.87,
+    "pnl_pct": -37.7
   },
   "trades": {
     "total": 768,
@@ -37,16 +37,16 @@
       "entry_price": 0.64,
       "shares": 1.56,
       "cost": 1.0,
-      "current_p": 0.7,
+      "current_p": 0.78,
       "model_p": 0.9046,
       "ev_pct": 26.5,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-10-24T05:34:07.196733+00:00",
-      "hours_left": 13.0,
+      "hours_left": 12.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.09
+      "unrealized_pnl": 0.22
     },
     {
       "city": "Seattle",
@@ -58,7 +58,7 @@
       "entry_price": 0.89,
       "shares": 1.8,
       "cost": 1.6,
-      "current_p": 0.47,
+      "current_p": 0.735,
       "model_p": 0.0565,
       "ev_pct": -83.4,
       "n_agree": 1,
@@ -67,7 +67,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.76
+      "unrealized_pnl": -0.28
     },
     {
       "city": "Toronto",
