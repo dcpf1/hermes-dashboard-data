@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-25T02:00:24.262199+00:00",
+  "generated_at": "2026-10-25T03:00:23.363105+00:00",
   "balance": {
-    "current": 31.46,
+    "current": 31.44,
     "cash": 25.1,
     "deployed": 6.09,
-    "unrealized": 0.27,
+    "unrealized": 0.25,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -18.54,
+    "pnl_usd": -18.56,
     "pnl_pct": -37.1
   },
   "trades": {
@@ -37,16 +37,16 @@
       "entry_price": 0.64,
       "shares": 1.56,
       "cost": 1.0,
-      "current_p": 0.815,
+      "current_p": 0.8,
       "model_p": 0.9046,
       "ev_pct": 26.5,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-10-24T05:34:07.196733+00:00",
-      "hours_left": 10.0,
+      "hours_left": 9.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.27
+      "unrealized_pnl": 0.25
     },
     {
       "city": "Seattle",
