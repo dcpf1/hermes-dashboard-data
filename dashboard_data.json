@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-25T06:00:26.449629+00:00",
+  "generated_at": "2026-10-25T07:00:22.254494+00:00",
   "balance": {
-    "current": 30.02,
-    "cash": 27.15,
-    "deployed": 2.6,
-    "unrealized": 0.27,
+    "current": 29.99,
+    "cash": 25.43,
+    "deployed": 4.32,
+    "unrealized": 0.24,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -19.98,
+    "pnl_usd": -20.01,
     "pnl_pct": -40.0
   },
   "trades": {
-    "total": 768,
-    "wins": 519,
+    "total": 769,
+    "wins": 520,
     "losses": 242,
-    "total_pnl": -21.74
+    "total_pnl": -21.6
   },
   "brier": {
-    "score": 0.2593,
-    "n": 732,
-    "bss": -0.043,
+    "score": 0.2603,
+    "n": 733,
+    "bss": -0.047,
     "win_rate": 0.704,
-    "ci_lo": 0.2326,
-    "ci_hi": 0.2859,
-    "base": 0.463,
+    "ci_lo": 0.2336,
+    "ci_hi": 0.287,
+    "base": 0.464,
     "status": "red"
   },
   "open_positions": [
@@ -37,16 +37,37 @@
       "entry_price": 0.64,
       "shares": 1.56,
       "cost": 1.0,
-      "current_p": 0.815,
+      "current_p": 0.835,
       "model_p": 0.9046,
       "ev_pct": 26.5,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-10-24T05:34:07.196733+00:00",
-      "hours_left": 6.0,
+      "hours_left": 5.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.27
+      "unrealized_pnl": 0.3
+    },
+    {
+      "city": "Jeddah",
+      "date": "2026-10-27",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 37.0,
+      "bucket_high": 37.0,
+      "entry_price": 0.6,
+      "shares": 2.87,
+      "cost": 1.72,
+      "current_p": 0.58,
+      "model_p": 0.9148,
+      "ev_pct": 31.5,
+      "n_agree": 6,
+      "n_avail": 6,
+      "opened_at": "2026-10-25T06:37:01.243337+00:00",
+      "hours_left": 53.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.06
     },
     {
       "city": "Seattle",
@@ -72,6 +93,18 @@
   ],
   "recent_resolved": [
     {
+      "ts": "2026-10-25T06:30:59.546197+00:00",
+      "city": "Dallas",
+      "date": "2026-10-24",
+      "side": "YES",
+      "bucket": "82.0-83.0F",
+      "entry": 0.86,
+      "correct": true,
+      "pnl": 0.14,
+      "closed_by": "forecast_changed",
+      "lead_h": -8.0
+    },
+    {
       "ts": "2026-10-25T04:06:05.478897+00:00",
       "city": "Toronto",
       "date": "2026-10-24",
@@ -94,18 +127,6 @@
       "pnl": 0.0,
       "closed_by": "awaiting_settlement",
       "lead_h": -7.0
-    },
-    {
-      "ts": "2026-10-24T20:55:52.220389+00:00",
-      "city": "Dallas",
-      "date": "2026-10-24",
-      "side": "YES",
-      "bucket": "82.0-83.0F",
-      "entry": 0.86,
-      "correct": true,
-      "pnl": 0.14,
-      "closed_by": "resolved",
-      "lead_h": 0.0
     },
     {
       "ts": "2026-10-24T17:21:32.423404+00:00",
@@ -518,6 +539,11 @@
       "win_rate": 0.656,
       "total_pnl": -2.21
     },
+    "dallas": {
+      "n": 30,
+      "win_rate": 0.733,
+      "total_pnl": -2.5
+    },
     "milan": {
       "n": 38,
       "win_rate": 0.789,
@@ -527,11 +553,6 @@
       "n": 7,
       "win_rate": 0.286,
       "total_pnl": -2.59
-    },
-    "dallas": {
-      "n": 29,
-      "win_rate": 0.724,
-      "total_pnl": -2.64
     },
     "ankara": {
       "n": 10,
