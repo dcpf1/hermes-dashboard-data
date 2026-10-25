@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T04:00:21.030590+00:00",
+  "generated_at": "2026-10-25T05:00:23.286506+00:00",
   "balance": {
     "current": 31.45,
     "cash": 25.1,
@@ -12,17 +12,17 @@
   },
   "trades": {
     "total": 768,
-    "wins": 518,
-    "losses": 241,
+    "wins": 519,
+    "losses": 242,
     "total_pnl": -21.74
   },
   "brier": {
-    "score": 0.2598,
-    "n": 730,
-    "bss": -0.045,
+    "score": 0.2593,
+    "n": 732,
+    "bss": -0.043,
     "win_rate": 0.704,
-    "ci_lo": 0.2331,
-    "ci_hi": 0.2865,
+    "ci_lo": 0.2326,
+    "ci_hi": 0.2859,
     "base": 0.463,
     "status": "red"
   },
@@ -43,7 +43,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-10-24T05:34:07.196733+00:00",
-      "hours_left": 8.0,
+      "hours_left": 7.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.26
@@ -113,6 +113,30 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-25T04:06:05.478897+00:00",
+      "city": "Toronto",
+      "date": "2026-10-24",
+      "side": "YES",
+      "bucket": "15.0-15.0C",
+      "entry": 0.89,
+      "correct": false,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -7.0
+    },
+    {
+      "ts": "2026-10-25T04:06:05.478897+00:00",
+      "city": "Atlanta",
+      "date": "2026-10-24",
+      "side": "YES",
+      "bucket": "68.0-69.0F",
+      "entry": 0.88,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -7.0
+    },
     {
       "ts": "2026-10-24T20:55:52.220389+00:00",
       "city": "Dallas",
@@ -448,30 +472,6 @@
       "pnl": 0.32,
       "closed_by": "resolved",
       "lead_h": -9.0
-    },
-    {
-      "ts": "2026-10-19T06:27:19.923316+00:00",
-      "city": "Toronto",
-      "date": "2026-10-18",
-      "side": "NO",
-      "bucket": "18.0-18.0C",
-      "entry": 0.5,
-      "correct": false,
-      "pnl": -0.61,
-      "closed_by": "forecast_changed",
-      "lead_h": 23.0
-    },
-    {
-      "ts": "2026-10-19T01:56:05.241323+00:00",
-      "city": "Milan",
-      "date": "2026-10-18",
-      "side": "YES",
-      "bucket": "16.0-16.0C",
-      "entry": 0.85,
-      "correct": true,
-      "pnl": -0.11,
-      "closed_by": "forecast_changed",
-      "lead_h": -1.0
     }
   ],
   "city_stats": {
@@ -556,8 +556,8 @@
       "total_pnl": -1.2
     },
     "toronto": {
-      "n": 31,
-      "win_rate": 0.677,
+      "n": 32,
+      "win_rate": 0.656,
       "total_pnl": -2.21
     },
     "milan": {
@@ -596,8 +596,8 @@
       "total_pnl": -2.96
     },
     "atlanta": {
-      "n": 27,
-      "win_rate": 0.852,
+      "n": 28,
+      "win_rate": 0.857,
       "total_pnl": -3.02
     },
     "tokyo": {
