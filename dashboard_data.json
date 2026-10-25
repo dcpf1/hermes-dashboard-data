@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-25T19:00:21.815444+00:00",
+  "generated_at": "2026-10-25T20:00:24.134088+00:00",
   "balance": {
-    "current": 30.29,
-    "cash": 28.6,
+    "current": 29.55,
+    "cash": 27.9,
     "deployed": 1.72,
-    "unrealized": -0.03,
+    "unrealized": -0.07,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -19.71,
-    "pnl_pct": -39.4
+    "pnl_usd": -20.45,
+    "pnl_pct": -40.9
   },
   "trades": {
-    "total": 769,
+    "total": 770,
     "wins": 521,
     "losses": 242,
     "total_pnl": -23.04
@@ -37,19 +37,31 @@
       "entry_price": 0.6,
       "shares": 2.87,
       "cost": 1.72,
-      "current_p": 0.59,
+      "current_p": 0.575,
       "model_p": 0.9148,
       "ev_pct": 31.5,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-10-25T06:37:01.243337+00:00",
-      "hours_left": 41.0,
+      "hours_left": 40.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.03
+      "unrealized_pnl": -0.07
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-25T19:24:37.867065+00:00",
+      "city": "Miami",
+      "date": "2026-10-25",
+      "side": "YES",
+      "bucket": "78.0-79.0F",
+      "entry": 0.883,
+      "correct": false,
+      "pnl": -0.7,
+      "closed_by": "resolved",
+      "lead_h": 0.0
+    },
     {
       "ts": "2026-10-25T07:09:03.882296+00:00",
       "city": "Seattle",
@@ -397,18 +409,6 @@
       "pnl": -2.05,
       "closed_by": "resolved",
       "lead_h": 0.0
-    },
-    {
-      "ts": "2026-10-19T20:11:17.045873+00:00",
-      "city": "Chengdu",
-      "date": "2026-10-19",
-      "side": "YES",
-      "bucket": "23.0-23.0C",
-      "entry": 0.89,
-      "correct": true,
-      "pnl": 0.25,
-      "closed_by": "resolved",
-      "lead_h": 4.0
     }
   ],
   "city_stats": {
