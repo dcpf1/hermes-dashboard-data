@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-25T23:00:28.263614+00:00",
+  "generated_at": "2026-10-26T00:00:32.917251+00:00",
   "balance": {
-    "current": 29.55,
+    "current": 29.53,
     "cash": 27.9,
     "deployed": 1.72,
-    "unrealized": -0.07,
+    "unrealized": -0.09,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -20.45,
+    "pnl_usd": -20.47,
     "pnl_pct": -40.9
   },
   "trades": {
     "total": 770,
     "wins": 521,
-    "losses": 242,
-    "total_pnl": -23.04
+    "losses": 243,
+    "total_pnl": -22.67
   },
   "brier": {
-    "score": 0.2611,
-    "n": 734,
-    "bss": -0.05,
-    "win_rate": 0.704,
-    "ci_lo": 0.2344,
-    "ci_hi": 0.2878,
+    "score": 0.2619,
+    "n": 735,
+    "bss": -0.053,
+    "win_rate": 0.703,
+    "ci_lo": 0.2352,
+    "ci_hi": 0.2886,
     "base": 0.465,
     "status": "red"
   },
@@ -37,19 +37,31 @@
       "entry_price": 0.6,
       "shares": 2.87,
       "cost": 1.72,
-      "current_p": 0.575,
+      "current_p": 0.57,
       "model_p": 0.9148,
       "ev_pct": 31.5,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-10-25T06:37:01.243337+00:00",
-      "hours_left": 37.0,
+      "hours_left": 36.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.07
+      "unrealized_pnl": -0.09
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-25T23:29:46.478370+00:00",
+      "city": "Madrid",
+      "date": "2026-10-25",
+      "side": "NO",
+      "bucket": "23.0-23.0C",
+      "entry": 0.64,
+      "correct": false,
+      "pnl": 0.37,
+      "closed_by": "convergence_tp",
+      "lead_h": 30.0
+    },
     {
       "ts": "2026-10-25T19:24:37.867065+00:00",
       "city": "Miami",
@@ -133,18 +145,6 @@
       "pnl": -1.92,
       "closed_by": "resolved",
       "lead_h": 4.0
-    },
-    {
-      "ts": "2026-10-24T05:34:07.196733+00:00",
-      "city": "Madrid",
-      "date": "2026-10-25",
-      "side": "NO",
-      "bucket": "23.0-23.0C",
-      "entry": 0.64,
-      "correct": true,
-      "pnl": 0.37,
-      "closed_by": "take_profit",
-      "lead_h": 30.0
     },
     {
       "ts": "2026-10-23T12:38:35.907535+00:00",
@@ -433,9 +433,9 @@
       "total_pnl": 6.24
     },
     "madrid": {
-      "n": 28,
-      "win_rate": 0.821,
-      "total_pnl": 5.02
+      "n": 29,
+      "win_rate": 0.793,
+      "total_pnl": 5.39
     },
     "warsaw": {
       "n": 16,
@@ -639,8 +639,8 @@
       "n": 118
     },
     "24to48": {
-      "brier": 0.2041,
-      "n": 249
+      "brier": 0.2066,
+      "n": 250
     },
     "gt48": {
       "brier": 0.208,
