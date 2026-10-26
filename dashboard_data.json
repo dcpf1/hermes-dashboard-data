@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T11:00:26.114509+00:00",
+  "generated_at": "2026-10-26T12:00:23.999467+00:00",
   "balance": {
     "current": 29.42,
     "cash": 27.9,
@@ -43,7 +43,7 @@
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-10-25T06:37:01.243337+00:00",
-      "hours_left": 25.0,
+      "hours_left": 24.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.2
