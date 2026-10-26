@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-26T20:00:20.912286+00:00",
+  "generated_at": "2026-10-26T21:00:22.623553+00:00",
   "balance": {
-    "current": 29.39,
+    "current": 29.33,
     "cash": 26.23,
     "deployed": 3.39,
-    "unrealized": -0.23,
+    "unrealized": -0.29,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -20.61,
-    "pnl_pct": -41.2
+    "pnl_usd": -20.67,
+    "pnl_pct": -41.3
   },
   "trades": {
     "total": 771,
@@ -37,16 +37,16 @@
       "entry_price": 0.6,
       "shares": 2.87,
       "cost": 1.72,
-      "current_p": 0.52,
+      "current_p": 0.5,
       "model_p": 0.9148,
       "ev_pct": 31.5,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-10-25T06:37:01.243337+00:00",
-      "hours_left": 16.0,
+      "hours_left": 15.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.23
+      "unrealized_pnl": -0.29
     },
     {
       "city": "Madrid",
