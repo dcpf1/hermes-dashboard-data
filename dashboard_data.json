@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-27T00:00:25.241153+00:00",
+  "generated_at": "2026-10-27T01:00:23.342954+00:00",
   "balance": {
-    "current": 29.19,
-    "cash": 23.18,
-    "deployed": 6.44,
-    "unrealized": -0.43,
+    "current": 29.34,
+    "cash": 25.1,
+    "deployed": 4.77,
+    "unrealized": -0.53,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -20.81,
-    "pnl_pct": -41.6
+    "pnl_usd": -20.66,
+    "pnl_pct": -41.3
   },
   "trades": {
     "total": 773,
@@ -37,16 +37,16 @@
       "entry_price": 0.6,
       "shares": 2.87,
       "cost": 1.72,
-      "current_p": 0.495,
+      "current_p": 0.46,
       "model_p": 0.9148,
       "ev_pct": 31.5,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-10-25T06:37:01.243337+00:00",
-      "hours_left": 12.0,
+      "hours_left": 11.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.3
+      "unrealized_pnl": -0.4
     },
     {
       "city": "London",
@@ -68,27 +68,6 @@
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.13
-    },
-    {
-      "city": "Madrid",
-      "date": "2026-10-26",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 24.0,
-      "bucket_high": 24.0,
-      "entry_price": 0.87,
-      "shares": 1.92,
-      "cost": 1.67,
-      "current_p": 0.87,
-      "model_p": 0.97,
-      "ev_pct": 10.0,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-10-26T15:07:40.491402+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
     },
     {
       "city": "Austin",
