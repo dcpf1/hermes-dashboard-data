@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T21:00:24.832801+00:00",
+  "generated_at": "2026-10-27T22:00:22.717772+00:00",
   "balance": {
     "current": 29.46,
     "cash": 29.46,
@@ -12,22 +12,34 @@
   },
   "trades": {
     "total": 775,
-    "wins": 524,
+    "wins": 525,
     "losses": 244,
-    "total_pnl": -22.52
+    "total_pnl": -22.95
   },
   "brier": {
-    "score": 0.2618,
-    "n": 739,
-    "bss": -0.052,
+    "score": 0.2615,
+    "n": 740,
+    "bss": -0.051,
     "win_rate": 0.704,
-    "ci_lo": 0.2351,
-    "ci_hi": 0.2885,
-    "base": 0.467,
+    "ci_lo": 0.2348,
+    "ci_hi": 0.2881,
+    "base": 0.466,
     "status": "red"
   },
   "open_positions": [],
   "recent_resolved": [
+    {
+      "ts": "2026-10-27T21:10:29.282957+00:00",
+      "city": "Jeddah",
+      "date": "2026-10-27",
+      "side": "NO",
+      "bucket": "37.0-37.0C",
+      "entry": 0.6,
+      "correct": true,
+      "pnl": -0.43,
+      "closed_by": "price_conditional",
+      "lead_h": 53.0
+    },
     {
       "ts": "2026-10-27T20:30:42.996607+00:00",
       "city": "Atlanta",
@@ -123,18 +135,6 @@
       "pnl": 0.2,
       "closed_by": "resolved",
       "lead_h": -10.0
-    },
-    {
-      "ts": "2026-10-25T06:37:01.243337+00:00",
-      "city": "Jeddah",
-      "date": "2026-10-27",
-      "side": "NO",
-      "bucket": "37.0-37.0C",
-      "entry": 0.6,
-      "correct": false,
-      "pnl": -0.43,
-      "closed_by": "take_profit",
-      "lead_h": 53.0
     },
     {
       "ts": "2026-10-25T06:30:59.546197+00:00",
@@ -460,6 +460,11 @@
       "win_rate": 0.692,
       "total_pnl": -0.29
     },
+    "jeddah": {
+      "n": 1,
+      "win_rate": 1.0,
+      "total_pnl": -0.43
+    },
     "amsterdam": {
       "n": 23,
       "win_rate": 0.652,
@@ -621,8 +626,8 @@
       "n": 250
     },
     "gt48": {
-      "brier": 0.208,
-      "n": 112
+      "brier": 0.2062,
+      "n": 113
     }
   }
 }
