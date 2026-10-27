@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-27T20:00:24.395121+00:00",
+  "generated_at": "2026-10-27T21:00:24.832801+00:00",
   "balance": {
-    "current": 29.08,
-    "cash": 28.05,
-    "deployed": 1.79,
-    "unrealized": -0.76,
+    "current": 29.46,
+    "cash": 29.46,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -20.92,
-    "pnl_pct": -41.8
+    "pnl_usd": -20.54,
+    "pnl_pct": -41.1
   },
   "trades": {
-    "total": 774,
+    "total": 775,
     "wins": 524,
     "losses": 244,
     "total_pnl": -22.52
@@ -26,30 +26,32 @@
     "base": 0.467,
     "status": "red"
   },
-  "open_positions": [
+  "open_positions": [],
+  "recent_resolved": [
     {
+      "ts": "2026-10-27T20:30:42.996607+00:00",
+      "city": "Atlanta",
+      "date": "2026-10-27",
+      "side": "YES",
+      "bucket": "72.0-73.0F",
+      "entry": 0.88,
+      "correct": false,
+      "pnl": -0.08,
+      "closed_by": "resolved",
+      "lead_h": 0.0
+    },
+    {
+      "ts": "2026-10-27T19:06:51.942633+00:00",
       "city": "Toronto",
       "date": "2026-10-27",
-      "unit": "C",
       "side": "YES",
-      "bucket_low": 10.0,
-      "bucket_high": 10.0,
-      "entry_price": 0.86,
-      "shares": 2.08,
-      "cost": 1.79,
-      "current_p": 0.495,
-      "model_p": 0.6702,
-      "ev_pct": -19.0,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-10-27T19:06:51.942633+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.76
-    }
-  ],
-  "recent_resolved": [
+      "bucket": "10.0-10.0C",
+      "entry": 0.86,
+      "correct": false,
+      "pnl": -0.3,
+      "closed_by": "resolved",
+      "lead_h": 0.0
+    },
     {
       "ts": "2026-10-27T05:10:20.385662+00:00",
       "city": "Austin",
@@ -385,30 +387,6 @@
       "pnl": 0.23,
       "closed_by": "resolved",
       "lead_h": -1.0
-    },
-    {
-      "ts": "2026-10-20T12:30:27.737691+00:00",
-      "city": "Toronto",
-      "date": "2026-10-19",
-      "side": "NO",
-      "bucket": "21.0-21.0C",
-      "entry": 0.76,
-      "correct": false,
-      "pnl": -0.9,
-      "closed_by": "model_invalidation",
-      "lead_h": 30.0
-    },
-    {
-      "ts": "2026-10-20T09:44:04.833249+00:00",
-      "city": "Denver",
-      "date": "2026-10-19",
-      "side": "YES",
-      "bucket": "70.0-71.0F",
-      "entry": 0.84,
-      "correct": false,
-      "pnl": 0.26,
-      "closed_by": "bucket_busted",
-      "lead_h": -9.0
     }
   ],
   "city_stats": {
