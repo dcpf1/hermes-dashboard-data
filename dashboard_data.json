@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-27T05:00:24.464882+00:00",
+  "generated_at": "2026-10-27T06:00:25.754647+00:00",
   "balance": {
-    "current": 29.9,
+    "current": 29.67,
     "cash": 26.78,
     "deployed": 3.29,
-    "unrealized": -0.17,
+    "unrealized": -0.4,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -20.1,
-    "pnl_pct": -40.2
+    "pnl_usd": -20.33,
+    "pnl_pct": -40.7
   },
   "trades": {
     "total": 773,
-    "wins": 523,
+    "wins": 524,
     "losses": 244,
     "total_pnl": -22.97
   },
   "brier": {
-    "score": 0.2608,
-    "n": 738,
-    "bss": -0.048,
-    "win_rate": 0.703,
-    "ci_lo": 0.2342,
-    "ci_hi": 0.2875,
-    "base": 0.466,
+    "score": 0.2618,
+    "n": 739,
+    "bss": -0.052,
+    "win_rate": 0.704,
+    "ci_lo": 0.2351,
+    "ci_hi": 0.2885,
+    "base": 0.467,
     "status": "red"
   },
   "open_positions": [
@@ -37,16 +37,16 @@
       "entry_price": 0.6,
       "shares": 2.87,
       "cost": 1.72,
-      "current_p": 0.54,
+      "current_p": 0.46,
       "model_p": 0.9148,
       "ev_pct": 31.5,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-10-25T06:37:01.243337+00:00",
-      "hours_left": 7.0,
+      "hours_left": 6.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.17
+      "unrealized_pnl": -0.4
     },
     {
       "city": "Austin",
@@ -71,6 +71,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-27T05:10:20.385662+00:00",
+      "city": "Austin",
+      "date": "2026-10-26",
+      "side": "YES",
+      "bucket": "78.0-79.0F",
+      "entry": 0.886,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -9.0
+    },
     {
       "ts": "2026-10-27T00:55:39.770376+00:00",
       "city": "London",
@@ -418,18 +430,6 @@
       "pnl": 0.23,
       "closed_by": "resolved",
       "lead_h": -8.0
-    },
-    {
-      "ts": "2026-10-20T04:05:46.311466+00:00",
-      "city": "Nyc",
-      "date": "2026-10-19",
-      "side": "YES",
-      "bucket": "62.0-63.0C",
-      "entry": 0.87,
-      "correct": true,
-      "pnl": 0.27,
-      "closed_by": "resolved",
-      "lead_h": -7.0
     }
   ],
   "city_stats": {
@@ -494,8 +494,8 @@
       "total_pnl": 0.65
     },
     "austin": {
-      "n": 20,
-      "win_rate": 0.8,
+      "n": 21,
+      "win_rate": 0.81,
       "total_pnl": -0.19
     },
     "houston": {
