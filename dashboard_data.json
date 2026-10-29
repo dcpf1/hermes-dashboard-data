@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-29T00:00:23.569198+00:00",
+  "generated_at": "2026-10-29T01:00:25.105131+00:00",
   "balance": {
-    "current": 29.61,
+    "current": 29.62,
     "cash": 26.75,
     "deployed": 2.71,
-    "unrealized": 0.15,
+    "unrealized": 0.16,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -20.39,
+    "pnl_usd": -20.38,
     "pnl_pct": -40.8
   },
   "trades": {
@@ -37,16 +37,16 @@
       "entry_price": 0.658,
       "shares": 1.52,
       "cost": 1.0,
-      "current_p": 0.7565,
+      "current_p": 0.7625,
       "model_p": 0.9166,
       "ev_pct": 25.9,
       "n_agree": 5,
       "n_avail": 6,
       "opened_at": "2026-10-28T06:35:44.163757+00:00",
-      "hours_left": 12.0,
+      "hours_left": 11.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.15
+      "unrealized_pnl": 0.16
     },
     {
       "city": "Houston",
