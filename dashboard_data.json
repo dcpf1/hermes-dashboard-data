@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T17:00:22.791992+00:00",
+  "generated_at": "2026-10-29T18:00:26.924676+00:00",
   "balance": {
     "current": 28.09,
     "cash": 28.09,
@@ -12,22 +12,34 @@
   },
   "trades": {
     "total": 777,
-    "wins": 526,
+    "wins": 527,
     "losses": 246,
-    "total_pnl": -25.04
+    "total_pnl": -24.7
   },
   "brier": {
-    "score": 0.2624,
-    "n": 743,
-    "bss": -0.054,
+    "score": 0.262,
+    "n": 744,
+    "bss": -0.053,
     "win_rate": 0.703,
-    "ci_lo": 0.2358,
-    "ci_hi": 0.289,
-    "base": 0.466,
+    "ci_lo": 0.2355,
+    "ci_hi": 0.2886,
+    "base": 0.465,
     "status": "red"
   },
   "open_positions": [],
   "recent_resolved": [
+    {
+      "ts": "2026-10-29T17:05:36.438367+00:00",
+      "city": "Chengdu",
+      "date": "2026-10-29",
+      "side": "NO",
+      "bucket": "25.0-25.0C",
+      "entry": 0.658,
+      "correct": true,
+      "pnl": 0.34,
+      "closed_by": "convergence_tp",
+      "lead_h": 29.0
+    },
     {
       "ts": "2026-10-29T05:05:41.132245+00:00",
       "city": "Houston",
@@ -39,18 +51,6 @@
       "pnl": -1.71,
       "closed_by": "resolved",
       "lead_h": -8.0
-    },
-    {
-      "ts": "2026-10-28T06:35:44.163757+00:00",
-      "city": "Chengdu",
-      "date": "2026-10-29",
-      "side": "NO",
-      "bucket": "25.0-25.0C",
-      "entry": 0.658,
-      "correct": true,
-      "pnl": 0.34,
-      "closed_by": "take_profit",
-      "lead_h": 29.0
     },
     {
       "ts": "2026-10-28T05:05:51.731325+00:00",
@@ -556,9 +556,9 @@
       "total_pnl": -5.04
     },
     "chengdu": {
-      "n": 35,
-      "win_rate": 0.714,
-      "total_pnl": -5.9
+      "n": 36,
+      "win_rate": 0.722,
+      "total_pnl": -5.56
     },
     "wellington": {
       "n": 8,
@@ -622,8 +622,8 @@
       "n": 118
     },
     "24to48": {
-      "brier": 0.2066,
-      "n": 250
+      "brier": 0.2058,
+      "n": 251
     },
     "gt48": {
       "brier": 0.2062,
