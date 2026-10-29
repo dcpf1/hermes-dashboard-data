@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-29T01:00:25.105131+00:00",
+  "generated_at": "2026-10-29T02:00:25.115575+00:00",
   "balance": {
-    "current": 29.62,
-    "cash": 26.75,
-    "deployed": 2.71,
-    "unrealized": 0.16,
+    "current": 29.8,
+    "cash": 28.09,
+    "deployed": 1.71,
+    "unrealized": 0.0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -20.38,
-    "pnl_pct": -40.8
+    "pnl_usd": -20.2,
+    "pnl_pct": -40.4
   },
   "trades": {
     "total": 777,
@@ -27,27 +27,6 @@
     "status": "red"
   },
   "open_positions": [
-    {
-      "city": "Chengdu",
-      "date": "2026-10-29",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 25.0,
-      "bucket_high": 25.0,
-      "entry_price": 0.658,
-      "shares": 1.52,
-      "cost": 1.0,
-      "current_p": 0.7625,
-      "model_p": 0.9166,
-      "ev_pct": 25.9,
-      "n_agree": 5,
-      "n_avail": 6,
-      "opened_at": "2026-10-28T06:35:44.163757+00:00",
-      "hours_left": 11.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.16
-    },
     {
       "city": "Houston",
       "date": "2026-10-28",
@@ -71,6 +50,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-28T06:35:44.163757+00:00",
+      "city": "Chengdu",
+      "date": "2026-10-29",
+      "side": "NO",
+      "bucket": "25.0-25.0C",
+      "entry": 0.658,
+      "correct": true,
+      "pnl": 0.34,
+      "closed_by": "take_profit",
+      "lead_h": 29.0
+    },
     {
       "ts": "2026-10-28T05:05:51.731325+00:00",
       "city": "Atlanta",
@@ -418,18 +409,6 @@
       "pnl": 0.3,
       "closed_by": "resolved",
       "lead_h": -8.0
-    },
-    {
-      "ts": "2026-10-20T22:05:26.199746+00:00",
-      "city": "Milan",
-      "date": "2026-10-20",
-      "side": "YES",
-      "bucket": "16.0-16.0C",
-      "entry": 0.89,
-      "correct": true,
-      "pnl": 0.23,
-      "closed_by": "resolved",
-      "lead_h": -1.0
     }
   ],
   "city_stats": {
