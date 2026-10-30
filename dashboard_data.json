@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-30T21:00:22.677408+00:00",
+  "generated_at": "2026-10-30T22:00:23.877952+00:00",
   "balance": {
     "current": 27.47,
-    "cash": 25.81,
+    "cash": 25.68,
     "deployed": 1.65,
-    "unrealized": 0.01,
+    "unrealized": 0.14,
     "starting": 50.0,
     "peak": 115.02,
     "pnl_usd": -22.53,
     "pnl_pct": -45.1
   },
   "trades": {
-    "total": 785,
+    "total": 786,
     "wins": 532,
     "losses": 247,
     "total_pnl": -25.57
@@ -37,7 +37,7 @@
       "entry_price": 0.89,
       "shares": 1.85,
       "cost": 1.65,
-      "current_p": 0.895,
+      "current_p": 0.965,
       "model_p": 0.2205,
       "ev_pct": -67.0,
       "n_agree": 1,
@@ -46,10 +46,22 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.01
+      "unrealized_pnl": 0.14
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-30T21:25:16.820494+00:00",
+      "city": "Denver",
+      "date": "2026-10-30",
+      "side": "YES",
+      "bucket": "62.0-63.0F",
+      "entry": 0.88,
+      "correct": false,
+      "pnl": -0.13,
+      "closed_by": "resolved",
+      "lead_h": 0.0
+    },
     {
       "ts": "2026-10-30T19:34:07.779768+00:00",
       "city": "Toronto",
@@ -397,18 +409,6 @@
       "pnl": 0.22,
       "closed_by": "resolved",
       "lead_h": -10.0
-    },
-    {
-      "ts": "2026-10-22T05:30:55.128501+00:00",
-      "city": "Dallas",
-      "date": "2026-10-21",
-      "side": "YES",
-      "bucket": "80.0-81.0F",
-      "entry": 0.86,
-      "correct": false,
-      "pnl": -1.88,
-      "closed_by": "resolved",
-      "lead_h": -8.0
     }
   ],
   "city_stats": {
