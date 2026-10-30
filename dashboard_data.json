@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T15:00:26.589681+00:00",
+  "generated_at": "2026-10-30T16:00:26.002250+00:00",
   "balance": {
     "current": 26.94,
     "cash": 24.01,
@@ -12,18 +12,18 @@
   },
   "trades": {
     "total": 783,
-    "wins": 529,
+    "wins": 530,
     "losses": 247,
-    "total_pnl": -26.15
+    "total_pnl": -26.03
   },
   "brier": {
-    "score": 0.2617,
-    "n": 747,
-    "bss": -0.052,
+    "score": 0.2614,
+    "n": 748,
+    "bss": -0.05,
     "win_rate": 0.703,
-    "ci_lo": 0.2353,
-    "ci_hi": 0.2882,
-    "base": 0.466,
+    "ci_lo": 0.2349,
+    "ci_hi": 0.2878,
+    "base": 0.467,
     "status": "red"
   },
   "open_positions": [
@@ -72,7 +72,7 @@
   ],
   "recent_resolved": [
     {
-      "ts": "2026-10-30T07:59:27.147663+00:00",
+      "ts": "2026-10-30T15:22:43.053072+00:00",
       "city": "Tokyo",
       "date": "2026-10-30",
       "side": "YES",
@@ -80,7 +80,7 @@
       "entry": 0.89,
       "correct": true,
       "pnl": 0.12,
-      "closed_by": "resolved",
+      "closed_by": "metar_override",
       "lead_h": 4.0
     },
     {
@@ -553,15 +553,15 @@
       "win_rate": 0.724,
       "total_pnl": -2.96
     },
+    "tokyo": {
+      "n": 16,
+      "win_rate": 0.625,
+      "total_pnl": -3.15
+    },
     "seattle": {
       "n": 18,
       "win_rate": 0.722,
       "total_pnl": -3.25
-    },
-    "tokyo": {
-      "n": 15,
-      "win_rate": 0.6,
-      "total_pnl": -3.27
     },
     "chongqing": {
       "n": 40,
@@ -657,8 +657,8 @@
   },
   "lead_brier": {
     "lt6": {
-      "brier": 0.4157,
-      "n": 44
+      "brier": 0.4065,
+      "n": 45
     },
     "6to24": {
       "brier": 0.2565,
