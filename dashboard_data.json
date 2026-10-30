@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-30T10:00:24.655462+00:00",
+  "generated_at": "2026-10-30T11:00:27.988209+00:00",
   "balance": {
-    "current": 26.93,
-    "cash": 22.56,
-    "deployed": 4.26,
-    "unrealized": 0.11,
+    "current": 26.94,
+    "cash": 24.01,
+    "deployed": 2.93,
+    "unrealized": 0.0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -23.07,
+    "pnl_usd": -23.06,
     "pnl_pct": -46.1
   },
   "trades": {
@@ -28,27 +28,6 @@
   },
   "open_positions": [
     {
-      "city": "Tokyo",
-      "date": "2026-10-30",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 19.0,
-      "bucket_high": 19.0,
-      "entry_price": 0.89,
-      "shares": 1.49,
-      "cost": 1.33,
-      "current_p": 0.965,
-      "model_p": 0.97,
-      "ev_pct": 8.0,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-10-30T07:59:27.147663+00:00",
-      "hours_left": 2.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.11
-    },
-    {
       "city": "Chengdu",
       "date": "2026-10-30",
       "unit": "C",
@@ -64,7 +43,7 @@
       "n_agree": 1,
       "n_avail": 1,
       "opened_at": "2026-10-30T07:05:29.163792+00:00",
-      "hours_left": 2.0,
+      "hours_left": 1.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
@@ -85,13 +64,25 @@
       "n_agree": 1,
       "n_avail": 1,
       "opened_at": "2026-10-30T07:30:36.655059+00:00",
-      "hours_left": 2.0,
+      "hours_left": 1.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-10-30T07:59:27.147663+00:00",
+      "city": "Tokyo",
+      "date": "2026-10-30",
+      "side": "YES",
+      "bucket": "19.0-19.0C",
+      "entry": 0.89,
+      "correct": true,
+      "pnl": 0.12,
+      "closed_by": "resolved",
+      "lead_h": 4.0
+    },
     {
       "ts": "2026-10-30T07:05:29.163792+00:00",
       "city": "Seattle",
@@ -439,18 +430,6 @@
       "pnl": 0.16,
       "closed_by": "forecast_changed",
       "lead_h": -2.0
-    },
-    {
-      "ts": "2026-10-21T12:05:27.860155+00:00",
-      "city": "Helsinki",
-      "date": "2026-10-20",
-      "side": "YES",
-      "bucket": "10.0-10.0C",
-      "entry": 0.89,
-      "correct": true,
-      "pnl": 0.19,
-      "closed_by": "metar_override",
-      "lead_h": 0.0
     }
   ],
   "city_stats": {
