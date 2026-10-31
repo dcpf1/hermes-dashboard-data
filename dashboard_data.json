@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-30T23:00:23.863077+00:00",
+  "generated_at": "2026-10-31T00:00:25.421820+00:00",
   "balance": {
-    "current": 27.33,
-    "cash": 25.68,
-    "deployed": 1.65,
-    "unrealized": 0.0,
+    "current": 27.45,
+    "cash": 24.14,
+    "deployed": 3.19,
+    "unrealized": 0.12,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -22.67,
-    "pnl_pct": -45.3
+    "pnl_usd": -22.55,
+    "pnl_pct": -45.1
   },
   "trades": {
-    "total": 786,
+    "total": 787,
     "wins": 532,
     "losses": 247,
     "total_pnl": -25.57
@@ -47,6 +47,27 @@
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
+    },
+    {
+      "city": "Seattle",
+      "date": "2026-10-30",
+      "unit": "F",
+      "side": "YES",
+      "bucket_low": 48.0,
+      "bucket_high": 49.0,
+      "entry_price": 0.88,
+      "shares": 1.75,
+      "cost": 1.54,
+      "current_p": 0.9505,
+      "model_p": 0.0011,
+      "ev_pct": -87.9,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-10-30T23:12:34.886278+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.12
     }
   ],
   "recent_resolved": [
