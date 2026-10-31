@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T05:00:26.897321+00:00",
+  "generated_at": "2026-10-31T06:00:25.901914+00:00",
   "balance": {
     "current": 27.33,
     "cash": 24.14,
@@ -12,18 +12,18 @@
   },
   "trades": {
     "total": 787,
-    "wins": 532,
+    "wins": 534,
     "losses": 247,
-    "total_pnl": -25.57
+    "total_pnl": -25.51
   },
   "brier": {
-    "score": 0.2609,
-    "n": 750,
-    "bss": -0.048,
-    "win_rate": 0.704,
-    "ci_lo": 0.2345,
-    "ci_hi": 0.2873,
-    "base": 0.468,
+    "score": 0.2623,
+    "n": 752,
+    "bss": -0.053,
+    "win_rate": 0.705,
+    "ci_lo": 0.2359,
+    "ci_hi": 0.2887,
+    "base": 0.469,
     "status": "red"
   },
   "open_positions": [
@@ -72,6 +72,30 @@
   ],
   "recent_resolved": [
     {
+      "ts": "2026-10-31T05:06:01.436414+00:00",
+      "city": "Dallas",
+      "date": "2026-10-30",
+      "side": "YES",
+      "bucket": "74.0-75.0F",
+      "entry": 0.89,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -8.0
+    },
+    {
+      "ts": "2026-10-31T04:55:29.118676+00:00",
+      "city": "Toronto",
+      "date": "2026-10-30",
+      "side": "YES",
+      "bucket": "14.0-14.0C",
+      "entry": 0.88,
+      "correct": true,
+      "pnl": 0.06,
+      "closed_by": "forecast_changed",
+      "lead_h": -7.0
+    },
+    {
       "ts": "2026-10-30T21:25:16.820494+00:00",
       "city": "Denver",
       "date": "2026-10-30",
@@ -80,18 +104,6 @@
       "entry": 0.88,
       "correct": false,
       "pnl": -0.13,
-      "closed_by": "resolved",
-      "lead_h": 0.0
-    },
-    {
-      "ts": "2026-10-30T19:34:07.779768+00:00",
-      "city": "Toronto",
-      "date": "2026-10-30",
-      "side": "YES",
-      "bucket": "14.0-14.0C",
-      "entry": 0.88,
-      "correct": true,
-      "pnl": 0.06,
       "closed_by": "resolved",
       "lead_h": 0.0
     },
@@ -418,18 +430,6 @@
       "pnl": 2.15,
       "closed_by": "metar_override",
       "lead_h": 20.0
-    },
-    {
-      "ts": "2026-10-22T07:10:33.996516+00:00",
-      "city": "Seattle",
-      "date": "2026-10-21",
-      "side": "YES",
-      "bucket": "64.0-65.0F",
-      "entry": 0.89,
-      "correct": true,
-      "pnl": 0.22,
-      "closed_by": "resolved",
-      "lead_h": -10.0
     }
   ],
   "city_stats": {
@@ -519,8 +519,8 @@
       "total_pnl": -2.0
     },
     "dallas": {
-      "n": 30,
-      "win_rate": 0.733,
+      "n": 31,
+      "win_rate": 0.742,
       "total_pnl": -2.5
     },
     "milan": {
@@ -584,9 +584,9 @@
       "total_pnl": -3.6
     },
     "toronto": {
-      "n": 33,
-      "win_rate": 0.667,
-      "total_pnl": -4.2
+      "n": 34,
+      "win_rate": 0.676,
+      "total_pnl": -4.14
     },
     "atlanta": {
       "n": 30,
