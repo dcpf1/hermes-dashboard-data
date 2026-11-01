@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-01T03:00:22.601253+00:00",
+  "generated_at": "2026-11-01T04:00:23.852659+00:00",
   "balance": {
-    "current": 28.32,
-    "cash": 25.5,
-    "deployed": 2.53,
-    "unrealized": 0.29,
+    "current": 28.41,
+    "cash": 28.41,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -21.68,
-    "pnl_pct": -43.4
+    "pnl_usd": -21.59,
+    "pnl_pct": -43.2
   },
   "trades": {
     "total": 789,
@@ -26,29 +26,7 @@
     "base": 0.472,
     "status": "red"
   },
-  "open_positions": [
-    {
-      "city": "Austin",
-      "date": "2026-11-01",
-      "unit": "F",
-      "side": "NO",
-      "bucket_low": 86.0,
-      "bucket_high": 87.0,
-      "entry_price": 0.759,
-      "shares": 3.33,
-      "cost": 2.53,
-      "current_p": 0.846,
-      "model_p": 0.9606,
-      "ev_pct": 20.2,
-      "n_agree": 7,
-      "n_avail": 7,
-      "opened_at": "2026-10-31T17:21:27.870682+00:00",
-      "hours_left": 9.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.29
-    }
-  ],
+  "open_positions": [],
   "recent_resolved": [
     {
       "ts": "2026-10-31T23:05:54.829202+00:00",
@@ -61,6 +39,18 @@
       "pnl": 0.0,
       "closed_by": "awaiting_settlement",
       "lead_h": -2.0
+    },
+    {
+      "ts": "2026-10-31T17:21:27.870682+00:00",
+      "city": "Austin",
+      "date": "2026-11-01",
+      "side": "NO",
+      "bucket": "86.0-87.0F",
+      "entry": 0.759,
+      "correct": true,
+      "pnl": 0.38,
+      "closed_by": "take_profit",
+      "lead_h": 18.0
     },
     {
       "ts": "2026-10-31T07:36:52.719373+00:00",
@@ -397,18 +387,6 @@
       "pnl": -1.78,
       "closed_by": "price_conditional",
       "lead_h": 20.0
-    },
-    {
-      "ts": "2026-10-23T05:05:21.467204+00:00",
-      "city": "Nyc",
-      "date": "2026-10-22",
-      "side": "NO",
-      "bucket": "68.0-69.0C",
-      "entry": 0.66,
-      "correct": true,
-      "pnl": 0.44,
-      "closed_by": "convergence_tp",
-      "lead_h": 18.0
     }
   ],
   "city_stats": {
