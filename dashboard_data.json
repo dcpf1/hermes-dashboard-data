@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T07:00:29.755639+00:00",
+  "generated_at": "2026-11-02T08:00:33.488210+00:00",
   "balance": {
     "current": 28.62,
     "cash": 28.62,
@@ -12,22 +12,34 @@
   },
   "trades": {
     "total": 790,
-    "wins": 538,
+    "wins": 539,
     "losses": 247,
-    "total_pnl": -24.76
+    "total_pnl": -24.17
   },
   "brier": {
-    "score": 0.2638,
-    "n": 756,
-    "bss": -0.058,
-    "win_rate": 0.706,
-    "ci_lo": 0.2374,
-    "ci_hi": 0.2902,
+    "score": 0.2635,
+    "n": 757,
+    "bss": -0.057,
+    "win_rate": 0.707,
+    "ci_lo": 0.2371,
+    "ci_hi": 0.2898,
     "base": 0.472,
     "status": "red"
   },
   "open_positions": [],
   "recent_resolved": [
+    {
+      "ts": "2026-11-02T07:10:21.259359+00:00",
+      "city": "Austin",
+      "date": "2026-11-01",
+      "side": "NO",
+      "bucket": "86.0-87.0F",
+      "entry": 0.759,
+      "correct": true,
+      "pnl": 0.38,
+      "closed_by": "convergence_tp",
+      "lead_h": 18.0
+    },
     {
       "ts": "2026-11-01T23:25:13.546999+00:00",
       "city": "Milan",
@@ -36,8 +48,8 @@
       "bucket": "14.0-14.0C",
       "entry": 0.89,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.21,
+      "closed_by": "resolved",
       "lead_h": -2.0
     },
     {
@@ -51,18 +63,6 @@
       "pnl": 0.29,
       "closed_by": "resolved",
       "lead_h": -2.0
-    },
-    {
-      "ts": "2026-10-31T17:21:27.870682+00:00",
-      "city": "Austin",
-      "date": "2026-11-01",
-      "side": "NO",
-      "bucket": "86.0-87.0F",
-      "entry": 0.759,
-      "correct": true,
-      "pnl": 0.38,
-      "closed_by": "take_profit",
-      "lead_h": 18.0
     },
     {
       "ts": "2026-10-31T07:36:52.719373+00:00",
@@ -451,9 +451,9 @@
       "total_pnl": 0.65
     },
     "austin": {
-      "n": 22,
-      "win_rate": 0.818,
-      "total_pnl": 0.25
+      "n": 23,
+      "win_rate": 0.826,
+      "total_pnl": 0.63
     },
     "jeddah": {
       "n": 1,
@@ -483,7 +483,7 @@
     "milan": {
       "n": 39,
       "win_rate": 0.795,
-      "total_pnl": -2.56
+      "total_pnl": -2.35
     },
     "tel-aviv": {
       "n": 7,
@@ -618,8 +618,8 @@
       "n": 47
     },
     "6to24": {
-      "brier": 0.2565,
-      "n": 118
+      "brier": 0.2544,
+      "n": 119
     },
     "24to48": {
       "brier": 0.2058,
