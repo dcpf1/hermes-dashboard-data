@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-02T18:00:24.085832+00:00",
+  "generated_at": "2026-11-02T19:00:29.806753+00:00",
   "balance": {
-    "current": 28.41,
-    "cash": 27.02,
-    "deployed": 1.6,
-    "unrealized": -0.21,
+    "current": 28.4,
+    "cash": 25.4,
+    "deployed": 3.22,
+    "unrealized": -0.22,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -21.59,
+    "pnl_usd": -21.6,
     "pnl_pct": -43.2
   },
   "trades": {
-    "total": 791,
+    "total": 792,
     "wins": 539,
     "losses": 247,
     "total_pnl": -24.17
@@ -43,10 +43,31 @@
       "n_agree": 5,
       "n_avail": 7,
       "opened_at": "2026-11-02T08:28:24.441717+00:00",
-      "hours_left": 18.0,
+      "hours_left": 17.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.21
+    },
+    {
+      "city": "Buenos Aires",
+      "date": "2026-11-02",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 26.0,
+      "bucket_high": 26.0,
+      "entry_price": 0.81,
+      "shares": 2.0,
+      "cost": 1.62,
+      "current_p": 0.805,
+      "model_p": 0.7993,
+      "ev_pct": -1.1,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-11-02T18:36:16.322925+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.01
     }
   ],
   "recent_resolved": [
