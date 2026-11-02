@@ -1,55 +1,45 @@
 {
-  "generated_at": "2026-11-01T23:00:44.682294+00:00",
+  "generated_at": "2026-11-02T00:00:29.302064+00:00",
   "balance": {
-    "current": 28.41,
-    "cash": 26.71,
-    "deployed": 1.7,
-    "unrealized": 0.0,
+    "current": 28.62,
+    "cash": 28.62,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -21.59,
-    "pnl_pct": -43.2
+    "pnl_usd": -21.38,
+    "pnl_pct": -42.8
   },
   "trades": {
     "total": 790,
-    "wins": 537,
+    "wins": 538,
     "losses": 247,
     "total_pnl": -24.76
   },
   "brier": {
-    "score": 0.264,
-    "n": 755,
-    "bss": -0.06,
+    "score": 0.2638,
+    "n": 756,
+    "bss": -0.058,
     "win_rate": 0.706,
-    "ci_lo": 0.2376,
-    "ci_hi": 0.2905,
+    "ci_lo": 0.2374,
+    "ci_hi": 0.2902,
     "base": 0.472,
     "status": "red"
   },
-  "open_positions": [
+  "open_positions": [],
+  "recent_resolved": [
     {
+      "ts": "2026-11-01T23:25:13.546999+00:00",
       "city": "Milan",
       "date": "2026-11-01",
-      "unit": "C",
       "side": "YES",
-      "bucket_low": 14.0,
-      "bucket_high": 14.0,
-      "entry_price": 0.89,
-      "shares": 1.91,
-      "cost": 1.7,
-      "current_p": 0.89,
-      "model_p": 0.7024,
-      "ev_pct": -18.8,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-11-01T14:05:30.430695+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
+      "bucket": "14.0-14.0C",
+      "entry": 0.89,
+      "correct": true,
       "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    }
-  ],
-  "recent_resolved": [
+      "closed_by": "awaiting_settlement",
+      "lead_h": -2.0
+    },
     {
       "ts": "2026-10-31T23:05:54.829202+00:00",
       "city": "Paris",
@@ -397,18 +387,6 @@
       "pnl": -0.05,
       "closed_by": "metar_override",
       "lead_h": 44.0
-    },
-    {
-      "ts": "2026-10-23T12:38:35.907535+00:00",
-      "city": "Tokyo",
-      "date": "2026-10-22",
-      "side": "NO",
-      "bucket": "26.0-26.0C",
-      "entry": 0.31,
-      "correct": true,
-      "pnl": -1.78,
-      "closed_by": "price_conditional",
-      "lead_h": 20.0
     }
   ],
   "city_stats": {
@@ -503,8 +481,8 @@
       "total_pnl": -2.3
     },
     "milan": {
-      "n": 38,
-      "win_rate": 0.789,
+      "n": 39,
+      "win_rate": 0.795,
       "total_pnl": -2.56
     },
     "tel-aviv": {
