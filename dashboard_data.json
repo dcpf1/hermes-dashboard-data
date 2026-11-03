@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-03T09:00:20.742987+00:00",
+  "generated_at": "2026-11-03T10:00:19.628245+00:00",
   "balance": {
-    "current": 28.6,
-    "cash": 27.4,
-    "deployed": 1.6,
-    "unrealized": -0.4,
+    "current": 28.61,
+    "cash": 28.61,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -21.4,
+    "pnl_usd": -21.39,
     "pnl_pct": -42.8
   },
   "trades": {
@@ -26,29 +26,7 @@
     "base": 0.472,
     "status": "red"
   },
-  "open_positions": [
-    {
-      "city": "Austin",
-      "date": "2026-11-03",
-      "unit": "F",
-      "side": "NO",
-      "bucket_low": 80.0,
-      "bucket_high": 81.0,
-      "entry_price": 0.75,
-      "shares": 2.13,
-      "cost": 1.6,
-      "current_p": 0.56,
-      "model_p": 0.901,
-      "ev_pct": 15.1,
-      "n_agree": 5,
-      "n_avail": 7,
-      "opened_at": "2026-11-02T08:28:24.441717+00:00",
-      "hours_left": 3.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.4
-    }
-  ],
+  "open_positions": [],
   "recent_resolved": [
     {
       "ts": "2026-11-03T03:05:54.341458+00:00",
@@ -61,6 +39,18 @@
       "pnl": 0.38,
       "closed_by": "resolved",
       "lead_h": -6.0
+    },
+    {
+      "ts": "2026-11-02T08:28:24.441717+00:00",
+      "city": "Austin",
+      "date": "2026-11-03",
+      "side": "NO",
+      "bucket": "80.0-81.0F",
+      "entry": 0.75,
+      "correct": false,
+      "pnl": -0.38,
+      "closed_by": "take_profit",
+      "lead_h": 27.0
     },
     {
       "ts": "2026-11-02T07:10:21.259359+00:00",
@@ -395,18 +385,6 @@
       "entry": 0.88,
       "correct": false,
       "pnl": -2.04,
-      "closed_by": "resolved",
-      "lead_h": 4.0
-    },
-    {
-      "ts": "2026-10-24T17:21:32.423404+00:00",
-      "city": "Chengdu",
-      "date": "2026-10-24",
-      "side": "YES",
-      "bucket": "19.0-19.0C",
-      "entry": 0.86,
-      "correct": false,
-      "pnl": -1.92,
       "closed_by": "resolved",
       "lead_h": 4.0
     }
