@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-03T17:00:27.659658+00:00",
+  "generated_at": "2026-11-03T18:00:24.230350+00:00",
   "balance": {
-    "current": 28.61,
-    "cash": 28.61,
-    "deployed": 0,
-    "unrealized": 0,
+    "current": 28.51,
+    "cash": 26.89,
+    "deployed": 1.72,
+    "unrealized": -0.1,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -21.39,
-    "pnl_pct": -42.8
+    "pnl_usd": -21.49,
+    "pnl_pct": -43.0
   },
   "trades": {
-    "total": 792,
+    "total": 793,
     "wins": 540,
     "losses": 247,
     "total_pnl": -23.79
@@ -26,7 +26,29 @@
     "base": 0.472,
     "status": "red"
   },
-  "open_positions": [],
+  "open_positions": [
+    {
+      "city": "Moscow",
+      "date": "2026-11-03",
+      "unit": "C",
+      "side": "YES",
+      "bucket_low": 2.0,
+      "bucket_high": 2.0,
+      "entry_price": 0.85,
+      "shares": 2.02,
+      "cost": 1.72,
+      "current_p": 0.8,
+      "model_p": 0.97,
+      "ev_pct": 12.0,
+      "n_agree": 1,
+      "n_avail": 1,
+      "opened_at": "2026-11-03T16:55:56.755598+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.1
+    }
+  ],
   "recent_resolved": [
     {
       "ts": "2026-11-03T03:05:54.341458+00:00",
