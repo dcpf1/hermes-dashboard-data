@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-03T07:00:25.259231+00:00",
+  "generated_at": "2026-11-03T08:00:24.882070+00:00",
   "balance": {
-    "current": 28.7,
+    "current": 28.78,
     "cash": 27.4,
     "deployed": 1.6,
-    "unrealized": -0.3,
+    "unrealized": -0.22,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -21.3,
-    "pnl_pct": -42.6
+    "pnl_usd": -21.22,
+    "pnl_pct": -42.4
   },
   "trades": {
     "total": 792,
     "wins": 540,
     "losses": 247,
-    "total_pnl": -24.17
+    "total_pnl": -23.79
   },
   "brier": {
     "score": 0.2632,
@@ -37,16 +37,16 @@
       "entry_price": 0.75,
       "shares": 2.13,
       "cost": 1.6,
-      "current_p": 0.61,
+      "current_p": 0.645,
       "model_p": 0.901,
       "ev_pct": 15.1,
       "n_agree": 5,
       "n_avail": 7,
       "opened_at": "2026-11-02T08:28:24.441717+00:00",
-      "hours_left": 5.0,
+      "hours_left": 4.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.3
+      "unrealized_pnl": -0.22
     }
   ],
   "recent_resolved": [
@@ -58,8 +58,8 @@
       "bucket": "26.0-26.0C",
       "entry": 0.81,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.38,
+      "closed_by": "resolved",
       "lead_h": -6.0
     },
     {
@@ -422,15 +422,15 @@
       "win_rate": 0.517,
       "total_pnl": 8.9
     },
+    "buenos-aires": {
+      "n": 21,
+      "win_rate": 0.714,
+      "total_pnl": 6.62
+    },
     "los-angeles": {
       "n": 31,
       "win_rate": 0.581,
       "total_pnl": 6.59
-    },
-    "buenos-aires": {
-      "n": 21,
-      "win_rate": 0.714,
-      "total_pnl": 6.24
     },
     "madrid": {
       "n": 30,
