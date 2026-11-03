@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-11-03T03:00:27.476134+00:00",
+  "generated_at": "2026-11-03T04:00:24.688855+00:00",
   "balance": {
-    "current": 28.34,
+    "current": 28.33,
     "cash": 25.4,
     "deployed": 3.22,
-    "unrealized": -0.28,
+    "unrealized": -0.29,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -21.66,
+    "pnl_usd": -21.67,
     "pnl_pct": -43.3
   },
   "trades": {
     "total": 792,
-    "wins": 539,
+    "wins": 540,
     "losses": 247,
     "total_pnl": -24.17
   },
   "brier": {
-    "score": 0.2635,
-    "n": 757,
-    "bss": -0.057,
+    "score": 0.2632,
+    "n": 758,
+    "bss": -0.056,
     "win_rate": 0.707,
-    "ci_lo": 0.2371,
-    "ci_hi": 0.2898,
+    "ci_lo": 0.2368,
+    "ci_hi": 0.2895,
     "base": 0.472,
     "status": "red"
   },
@@ -37,16 +37,16 @@
       "entry_price": 0.75,
       "shares": 2.13,
       "cost": 1.6,
-      "current_p": 0.62,
+      "current_p": 0.615,
       "model_p": 0.901,
       "ev_pct": 15.1,
       "n_agree": 5,
       "n_avail": 7,
       "opened_at": "2026-11-02T08:28:24.441717+00:00",
-      "hours_left": 9.0,
+      "hours_left": 8.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.28
+      "unrealized_pnl": -0.29
     },
     {
       "city": "Buenos Aires",
@@ -71,6 +71,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-11-03T03:05:54.341458+00:00",
+      "city": "Buenos Aires",
+      "date": "2026-11-02",
+      "side": "YES",
+      "bucket": "26.0-26.0C",
+      "entry": 0.81,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -6.0
+    },
     {
       "ts": "2026-11-02T07:10:21.259359+00:00",
       "city": "Austin",
@@ -418,18 +430,6 @@
       "pnl": -1.92,
       "closed_by": "resolved",
       "lead_h": 4.0
-    },
-    {
-      "ts": "2026-10-23T12:38:35.907535+00:00",
-      "city": "Istanbul",
-      "date": "2026-10-22",
-      "side": "NO",
-      "bucket": "-999.0-15.0C",
-      "entry": 0.499,
-      "correct": true,
-      "pnl": -0.05,
-      "closed_by": "metar_override",
-      "lead_h": 44.0
     }
   ],
   "city_stats": {
@@ -449,8 +449,8 @@
       "total_pnl": 6.59
     },
     "buenos-aires": {
-      "n": 20,
-      "win_rate": 0.7,
+      "n": 21,
+      "win_rate": 0.714,
       "total_pnl": 6.24
     },
     "madrid": {
