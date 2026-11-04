@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-04T22:00:43.633506+00:00",
+  "generated_at": "2026-11-04T23:00:34.579747+00:00",
   "balance": {
-    "current": 26.45,
-    "cash": 21.7,
-    "deployed": 5.03,
-    "unrealized": -0.28,
+    "current": 27.03,
+    "cash": 20.7,
+    "deployed": 6.03,
+    "unrealized": 0.3,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -23.55,
-    "pnl_pct": -47.1
+    "pnl_usd": -22.97,
+    "pnl_pct": -45.9
   },
   "trades": {
-    "total": 798,
+    "total": 799,
     "wins": 541,
     "losses": 248,
     "total_pnl": -25.89
@@ -37,16 +37,16 @@
       "entry_price": 0.78,
       "shares": 2.09,
       "cost": 1.63,
-      "current_p": 0.805,
+      "current_p": 0.85,
       "model_p": 0.9048,
       "ev_pct": 12.5,
       "n_agree": 6,
       "n_avail": 6,
       "opened_at": "2026-11-04T06:31:52.326696+00:00",
-      "hours_left": 14.0,
+      "hours_left": 13.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.05
+      "unrealized_pnl": 0.15
     },
     {
       "city": "Sao Paulo",
@@ -58,16 +58,37 @@
       "entry_price": 0.75,
       "shares": 2.69,
       "cost": 2.02,
-      "current_p": 0.815,
+      "current_p": 0.81,
       "model_p": 0.9381,
       "ev_pct": 18.8,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-11-04T06:36:35.765355+00:00",
-      "hours_left": 14.0,
+      "hours_left": 13.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.17
+      "unrealized_pnl": 0.16
+    },
+    {
+      "city": "Munich",
+      "date": "2026-11-06",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 5.0,
+      "bucket_high": 5.0,
+      "entry_price": 0.76,
+      "shares": 1.32,
+      "cost": 1.0,
+      "current_p": 0.755,
+      "model_p": 0.9273,
+      "ev_pct": 16.7,
+      "n_agree": 4,
+      "n_avail": 6,
+      "opened_at": "2026-11-04T22:31:56.849352+00:00",
+      "hours_left": 37.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": -0.01
     },
     {
       "city": "Atlanta",
@@ -79,7 +100,7 @@
       "entry_price": 0.87,
       "shares": 1.59,
       "cost": 1.38,
-      "current_p": 0.555,
+      "current_p": 0.87,
       "model_p": 0.7552,
       "ev_pct": -11.5,
       "n_agree": 1,
@@ -88,7 +109,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.5
+      "unrealized_pnl": 0.0
     }
   ],
   "recent_resolved": [
