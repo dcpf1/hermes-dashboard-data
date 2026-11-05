@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-11-05T05:00:23.430421+00:00",
+  "generated_at": "2026-11-05T06:00:25.781957+00:00",
   "balance": {
-    "current": 27.06,
+    "current": 26.92,
     "cash": 22.48,
     "deployed": 4.4,
-    "unrealized": 0.18,
+    "unrealized": 0.04,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -22.94,
-    "pnl_pct": -45.9
+    "pnl_usd": -23.08,
+    "pnl_pct": -46.2
   },
   "trades": {
     "total": 799,
-    "wins": 542,
+    "wins": 543,
     "losses": 248,
     "total_pnl": -25.75
   },
   "brier": {
-    "score": 0.2647,
-    "n": 761,
-    "bss": -0.062,
+    "score": 0.2644,
+    "n": 762,
+    "bss": -0.061,
     "win_rate": 0.707,
-    "ci_lo": 0.2383,
-    "ci_hi": 0.291,
+    "ci_lo": 0.238,
+    "ci_hi": 0.2907,
     "base": 0.472,
     "status": "red"
   },
@@ -37,16 +37,16 @@
       "entry_price": 0.75,
       "shares": 2.69,
       "cost": 2.02,
-      "current_p": 0.815,
+      "current_p": 0.76,
       "model_p": 0.9381,
       "ev_pct": 18.8,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-11-04T06:36:35.765355+00:00",
-      "hours_left": 7.0,
+      "hours_left": 6.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.17
+      "unrealized_pnl": 0.03
     },
     {
       "city": "Munich",
@@ -64,7 +64,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-11-04T22:31:56.849352+00:00",
-      "hours_left": 31.0,
+      "hours_left": 30.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.01
@@ -92,6 +92,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-11-05T05:06:11.043538+00:00",
+      "city": "Atlanta",
+      "date": "2026-11-04",
+      "side": "YES",
+      "bucket": "70.0-71.0F",
+      "entry": 0.87,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -8.0
+    },
     {
       "ts": "2026-11-04T23:22:21.330181+00:00",
       "city": "Paris",
@@ -439,18 +451,6 @@
       "pnl": 0.37,
       "closed_by": "convergence_tp",
       "lead_h": 30.0
-    },
-    {
-      "ts": "2026-10-25T07:09:03.882296+00:00",
-      "city": "Seattle",
-      "date": "2026-10-24",
-      "side": "YES",
-      "bucket": "54.0-55.0F",
-      "entry": 0.89,
-      "correct": true,
-      "pnl": 0.2,
-      "closed_by": "resolved",
-      "lead_h": -10.0
     }
   ],
   "city_stats": {
@@ -610,8 +610,8 @@
       "total_pnl": -4.14
     },
     "atlanta": {
-      "n": 30,
-      "win_rate": 0.8,
+      "n": 31,
+      "win_rate": 0.806,
       "total_pnl": -4.54
     },
     "singapore": {
