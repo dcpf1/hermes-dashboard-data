@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-05T07:00:24.190387+00:00",
+  "generated_at": "2026-11-05T08:00:23.094748+00:00",
   "balance": {
-    "current": 27.03,
+    "current": 27.24,
     "cash": 22.99,
     "deployed": 4.1,
-    "unrealized": -0.06,
+    "unrealized": 0.15,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -22.97,
-    "pnl_pct": -45.9
+    "pnl_usd": -22.76,
+    "pnl_pct": -45.5
   },
   "trades": {
     "total": 800,
     "wins": 543,
-    "losses": 248,
-    "total_pnl": -25.75
+    "losses": 249,
+    "total_pnl": -25.84
   },
   "brier": {
-    "score": 0.2644,
-    "n": 762,
-    "bss": -0.061,
-    "win_rate": 0.707,
-    "ci_lo": 0.238,
-    "ci_hi": 0.2907,
-    "base": 0.472,
+    "score": 0.2652,
+    "n": 763,
+    "bss": -0.064,
+    "win_rate": 0.706,
+    "ci_lo": 0.2388,
+    "ci_hi": 0.2915,
+    "base": 0.473,
     "status": "red"
   },
   "open_positions": [
@@ -37,16 +37,16 @@
       "entry_price": 0.75,
       "shares": 2.69,
       "cost": 2.02,
-      "current_p": 0.74,
+      "current_p": 0.805,
       "model_p": 0.9381,
       "ev_pct": 18.8,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-11-04T06:36:35.765355+00:00",
-      "hours_left": 5.0,
+      "hours_left": 4.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.03
+      "unrealized_pnl": 0.15
     },
     {
       "city": "Munich",
@@ -58,13 +58,13 @@
       "entry_price": 0.76,
       "shares": 1.32,
       "cost": 1.0,
-      "current_p": 0.765,
+      "current_p": 0.77,
       "model_p": 0.9273,
       "ev_pct": 16.7,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-11-04T22:31:56.849352+00:00",
-      "hours_left": 29.0,
+      "hours_left": 28.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.01
@@ -79,19 +79,31 @@
       "entry_price": 0.77,
       "shares": 1.4,
       "cost": 1.08,
-      "current_p": 0.745,
+      "current_p": 0.765,
       "model_p": 0.9459,
       "ev_pct": 17.6,
       "n_agree": 6,
       "n_avail": 7,
       "opened_at": "2026-11-05T06:35:16.199225+00:00",
-      "hours_left": 29.0,
+      "hours_left": 28.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.04
+      "unrealized_pnl": -0.01
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-11-05T07:29:08.424999+00:00",
+      "city": "Austin",
+      "date": "2026-11-04",
+      "side": "NO",
+      "bucket": "78.0-79.0F",
+      "entry": 0.53,
+      "correct": false,
+      "pnl": -0.3,
+      "closed_by": "price_conditional",
+      "lead_h": 9.0
+    },
     {
       "ts": "2026-11-05T05:06:11.043538+00:00",
       "city": "Atlanta",
@@ -100,8 +112,8 @@
       "bucket": "70.0-71.0F",
       "entry": 0.87,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.21,
+      "closed_by": "resolved",
       "lead_h": -8.0
     },
     {
@@ -139,18 +151,6 @@
       "pnl": 0.15,
       "closed_by": "take_profit",
       "lead_h": 29.0
-    },
-    {
-      "ts": "2026-11-04T02:07:04.462538+00:00",
-      "city": "Austin",
-      "date": "2026-11-04",
-      "side": "NO",
-      "bucket": "78.0-79.0F",
-      "entry": 0.53,
-      "correct": false,
-      "pnl": -0.3,
-      "closed_by": "take_profit",
-      "lead_h": 9.0
     },
     {
       "ts": "2026-11-03T21:06:11.739332+00:00",
@@ -515,9 +515,9 @@
       "total_pnl": 0.59
     },
     "austin": {
-      "n": 24,
-      "win_rate": 0.833,
-      "total_pnl": 0.25
+      "n": 25,
+      "win_rate": 0.8,
+      "total_pnl": -0.05
     },
     "jeddah": {
       "n": 1,
@@ -612,7 +612,7 @@
     "atlanta": {
       "n": 31,
       "win_rate": 0.806,
-      "total_pnl": -4.54
+      "total_pnl": -4.33
     },
     "singapore": {
       "n": 13,
@@ -682,8 +682,8 @@
       "n": 47
     },
     "6to24": {
-      "brier": 0.2544,
-      "n": 119
+      "brier": 0.2594,
+      "n": 120
     },
     "24to48": {
       "brier": 0.205,
