@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T11:00:23.689232+00:00",
+  "generated_at": "2026-11-05T12:00:25.319445+00:00",
   "balance": {
     "current": 26.98,
     "cash": 22.99,
@@ -28,27 +28,6 @@
   },
   "open_positions": [
     {
-      "city": "Sao Paulo",
-      "date": "2026-11-05",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 26.0,
-      "bucket_high": 26.0,
-      "entry_price": 0.75,
-      "shares": 2.69,
-      "cost": 2.02,
-      "current_p": 0.77,
-      "model_p": 0.9381,
-      "ev_pct": 18.8,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-11-04T06:36:35.765355+00:00",
-      "hours_left": 1.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.05
-    },
-    {
       "city": "Munich",
       "date": "2026-11-06",
       "unit": "C",
@@ -64,7 +43,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-11-04T22:31:56.849352+00:00",
-      "hours_left": 25.0,
+      "hours_left": 24.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.06
@@ -85,10 +64,31 @@
       "n_agree": 6,
       "n_avail": 7,
       "opened_at": "2026-11-05T06:35:16.199225+00:00",
-      "hours_left": 25.0,
+      "hours_left": 24.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.1
+    },
+    {
+      "city": "Sao Paulo",
+      "date": "2026-11-05",
+      "unit": "C",
+      "side": "NO",
+      "bucket_low": 26.0,
+      "bucket_high": 26.0,
+      "entry_price": 0.75,
+      "shares": 2.69,
+      "cost": 2.02,
+      "current_p": 0.77,
+      "model_p": 0.9381,
+      "ev_pct": 18.8,
+      "n_agree": 4,
+      "n_avail": 6,
+      "opened_at": "2026-11-04T06:36:35.765355+00:00",
+      "hours_left": 0.0,
+      "tp_stage": 0,
+      "pnl": 0.0,
+      "unrealized_pnl": 0.05
     }
   ],
   "recent_resolved": [
