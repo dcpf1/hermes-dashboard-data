@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-05T21:00:22.377466+00:00",
+  "generated_at": "2026-11-05T22:00:23.287517+00:00",
   "balance": {
-    "current": 27.03,
+    "current": 25.64,
     "cash": 21.61,
-    "deployed": 5.48,
-    "unrealized": -0.06,
+    "deployed": 4.1,
+    "unrealized": -0.07,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -22.97,
-    "pnl_pct": -45.9
+    "pnl_usd": -24.36,
+    "pnl_pct": -48.7
   },
   "trades": {
     "total": 801,
-    "wins": 543,
+    "wins": 544,
     "losses": 249,
     "total_pnl": -25.84
   },
   "brier": {
-    "score": 0.2652,
-    "n": 763,
-    "bss": -0.064,
-    "win_rate": 0.706,
-    "ci_lo": 0.2388,
-    "ci_hi": 0.2915,
-    "base": 0.473,
+    "score": 0.2649,
+    "n": 764,
+    "bss": -0.063,
+    "win_rate": 0.707,
+    "ci_lo": 0.2386,
+    "ci_hi": 0.2912,
+    "base": 0.474,
     "status": "red"
   },
   "open_positions": [
@@ -37,16 +37,16 @@
       "entry_price": 0.76,
       "shares": 1.32,
       "cost": 1.0,
-      "current_p": 0.695,
+      "current_p": 0.685,
       "model_p": 0.9273,
       "ev_pct": 16.7,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-11-04T22:31:56.849352+00:00",
-      "hours_left": 15.0,
+      "hours_left": 14.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.09
+      "unrealized_pnl": -0.1
     },
     {
       "city": "Tel Aviv",
@@ -64,31 +64,10 @@
       "n_agree": 6,
       "n_avail": 7,
       "opened_at": "2026-11-05T06:35:16.199225+00:00",
-      "hours_left": 15.0,
+      "hours_left": 14.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.03
-    },
-    {
-      "city": "Moscow",
-      "date": "2026-11-05",
-      "unit": "C",
-      "side": "YES",
-      "bucket_low": 4.0,
-      "bucket_high": 4.0,
-      "entry_price": 0.88,
-      "shares": 1.57,
-      "cost": 1.38,
-      "current_p": 0.88,
-      "model_p": 0.7024,
-      "ev_pct": -17.8,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-11-05T12:05:34.018949+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
     },
     {
       "city": "Sao Paulo",
@@ -113,6 +92,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-11-05T21:05:48.063611+00:00",
+      "city": "Moscow",
+      "date": "2026-11-05",
+      "side": "YES",
+      "bucket": "4.0-4.0C",
+      "entry": 0.88,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": 0.0
+    },
     {
       "ts": "2026-11-05T07:29:08.424999+00:00",
       "city": "Austin",
@@ -460,18 +451,6 @@
       "pnl": -0.7,
       "closed_by": "forecast_changed",
       "lead_h": -7.0
-    },
-    {
-      "ts": "2026-10-25T23:29:46.478370+00:00",
-      "city": "Madrid",
-      "date": "2026-10-25",
-      "side": "NO",
-      "bucket": "23.0-23.0C",
-      "entry": 0.64,
-      "correct": false,
-      "pnl": 0.37,
-      "closed_by": "convergence_tp",
-      "lead_h": 30.0
     }
   ],
   "city_stats": {
@@ -531,8 +510,8 @@
       "total_pnl": 0.65
     },
     "moscow": {
-      "n": 26,
-      "win_rate": 0.808,
+      "n": 27,
+      "win_rate": 0.815,
       "total_pnl": 0.59
     },
     "austin": {
@@ -699,8 +678,8 @@
   },
   "lead_brier": {
     "lt6": {
-      "brier": 0.3922,
-      "n": 47
+      "brier": 0.3859,
+      "n": 48
     },
     "6to24": {
       "brier": 0.2594,
