@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-05T10:00:23.820518+00:00",
+  "generated_at": "2026-11-05T11:00:23.689232+00:00",
   "balance": {
-    "current": 27.0,
+    "current": 26.98,
     "cash": 22.99,
     "deployed": 4.1,
-    "unrealized": -0.09,
+    "unrealized": -0.11,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -23.0,
+    "pnl_usd": -23.02,
     "pnl_pct": -46.0
   },
   "trades": {
@@ -37,16 +37,16 @@
       "entry_price": 0.75,
       "shares": 2.69,
       "cost": 2.02,
-      "current_p": 0.75,
+      "current_p": 0.77,
       "model_p": 0.9381,
       "ev_pct": 18.8,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-11-04T06:36:35.765355+00:00",
-      "hours_left": 2.0,
+      "hours_left": 1.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.0
+      "unrealized_pnl": 0.05
     },
     {
       "city": "Munich",
@@ -64,7 +64,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-11-04T22:31:56.849352+00:00",
-      "hours_left": 26.0,
+      "hours_left": 25.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.06
@@ -79,16 +79,16 @@
       "entry_price": 0.77,
       "shares": 1.4,
       "cost": 1.08,
-      "current_p": 0.75,
+      "current_p": 0.7,
       "model_p": 0.9459,
       "ev_pct": 17.6,
       "n_agree": 6,
       "n_avail": 7,
       "opened_at": "2026-11-05T06:35:16.199225+00:00",
-      "hours_left": 26.0,
+      "hours_left": 25.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.03
+      "unrealized_pnl": -0.1
     }
   ],
   "recent_resolved": [
