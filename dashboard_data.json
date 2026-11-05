@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-05T20:00:27.591438+00:00",
+  "generated_at": "2026-11-05T21:00:22.377466+00:00",
   "balance": {
-    "current": 27.01,
+    "current": 27.03,
     "cash": 21.61,
     "deployed": 5.48,
-    "unrealized": -0.08,
+    "unrealized": -0.06,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -22.99,
-    "pnl_pct": -46.0
+    "pnl_usd": -22.97,
+    "pnl_pct": -45.9
   },
   "trades": {
     "total": 801,
@@ -37,16 +37,16 @@
       "entry_price": 0.76,
       "shares": 1.32,
       "cost": 1.0,
-      "current_p": 0.675,
+      "current_p": 0.695,
       "model_p": 0.9273,
       "ev_pct": 16.7,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-11-04T22:31:56.849352+00:00",
-      "hours_left": 16.0,
+      "hours_left": 15.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.11
+      "unrealized_pnl": -0.09
     },
     {
       "city": "Tel Aviv",
@@ -64,7 +64,7 @@
       "n_agree": 6,
       "n_avail": 7,
       "opened_at": "2026-11-05T06:35:16.199225+00:00",
-      "hours_left": 16.0,
+      "hours_left": 15.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.03
