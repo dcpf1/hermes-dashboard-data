@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-06T04:00:26.790293+00:00",
+  "generated_at": "2026-11-06T05:00:23.348840+00:00",
   "balance": {
-    "current": 25.7,
+    "current": 23.73,
     "cash": 21.61,
-    "deployed": 4.1,
-    "unrealized": -0.01,
+    "deployed": 2.08,
+    "unrealized": 0.04,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -24.3,
-    "pnl_pct": -48.6
+    "pnl_usd": -26.27,
+    "pnl_pct": -52.5
   },
   "trades": {
     "total": 801,
     "wins": 544,
-    "losses": 249,
-    "total_pnl": -25.84
+    "losses": 250,
+    "total_pnl": -27.86
   },
   "brier": {
-    "score": 0.2649,
-    "n": 764,
-    "bss": -0.063,
-    "win_rate": 0.707,
-    "ci_lo": 0.2386,
-    "ci_hi": 0.2912,
-    "base": 0.474,
+    "score": 0.2657,
+    "n": 765,
+    "bss": -0.066,
+    "win_rate": 0.706,
+    "ci_lo": 0.2394,
+    "ci_hi": 0.2921,
+    "base": 0.475,
     "status": "red"
   },
   "open_positions": [
@@ -43,7 +43,7 @@
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-11-04T22:31:56.849352+00:00",
-      "hours_left": 8.0,
+      "hours_left": 7.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": -0.05
@@ -58,40 +58,31 @@
       "entry_price": 0.77,
       "shares": 1.4,
       "cost": 1.08,
-      "current_p": 0.8,
+      "current_p": 0.835,
       "model_p": 0.9459,
       "ev_pct": 17.6,
       "n_agree": 6,
       "n_avail": 7,
       "opened_at": "2026-11-05T06:35:16.199225+00:00",
-      "hours_left": 8.0,
+      "hours_left": 7.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.04
-    },
-    {
-      "city": "Sao Paulo",
-      "date": "2026-11-05",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 26.0,
-      "bucket_high": 26.0,
-      "entry_price": 0.75,
-      "shares": 2.69,
-      "cost": 2.02,
-      "current_p": 0.75,
-      "model_p": 0.9381,
-      "ev_pct": 18.8,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-11-04T06:36:35.765355+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
+      "unrealized_pnl": 0.09
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-11-06T03:55:53.167612+00:00",
+      "city": "Sao Paulo",
+      "date": "2026-11-05",
+      "side": "NO",
+      "bucket": "26.0-26.0C",
+      "entry": 0.75,
+      "correct": false,
+      "pnl": -2.02,
+      "closed_by": "resolved",
+      "lead_h": 29.0
+    },
     {
       "ts": "2026-11-05T21:05:48.063611+00:00",
       "city": "Moscow",
@@ -439,18 +430,6 @@
       "pnl": 0.25,
       "closed_by": "resolved",
       "lead_h": -3.0
-    },
-    {
-      "ts": "2026-10-26T05:10:16.744303+00:00",
-      "city": "Miami",
-      "date": "2026-10-25",
-      "side": "YES",
-      "bucket": "78.0-79.0F",
-      "entry": 0.883,
-      "correct": false,
-      "pnl": -0.7,
-      "closed_by": "forecast_changed",
-      "lead_h": -7.0
     }
   ],
   "city_stats": {
@@ -484,11 +463,6 @@
       "win_rate": 0.812,
       "total_pnl": 4.13
     },
-    "sao-paulo": {
-      "n": 10,
-      "win_rate": 0.8,
-      "total_pnl": 3.34
-    },
     "istanbul": {
       "n": 16,
       "win_rate": 0.938,
@@ -503,6 +477,11 @@
       "n": 34,
       "win_rate": 0.735,
       "total_pnl": 1.33
+    },
+    "sao-paulo": {
+      "n": 11,
+      "win_rate": 0.727,
+      "total_pnl": 1.32
     },
     "munich": {
       "n": 25,
@@ -686,8 +665,8 @@
       "n": 120
     },
     "24to48": {
-      "brier": 0.205,
-      "n": 252
+      "brier": 0.2077,
+      "n": 253
     },
     "gt48": {
       "brier": 0.2062,
