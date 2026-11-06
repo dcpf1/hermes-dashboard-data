@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-06T07:00:24.718779+00:00",
+  "generated_at": "2026-11-06T08:00:30.744603+00:00",
   "balance": {
-    "current": 23.64,
+    "current": 23.59,
     "cash": 21.61,
     "deployed": 2.08,
-    "unrealized": -0.05,
+    "unrealized": -0.1,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -26.36,
-    "pnl_pct": -52.7
+    "pnl_usd": -26.41,
+    "pnl_pct": -52.8
   },
   "trades": {
     "total": 801,
     "wins": 545,
     "losses": 250,
-    "total_pnl": -27.71
+    "total_pnl": -29.09
   },
   "brier": {
     "score": 0.2654,
@@ -37,16 +37,16 @@
       "entry_price": 0.76,
       "shares": 1.32,
       "cost": 1.0,
-      "current_p": 0.7,
+      "current_p": 0.69,
       "model_p": 0.9273,
       "ev_pct": 16.7,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-11-04T22:31:56.849352+00:00",
-      "hours_left": 5.0,
+      "hours_left": 4.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.08
+      "unrealized_pnl": -0.09
     },
     {
       "city": "Tel Aviv",
@@ -58,16 +58,16 @@
       "entry_price": 0.77,
       "shares": 1.4,
       "cost": 1.08,
-      "current_p": 0.79,
+      "current_p": 0.76,
       "model_p": 0.9459,
       "ev_pct": 17.6,
       "n_agree": 6,
       "n_avail": 7,
       "opened_at": "2026-11-05T06:35:16.199225+00:00",
-      "hours_left": 5.0,
+      "hours_left": 4.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.03
+      "unrealized_pnl": -0.01
     }
   ],
   "recent_resolved": [
@@ -103,8 +103,8 @@
       "bucket": "4.0-4.0C",
       "entry": 0.88,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": -1.38,
+      "closed_by": "resolved",
       "lead_h": 0.0
     },
     {
@@ -488,11 +488,6 @@
       "win_rate": 0.76,
       "total_pnl": 0.65
     },
-    "moscow": {
-      "n": 27,
-      "win_rate": 0.815,
-      "total_pnl": 0.59
-    },
     "austin": {
       "n": 25,
       "win_rate": 0.8,
@@ -507,6 +502,11 @@
       "n": 23,
       "win_rate": 0.652,
       "total_pnl": -0.69
+    },
+    "moscow": {
+      "n": 27,
+      "win_rate": 0.815,
+      "total_pnl": -0.79
     },
     "lucknow": {
       "n": 12,
