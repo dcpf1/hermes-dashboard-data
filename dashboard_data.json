@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-06T09:00:23.310170+00:00",
+  "generated_at": "2026-11-06T10:00:26.390446+00:00",
   "balance": {
-    "current": 23.8,
-    "cash": 21.61,
-    "deployed": 2.08,
-    "unrealized": 0.11,
+    "current": 23.88,
+    "cash": 22.9,
+    "deployed": 1.0,
+    "unrealized": -0.02,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -26.2,
-    "pnl_pct": -52.4
+    "pnl_usd": -26.12,
+    "pnl_pct": -52.2
   },
   "trades": {
     "total": 801,
@@ -37,37 +37,16 @@
       "entry_price": 0.76,
       "shares": 1.32,
       "cost": 1.0,
-      "current_p": 0.71,
+      "current_p": 0.745,
       "model_p": 0.9273,
       "ev_pct": 16.7,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-11-04T22:31:56.849352+00:00",
-      "hours_left": 3.0,
+      "hours_left": 2.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.07
-    },
-    {
-      "city": "Tel Aviv",
-      "date": "2026-11-06",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 25.0,
-      "bucket_high": 25.0,
-      "entry_price": 0.77,
-      "shares": 1.4,
-      "cost": 1.08,
-      "current_p": 0.9,
-      "model_p": 0.9459,
-      "ev_pct": 17.6,
-      "n_agree": 6,
-      "n_avail": 7,
-      "opened_at": "2026-11-05T06:35:16.199225+00:00",
-      "hours_left": 3.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.18
+      "unrealized_pnl": -0.02
     }
   ],
   "recent_resolved": [
@@ -118,6 +97,18 @@
       "pnl": -0.3,
       "closed_by": "price_conditional",
       "lead_h": 9.0
+    },
+    {
+      "ts": "2026-11-05T06:35:16.199225+00:00",
+      "city": "Tel Aviv",
+      "date": "2026-11-06",
+      "side": "NO",
+      "bucket": "25.0-25.0C",
+      "entry": 0.77,
+      "correct": true,
+      "pnl": 0.21,
+      "closed_by": "take_profit",
+      "lead_h": 29.0
     },
     {
       "ts": "2026-11-05T05:06:11.043538+00:00",
@@ -418,18 +409,6 @@
       "pnl": 0.2,
       "closed_by": "resolved",
       "lead_h": -9.0
-    },
-    {
-      "ts": "2026-10-26T23:06:26.594694+00:00",
-      "city": "Madrid",
-      "date": "2026-10-26",
-      "side": "YES",
-      "bucket": "24.0-24.0C",
-      "entry": 0.87,
-      "correct": true,
-      "pnl": 0.25,
-      "closed_by": "resolved",
-      "lead_h": -3.0
     }
   ],
   "city_stats": {
