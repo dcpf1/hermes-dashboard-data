@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-06T10:00:26.390446+00:00",
+  "generated_at": "2026-11-06T11:00:29.454679+00:00",
   "balance": {
-    "current": 23.88,
-    "cash": 22.9,
-    "deployed": 1.0,
-    "unrealized": -0.02,
+    "current": 24.04,
+    "cash": 24.04,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -26.12,
-    "pnl_pct": -52.2
+    "pnl_usd": -25.96,
+    "pnl_pct": -51.9
   },
   "trades": {
     "total": 801,
@@ -26,29 +26,7 @@
     "base": 0.474,
     "status": "red"
   },
-  "open_positions": [
-    {
-      "city": "Munich",
-      "date": "2026-11-06",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 5.0,
-      "bucket_high": 5.0,
-      "entry_price": 0.76,
-      "shares": 1.32,
-      "cost": 1.0,
-      "current_p": 0.745,
-      "model_p": 0.9273,
-      "ev_pct": 16.7,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-11-04T22:31:56.849352+00:00",
-      "hours_left": 2.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.02
-    }
-  ],
+  "open_positions": [],
   "recent_resolved": [
     {
       "ts": "2026-11-06T06:31:06.579272+00:00",
@@ -133,6 +111,18 @@
       "pnl": 0.14,
       "closed_by": "forecast_changed",
       "lead_h": -2.0
+    },
+    {
+      "ts": "2026-11-04T22:31:56.849352+00:00",
+      "city": "Munich",
+      "date": "2026-11-06",
+      "side": "NO",
+      "bucket": "5.0-5.0C",
+      "entry": 0.76,
+      "correct": true,
+      "pnl": 0.13,
+      "closed_by": "take_profit",
+      "lead_h": 37.0
     },
     {
       "ts": "2026-11-04T07:32:41.244685+00:00",
@@ -393,18 +383,6 @@
       "side": "YES",
       "bucket": "78.0-79.0F",
       "entry": 0.886,
-      "correct": true,
-      "pnl": 0.2,
-      "closed_by": "resolved",
-      "lead_h": -9.0
-    },
-    {
-      "ts": "2026-10-27T00:55:39.770376+00:00",
-      "city": "London",
-      "date": "2026-10-26",
-      "side": "YES",
-      "bucket": "17.0-17.0C",
-      "entry": 0.88,
       "correct": true,
       "pnl": 0.2,
       "closed_by": "resolved",
