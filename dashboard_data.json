@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T23:00:27.576665+00:00",
+  "generated_at": "2026-11-07T00:00:26.872761+00:00",
   "balance": {
     "current": 24.04,
     "cash": 24.04,
@@ -12,22 +12,46 @@
   },
   "trades": {
     "total": 801,
-    "wins": 545,
-    "losses": 250,
-    "total_pnl": -29.09
+    "wins": 546,
+    "losses": 251,
+    "total_pnl": -28.75
   },
   "brier": {
-    "score": 0.2654,
-    "n": 766,
-    "bss": -0.064,
+    "score": 0.2659,
+    "n": 768,
+    "bss": -0.066,
     "win_rate": 0.706,
-    "ci_lo": 0.2391,
-    "ci_hi": 0.2917,
+    "ci_lo": 0.2396,
+    "ci_hi": 0.2922,
     "base": 0.474,
     "status": "red"
   },
   "open_positions": [],
   "recent_resolved": [
+    {
+      "ts": "2026-11-06T23:35:35.824159+00:00",
+      "city": "Munich",
+      "date": "2026-11-06",
+      "side": "NO",
+      "bucket": "5.0-5.0C",
+      "entry": 0.76,
+      "correct": true,
+      "pnl": 0.13,
+      "closed_by": "convergence_tp",
+      "lead_h": 37.0
+    },
+    {
+      "ts": "2026-11-06T22:55:13.063712+00:00",
+      "city": "Tel Aviv",
+      "date": "2026-11-06",
+      "side": "NO",
+      "bucket": "25.0-25.0C",
+      "entry": 0.77,
+      "correct": false,
+      "pnl": 0.21,
+      "closed_by": "take_profit",
+      "lead_h": 29.0
+    },
     {
       "ts": "2026-11-06T06:31:06.579272+00:00",
       "city": "Atlanta",
@@ -77,18 +101,6 @@
       "lead_h": 9.0
     },
     {
-      "ts": "2026-11-05T06:35:16.199225+00:00",
-      "city": "Tel Aviv",
-      "date": "2026-11-06",
-      "side": "NO",
-      "bucket": "25.0-25.0C",
-      "entry": 0.77,
-      "correct": true,
-      "pnl": 0.21,
-      "closed_by": "take_profit",
-      "lead_h": 29.0
-    },
-    {
       "ts": "2026-11-05T05:06:11.043538+00:00",
       "city": "Atlanta",
       "date": "2026-11-04",
@@ -111,18 +123,6 @@
       "pnl": 0.14,
       "closed_by": "forecast_changed",
       "lead_h": -2.0
-    },
-    {
-      "ts": "2026-11-04T22:31:56.849352+00:00",
-      "city": "Munich",
-      "date": "2026-11-06",
-      "side": "NO",
-      "bucket": "5.0-5.0C",
-      "entry": 0.76,
-      "correct": true,
-      "pnl": 0.13,
-      "closed_by": "take_profit",
-      "lead_h": 37.0
     },
     {
       "ts": "2026-11-04T07:32:41.244685+00:00",
@@ -441,9 +441,9 @@
       "total_pnl": 1.32
     },
     "munich": {
-      "n": 25,
-      "win_rate": 0.76,
-      "total_pnl": 0.65
+      "n": 26,
+      "win_rate": 0.769,
+      "total_pnl": 0.78
     },
     "austin": {
       "n": 25,
@@ -486,9 +486,9 @@
       "total_pnl": -2.35
     },
     "tel-aviv": {
-      "n": 7,
-      "win_rate": 0.286,
-      "total_pnl": -2.59
+      "n": 8,
+      "win_rate": 0.25,
+      "total_pnl": -2.38
     },
     "ankara": {
       "n": 10,
@@ -622,8 +622,8 @@
       "n": 120
     },
     "24to48": {
-      "brier": 0.2069,
-      "n": 254
+      "brier": 0.2088,
+      "n": 256
     },
     "gt48": {
       "brier": 0.2062,
