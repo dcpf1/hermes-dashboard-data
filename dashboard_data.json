@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-08T13:00:26.632491+00:00",
+  "generated_at": "2026-11-08T14:00:28.670797+00:00",
   "balance": {
-    "current": 38.23,
+    "current": 38.34,
     "cash": 34.32,
     "deployed": 3.97,
-    "unrealized": -0.06,
+    "unrealized": 0.05,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -11.77,
-    "pnl_pct": -23.5
+    "pnl_usd": -11.66,
+    "pnl_pct": -23.3
   },
   "trades": {
     "total": 803,
@@ -37,16 +37,16 @@
       "entry_price": 0.75,
       "shares": 2.55,
       "cost": 1.91,
-      "current_p": 0.765,
+      "current_p": 0.745,
       "model_p": 0.9305,
       "ev_pct": 18.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-11-08T12:16:03.124830+00:00",
-      "hours_left": 47.0,
+      "hours_left": 46.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": 0.04
+      "unrealized_pnl": -0.01
     },
     {
       "city": "Moscow",
@@ -58,7 +58,7 @@
       "entry_price": 0.86,
       "shares": 2.4,
       "cost": 2.06,
-      "current_p": 0.82,
+      "current_p": 0.885,
       "model_p": 0.7229,
       "ev_pct": -13.7,
       "n_agree": 1,
@@ -67,7 +67,7 @@
       "hours_left": 0.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.1
+      "unrealized_pnl": 0.06
     }
   ],
   "recent_resolved": [
