@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-09T20:00:36.573465+00:00",
+  "generated_at": "2026-11-09T21:00:39.247654+00:00",
   "balance": {
-    "current": 36.12,
+    "current": 36.1,
     "cash": 34.32,
     "deployed": 1.91,
-    "unrealized": -0.11,
+    "unrealized": -0.13,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.88,
+    "pnl_usd": -13.9,
     "pnl_pct": -27.8
   },
   "trades": {
-    "total": 804,
+    "total": 805,
     "wins": 547,
     "losses": 251,
     "total_pnl": -28.41
@@ -37,19 +37,31 @@
       "entry_price": 0.75,
       "shares": 2.55,
       "cost": 1.91,
-      "current_p": 0.705,
+      "current_p": 0.7,
       "model_p": 0.9305,
       "ev_pct": 18.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-11-08T12:16:03.124830+00:00",
-      "hours_left": 16.0,
+      "hours_left": 15.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.11
+      "unrealized_pnl": -0.13
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-11-09T20:31:07.924958+00:00",
+      "city": "Munich",
+      "date": "2026-11-09",
+      "side": "YES",
+      "bucket": "5.0-5.0C",
+      "entry": 0.82,
+      "correct": true,
+      "pnl": 0.16,
+      "closed_by": "resolved",
+      "lead_h": 0.0
+    },
     {
       "ts": "2026-11-09T18:05:40.851399+00:00",
       "city": "Buenos Aires",
@@ -397,18 +409,6 @@
       "pnl": -0.08,
       "closed_by": "bucket_busted",
       "lead_h": -8.0
-    },
-    {
-      "ts": "2026-10-28T04:55:28.258875+00:00",
-      "city": "Toronto",
-      "date": "2026-10-27",
-      "side": "YES",
-      "bucket": "10.0-10.0C",
-      "entry": 0.86,
-      "correct": true,
-      "pnl": -0.3,
-      "closed_by": "forecast_changed",
-      "lead_h": -7.0
     }
   ],
   "city_stats": {
