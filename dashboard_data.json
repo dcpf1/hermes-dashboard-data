@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-11-10T03:00:26.400321+00:00",
+  "generated_at": "2026-11-10T04:00:30.838099+00:00",
   "balance": {
-    "current": 35.83,
+    "current": 35.76,
     "cash": 34.32,
     "deployed": 1.91,
-    "unrealized": -0.4,
+    "unrealized": -0.47,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -14.17,
-    "pnl_pct": -28.3
+    "pnl_usd": -14.24,
+    "pnl_pct": -28.5
   },
   "trades": {
     "total": 805,
     "wins": 548,
-    "losses": 251,
-    "total_pnl": -28.25
+    "losses": 252,
+    "total_pnl": -29.0
   },
   "brier": {
-    "score": 0.2666,
-    "n": 770,
-    "bss": -0.069,
+    "score": 0.2668,
+    "n": 771,
+    "bss": -0.07,
     "win_rate": 0.706,
-    "ci_lo": 0.2403,
-    "ci_hi": 0.2929,
+    "ci_lo": 0.2405,
+    "ci_hi": 0.2931,
     "base": 0.475,
     "status": "red"
   },
@@ -37,19 +37,31 @@
       "entry_price": 0.75,
       "shares": 2.55,
       "cost": 1.91,
-      "current_p": 0.595,
+      "current_p": 0.565,
       "model_p": 0.9305,
       "ev_pct": 18.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-11-08T12:16:03.124830+00:00",
-      "hours_left": 9.0,
+      "hours_left": 8.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.4
+      "unrealized_pnl": -0.47
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-11-10T03:16:56.428954+00:00",
+      "city": "Buenos Aires",
+      "date": "2026-11-09",
+      "side": "YES",
+      "bucket": "25.0-25.0C",
+      "entry": 0.89,
+      "correct": false,
+      "pnl": -0.75,
+      "closed_by": "bucket_busted",
+      "lead_h": -6.0
+    },
     {
       "ts": "2026-11-09T23:55:23.531530+00:00",
       "city": "Munich",
@@ -61,18 +73,6 @@
       "pnl": 0.16,
       "closed_by": "forecast_changed",
       "lead_h": -8.0
-    },
-    {
-      "ts": "2026-11-09T18:05:40.851399+00:00",
-      "city": "Buenos Aires",
-      "date": "2026-11-09",
-      "side": "YES",
-      "bucket": "25.0-25.0C",
-      "entry": 0.89,
-      "correct": false,
-      "pnl": -0.75,
-      "closed_by": "resolved",
-      "lead_h": 0.0
     },
     {
       "ts": "2026-11-08T21:05:19.442813+00:00",
@@ -422,15 +422,15 @@
       "win_rate": 0.517,
       "total_pnl": 8.9
     },
-    "buenos-aires": {
-      "n": 21,
-      "win_rate": 0.714,
-      "total_pnl": 6.62
-    },
     "los-angeles": {
       "n": 31,
       "win_rate": 0.581,
       "total_pnl": 6.59
+    },
+    "buenos-aires": {
+      "n": 22,
+      "win_rate": 0.682,
+      "total_pnl": 5.87
     },
     "madrid": {
       "n": 30,
