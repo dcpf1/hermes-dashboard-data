@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-10T06:00:28.398375+00:00",
+  "generated_at": "2026-11-10T07:00:36.520132+00:00",
   "balance": {
-    "current": 35.94,
+    "current": 34.32,
     "cash": 34.32,
-    "deployed": 1.91,
-    "unrealized": -0.29,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -14.06,
-    "pnl_pct": -28.1
+    "pnl_usd": -15.68,
+    "pnl_pct": -31.4
   },
   "trades": {
     "total": 805,
@@ -26,29 +26,7 @@
     "base": 0.475,
     "status": "red"
   },
-  "open_positions": [
-    {
-      "city": "Paris",
-      "date": "2026-11-10",
-      "unit": "C",
-      "side": "NO",
-      "bucket_low": 12.0,
-      "bucket_high": 12.0,
-      "entry_price": 0.75,
-      "shares": 2.55,
-      "cost": 1.91,
-      "current_p": 0.635,
-      "model_p": 0.9305,
-      "ev_pct": 18.1,
-      "n_agree": 4,
-      "n_avail": 6,
-      "opened_at": "2026-11-08T12:16:03.124830+00:00",
-      "hours_left": 6.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": -0.29
-    }
-  ],
+  "open_positions": [],
   "recent_resolved": [
     {
       "ts": "2026-11-10T03:16:56.428954+00:00",
@@ -85,6 +63,18 @@
       "pnl": 0.34,
       "closed_by": "resolved",
       "lead_h": 0.0
+    },
+    {
+      "ts": "2026-11-08T12:16:03.124830+00:00",
+      "city": "Paris",
+      "date": "2026-11-10",
+      "side": "NO",
+      "bucket": "12.0-12.0C",
+      "entry": 0.75,
+      "correct": false,
+      "pnl": -0.38,
+      "closed_by": "take_profit",
+      "lead_h": 47.0
     },
     {
       "ts": "2026-11-06T23:35:35.824159+00:00",
@@ -396,18 +386,6 @@
       "correct": false,
       "pnl": -1.71,
       "closed_by": "resolved",
-      "lead_h": -8.0
-    },
-    {
-      "ts": "2026-10-28T05:05:51.731325+00:00",
-      "city": "Atlanta",
-      "date": "2026-10-27",
-      "side": "YES",
-      "bucket": "72.0-73.0F",
-      "entry": 0.88,
-      "correct": false,
-      "pnl": -0.08,
-      "closed_by": "bucket_busted",
       "lead_h": -8.0
     }
   ],
