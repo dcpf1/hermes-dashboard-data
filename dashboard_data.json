@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-11-10T00:00:25.201651+00:00",
+  "generated_at": "2026-11-10T01:00:21.097203+00:00",
   "balance": {
-    "current": 36.18,
+    "current": 36.13,
     "cash": 34.32,
     "deployed": 1.91,
-    "unrealized": -0.05,
+    "unrealized": -0.1,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.82,
-    "pnl_pct": -27.6
+    "pnl_usd": -13.87,
+    "pnl_pct": -27.7
   },
   "trades": {
     "total": 805,
-    "wins": 547,
+    "wins": 548,
     "losses": 251,
-    "total_pnl": -28.41
+    "total_pnl": -28.25
   },
   "brier": {
-    "score": 0.2656,
-    "n": 769,
-    "bss": -0.065,
+    "score": 0.2666,
+    "n": 770,
+    "bss": -0.069,
     "win_rate": 0.706,
-    "ci_lo": 0.2394,
-    "ci_hi": 0.2919,
+    "ci_lo": 0.2403,
+    "ci_hi": 0.2929,
     "base": 0.475,
     "status": "red"
   },
@@ -37,21 +37,21 @@
       "entry_price": 0.75,
       "shares": 2.55,
       "cost": 1.91,
-      "current_p": 0.73,
+      "current_p": 0.71,
       "model_p": 0.9305,
       "ev_pct": 18.1,
       "n_agree": 4,
       "n_avail": 6,
       "opened_at": "2026-11-08T12:16:03.124830+00:00",
-      "hours_left": 12.0,
+      "hours_left": 11.0,
       "tp_stage": 0,
       "pnl": 0.0,
-      "unrealized_pnl": -0.05
+      "unrealized_pnl": -0.1
     }
   ],
   "recent_resolved": [
     {
-      "ts": "2026-11-09T20:31:07.924958+00:00",
+      "ts": "2026-11-09T23:55:23.531530+00:00",
       "city": "Munich",
       "date": "2026-11-09",
       "side": "YES",
@@ -59,8 +59,8 @@
       "entry": 0.82,
       "correct": true,
       "pnl": 0.16,
-      "closed_by": "resolved",
-      "lead_h": 0.0
+      "closed_by": "forecast_changed",
+      "lead_h": -8.0
     },
     {
       "ts": "2026-11-09T18:05:40.851399+00:00",
@@ -463,9 +463,9 @@
       "total_pnl": 1.32
     },
     "munich": {
-      "n": 26,
-      "win_rate": 0.769,
-      "total_pnl": 0.78
+      "n": 27,
+      "win_rate": 0.778,
+      "total_pnl": 0.94
     },
     "austin": {
       "n": 25,
