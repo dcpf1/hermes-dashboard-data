@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T07:00:25.003424+00:00",
+  "generated_at": "2026-11-11T08:00:28.414270+00:00",
   "balance": {
     "current": 36.38,
     "cash": 34.32,
@@ -14,7 +14,7 @@
     "total": 807,
     "wins": 549,
     "losses": 253,
-    "total_pnl": -29.38
+    "total_pnl": -29.02
   },
   "brier": {
     "score": 0.2673,
@@ -43,7 +43,7 @@
       "n_agree": 1,
       "n_avail": 1,
       "opened_at": "2026-11-11T06:31:15.420834+00:00",
-      "hours_left": 5.0,
+      "hours_left": 4.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
@@ -58,8 +58,8 @@
       "bucket": "62.0-63.0C",
       "entry": 0.85,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.36,
+      "closed_by": "resolved",
       "lead_h": -8.0
     },
     {
@@ -537,6 +537,11 @@
       "win_rate": 0.724,
       "total_pnl": -2.96
     },
+    "nyc": {
+      "n": 28,
+      "win_rate": 0.821,
+      "total_pnl": -3.14
+    },
     "tokyo": {
       "n": 16,
       "win_rate": 0.625,
@@ -551,11 +556,6 @@
       "n": 3,
       "win_rate": 0.333,
       "total_pnl": -3.41
-    },
-    "nyc": {
-      "n": 28,
-      "win_rate": 0.821,
-      "total_pnl": -3.5
     },
     "london": {
       "n": 32,
