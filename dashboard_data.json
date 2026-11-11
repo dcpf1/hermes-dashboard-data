@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T06:00:26.388846+00:00",
+  "generated_at": "2026-11-11T07:00:25.003424+00:00",
   "balance": {
     "current": 36.38,
     "cash": 34.32,
@@ -11,7 +11,7 @@
     "pnl_pct": -27.2
   },
   "trades": {
-    "total": 806,
+    "total": 807,
     "wins": 549,
     "losses": 253,
     "total_pnl": -29.38
@@ -28,22 +28,22 @@
   },
   "open_positions": [
     {
-      "city": "New York City",
-      "date": "2026-11-10",
-      "unit": "F",
+      "city": "Tokyo",
+      "date": "2026-11-11",
+      "unit": "C",
       "side": "YES",
-      "bucket_low": 62.0,
-      "bucket_high": 63.0,
-      "entry_price": 0.85,
-      "shares": 2.42,
+      "bucket_low": 14.0,
+      "bucket_high": 14.0,
+      "entry_price": 0.89,
+      "shares": 2.31,
       "cost": 2.06,
-      "current_p": 0.85,
-      "model_p": 0.6953,
-      "ev_pct": -15.5,
+      "current_p": 0.89,
+      "model_p": 0.8133,
+      "ev_pct": -7.7,
       "n_agree": 1,
       "n_avail": 1,
-      "opened_at": "2026-11-10T20:10:35.029885+00:00",
-      "hours_left": 0.0,
+      "opened_at": "2026-11-11T06:31:15.420834+00:00",
+      "hours_left": 5.0,
       "tp_stage": 0,
       "pnl": 0.0,
       "unrealized_pnl": 0.0
