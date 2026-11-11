@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T05:00:25.652209+00:00",
+  "generated_at": "2026-11-11T06:00:26.388846+00:00",
   "balance": {
     "current": 36.38,
     "cash": 34.32,
@@ -12,18 +12,18 @@
   },
   "trades": {
     "total": 806,
-    "wins": 548,
+    "wins": 549,
     "losses": 253,
     "total_pnl": -29.38
   },
   "brier": {
-    "score": 0.2676,
-    "n": 772,
-    "bss": -0.073,
+    "score": 0.2673,
+    "n": 773,
+    "bss": -0.072,
     "win_rate": 0.705,
-    "ci_lo": 0.2413,
-    "ci_hi": 0.2938,
-    "base": 0.475,
+    "ci_lo": 0.2411,
+    "ci_hi": 0.2936,
+    "base": 0.476,
     "status": "red"
   },
   "open_positions": [
@@ -50,6 +50,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-11-11T05:05:27.593608+00:00",
+      "city": "Nyc",
+      "date": "2026-11-10",
+      "side": "YES",
+      "bucket": "62.0-63.0C",
+      "entry": 0.85,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -8.0
+    },
     {
       "ts": "2026-11-10T23:30:21.944773+00:00",
       "city": "Paris",
@@ -397,18 +409,6 @@
       "pnl": 0.34,
       "closed_by": "convergence_tp",
       "lead_h": 29.0
-    },
-    {
-      "ts": "2026-10-29T05:05:41.132245+00:00",
-      "city": "Houston",
-      "date": "2026-10-28",
-      "side": "YES",
-      "bucket": "80.0-81.0C",
-      "entry": 0.87,
-      "correct": false,
-      "pnl": -1.71,
-      "closed_by": "resolved",
-      "lead_h": -8.0
     }
   ],
   "city_stats": {
@@ -553,8 +553,8 @@
       "total_pnl": -3.41
     },
     "nyc": {
-      "n": 27,
-      "win_rate": 0.815,
+      "n": 28,
+      "win_rate": 0.821,
       "total_pnl": -3.5
     },
     "london": {
