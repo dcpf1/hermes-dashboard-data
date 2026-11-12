@@ -1,55 +1,45 @@
 {
-  "generated_at": "2026-11-12T16:00:26.763180+00:00",
+  "generated_at": "2026-11-12T17:00:23.676768+00:00",
   "balance": {
-    "current": 36.38,
+    "current": 34.32,
     "cash": 34.32,
-    "deployed": 2.06,
-    "unrealized": 0.0,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.62,
-    "pnl_pct": -27.2
+    "pnl_usd": -15.68,
+    "pnl_pct": -31.4
   },
   "trades": {
     "total": 811,
     "wins": 553,
-    "losses": 253,
-    "total_pnl": -27.9
+    "losses": 254,
+    "total_pnl": -29.96
   },
   "brier": {
-    "score": 0.267,
-    "n": 777,
-    "bss": -0.07,
-    "win_rate": 0.707,
-    "ci_lo": 0.2408,
-    "ci_hi": 0.2931,
-    "base": 0.479,
+    "score": 0.2673,
+    "n": 778,
+    "bss": -0.071,
+    "win_rate": 0.706,
+    "ci_lo": 0.2412,
+    "ci_hi": 0.2934,
+    "base": 0.478,
     "status": "red"
   },
-  "open_positions": [
+  "open_positions": [],
+  "recent_resolved": [
     {
+      "ts": "2026-11-12T16:31:09.830501+00:00",
       "city": "Shenzhen",
       "date": "2026-11-12",
-      "unit": "C",
       "side": "YES",
-      "bucket_low": 28.0,
-      "bucket_high": 28.0,
-      "entry_price": 0.89,
-      "shares": 2.31,
-      "cost": 2.06,
-      "current_p": 0.89,
-      "model_p": 0.7335,
-      "ev_pct": -15.6,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-11-12T07:12:09.754739+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    }
-  ],
-  "recent_resolved": [
+      "bucket": "28.0-28.0C",
+      "entry": 0.89,
+      "correct": false,
+      "pnl": -2.06,
+      "closed_by": "resolved",
+      "lead_h": 4.0
+    },
     {
       "ts": "2026-11-12T06:05:08.828040+00:00",
       "city": "Dallas",
@@ -397,18 +387,6 @@
       "pnl": 0.23,
       "closed_by": "resolved",
       "lead_h": 4.0
-    },
-    {
-      "ts": "2026-10-30T15:22:43.053072+00:00",
-      "city": "Tokyo",
-      "date": "2026-10-30",
-      "side": "YES",
-      "bucket": "19.0-19.0C",
-      "entry": 0.89,
-      "correct": true,
-      "pnl": 0.12,
-      "closed_by": "metar_override",
-      "lead_h": 4.0
     }
   ],
   "city_stats": {
@@ -588,9 +566,9 @@
       "total_pnl": -8.33
     },
     "shenzhen": {
-      "n": 25,
-      "win_rate": 0.56,
-      "total_pnl": -11.36
+      "n": 26,
+      "win_rate": 0.538,
+      "total_pnl": -13.42
     }
   },
   "circuit_triggered_at": "2026-06-14T02:03:57.427426+00:00",
@@ -636,8 +614,8 @@
   },
   "lead_brier": {
     "lt6": {
-      "brier": 0.3727,
-      "n": 50
+      "brier": 0.3759,
+      "n": 51
     },
     "6to24": {
       "brier": 0.2594,
