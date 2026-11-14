@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T06:00:30.937933+00:00",
+  "generated_at": "2026-11-14T07:00:32.119399+00:00",
   "balance": {
     "current": 36.38,
     "cash": 34.32,
@@ -12,18 +12,18 @@
   },
   "trades": {
     "total": 812,
-    "wins": 553,
+    "wins": 554,
     "losses": 254,
     "total_pnl": -29.96
   },
   "brier": {
-    "score": 0.2673,
-    "n": 778,
-    "bss": -0.071,
+    "score": 0.2671,
+    "n": 779,
+    "bss": -0.07,
     "win_rate": 0.706,
-    "ci_lo": 0.2412,
-    "ci_hi": 0.2934,
-    "base": 0.478,
+    "ci_lo": 0.241,
+    "ci_hi": 0.2932,
+    "base": 0.479,
     "status": "red"
   },
   "open_positions": [
@@ -50,6 +50,18 @@
     }
   ],
   "recent_resolved": [
+    {
+      "ts": "2026-11-14T06:05:45.534633+00:00",
+      "city": "Austin",
+      "date": "2026-11-13",
+      "side": "YES",
+      "bucket": "78.0-79.0F",
+      "entry": 0.88,
+      "correct": true,
+      "pnl": 0.0,
+      "closed_by": "awaiting_settlement",
+      "lead_h": -9.0
+    },
     {
       "ts": "2026-11-12T16:31:09.830501+00:00",
       "city": "Shenzhen",
@@ -397,18 +409,6 @@
       "pnl": 0.23,
       "closed_by": "resolved",
       "lead_h": 4.0
-    },
-    {
-      "ts": "2026-10-30T16:55:16.897061+00:00",
-      "city": "Chongqing",
-      "date": "2026-10-30",
-      "side": "YES",
-      "bucket": "20.0-20.0C",
-      "entry": 0.86,
-      "correct": true,
-      "pnl": 0.23,
-      "closed_by": "resolved",
-      "lead_h": 4.0
     }
   ],
   "city_stats": {
@@ -468,8 +468,8 @@
       "total_pnl": 0.94
     },
     "austin": {
-      "n": 26,
-      "win_rate": 0.808,
+      "n": 27,
+      "win_rate": 0.815,
       "total_pnl": 0.26
     },
     "jeddah": {
