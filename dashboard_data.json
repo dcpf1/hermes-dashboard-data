@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-14T07:00:32.119399+00:00",
+  "generated_at": "2026-11-14T08:00:30.130708+00:00",
   "balance": {
-    "current": 36.38,
+    "current": 34.32,
     "cash": 34.32,
-    "deployed": 2.06,
-    "unrealized": 0.0,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.62,
-    "pnl_pct": -27.2
+    "pnl_usd": -15.68,
+    "pnl_pct": -31.4
   },
   "trades": {
     "total": 812,
     "wins": 554,
     "losses": 254,
-    "total_pnl": -29.96
+    "total_pnl": -29.68
   },
   "brier": {
     "score": 0.2671,
@@ -26,29 +26,7 @@
     "base": 0.479,
     "status": "red"
   },
-  "open_positions": [
-    {
-      "city": "Austin",
-      "date": "2026-11-13",
-      "unit": "F",
-      "side": "YES",
-      "bucket_low": 78.0,
-      "bucket_high": 79.0,
-      "entry_price": 0.88,
-      "shares": 2.34,
-      "cost": 2.06,
-      "current_p": 0.88,
-      "model_p": 0.6789,
-      "ev_pct": -20.1,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-11-13T21:05:37.732400+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    }
-  ],
+  "open_positions": [],
   "recent_resolved": [
     {
       "ts": "2026-11-14T06:05:45.534633+00:00",
@@ -58,8 +36,8 @@
       "bucket": "78.0-79.0F",
       "entry": 0.88,
       "correct": true,
-      "pnl": 0.0,
-      "closed_by": "awaiting_settlement",
+      "pnl": 0.28,
+      "closed_by": "resolved",
       "lead_h": -9.0
     },
     {
@@ -470,7 +448,7 @@
     "austin": {
       "n": 27,
       "win_rate": 0.815,
-      "total_pnl": 0.26
+      "total_pnl": 0.54
     },
     "jeddah": {
       "n": 1,
