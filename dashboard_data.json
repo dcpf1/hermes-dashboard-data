@@ -1,55 +1,45 @@
 {
-  "generated_at": "2026-11-15T17:00:32.821166+00:00",
+  "generated_at": "2026-11-15T18:00:29.735287+00:00",
   "balance": {
-    "current": 36.38,
+    "current": 34.32,
     "cash": 34.32,
-    "deployed": 2.06,
-    "unrealized": 0.0,
+    "deployed": 0,
+    "unrealized": 0,
     "starting": 50.0,
     "peak": 115.02,
-    "pnl_usd": -13.62,
-    "pnl_pct": -27.2
+    "pnl_usd": -15.68,
+    "pnl_pct": -31.4
   },
   "trades": {
     "total": 814,
-    "wins": 555,
+    "wins": 556,
     "losses": 254,
-    "total_pnl": -29.5
+    "total_pnl": -29.16
   },
   "brier": {
-    "score": 0.2676,
-    "n": 780,
-    "bss": -0.072,
-    "win_rate": 0.706,
-    "ci_lo": 0.2415,
-    "ci_hi": 0.2937,
-    "base": 0.479,
+    "score": 0.2673,
+    "n": 781,
+    "bss": -0.071,
+    "win_rate": 0.707,
+    "ci_lo": 0.2413,
+    "ci_hi": 0.2933,
+    "base": 0.48,
     "status": "red"
   },
-  "open_positions": [
+  "open_positions": [],
+  "recent_resolved": [
     {
+      "ts": "2026-11-15T16:56:00.373629+00:00",
       "city": "Chengdu",
       "date": "2026-11-15",
-      "unit": "C",
       "side": "YES",
-      "bucket_low": 18.0,
-      "bucket_high": 18.0,
-      "entry_price": 0.86,
-      "shares": 2.4,
-      "cost": 2.06,
-      "current_p": 0.86,
-      "model_p": 0.835,
-      "ev_pct": -2.5,
-      "n_agree": 1,
-      "n_avail": 1,
-      "opened_at": "2026-11-15T07:32:44.376221+00:00",
-      "hours_left": 0.0,
-      "tp_stage": 0,
-      "pnl": 0.0,
-      "unrealized_pnl": 0.0
-    }
-  ],
-  "recent_resolved": [
+      "bucket": "18.0-18.0C",
+      "entry": 0.86,
+      "correct": true,
+      "pnl": 0.34,
+      "closed_by": "resolved",
+      "lead_h": 4.0
+    },
     {
       "ts": "2026-11-14T23:33:27.524429+00:00",
       "city": "Madrid",
@@ -397,18 +387,6 @@
       "pnl": 0.2,
       "closed_by": "resolved",
       "lead_h": -8.0
-    },
-    {
-      "ts": "2026-10-31T04:55:29.118676+00:00",
-      "city": "Toronto",
-      "date": "2026-10-30",
-      "side": "YES",
-      "bucket": "14.0-14.0C",
-      "entry": 0.88,
-      "correct": true,
-      "pnl": 0.06,
-      "closed_by": "forecast_changed",
-      "lead_h": -7.0
     }
   ],
   "city_stats": {
@@ -572,15 +550,15 @@
       "win_rate": 0.676,
       "total_pnl": -4.14
     },
+    "chengdu": {
+      "n": 38,
+      "win_rate": 0.737,
+      "total_pnl": -4.99
+    },
     "singapore": {
       "n": 13,
       "win_rate": 0.462,
       "total_pnl": -5.04
-    },
-    "chengdu": {
-      "n": 37,
-      "win_rate": 0.73,
-      "total_pnl": -5.33
     },
     "wellington": {
       "n": 8,
@@ -636,8 +614,8 @@
   },
   "lead_brier": {
     "lt6": {
-      "brier": 0.3759,
-      "n": 51
+      "brier": 0.3692,
+      "n": 52
     },
     "6to24": {
       "brier": 0.2594,
