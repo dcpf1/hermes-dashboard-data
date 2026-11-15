@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T23:00:35.276232+00:00",
+  "generated_at": "2026-11-15T00:00:31.712838+00:00",
   "balance": {
     "current": 34.32,
     "cash": 34.32,
@@ -12,24 +12,24 @@
   },
   "trades": {
     "total": 813,
-    "wins": 554,
+    "wins": 555,
     "losses": 254,
-    "total_pnl": -29.68
+    "total_pnl": -29.5
   },
   "brier": {
-    "score": 0.2671,
-    "n": 779,
-    "bss": -0.07,
+    "score": 0.2676,
+    "n": 780,
+    "bss": -0.072,
     "win_rate": 0.706,
-    "ci_lo": 0.241,
-    "ci_hi": 0.2932,
+    "ci_lo": 0.2415,
+    "ci_hi": 0.2937,
     "base": 0.479,
     "status": "red"
   },
   "open_positions": [],
   "recent_resolved": [
     {
-      "ts": "2026-11-14T14:33:16.140732+00:00",
+      "ts": "2026-11-14T23:33:27.524429+00:00",
       "city": "Madrid",
       "date": "2026-11-14",
       "side": "YES",
@@ -37,8 +37,8 @@
       "entry": 0.88,
       "correct": true,
       "pnl": 0.18,
-      "closed_by": "resolved",
-      "lead_h": 0.0
+      "closed_by": "forecast_changed",
+      "lead_h": -2.0
     },
     {
       "ts": "2026-11-14T06:05:45.534633+00:00",
@@ -411,9 +411,9 @@
       "total_pnl": 5.87
     },
     "madrid": {
-      "n": 30,
-      "win_rate": 0.8,
-      "total_pnl": 5.64
+      "n": 31,
+      "win_rate": 0.806,
+      "total_pnl": 5.82
     },
     "warsaw": {
       "n": 16,
