@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T17:00:29.712884+00:00",
+  "updated_at": "2026-11-23T18:00:32.020423+00:00",
   "manual": [
     {
       "id": "golive-flip",
@@ -128,19 +128,19 @@
     },
     {
       "id": "nr-shadow-check",
-      "title": "NR v2 shadow at 1509 rows -- RECHECK NOW: nr_eval.py + nr_backtest.py",
+      "title": "NR v2 shadow at 1510 rows -- RECHECK NOW: nr_eval.py + nr_backtest.py",
       "description": "Near-Resolution v2 (observation-locked: local>=17h or peak-passed, ask<=0.95). RECHECK go-live when this hits 25 v2 shadow trades. Run python3 nr_eval.py (GATE: graded n>=25 AND excess = WR-avg_ask >= +0.03) AND python3 /home/dcp/smartmoney/nr_backtest.py. Keep the >=17h/peak-passed lock STRICT (dropping it to 16:00 flips the edge -EV per the 2026-07-11 backtest). Note: live shadow data (2026-07-12, n=38) showed sub-0.70 asks under the FULL gate are +EV (3W/1L) -- do NOT raise nr_entry_min_ask; the backtest -EV band was a loose-proxy artifact. Flip = nr_apply_mode: live + nr_live_cap budget + RESTART.",
       "type": "threshold",
       "priority": "warn",
       "project": "Weatherbot",
-      "current": 1509,
+      "current": 1510,
       "target": 25,
       "unit": "NR v2 shadow rows",
       "met": true
     },
     {
       "id": "pp-sigma-check",
-      "title": "PP-sigma re-review: 171547 rows, n=781 >= 500 -- REVIEW (Jun28 verdict was -0.89pp)",
+      "title": "PP-sigma re-review: 171600 rows, n=781 >= 500 -- REVIEW (Jun28 verdict was -0.89pp)",
       "description": "Post-Peak Sigma Shrinkage (Feature B, data/postpeak_sigma_shadow.jsonl). Join shadow->resolved on city+date, recompute Brier pre-shrink (mu_blend_was/sigma_blend_was) vs post-shrink (mu_anchored/sigma_shrunk). Jun 28 verdict at matched n=19: -0.89pp (WORSE) -- mu-anchoring to metar_max + the 0.50 sigma floor caused blowups. Kept shadow, re-gated to n=500. If post-shrink improves Brier >2pp at the larger sample: set postpeak_apply_mode: live (hot-reload). If revisited, first try dropping the mu-anchor step and softening the sigma floor. DECISION 2026-07-14 (DCP): if post-shrink does NOT improve Brier at n=500, DELETE post-peak sigma -- no indefinite shadow.",
       "type": "threshold",
       "priority": "warn",
